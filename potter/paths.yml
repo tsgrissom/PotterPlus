@@ -1,0 +1,198 @@
+#
+# Add a Harry Potter themed wand progression
+# that mirrors the 7 years of Hogwarts classes.
+#
+
+default:
+  match_spell_mana: false
+  hidden: true
+  max_mana: 50
+  max_mana_regeneration: 5
+  max_health_regeneration: 1.0
+  max_hunger_regeneration: 1.0
+  max_damage_reduction: 1.0
+  max_damage_reduction_explosions: 1.0
+  max_damage_reduction_falling: 1.0
+  max_damage_reduction_fire: 1.0
+  max_damage_reduction_physical: 1.0
+  max_damage_reduction_projectiles: 1.0
+  max_cost_reduction: 1.0
+  max_cooldown_reduction: 1.0
+  max_haste: 1.0
+  max_power: 1.0
+  spell_count: 1
+  upgrade_commands:
+    - broadcast §6@pd §3has graduated to §b$path§3!
+  effects:
+      enchant:
+      -  class: EffectSingle
+         sound: level_up
+         effectlib:
+           class: SphereEffect
+           iterations: 10
+           period: 2
+           particle: enchantment_table
+           radius: 3
+      upgrade:
+      -  class: EffectSingle
+         sound: level_up
+      -  class: EffectRing
+         firework: star
+         radius: 4
+         size: 2
+      -  class: EffectRing
+         firework: ball_large
+         radius: 6
+         size: 3
+
+year1:
+    follows: beginner
+    inherit: default
+    upgrade: year2
+    upgrade_item: year2
+    max_mana: 60
+    max_mana_regeneration: 8
+    mana_regeneration: 1
+    mana_max: 2
+    spells:
+      - flagrate
+      - vermillious
+      - flipendo
+      - periculum
+      - arrow
+      - lumos
+      - incendio
+      - conjunctivitis
+      - fourpoint
+      - arresto
+      - avis
+      - wingardium
+    required_spells:
+      - alohomora
+
+year2:
+    follows: beginner
+    upgrade: year3
+    upgrade_item: year3
+    inherit: year1
+    max_mana: 90
+    max_mana_regeneration: 12
+    spells:
+      - immobulus
+      - fumos
+      - finiteincantatem
+      - nox
+      - bogies
+      - expelliarmus
+      - araniaexumai
+      - rictusempra
+    required_spells:
+      - glacius
+
+year3:
+    follows: student
+    upgrade: year4
+    upgrade_item: year4
+    inherit: year2
+    max_mana: 110
+    max_mana_regeneration: 15
+    spells:
+      - bombarda
+      - snowball
+      - colorvaria
+      - duro
+      - diffindo
+      - patronus
+    required_spells:
+      - deprimo
+
+year4:
+    follows: student
+    upgrade: year5
+    upgrade_item: year5
+    inherit: year3
+    max_mana: 130
+    max_mana_regeneration: 20
+    spells:
+      - protego
+      - rennervate
+      - episkey
+      - obscuro
+      - accio
+      - locomotomortus
+      - orchideous
+      - bubblehead
+      - aguamenti
+    required_spells:
+      - ascendio
+
+year5:
+    follows: apprentice
+    upgrade: year6
+    upgrade_item: year6
+    inherit: year4
+    max_mana: 150
+    max_mana_regeneration: 28
+    spells:
+      - stupefy
+      - reducio
+      - petrificustotalus
+      - levicorpus
+      - ferula
+      - lacarnum
+      - evanesco
+      - incarcerous
+    required_spells:
+      - reducto
+
+year6:
+    follows: apprentice
+    upgrade: year7
+    upgrade_item: year7
+    inherit: year5
+    max_mana: 170
+    max_mana_regeneration: 34
+    spells:
+      - firestorm
+      - engorgio
+      - confringo
+      - confundus
+    required_spells:
+      - apparate
+
+year7:
+    follows: master
+    upgrade: graduate
+    upgrade_item: graduate
+    inherit: year6
+    max_mana: 190
+    max_mana_regeneration: 36
+    upgrade_commands:
+      - broadcast §6@pd §3has graduated from Hogwarts!
+    spells:
+      - atmos
+      - meteo
+      - disillusion
+      - vulnera
+      - ventus
+    required_spells:
+      - piertotum
+
+graduate:
+    follows: master
+    inherit: year7
+    max_mana_regeneration: 40
+    max_mana: 200
+    spells:
+      - expelliarmus|5
+      - finiteincantatem|4
+      - reducio|3
+      - episkey|3
+      - ferula|3
+      - arrow|4
+      - bogies|3
+      - lacarnum|3
+
+broom:
+    hidden: true
+    inherit: default

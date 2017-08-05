@@ -1,0 +1,4 @@
+wizard:
+  inherit: base
+  locked: false
+  path: year1
