@@ -70,6 +70,7 @@
 fergalicious:
   hidden: true
   category: specialty
+  icon: wooden_hoe
   effects:
     projectile:
       - class: EffectSingle
@@ -579,26 +580,39 @@ tarantallegra:
 apparate:
   worth: 30
   effects:
-    cast:
-         - class: EffectSingle
-           sound: magic.teleport
-           location: origin
-           use_wand_location: false
-           particle_override: apparate.particle
-           effectlib:
-               class: AtomEffect
-               particleNucleus: redstone
-               particleOrbital: redstone
-               colorNucleus: FFFFFF
-               colorOrbital: FFFFFF
-               iterations: 8
-               offset: 0,-1,0
-         - class: EffectSingle
-           particle_override: particle
-           effectlib:
-               class: LineEffect
-               particle: redstone
-               color: FFFFFF
+    teleport:
+      - class: EffectSingle
+        sound: magic.teleport
+        location: target
+        source_location: eyes
+        effectlib:
+          class: AtomEffect
+          particleNucleus: redstone
+          particleOrbital: spell_mob
+          colorNucleus: FFFFFF
+          colorOrbital: FFFFFF
+          iterations: 8
+          offset: 0,-1,0
+    precast:
+      - class: EffectSingle
+        sound: magic.teleport
+        location: origin
+        source_location: eyes
+        effectlib:
+          class: AtomEffect
+          updateLocations: false
+          particleNucleus: redstone
+          particleOrbital: spell_mob
+          colorNucleus: FFFFFF
+          colorOrbital: FFFFFF
+          iterations: 8
+          offset: 0,-1,0
+      - class: EffectSingle
+        effectlib:
+          class: LineEffect
+          particle: redstone
+          color: FFFFFF
+          updateLocations: false
 
 araniaexumai:
   worth: 10
