@@ -362,6 +362,10 @@ spells:
     description: "The Killing Curse"
   reparifarge:
     description: "The Major-Counterspell Charm"
+    cast: "&6(&eMagic&6) &7You reverse the &e$spell &7cast."
+    cast_self: "&6(&eMagic&6) &7You reverse your &e$spell &7cast."
+    cost_free: "&6(&eMagic&6) &7You cancel your &e$spell &7cast."
+    fail: "&6(&eMagic&6) &cNothing to reverse."
   noxmaxima:
     description: "The Darkening Charm"
   engorgio:
