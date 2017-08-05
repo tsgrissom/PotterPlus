@@ -1,0 +1,66 @@
+id: fba51f45-4afd-44c1-b5ff-1b2807270f05
+name: KatieIsNasty
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells: {}
+wands:
+  wandticket:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Wand Ticket
+        lore:
+        - §o§a§7Exchange this for
+        - §7 something wondrous
+        - §3§oBound to KatieIsNasty
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAG2QTY7TQBCFy4xtrCRiydoLJFaW8mMTZxWGKBrQjBJpiIRYWWV3ddIap7vpbhM4ClyAe7BjPReZI0w7AzverqSq79V7A4ABhCeULIGQGaVhtPq8ullX77e7d5e3CSSOjrpFRzDot5xo7sglEKmTJAOja3SCPtgNWvc9hpfEOTWu0mj8YkuV4tySW97PzvIW9oQaws12s/boM6MSDF7xGosJz4ssR86yPG8mWV1wnk3qaTmeT+djPi4CiGrVSRZ4jGiUhEijJvMfV4NMdHb550evnwkMGdnGCO2Ev3r9+9d8/a05oNxT6g7CplyZ1Koj+UHu05OSvofO+jMj9gdXNa3PDPFue3V1sw7ghZAe50zXOFG3FFzA869kbI8GiBIY/f2mUa0yEEolKYDwjkj7xwct8X/EcHX5ceezSDwSDD/5ctPdud0Yoi+dIPcWnpTAs74jLJHhbDHPSqx9R2z6JvNlLTJWzBbIZ2VZ5hjD6KBcjcbbd9ItH54IAcSt8mgWBDDs+nxaY/88wCOyNJWiAQIAAA==
+    wand:
+      drop: CYCLE_HOTBAR
+      template: wandticket
+      owner: KatieIsNasty
+      effect_particle_offset: 0.3
+      swap: NONE
+      owner_id: fba51f45-4afd-44c1-b5ff-1b2807270f05
+      bound: true
+      icon: paper
+      effect_particle_radius: 0.2
+      description: §7Exchange this for something wondrous
+      right_click: TOGGLE
+      indestructible: true
+      version: 5
+      effect_color: none
+      keep: true
+      left_click: CAST
+      name: Wand Ticket
+      quiet: 2.0
+      id: a8ada397-8abd-4d26-afd9-d539af38884a
+      hotbar_count: 1.0
+      locked: true
+      undroppable: true
+open_wand: false
+gave_welcome_wand: true
+data: {}
+properties: {}
+classes: {}

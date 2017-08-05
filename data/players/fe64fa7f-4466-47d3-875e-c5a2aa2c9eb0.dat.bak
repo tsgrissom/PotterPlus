@@ -1,0 +1,132 @@
+id: fe64fa7f-4466-47d3-875e-c5a2aa2c9eb0
+name: Huoqiu
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells: {}
+wands:
+  wandticket:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Wand Ticket
+        lore:
+        - §o§a§7Exchange this for
+        - §o§a something wondrous
+        - §o§3Bound to Huoqiu
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAG2Qz0/CMBTHnzrJAsSj5x1MPM3MMRg7KiF4IJIoifG0dO0rNI62dm3wP/L/8C/zYcSTx6bfX+/TB+hDtGdaxBAJZywMZ6+z5bx+WK3v755iiD3ubMs8Qv+g8oq/oY/h3Ow1Oug9BPOuQgyXKCVyX1vmSNJibaTs0MNZdjOi5G7PLESPq8c5Jf5YayXgSuKkkKyUaVFMJmlRilE6LceY8jHLGct5hU1GXY0JWkDkXUDKUtxoOLfMovun1zGhQnfozWMYCOy4U9Yrslx/fZbzD75leoOJ36oukcYlndkhPfQm2RtNAEJHNqc2W1/zlo6F3nq1WCxp94XSFEcjuFdNi8c9w98F3LTGQaSNPox8Q7RHRb9FeUyLZnfPa/rXbIcweCGiyfqI9D0oInZCu09/4OSVyHHapMhZRXBYllaiLNIxn454VVRZVo2pfmt8wxzVB03m2xh6raHAP16DcDjLWva3GeAbdIqmcvYBAAA=
+    wand:
+      template: wandticket
+      bound: true
+      indestructible: true
+      undroppable: true
+      effect_color: none
+      effect_particle_radius: 0.2
+      effect_particle_offset: 0.3
+      hotbar_count: 1.0
+      icon: paper
+      keep: true
+      locked: true
+      quiet: 2.0
+      left_click: CAST
+      right_click: TOGGLE
+      drop: CYCLE_HOTBAR
+      swap: NONE
+      id: f29d2e8b-eca9-47a0-9d74-5c83c9490095
+      owner: Huoqiu
+      owner_id: fe64fa7f-4466-47d3-875e-c5a2aa2c9eb0
+      name: Wand Ticket
+      description: §7Exchange this for something wondrous
+open_wand: false
+gave_welcome_wand: true
+soul:
+  id: ''
+  materials: &id001 []
+  spells: *id001
+  hotbar_count: 1
+  hotbar: 0
+  active_spell: ''
+  active_material: ''
+  name: Wand
+  description: ''
+  owner: ''
+  owner_id: ''
+  cost_reduction: 0.0
+  consume_reduction: 0.0
+  cooldown_reduction: 0.0
+  power: 0.0
+  enchant_count: 0
+  max_enchant_count: 0
+  protection: 0.0
+  protection_physical: 0.0
+  protection_projectiles: 0.0
+  protection_falling: 0.0
+  protection_fire: 0.0
+  protection_explosions: 0.0
+  mana: 0.0
+  mana_regeneration: 0
+  mana_max: 0
+  mana_max_boost: 0.0
+  mana_regeneration_boost: 0.0
+  mana_timestamp: 0
+  mana_per_damage: 0.0
+  uses: 0
+  has_uses: false
+  locked: false
+  effect_color: none
+  effect_bubbles: false
+  effect_particle_data: '0.0'
+  effect_particle_count: 0
+  effect_particle_min_velocity: 0.0
+  effect_particle_interval: 0
+  effect_particle_radius: 0.2
+  effect_particle_offset: 0.3
+  effect_sound_interval: 0
+  cast_interval: 0
+  cast_min_velocity: 0.0
+  quiet: 0
+  passive: false
+  keep: false
+  randomize: false
+  rename: false
+  rename_description: false
+  bound: false
+  soul: false
+  force: false
+  indestructible: false
+  protected: false
+  powered: false
+  glow: false
+  undroppable: false
+  heroes: false
+  fill: false
+  upgrade: false
+  organize: false
+  alphabetize: false
+  left_click: CAST
+  right_click: TOGGLE
+  drop: CYCLE_HOTBAR
+  swap: NONE
+  icon: wood_hoe
+  icon_inactive_delay: 0
+data: {}

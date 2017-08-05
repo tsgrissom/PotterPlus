@@ -1,0 +1,141 @@
+id: 19ee3594-aed2-4d26-881f-9c36df073a57
+name: xxlatte
+last_cast: 1489452046392
+cooldown_expiration: 0
+last_death_location: 1787.3281674386533,75.0,945.8543395917841,Durmstrang1,147.34459,-14.100015
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells:
+  wandticket:
+    cast_count: 1
+    last_cast: 1489452046394
+    last_earn: 0
+    cooldown_expiration: 0
+wands:
+  wandbox:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Wand
+        lore:
+        - §o§a§bCherry and Dragon
+        - §o§a Heartstring
+        - §o§3Bound to (Professor) xxlatte
+        - '§d§o§7Energy§8: §f50'
+        - '§r§d§7Energy Regeneration§8: §f6/s'
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        internal: H4sIAAAAAAAAAHWSTW/TQBCGR9QBK42QKiTOPiAEEo78HftYQtQeqgZBJMTJGnvHyaq2112vlfQX8T/4ZYwN4QR7G83H+7wzOweYg3XEVthgCa06WKy/r+82+e129/H6iw22oaar0RC8GKsKdbJhpo4taXj17rNWFfW90u+d04mLDNnwmqqKSpN3qI0sa8pVVfVk4MJbhqzRH7ED6357v7HhZYMt5kY21BtsOrjyl1GaRXEQBH4Sphs/YP1JK5cC3vgZURhnkYskAjcSQeKmqV+5WRkmovJWIcYrhivU0AqwjB6YxpKlamGxV7XIO1k+4OlfiBqFHPoRkRUvBfWllp2R3On8/FGsD6T1k8PunU8a96p1bok7e6Nlu+d6LfcHk5c1j4fnu+3NzR17szo0B5g9caXP0egUrNhbejZcTbY17Ymd4SRzkYyJxR+uUtVKw9s09f6+D/8NePgDUXc2PK+pOsNY6+uvO8632BBY36Yj25N4g6czzexxkON5/DF4Nu45LgsPw8pzqYwzN4oK4WLhZe6KkkyIKs5QxAx7UKZAzbBDe26/5M3zH+qwqOk3EMAvuIkpPmICAAA=
+    wand:
+      path: year1
+      template: wandbox
+      mana: 50.0
+      mana_regeneration: 6.0
+      mana_max: 50.0
+      bound: true
+      undroppable: true
+      effect_color: 880000000000,880000000000,880000000000
+      effect_particle_radius: 0.2
+      effect_particle_offset: 0.3
+      hotbar_count: 1.0
+      icon: gold_pickaxe
+      keep: true
+      quiet: 1.0
+      left_click: CAST
+      right_click: TOGGLE
+      drop: CYCLE_HOTBAR
+      swap: NONE
+      id: 5cb0a3f0-ec59-44bd-ab09-7e69ddf59ad5
+      owner: (Professor) xxlatte
+      owner_id: 19ee3594-aed2-4d26-881f-9c36df073a57
+      name: Wand
+      description: §bCherry and Dragon Heartstring
+      mana_timestamp: 1.489452221638E12
+open_wand: false
+gave_welcome_wand: true
+soul:
+  id: 2ddd884a-38ad-46b3-8839-d504f8b8fb50
+  materials: &id001 []
+  spells: *id001
+  hotbar_count: 1
+  hotbar: 0
+  active_spell: ''
+  active_material: ''
+  name: Wand
+  description: ''
+  owner: ''
+  owner_id: ''
+  cost_reduction: 0.0
+  consume_reduction: 0.0
+  cooldown_reduction: 0.0
+  power: 0.0
+  enchant_count: 0
+  max_enchant_count: 0
+  protection: 0.0
+  protection_physical: 0.0
+  protection_projectiles: 0.0
+  protection_falling: 0.0
+  protection_fire: 0.0
+  protection_explosions: 0.0
+  mana: 0.0
+  mana_regeneration: 0
+  mana_max: 0
+  mana_max_boost: 0.0
+  mana_regeneration_boost: 0.0
+  mana_timestamp: 0
+  mana_per_damage: 0.0
+  uses: 0
+  has_uses: false
+  locked: false
+  effect_color: none
+  effect_bubbles: false
+  effect_particle_data: '0.0'
+  effect_particle_count: 0
+  effect_particle_min_velocity: 0.0
+  effect_particle_interval: 0
+  effect_particle_radius: 0.2
+  effect_particle_offset: 0.3
+  effect_sound_interval: 0
+  cast_interval: 0
+  cast_min_velocity: 0.0
+  quiet: 0
+  passive: false
+  keep: false
+  randomize: false
+  rename: false
+  rename_description: false
+  bound: false
+  soul: false
+  force: false
+  indestructible: false
+  protected: false
+  powered: false
+  glow: false
+  undroppable: false
+  heroes: false
+  fill: false
+  upgrade: false
+  organize: false
+  alphabetize: false
+  left_click: CAST
+  right_click: TOGGLE
+  drop: CYCLE_HOTBAR
+  swap: NONE
+  icon: wood_hoe
+  icon_inactive_delay: 0
+data: {}

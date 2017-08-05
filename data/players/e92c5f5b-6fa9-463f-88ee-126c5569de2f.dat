@@ -1,0 +1,809 @@
+id: e92c5f5b-6fa9-463f-88ee-126c5569de2f
+name: MineStein_
+last_cast: 1501693364742
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells:
+  finiteincantatem|4:
+    cast_count: 3
+    last_cast: 1501603333838
+    last_earn: 0
+    cooldown_expiration: 0
+  levicorpus|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  impervius:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  araniaexumai:
+    cast_count: 0
+    last_cast: 1501474798950
+    last_earn: 0
+    cooldown_expiration: 0
+  upgrades:
+    cast_count: 6
+    last_cast: 1501460862823
+    last_earn: 0
+    cooldown_expiration: 0
+  ventus:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  duro|2:
+    cast_count: 0
+    last_cast: 1501693293235
+    last_earn: 0
+    cooldown_expiration: 0
+  deprimo|3:
+    cast_count: 0
+    last_cast: 1501693143987
+    last_earn: 0
+    cooldown_expiration: 0
+  locomotomortus:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  incarcerous:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  bogies|3:
+    cast_count: 0
+    last_cast: 1501693257184
+    last_earn: 0
+    cooldown_expiration: 0
+  flipendo|3:
+    cast_count: 49
+    last_cast: 1501603300234
+    last_earn: 0
+    cooldown_expiration: 0
+  confringo:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  ferula|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  alarteascendare:
+    cast_count: 1
+    last_cast: 1501479331012
+    last_earn: 0
+    cooldown_expiration: 0
+  flipendo|2:
+    cast_count: 14
+    last_cast: 1501476120220
+    last_earn: 0
+    cooldown_expiration: 1501476123220
+  orchideous:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  pulsus:
+    cast_count: 0
+    last_cast: 1501479502416
+    last_earn: 0
+    cooldown_expiration: 0
+  stupefy|5:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  fourpoint:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  immobulus:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  avis:
+    cast_count: 1
+    last_cast: 1501479193895
+    last_earn: 0
+    cooldown_expiration: 0
+  vermillious|3:
+    cast_count: 6
+    last_cast: 1501651467804
+    last_earn: 0
+    cooldown_expiration: 0
+  engorgio:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  fumos:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  aparecium:
+    cast_count: 1
+    last_cast: 1501479403470
+    last_earn: 0
+    cooldown_expiration: 0
+  snowball:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  arrow|4:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  patronus:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  protego|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  incendio|3:
+    cast_count: 123
+    last_cast: 1501647255523
+    last_earn: 0
+    cooldown_expiration: 0
+  protegomaxima:
+    cast_count: 8
+    last_cast: 1501550364025
+    last_earn: 0
+    cooldown_expiration: 0
+  rennervate:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  ascendio|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  aquaeructo|3:
+    cast_count: 17
+    last_cast: 1501603543309
+    last_earn: 0
+    cooldown_expiration: 0
+  piertotum:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  crucio:
+    cast_count: 3
+    last_cast: 1501693364749
+    last_earn: 0
+    cooldown_expiration: 0
+  lacarnum|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  sectumsempra:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  morsmordre:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  fiantoduri:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  tarantallegra:
+    cast_count: 3
+    last_cast: 1501479221900
+    last_earn: 0
+    cooldown_expiration: 0
+  glacius|3:
+    cast_count: 2
+    last_cast: 1501479310261
+    last_earn: 0
+    cooldown_expiration: 0
+  conjunctivitis:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  flagrate:
+    cast_count: 0
+    last_cast: 1501603074278
+    last_earn: 0
+    cooldown_expiration: 0
+  atmos:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  diffindo|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  aquaeructo:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  firestorm:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  bombarda|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  evanesco:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  expelliarmus|5:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  arrow:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  tripudio:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  disillusion:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  whip:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  spellshop:
+    cast_count: 13
+    last_cast: 1501467814379
+    last_earn: 0
+    cooldown_expiration: 0
+  imperio:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  petrificustotalus:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  vermillious:
+    cast_count: 0
+    last_cast: 1501450450828
+    last_earn: 0
+    cooldown_expiration: 0
+  confundus:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  rictusempra:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  limusexumai:
+    cast_count: 0
+    last_cast: 1501603594661
+    last_earn: 0
+    cooldown_expiration: 0
+  ollivander:
+    cast_count: 3
+    last_cast: 1501460878823
+    last_earn: 0
+    cooldown_expiration: 0
+  episkey|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  fiendfyre:
+    cast_count: 55
+    last_cast: 1501603233961
+    last_earn: 0
+    cooldown_expiration: 0
+  broom:
+    cast_count: 6
+    last_cast: 1501607338916
+    last_earn: 0
+    cooldown_expiration: 1501607336064
+  bubblehead:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  meteo:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  lapifors:
+    cast_count: 7
+    last_cast: 1501479324862
+    last_earn: 0
+    cooldown_expiration: 0
+  deluminate:
+    cast_count: 6
+    last_cast: 1501602734990
+    last_earn: 0
+    cooldown_expiration: 0
+  deletrius:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  arresto:
+    cast_count: 1
+    last_cast: 1501603210857
+    last_earn: 0
+    cooldown_expiration: 0
+  reducio|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  spongify:
+    cast_count: 0
+    last_cast: 1501479356215
+    last_earn: 0
+    cooldown_expiration: 0
+  aguamenti|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  spongifymaxima:
+    cast_count: 29
+    last_cast: 1501643249987
+    last_earn: 0
+    cooldown_expiration: 0
+  flipendo:
+    cast_count: 5
+    last_cast: 1501475963397
+    last_earn: 0
+    cooldown_expiration: 1501475964897
+  obscuro:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  revelio:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  lumos:
+    cast_count: 4
+    last_cast: 1501449606451
+    last_earn: 0
+    cooldown_expiration: 0
+  periculum:
+    cast_count: 9
+    last_cast: 1501602595387
+    last_earn: 0
+    cooldown_expiration: 0
+  experimentallumossolem:
+    cast_count: 0
+    last_cast: 1501693310484
+    last_earn: 0
+    cooldown_expiration: 0
+  colloportus:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  wingardium:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  volo:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  periculux:
+    cast_count: 5
+    last_cast: 1501479242601
+    last_earn: 0
+    cooldown_expiration: 0
+  nox:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  incendio:
+    cast_count: 1
+    last_cast: 1501450453829
+    last_earn: 0
+    cooldown_expiration: 0
+  vulnera:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  conjunctivitis|2:
+    cast_count: 3
+    last_cast: 1501603325788
+    last_earn: 0
+    cooldown_expiration: 0
+  deprimomaxima:
+    cast_count: 19
+    last_cast: 1501603477021
+    last_earn: 0
+    cooldown_expiration: 0
+  verdimillious|3:
+    cast_count: 1
+    last_cast: 1501481899168
+    last_earn: 0
+    cooldown_expiration: 0
+  avadakedavra:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  reducto|2:
+    cast_count: 0
+    last_cast: 1501693258585
+    last_earn: 0
+    cooldown_expiration: 0
+  accio:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  lumos|3:
+    cast_count: 67
+    last_cast: 1501647401844
+    last_earn: 0
+    cooldown_expiration: 0
+  colorvaria:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  reparifarge:
+    cast_count: 21
+    last_cast: 1501607361919
+    last_earn: 0
+    cooldown_expiration: 0
+  lumossolem:
+    cast_count: 180
+    last_cast: 1501603327190
+    last_earn: 0
+    cooldown_expiration: 0
+  alohomora:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  noxmaxima:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  apparate:
+    cast_count: 1
+    last_cast: 1501602907957
+    last_earn: 0
+    cooldown_expiration: 0
+wands:
+  ticket:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Wand Ticket
+        lore:
+        - §o§aTake this to a wand shop to
+        - §a get your first wand!
+        - §3§oBound to (H)(Headmaster) TylerFortescue
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAB3LPQrCMAAG0A+0WnoIcXBohwxGE5oLSA/gLjH5AsH+SBot3l5xf68CKqwXO/oSZebw7G0mNjm6B3OJYlpGJuzqrqk7Wj/YOTM1++unZ7pMKXN2L/7q392ix4FGOhXUXehgjTjrUxBtS4qj1E4pbTxlWGH7ZprjNAIogC/kfPjdhgAAAA==
+    wand:
+      template: ticket
+      owner: (H)(Headmaster) TylerFortescue
+      owner_id: e92c5f5b-6fa9-463f-88ee-126c5569de2f
+      version: 5
+  potterwand:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      damage: 24
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Crucio§f (§3Wand§f)
+        lore:
+        - §o§aRosewood and Pheonix Feather
+        - §3§oBound to (H)(Headmaster) TylerFortescue
+        - Knows 89 Spells
+        - §6Cost Reduction X
+        - §6Cooldown Reduction X
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAHVXS3cURRQupiaTyQACQfEBYo6gB9SgBBIJCyQKGJSH8lj4wLGmu3qmpLqrqa6eJDs3/gbXHrcu/AH+Btf+Fld+t3qmp3oSc07Oya2uqnvru9/97k2PsR5r74gs7rKuk2muhZOslxvnpK2WF8xOJi07e2H74oVtKeJUFPh2ceXJnpb2jrFOFlEpO2w5MkbH2Ny3Mi4jp0x28zzzP232Uioy0XcqlYUTac7YoWe/Jf9wOPW391XMzsvNtWg9WR+sbiRic/XqxpVk9do1KVcvr21E6+sbm7FcS7qsrSKTscM7xsT9kZHX16522eEYMViVk0925pEpJH1eQfgrX42kydTuyh0p3Ehazjoj4wbCUlicLY6lLegQYws9dqzIpdZ9lY1l5ozdw/dY5lalBt8PcdYVRSSzWJHJYcqxyOCYzHXOFoS1Zgd/n8Enh2jKaucGZ0sqzaUdq7IgR/g8MCliiAXMq5wdEVZkSsjdMhUKSx1ESSH47YuIogKULutyPFYVSutyEvfHHPkbKUDKrnH2kjaRSY3Dr63OI9DDKouEjaQ1fqWNgIBhYlU2NBMPPkAf7iZnJ3KJ+BMVlYUzTmh/6jruAVopXKvqHuB3TGgBAlS4CCuxeJyzo9gXq2DniYnHMou9fQN3WRUhQDDOEgqfYEWrFAtTEG5y1jM2GqlYVpcs46FxaSe5WEoUXCZ73uenACwvdeH3ncTBQTkYaDkCW7HwGXKTSifp5C2Ar0WuEmNp721cFEtNz/Vn79DFprS5UZmD/QpsMSxFimxQUJ9zdjxRmXKSIM0ciiXFcsunODWDssLqFBAFG8B18rmNwMVY0YdXiTVA3Q491q/BjFWCG2MyP0KgSZka2vk6ec4BaaRKcvEGtha5yYYq2YP5BZmZ2RkIrWGeRuanX1Oxq1LC9EvsSbTKZXU7WLVoBqhVD+E9T6ux1D6Q+7AKV+bSX/4yDubCWZP515xFWHoS1gOAq+UYNWjzmkxEnQhPpzgfIv25NU4OTR3IORyyMkOdj0ldGDvP2Sm5S8cIWDyBbi+M9mC+DSpERmuTTyn8Nc7vgKyomAqMR+RUSQt2evtdIDw2ml7yGFSIbBn5ZzGfbXA/89su4JWT2GC9CWuIr1XmV6dl5g/eDV61C/sJZzwz9NdTXIncT2XgLdKQUuNp9NBv4HxghkoWFSkWZa6K55Iw3aIyH4tYPJexGPvd32KJUECZCJv6KK5gqZAojLSujIt4PIq5wG/syf4eFhIF8hlUA5HyfdKeqAr8O8DvSE4IVTn0N3yAqBJpSy0q9ekBXYNUWEUL31MtSjBNJcIOycEzkAnV+lOZQcTHynnmXqLEh2n6gby6ihUfeqYJuPPpvUzc1WZEIkQu+rCBXs2HH0lKc7istgtcLV6UAiFWIveOL29fPpZcrbEuwKNgZN9L9DTFPaDlJVsTk4uGXvOAtXyetbwp5q1AvdtNeW415LfVJBRvEIo3CMUbhOJN2vB9YsoPkE0e0ok36MT3c2dhpo+tMON8TsNaB6W3dbCwtZsCxeczxZsSwxsyssA65Klw+wcChJoLTza2xDo+h0WXCqgJS53O/bHN0hdmNmi0zaY67ad1LiuopvDOt81Gx5xCOXtp0D73dcC5LIY9bNqjaoyCXhP0j6pZzPrEpCcE7WAm/RPa1iyc6faMbnN6HEpxmM1AUacKOuN6U5VCQQq1aE566mqY59tEOGbUmqlHUPhNgs+KcjZ3zcasxlBUzUP1THPAOBNMI41BpDGD1OUWzBrhZDEZKmbzRDBKBBVXTwK1HMwa+XzTrht03ZsnGhb02P/rnI2mGfbLqjUG/cy3srptNdvSpJOEPaLRHsImEIh8oO+1tHfYkWrW7kemzNxNNvlZYstbDjANSifvG3AAvCt6NNa1Wffp07u37kMz/j1348zWz9uyzZZo6R4qzP15+q+/f/3lj987rLOV+isncoL/Ch5r41gXactG/r+Wo7WLB8gDOzmUGb3/knBORM8f51LG0MWHAEW4apCmW/ze5dsvSpUTvivT8Bj7D/GJeyEpDQAA
+    wand:
+      template: potterwand
+      owner: (H)(Headmaster) TylerFortescue
+      cooldown_reduction: 10.0
+      mana_timestamp: 1501651458051
+      owner_id: e92c5f5b-6fa9-463f-88ee-126c5569de2f
+      icon: wood_hoe:24
+      description: Rosewood and Pheonix Feather
+      hotbar: 0
+      version: 5
+      spell_inventory:
+        deprimo: 1
+        ascendio: 3
+        evanesco: 53
+        arrow: 28
+        tripudio: 54
+        impervius: 5
+        bombarda: 52
+        araniaexumai: 6
+        ventus: 7
+        reducto: 8
+        disillusion: 55
+        whip: 56
+        locomotomortus: 3
+        incarcerous: 4
+        confringo: 7
+        imperio: 57
+        petrificustotalus: 58
+        vermillious: 0
+        alarteascendare: 16
+        verdimillious: 17
+        confundus: 62
+        rictusempra: 63
+        limusexumai: 64
+        orchideous: 18
+        duro: 1
+        fiendfyre: 66
+        pulsus: 19
+        bubblehead: 67
+        meteo: 68
+        lapifors: 69
+        deletrius: 70
+        fourpoint: 21
+        aguamenti: 71
+        finiteincantatem: 2
+        immobulus: 22
+        arresto: 72
+        avis: 23
+        engorgio: 24
+        diffindo: 48
+        fumos: 25
+        aparecium: 26
+        spongify: 74
+        snowball: 27
+        spongifymaxima: 75
+        flipendo: 6
+        obscuro: 76
+        revelio: 77
+        stupefy: 20
+        patronus: 30
+        lumos: 78
+        levicorpus: 4
+        periculum: 79
+        protegomaxima: 35
+        rennervate: 36
+        experimentallumossolem: 34
+        colloportus: 81
+        wingardium: 82
+        piertotum: 38
+        volo: 83
+        crucio: 0
+        lacarnum: 40
+        protego: 29
+        glacius: 45
+        reducio: 73
+        periculux: 84
+        nox: 85
+        incendio: 31
+        vulnera: 89
+        bogies: 2
+        episkey: 65
+        avadakedavra: 90
+        expelliarmus: 51
+        sectumsempra: 41
+        morsmordre: 42
+        fiantoduri: 43
+        accio: 91
+        tarantallegra: 44
+        ferula: 5
+        colorvaria: 92
+        reparifarge: 93
+        conjunctivitis: 46
+        lumossolem: 94
+        atmos: 47
+        flagrate: 49
+        alohomora: 95
+        noxmaxima: 96
+        apparate: 97
+        aquaeructo: 37
+        firestorm: 50
+      active_spell: crucio
+      spell_levels:
+        deprimo: 3
+        lumos: 3
+        levicorpus: 3
+        ascendio: 2
+        arrow: 4
+        bombarda: 2
+        reducto: 2
+        lacarnum: 3
+        protego: 3
+        glacius: 3
+        reducio: 3
+        incendio: 3
+        vermillious: 3
+        verdimillious: 3
+        bogies: 3
+        episkey: 3
+        expelliarmus: 5
+        duro: 2
+        ferula: 3
+        aguamenti: 2
+        conjunctivitis: 2
+        finiteincantatem: 4
+        diffindo: 3
+        aquaeructo: 3
+        flipendo: 3
+        stupefy: 5
+      cost_reduction: 10.0
+      page: 0
+      spells:
+      - vermillious
+      - deprimo
+      - finiteincantatem
+      - ascendio
+      - levicorpus
+      - impervius
+      - araniaexumai
+      - ventus
+      - reducto
+      - duro
+      - bogies
+      - locomotomortus
+      - incarcerous
+      - ferula
+      - flipendo
+      - confringo
+      - alarteascendare
+      - verdimillious
+      - orchideous
+      - pulsus
+      - stupefy
+      - fourpoint
+      - immobulus
+      - avis
+      - engorgio
+      - fumos
+      - aparecium
+      - snowball
+      - arrow
+      - protego
+      - patronus
+      - incendio
+      - protegomaxima
+      - rennervate
+      - aquaeructo
+      - piertotum
+      - crucio
+      - lacarnum
+      - sectumsempra
+      - morsmordre
+      - fiantoduri
+      - tarantallegra
+      - glacius
+      - conjunctivitis
+      - atmos
+      - diffindo
+      - flagrate
+      - firestorm
+      - expelliarmus
+      - bombarda
+      - evanesco
+      - tripudio
+      - disillusion
+      - whip
+      - imperio
+      - petrificustotalus
+      - confundus
+      - rictusempra
+      - limusexumai
+      - episkey
+      - fiendfyre
+      - bubblehead
+      - meteo
+      - lapifors
+      - deletrius
+      - aguamenti
+      - arresto
+      - reducio
+      - spongify
+      - spongifymaxima
+      - obscuro
+      - revelio
+      - lumos
+      - periculum
+      - experimentallumossolem
+      - colloportus
+      - wingardium
+      - volo
+      - periculux
+      - nox
+      - vulnera
+      - avadakedavra
+      - accio
+      - colorvaria
+      - reparifarge
+      - lumossolem
+      - alohomora
+      - noxmaxima
+      - apparate
+      hotbar_count: 2.0
+open_wand: false
+gave_welcome_wand: true
+data:
+  sp: 100
+properties: {}
+classes: {}

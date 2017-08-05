@@ -1,0 +1,141 @@
+id: 4f7ed57f-fdc4-4a08-bd71-6e3052a3ab8c
+name: TrentlyYoungThug
+last_cast: 1489354084751
+cooldown_expiration: 0
+last_death_location: 2795.3962081392788,80.0,2445.002170734367,Durmstrang1,-356.93005,-1.2051233
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: 5688
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells:
+  wandticket:
+    cast_count: 1
+    last_cast: 1489354084761
+    last_earn: 0
+    cooldown_expiration: 0
+wands:
+  wandbox:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Wand
+        lore:
+        - §o§a§bHawthorn and Dragon
+        - §o§a Heartstring
+        - §o§3Bound to (Mugwump) TrentonBlack
+        - '§d§o§7Energy§8: §f50'
+        - '§r§d§7Energy Regeneration§8: §f6/s'
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        internal: H4sIAAAAAAAAAHWSz47TMBDGR2wKUbdCcNlzhRACiVTpn6TucbdU28OylaAS4hRN7ElqNbGN46jliXgPngwnUE7g28gz/n7fNx4CDCE4oRIhBMJqA6P11/XDJtvu9ne3n0IIHdWmQkfwrOvK9TmEgT4psnDz9mNbntravBvvLSmn1V2F/BjCDRUFcZcZtE7yijJdFA05uIoncy/TnNBA8Lh73ITwvEaFmZM1NQ5rAy+mkwVbzZMkXqWMbaYzT9CrZVLA60WxJJEsi6gQfBEtMGZRLpbTKKV5nMxwjjnjHi/XrRIQONuSl5NcKxiVuhKZkfyIZ/oHoUUh26Yj9IrXghpupXHST776+SPf4skdtFVjn8D4g8VSq/GW/GzjrFSln7CyPLiMV14Anu539/cP3lxg0B1g8N13Tn3VWYUgiSdxCC9735ZK8t6wF7pKu4vRHzKuK23hDWPx3/P+v4V//EhkLpaHFRUXmGB9+3nv7xXWBMGXftFhL17j+UIz+NbKbj/TrnjSJU0J4/EswYiJmU+as1m0WhCLMEmSFOdpgil62IN2OVoP26rL+LXP3v8jg3lFv4EAfgHLx7FgZgIAAA==
+    wand:
+      path: year1
+      template: wandbox
+      mana: 50.0
+      mana_regeneration: 6.0
+      mana_max: 50.0
+      bound: true
+      undroppable: true
+      effect_color: 880000000000,880000000000,880000000000
+      effect_particle_radius: 0.2
+      effect_particle_offset: 0.3
+      hotbar_count: 1.0
+      icon: gold_pickaxe
+      keep: true
+      quiet: 1.0
+      left_click: CAST
+      right_click: TOGGLE
+      drop: CYCLE_HOTBAR
+      swap: NONE
+      id: e58c025a-8d24-4c82-94e8-a5556a365a6a
+      owner: (Mugwump) TrentonBlack
+      owner_id: 4f7ed57f-fdc4-4a08-bd71-6e3052a3ab8c
+      name: Wand
+      description: §bHawthorn and Dragon Heartstring
+      mana_timestamp: 1.48935509688E12
+open_wand: false
+gave_welcome_wand: true
+soul:
+  id: 7b14407f-8d7c-4156-aaa5-674deef4ac61
+  materials: &id001 []
+  spells: *id001
+  hotbar_count: 1
+  hotbar: 0
+  active_spell: ''
+  active_material: ''
+  name: Wand
+  description: ''
+  owner: ''
+  owner_id: ''
+  cost_reduction: 0.0
+  consume_reduction: 0.0
+  cooldown_reduction: 0.0
+  power: 0.0
+  enchant_count: 0
+  max_enchant_count: 0
+  protection: 0.0
+  protection_physical: 0.0
+  protection_projectiles: 0.0
+  protection_falling: 0.0
+  protection_fire: 0.0
+  protection_explosions: 0.0
+  mana: 0.0
+  mana_regeneration: 0
+  mana_max: 0
+  mana_max_boost: 0.0
+  mana_regeneration_boost: 0.0
+  mana_timestamp: 0
+  mana_per_damage: 0.0
+  uses: 0
+  has_uses: false
+  locked: false
+  effect_color: none
+  effect_bubbles: false
+  effect_particle_data: '0.0'
+  effect_particle_count: 0
+  effect_particle_min_velocity: 0.0
+  effect_particle_interval: 0
+  effect_particle_radius: 0.2
+  effect_particle_offset: 0.3
+  effect_sound_interval: 0
+  cast_interval: 0
+  cast_min_velocity: 0.0
+  quiet: 0
+  passive: false
+  keep: false
+  randomize: false
+  rename: false
+  rename_description: false
+  bound: false
+  soul: false
+  force: false
+  indestructible: false
+  protected: false
+  powered: false
+  glow: false
+  undroppable: false
+  heroes: false
+  fill: false
+  upgrade: false
+  organize: false
+  alphabetize: false
+  left_click: CAST
+  right_click: TOGGLE
+  drop: CYCLE_HOTBAR
+  swap: NONE
+  icon: wood_hoe
+  icon_inactive_delay: 0
+data: {}

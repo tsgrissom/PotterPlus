@@ -1,0 +1,178 @@
+id: 512cd97d-1358-4585-a589-e5c3e4708dfc
+name: Cotras20
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: 2788.297784927945,81.0,2393.500115508262,Durmstrang1,151.41113,61.949997
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells: {}
+wands:
+  wandbox:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Wand
+        lore:
+        - §o§aHolly and Dragon
+        - §o§a Heartstring
+        - §o§3Bound to (Professor) ConnorLightwood
+        - '§d§o§7Energy§8: §f50'
+        - '§r§d§7Energy Regeneration§8: §f6/s'
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        internal: H4sIAAAAAAAAAHWSTY/TMBCGR2wKUXeFtBcucOgBIZBIlTRx1j0updoeqi2CSohT5Djj1trEDo6j7v57JoFyAt9G8/E+74ynAFMITsJUIQSVsy1crX6stutis9t/uv0aQuixaWvhEV4MVaV9DGFiTwYdvH7/xVmFXWfdh9nKGmPdVh+O/mQtTXuFSqH0RSuc17LGwirVoYeLeJ6SVncSLQT3u/t1CC8bYUThdYOdF00L18k848tFvkxZyrJ8nSyIY9QsdAVvWbKQ1fKmipKU8ShjnEWC8WWETKaY3cS8UpIgS9ubCgLveiQ9La2BcEArjhb/gedEpftuwCO1ywo76XTrNXW92di6fpqR+9lnJw7WzDZIXZ132hyo1g2mC1lr+QDP97u7uy15ClrhjzB5osqEosEhBCyexyFcj3YdHpAciVHiIh8SV3+YpK2tg3ecx3/fx/8GNPwBsT0bndaozjDB6vbbnvJGNAjB9/HI4SjeiMczzeRnr4ezJEPwbNgvZ3HO0jyNYqVovzxlUSlkHJV5nmdJSVtnimCP1pfCEWxvzu2XtHH6Q60oa/wNBPALMkA0UmICAAA=
+    wand:
+      path: year1
+      template: wandbox
+      mana: 50.0
+      mana_regeneration: 6.0
+      mana_max: 50.0
+      bound: true
+      undroppable: true
+      effect_color: 880000000000,880000000000,880000000000
+      effect_particle_radius: 0.2
+      effect_particle_offset: 0.3
+      hotbar_count: 1.0
+      icon: wood_hoe
+      keep: true
+      quiet: 1.0
+      left_click: CAST
+      right_click: TOGGLE
+      drop: CYCLE_HOTBAR
+      swap: NONE
+      id: 85065363-0ff8-4835-bac0-b66641b1355f
+      owner: (Professor) ConnorLightwood
+      owner_id: 512cd97d-1358-4585-a589-e5c3e4708dfc
+      name: Wand
+      description: Holly and Dragon Heartstring
+      mana_timestamp: 1.489269353546E12
+  wandticket:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Wand Ticket
+        lore:
+        - §o§a§7Exchange this for
+        - §o§a something wondrous
+        - §o§3Bound to (Professor) ConnorLightwood
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAG2QTY/TMBCGR5BdRe2KIxcuOSABh6z6ZZocd6tqOVRbBJUQp8ixx621qcfYjsI/4n/wy5gguidutuz3nWeeCcAEskE6nUOmA3m42Xzf7LbNp/3h/u5LDnnCs+9kQpiMv5JVT5hyuKLBYYA37z8HMhgjhQ/FhpyjsLPHUxqIuPA1GoMqNV4GznXYkDERE7yc3S55XBykh+xx/7jlMX/7GqvhrZgvlK7XupwvRVWuRCVKKaq6RKGWuFrPKm0UA7TUOw1ZCj1yl1Xk4MpLj+E/c4PUto/j3EUOU41RBeuT5ci737/W25/qJN0Ri3SysTAUikhn5Is7FgM5ttJHjoVxsUZ1bACuD/uHhx1zv7KO6xhCJdt2eOG5+UegqKMAmSM3Qj4h+suPSYfm0pZt7r4e+N3JM8L0G2suDhfPP3o7GlvcznJ4Meqpa2FaWS/LeS0W5aplUbWpTFnzUX2slBDrmgFOlFoZGKB3HJ+P8euOuPTZ2bQfV/NePnMD/AEAHJs3DwIAAA==
+    wand:
+      template: wandticket
+      bound: true
+      indestructible: true
+      undroppable: true
+      effect_color: none
+      effect_particle_radius: 0.2
+      effect_particle_offset: 0.3
+      hotbar_count: 1.0
+      icon: paper
+      keep: true
+      locked: true
+      quiet: 2.0
+      left_click: CAST
+      right_click: TOGGLE
+      drop: CYCLE_HOTBAR
+      swap: NONE
+      id: 995fba93-1952-4b7d-9f8f-94b7c68c5579
+      owner: (Professor) ConnorLightwood
+      owner_id: 512cd97d-1358-4585-a589-e5c3e4708dfc
+      name: Wand Ticket
+      description: §7Exchange this for something wondrous
+open_wand: false
+gave_welcome_wand: true
+soul:
+  id: a05c33fe-18a6-4649-8509-ff4b9f919887
+  materials: &id001 []
+  spells: *id001
+  hotbar_count: 1
+  hotbar: 0
+  active_spell: ''
+  active_material: ''
+  name: Wand
+  description: ''
+  owner: ''
+  owner_id: ''
+  cost_reduction: 0.0
+  consume_reduction: 0.0
+  cooldown_reduction: 0.0
+  power: 0.0
+  enchant_count: 0
+  max_enchant_count: 0
+  protection: 0.0
+  protection_physical: 0.0
+  protection_projectiles: 0.0
+  protection_falling: 0.0
+  protection_fire: 0.0
+  protection_explosions: 0.0
+  mana: 0.0
+  mana_regeneration: 0
+  mana_max: 0
+  mana_max_boost: 0.0
+  mana_regeneration_boost: 0.0
+  mana_timestamp: 0
+  mana_per_damage: 0.0
+  uses: 0
+  has_uses: false
+  locked: false
+  effect_color: none
+  effect_bubbles: false
+  effect_particle_data: '0.0'
+  effect_particle_count: 0
+  effect_particle_min_velocity: 0.0
+  effect_particle_interval: 0
+  effect_particle_radius: 0.2
+  effect_particle_offset: 0.3
+  effect_sound_interval: 0
+  cast_interval: 0
+  cast_min_velocity: 0.0
+  quiet: 0
+  passive: false
+  keep: false
+  randomize: false
+  rename: false
+  rename_description: false
+  bound: false
+  soul: false
+  force: false
+  indestructible: false
+  protected: false
+  powered: false
+  glow: false
+  undroppable: false
+  heroes: false
+  fill: false
+  upgrade: false
+  organize: false
+  alphabetize: false
+  left_click: CAST
+  right_click: TOGGLE
+  drop: CYCLE_HOTBAR
+  swap: NONE
+  icon: wood_hoe
+  icon_inactive_delay: 0
+data: {}

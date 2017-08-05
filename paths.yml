@@ -1,0 +1,102 @@
+year1:
+  spells:
+    - araniaexumai
+    - snowball
+    - nox
+    - flipendo
+    - flagrate
+    - wingardiumleviosa
+    - locomotomortus
+    - bubblehead
+    - lumossolem
+  required_spells:
+    - alohomora
+
+year2:
+  spells:
+    - arresto
+    - arrow
+    - fourpoint
+    - finiteincantatem
+    - obscuro
+    - rictusempra
+    - immobulus
+    - alarteascendare
+    - incendio
+  required_spells:
+    - duro
+
+year3:
+  spells:
+    - bombarda
+    - bogies
+    - diffindo
+    - expelliarmus
+    - fumos
+    - petrificustotalus
+    - orchideous
+    - vermillious
+    - lumosmaxima
+    - aberto
+  required_spells:
+    - glacius
+
+year4:
+  spells:
+    - accio
+    - tarantallegra
+    - ascendio
+    - deprimo
+    - periculum
+    - protego
+    - impervius
+    - tripudio
+    - fiantoduri
+    - impedimenta
+  required_spells:
+    - episkey
+
+year5:
+  spells:
+    - apparate
+    - colorvaria
+    - conjunctivitis
+    - evanesco
+    - stupefy
+    - rennervate
+    - avis
+    - spongify
+    - firestorm
+  required_spells:
+    - aparecium
+
+year6:
+  spells:
+    - aguamenti
+    - disillusion
+    - incarcerous
+    - levicorpus
+    - reducio
+    - engorgio
+    - reducto
+    - sectumsempra
+    - revelio
+    - baubillious
+  required_spells:
+    - patronus
+
+year7:
+  spells:
+    - atmos
+    - meteo
+    - lacarnum
+    - piertotum
+    - ventus
+    - vulnera
+    - confringo
+    - spongifymaxima
+    - volo
+  required_spells:
+    - protegomaxima
+  upgrade_commands:
+      - broadcast §6@pd §3has graduated from their school!

@@ -1,0 +1,49 @@
+id: 7b8e09bc-2f58-4c43-9b23-6eb6df628d94
+name: Redovelo
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells: {}
+wands:
+  ticket:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Wand Ticket
+        lore:
+        - §o§aTake this to a wand shop to
+        - §a get your first wand!
+        - §3§oBound to Redovelo
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAB3K0QrCIBgG0A9qJXuOboVwZvoavUBM/28gLR1Lttcvuj2cHuhx3MciCqrxvcxjI04tpxebQlf3whXqQakb5/pLf3lmweUePa8hJm2mm9c22UGHaAbtGJ1MzngJ9oDzxvWTawHQAV+T3wMZcAAAAA==
+    wand:
+      template: ticket
+      owner: Redovelo
+      owner_id: 7b8e09bc-2f58-4c43-9b23-6eb6df628d94
+      version: 5
+open_wand: false
+gave_welcome_wand: true
+data:
+  sp: 0
+properties: {}
+classes: {}

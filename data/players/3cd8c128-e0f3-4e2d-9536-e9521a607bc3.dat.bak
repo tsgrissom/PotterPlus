@@ -1,0 +1,141 @@
+id: 3cd8c128-e0f3-4e2d-9536-e9521a607bc3
+name: AKZOMBIE74
+last_cast: 1489785533114
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells:
+  wandticket:
+    cast_count: 1
+    last_cast: 1489785255118
+    last_earn: 0
+    cooldown_expiration: 0
+wands:
+  wandbox:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Wand
+        lore:
+        - §o§a§bYew and Unicorn Tail
+        - §o§a Hair
+        - §o§3Bound to (Unspeakable) AKZOMBIE74
+        - '§d§o§7Energy§8: §f50'
+        - '§r§d§7Energy Regeneration§8: §f6/s'
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        internal: H4sIAAAAAAAAAHWSz27TQBDGR9QBK42QekEcevABIZBwZDuJsz6mUdQiSiNBKlQu1nh3nKxie816raRP1PfgyVgbwgn2Npo/3++b2SHAEJwDVsIFR2hVw2j5sLxdpTfrzdXiiwuuobIu0BC86KoydXRhoA4VaXj97r5qasI9ZgW99xafvq8/X31czacuvKI8J27SGrWRvKBU5XlDBs6C8cQKNQeswblb361ceFlihamRJTUGyxouwvGUJSxgSTKfR2wVRhaiF0ylgDcTLhgPI+ZTkE/8KUXCT2aT2KdkFoUYB/OMW4VBptpKgGN0S1ZPclWBu1WFSPFI/8DTKGTbdHhW7VxQw7WsjbRdlz+fsgc6eNa7d1/ZQbryNigL7waltrVabncm5YXke3i+WV9f31pPTo1mB4NHQh3aqHMIziwYBy5c9HY1bck6wl7iLO4Soz9MXBVKw1vGgr/vw38DO3xPVJ+MDgvKTzDOcvF1Y/MVlgTOt/7Cbi9e4vFEM/jRyu4sYRc86/abYCDENM59joz7U4aRn4kg8mdxHmWRXW+e2fuOdspkqC1sW53az+3G7Qequ9/wGwjgF8wSWbRfAgAA
+    wand:
+      path: year1
+      template: wandbox
+      mana: 50.0
+      mana_regeneration: 6.0
+      mana_max: 50.0
+      bound: true
+      undroppable: true
+      effect_color: 880000000000,880000000000,880000000000
+      effect_particle_radius: 0.2
+      effect_particle_offset: 0.3
+      hotbar_count: 1.0
+      icon: gold_axe
+      keep: true
+      quiet: 1.0
+      left_click: CAST
+      right_click: TOGGLE
+      drop: CYCLE_HOTBAR
+      swap: NONE
+      id: 9a0dd46f-ca8c-48a2-bd02-56f2b207bfb4
+      owner: (Unspeakable) AKZOMBIE74
+      owner_id: 3cd8c128-e0f3-4e2d-9536-e9521a607bc3
+      name: Wand
+      description: §bYew and Unicorn Tail Hair
+      mana_timestamp: 1.489808997728E12
+open_wand: false
+gave_welcome_wand: true
+soul:
+  id: a148dd5b-6f40-46ce-8233-3f4f742dea41
+  materials: &id001 []
+  spells: *id001
+  hotbar_count: 1
+  hotbar: 0
+  active_spell: ''
+  active_material: ''
+  name: Wand
+  description: ''
+  owner: ''
+  owner_id: ''
+  cost_reduction: 0.0
+  consume_reduction: 0.0
+  cooldown_reduction: 0.0
+  power: 0.0
+  enchant_count: 0
+  max_enchant_count: 0
+  protection: 0.0
+  protection_physical: 0.0
+  protection_projectiles: 0.0
+  protection_falling: 0.0
+  protection_fire: 0.0
+  protection_explosions: 0.0
+  mana: 0.0
+  mana_regeneration: 0
+  mana_max: 0
+  mana_max_boost: 0.0
+  mana_regeneration_boost: 0.0
+  mana_timestamp: 0
+  mana_per_damage: 0.0
+  uses: 0
+  has_uses: false
+  locked: false
+  effect_color: none
+  effect_bubbles: false
+  effect_particle_data: '0.0'
+  effect_particle_count: 0
+  effect_particle_min_velocity: 0.0
+  effect_particle_interval: 0
+  effect_particle_radius: 0.2
+  effect_particle_offset: 0.3
+  effect_sound_interval: 0
+  cast_interval: 0
+  cast_min_velocity: 0.0
+  quiet: 0
+  passive: false
+  keep: false
+  randomize: false
+  rename: false
+  rename_description: false
+  bound: false
+  soul: false
+  force: false
+  indestructible: false
+  protected: false
+  powered: false
+  glow: false
+  undroppable: false
+  heroes: false
+  fill: false
+  upgrade: false
+  organize: false
+  alphabetize: false
+  left_click: CAST
+  right_click: TOGGLE
+  drop: CYCLE_HOTBAR
+  swap: NONE
+  icon: wood_hoe
+  icon_inactive_delay: 0
+data: {}

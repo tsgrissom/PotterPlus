@@ -1,0 +1,511 @@
+id: e8252831-5081-49e9-ac79-513665795263
+name: occulting
+last_cast: 1501450540487
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: 4327
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells:
+  finiteincantatem|4:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  bombarda|2:
+    cast_count: 2
+    last_cast: 1500130180896
+    last_earn: 0
+    cooldown_expiration: 1500130187896
+  evanesco:
+    cast_count: 1
+    last_cast: 1500130646342
+    last_earn: 0
+    cooldown_expiration: 1500130676342
+  expelliarmus|5:
+    cast_count: 1
+    last_cast: 1500130641041
+    last_earn: 0
+    cooldown_expiration: 1500130653041
+  levicorpus|3:
+    cast_count: 13
+    last_cast: 1501028800193
+    last_earn: 0
+    cooldown_expiration: 1501028803193
+  tripudio:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  impervius:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  araniaexumai:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  ventus:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  upgrades:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  disillusion:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  duro|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  deprimo|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  cage:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  locomotomortus:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  incarcerous:
+    cast_count: 1
+    last_cast: 1500130437274
+    last_earn: 0
+    cooldown_expiration: 1500130445274
+  spellshop:
+    cast_count: 0
+    last_cast: 1501437125657
+    last_earn: 0
+    cooldown_expiration: 0
+  flipendo|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  bogies|3:
+    cast_count: 1
+    last_cast: 1500130440022
+    last_earn: 0
+    cooldown_expiration: 1500130447022
+  confringo:
+    cast_count: 4
+    last_cast: 1501028794495
+    last_earn: 0
+    cooldown_expiration: 1501028807495
+  ferula|3:
+    cast_count: 2
+    last_cast: 1501028876050
+    last_earn: 0
+    cooldown_expiration: 1501028891050
+  imperio:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  petrificustotalus:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  confundus:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  rictusempra:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  orchideous:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  ollivander:
+    cast_count: 0
+    last_cast: 1501437118306
+    last_earn: 0
+    cooldown_expiration: 0
+  episkey|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  fiendfyre:
+    cast_count: 1
+    last_cast: 1501028883852
+    last_earn: 0
+    cooldown_expiration: 1501028903852
+  wandticket:
+    cast_count: 1
+    last_cast: 1495489600713
+    last_earn: 0
+    cooldown_expiration: 0
+  pulsus:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  bubblehead:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  meteo:
+    cast_count: 1
+    last_cast: 1500130281706
+    last_earn: 0
+    cooldown_expiration: 1500132081706
+  deletrius:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  fourpoint:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  stupefy|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  immobulus:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  arresto:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  avis:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  vermillious|3:
+    cast_count: 0
+    last_cast: 1500130466025
+    last_earn: 0
+    cooldown_expiration: 1500130469025
+  engorgio:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  fumos:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  reducio|3:
+    cast_count: 4
+    last_cast: 1500130570387
+    last_earn: 0
+    cooldown_expiration: 1500130585387
+  aparecium:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  spongify:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  snowball:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  aguamenti|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  spongifymaxima:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  arrow|4:
+    cast_count: 0
+    last_cast: 1500130282705
+    last_earn: 0
+    cooldown_expiration: 1500130284705
+  obscuro:
+    cast_count: 2
+    last_cast: 1500130426562
+    last_earn: 0
+    cooldown_expiration: 1500130436562
+  revelio:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  patronus:
+    cast_count: 4
+    last_cast: 1500130457774
+    last_earn: 0
+    cooldown_expiration: 1500130470774
+  protego|3:
+    cast_count: 5
+    last_cast: 1500130729396
+    last_earn: 0
+    cooldown_expiration: 1500130731896
+  periculum:
+    cast_count: 6
+    last_cast: 1500655702675
+    last_earn: 0
+    cooldown_expiration: 1500655704675
+  incendio|3:
+    cast_count: 1
+    last_cast: 1500130482377
+    last_earn: 0
+    cooldown_expiration: 1500130486377
+  protegomaxima:
+    cast_count: 8
+    last_cast: 1501028872349
+    last_earn: 0
+    cooldown_expiration: 0
+  ascendio|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  rennervate:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  colloportus:
+    cast_count: 1
+    last_cast: 1500130459774
+    last_earn: 0
+    cooldown_expiration: 0
+  wingardium:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  piertotum:
+    cast_count: 5
+    last_cast: 1500130443223
+    last_earn: 0
+    cooldown_expiration: 1500130453223
+  volo:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  crucio:
+    cast_count: 1
+    last_cast: 1500130471676
+    last_earn: 0
+    cooldown_expiration: 1500130501676
+  periculux:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  bookshop:
+    cast_count: 1
+    last_cast: 1500327387147
+    last_earn: 0
+    cooldown_expiration: 0
+  nox:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  vulnera:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  broomshop:
+    cast_count: 3
+    last_cast: 1500328079164
+    last_earn: 0
+    cooldown_expiration: 0
+  conjunctivitis|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  lacarnum|3:
+    cast_count: 3
+    last_cast: 1500130683893
+    last_earn: 0
+    cooldown_expiration: 1500130685893
+  avadakedavra:
+    cast_count: 4
+    last_cast: 1501028768490
+    last_earn: 0
+    cooldown_expiration: 1501028798490
+  sectumsempra:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  morsmordre:
+    cast_count: 3
+    last_cast: 1500837074742
+    last_earn: 0
+    cooldown_expiration: 1500837134742
+  reducto|2:
+    cast_count: 0
+    last_cast: 1500130271158
+    last_earn: 0
+    cooldown_expiration: 1500130276158
+  fiantoduri:
+    cast_count: 1
+    last_cast: 1501028778491
+    last_earn: 0
+    cooldown_expiration: 1501028808491
+  accio:
+    cast_count: 0
+    last_cast: 1501450540487
+    last_earn: 0
+    cooldown_expiration: 1501450542487
+  lumos|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  glacius|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  colorvaria:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  reparifarge:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  lumossolem:
+    cast_count: 11
+    last_cast: 1500130418516
+    last_earn: 0
+    cooldown_expiration: 0
+  flagrate:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  diffindo|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  atmos:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  alohomora:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  noxmaxima:
+    cast_count: 1
+    last_cast: 1500130355207
+    last_earn: 0
+    cooldown_expiration: 1500132155207
+  apparate:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  firestorm:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+wands:
+  wandbox:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Wand
+        lore:
+        - §o§a§bRowan and Unicorn Tail
+        - §b Hair
+        - §3§oBound to occulting
+        - 'Energy: §e50'
+        - 'Energy Regeneration: §e6/s'
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        internal: H4sIAAAAAAAAAHWRy27TQBSGT8B2TRIhsUGsUBaIFZZqu76teomiFqlqRAlCrKzj8XEyiu0x4zEJjwIvwI6HYMcWXqSPwNgiXcG/GGmkc/759M0YYAzGDuvcBiOXooHp/MP8epFeLVcX57c22IqqpkRFcNRPZWJvweMKa0wVr6hVWDUX3a/t9zd3oIfFriaZ8hxeUOwFXuy7TnAcu85JQomDLEqcwPXDMIiSwAt9/SRnogZ7Lco8xT1Z8JSKgphKG5SKs5JSiTnv2tOfX/p8tWGSU8skbxTXi89/fMtuheaaabTZu1q3yXq2Ql7OrpBL3d+g2oD5mVC6FjwZuCWtSVNi33D2DIbYMP37MBOlkPAyjo/v8+q/FxvGJRV6qeRsC8b8/O3KAvNjx0md3h2aH/Q6MMhOIs8vHDcLI62DxU4cssAJ3Sj2ov5IfAumG6EylBqiq+8bRjDp6v5rGsxKGtlgDpbhkWCsKxWv1//QJoqi1RC//SFaRLvDBoyb5c1iBGam+3PdNJF8vTngW6vl5eX14iEcfSLZ9noBTAuMXtrZ6wOLsSVq9KpRY0VgvNfiLbAHsRXuD3MAfwCTP3c0WQIAAA==
+    wand:
+      drop: CYCLE_HOTBAR
+      template: wandbox
+      mana_timestamp: 1.499593368863E12
+      owner_id: e8252831-5081-49e9-ac79-513665795263
+      icon: gold_axe
+      effect_particle_radius: 0.2
+      description: §bRowan and Unicorn Tail Hair
+      path: year1
+      mana_regeneration: 6.0
+      effect_color: 880000000000,880000000000,880000000000
+      left_click: CAST
+      quiet: 1.0
+      id: a5b4723f-1b67-49c8-86c5-617827178293
+      hotbar_count: 1.0
+      undroppable: true
+      owner: occulting
+      effect_particle_offset: 0.3
+      swap: NONE
+      bound: true
+      right_click: TOGGLE
+      version: 5
+      mana: 50.0
+      keep: true
+      name: Wand
+      mana_max: 50.0
+open_wand: false
+gave_welcome_wand: true
+data:
+  sp: 0
+properties: {}
+classes: {}

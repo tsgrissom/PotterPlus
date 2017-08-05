@@ -1,0 +1,676 @@
+id: 740f6c78-48f8-41b1-83be-fd1ec2f787f0
+name: NateCries
+last_cast: 1489520251115
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+- world: Trial
+  time_to_live: 0
+  name: Vulnera Sanentur
+- world: Trial
+  time_to_live: 0
+  name: Vulnera Sanentur
+- world: Trial
+  time_to_live: 0
+  name: Ferula
+- world: Trial
+  time_to_live: 0
+  name: Ferula
+- world: Trial
+  time_to_live: 0
+  name: Ferula
+- world: Trial
+  time_to_live: 0
+  name: Ferula
+- world: Trial
+  time_to_live: 0
+  name: Ferula
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: UnitedKingdom
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+- world: Durmstrang1
+  time_to_live: 0
+  name: Ascendio
+spells:
+  finiteincantatem|4:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  protego|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  bombarda|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  expelliarmus|5:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  incendio|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  levicorpus|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  ascendio|2:
+    cast_count: 100
+    last_cast: 1489520251115
+    last_earn: 1489520202593
+    cooldown_expiration: 0
+  rennervate:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  silencio:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  volo:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  silenciomaxima:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  amplify:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  duro|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  crucio:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  deprimo|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  flipendo|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  imperio:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  ferula|3:
+    cast_count: 5
+    last_cast: 1489448325108
+    last_earn: 0
+    cooldown_expiration: 0
+  vulnera:
+    cast_count: 2
+    last_cast: 1489445483455
+    last_earn: 0
+    cooldown_expiration: 1489445503455
+  conjunctivitis|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  avadakedavra:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  reducto|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  episkey|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  lumos|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  glacius|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  meteo:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  silenciototalus:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  stupefy|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  vermillious|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  atmos:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  noxmaxima:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  apparate:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  reducio|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  expulsion:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  aguamenti|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+wands:
+  wandticket:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Wand Ticket
+        lore:
+        - §o§a§7Exchange this for
+        - §o§a something wondrous
+        - §o§3Bound to (Wizengamot) NateLaufwef
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAG2QQWvjMBCFh61bTFL2uPToQ6Hdg4PtJCvn2IaQHkIC3UDYk5HlUSLqSKos49I/1P/RX9Zx2fTUi2DQvPe+eQOAAQQd11UIQeWMhcv5v/lqUTxstvd3jyGEHo+25h5h0G95JZ7Qh3BuOo0Orm536hX1nh+N/x2taW3FW9mhDOEXSonCF5Y7EtVYGCkb9HCWjMaU1XTcQrDerBeU8WlWqAqu2SSRfwTL40ku6UnLNM7HJcaySlFkkuVMJpRemlZXEHjXInkpYTScW27RfZPreKXaps/NQhhW2AinrFckuXl/Y4sXceB6j5E/qCaSxkWNOSINeh91RlMlbUMyp/YHX4iazoeL7Wa5XBH3T6XJjiCEV2WNJ57L/wTC1MZBoI3uIZ8Q7WljUKM8uQXzu79b+tf8iDDcUcfR9lTyc6v6xrIR3fyjr2fMSp7lYhInLGHxRKZZPGOzaczz6XSWIJ8mM0EAB+NL7gig1SRPe/lFbcj0q7Nh259mLf/iBvgAVO2abwwCAAA=
+    wand:
+      template: wandticket
+      bound: true
+      indestructible: true
+      undroppable: true
+      effect_color: none
+      effect_particle_radius: 0.2
+      effect_particle_offset: 0.3
+      hotbar_count: 1.0
+      icon: paper
+      keep: true
+      locked: true
+      quiet: 2.0
+      left_click: CAST
+      right_click: TOGGLE
+      drop: CYCLE_HOTBAR
+      swap: NONE
+      id: 37ba28c4-0707-4f12-9795-a85590ea509c
+      owner: (Wizengamot) NateLaufwef
+      owner_id: 740f6c78-48f8-41b1-83be-fd1ec2f787f0
+      name: Wand Ticket
+      description: §7Exchange this for something wondrous
+  elder:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Ascendio§f (§3Elder Wand§f)
+        lore:
+        - §o§aElder Wood and Thestral
+        - §o§a Hair
+        - §o§3Bound to (Wizengamot) NateLaufwef
+        - Knows 36 Spells
+        - §bCost Reduction X
+        - §bFall Protection X
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        internal: H4sIAAAAAAAAAG1US4/UOBD2Qg+KmhEHDiuk5dAHDiC5UR7dnXALjEZwGM1IuyOhPUUVu9ztHcfOOnb3gPp/8neoZB7iwCWyK+Xv5UrmjM3Z7ABWJmwmvevZ6dm/ZxfnzZer608f/05YErDrDQRkJ2gk+oSduINFz169/aq/o91C58K7xSV1XEBUB1QJ+xOVQhGaHnzQwmDjlBowsKfp+4JohgP0bHZ5dXlO8BNYoyV7U65StRFltVxVih5Zmy2rosWlkhmKXJVVqVJib120ks2Cj0hYWjjLEu2dbXYOf0PtQeo4jNR5wp5LHITXfdB06vX56Gfx1Tm5IP+L6x0OwYNZfAFNNp97vd2FRhgtbtiz66vPny9I7ymIoPfYDD0aw+YwCLRSuyOBv+y9C8RN2I0CY7Tdsqf5e9I86yHsWLIlLZFyStgL4YbQeJRxar9vO73XLpxxnv2lUFayqtIih5Sn/NctQd4g9g8pzA2qB6Wzs4//XNN7Cx2y+b3F6XpP/o96vIRs5HoyJi42WFWAsGxLTJerNW6W0Mp2WbRpCu1GQoUlydq50IInWdE+HH82+R/++AHbSEQ26GNef+BAo6LVt3rFoacbIK91RlXv3eFItcew6pRD6NxQFxmHPUi4QQl7D3Ve8NZ1xCaBukpOt/tftGPkOuiBSvmaCx+FdnW+4hJ7rzt3LOo84zL6ETnPOfZ6uMFvY3nD8XZUqsF3cTiu62w9VqIZKPa6WFGqPhqg1g1X2uqA2gqwgZR3x1WdUdXonlSPJGu+NSBommidcd316ElHxenInS8irLjBPQ2l76e2nJtIPsdVyTsMSLo/cOtuO7jVHdRFzqep2Y6Hs5JPIzEhFcXdJoymsow2lj6U/RRpzgdt0I4pZOnj+gHysRBcABMpZOoJsUc1RpJVfI++05SJu3NS8D0NXJ2nfB8NcUCdrWj86Suj30EPrcG7OWPsJ8AD93wtBAAA
+    wand:
+      active_spell: ascendio|2
+      path: graduate
+      template: elder
+      bound: true
+      undroppable: true
+      cost_reduction: 2.0
+      effect_color: fed8d88032a0,0,fed8d88032a0
+      effect_particle_radius: 0.2
+      effect_particle_offset: 0.3
+      hotbar_count: 1.0
+      icon: iron_hoe
+      keep: true
+      quiet: 1.0
+      protection_falling: 2.0
+      spells: aguamenti|2@9,amplify@4,apparate@19,arrow|4,ascendio|2@0,atmos@31,avadakedavra@23,bombarda|2@7,conjunctivitis|2@25,crucio@24,deprimo|3@21,duro|2@22,episkey|3@26,expelliarmus|5@15,expulsion@34,ferula|3@6,finiteincantatem|4@16,flipendo|3@5,glacius|3@1,imperio@8,incendio|3@28,levicorpus|3@2,lumos|3@27,meteo@29,noxmaxima@32,protego|3@17,reducio|3@33,reducto|2@11,rennervate@12,silencio@10,silenciomaxima@3,silenciototalus@30,stupefy|3@18,vermillious|3@13,volo@20,vulnera@14
+      left_click: CAST
+      right_click: TOGGLE
+      drop: CYCLE_HOTBAR
+      swap: NONE
+      id: c6e88aea-b7e0-45e6-abdb-3b00ab6da8e7
+      owner: (Wizengamot) NateLaufwef
+      owner_id: 740f6c78-48f8-41b1-83be-fd1ec2f787f0
+      name: Elder Wand
+      description: Elder Wood and Thestral Hair
+open_wand: false
+gave_welcome_wand: true
+soul:
+  id: 160051f9-8d76-40a9-afdb-26c6acf48759
+  materials: &id001 []
+  spells: *id001
+  hotbar_count: 1
+  hotbar: 0
+  active_spell: ''
+  active_material: ''
+  name: Wand
+  description: ''
+  owner: ''
+  owner_id: ''
+  cost_reduction: 0.0
+  consume_reduction: 0.0
+  cooldown_reduction: 0.0
+  power: 0.0
+  enchant_count: 0
+  max_enchant_count: 0
+  protection: 0.0
+  protection_physical: 0.0
+  protection_projectiles: 0.0
+  protection_falling: 0.0
+  protection_fire: 0.0
+  protection_explosions: 0.0
+  mana: 0.0
+  mana_regeneration: 0
+  mana_max: 0
+  mana_max_boost: 0.0
+  mana_regeneration_boost: 0.0
+  mana_timestamp: 0
+  mana_per_damage: 0.0
+  uses: 0
+  has_uses: false
+  locked: false
+  effect_color: none
+  effect_bubbles: false
+  effect_particle_data: '0.0'
+  effect_particle_count: 0
+  effect_particle_min_velocity: 0.0
+  effect_particle_interval: 0
+  effect_particle_radius: 0.2
+  effect_particle_offset: 0.3
+  effect_sound_interval: 0
+  cast_interval: 0
+  cast_min_velocity: 0.0
+  quiet: 0
+  passive: false
+  keep: false
+  randomize: false
+  rename: false
+  rename_description: false
+  bound: false
+  soul: false
+  force: false
+  indestructible: false
+  protected: false
+  powered: false
+  glow: false
+  undroppable: false
+  heroes: false
+  fill: false
+  upgrade: false
+  organize: false
+  alphabetize: false
+  left_click: CAST
+  right_click: TOGGLE
+  drop: CYCLE_HOTBAR
+  swap: NONE
+  icon: wood_hoe
+  icon_inactive_delay: 0
+data:
+  sp: 7

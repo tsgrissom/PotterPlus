@@ -1,0 +1,136 @@
+id: 0b477b03-88ee-4cc8-8603-3e9a5cadafe8
+name: LunarNewt
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: 245.45389981773818,4.0,937.8441503096395,Trial,8.290687,23.501396
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells: {}
+wands:
+  wandbox:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Wand
+        lore:
+        - §o§aWalnut and Dragon
+        - §o§a Heartstring
+        - §o§3Bound to AustinLovegood
+        - '§d§o§7Energy§8: §f50'
+        - '§r§d§7Energy Regeneration§8: §f6/s'
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        internal: H4sIAAAAAAAAAHWSPW/bMBCGD43cCo4RIEu3Ah6CTpUhRR+mR9c1ksGIgdZA0EmgyJNMRCJViqrdf5+TWndquR3u433eO04BpuCduJY+eNKaFmab75vdNn/cHz6vv/rgO2zamjuEd0NVYc4+TMxJo4Wbdd85pXfmJ1bG0ID3WJYoXN5y65SoMTdl2aGDq3AR0/juxFvwnvZPWx9uGq557lSDneNNC7fRIlmFaZaGLEnSbBvdk/QokysJd2GRLJdFGAeMIQaJECxgGYUxrngquOQlMuIqTK8leM72SHpKGA2zytQyb5V44Wf8B6LlUvXdgEiK1xI7YVXrFHV+eOa17t2cXM+/WF4ZPX9EauucVbqiYquqo8tFTbPh7WH/8LAjY17L3REmv6gyomiwCV4aLkIfbkfPFiskW3zUuMqGxOwPlDC1sfCRsfDv+/TfgIa/ILYXt9MaywuMt1l/O1Be8wbBex6P64/iDT9faCY/ejXcJhqCN8OSafkRprEMVpLJIOHpKmDLjAUiEzGjF95HBcEejSu4JdheX9qvae30d1pe1PgbCOAVBQbouFoCAAA=
+    wand:
+      path: year1
+      template: wandbox
+      mana: 50.0
+      mana_regeneration: 6.0
+      mana_max: 50.0
+      bound: true
+      undroppable: true
+      effect_color: 880000000000,880000000000,880000000000
+      effect_particle_radius: 0.2
+      effect_particle_offset: 0.3
+      hotbar_count: 1.0
+      icon: gold_pickaxe
+      keep: true
+      quiet: 1.0
+      left_click: CAST
+      right_click: TOGGLE
+      drop: CYCLE_HOTBAR
+      swap: NONE
+      id: 6501e53d-9d8d-4a59-8768-c6c38888021b
+      owner: AustinLovegood
+      owner_id: 0b477b03-88ee-4cc8-8603-3e9a5cadafe8
+      name: Wand
+      description: Walnut and Dragon Heartstring
+      mana_timestamp: 1.490565084456E12
+open_wand: false
+gave_welcome_wand: true
+soul:
+  id: d5d5ddd9-0057-4fcc-8b40-d21e557f2bd9
+  materials: &id001 []
+  spells: *id001
+  hotbar_count: 1
+  hotbar: 0
+  active_spell: ''
+  active_material: ''
+  name: Wand
+  description: ''
+  owner: ''
+  owner_id: ''
+  cost_reduction: 0.0
+  consume_reduction: 0.0
+  cooldown_reduction: 0.0
+  power: 0.0
+  enchant_count: 0
+  max_enchant_count: 0
+  protection: 0.0
+  protection_physical: 0.0
+  protection_projectiles: 0.0
+  protection_falling: 0.0
+  protection_fire: 0.0
+  protection_explosions: 0.0
+  mana: 0.0
+  mana_regeneration: 0
+  mana_max: 0
+  mana_max_boost: 0.0
+  mana_regeneration_boost: 0.0
+  mana_timestamp: 0
+  mana_per_damage: 0.0
+  uses: 0
+  has_uses: false
+  locked: false
+  effect_color: none
+  effect_bubbles: false
+  effect_particle_data: '0.0'
+  effect_particle_count: 0
+  effect_particle_min_velocity: 0.0
+  effect_particle_interval: 0
+  effect_particle_radius: 0.2
+  effect_particle_offset: 0.3
+  effect_sound_interval: 0
+  cast_interval: 0
+  cast_min_velocity: 0.0
+  quiet: 0
+  passive: false
+  keep: false
+  randomize: false
+  rename: false
+  rename_description: false
+  bound: false
+  soul: false
+  force: false
+  indestructible: false
+  protected: false
+  powered: false
+  glow: false
+  undroppable: false
+  heroes: false
+  fill: false
+  upgrade: false
+  organize: false
+  alphabetize: false
+  left_click: CAST
+  right_click: TOGGLE
+  drop: CYCLE_HOTBAR
+  swap: NONE
+  icon: wood_hoe
+  icon_inactive_delay: 0
+data: {}

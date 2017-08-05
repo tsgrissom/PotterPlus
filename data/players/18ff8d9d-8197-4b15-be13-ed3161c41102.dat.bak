@@ -1,0 +1,24 @@
+id: 18ff8d9d-8197-4b15-be13-ed3161c41102
+name: Ashleu
+last_cast: 1489453906377
+cooldown_expiration: 0
+last_death_location: 924.8537225063895,115.0,1554.9267420129822,Ilvermorny1,316.2555,23.999989
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: 5650
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo: []
+spells:
+  wandticket:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+open_wand: false
+gave_welcome_wand: true
+data: {}

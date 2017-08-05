@@ -1,0 +1,905 @@
+#
+# Modify this file to change the available spells.
+# New spells can be added, existing spells modified or removed (disabled)
+#
+# You can also add individual files to the spells/ folder
+#
+# To see the current default builtin configs, look in this folder:
+# https://github.com/elBukkit/MagicPlugin/tree/master/src/main/resources/defaults/spells
+#
+# For customization help see: 
+# https://github.com/elBukkit/MagicPlugin/wiki/Customization
+#
+
+#
+# This is the Spell configuration file for the Magic plugin.
+#
+# Here you may alter default spell behavior, or add and remove spells.
+# 
+# The name, description, and usage of a spell should be defined in messages.yml as
+#  messages.spells.<spellkey>.name
+#  messages.spells.<spellkey>.description
+#  messages.spells.<spellkey>.usage
+#  messages.spells.<spellkey>.cast
+#  ... etc.
+#
+# General format:
+#
+# <spellkey>:
+#       icon:  <material name>
+#       category: <anything>
+#       class: <Must be a class from the spells package.>
+#       costs:
+#           xp: <xp/mana amount>
+#           <material_name>: <reagent amount>#      
+#       parameters:
+#           <specific spell parameters- TODO: list common ones>
+#
+
+#
+# Examples:
+# Note that a "#" chararacter means the line is commented out and has no effect.
+# Make sure to not comment out the lines you add, there should not be a space in front of the name, indentation is important.
+# Use http://www.yamllint.com if you have issues with your config, make sure not to use tabs!
+# 
+
+# Disable the kill spell completely
+# kill:
+#   enabled: false
+
+# Change the cooldown on the petrify spell to one minute (60 seconds, 60000 ms)
+# petrify:
+#   parameters:
+#      cooldown: 60000
+
+# Change casting cost of blind spell to 100 mana
+# blind:
+#   costs:
+#      mana: 100
+
+# Require kill spell to consume health
+# kill:
+#    costs:
+#       health: 10 
+
+# Animaguses
+
+animagus:
+  hidden: true
+  icon: diamond_hoe:80
+  quick_cast: true
+  category: specialty
+  tags: noduel
+  actions:
+    cast:
+      - class: Message
+      - class: Command
+  effects:
+    cast:
+      -  class: EffectSingle
+         effectlib:
+           class: SphereEffect
+           iterations: 5
+           period: 2
+           particle: enchantment_table
+           radius: 3
+  parameters:
+    target: self
+    message: "&6(&eMagic&6) &7You shift into your animagus form!"
+    message_type: chat
+
+batanimagus:
+  inherit: animagus
+  parameters:
+    command: disguiseplayer @tn bat
+    console: true
+
+cowanimagus:
+  inherit: animagus
+  parameters:
+    command: disguiseplayer @tn cow
+    console: true
+
+chickenanimagus:
+  inherit: animagus
+  parameters:
+    command: disguiseplayer @tn chicken
+    console: true
+
+piganimagus:
+  inherit: animagus
+  parameters:
+    command: disguiseplayer @tn pig
+    console: true
+
+undisguiseanimagus:
+  inherit: animagus
+  icon: barrier
+  parameters:
+    command: undisguiseplayer @tn
+    console: true
+    message: "&6(&eMagic&6) &7You return to your human form."
+
+# Disabled
+
+erecto:
+  enabled: false
+
+pulsus:
+  enabled: false
+
+# Enabled
+
+tweakshop:
+  enabled: true
+
+camera:
+  enabled: true
+  hidden: true
+  category: speciality
+
+music:
+  enabled: true
+  hidden: true
+  category: speciality
+
+upgrades:
+  enabled: true
+  hidden: true
+  category: npc
+
+whip:
+  enabled: true
+  effects:
+    tick:
+        - location: target
+          particle: redstone
+          color: 000000
+          particle_count: 12
+          particle_offset_x: 0.05
+          particle_offset_y: 0.05
+          particle_offset_z: 0.05
+
+# Spells
+
+baubillious:
+  inherit: chainlightning
+  worth: 20
+  effects:
+    projectile:
+        - class: EffectSingle
+          effectlib:
+             class: LineEffect
+             isZigZag: true
+             zigZags: 2
+             zigZagOffset: 0,0.05,0
+             length: 6
+             particles: 50
+             particle: firework_spark
+             color: "FFFFFF"
+             duration: 2000
+
+lapifors:
+  inherit: avis
+  parameters:
+    type: rabbit
+
+alarteascendare:
+  icon_url: http://textures.minecraft.net/texture/58c573cefdc8cc1b8c894340cb54ab343523ec2ffa0afc7536968391ae1e7
+  icon: feather
+  category: charms
+  worth: 20
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: VelocityAction
+          - class: FallProtectionAction
+  effects:
+    tick:
+      - class: EffectSingle
+        location: target
+        particle: redstone
+        color: FFFFFF
+  parameters:
+    target_type: LivingEntity
+    range: 24
+    velocity: 100
+    living_entity_speed: 1
+    y_offset: 3
+    cooldown: 20000
+  costs:
+    mana: 20
+
+stupefy:
+  icon: ink_sack:1
+  icon_url: http://textures.minecraft.net/texture/be69d3295210f65ed47322b8838eb98d6c898d12fcafaa0e4b8dd3813c6e
+  upgrade_required_path: year5
+  upgrade_required_casts: 25
+  category: dada
+  worth: 15
+  earns_sp: 7
+  earns_cooldown: 2000
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Damage
+          - class: PotionEffect
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap
+        location: origin
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          particle: redstone
+          color: 8b0000
+          lengthGrow: 0.1
+          radiusGrow: 0.003
+          updateLocations: false
+          updateDirections: false
+    tick:
+      - particle: redstone
+        location: target
+        color: FF0000
+    hit_block:
+      - class: EffectSingle
+        location: target
+        particle: block_crack
+        particle_count: 50
+        particle_offset_x: 0.2
+        particle_offset_y: 1
+        particle_offset_z: 0.2
+    hit:
+      - class: EffectSingle
+        location: target
+        color: FF0000
+        firework: ball
+        fadeColor: 0099ff
+  headshot_parameters:
+    player_damage: 3
+    entity_damage: 3
+  parameters:
+    allow_max_range: true
+    velocity: 100
+    hitbox: true
+    range: 24
+    target_type: LivingEntity
+    player_damage: 1
+    entity_damage: 1
+    target_breakables: 1
+    cooldown: 4000
+    reorient: false
+    effect_confusion: 120,2
+    duration: 2000
+  costs:
+    energy: 15
+
+stupefy|2:
+  upgrade_required_path: year6
+  upgrade_required_casts: 50
+  parameters:
+    cooldown: 2000
+    player_damage: 2
+    entity_damage: 2
+    duration: 4000
+  headshot_parameters:
+    player_damage: 4
+    entity_damage: 4
+
+stupefy|3:
+  upgrade_required_path: year7
+  upgrade_required_casts: 75
+  effects:
+    hit:
+      - class: EffectSingle
+        location: target
+        color: 8b0000
+        firework: ball_large
+        fadeColor: 0099ff
+      - class: EffectSingle
+        location: target
+        color: FF0000
+        firework: ball
+        fadeColor: 0099ff
+  parameters:
+    range: 48
+    player_damage: 3
+    entity_damage: 3
+    duration: 6000
+  headshot_parameters:
+    player_damage: 5
+    entity_damage: 5
+
+stupefy|4:
+  parameters:
+    player_damage: 4
+    entity_damage: 4
+    duration: 8000
+  headshot_parameters:
+    player_damage: 6
+    entity_damage: 6
+
+aguamenti:
+  inherit: bubble
+
+aguamenti:
+  inherit: bubble|2
+
+aquaeructo:
+  category: charms
+  worth: 15
+  inherit: stream
+
+aquaeructo|2:
+  inherit: stream|2
+
+aquaeructo|3:
+  inherit: stream|3
+
+flagrate:
+  worth: 5
+  effects:
+    cast:
+      - class: EffectSingle
+        location: target
+        target_offset: 0,3,0
+        effectlib:
+          class: TextEffect
+          text: $target
+          iterations: 3
+          particle: lava
+
+avadakedavra:
+  category: dark
+  worth: 50
+  actions:
+    cast:
+      - class: Delay
+      - class: PlayEffects
+        effect: launch
+        ignore_result: true
+      - class: CustomProjectile
+        actions:
+          - class: Kill
+  effects:
+    projectile:
+        - class: EffectSingle
+          effectlib:
+             class: SphereEffect
+             particle: redstone
+             color: "00FF00"
+             iterations: 1000
+             radius: 0.6
+  parameters:
+    velocity: 10
+    delay: 500
+
+crucio:
+  category: dark
+  worth: 30
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap_crack
+        sound_volume: 1
+        location: origin
+        effectlib:
+          class: AtomEffect
+          particleNucleus: spell_mob
+          colorNucleus: "19070B"
+          particleOrbital: redstone
+          colorOrbital: "19070B"
+          iterations: 16
+          radius: 5
+  parameters:
+    gravity: 0
+
+vermillious:
+  worth: 10
+
+verdimillious:
+  inherit: vermillious
+  icon_url: http://textures.minecraft.net/texture/809a9920214f32d0a5e3109c243fdd2a693ab6e984e81ffd01942d8ed3d19fe
+  effects:
+        cast:
+        -  class: EffectSingle
+           sound: irongolem_death
+           sound_volume: 1
+        -  class: EffectSingle
+           sound: shoot_arrow
+           sound_volume: .5
+           location: origin
+           effectlib:
+             class: ConeEffect
+             iterations: 15
+             particle: redstone
+             color: 088A08
+             lengthGrow: 0.3
+        -  class: EffectSingle
+           location: target
+           color: 088A08
+           color2: 088A08
+           firework: ball
+        no_target:
+        -  class: EffectSingle
+           sound: irongolem_death
+           sound_volume: 1
+        -  class: EffectSingle
+           sound: shoot_arrow
+           sound_volume: .5
+           location: origin
+           effectlib:
+             class: ConeEffect
+             iterations: 15
+             particle: redstone
+             color: 088A08
+             lengthGrow: 0.3
+        -  class: EffectSingle
+           location: target
+           color: 088A08
+           color2: 088A08
+           firework: ball
+        backfire:
+        -  class: EffectSingle
+           sound: shoot_arrow
+           sound_volume: 5.0
+           location: origin
+           entity_effect: hurt
+           effectlib:
+             class: ConeEffect
+             iterations: 15
+             particle: redstone
+             color: 088A08
+             lengthGrow: 0.3
+
+verdimillious|2:
+  inherit: vermillious|2
+
+verdimillious|3:
+  inherit: vermillious|3
+
+protegomaxima:
+  icon_url: http://textures.minecraft.net/texture/9330f3a837c4a358fa62f2b684c5c4c2dadf799c0fe9be8f4a4aecace62a
+
+tarantallegra:
+  icon: redstone
+  icon_url: http://textures.minecraft.net/texture/3f6c497d587c1398ae29cb648a9707fbe974a651cf88c6a2296442db4f6fa5c
+  worth: 10
+  effects:
+    hit_entity:
+      - class: EffectSingle
+        firework: burst
+        color: 380B61
+        location: target
+    projectile:
+      - class: EffectSingle
+        effectlib:
+          class: SphereEffect
+          particle: redstone
+          color: 380B61
+          iterations: 1000
+          radius: 0.2
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: PotionEffect
+          - class: FallProtection
+          - class: Repeat
+            actions:
+              - class: Velocity
+              - class: Delay
+  parameters:
+    target: LivingEntity
+    repeat: 8
+    protection_count: 8
+    delay: 800
+    range: 24
+    reorient: true
+    velocity: 50
+    hitbox: true
+    effect_jump: -20
+    duration: 8000
+    cooldown: 16000
+    direction: 0,1,0
+    speed: 0.5
+  costs:
+    mana: 20
+
+apparate:
+  worth: 30
+  effects:
+    cast:
+         - class: EffectSingle
+           sound: magic.teleport
+           location: origin
+           use_wand_location: false
+           particle_override: apparate.particle
+           effectlib:
+               class: AtomEffect
+               particleNucleus: redstone
+               particleOrbital: redstone
+               colorNucleus: FFFFFF
+               colorOrbital: FFFFFF
+               iterations: 8
+               offset: 0,-1,0
+         - class: EffectSingle
+           particle_override: particle
+           effectlib:
+               class: LineEffect
+               particle: redstone
+               color: FFFFFF
+
+araniaexumai:
+  worth: 10
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: ghast_fireball
+        sound_volume: 1
+        sound_pitch: 3
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          lengthGrow: 0.15
+          particle: spell_mob
+          color: 58FAD0
+      - class: EffectSingle
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          lengthGrow: 0.15
+          particle: spell_mob
+          color: FFFFFF
+
+limusexumai:
+  inherit: araniaexumai
+  icon_url: http://textures.minecraft.net/texture/d8532e9a6994e828df3a7236a7b3686194eba57dae3eb10789d98915cbb3336
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: ghast_fireball
+        sound_volume: 1
+        sound_pitch: 3
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          lengthGrow: 0.15
+          particle: spell_mob
+          color: 98fb98
+      - class: EffectSingle
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          lengthGrow: 0.15
+          particle: spell_mob
+          color: FFFFFF
+  parameters:
+    target_type: Slime
+
+meteo:
+  worth: 30
+  category: charms
+
+# Shops
+
+bookshop:
+  icon: book
+  category: npc
+  hidden: true
+  actions:
+    cast:
+      - class: ItemShop
+  parameters:
+    quiet: true
+    confirm: true
+    confirm_filler: stained_glass_pane:3
+    items:
+      - item: book|dada
+      - item: book|charms
+      - item: book|transfiguration
+      - item: book|herbology
+      - item: book|dark
+      - item: book|creatures
+      - item: book|elective
+
+broomshop:
+  icon: ink_sack:9
+  category: npc
+  hidden: true
+  actions:
+    cast:
+      - class: ItemShop
+  parameters:
+    quiet: true
+    confirm: true
+    confirm_filler: stained_glass_pane:3
+    items:
+      - item: wand|firebolt
+        cost: 5000
+      - item: wand|nimbus
+        cost: 3000
+      - item: wand|cleansweep1
+        cost: 1000
+      - item: wand|bluebottle
+        cost: 500
+
+# Overhaul
+
+lumos:
+  upgrade_required_path: year1
+  upgrade_required_casts: 25
+  costs:
+    mana: 30
+  worth: 5
+  effects:
+    cast_self:
+      - class: EffectSingle
+        location: origin
+        color: FFFFFF
+        firework: ball
+  parameters:
+    target: self
+    use_wand_location: true
+
+lumos|2:
+  upgrade_required_path: year2
+  upgrade_required_casts: 50
+  costs:
+    mana: 35
+  parameters:
+    duration: 30000
+
+lumos|3:
+  costs:
+    mana: 40
+  parameters:
+    duration: 40000
+
+lumosmaxima:
+  upgrade_required_path: year5
+  upgrade_required_casts: 50
+  inherit: lumos
+  costs:
+    mana: 50
+  worth: 15
+  effects:
+    cast_self:
+      - class: EffectSingle
+        location: origin
+        color: FFFFFF
+        firework: ball_large
+      - class: EffectSingle
+        location: origin
+        color: FF0080
+        firework: ball
+  parameters:
+    effect_night_vision: 2
+    duration: 60000
+    cooldown: 60000
+
+lumosmaxima|2:
+  costs:
+    mana: 60
+  parameters:
+    duration: 90000
+    cooldown: 90000
+
+arresto:
+  worth: 5
+periculum:
+  worth: 5
+avis:
+  worth: 5
+fourpoint:
+  worth: 5
+arrow:
+  worth: 10
+conjunctivitis:
+  worth: 10
+wingardium:
+  worth: 5
+incendio:
+  worth: 10
+rictusempra:
+  worth: 10
+nox:
+  worth: 5
+immobulus:
+  worth: 10
+bogies:
+  worth: 15
+expelliarmus:
+  worth: 15
+fumos:
+  worth: 5
+finiteincantatem:
+  worth: 20
+
+snowball:
+  worth: 10
+colorvaria:
+  worth: 5
+diffindo:
+  worth: 5
+duro:
+  worth: 5
+patronus:
+  worth: 15
+bombarda:
+  worth: 20
+
+obscuro:
+  worth: 10
+accio:
+  worth: 10
+locomotomortus:
+  worth: 15
+protego:
+  worth: 15
+bubblehead:
+  worth: 5
+aguamenti:
+  worth: 10
+rennervate:
+  worth: 5
+episkey:
+  worth: 15
+orchideous:
+  worth: 10
+
+levicorpus:
+  worth: 15
+evanesco:
+  worth: 10
+lacarnum:
+  worth: 20
+ferula:
+  worth: 20
+incarcerous:
+  worth: 10
+petrificustotalus:
+  worth: 20
+reducio:
+  worth: 10
+
+confringo:
+  worth: 25
+firestorm:
+  worth: 20
+engorgio:
+  worth: 15
+confundus:
+  worth: 15
+
+ventus:
+  worth: 20
+vulnera:
+  worth: 25
+disillusion:
+  worth: 20
+atmos:
+  category: charms
+  worth: 30
+
+spongify:
+  worth: 15
+spongifymaxima:
+  worth: 25
+sectumsempra:
+  worth: 20
+reducto:
+  worth: 10
+piertotum:
+  worth: 25
+impervius:
+  worth: 15
+deprimo:
+  worth: 10
+ascendio:
+  worth: 15
+
+imperio:
+  category: dark
+
+bubblehead:
+  parameters:
+    brushcolor: false
+    brush: ice
+
+aberto:
+  inherit: alohomora
+  effects:
+        cast:
+        -  class: EffectSingle
+           sound: magic.shimmer
+        -  class: EffectTrail
+           particle: spell_mob
+           color: FFFFFF
+           particle_count: 5
+
+impedimenta:
+  icon_url: http://textures.minecraft.net/texture/505b13370fac6a8caa93b6ccb225b11d49ae9eb0e8d7fb84c628c82e234328
+  category: dada
+  upgrade_required_path: year4
+  upgrade_required_casts: 25
+  worth: 20
+  actions: 
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: PotionEffect
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap_crack
+        location: origin
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          particle: redstone
+          color: 00E5EE
+          lengthGrow: 0.1
+          radiusGrow: 0.003
+          updateLocations: false
+          updateDirections: false
+    tick:
+      - particle: redstone
+        location: target
+        color: FFFFFF
+    hit_block:
+      - class: EffectSingle
+        location: target
+        particle: block_crack
+        particle_count: 50
+        particle_offset_x: 0.2
+        particle_offset_y: 1
+        particle_offset_z: 0.2
+    hit:
+      - particle: fireworks_spark
+        location: target
+        particle_count: 20
+        particle_offset_x: 0.3
+        particle_offset_y: 0.5
+        particle_offset_z: 0.3
+        sound: magic.zap
+        sound_volume: .3
+        particle_data: 0.3
+    hit_entity:
+      - class: EffectSingle
+        firework: ball
+        color: FFFFFF
+        fadeColor: 00E5EE
+        location: target
+  parameters:
+    velocity: 100
+    hitbox: true
+    range: 24
+    deactivate_target_mage: false
+    target_type: LivingEntity
+    target: other
+    target_breakables: 1
+    duration: 3000
+    effect_slow: 1.5
+    effect_jump: -20
+    cooldown: 7000
+  costs:
+    mana: 30
+
+impedimenta|2:
+  upgrade_required_casts: 50
+  upgrade_required_path: year5
+  parameters:
+    effect_slow: 2
+    duration: 7000
+    cooldown: 12000
+
+impedimenta|3:
+  parameters:
+    effect_slow: 3
+    duration: 10000
+    cooldown: 15000
+

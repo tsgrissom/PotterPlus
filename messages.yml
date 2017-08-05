@@ -1,0 +1,620 @@
+#
+# This is the localization file for the Magic plugin.
+#
+# All in-game text can be controlled from this file.
+#
+# You can also add individual files to the messages/ folder
+#
+# The default will always be loaded first, so the English messages will be used for any
+# keys you do not provide in this file.
+#
+# To see the current default builtin configs, look in this folder:
+# https://github.com/elBukkit/MagicPlugin/tree/master/src/main/resources/defaults/messages
+#
+# For customization help see: 
+# https://github.com/elBukkit/MagicPlugin/wiki/Customization
+#
+
+#
+# Examples:
+# Note that a "#" chararacter means the line is commented out and has no effect.
+# Make sure to not comment out the lines you add, there should not be a space in front of the name, indentation is important.
+# Use http://www.yamllint.com if you have issues with your config, make sure not to use tabs!
+# 
+
+# Change name of Skill Points
+# sp:
+#     name: "&e$amount &6Academic Credits"
+# costs:
+#     sp_amount: $amount AC
+#     sp: Academic Credits
+
+# Change name/description of Magic Missile spell
+# spells:
+#   missile:
+#     name: Zap
+#     description: Zap somebody!
+
+categories:
+    specialty:
+        name: Speciality
+        description: Generally not for casting, these often power magic items.
+    staff:
+        name: Staff
+        description: These are generally only for staff.
+    elective:
+        name: Electives
+        description: Various subjects you can choose to take on your own.
+    dada:
+        name: DADA
+        description: Defend yourself against dark magic.
+    charms:
+        name: Charms
+        description: Change the attributes of yourself and other objects.
+    herbology:
+        name: Herbology
+        description: Cultivate plants or use healing magic.
+    dark:
+        name: Dark Arts
+        description: Exploring the darker side of magic.
+    transfiguration:
+        name: Transfiguration
+        description: Spells to transform, switch, vanish, or conjure objects.
+    creatures:
+        name: Magical Creatures
+        description: Spells used to control magical creatures.
+
+# AC
+
+sp:
+  name: "&e$amount Completion Credits"
+costs:
+  sp_amount: "$amount CC"
+  sp: "Completion Credits"
+
+spell:
+  required_spell: "&6(&eMagic&6) &cYou must learn &4$spell &cto graduate!"
+  earns: ""
+  category: "&2&o$category"
+  brush: "&3Uses Material Brushes"
+  undoable: "&3Counterable"
+  not_undoable: "&cNot Counterable"
+  available_path: Available at the $path level
+  required_path: Required to complete the $path level
+  levels_available: "Max Level: &r&5$levels"
+  prerequisite_spell_level: "&6(&eMagic&6) &cYou must know &4Level $level $name"
+  prerequisite_spell_progress_level: " &6(Progress $level/$max_level)"
+  level_description: Level $level
+  progress_description: "&6Progress: &b$level&6/&3$max_level"
+  quick_cast: "&3Quick Cast"
+  description_lore: "&e$description"
+  level_lore: "&3$level"
+
+# Books
+
+books:
+  default:
+    author: MineStein_
+
+# Wands
+
+wands:
+  caseofcreatures:
+    name: "Case of Creatures"
+    description: "A suitcase containing various magical creatures. &c&lWatch out!"
+  bradenstaff:
+    name: "&4&lB&6&lr&e&la&2&ld&3&le&5&ln&d&l'&4&ls &6&lS&e&lt&2&la&3&lf&5&lf"
+    description: It's extra.
+  conductorswand:
+    name: Conductor's Wand
+    description: Play some music!
+  ticket:
+    name: Wand Ticket
+    description: Take this to a wand shop to get your first wand!
+  musicbox:
+    name: Music Box
+    description: Play some music!
+  kingofthehill:
+    name: King of the Hill
+    description: Whoosh!
+  darkapparate:
+    name: Dark Apparate
+    description: Evil apparation!
+  lightapparate:
+    name: Light Apparate
+    description: Good apparation!
+
+# Spells
+
+spells:
+  default:
+    fizzle: "&6(&eMagic&6) &cYour spell fizzled!"
+    backfire: "&6(&eMagic&6) &cYour spell backfired!"
+    fail: "&6(&eMagic&6) &cYour spell failed!"
+    insufficient_permission: "&6(&eMagic&6) &cYou don't have permission to cast that here."
+    cast_player_message: "&6(&eMagic&6) &e$player &7cast &e$spell &7on you!"
+    indirect_player_message: "&6(&eMagic&6) &e$player &7cast &e$spell &7on you!"
+    insufficient_resources: "&6(&eMagic&6) &cYou don't have enough &4$cost&c."
+    cooldown: "&6(&eMagic&6) &cYou must wait &4$time&c."
+    cancelled: "&6(&eMagic&6) &cYour spell was cancelled!"
+    entity_required: "&6(&eMagic&6) &cAn entity is required for this spell."
+    living_entity_required: "&6(&eMagic&6) &cA living entity is required for this spell."
+    player_required: "&6(&eMagic&6) &cA player is required for this spell."
+    location_required: "&6(&eMagic&6) &cA location is required for this spell."
+    world_required: "&6(&eMagic&6) &cA world is required for this spell."
+    invalid_world: "&6(&eMagic&6) &cThe specified world is not valid."
+    cast_finish: ""
+  upgrades:
+    fail: "&6(&eMagic&6) &cYou must be holding a wand!"
+  brushselect:
+    fail: "&6(&eMagic&6) &cYou must be holding a wand!"
+  enchantwand:
+    no_wand: "&6(&eMagic&6) &cYou must be holding a wand!"
+  addspell:
+    no_wand: "&6(&eMagic&6) &cYou must be holding a wand!"
+  fillwand:
+    no_wand: "&6(&eMagic&6) &cYou must be holding a wand!"
+  spellshop:
+    no_wand: "&6(&eMagic&6) &cYou must be holding a wand!"
+    no_items: "&6(&eMagic&6) &cThere are no spells for you to buy here."
+    no_path: "&6(&eMagic&6) &cYou may not learn that with that &4$wand&c."
+    no_upgrade: "&6(&eMagic&6) &cThere is nothing more for you to learn here."
+    no_required_path: "&6(&eMagic&6) &cYou must be at least &4$path&c!"
+    no_path_end: "&6(&eMagic&6) &cYou must be ready to advance from &4$path&c!"
+    insufficient: "&6(&eMagic&6) &cThis costs &4$cost&c."
+    deducted: "&6(&eMagic&6) &7You bought &e$item &7for &e$cost&7."
+  ollivander:
+    cast: "&6(&eMagic&6) &7You exchanged &e$requires &7for &e$item&7."
+  broom:
+    cast: "&6(&eMagic&6) &7Your broom springs to life."
+    deactivate: "&6(&eMagic&6) &7Your broom quiets down."
+    crash: "&6(&eMagic&6) &cYour broom crashes! You are stunned..."
+    fail: "&6(&eMagic&6) &cNot enough room to take off..."
+  bookshop:
+    name: Spellbook Shop
+    title: "Spell Books"
+    description: Get some spell books
+    cost_lore: "&7Cost: &eNone"
+    confirm_title: "Get $item"
+    deducted: "&6(&eMagic&6) &7You received $item"
+  tweakshop:
+    name: Wand Tweak Shop
+    title: "Wand Tweaks"
+    description: Tweak Your Wand
+    cost_lore: "&7Cost: &eNone"
+    not_applicable: "&6(&eMagic&6) &cYour wand already has &4$item&c!"
+    confirm_title: "Get $item"
+    deducted: "&6(&eMagic&6) &7You received &e$item&7!"
+  vermillious:
+    description: "The Burning Sparks Jinx"
+  lumos:
+    description: "The Wand-Lighting Charm"
+  lumosmaxima:
+    name: Lumos Maxima
+    description: "The Blinding Wand-Lighting Charm"
+  arresto:
+    description: "The Momentum-Stopping Spell"
+  periculum:
+    description: "The Spark-Producing Charm"
+  avis:
+    description: "The Bird-Conjuring Spell"
+  flagrate:
+    description: "The Fire-Writing Charm"
+  wingardium:
+    description: "The Levitating Charm"
+  fourpoint:
+    description: "The Compass Charm"
+  flipendo:
+    description: "The Pushing Jinx"
+  arrow:
+    description: "The Projectile-Conjuring Spell"
+  incendio:
+    description: "The Fire-Making Spell"
+  conjunctivitis:
+    description: "The Blinding Hex"
+  alohomora:
+    description: "The Unlocking Charm"
+  fumos:
+    description: "The Smoke-Producing Spell"
+  nox:
+    description: "The Wand-Extinguishing Charm"
+  araniaexumai:
+    description: "The Arachnid-Repelling Jinx"
+  immobulus:
+    description: "The Immobilizing Jinx"
+  rictusempra:
+    name: Rictusempra
+    description: "The Tickling Charm"
+  bogies:
+    description: "The Sickening Curse"
+  expelliarmus:
+    description: "The Disarming Spell"
+  finiteincantatem:
+    description: "The Countering Spell"
+  glacius:
+    description: "The Freezing Charm"
+  duro:
+    description: "The Hardening Charm"
+  colorvaria:
+    description: "The Color-Changing Charm"
+  diffindo:
+    description: "The Fabric-Severing Charm"
+  snowball:
+    description: "The Snow-Animating Jinx"
+  patronus:
+    description: "The Patronus Charm"
+  bombarda:
+    description: "The Exploding Spell"
+  rennervate:
+    description: "The Reviving Spell"
+  bubblehead:
+    description: "The Breathing Charm"
+  orchideous:
+    description: "The Flowering Charm"
+  accio:
+    description: "The Summoning Charm"
+  aguamenti:
+    description: "The Water-Making Spell"
+  locomotomortus:
+    description: "The Leg-Locking Curse"
+  episkey:
+    description: "The Minor Healing Spell"
+  ascendio:
+    description: "The Propulsion Spell"
+  evanesco:
+    description: "The Vanishing Spell"
+  reducio:
+    description: "The Shrinking Spell"
+  incarcerous:
+    description: "The Rope-Binding Jinx"
+  levicorpus:
+    description: "The Levitating Jinx"
+  stupefy:
+    description: "The Stunning Spell"
+  lacarnum:
+    description: "The Fireball-Conjuring Curse"
+  petrificustotalus:
+    description: "The Body-Binding Spell"
+  ferula:
+    description: "The Bandaging Spell"
+  reducto:
+    description: "The Blasting Curse"
+  aquaeructo:
+    description: "The Water-Jet Spell"
+  apparate:
+    description: "The Apparition Spell"
+  ventus:
+    description: "The Wind-Blasting Jinx"
+  disillusion:
+    description: "The Disillusionment Charm"
+  meteo:
+    description: "The Weather-Clearing Spell"
+  vulnera:
+    description: "The Major-Healing Spell"
+  atmos:
+    description: "The Weather-Changing Spell"
+  piertotum:
+    description: "The Armor-Animating Spell"
+  lapifors:
+    name: Lapifors
+    description: "The Bunny-Conjuring Spell"
+  lumossolem:
+    name: Lumos Solem
+    description: "The Light-Projection Charm"
+  verdimillious:
+    name: Verdimillious
+    description: "The Green Sparks Jinx"
+  sectumsempra:
+    name: Sectumsempra
+    description: "The Severing Curse"
+  alarteascendare:
+    name: Alarte Ascendare
+    description: "The Flinging Jinx"
+  tarantallegra:
+    name: Tarantallegra
+    description: "The Dancing Jinx"
+  limusexumai:
+    name: Limus Exumai
+    description: "The Slime-Repelling Jinx"
+  deprimo:
+    description: "The Collapsing Spell"
+  protego:
+    description: "The Shield Charm"
+  impervius:
+    description: "The Water-Repelling Charm"
+  baubillious:
+    name: Baubillious
+    description: "The Chain-Lightning Spell"
+  crucio:
+    description: "The Cruciatus Curse"
+  morsmordre:
+    description: "The Dark Mark Spell"
+  firestorm:
+    description: "The Incineration Curse"
+  tripudio:
+    description: "The Hopping Charm"
+  confundus:
+    name: Confundo
+    description: "The Confundus Jinx"
+  imperio:
+    description: "The Imperius Curse"
+  whip:
+    description: "The Whip-Conjuring Spell"
+  fiantoduri:
+    description: "The Protective Charm"
+  fiendfyre:
+    description: "The Fiendfyre Curse"
+  revelio:
+    description: "The Revealing Charm"
+  obscuro:
+    description: "The Vision-Obscuring Hex"
+  periculux:
+    description: "The Rainbow-Sparks Charm"
+  volo:
+    description: "The Quickening Charm"
+  colloportus:
+    description: "The Locking Charm"
+  spongify:
+    description: "The Softening Charm"
+  spongifymaxima:
+    description: "The Major-Softening Charm"
+  avadakedavra:
+    description: "The Killing Curse"
+  reparifarge:
+    description: "The Major-Counterspell Charm"
+  noxmaxima:
+    description: "The Darkening Charm"
+  engorgio:
+    description: "The Engorging Charm"
+  impedimenta:
+    name: Impedimenta
+    description: "The Impediment Jinx"
+  aberto:
+    name: Aberto
+    description: "The Unlocking Charm"
+  confringo:
+    description: "The Blasting Curse"
+  batanimagus:
+    name: "Bat Animagus"
+    description: "Shift into your animagus form: a bat!"
+  cowanimagus:
+    name: "Cow Animagus"
+    description: "Shift into your animagus form: a cow!"
+  chickenanimagus:
+    name: "Chicken Animagus"
+    description: "Shift into your animagus form: a chicken!"
+  piganimagus:
+    name: "Pig Animagus"
+    description: "Shift into your animagus form: a pig!"
+  undisguiseanimagus:
+    name: "Reverse"
+    description: "Return to your human form."
+
+# Annoying messages stuff
+
+item:
+    duplicated: "&6(&eMagic&6) &7Your item has been duplicated."
+    no_item: "&6(&eMagic&6) &cYou must be holding an item!"
+    renamed: "&6(&eMagic&6) &7Your item has been renamed."
+    rename_clear: "&6(&eMagic&6) &7Removed the custom name from your item."
+    flag_added: "&6(&eMagic&6) &7Added the &e$flag &7flag to your item."
+    flag_removed: "&6(&eMagic&6) &7Removed the &e$flag &7flag from your item."
+    no_flags: "&6(&eMagic&6) &cThat item has no flags."
+    no_flag: "&6(&eMagic&6) &cThat item does not have the &4$flag &cflag."
+    lore_added: "&6(&eMagic&6) &7Added lore: &e$lore"
+    lore_removed: "&6(&eMagic&6) &7Removed lore: &e$lore"
+    no_lore: "&6(&eMagic&6) &cThat item has no lore."
+    not_unbreakable: "&6(&eMagic&6) &cThat item is not unbreakable."
+    already_unbreakable: "&6(&eMagic&6) &cThat item is already unbreakable."
+    add_unbreakable: "&6(&eMagic&6) &7That item is now unbreakable."
+    remove_unbreakable: "&6(&eMagic&6) &7That item is no longer unbreakable."
+    not_unplaceable: "&6(&eMagic&6) &cThat item is not unplaceable."
+    already_unplaceable: "&6(&eMagic&6) &cThat item is already unplaceable."
+    add_unplaceable: "&6(&eMagic&6) &7That item is now unplaceable."
+    remove_unplaceable: "&6(&eMagic&6) &7That item is no longer unplaceable."
+    no_enchants: "&6(&eMagic&6) &cThis item has no enchantments."
+    no_enchant: "&6(&eMagic&6) &cThat item does not have the &4$enchant &cenchant."
+    enchant_removed: "&6(&eMagic&6) &7Removed the &e$enchant &7enchant from your item."
+    enchant_added: "&6(&eMagic&6) &7Added the &e$enchant &7enchant to your item."
+    enchant_not_added: "&6(&eMagic&6) &cDid not add the &4enchant &cenchant to your item."
+    enchant_unsafe: "&6(&eMagic&6) &cYou don't have permission to use unsafe enchantments."
+    no_attribute: "&6(&eMagic&6) &cThat item does not have the &4$attribute &cattribute."
+    attribute_removed: "&6(&eMagic&6) &7Removed the &e$attribute &7attribute from your item."
+    attribute_added: "&6(&eMagic&6) &7Set the &e$attribute &7attribute on your item to &e$value &7for &e$slot&7."
+    attribute_not_added: "&6(&eMagic&6) &cCould not set the &4$attrbite &cattribute on your item."
+    skull: "&6(&eMagic&6) &7Your book has been turned into a skull!"
+    skull_no_book: "&6(&eMagic&6) &cYou must be holding a written book with skull data in it."
+    skull_invalid_book: "&6(&eMagic&6) &cThat book does not have skull data in it! Paste in just the text in 'Textures.Value', it is a long string of random characters normally ending in =="
+
+general:
+    no_spells: "&6(&eMagic&6) &cYou don't know any spells."
+    no_spells_in_category: "&6(&eMagic&6) &cYou don't know any spells in the &4$category &ccategory."
+    spell_list_page: "&6(&eMagic&6) &7You know &e$count &7spells [page &e$page &7of &e$pages&7]"
+    spell_list: "&6(&eMagic&6) &7You know &e$count &7spells."
+    locked_chest: "&6(&eMagic&6) &cThat chest is locked, you cannot break it."
+
+wand:
+    mana_max: "&7Energy: &e$amount"
+    mana_amount: "&7Energy: &e$amount"
+    mana_regeneration: "&7Energy Regeneration: &e$amount/s"
+    spell_count: "&7Knows &e$count spells"
+    material_count: "&7Has &e$count materials"
+    upgrade_spell_count: "&7Adds &e$count spells"
+    upgrade_material_count: "&7Adds &e$count materials"
+    block_chance: "&3Blocking $roman"
+    reflect_chance: "&3Reflective $roman"
+    cost_reduction: "&3Cost Reduction $roman"
+    consume_reduction: "&3Manifestation"
+    cooldown_reduction: "&3Cooldown Reduction $roman"
+    power: "&3Power $roman"
+    protection: "&3Protection $roman"
+    protection_physical: "&3Physical Protection $roman"
+    protection_projectile: "&3Projectile Protection $roman"
+    protection_falling: "&3Fall Protection $roman"
+    protection_fire: "&3Fire Protection $roman"
+    protection_explosions: "&3Blast Protection $roman"
+    potion_effect: "&3$effect $roman"
+    super_powered: "&3Superpowered"
+    super_protected: "&3Invulnerability"
+    spell_aura: "&7Aura: &e$spell"
+    costs_description: "&7Consumes &e$description"
+    active_costs_description: "&7Consumes &e$description &7per second"
+    owner_description: "&3&o$name's Wand"
+    bound_description: "&3&oBound to $name"
+    range_description: "&7Range: &e$range meters"
+    unmodifiable: "&6(&eMagic&6) &cThat wand cannot be modified."
+    player_unmodifiable: "&6(&eMagic&6) &4$name's &cwand cannot be modified!"
+    bound_to_other: "&6(&eMagic&6) &cThat wand is not bound to you!"
+    bound: "&6(&eMagic&6) &7That wand is bound to &e$name&7."
+    spell_added: "&6(&eMagic&6) &7The &e$name &7spell has been added to your &e$wand&7."
+    brush_added: "&6(&eMagic&6) &7The &e$name &7brush has been added to your &e$wand&7."
+    spell_upgraded: "&6(&eMagic&6) &e$name &7has been upgraded to &e$level &7."
+    spell_override_upgraded: "&6(&eMagic&6) &e$name &7has been upgraded."
+    upgraded_property: "&6(&eMagic&6) &7Your wand has been upgraded to &e$name&7."
+    mana_added: "&6(&eMagic&6) &7Your &e$wand &7now has &e$value &7energy."
+    hotbar_added: "&6(&eMagic&6) &7Your &e$wand's &7hotbar has been upgraded! Press F while your &e$wand &7wand is active."
+    player_upgraded: "&6(&eMagic&6) &e$name's &7wand upgraded."
+    player_not_upgraded: "&6(&eMagic&6) &4$name's &cwand not upgraded."
+    no_item: "&6(&eMagic&6) &cYou are not holding an item."
+    player_no_item: "&6(&eMagic&6) &4$name &cis not holding an item."
+    no_wand: "&6(&eMagic&6) &cYou must be holding a wand."
+    player_no_wand: "&6(&eMagic&6) &4$name &cis not holding a wand."
+    no_item: "&6(&eMagic&6) &cYou must be holding an item."
+    player_no_item: "&6(&eMagic&6) &4$name &cis not holding an item."
+    reorganized: "&6(&eMagic&6) &e$wand &7reorganized."
+    player_reorganized: "&6(&eMagic&6) &e$name's &7wand reorganized."
+    alphabetized: "&6(&eMagic&6) &e$wand &7alphabetized."
+    player_alphabetized: "&6(&eMagic&6) &e$name's &7wand alphabetized."
+    already_enchanted: "&6(&eMagic&6) &cThat "
+    enchanted: "&6(&eMagic&6) &7Your &e$item &7has been enchanted."
+    player_enchanted: "&6(&eMagic&6) &e$name's &7item has been enchanted."    
+    unenchanted: "&6(&eMagic&6) &7Your wand has been unenchanted."
+    no_path: "&6(&eMagic&6) &cYour &4$wand &ccannot be enchanted."
+    max_enchanted: "&6(&eMagic&6) &cYour &4$wand &ccannot be enchanted any further."
+    player_unenchanted: "&6(&eMagic&6) &e$name's &7wand has been unenchanted."
+    level_up: "&6(&eMagic&6) &7Your &e$wand &7has been upgraded to &e$path&7."
+    duplicated: "&6(&eMagic&6) &7Your wand has been duplicated."
+    player_duplicated: "&6(&eMagic&6) &e$name's &7wand has been duplicated."
+    restored: "&6(&eMagic&6) &7Your wands have been restored."
+    player_restored: "&6(&eMagic&6) &e$name's &7wands have been restored."
+    not_restored: "&6(&eMagic&6) &7You have no missing wands on record."
+    player_not_restored: "&6(&eMagic&6) &e$name's &7wand has no missing wands on record."
+    setbound: "&6(&eMagic&6) &7Your wand has been bound."
+    player_setbound: "&6(&eMagic&6) &e$name's &7wand has been bound."
+    unbound: "&6(&eMagic&6) &7Your wand has been unbound."
+    player_unbound: "&6(&eMagic&6) &e$name's &7wand has been unbound."
+    unboundall: "&6(&eMagic&6) &7All of your bound wands have been forgotten."
+    player_unboundall: "&6(&eMagic&6) &7All of &e$name's &7bound wands have been forgotten. Their inentory was not cleared!"
+    unlocked: "&6(&eMagic&6) &7Your wand has been unlocked."
+    player_unlocked: "&6(&eMagic&6) &e$name's &7wand has been unlocked."
+    reconfigured: "&6(&eMagic&6) &7Wand reconfigured."
+    player_reconfigured: "&6(&eMagic&6) &e$name's &7wand has been reconfigured."
+    filled: "&6(&eMagic&6) &7Your &e$wand &7now contains all of your spells."
+    player_filled: "&6(&eMagic&6) &e$name's &7wand filled."
+    renamed: "&6(&eMagic&6) &7Your wand has been renamed."
+    player_renamed: "&6(&eMagic&6) &e$name's &7wand renamed."
+    no_permission: "&6(&eMagic&6) &cYou may not use that wand here!"
+    inventory_instructions: "&6(&eMagic&6) &7Your &e$wand &7now has more than one spell. Use the drop (Q) button to toggle the spell inventory. Select spells using the hotbar buttons."
+    page_instructions: "&6(&eMagic&6) &7Your &e$wand &7now has more than one page of spells. Click outside of the spell inventory to swap pages."
+    bound_instructions: "&6(&eMagic&6) &7Your &e$wand &7is bound to you, and is undroppable."
+    spell_instructions: "&6(&eMagic&6) &7Swing your &e$wand &7to cast spells. Spells require Energy, shown in the XP bar."
+    enchant_instructions: ""
+    sp_instructions: "&6(&eMagic&6) &7You have earned some &eCompletion Credits&7! &eCC's &7are displayed above your mana bar, and may be spent at a spell teacher to learn new spells."
+
+cooldown:
+    description: "&7Cooldown: &e$time"
+
+duration:
+    lasts_seconds: "&7Lasts for &e$seconds seconds"
+    lasts_minutes: "&7Lasts for &e$minutes minutes"
+    lasts_hours: "&7Lasts for &e$hours hours"
+
+shops:
+  no_wand: "&6(&eMagic&6) &cYou must be holding a wand!"
+  no_template: "&6(&eMagic&6) &cYou may not learn with that &4$wand&c!"
+  no_path: "&6(&eMagic&6) &cYou may not learn with that &4$wand&c!"
+  no_required_path: "&6(&eMagic&6) &cYou must be at least &4$path&c!"
+  no_path_exact: "&6(&eMagic&6) &cYou must be at &4$path&c!"
+  no_path_end: "&6(&eMagic&6) &cYou must be ready to advance from &4$path&c!"
+  insufficient: "&6(&eMagic&6) &cThat costs &4$cost&c!"
+  confirm_title: "Purchase $item"
+  deducted: "&6(&eMagic&6) &7You bought &e$item &7for &e$cost&7."
+  not_applicable: "&6(&eMagic&6) &cYou can't buy &4$item&c!"
+  cast_fail: "&6(&eMagic&6) &cSorry, please try again!"
+  no_items: "&6(&eMagic&6) &cThere is nothing for you to buy!"
+  title: "Shop ($balance)"
+  extra_spell: "&aNot Required"
+  no_upgrade: "&6(&eMagic&6) &cThere is nothing more for you to learn"
+  upgrade_name_change: "&r&4Upgrades: &r$name"
+  level_requirement: "&r&cRequires: &6$path"
+  tags_requirement: "&r&cRequires: &6$tags"
+  cast_requirement: "&r&cCasts: &6$current&f/&e$required"
+  prerequisite_spell_level: "&6$name"
+  prerequisite_spell_progress_level: " (Progress $level/$max_level)"
+  required_spells: "&r&cRequires: $spells"
+
+randomized:
+   wood:
+     - Acacia
+     - Alder
+     - Apple
+     - Ash
+     - Aspen
+     - Beech
+     - Blackthorn
+     - Black Walnut
+     - Cedar
+     - Cherry
+     - Chestnut
+     - Cypress
+     - Dogwood
+     - Ebony
+     - English Oak
+     - Elder
+     - Elm
+     - Fir
+     - Hawthorn
+     - Hazel
+     - Holly
+     - Hornbeam
+     - Larch
+     - Laurel
+     - Mahogany
+     - Maple
+     - Oak
+     - Olive
+     - Pear
+     - Pine
+     - Poplar
+     - Red Oak
+     - Redwood
+     - Rosewood
+     - Rowan
+     - Silver Lime
+     - Spruce
+     - Sycamore
+     - Vine
+     - Walnut
+     - Willow
+     - Yew
+   core:
+     - Unicorn Tail Hair
+     - Dragon Heartstring
+     - Pheonix Feather
+     - Veela Hair
+     - Thestral Tail-Hair
+     - Troll Whisker
+     - Kneazle Whisker
+     - Dittany Stalk
+     - Kelpie Manes
+     - Coral
+     - Thunderbird Tail Feather
+     - Wampus Cat Hair
+     - White River Monster Spine
+     - Rougarou Hair
+     - Horned Serpent Horn
+     - Snallygaster Heartstring
+     - Jackalope Antler
+     - Basilisk Horn
+     - Bone
+     - Shell
