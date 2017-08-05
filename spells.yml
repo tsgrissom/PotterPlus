@@ -394,8 +394,17 @@ crucio:
           colorOrbital: "19070B"
           iterations: 16
           radius: 5
+    projectile:
+      - location: origin
+        effectlib:
+          class: SphereEffect
+          iterations: 15
+          particle: redstone
+          color: "19070B"
+          radius: 0.3
   parameters:
     gravity: 0
+    velocity: 40
 
 vermillious:
   worth: 10
