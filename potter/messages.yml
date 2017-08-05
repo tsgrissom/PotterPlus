@@ -624,7 +624,7 @@ wands:
 
     potterwand:
         name: Wand
-        description: $wood and $core
+        description: $wood with $core
 
     wandbox:
         name: Wand Box
