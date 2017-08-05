@@ -393,6 +393,9 @@ spells:
   undisguiseanimagus:
     name: "Reverse"
     description: "Return to your human form."
+  fergalicious:
+    name: "Fergalicious"
+    description: "You have been Fergie-fied"
 
 # Annoying messages stuff
 

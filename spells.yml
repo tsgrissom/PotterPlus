@@ -62,6 +62,64 @@
 #    costs:
 #       health: 10 
 
+# Special Spells
+
+# Fergalicious
+# Pink grey and white with knockback and half a heart of damage
+
+fergalicious:
+  hidden: true
+  category: specialty
+  effects:
+    projectile:
+      - class: EffectSingle
+        effectlib:
+          class: SphereEffect
+          particle: redstone
+          color: "FFFFFF"
+          iterations: 1000
+          radius: 0.2
+      - class: EffectSingle
+        effectlib:
+          class: SphereEffect
+          particle: redstone
+          color: "D3D3D3"
+          iterations: 1000
+          radius: 0.2
+      - class: EffectSingle
+        effectlib:
+          class: SphereEffect
+          particle: redstone
+          color: "FF69B4"
+          iterations: 1000
+          radius: 0.2
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Velocity
+          - class: Damage
+          - class: Delay
+          - class: Message
+            message: "&dI'm the F to the E"
+          - class: Delay
+          - class: Message
+            message: "&dR G the I the E"
+          - class: Delay
+          - class: Message
+            message: "&dand can't no other lady put it down like me"
+  parameters:
+    range: 24
+    player_damage: 1
+    entity_damage: 1
+    living_entity_speed: 3
+    push: 3
+    message_type: chat
+    cooldown: 6000
+    delay: 1500
+  costs:
+    mana: 30
+
 # Animaguses
 
 animagus:
