@@ -99,6 +99,9 @@ books:
 # Wands
 
 wands:
+  brokenwand:
+    name: "&7Broken Wand"
+    description: "A recently broken wand, still crackling with power."
   caseofcreatures:
     name: "Case of Creatures"
     description: "A suitcase containing various magical creatures. &c&lWatch out!"

@@ -189,6 +189,9 @@ pulsus:
 
 # Enabled
 
+webbing:
+  enabled: true
+
 tweakshop:
   enabled: true
 

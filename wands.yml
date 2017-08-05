@@ -97,6 +97,15 @@
 #    mana: 100
 #    mana_regeneration: 10
 
+# Dummy wands
+
+brokenwand:
+  icon: diamond_hoe:40,diamond_hoe:50,diamond_hoe:70
+  undroppable: false
+  keep: false
+  mana: 0
+  mana_regeneration: 0
+
 # Wands
 
 default:

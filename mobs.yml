@@ -35,3 +35,79 @@
 #   disguise:
 #     type: cow
 
+dementor:
+  enabled: false
+
+mutant_spider:
+  enabled: false
+
+undead_overlord:
+  enabled: false
+
+dark_spider:
+  enabled: false
+
+mutant_captain:
+  enabled: false
+
+polterghast:
+  enabled: false
+
+undead_minion:
+  enabled: false
+
+mega_spider:
+  enabled: false
+
+madscientist:
+  enabled: false
+
+dark_wizard:
+  enabled: false
+
+warlock:
+  enabled: false
+
+mutant:
+  enabled: false
+
+deatheater:
+  name: "&3Death Eater"
+  type: zombie
+  item: diamond_hoe:50
+  chestplate: warlock_chestplate
+  leggings: warlock_leggings
+  helmet: iron_helmet
+  boots: warlock_boots
+  health: 50
+  default_drops: false
+  cast_interval: 1000
+  cast:
+    stupefy|2: 75
+    avadakedavra: 10
+    crucio: 25
+    vermillious: 100
+    flipendo: 50
+    confringo: 20
+    none: 20
+  drops:
+  - wand|brokenwand
+  potion_effects:
+  - type: speed
+    amplifier: 1
+
+acromantula:
+  type: cave_spider
+  name: "&3Acromantula"
+  health: 20
+  default_drops: false
+  cast_interval: 1000
+  cast:
+    webbing: 100
+    bogies: 25
+    none: 50
+  drops:
+  - spider_eye
+  potion_effects:
+  - type: speed
+    amplifier: 1
