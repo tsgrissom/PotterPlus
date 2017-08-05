@@ -62,7 +62,16 @@
 #    costs:
 #       health: 10 
 
-# Special Spells
+# Aparecium Hidden Places
+
+reveal:
+  class: FillSpell
+  parameters:
+    target: select
+    max_dimension: 64
+    check_destructible: false
+    brush: erase
+    undo: 5000
 
 # Fergalicious
 
@@ -184,6 +193,9 @@ erecto:
   enabled: false
 
 pulsus:
+  enabled: false
+
+deletrius:
   enabled: false
 
 # Enabled
