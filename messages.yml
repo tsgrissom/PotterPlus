@@ -239,7 +239,7 @@ spells:
   expelliarmus:
     description: "The Disarming Spell"
   finiteincantatem:
-    description: "The Countering Spell"
+    description: "The General Counterspell"
   glacius:
     description: "The Freezing Charm"
   duro:
@@ -255,7 +255,7 @@ spells:
   bombarda:
     description: "The Exploding Spell"
   rennervate:
-    description: "The Reviving Spell"
+    description: "The Stunning Counterspell"
   bubblehead:
     description: "The Breathing Charm"
   orchideous:
@@ -371,7 +371,7 @@ spells:
   avadakedavra:
     description: "The Killing Curse"
   reparifarge:
-    description: "The Major-Counterspell Charm"
+    description: "The Master Counterspell"
     cast: "&6(&eMagic&6) &7You reverse the &e$spell &7cast."
     cast_self: "&6(&eMagic&6) &7You reverse your &e$spell &7cast."
     cost_free: "&6(&eMagic&6) &7You cancel your &e$spell &7cast."
@@ -406,6 +406,9 @@ spells:
   fergalicious:
     name: "Fergalicious"
     description: "You have been Fergie-fied"
+  liberacorpus:
+    name: "Liberacorpus"
+    description: "The Levitation Counterspell"
 
 # Annoying messages stuff
 

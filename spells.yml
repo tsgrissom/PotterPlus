@@ -1075,3 +1075,34 @@ fiantoduri:
 
 volo:
   category: charms
+
+liberacorpus:
+  category: charms
+  icon: diamond_axe
+  icon_url: http://textures.minecraft.net/texture/3f6c497d587c1398ae29cb648a9707fbe974a651cf88c6a2296442db4f6fa5c
+  worth: 10
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.shimmer
+        use_wand_location: false
+        effectlib:
+          class: WarpEffect
+          particle: redstone
+          color: 8A2BE2
+          duration: 5000
+          period: 5
+          radius: 1
+  actions:
+    cast:
+      - class: Cancel
+      - class: PotionEffect
+  costs:
+    mana: 30
+  parameters:
+    range: 6
+    remove_effects:
+      - levitation
+    spell: levicorpus
+    force: true
+    target: self
