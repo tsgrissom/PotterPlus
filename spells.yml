@@ -1100,7 +1100,6 @@ liberacorpus:
   costs:
     mana: 30
   parameters:
-    range: 6
     remove_effects:
       - levitation
     spell: levicorpus
