@@ -412,6 +412,9 @@ spells:
   colloshoo:
     name: "Colloshoo"
     description: "The Stickfast Hex"
+  melofors:
+    name: "Melofors"
+    description: "The Pumpkin-Head Jinx"
 
 # Annoying messages stuff
 
