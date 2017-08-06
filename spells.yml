@@ -223,6 +223,7 @@ upgrades:
 
 whip:
   enabled: true
+  category: dark
   effects:
     tick:
         - location: target
@@ -550,6 +551,7 @@ tarantallegra:
   icon: redstone
   icon_url: http://textures.minecraft.net/texture/3f6c497d587c1398ae29cb648a9707fbe974a651cf88c6a2296442db4f6fa5c
   worth: 10
+  category: charms
   effects:
     hit_entity:
       - class: EffectSingle
@@ -953,8 +955,11 @@ sectumsempra:
   worth: 20
 reducto:
   worth: 10
+
 piertotum:
+  category: transfiguration
   worth: 25
+
 impervius:
   worth: 15
 deprimo:
@@ -1063,3 +1068,8 @@ impedimenta|3:
     duration: 10000
     cooldown: 15000
 
+fiantoduri:
+  category: dada
+
+volo:
+  category: charms
