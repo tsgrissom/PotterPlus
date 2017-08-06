@@ -416,6 +416,7 @@ aquaeructo|3:
   inherit: stream|3
 
 flagrate:
+  upgrade_required_casts: 25
   worth: 5
   effects:
     cast:
@@ -427,6 +428,37 @@ flagrate:
           text: $target
           iterations: 3
           particle: lava
+
+flagrate|2:
+  effects:
+    cast:
+      - class: EffectSingle
+        location: target
+        target_offset: 0,30
+        effectlib:
+          class: TextEffect
+          text: $target
+          iterations: 3
+          particle: redstone
+          color: E25822
+      - class: EffectSingle
+        location: target
+        target_offset: 0,30
+        effectlib:
+          class: TextEffect
+          text: $target
+          iterations: 3
+          particle: spell_mob
+          color: E2B822
+      - class: EffectSingle
+        location: target
+        target_offset: 0,30
+        effectlib:
+          class: TextEffect
+          text: $target
+          iterations: 3
+          particle: spell_mob
+          color: E2222C
 
 avadakedavra:
   category: dark
