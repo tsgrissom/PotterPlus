@@ -113,19 +113,21 @@ fergalicious:
             message: "&dI'm the F to the E"
           - class: Delay
           - class: Message
-            message: "&dR G the I the E"
+            message: "&eR G the I the E"
           - class: Delay
           - class: Message
-            message: "&dand can't no other lady put it down like me"
+            message: "&band can't no other lady put it down like me"
   parameters:
     range: 24
     player_damage: 1
     entity_damage: 1
     living_entity_speed: 3
     push: 3
-    message_type: chat
+    message_type: title
     cooldown: 6000
     delay: 1500
+    target: other
+    target_type: Player
   costs:
     mana: 30
 
