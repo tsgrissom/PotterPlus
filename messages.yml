@@ -409,6 +409,9 @@ spells:
   liberacorpus:
     name: "Liberacorpus"
     description: "The Levitation Counterspell"
+  colloshoo:
+    name: "Colloshoo"
+    description: "The Stickfast Hex"
 
 # Annoying messages stuff
 

@@ -1105,3 +1105,38 @@ liberacorpus:
     spell: levicorpus
     force: true
     target: self
+
+colloshoo:
+  category: dada
+  icon: diamond_axe
+  icon_url: http://textures.minecraft.net/texture/f441923eb636b6fbc4cfba5475fd6abae52a41593a63d99bfecdd4d845b91a
+  worth: 10
+  effects:
+    tick:
+      - location: target
+        particle: slime
+        particle_count: 4
+        particle_offset_x: 0.5
+        particle_offset_z: 0.5
+        particle_offset_y: 0
+    hit_entity:
+      - location: target
+        target_offset: 0,-3,0
+        effectlib:
+          class: SphereEffect
+          particle: slime
+          radius: 2.5
+          duration: 2000
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: PotionEffect
+  costs:
+    mana: 40
+  parameters:
+    range: 12
+    hitbox: true
+    effect_slow: 1
+    duration: 6000
+    cooldown: 12000
