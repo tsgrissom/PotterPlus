@@ -291,6 +291,7 @@ spells:
   aquaeructo:
     name: Aqua Eructo
     description: "The Water-Jet Spell"
+    cast: ""
   apparate:
     description: "The Apparition Spell"
   ventus:
