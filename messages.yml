@@ -1,40 +1,3 @@
-#
-# This is the localization file for the Magic plugin.
-#
-# All in-game text can be controlled from this file.
-#
-# You can also add individual files to the messages/ folder
-#
-# The default will always be loaded first, so the English messages will be used for any
-# keys you do not provide in this file.
-#
-# To see the current default builtin configs, look in this folder:
-# https://github.com/elBukkit/MagicPlugin/tree/master/src/main/resources/defaults/messages
-#
-# For customization help see: 
-# https://github.com/elBukkit/MagicPlugin/wiki/Customization
-#
-
-#
-# Examples:
-# Note that a "#" chararacter means the line is commented out and has no effect.
-# Make sure to not comment out the lines you add, there should not be a space in front of the name, indentation is important.
-# Use http://www.yamllint.com if you have issues with your config, make sure not to use tabs!
-# 
-
-# Change name of Skill Points
-# sp:
-#     name: "&e$amount &6Academic Credits"
-# costs:
-#     sp_amount: $amount AC
-#     sp: Academic Credits
-
-# Change name/description of Magic Missile spell
-# spells:
-#   missile:
-#     name: Zap
-#     description: Zap somebody!
-
 categories:
     specialty:
         name: Speciality
@@ -514,7 +477,7 @@ wand:
     player_alphabetized: "&6(&eMagic&6) &e$name's &7wand alphabetized."
     already_enchanted: "&6(&eMagic&6) &cThat "
     enchanted: "&6(&eMagic&6) &7Your &e$item &7has been enchanted."
-    player_enchanted: "&6(&eMagic&6) &e$name's &7item has been enchanted."    
+    player_enchanted: "&6(&eMagic&6) &e$name's &7item has been enchanted."
     unenchanted: "&6(&eMagic&6) &7Your wand has been unenchanted."
     no_path: "&6(&eMagic&6) &cYour &4$wand &ccannot be enchanted."
     max_enchanted: "&6(&eMagic&6) &cYour &4$wand &ccannot be enchanted any further."
