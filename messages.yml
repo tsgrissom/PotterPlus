@@ -379,6 +379,9 @@ spells:
   melofors:
     name: "Melofors"
     description: "The Pumpkin-Head Jinx"
+  furnunculus:
+    name: "Furnunculus"
+    description: "The Boil-Erupting Hex"
 
 # Annoying messages stuff
 

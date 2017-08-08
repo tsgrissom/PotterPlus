@@ -1052,13 +1052,14 @@ liberacorpus:
       - class: EffectSingle
         sound: magic.shimmer
         use_wand_location: false
+        source_location: feet
         effectlib:
           class: WarpEffect
           particle: redstone
           color: 8A2BE2
           duration: 5000
-          period: 5
-          radius: 1
+          rings: 10
+          particles: 30
   actions:
     cast:
       - class: Cancel
@@ -1189,3 +1190,90 @@ melofors:
     undo: 6000
   costs:
     mana: 24
+
+furnunculus:
+  category: dark
+  icon_url: http://textures.minecraft.net/texture/df19b39e565b16cbdabe364b91e35894d1e9bac0ad3fa4b0905ec4f366627
+  icon: nether_warts
+  upgrade_required_path: year7
+  upgrade_required_casts: 25
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Damage
+  effects:
+    tick:
+      - location: target
+        particle: block_crack
+        material: redstone_block
+        particle_count: 4
+        particle_offset_x: 0.2
+        particle_offset_y: 0.2
+        particle_offset_z: 0.2
+      - location: target
+        particle: block_crack
+        material: quartz_block
+        particle_count: 4
+        particle_offset_x: 0.2
+        particle_offset_y: 0.2
+        particle_offset_z: 0.2
+    hit_entity:
+      - class: EffectSingle
+        sound: magic.zap_crack
+        sound_volume: 0.5
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: BleedEffect
+          duration: $duration
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: BleedEffect
+          color: 255
+          duration: $duration
+          hurt: false
+  parameters:
+    range: 12
+    hitbox: true
+    target: other
+    target_type: Player
+    target_self: false
+    player_damage: 3
+    duration: 5000
+    cooldown: 15000
+    velocity: 100
+  costs:
+    mana: 75
+
+furnunculus|2:
+  effects:
+    tick:
+      - location: target
+        particle: block_crack
+        material: redstone_block
+        particle_count: 12
+        particle_offset_x: 0.2
+        particle_offset_y: 0.2
+        particle_offset_z: 0.2
+      - location: target
+        particle: block_crack
+        material: quartz_block
+        particle_count: 24
+        particle_offset_x: 0.5
+        particle_offset_y: 0.5
+        particle_offset_z: 0.5
+      - location: target
+        particle: block_crack
+        material: slime_block
+        particle_count: 4
+        particle_offset_x: 0.2
+        particle_offset_y: 0.2
+        particle_offset_z: 0.2
+  parameters:
+    range: 24
+    player_damage: 5
+    duration: 10000
+    cooldown: 20000
+    velocity: 150
