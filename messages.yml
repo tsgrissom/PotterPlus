@@ -65,9 +65,11 @@ wands:
   wand:
     name: Wand
     description: $wood with $core
+    randomized_description: Ugh
   potterwand:
     name: Wand
-    description: $wood with $core
+    description: $length Inches $flex $wood with $core
+    randomized_description: Ugh
   brokenwand:
     name: "&7Broken Wand"
     description: "A recently broken wand, still crackling with power."
@@ -382,6 +384,12 @@ spells:
   furnunculus:
     name: "Furnunculus"
     description: "The Boil-Erupting Hex"
+  obliviatemaxima:
+    name: "Obliviate Maxima"
+    description: "The Global Memory-Wiping Spell"
+  obliviate:
+    name: "Obliviate"
+    description: "The Memory-Wiping Spell"    
 
 # Annoying messages stuff
 
