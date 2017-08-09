@@ -1076,13 +1076,16 @@ liberacorpus:
           particles: 30
   actions:
     cast:
+      - class: AreaOfEffect
+        actions:
+        - class: Undo
       - class: PotionEffect
-      - class: Undo
   costs:
     mana: 30
   parameters:
+    radius: 20
     remove_effects:
-      - levitation
+     - levitation
     target_spell: levicorpus
     force: true
     target: self
