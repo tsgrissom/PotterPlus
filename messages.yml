@@ -389,7 +389,16 @@ spells:
     description: "The Global Memory-Wiping Spell"
   obliviate:
     name: "Obliviate"
-    description: "The Memory-Wiping Spell"    
+    description: "The Memory-Wiping Spell"
+  frigusignatus:
+    name: "Frigus Ignatus"
+    description: "The Flame-Freezing Charm"
+  felixleporemos:
+    name: "Felix Leporemos"
+    description: "The Cheering Charm"
+  cantis:
+    name: "Cantis"
+    description: "The Singing Jinx"
 
 # Annoying messages stuff
 
