@@ -522,6 +522,8 @@ verdimillious|3:
 
 protegomaxima:
   icon_url: http://textures.minecraft.net/texture/9330f3a837c4a358fa62f2b684c5c4c2dadf799c0fe9be8f4a4aecace62a
+  parameters:
+    max_dimension: 24
 
 tarantallegra:
   icon: redstone
@@ -732,6 +734,11 @@ lumos|3:
   parameters:
     duration: 40000
 
+lumossolem:
+  worth: 10
+  costs:
+    mana: 50
+
 lumosmaxima:
   upgrade_required_path: year5
   upgrade_required_casts: 50
@@ -777,8 +784,11 @@ wingardium:
   worth: 5
 incendio:
   worth: 10
+
 rictusempra:
+  category: charms
   worth: 10
+
 nox:
   worth: 5
 immobulus:
@@ -828,8 +838,6 @@ locomotomortus:
   worth: 15
 protego:
   worth: 15
-bubblehead:
-  worth: 5
 aguamenti:
   worth: 10
 rennervate:
@@ -957,11 +965,19 @@ deprimo:
   worth: 10
 ascendio:
   worth: 15
+alohomora:
+  worth: 5
+
+erecto:
+  worth: 25
+  category: transfiguration
 
 imperio:
+  worth: 40
   category: dark
 
 bubblehead:
+  worth: 5
   parameters:
     brushcolor: false
     brush: ice
@@ -1579,3 +1595,65 @@ bruchumaculeatos:
     range: 12
     cooldown: 15000
     velocity: 125
+
+evertestatum:
+  icon: diamond_axe:151
+  icon_url: http://textures.minecraft.net/texture/c7142a19d8c84389da74b69641542b8b2fafbed8f7515d1d36c63c96bd749
+  category: dada
+  pvp_restricted: true
+  worth: 10
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Velocity
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap
+        location: origin
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          particle: firework_spark
+          lengthGrow: 0.1
+          radiusGrow: 0.04
+          updateLocations: false
+          updateDirections: false
+    hit_entity:
+      - location: target
+        firework: ball
+        color: FFFFFF
+  parameters:
+    range: 24
+    fov: .12
+    hitbox: true
+    target_type: LivingEntity
+    allow_max_range: false
+    item_speed: 2
+    living_entity_speed: 5
+    push: 1
+    cooldown: 3000
+    velocity: 150
+  costs:
+    mana: 25
+
+depulso:
+  inherit: ventus
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: block_fire_extinguish
+        sound_volume: 1
+        sound_pitch: -0.1
+        location: origin
+        effectlib:
+          class: DnaEffect
+          particlesBase: 0
+          particlesHelix: 7
+          particleHelix: spell
+          particleBase1: spell
+          particleBase2: spell
+          iterations: 10
+          radius: 0.5
+    iterate: []

@@ -399,6 +399,15 @@ spells:
   cantis:
     name: "Cantis"
     description: "The Singing Jinx"
+  bruchumaculeatos:
+    name: "Bruchum Aculeatos"
+    description: "The Stinging Hex"
+  evertestatum:
+    name: "Everte Statum"
+    description: "The Body-Hurling Jinx"
+  depulso:
+    name: "Depulso"
+    description: "The Banishing Charm"
 
 # Annoying messages stuff
 
@@ -442,6 +451,9 @@ general:
     spell_list_page: "&6(&eMagic&6) &7You know &e$count &7spells [page &e$page &7of &e$pages&7]"
     spell_list: "&6(&eMagic&6) &7You know &e$count &7spells."
     locked_chest: "&6(&eMagic&6) &cThat chest is locked, you cannot break it."
+
+mage:
+  earned_sp: "&e+$amount &7CC earned"
 
 wand:
     mana_max: "&7Energy: &e$amount"
