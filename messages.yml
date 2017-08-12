@@ -550,8 +550,6 @@ wand:
     player_no_item: "&6(&eMagic&6) &4$name &cis not holding an item."
     no_wand: "&6(&eMagic&6) &cYou must be holding a wand."
     player_no_wand: "&6(&eMagic&6) &4$name &cis not holding a wand."
-    no_item: "&6(&eMagic&6) &cYou must be holding an item."
-    player_no_item: "&6(&eMagic&6) &4$name &cis not holding an item."
     reorganized: "&6(&eMagic&6) &e$wand &7reorganized."
     player_reorganized: "&6(&eMagic&6) &e$name's &7wand reorganized."
     alphabetized: "&6(&eMagic&6) &e$wand &7alphabetized."
