@@ -1,3 +1,37 @@
+# Testing Recall Stuff
+
+longapparate:
+  inherit: recall
+  quick_cast: false
+  parameters:
+    warmup: 250
+    warps:
+      ilvermorny:
+        icon: diamond_hoe:40
+        name: &3Ilvermorny
+        description: &cIlvermorny School of Witchcraft and Wizardry
+        locked: false
+      hogwarts:
+        icon: diamond_hoe:60
+        name: &6Hogwarts
+        description: &8Hogwarts School of Witchcraft and Wizardry
+        locked: false
+      beauxbatons:
+        icon: diamond_hoe:80
+        name: &9Beauxbatons
+        description: &eBeauxbatons Academy of Magic
+        locked: false
+      durmstrang:
+        icon: diamond_hoe:50
+        name: &4Durmstrang
+        description: &6Durmstrang Institute
+        locked: false
+
+warpunlock:
+  enabled: true
+
+# Special Aparecium-Enabled Effects
+
 reveal:
   class: FillSpell
   category: specialty
