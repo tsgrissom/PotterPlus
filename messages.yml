@@ -171,6 +171,10 @@ spells:
     description: "The Spark-Producing Charm"
   avis:
     description: "The Bird-Conjuring Spell"
+  avis|2:
+    upgrade_description: "&r&8&bull; &eSpawns more baby birds."
+  avis|3:
+    upgrade_description: "&r&8&bull; &eSpawns more adult birds."
   flagrate:
     description: "The Fire-Writing Charm"
   flagrate|2:
@@ -299,6 +303,10 @@ spells:
   lapifors:
     name: Lapifors
     description: "The Bunny-Conjuring Spell"
+  lapifors|2:
+    upgrade_description: "&r&8&bull; &eSpawns more baby bunnies."
+  lapifors|3:
+    upgrade_description: "&r&8&bull; &eSpawns more adult bunnies."
   lumossolem:
     name: Lumos Solem
     description: "The Light-Projection Charm"
@@ -334,6 +342,10 @@ spells:
   baubillious:
     name: Baubillious
     description: "The Chain-Lightning Spell"
+  baubillious|2:
+    upgrade_description: "&r&8&bull; &eIncreased damage."
+  baubillious|3:
+    upgrade_description: "&r&8&bull; &eIncreased damage and lightning chains."
   crucio:
     description: "The Cruciatus Curse"
   morsmordre:
@@ -441,9 +453,15 @@ spells:
   evertestatum:
     name: "Everte Statum"
     description: "The Body-Hurling Jinx"
+  evertestatum|2:
+    upgrade_description: "&r&8&bull; &eIncreased push."
+  evertestatum|3:
+    upgrade_description: "&r&8&bull; &eIncreased push."
   depulso:
     name: "Depulso"
     description: "The Banishing Charm"
+  depulso|2:
+    upgrade_description: "&r&8&bull; &eIncreased push."
   longapparate:
     name: "Long-Distance Apparition"
     description: "The Long-Distance Apparition Spell"

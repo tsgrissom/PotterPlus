@@ -169,6 +169,8 @@ whip:
 baubillious:
   inherit: chainlightning
   worth: 20
+  upgrade_required_path: year6
+  upgrade_required_casts: 25
   effects:
     projectile:
         - class: EffectSingle
@@ -183,10 +185,36 @@ baubillious:
              color: "FFFFFF"
              duration: 2000
 
+baubillious|2:
+  upgrade_required_path: year7
+  upgrade_required_casts: 50
+  parameters:
+    player_damage: 3
+    entity_damage: 3.5
+
+baubillious|3:
+  parameters:
+    player_damage: 4.5
+    entity_damage: 5
+    repeat: 8
+
 lapifors:
+  upgrade_required_casts: 25
+  upgrade_required_path: year5
   inherit: avis
   parameters:
     type: rabbit
+
+lapifors|2:
+  upgrade_required_casts: 50
+  upgrade_required_path: year6
+  parameters:
+    count: 5
+
+lapifors|3:
+  parameters:
+    count: 10
+    baby: false
 
 alarteascendare:
   icon_url: http://textures.minecraft.net/texture/58c573cefdc8cc1b8c894340cb54ab343523ec2ffa0afc7536968391ae1e7
@@ -504,6 +532,7 @@ protegomaxima:
   icon_url: http://textures.minecraft.net/texture/9330f3a837c4a358fa62f2b684c5c4c2dadf799c0fe9be8f4a4aecace62a
   parameters:
     max_dimension: 24
+    cooldown: 25000
 
 tarantallegra:
   icon: redstone
@@ -776,8 +805,23 @@ arresto:
   worth: 5
 periculum:
   worth: 5
+
 avis:
+  upgrade_required_casts: 25
+  upgrade_required_path: year5
   worth: 5
+
+avis|2:
+  upgrade_required_casts: 50
+  upgrade_required_path: year6
+  parameters:
+    count: 5
+
+avis|3:
+  parameters:
+    count: 10
+    baby: false
+
 fourpoint:
   worth: 5
 arrow:
@@ -1622,6 +1666,8 @@ evertestatum:
   category: dada
   pvp_restricted: true
   worth: 10
+  upgrade_required_path: year3
+  upgrade_required_casts: 25
   actions:
     cast:
       - class: CustomProjectile
@@ -1650,7 +1696,7 @@ evertestatum:
     hitbox: true
     target_type: LivingEntity
     allow_max_range: false
-    item_speed: 2
+    item_speed: 0
     living_entity_speed: 5
     push: 1
     cooldown: 3000
@@ -1658,9 +1704,22 @@ evertestatum:
   costs:
     mana: 25
 
+evertestatum|2:
+  upgrade_required_path: year4
+  upgrade_required_casts: 50
+  parameters:
+    living_entity_speed: 6
+
+evertestatum|3:
+  parameters:
+    living_entity_speed: 8
+    push: 2
+
 depulso:
   inherit: ventus
   category: charms
+  upgrade_required_path: year5
+  upgrade_required_casts: 25
   effects:
     cast:
       - class: EffectSingle
@@ -1678,6 +1737,13 @@ depulso:
           iterations: 10
           radius: 0.5
     iterate: []
+  parameters:
+    repeat: 1
+
+depulso|2:
+  parameters:
+    item_speed: 0.2
+    entity_speed: 0.5
 
 defodio:
   inherit: deluminate
