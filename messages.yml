@@ -88,12 +88,8 @@ wands:
   kingofthehill:
     name: King of the Hill
     description: Whoosh!
-  darkapparate:
-    name: Dark Apparate
-    description: Evil apparation!
-  lightapparate:
-    name: Light Apparate
-    description: Good apparation!
+  deluminator:
+    usage: ""
 
 # Spells
 
@@ -425,6 +421,13 @@ spells:
     cross_world_disallowed: "&6(&eMagic) &cYou are not allowed to apparate to another world."
     title: Choose Destination
     unlock_warp: "&6(&eMagic) &7You have discovered &e$name &7to apparate to!"
+  defodio:
+    name: "Defodio"
+    description: "The Gouging Spell"
+  defodio|2:
+    upgrade_description: "&r&8&bull; &eGouges more blocks, increased radius."
+  defodio|3:
+    upgrade_description: "&r&8&bull; &eIncreased radius."
 
 # Annoying messages stuff
 
