@@ -195,6 +195,10 @@ spells:
     description: "The Wand-Extinguishing Charm"
   araniaexumai:
     description: "The Arachnid-Repelling Jinx"
+  araniaexumai|2:
+    upgrade_description: "&r&8&bull; &eIncreased damage."
+  araniaexumai|3:
+    upgrade_description: "&r&8&bull; &eIncreased damage."
   immobulus:
     description: "The Immobilizing Jinx"
   rictusempra:
@@ -206,6 +210,7 @@ spells:
     description: "The Disarming Spell"
   finiteincantatem:
     description: "The General Counterspell"
+    usage: ""
   glacius:
     description: "The Freezing Charm"
   duro:
@@ -224,6 +229,8 @@ spells:
     description: "The Stunning Counterspell"
   bubblehead:
     description: "The Breathing Charm"
+  bubblehead|2:
+    upgrade_description: "&r&8&bull; &eIncreased duration."
   orchideous:
     description: "The Flowering Charm"
   accio:
@@ -314,6 +321,10 @@ spells:
   limusexumai:
     name: Limus Exumai
     description: "The Slime-Repelling Jinx"
+  limusexumai|2:
+    upgrade_description: "&r&8&bull; &eIncreased damage."
+  limusexumai|3:
+    upgrade_description: "&r&8&bull; &eIncreased damage."
   deprimo:
     description: "The Collapsing Spell"
   protego:

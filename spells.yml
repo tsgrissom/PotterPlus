@@ -590,6 +590,8 @@ apparate:
 
 araniaexumai:
   worth: 10
+  upgrade_required_path: year2
+  upgrade_required_casts: 25
   effects:
     cast:
       - class: EffectSingle
@@ -609,6 +611,16 @@ araniaexumai:
           lengthGrow: 0.15
           particle: spell_mob
           color: FFFFFF
+
+araniaexumai|2:
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
+  parameters:
+    damage: 15
+
+araniaexumai|3:
+  parameters:
+    damage: 20
 
 limusexumai:
   inherit: araniaexumai
@@ -634,6 +646,16 @@ limusexumai:
           color: FFFFFF
   parameters:
     target_type: Slime
+
+limusexumai|2:
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
+  parameters:
+    damage: 15
+
+limusexumai|3:
+  parameters:
+    damage: 20
 
 meteo:
   worth: 30
@@ -781,8 +803,10 @@ expelliarmus:
   worth: 15
 fumos:
   worth: 5
+
 finiteincantatem:
   worth: 20
+  alias: finite
 
 snowball:
   worth: 10
@@ -967,9 +991,16 @@ imperio:
 
 bubblehead:
   worth: 5
+  upgrade_required_path: year2
+  upgrade_required_casts: 25
   parameters:
     brushcolor: false
     brush: ice
+
+bubblehead|2:
+  parameters:
+    duration: 60000
+    undo: 60000
 
 aberto:
   inherit: alohomora
