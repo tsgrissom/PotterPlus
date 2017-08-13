@@ -209,15 +209,3 @@ kingofthehill:
   swap: none
   cost_reduction: 10
   cooldown_reduction: 5
-
-# Upgrades
-
-darkapparate:
-  upgrade: true
-  icon: ink_sack:8
-  overrides: apparate.particle spell_mob
-
-lightapparate:
-  upgrade: true
-  icon: ink_sack:7
-  overrides: apparate.particle redstone
