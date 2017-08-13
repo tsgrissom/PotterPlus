@@ -156,9 +156,15 @@ spells:
     description: "The Burning Sparks Jinx"
   lumos:
     description: "The Wand-Lighting Charm"
+  lumos|2:
+    upgrade_description: "&r&8&bull; &eIncreased light duration."
+  lumos|3:
+    upgrade_description: "&r&8&bull; &eIncreased light duration."
   lumosmaxima:
     name: Lumos Maxima
     description: "The Blinding Wand-Lighting Charm"
+  lumosmaxima|2:
+    upgrade_description: "&r&8&bull; &eIncreased light duration."
   arresto:
     description: "The Momentum-Stopping Spell"
   periculum:
@@ -167,6 +173,8 @@ spells:
     description: "The Bird-Conjuring Spell"
   flagrate:
     description: "The Fire-Writing Charm"
+  flagrate|2:
+    upgrade_description: "&r&8&bull; &eClearer-written name."
   wingardium:
     description: "The Levitating Charm"
   fourpoint:
@@ -222,6 +230,8 @@ spells:
     description: "The Summoning Charm"
   aguamenti:
     description: "The Water-Making Spell"
+  aguamenti|2:
+    upgrade_description: "&r&8&bull; &eIncreased radius and range."
   locomotomortus:
     description: "The Leg-Locking Curse"
   episkey:
@@ -236,8 +246,18 @@ spells:
     description: "The Rope-Binding Jinx"
   levicorpus:
     description: "The Levitating Jinx"
+  levicorpus|2:
+    upgrade_description: "&r&8&bull; &eIncreased levitation speed and bumps."
+  levicorpus|3:
+    upgrade_description: "&r&8&bull; &eIncreased levitation speed and bumps."
   stupefy:
     description: "The Stunning Spell"
+  stupefy|2:
+    upgrade_description: "&r&8&bull; &eIncresed damage and stun duration."
+  stupefy|3:
+    upgrade_description: "&r&8&bull; &eIncreased range, damage, and stun duration."
+  stupefy|4:
+    upgrade_description: "&r&8&bull; &eIncreased damage and stun duration."
   lacarnum:
     description: "The Fireball-Conjuring Curse"
   petrificustotalus:
@@ -250,6 +270,10 @@ spells:
     name: Aqua Eructo
     description: "The Water-Jet Spell"
     cast: ""
+  aquaeructo|2:
+    upgrade_description: "&r&8&bull; &eIncreased damage."
+  aquaeructo|3:
+    upgrade_description: "&r&8&bull; &eIncreased damage."
   apparate:
     name: "Short-Distance Apparition"
     description: "The Apparition Spell"
@@ -274,6 +298,10 @@ spells:
   verdimillious:
     name: Verdimillious
     description: "The Green Sparks Jinx"
+  verdimillious|2:
+    upgrade_description: "&r&8&bull; &eIncreased damage."
+  verdimillious|3:
+    upgrade_description: "&r&8&bull; &eIncreased damage."
   sectumsempra:
     name: Sectumsempra
     description: "The Severing Curse"
@@ -343,6 +371,10 @@ spells:
   impedimenta:
     name: Impedimenta
     description: "The Impediment Jinx"
+  impedimenta|2:
+    upgrade_description: "&r&8&bull; &eIncreased slowness and duration."
+  impedimenta|3:
+    upgrade_description: "&r&8&bull; &eIncreased slowness and duration."
   aberto:
     name: Aberto
     description: "The Unlocking Charm"
@@ -357,12 +389,20 @@ spells:
   colloshoo:
     name: "Colloshoo"
     description: "The Stickfast Hex"
+  colloshoo|2:
+    upgrade_description: "&r&8&bull; &eIncreased range, slowness, and duration."
+  colloshoo|3:
+    upgrade_description: "&r&8&bull; &eIncreased range, slowness, and duration."
+  colloshoo|4:
+    upgrade_description: "&r&8&bull; &eIncreased range, slowness, and duration."
   melofors:
     name: "Melofors"
     description: "The Pumpkin-Head Jinx"
   furnunculus:
     name: "Furnunculus"
     description: "The Boil-Erupting Hex"
+  furnunculus|2:
+    upgrade_description: "&r&8&bull; &eExpels green pus. Increased range, damage, duration, and velocity."
   obliviatemaxima:
     name: "Obliviate Maxima"
     description: "The Global Memory-Wiping Spell"
@@ -372,9 +412,15 @@ spells:
   frigusignatus:
     name: "Frigus Ignatus"
     description: "The Flame-Freezing Charm"
+  frigusignatus|2:
+    upgrade_description: "&r&8&bull; &eIncreased duration."
   felixleporemos:
     name: "Felix Leporemos"
     description: "The Cheering Charm"
+  felixleporemos|2:
+    upgrade_description: "&r&8&bull; &eIncreased duration."
+  felixleporemos|3:
+    upgrade_description: "&r&8&bull; &eIncreased speed, jump, and velocity."
   cantis:
     name: "Cantis"
     description: "The Singing Jinx"
