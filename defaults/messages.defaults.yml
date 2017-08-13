@@ -2,7 +2,7 @@
 # !! IMPORTANT !!
 #
 # If you wish to customize this plugin, edit the "messages.yml" file instead.
-# 
+#
 # This file is merged from the files in the following folder:
 #
 # https://github.com/elBukkit/MagicPlugin/tree/master/src/main/resources/defaults/messages
@@ -207,23 +207,23 @@ general:
     spell_list_page: You know $count spells [page $page of $pages]
     spell_list: You know $count spells
     locked_chest: That chest is locked, you cannot break it.
-    
+
 books:
     default:
         author: NathanWolf
         title: $category Spell Book
     all:
         title: The Master Spell Book
-        
+
 material:
     wildcard: " (Any Type)"
-    
+
 economy:
     missing: "&cMy shop is closed, sorry!"
     insufficient: "Costs: &6$cost"
     deducted: "Deducted: &6$cost"
     requires: "You must have a $cost"
-    
+
 worlds:
     world:
         name: The Overworld
@@ -231,11 +231,11 @@ worlds:
         name: The Nether
     world_the_end:
         name: The End
-        
+
 sp:
     name: "&e$amount &6Spell Points"
     description: Will be absorbed by your wand
-    
+
 costs:
     sp_amount: $amount SP
     xp_amount: $amount XP
@@ -251,7 +251,7 @@ costs:
     currency: Dollar
     currency_plural: Dollars
     currency_amount: "$$amount"
-    
+
 cooldown:
     wait_seconds: another $seconds seconds
     wait_minutes: another $minutes minutes
@@ -688,7 +688,6 @@ spells:
         no_target: You must target two blocks next to each other
         name: Hunter
         description: Create a deadly Automaton
-        no_target: You must target two blocks next to each other
         fail: You can not make a Hunter out of $material
         cast: Destroy all humans!
         cast_broadcast: "&c&o$name &r&5was born"
@@ -1791,7 +1790,7 @@ spells:
         description: Show off various EffectLib effects
     randomtp:
       name: Random Teleport
-      description: Teleports you to a random location    
+      description: Teleports you to a random location
     note01:
       name: 1 Note C Middle
     note02:

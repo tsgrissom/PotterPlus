@@ -73,9 +73,6 @@ wands:
   brokenwand:
     name: "&7Broken Wand"
     description: "A recently broken wand, still crackling with power."
-  caseofcreatures:
-    name: "Case of Creatures"
-    description: "A suitcase containing various magical creatures. &c&lWatch out!"
   bradenstaff:
     name: "&4&lB&6&lr&e&la&2&ld&3&le&5&ln&d&l'&4&ls &6&lS&e&lt&2&la&3&lf&5&lf"
     description: It's extra.
@@ -355,21 +352,6 @@ spells:
     description: "The Unlocking Charm"
   confringo:
     description: "The Blasting Curse"
-  batanimagus:
-    name: "Bat Animagus"
-    description: "Shift into your animagus form: a bat!"
-  cowanimagus:
-    name: "Cow Animagus"
-    description: "Shift into your animagus form: a cow!"
-  chickenanimagus:
-    name: "Chicken Animagus"
-    description: "Shift into your animagus form: a chicken!"
-  piganimagus:
-    name: "Pig Animagus"
-    description: "Shift into your animagus form: a pig!"
-  undisguiseanimagus:
-    name: "Reverse"
-    description: "Return to your human form."
   fergalicious:
     name: "Fergalicious"
     description: "You have been Fergie-fied"
@@ -412,51 +394,37 @@ spells:
   longapparate:
     name: "Long-Distance Apparition"
     description: "The Long-Distance Apparition Spell"
-    cancel: Recall interrupted!
-    usage: Grants 5 seconds of protection on teleportation.
+    cancel: "&6(&eMagic) &cYour apparate was cancelled!"
+    usage: ""
     teleport: ""
-    teleport_failed: Recall failed
-    no_target: Can't place a marker there
-    cast_marker_place: You place a recall marker
-    cast_marker_move: You move your recall marker
-    cast_marker: Returning you to your marker
-    cast_death: Returning you to your last death location
-    cast_spawn: Returning you to spawn
-    cast_home: Returning you home
-    cast_wand: Returning you to your lost wand
-    cast_warp: Warping you to $name
-    cast_town: Warping you to your home town
-    cast_field: Warping you to a protected area
-    cast_friend: Warping you to $name
-    no_target_death: No recorded death location
-    no_target_wand: No recorded lost wands
-    no_target_home: No home set
-    no_target_warp: Invalid warp $name
-    no_target_marker: No marker set
-    no_target_spawn: Can't recall to spawn
-    no_target_town: You're not in a town
-    no_target_fields: You have no fields
-    no_target_friend: Invalid friend $name
-    title_move_marker: Move Marker to Here
-    description_move_marker: Replaces your current marker
-    title_marker: Marker
-    description_marker: Aim down to move your marker
-    title_death: Last Death
-    description_death: Your last death location
-    title_friend: $name
-    title_warp: $name
-    title_spawn: Spawn
-    description_spawn: The current world's spawn location
-    title_home: Home
-    description_home: Your last sleep location
-    title_wand: Lost Wand
-    description_wand: A wand you've dropped on the ground
-    title_town: Town Square
-    description_town: The center of your home town
-    description_field: A protected area
-    cross_world_disallowed: You are not allowed to apparate to another world
+    teleport_failed: "&6(&eMagic) &cYour apparate failed!"
+    cast_death: "&6(&eMagic) &7Returning you to your last death location."
+    cast_spawn: "&6(&eMagic) &7Returning you to spawn."
+    cast_home: "&6(&eMagic) &7Returning you home."
+    cast_wand: "&6(&eMagic) &7Returning you to your lost wand."
+    cast_warp: "&6(&eMagic) &7Warping you to &e$name&7."
+    cast_field: "&6(&eMagic) &7Warping you to a protected area."
+    cast_friend: "&6(&eMagic) &7Warping you to &ename&7."
+    no_target_death: "&6(&eMagic) &cNo recorded death location."
+    no_target_wand: "&6(&eMagic) &cNo recorded lost wands."
+    no_target_home: "&6(&eMagic) &cNo home set."
+    no_target_warp: "&6(&eMagic) &cInvalid warp &4$name"
+    no_target_spawn: "&6(&eMagic) &cCan't apparate to spawn."
+    no_target_fields: "&6(&eMagic) &cYou have no fields."
+    no_target_friend: "&6(&eMagic) &cInvalid friend &4$name"
+    title_death: "&eLast Death"
+    description_death: "&7Your last death location."
+    title_friend: "&e$name"
+    title_warp: "&r$name"
+    title_spawn: "&eSpawn"
+    description_spawn: "&7The current world's spawn location."
+    title_home: "&eHome"
+    description_home: "&7Your home."
+    title_wand: "&eLost Wand"
+    description_wand: "&7A wand you've dropped on the ground."
+    cross_world_disallowed: "&6(&eMagic) &cYou are not allowed to apparate to another world."
     title: Choose Destination
-    unlock_warp: "&bYou have unlocked &5$name &bas a &6Recall &bdestination!"
+    unlock_warp: "&6(&eMagic) &7You have discovered &e$name &7to apparate to!"
 
 # Annoying messages stuff
 

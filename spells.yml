@@ -3,28 +3,38 @@
 longapparate:
   inherit: recall
   quick_cast: false
+  icon: diamond_axe:134
+  icon_url: http://textures.minecraft.net/texture/a35cfb663dbde27598eebe76b0fdac2593f1d696b3e6b9e044edeb8d48c2e2
   parameters:
+    allow_spawn: false
+    allow_marker: false
+    allow_death: false
+    allow_wand: false
+    allow_home: false
+    allow_cross_world: true
+    allow_town: false
+    allow_fields: false
     warmup: 250
     warps:
-      ilvermorny:
+      Ilvermorny:
         icon: diamond_hoe:40
-        name: &3Ilvermorny
-        description: &cIlvermorny School of Witchcraft and Wizardry
+        name: Ilvermorny
+        description: Ilvermorny School of Witchcraft and Wizardry
         locked: false
-      hogwarts:
+      Hogwarts:
+        icon: diamond_hoe:20
+        name: Hogwarts
+        description: Hogwarts School of Witchcraft and Wizardry
+        locked: false
+      Beauxbatons:
         icon: diamond_hoe:60
-        name: &6Hogwarts
-        description: &8Hogwarts School of Witchcraft and Wizardry
+        name: Beauxbatons
+        description: Beauxbatons Academy of Magic
         locked: false
-      beauxbatons:
-        icon: diamond_hoe:80
-        name: &9Beauxbatons
-        description: &eBeauxbatons Academy of Magic
-        locked: false
-      durmstrang:
+      Durmstrang:
         icon: diamond_hoe:50
-        name: &4Durmstrang
-        description: &6Durmstrang Institute
+        name: Durmstrang
+        description: Durmstrang Institute
         locked: false
 
 warpunlock:
@@ -706,6 +716,8 @@ lumos|3:
 
 lumossolem:
   worth: 10
+  parameters:
+    brush: glowstone
   costs:
     mana: 50
 
