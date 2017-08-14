@@ -450,6 +450,10 @@ spells:
   bruchumaculeatos:
     name: "Bruchum Aculeatos"
     description: "The Stinging Hex"
+  bruchumaculeatos|2:
+    upgrade_description: "&r&8&bull; &eIncreased damage."
+  bruchumaculeatos|3:
+    upgrade_description: "&r&8&bull; &eIncreased damage."
   evertestatum:
     name: "Everte Statum"
     description: "The Body-Hurling Jinx"

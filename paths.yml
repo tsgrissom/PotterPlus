@@ -101,6 +101,7 @@ year6:
     - revelio
     - baubillious
     - furnunculus
+    - bruchumaculeatos
   required_spells:
     - patronus
 
@@ -117,7 +118,6 @@ year7:
     - spongifymaxima
     - volo
     - erecto
-    - bruchumaculeatos
   required_spells:
     - protegomaxima
   upgrade_commands:
