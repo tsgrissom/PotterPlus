@@ -73,7 +73,7 @@ wands:
   brokenwand:
     name: "&7Broken Wand"
     description: "A recently broken wand, still crackling with power."
-  bradenstaff:
+  braden:
     name: "&4&lB&6&lr&e&la&2&ld&3&le&5&ln&d&l'&4&ls &6&lS&e&lt&2&la&3&lf&5&lf"
     description: It's extra.
   conductorswand:
@@ -90,6 +90,20 @@ wands:
     description: Whoosh!
   deluminator:
     usage: ""
+  item_with_abilities:
+    spell_count: ""
+    mana_amount: ""
+    mana_regeneration: ""
+    bound_description: ""
+    inventory_instructions: ""
+    page_instructions: ""
+    bound_instructions: ""
+    spell_instructions: ""
+    enchant_instructions: ""
+    brush_instructions: ""
+    sp_instructions: ""
+  swordofgryffindor:
+    name: "&4&lSword of &6&lGryffindor"
 
 # Spells
 
@@ -555,6 +569,7 @@ mage:
   earned_sp: "&e+$amount &7CC earned"
 
 wand:
+    hotbar_changed: "a:&7Switched hotbars"
     mana_max: "&7Energy: &e$amount"
     mana_amount: "&7Energy: &e$amount"
     mana_regeneration: "&7Energy Regeneration: &e$amount/s"

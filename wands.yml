@@ -125,16 +125,126 @@ potterwand:
     - lumos
   active_spell: lumos
 
-bradenstaff:
+# Staff Wands
+
+staff_template:
+  inherit: potterwand
+  icon: diamond_hoe:70
+  mana: 200
+  cost_reduction: 5
+  active_spell: lumos
+  spells:
+    - lumos
+    - wingardium
+    - incendio
+    - finiteincantatem
+    - bombarda
+    - expelliarmus
+    - vermillious
+    - accio
+
+builder_template:
+  inherit: staff_template
+  cost_reduction: 10
+  consume_reduction: 10
+  cooldown_reduction: 10
+
+gamekeeper:
+  inherit: staff_template
+  filled: true
+
+architect:
+  inherit: builder_template
+  brushes:
+    - stone
+    - wood
+    - glass
+    - dirt
+    - erase
+    - copy
+    - clone
+    - replicate
+    - map
+    - glowstone
+    - sand
+    - cobblestone
+    - stained_glass
+    - thin_glass
+    - stained_glass_pane
+    - stained_clay
+    - quartz_block
+    - quartz_block:1
+    - quartz_block:2
+    - lapis_block
+    - iron_block
+    - diamond_block
+    - gold_block
+    - emerald_block
+    - redstone_block
+    - obsidian
+    - schematic:rainbow_blocks
+    - schematic:creeper_rug
+    - schematic:church
+    - schematic:blacksmith
+    - schematic:compact_house
+    - schematic:small_house
+    - schematic:elder_tree
+    - schematic:garden_house
+    - schematic:beacon
+    - schematic:cage
+    - schematic:tent
+    - schematic:stash_chest
+    - schematic:lantern
+    - schematic:tech_tower
+  spells:
+    - copy
+    - clone
+    - replicate
+    - erase
+    - map
+    - schematics
+    - absorb
+    - rollback
+    - convert
+    - commit
+    - fill
+    - floodfill
+    - iterate
+    - paint
+    - paste
+    - pillar
+    - place
+    - pollinate
+    - regenerate
+    - repair
+    - sphere
+    - superalter
+    - superbackup
+    - superblob
+    - superblast
+    - superbox
+    - superconvert
+    - supercube
+    - superdisc
+    - superdome
+    - superhemisphere
+    - superpyramid
+    - superregenerate
+    - superring
+    - supershell
+    - supertorch
+    - alter
+    - box
+    - bridge
+    - column
+
+braden:
+  inherit: staff_template
   icon: diamond_hoe:100
   cost_reduction: 10
   cooldown_reduction: 10
   undroppable: true
   hotbar_count: 2
-  right_click: none
-  left_click: cast
-  drop: toggle
-  swap: cycle_hotbar
   active_spell: aquaeructo|3
   spells:
     - aquaeructo|3
@@ -198,14 +308,42 @@ musicbox:
   has_uses: false
   uses: 0
 
-kingofthehill:
-  icon: feather
-  active_spell: flipendo|3
-  spells:
-    - flipendo|3
-  left_click: cast
+# Minigame Items
+
+minigame_wand_template:
+  inherit: potterwand
+  icon: stick
   right_click: none
+  left_click: cast
   drop: none
   swap: none
   cost_reduction: 10
   cooldown_reduction: 5
+
+kingofthehill:
+  inherit: minigame_wand_template
+  icon: feather
+  right_click: toggle
+  active_spell: flipendo|3
+  spells:
+    - flipendo|3
+    - aquaeructo|2
+    - pulsus
+
+# Extra Items
+
+item_with_abilities:
+  inherit: potterwand
+  icon: iron_sword
+  left_click: none
+  drop: none
+  swap: none
+  right_click: cast
+  mana: 200
+  mana_regeneration: 50
+  bound: false
+  undroppable: false
+
+swordofgryffindor:
+  inherit: item_with_abilities
+  active_spell: expelliarmus|3

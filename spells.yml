@@ -1,7 +1,89 @@
+# Engineering Magic
+
+copy:
+  enabled: true
+clone:
+  enabled: true
+replicate:
+  enabled: true
+erase:
+  enabled: true
+map:
+  enabled: true
+absorb:
+  enabled: true
+rollback:
+  enabled: true
+convert:
+  enabled: true
+commit:
+  enabled: true
+fill:
+  enabled: true
+floodfill:
+  enabled: true
+iterate:
+  enabled: true
+paint:
+  enabled: true
+paste:
+  enabled: true
+pillar:
+  enabled: true
+place:
+  enabled: true
+pollinate:
+  enabled: true
+regenerate:
+  enabled: true
+repair:
+  enabled: true
+sphere:
+  enabled: true
+superalter:
+  enabled: true
+superbackup:
+  enabled: true
+superblob:
+  enabled: true
+superblast:
+  enabled: true
+superbox:
+  enabled: true
+superconvert:
+  enabled: true
+supercube:
+  enabled: true
+superdisc:
+  enabled: true
+superdome:
+  enabled: true
+superhemisphere:
+  enabled: true
+superpyramid:
+  enabled: true
+superregenerate:
+  enabled: true
+superring:
+  enabled: true
+supershell:
+  enabled: true
+supertorch:
+  enabled: true
+alter:
+  enabled: true
+box:
+  enabled: true
+bridge:
+  enabled: true
+column:
+  enabled: true
+
 # Testing Recall Stuff
 
 longapparate:
   inherit: recall
+  category: elective
   quick_cast: false
   icon: diamond_axe:134
   icon_url: http://textures.minecraft.net/texture/a35cfb663dbde27598eebe76b0fdac2593f1d696b3e6b9e044edeb8d48c2e2
@@ -432,7 +514,7 @@ avadakedavra:
              iterations: 1000
              radius: 0.6
   parameters:
-    velocity: 10
+    velocity: 50
     delay: 500
 
 crucio:
