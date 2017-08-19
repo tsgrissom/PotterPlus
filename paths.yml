@@ -118,6 +118,7 @@ year7:
     - spongifymaxima
     - volo
     - erecto
+    - expulso
   required_spells:
     - protegomaxima
   upgrade_commands:

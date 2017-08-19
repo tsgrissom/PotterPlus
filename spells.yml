@@ -1818,6 +1818,7 @@ depulso:
   category: charms
   upgrade_required_path: year5
   upgrade_required_casts: 25
+  worth: 10
   effects:
     cast:
       - class: EffectSingle
@@ -1851,6 +1852,7 @@ defodio:
   category: charms
   upgrade_required_path: year5
   upgrade_required_casts: 25
+  worth: 15
   effects:
     cast:
       - class: EffectTrail
@@ -1872,3 +1874,79 @@ defodio|2:
 defodio|3:
   parameters:
     radius: 6
+
+expulso:
+  icon: diamond_axe:161
+  icon_url: http://textures.minecraft.net/texture/436cb244bd2a9c1734f2db6517a973a91b1773f02ca4b481af5f24d17bb1496
+  category: dark
+  worth: 20
+  pvp_restricted: true
+  upgrade_required_path: year7
+  upgrade_required_casts: 50
+  costs:
+    mana: 75
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Explosion
+          - class: Damage
+          - class: Velocity
+  effects:
+    cast:
+    -  class: EffectSingle
+       sound: magic.crack
+       sound_pitch: 0.3
+       sound_volume: 0.5
+    tick:
+    -  class: EffectSingle
+       location: target
+       effectlib:
+         class: ConeEffect
+         iterations: 10
+         particle: redstone
+         color: 22659c
+         lengthGrow: 0.05
+    hit:
+    -  class: EffectSingle
+       location: target
+       color: 22659c
+       firework: star
+    backfire:
+    -  class: EffectSingle
+       sound: entity_player_hurt
+    -  class: EffectRing
+       particle: spell_mob
+       color: 22659c
+       location: self
+    fizzle:
+    -  class: EffectSingle
+       sound: entity_generic_explode
+    -  class: EffectRing
+       particle: redstone
+       color: 22659c
+       location: self
+  parameters:
+    break_blocks: false
+    fire: false
+    size: 2
+    range: 24
+    hitbox: true
+    reorient: false
+    target: other
+    target_type: LivingEntity
+    cooldown: 15000
+    push: 1
+    living_entity_speed: 0.3
+    player_damage: 6
+    entity_damage: 6
+    velocity: 75
+
+expulso|2:
+  parameters:
+    fire: true
+    velocity: 100
+    player_damage: 8
+    entity_damage: 8
+    size: 3
+    undo: 2000

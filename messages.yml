@@ -521,6 +521,11 @@ spells:
     upgrade_description: "&r&8&bull; &eGouges more blocks, increased radius."
   defodio|3:
     upgrade_description: "&r&8&bull; &eIncreased radius."
+  expulso:
+    name: Expulso
+    description: The Expulso Curse
+  expulso|2:
+    upgrade_description: "&r&8&bull; &eIncreased radius, damage, knockback, and burns."
 
 # Annoying messages stuff
 
