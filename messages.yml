@@ -248,7 +248,7 @@ spells:
   bombarda:
     description: "The Exploding Spell"
   rennervate:
-    description: "The Stunning Counterspell"
+    description: "The Awakening Spell"
   bubblehead:
     description: "The Breathing Charm"
   bubblehead|2:
