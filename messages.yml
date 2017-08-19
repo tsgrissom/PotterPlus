@@ -209,6 +209,10 @@ spells:
     description: "The Unlocking Charm"
   fumos:
     description: "The Smoke-Producing Spell"
+  fumos|2:
+    upgrade_description: "&r&8&bull; &eIncreased radius and effect."
+  fumos|3:
+    upgrade_description: "&r&8&bull; &eIncreased radius, effect, and blinding."
   nox:
     description: "The Wand-Extinguishing Charm"
   araniaexumai:

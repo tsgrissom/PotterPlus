@@ -769,6 +769,7 @@ limusexumai|3:
     damage: 20
 
 meteo:
+  quick_cast: false
   worth: 30
   category: charms
 
@@ -927,8 +928,82 @@ bogies:
   worth: 15
 expelliarmus:
   worth: 15
+
 fumos:
+  upgrade_required_path: year4
+  upgrade_required_casts: 50
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: block_fire_extinguish
+        location: target
+        effectlib:
+          class: SphereEffect
+          iterations: 140
+          period: .1
+          particle: smoke_large
+          radius: 2
+          particles: 20
+  actions:
+    cast:
+      - class: AreaOfEffect
+        actions:
+          - class: PotionEffect
   worth: 5
+  parameters:
+    effect_slow: 1
+    effect_damage_resistance: -1
+    duration: 5000
+    radius: 2
+    y_radius: 2
+    target_count: 5
+    target_source: false
+    cooldown: 10000
+
+fumos|2:
+  upgrade_required_path: year5
+  upgrade_required_casts: 75
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: block_fire_extinguish
+        location: target
+        effectlib:
+          class: SphereEffect
+          iterations: 140
+          period: .1
+          particle: explosion_normal
+          radius: 3
+          particles: 20
+  parameters:
+    effect_slow: 2
+    radius: 3
+    y_radius: 3
+    target_count: 10
+    duration: 7000
+    cooldown: 12000
+
+fumos|3:
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: block_fire_extinguish
+        location: target
+        effectlib:
+          class: SphereEffect
+          iterations: 140
+          period: .1
+          particle: explosion_normal
+          radius: 5
+          particles: 50
+  parameters:
+    effect_slow: 3
+    effect_blindness: 3
+    radius: 5
+    y_radius: 5
+    target_count: 15
+    duration: 9000
+    cooldown: 14000
 
 finiteincantatem:
   worth: 20
