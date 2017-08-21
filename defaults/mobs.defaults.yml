@@ -22,7 +22,9 @@ dark_spider:
   - sp:8
   potion_effects:
   - type: speed
-    amplifier: 0
+    amplifier: 1
+  - type: increase_damage
+    amplifier: 2
     
 dark_wizard:
   name: Dark Wizard
@@ -105,8 +107,10 @@ mega_spider:
   - gold_nugget@10
   - sp:10
   potion_effects:
-  - type: increase_damage
+  - type: speed
     amplifier: 0
+  - type: increase_damage
+    amplifier: 3
     
 mutant:
   type: pig_zombie
@@ -173,7 +177,7 @@ undead_overlord:
   name: Undead Overlord
   health: 150
   potion_effects:
-  - type: increase_damage
+  - type: speed
     amplifier: 1
     
 warlock:
@@ -200,3 +204,7 @@ warlock:
   drops:
   - gold_nugget@16
   - sp:16
+  potion_effects:
+  - type: speed
+    amplifier: 1
+

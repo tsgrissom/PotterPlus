@@ -355,6 +355,25 @@ spells:
     description: "The Collapsing Spell"
   protego:
     description: "The Shield Charm"
+  protego|2:
+    upgrade_description: "&r&8&bull; &eDecreased cooldown. Increased duration, reflection chance, and size."
+  protego|3:
+    upgrade_description: "&r&8&bull; &eDecreased cooldown. Increased duration, reflection chance, and size."
+  protego|4:
+    upgrade_description: "&r&8&bull; &eDecreased cooldown. Increased duration, reflection chance, and size."
+  protego|5:
+    upgrade_description: "&r&8&bull; &eIncreased size and duration. Guaranteed to reflect spells."
+  protegomaxima:
+    name: Protego Maxima
+    description: "The Maximum Shield Charm"
+  protegomaxima|2:
+    upgrade_description: "&r&8&bull; &eDecreased cooldown. Increased duration, reflection chance, and size."
+    usage: "Cast at your feet to shield yourself."
+  protegototalus:
+    name: Protego Totalus
+    description: "The Protective Enchantment"
+  protegototalus|2:
+    upgrade_description: "&r&8&bull; &eIncreased radius."
   impervius:
     description: "The Water-Repelling Charm"
   baubillious:
@@ -377,8 +396,6 @@ spells:
     description: "The Confundus Jinx"
   imperio:
     description: "The Imperius Curse"
-  whip:
-    description: "The Whip-Conjuring Spell"
   fiantoduri:
     description: "The Protective Charm"
   fiendfyre:
@@ -530,6 +547,21 @@ spells:
     description: The Expulso Curse
   expulso|2:
     upgrade_description: "&r&8&bull; &eIncreased radius, damage, knockback, and burns."
+  despello:
+    name: "Despello"
+    description: "The Babbling Curse"
+  despello|2:
+    upgrade_description: "&r&8&bull; &eIncreased speed."
+  salviohexia:
+    name: "Salvio Hexia"
+    description: "The Hex-Deflecting Spell"
+    usage: ""
+  salviohexia|2:
+    upgrade_description: "&r&8&bull; &eIncreased strength of protective enchantments."
+  flagellos:
+    name: "Flagellos"
+    description: "The Whipping Hex"
+    usage: "Move to control your whip."
 
 # Annoying messages stuff
 

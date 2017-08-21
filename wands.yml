@@ -145,98 +145,11 @@ staff_template:
 
 builder_template:
   inherit: staff_template
-  cost_reduction: 10
   consume_reduction: 10
-  cooldown_reduction: 10
 
 gamekeeper:
   inherit: staff_template
   filled: true
-
-architect:
-  inherit: builder_template
-  brushes:
-    - stone
-    - wood
-    - glass
-    - dirt
-    - erase
-    - copy
-    - clone
-    - replicate
-    - map
-    - glowstone
-    - sand
-    - cobblestone
-    - stained_glass
-    - thin_glass
-    - stained_glass_pane
-    - stained_clay
-    - quartz_block
-    - quartz_block:1
-    - quartz_block:2
-    - lapis_block
-    - iron_block
-    - diamond_block
-    - gold_block
-    - emerald_block
-    - redstone_block
-    - obsidian
-    - schematic:rainbow_blocks
-    - schematic:creeper_rug
-    - schematic:church
-    - schematic:blacksmith
-    - schematic:compact_house
-    - schematic:small_house
-    - schematic:elder_tree
-    - schematic:garden_house
-    - schematic:beacon
-    - schematic:cage
-    - schematic:tent
-    - schematic:stash_chest
-    - schematic:lantern
-    - schematic:tech_tower
-  spells:
-    - copy
-    - clone
-    - replicate
-    - erase
-    - map
-    - schematics
-    - absorb
-    - rollback
-    - convert
-    - commit
-    - fill
-    - floodfill
-    - iterate
-    - paint
-    - paste
-    - pillar
-    - place
-    - pollinate
-    - regenerate
-    - repair
-    - sphere
-    - superalter
-    - superbackup
-    - superblob
-    - superblast
-    - superbox
-    - superconvert
-    - supercube
-    - superdisc
-    - superdome
-    - superhemisphere
-    - superpyramid
-    - superregenerate
-    - superring
-    - supershell
-    - supertorch
-    - alter
-    - box
-    - bridge
-    - column
 
 braden:
   inherit: staff_template

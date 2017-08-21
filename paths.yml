@@ -11,6 +11,7 @@ year1:
     - bubblehead
     - lumossolem
     - felixleporemos
+    - despello
   required_spells:
     - alohomora
 
@@ -42,9 +43,11 @@ year3:
     - petrificustotalus
     - orchideous
     - vermillious
+    - verdimillious
     - lumosmaxima
     - aberto
     - frigusignatus
+    - flagellos
   required_spells:
     - glacius
 
@@ -102,6 +105,7 @@ year6:
     - baubillious
     - furnunculus
     - bruchumaculeatos
+    - protegototalus
   required_spells:
     - patronus
 
@@ -119,7 +123,8 @@ year7:
     - volo
     - erecto
     - expulso
+    - fiendfyre
   required_spells:
     - protegomaxima
   upgrade_commands:
-      - broadcast §6@pd §3has graduated from their school!
+    - broadcast §6@pd §3has graduated from their school!

@@ -1,84 +1,3 @@
-# Engineering Magic
-
-copy:
-  enabled: true
-clone:
-  enabled: true
-replicate:
-  enabled: true
-erase:
-  enabled: true
-map:
-  enabled: true
-absorb:
-  enabled: true
-rollback:
-  enabled: true
-convert:
-  enabled: true
-commit:
-  enabled: true
-fill:
-  enabled: true
-floodfill:
-  enabled: true
-iterate:
-  enabled: true
-paint:
-  enabled: true
-paste:
-  enabled: true
-pillar:
-  enabled: true
-place:
-  enabled: true
-pollinate:
-  enabled: true
-regenerate:
-  enabled: true
-repair:
-  enabled: true
-sphere:
-  enabled: true
-superalter:
-  enabled: true
-superbackup:
-  enabled: true
-superblob:
-  enabled: true
-superblast:
-  enabled: true
-superbox:
-  enabled: true
-superconvert:
-  enabled: true
-supercube:
-  enabled: true
-superdisc:
-  enabled: true
-superdome:
-  enabled: true
-superhemisphere:
-  enabled: true
-superpyramid:
-  enabled: true
-superregenerate:
-  enabled: true
-superring:
-  enabled: true
-supershell:
-  enabled: true
-supertorch:
-  enabled: true
-alter:
-  enabled: true
-box:
-  enabled: true
-bridge:
-  enabled: true
-column:
-  enabled: true
-
 # Testing Recall Stuff
 
 longapparate:
@@ -233,18 +152,32 @@ upgrades:
   hidden: true
   category: npc
 
-whip:
-  enabled: true
+flagellos:
+  inherit: whip
   category: dark
+  upgrade_required_path: year4
+  upgrade_required_casts: 50
   effects:
-    tick:
-        - location: target
-          particle: redstone
-          color: 000000
-          particle_count: 12
-          particle_offset_x: 0.05
-          particle_offset_y: 0.05
-          particle_offset_z: 0.05
+    hit:
+      - class: EffectSingle
+        sound: magic.zap_crack
+        sound_volume: .3
+        location: target
+        particle: explosion_normal
+    hit_entity:
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: BleedEffect
+          height: 0.5
+  parameters:
+    player_damage: 5
+    entity_damage: 5
+
+flagellos|2:
+  parameters:
+    player_damage: 8
+    entity_damage: 8
 
 # Spells
 
@@ -612,9 +545,25 @@ verdimillious|3:
 
 protegomaxima:
   icon_url: http://textures.minecraft.net/texture/9330f3a837c4a358fa62f2b684c5c4c2dadf799c0fe9be8f4a4aecace62a
+  upgrade_required_casts: 50
   parameters:
-    max_dimension: 24
-    cooldown: 25000
+    radius: 5
+    target: self
+    cooldown: 20000
+    undo: 2000
+    reflect_chance: 0.7
+
+protegomaxima|2:
+  actions:
+    alternate_down:
+      - class: ChangeContext
+        target_caster: true
+  parameters:
+    radius: 6
+    target: other
+    cooldown: 15000
+    undo: 4000
+    reflect_chance: 1
 
 tarantallegra:
   icon: redstone
@@ -913,7 +862,9 @@ conjunctivitis:
   worth: 10
 wingardium:
   worth: 5
+
 incendio:
+  category: charmss
   worth: 10
 
 rictusempra:
@@ -928,6 +879,90 @@ bogies:
   worth: 15
 expelliarmus:
   worth: 15
+
+fiendfyre:
+  inherit: false
+  icon_url: http://textures.minecraft.net/texture/a9e073da36aaf2c844da428cd4a19dfde32c8cdc2404eed4a135f6095b17c
+  icon: diamond_axe:139
+  icon_disabled: diamond_hoe:139
+  worth: 35
+  pvp_restricted: true
+  upgrade_required_path: year7
+  upgrade_required_casts: 50
+  costs:
+    mana: 150
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Damage
+          - class: Ignite
+          - class: Disc
+            radius: 1
+            actions:
+              - class: Cover
+                actions:
+                  - class: Burn
+          - class: Line
+            size: 2
+            actions:
+              - class: Cover
+                actions:
+                  - class: Burn
+  effects:
+    tick:
+      - particle: lava
+        location: target
+        particle_count: 25
+        particle_offset_x: 0.01
+        particle_offset_y: 0.01
+        particle_offset_z: 0.01
+    hit_entity:
+      - class: EffectSingle
+        location: target
+        color: FE642E
+        firework: ball_large
+  parameters:
+    damage: 20
+    hitbox: true
+    velocity: 30
+    range: 48
+    hitbox_size: 0.5
+    target_type: Damageable
+    target_breakables: 1
+    cooldown: 45000
+    track_target: true
+    lifetime: 20000
+    target_self_timeout: 2000
+    track_speed: 0.1
+    use_target_location: false
+    duration: 15000
+    undo: 5000
+
+fiendfyre|2:
+  actions:
+    cast:
+      - class: CustomProjectile
+        hitbox: true
+        actions:
+          - class: Damage
+          - class: Ignite
+          - class: Disc
+            radius: 3
+            actions:
+              - class: Cover
+                actions:
+                  - class: Burn
+          - class: Line
+            size: 3
+            actions:
+              - class: Cover
+                actions:
+                  - class: Burn
+  parameters:
+    damage: 40
+    undo: 7000
+    velocity: 40
 
 fumos:
   upgrade_required_path: year4
@@ -1036,15 +1071,55 @@ patronus:
 
 bombarda:
   worth: 20
-
 obscuro:
   worth: 10
 accio:
   worth: 10
 locomotomortus:
   worth: 15
+
 protego:
   worth: 15
+  upgrade_required_path: year4
+  upgrade_required_casts: 25
+  parameters:
+    brushcolor: false
+    cooldown: 8000
+    undo: 500
+    reflect_chance: 0.2
+
+protego|2:
+  upgrade_required_path: year5
+  upgrade_required_casts: 50
+  parameters:
+    cooldown: 6000
+    undo: 800
+    reflect_chance: 0.4
+    radius: 2
+
+protego|3:
+  upgrade_required_path: year6
+  upgrade_required_casts: 75
+  parameters:
+    cooldown: 4000
+    undo: 1000
+    reflect_chance: 0.6
+    radius: 3
+
+protego|4:
+  upgrade_required_path: year7
+  upgrade_required_casts: 100
+  parameters:
+    cooldown: 2000
+    undo: 1500
+    reflect_chance: 0.8
+    radius: 4
+
+protego|5:
+  parameters:
+    undo: 2000
+    reflect_chance: 1
+    radius: 5
 
 aguamenti:
   worth: 10
@@ -1058,8 +1133,14 @@ rennervate:
   worth: 5
 episkey:
   worth: 15
+
 orchideous:
   worth: 10
+  parameters:
+    undo: 2000
+
+noxmaxima:
+  quick_cast: false
 
 levicorpus:
   inherit: false
@@ -1177,8 +1258,12 @@ impervius:
   worth: 15
 deprimo:
   worth: 10
+
 ascendio:
   worth: 15
+  parameters:
+    cooldown: 10000
+
 alohomora:
   worth: 5
 
@@ -1557,7 +1642,6 @@ obliviate:
           - class: Repeat
             actions:
               - class: Message
-              - class: PotionEffect
   effects:
     tick:
       - location: target
@@ -1579,10 +1663,8 @@ obliviate:
     velocity: 125
     target: other
     target_type: Player
-    message_target: true
-    message_type: chat
     message: " "
-    effect_confusion: 1
+    message_target: true
     duration: 1000
 
 obliviatemaxima:
@@ -1594,13 +1676,7 @@ obliviatemaxima:
     mana: 75
   actions:
     cast:
-      - class: AllEntities
-        actions:
-          - class: Repeat
-            actions:
-              - class: Message
-                message: " "
-              - class: PotionEffect
+      - class: com.aurelia_network.magicaddons.actions.ClearChatAction
   effects:
     cast:
       - class: EffectSingle
@@ -1617,6 +1693,8 @@ obliviatemaxima:
     repeat: 100
     effect_confusion: 1
     duration: 1000
+    global: true
+    target_source: false
 
 frigusignatus:
   category: charms
@@ -1753,7 +1831,7 @@ cantis:
         fadeColor: FFFFFF
   parameters:
     range: 12
-    velocity: 75
+    velocity: 25
     hitbox: true
     message_type: title
     message_target: true
@@ -2025,3 +2103,219 @@ expulso|2:
     entity_damage: 8
     size: 3
     undo: 2000
+
+legilimens:
+  inherit: false
+  icon: diamond_axe:107
+  icon_url: http://textures.minecraft.net/texture/3bc9de58822a3f7c6c23e212cf954fc728a6b2e45c54a89b4af5e453d39b1
+  category: elective
+  cast_on_no_target: true
+  worth: 15
+  costs:
+    mana: 45
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Delay
+          - class: Command
+  effects:
+    tick:
+      - location: target
+        particle: smoke_normal
+        particle_count: 5
+        particle_offset_x: 0.1
+        particle_offset_y: 0.1
+        particle_offset_z: 0.1
+    hit_entity:
+      - location: target
+        firework: burst
+        color: 000000
+      - class: EffectSingle
+        location: target
+        use_wand_location: false
+        source_location: eyes
+        effectlib:
+          class: AtomEffect
+          particleNucleus: redstone
+          particleOrbital: redstone
+          colorNucleus: 000000
+          colorOrbital: 000000
+  parameters:
+    cooldown: 20000
+    delay: 2000
+    range: 6
+    hitbox: true
+    target: other
+    target_type: Player
+    command: invsee @tn
+    op: true
+    console: false
+
+despello:
+  icon_url: http://textures.minecraft.net/texture/ad7e09a7af7af5acc286e6a4dd3c2f69b55ace33b7838ca899545570e946ee
+  icon: diamond_axe:8
+  category: charms
+  worth: 5
+  upgrade_required_path: year2
+  upgrade_required_casts: 25
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: com.aurelia_network.magicaddons.actions.ChatAction
+  effects:
+    tick:
+      - particle: fireworks_spark
+        location: target
+    hit:
+      - firework: burst
+        location: target
+        color: FFFFFF
+        fadeColor: cfd223
+  parameters:
+    range: 12
+    velocity: 75
+    hitbox: true
+    target: other
+    target_type: Player
+    randomized_messages:
+      - "blablablabla"
+      - "fwufheuf"
+      - "It's a FISH!"
+      - "Ashley smells"
+      - "Megan is a meanie"
+      - "grrr i'm angry"
+      - "All hail the flapjack"
+      - "BUILD A WALL"
+      - "BlubBlubBlubBlub"
+      - "HueHueHue"
+      - "LaLaLa"
+      - "TutTutTut"
+      - "TyTyTy"
+      - "Floooop"
+      - "Tinky-Winky"
+      - "Laa-Laa"
+      - "Dipsy"
+      - "Po"
+      - "Sun Baby"
+      - "Noo-noo"
+      - "Yo soy loco"
+
+despello|2:
+  parameters:
+    velocity: 100
+
+salviohexia:
+  inherit: false
+  icon: diamond_axe:74
+  icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
+  category: dada
+  tags: noduel
+  worth: 10
+  hidden: false
+  upgrade_required_path: year7
+  upgrade_required_casts: 50
+  actions:
+    cast:
+      - class: PotionEffect
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: block_fire_extinguish
+        location: target
+        effectlib:
+          class: SphereEffect
+          iterations: 70
+          period: .1
+          particle: smoke_normal
+          radius: 2
+          particles: 20
+  parameters:
+      target: self
+      duration: 5000
+      cooldown: 15000
+      transparent: transparent_to_construction
+      effect_damage_resistance: 300
+      effect_slow: 1
+  costs:
+      mana: 90
+
+salviohexia|2:
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: block_fire_extinguish
+        location: target
+        effectlib:
+          class: SphereEffect
+          iterations: 70
+          period: .1
+          particle: smoke_normal
+          radius: 2
+          particles: 20
+  parameters:
+    duration: 8000
+    cooldown: 18000
+
+protegototalus:
+  icon: diamond_axe:74
+  icon_url: http://textures.minecraft.net/texture/9330f3a837c4a358fa62f2b684c5c4c2dadf799c0fe9be8f4a4aecace62a
+  category: dada
+  tags: noduel
+  worth: 20
+  upgrade_required_path: year6
+  upgrade_required_casts: 50
+  costs:
+    mana: 90
+  actions:
+    cast:
+      - class: AreaOfEffect
+        actions:
+          - class: PotionEffect
+          - class: Message
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap_crack
+        location: target
+        effectlib:
+          class: SphereEffect
+          iterations: 70
+          period: 0.1
+          particle: water_wake
+          radius: 3
+          particles: 100
+  parameters:
+    radius: 3
+    y_radius: 3
+    cooldown: 20000
+    effect_damage_resistance: 300
+    effect_fire_resistance: 1
+    duration: 10000
+    target_count: 10
+    target_source: true
+    target: self
+    target_type: Player
+    message: "&bProtego Totalus!"
+    message_type: title
+    message_target: true
+
+protegototalus|2:
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap_crack
+        location: target
+        effectlib:
+          class: SphereEffect
+          iterations: 70
+          period: 0.1
+          particle: water_wake
+          radius: 6
+          particles: 600
+  parameters:
+    radius: 6
+    y_radius: 6
+    duration: 15000
+    target_count: 20
