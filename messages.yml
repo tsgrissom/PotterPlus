@@ -201,8 +201,16 @@ spells:
     description: "The Pushing Jinx"
   arrow:
     description: "The Projectile-Conjuring Spell"
+  arrow|2:
+    upgrade_description: "&r&8&bull; &eIncreased damage, accuracy and velocity."
+  arrow|3:
+    upgrade_description: "&r&8&bull; &eIncreased damage, accuracy and velocity."
+  arrow|4:
+    upgrade_description: "&r&8&bull; &eIncreased damage, accuracy and velocity."
   incendio:
     description: "The Fire-Making Spell"
+  incendio|2:
+    upgrade_description: "&r&8&bull; &eIncreased size and duration."
   conjunctivitis:
     description: "The Blinding Hex"
   alohomora:
@@ -228,8 +236,20 @@ spells:
     description: "The Tickling Charm"
   bogies:
     description: "The Sickening Curse"
+  bogies|2:
+    upgrade_description: "&r&8&bull; &eIncreased range, duration, and potency."
+  bogies|3:
+    upgrade_description: "&r&8&bull; &eIncreased range, duration, and potency."
   expelliarmus:
     description: "The Disarming Spell"
+  expelliarmus|2:
+    upgrade_description: "&r&8&bull; &eLess chance of fizzling or backfiring."
+  expelliarmus|3:
+    upgrade_description: "&r&8&bull; &eLess chance of fizzling or backfiring."
+  expelliarmus|4:
+    upgrade_description: "&r&8&bull; &eLess chance of fizzling or backfiring."
+  expelliarmus|5:
+    upgrade_description: "&r&8&bull; &eNo chance of fizzling or backfiring."
   finiteincantatem:
     description: "The General Counterspell"
     usage: ""
@@ -241,8 +261,14 @@ spells:
     upgrade_description: "&r&8&bull; &eNo chance of fizzling."
   glacius:
     description: "The Freezing Charm"
+  glacius|2:
+    upgrade_description: "&r&8&bull; &eIncreased damage, size, range, and potency."
+  glacius|3:
+    upgrade_description: "&r&8&bull; &eIncreased damage, size, range, and potency. Now freezes lava."
   duro:
     description: "The Hardening Charm"
+  duro|2:
+    upgrade_description: "&r&8&bull; &eIncreased size, duration, and strength."
   colorvaria:
     description: "The Color-Changing Charm"
   diffindo:
@@ -253,6 +279,8 @@ spells:
     description: "The Patronus Charm"
   bombarda:
     description: "The Exploding Spell"
+  bombarda|2:
+    upgrade_description: "&r&8&bull; &eIncreased range and size."
   rennervate:
     description: "The Awakening Spell"
   bubblehead:
@@ -271,8 +299,14 @@ spells:
     description: "The Leg-Locking Curse"
   episkey:
     description: "The Minor Healing Spell"
+  episkey|2:
+    upgrade_description: "&r&8&bull; &eIncreased healing."
+  episkey|3:
+    upgrade_description: "&r&8&bull; &eIncreased healing."
   ascendio:
     description: "The Propulsion Spell"
+  ascendio|2:
+    upgrade_description: "&r&8&bull; &eIncreased power."
   evanesco:
     description: "The Vanishing Spell"
   reducio:
@@ -288,7 +322,7 @@ spells:
   stupefy:
     description: "The Stunning Spell"
   stupefy|2:
-    upgrade_description: "&r&8&bull; &eIncresed damage and stun duration."
+    upgrade_description: "&r&8&bull; &eIncreased damage and stun duration."
   stupefy|3:
     upgrade_description: "&r&8&bull; &eIncreased range, damage, and stun duration."
   stupefy|4:
@@ -359,6 +393,10 @@ spells:
     upgrade_description: "&r&8&bull; &eIncreased damage."
   deprimo:
     description: "The Collapsing Spell"
+  deprimo|2:
+    upgrade_description: "&r&8&bull; &eIncreased radius."
+  deprimo|3:
+    upgrade_description: "&r&8&bull; &eIncreased radius."
   protego:
     description: "The Shield Charm"
   protego|2:
@@ -566,8 +604,9 @@ spells:
     upgrade_description: "&r&8&bull; &eIncreased strength of protective enchantments."
   flagellos:
     name: "Flagellos"
-    description: "The Whipping Hex"
-    usage: "Move to control your whip."
+    description: "The Whip-Conjuring Hex"
+  flagellos|2:
+    upgrade_description: "&r&8&bull; &eIncreased damage."
 
 # Annoying messages stuff
 
