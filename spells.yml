@@ -876,8 +876,11 @@ nox:
   worth: 5
 immobulus:
   worth: 10
+
 bogies:
+  category: dark
   worth: 15
+
 expelliarmus:
   worth: 15
 
