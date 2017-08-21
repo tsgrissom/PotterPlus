@@ -233,6 +233,12 @@ spells:
   finiteincantatem:
     description: "The General Counterspell"
     usage: ""
+  finiteincantatem|2:
+    upgrade_description: "&r&8&bull; &eLess chance of fizzling."
+  finiteincantatem|3:
+    upgrade_description: "&r&8&bull; &eLess chance of fizzling."
+  finiteincantatem|4:
+    upgrade_description: "&r&8&bull; &eNo chance of fizzling."
   glacius:
     description: "The Freezing Charm"
   duro:
