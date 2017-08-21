@@ -334,7 +334,9 @@ spells:
   ferula:
     description: "The Bandaging Spell"
   reducto:
-    description: "The Blasting Curse"
+    description: "The Vaporizing Curse"
+  reducto|2:
+    upgrade_description: "&r&8&bull; &eIncreased radius."
   aquaeructo:
     name: Aqua Eructo
     description: "The Water-Jet Spell"

@@ -897,6 +897,7 @@ fiendfyre:
   pvp_restricted: true
   upgrade_required_path: year7
   upgrade_required_casts: 50
+  category: dark
   costs:
     mana: 150
   actions:
@@ -1786,7 +1787,7 @@ felixleporemos:
     effect_jump: 1
     duration: 3000
     velocity: 125
-    range: 8
+    range: 12
 
 felixleporemos|2:
   upgrade_required_casts: 50
