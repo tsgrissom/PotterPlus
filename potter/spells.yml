@@ -511,7 +511,6 @@ obscuro:
              particle: smoke_normal
              radius: 0.5
              particles: 20
-
     costs:
         mana: 25
     parameters:

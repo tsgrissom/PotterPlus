@@ -768,6 +768,9 @@ broomshop:
 
 # Overhaul
 
+tripudio:
+  category: charms
+
 lumos:
   upgrade_required_path: year1
   upgrade_required_casts: 25
@@ -1080,8 +1083,70 @@ patronus:
 
 bombarda:
   worth: 20
+
 obscuro:
   worth: 10
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
+  actions:
+    cast:
+      - class: PotionEffect
+  effects:
+    cast:
+      -  class: EffectSingle
+         sound: burp
+         effectlib:
+           class: ConeEffect
+           iterations: 15
+           particle: spell_mob
+           lengthGrow: 0.3
+      -  class: EffectSingle
+         location: target
+         color: 19070B
+         firework: ball
+      -  class: EffectSingle
+         location: target
+         use_wand_location: false
+         effectlib:
+           class: SphereEffect
+           iterations: 100
+           period: 4
+           particle: smoke_large
+           radius: 1
+           particles: 300
+  parameters:
+    target_type: Player
+    duration: 5000
+    effect_blindness: 2
+    effect_confusion: 2
+
+obscuro|2:
+  effects:
+    cast:
+      -  class: EffectSingle
+         sound: burp
+         effectlib:
+           class: ConeEffect
+           iterations: 15
+           particle: spell_mob
+           lengthGrow: 0.3
+      -  class: EffectSingle
+         location: target
+         color: 19070B
+         firework: ball
+      -  class: EffectSingle
+         location: target
+         use_wand_location: false
+         effectlib:
+           class: SphereEffect
+           iterations: 100
+           period: 4
+           particle: smoke_large
+           radius: 0.8
+           particles: 600
+  parameters:
+    duration: 10000
+
 accio:
   worth: 10
 locomotomortus:
@@ -1220,12 +1285,14 @@ levicorpus|3:
 
 evanesco:
   worth: 10
-lacarnum:
-  worth: 20
 ferula:
   worth: 20
+
 incarcerous:
   worth: 10
+  parameters:
+    brush: fence
+
 petrificustotalus:
   worth: 20
 reducio:
@@ -1429,6 +1496,7 @@ liberacorpus:
     target_spell: levicorpus
     force: true
     target: self
+    cooldown: 8000
 
 colloshoo:
   category: dada
@@ -1638,7 +1706,7 @@ furnunculus|2:
     velocity: 150
 
 obliviate:
-  category: staff
+  category: charms
   icon_url: http://textures.minecraft.net/texture/89f9399aceb3211c3ca1259d5b1bb1f3fb61a4d5626a757ee1a1ccec28a0ae
   icon: diamond_axe:230
   worth: 25
@@ -2328,3 +2396,111 @@ protegototalus|2:
     y_radius: 6
     duration: 15000
     target_count: 20
+
+lacarnum:
+  icon_url: http://textures.minecraft.net/texture/92d331289b5e527c540652d61561a2e90f52a8755c1c7d0cd1a1a98f49de450
+  icon: diamond_axe:153
+  icon_disabled: diamond_hoe:153
+  category: charms
+  pvp_restricted: true
+  worth: 20
+  upgrade_required_path: year6
+  upgrade_required_casts: 50
+  actions:
+      cast:
+        - class: Projectile
+          actions:
+            - class: Ignite
+            - class: Disc
+              actions:
+                - class: Cover
+                  actions:
+                    - class: Burn
+  effects:
+      cast:
+      -  class: EffectSingle
+         sound: ghast_fireball
+         sound_volume: 1
+         location: both
+      -  class: EffectSingle
+         effectlib:
+           class: ConeEffect
+           iterations: 15
+           particle: lava
+           lengthGrow: 0.4
+  parameters:
+      target_type: Damageable
+      hitbox: true
+      target: other
+      radius: 1
+      range: 40
+      cooldown: 10000
+      target_breakables: 0
+      duration: 1000
+      projectile: SmallFireball
+      spread: 2
+      undo: 1000
+  costs:
+      mana: 100
+
+lacarnum|2:
+  upgrade_required_path: year7
+  upgrade_required_casts: 100
+  parameters:
+    radius: 2
+    duration: 3000
+    undo: 3000
+    spread: 1
+
+lacarnum|3:
+  parameters:
+    radius: 3
+    duration: 4000
+    undo: 4000
+    spread: 0
+    projectile: LargeFireball
+
+emancipare:
+  icon: diamond_axe:177
+  icon_url: http://textures.minecraft.net/texture/b2545861d5871f75caa3b378ec44655bcb3d6cabe697b27303dbdaa8b5b5
+  category: charms
+  worth: 10
+  costs:
+    mana: 20
+  actions:
+    cast:
+      - class: Undo
+        target_spell: incarcerous
+      - class: Undo
+        target_spell: brachiabindo
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.shimmer
+      - class: EffectTrail
+        particle: block_crack
+        material: fence
+  parameters:
+    target: other
+    range: 12
+    cooldown: 5000
+
+brachiabindo:
+  inherit: incarcerous
+  effects:
+    cast:
+      - class: EffectTrail
+        particle: spell
+        reverse: false
+        length: 16
+        particle_count: 6
+  parameters:
+    brush: birch_fence
+    undo: 2000
+
+incarcifors:
+  inherit: cage
+  worth: 25
+  category: transfiguration
+  parameters:
+    undo: 6000

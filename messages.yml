@@ -329,6 +329,10 @@ spells:
     upgrade_description: "&r&8&bull; &eIncreased damage and stun duration."
   lacarnum:
     description: "The Fireball-Conjuring Curse"
+  lacarnum|2:
+    upgrade_description: "&r&8&bull; &eIncreased radius, duration, and accuracy."
+  lacarnum|3:
+    upgrade_description: "&r&8&bull; &eIncreased radius, duration, size, and accuracy."
   petrificustotalus:
     description: "The Body-Binding Spell"
   ferula:
@@ -450,6 +454,8 @@ spells:
     description: "The Revealing Charm"
   obscuro:
     description: "The Vision-Obscuring Hex"
+  obscuro|2:
+    upgrade_description: "&r&9&bull; &eIncreased density and potency."
   periculux:
     description: "The Rainbow-Sparks Charm"
   volo:
@@ -609,6 +615,15 @@ spells:
     description: "The Whip-Conjuring Hex"
   flagellos|2:
     upgrade_description: "&r&8&bull; &eIncreased damage."
+  emancipare:
+    name: "Emancipare"
+    description: "The Unbinding Charm"
+  incarcifors:
+    name: "Incarcifors"
+    description: "The Cage-Conjuring Spell"
+  brachiabindo:
+    name: "Brachiabindo"
+    description: "The Binding Jinx"
 
 # Annoying messages stuff
 

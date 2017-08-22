@@ -29,6 +29,8 @@ year2:
     - incendio
     - colloshoo
     - evertestatum
+    - brachiabindo
+    - emancipare
   required_spells:
     - duro
 
@@ -86,6 +88,7 @@ year5:
     - longapparate
     - defodio
     - lapifors
+    - incarcerous
   required_spells:
     - aparecium
 
@@ -94,7 +97,6 @@ year6:
   spells:
     - aguamenti
     - disillusion
-    - incarcerous
     - levicorpus
     - liberacorpus
     - reducio
@@ -106,6 +108,7 @@ year6:
     - furnunculus
     - bruchumaculeatos
     - protegototalus
+    - lacarnum
   required_spells:
     - patronus
 
@@ -114,7 +117,6 @@ year7:
   spells:
     - atmos
     - meteo
-    - lacarnum
     - piertotum
     - ventus
     - vulnera
@@ -124,6 +126,8 @@ year7:
     - erecto
     - expulso
     - fiendfyre
+    - incarcifors
+    - obliviate
   required_spells:
     - protegomaxima
   upgrade_commands:
