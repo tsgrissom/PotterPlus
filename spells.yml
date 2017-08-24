@@ -1,3 +1,38 @@
+# Hats
+
+hat_ice:
+  hidden: true
+  icon: ice
+  actions:
+    cast:
+      - class: Hat
+  parameters:
+    target: self
+    brush: ice
+    cooldown: 60000
+
+# Potion Spells
+
+forgetfulnesspotion:
+  hidden: true
+  category: potions
+  icon: potion
+  actions:
+    cast:
+      - class: PotionEffect
+      - class: Delay
+      - class: Disarm
+      - class: Message
+  parameters:
+    effect_confusion: 2
+    duration: 5000
+    delay: 500
+    keep_in_inventory: false
+    target: self
+    message: "&cHmm... where did my stuff go?"
+    message_type: title
+    undo: 5000
+
 # Testing Recall Stuff
 
 longapparate:
@@ -129,10 +164,40 @@ fergalicious:
 deletrius:
   enabled: false
 
-# Enabled
+beat:
+  enabled: false
 
-webbing:
-  enabled: true
+expulsion:
+  enabled: false
+
+avadamaxima:
+  enabled: false
+
+confundusmaxima:
+  enabled: false
+
+dementor:
+  enabled: false
+
+floo:
+  enabled: false
+
+morsmordre:
+  enabled: false
+
+reductomaxima:
+  enabled: false
+
+reparo:
+  enabled: false
+
+reparomaxima:
+  enabled: false
+
+ticketshop:
+  enabled: false
+
+# Enabled
 
 tweakshop:
   enabled: true
@@ -2504,3 +2569,63 @@ incarcifors:
   category: transfiguration
   parameters:
     undo: 6000
+
+flight:
+  inherit: false
+  icon: diamond_axe:134
+  icon_url: http://textures.minecraft.net/texture/a35cfb663dbde27598eebe76b0fdac2593f1d696b3e6b9e044edeb8d48c2e2
+  worth: 30
+  show_undoable: false
+  quick_cast: false
+  cancel_effects: true
+  category: elective
+  upgrade_required_casts: 50
+  actions:
+    cast:
+      - class: MountArmorStand
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: enderdragon_wings
+        location: origin
+        source_location: eyes
+        color_override: color
+        effectlib:
+          class: SphereEffect
+          particle: redstone
+          radius: 1.5
+          particles: 500
+          color: FFFFFF
+    deactivate:
+      - class: EffectSingle
+        sound: enderdragon_wings
+        sound_pitch: 0.2
+  parameters:
+    target: self
+    start_speed: 1.5
+    steer_speed: 0.6
+    max_height_above_ground: 5
+    liftoff_duration: 600
+    liftoff_thrust: 0.6
+    direction_y: 0.5
+  costs:
+    mana: 20
+  active_costs:
+    mana: 10
+
+flight|2:
+  upgrade_required_casts: 75
+  parameters:
+    start_speed: 2
+    max_height_above_ground: 10
+    steer_speed: 0.8
+    liftoff_duration: 500
+    liftoff_thrust: 0.8
+
+flight|3:
+  parameters:
+    start_speed: 2.5
+    max_height_above_ground: 20
+    steer_speed: 1
+    liftoff_duration: 400
+    liftoff_thrust: 1

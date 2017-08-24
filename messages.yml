@@ -25,7 +25,10 @@ categories:
         description: Spells to transform, switch, vanish, or conjure objects.
     creatures:
         name: Magical Creatures
-        description: Spells used to control magical creatures.
+        description: Spells used to control magical creature.
+    potions:
+      name: Potions
+      description: Spells thatt are only casted by potions.
 
 # AC
 
@@ -104,6 +107,12 @@ wands:
     sp_instructions: ""
   swordofgryffindor:
     name: "&4&lSword of &6&lGryffindor"
+  lightflight:
+    name: "Light Flight"
+    description: "Turns your Flight ability white."
+  darkflight:
+    name: "Dark Flight"
+    description: "Turns your Flight ability black."
 
 # Spells
 
@@ -624,6 +633,13 @@ spells:
   brachiabindo:
     name: "Brachiabindo"
     description: "The Binding Jinx"
+  flight:
+    name: "Flight"
+    description: "The Flight Ability"
+  flight|2:
+    upgrade_description: "&r&8&bull; &eIncreased speed, height, steer speed, and thrust. Decreased liftoff duration."
+  flight|3:
+    upgrade_description: "&r&8&bull; &eIncreased speed, height, steer speed, and thrust. Decreased liftoff duration."
 
 # Annoying messages stuff
 
