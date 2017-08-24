@@ -286,6 +286,10 @@ spells:
     description: "The Snow-Animating Jinx"
   patronus:
     description: "The Patronus Charm"
+  patronus|2:
+    upgrade_description: "&r&8&bull; &eIncreased speed."
+  patronus|3:
+    upgrade_description: "&r&8&bull; &eYour Patronus becomes corporeal."
   bombarda:
     description: "The Exploding Spell"
   bombarda|2:
@@ -448,6 +452,8 @@ spells:
     description: "The Dark Mark Spell"
   firestorm:
     description: "The Incineration Curse"
+  firestorm|2:
+    upgrade_description: "&r&8&bull; &eIncreased damage, power, radius, and duration. No chance of fizzling."
   tripudio:
     description: "The Hopping Charm"
   confundus:
@@ -639,6 +645,10 @@ spells:
   flight|2:
     upgrade_description: "&r&8&bull; &eIncreased speed, height, steer speed, and thrust. Decreased liftoff duration."
   flight|3:
+    upgrade_description: "&r&8&bull; &eIncreased speed, height, steer speed, and thrust. Decreased liftoff duration."
+  flight|4:
+    upgrade_description: "&r&8&bull; &eIncreased speed, height, steer speed, and thrust. Decreased liftoff duration."
+  flight|5:
     upgrade_description: "&r&8&bull; &eIncreased speed, height, steer speed, and thrust. Decreased liftoff duration."
 
 # Annoying messages stuff
