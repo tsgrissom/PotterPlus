@@ -220,6 +220,8 @@ spells:
     description: "The Fire-Making Spell"
   incendio|2:
     upgrade_description: "&r&8&bull; &eIncreased size and duration."
+  incendio|3:
+    upgrade_description: "&r&8&bull; &eIncreased size and duration."
   conjunctivitis:
     description: "The Blinding Hex"
   alohomora:
@@ -650,6 +652,9 @@ spells:
     upgrade_description: "&r&8&bull; &eIncreased speed, height, steer speed, and thrust. Decreased liftoff duration."
   flight|5:
     upgrade_description: "&r&8&bull; &eIncreased speed, height, steer speed, and thrust. Decreased liftoff duration."
+  homenumrevelio:
+    name: "Homenum Revelio"
+    description: "The Human-Presence Revealing Charm"
 
 # Annoying messages stuff
 

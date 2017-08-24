@@ -2704,6 +2704,8 @@ patronus:
   icon_disabled: diamond_hoe:131
   category: charms
   worth: 15
+  costs:
+    mana: 50
   actions:
     cast:
       - class: CustomProjectile
@@ -2784,3 +2786,74 @@ patronus|3:
           rows: 10
   parameters:
     type: chicken
+
+revelio:
+  inherit: false
+  icon: diamond_axe:74
+  icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
+  category: charms
+  worth: 10
+  costs:
+    mana: 20
+  actions:
+    cast:
+      - class: AreaOfEffect
+        actions:
+          - class: PotionEffect
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap
+        use_wand_location: false
+        effectlib:
+          offset: 0,2,0
+          class: HelixEffect
+          iterations: 1
+          particle: water_wake
+          radius: 5
+  parameters:
+    radius: 5
+    y_radius: 5
+    target_count: 12
+    target_source: false
+    target: other_entity
+    target_type: LivingEntity
+    cooldown: 12000
+    remove_effects:
+      - invisibility
+
+homenumrevelio:
+  icon: diamond_axe:74
+  icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
+  category: charms
+  worth: 10
+  costs:
+    mana: 40
+  actions:
+    cast:
+      - class: AreaOfEffect
+        actions:
+          - class: PotionEffect
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap_crack
+        sound_volume: 0.8
+        sound_pitch: 0.8
+        location: origin
+        target_offset: 0,10,0
+        use_wand_location: false
+        effectlib:
+          class: SphereEffect
+          particle: smoke_normal
+          radius: 1.5
+  parameters:
+    radius: 50
+    y_radius: 50
+    target_count: 24
+    target_source: false
+    effect_glowing: 2
+    duration: 8000
+    target: other_entity
+    target_type: LivingEntity
+    cooldown: 24000

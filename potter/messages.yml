@@ -232,10 +232,9 @@ spells:
         cast: Duro!
     rennervate:
         name: Rennervate
-        description: Wake a stunned person
-        cast_self: Rennervate!
-        cast: Rennervate $target!
-        cast: Rennervate!
+        description: The Awakening Charm
+        cast_self: "&7Rennervate!"
+        cast: "&7Rennervate &e$target&7!"
     floo:
         name: Fire Protection
         description: Use to avoid fire damage
