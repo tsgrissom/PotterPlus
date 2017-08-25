@@ -2804,12 +2804,14 @@ revelio:
     cast:
       - class: EffectSingle
         sound: magic.zap
+        location: origin
         use_wand_location: false
         effectlib:
           offset: 0,2,0
-          class: HelixEffect
+          class: SphereEffect
           iterations: 1
-          particle: water_wake
+          particle: spell_instant
+          particles: 100
           radius: 5
   parameters:
     radius: 5
@@ -2845,7 +2847,7 @@ homenumrevelio:
         use_wand_location: false
         effectlib:
           class: SphereEffect
-          particle: smoke_normal
+          particle: crit_magic
           radius: 1.5
           iterations: 20
   parameters:
