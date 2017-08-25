@@ -2816,7 +2816,7 @@ revelio:
     y_radius: 5
     target_count: 12
     target_source: false
-    target: other_entity
+    target: self
     target_type: LivingEntity
     cooldown: 12000
     remove_effects:
@@ -2847,13 +2847,14 @@ homenumrevelio:
           class: SphereEffect
           particle: smoke_normal
           radius: 1.5
+          iterations: 20
   parameters:
-    radius: 50
-    y_radius: 50
+    radius: 25
+    y_radius: 25
     target_count: 24
     target_source: false
     effect_glowing: 2
-    duration: 8000
-    target: other_entity
+    duration: 24000
+    target: self
     target_type: LivingEntity
     cooldown: 24000
