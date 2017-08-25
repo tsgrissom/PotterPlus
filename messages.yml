@@ -295,7 +295,7 @@ spells:
   bombarda:
     description: "The Exploding Spell"
   bombarda|2:
-    upgrade_description: "&r&8&bull; &eIncreased range and size."
+    upgrade_description: "&r&8&bull; &eIncreased size."
   rennervate:
     description: "The Awakening Spell"
   bubblehead:
@@ -647,10 +647,6 @@ spells:
   flight|2:
     upgrade_description: "&r&8&bull; &eIncreased speed, height, steer speed, and thrust. Decreased liftoff duration."
   flight|3:
-    upgrade_description: "&r&8&bull; &eIncreased speed, height, steer speed, and thrust. Decreased liftoff duration."
-  flight|4:
-    upgrade_description: "&r&8&bull; &eIncreased speed, height, steer speed, and thrust. Decreased liftoff duration."
-  flight|5:
     upgrade_description: "&r&8&bull; &eIncreased speed, height, steer speed, and thrust. Decreased liftoff duration."
   homenumrevelio:
     name: "Homenum Revelio"
