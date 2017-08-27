@@ -70,6 +70,7 @@ year4:
     - melofors
     - depulso
     - homenumrevelio
+    - arrowmaxima
   required_spells:
     - episkey
 
@@ -91,6 +92,7 @@ year5:
     - defodio
     - lapifors
     - incarcerous
+    - multabasiorum
   required_spells:
     - aparecium
 

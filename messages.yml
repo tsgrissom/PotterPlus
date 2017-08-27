@@ -155,6 +155,8 @@ spells:
     deducted: "&6(&eMagic&6) &7You bought &e$item &7for &e$cost&7."
   ollivander:
     cast: "&6(&eMagic&6) &7You exchanged &e$requires &7for &e$item&7."
+    insufficient_resources: "&6(&eMagic&6) &cYou must have &4$requires&c."
+    title: "Wand Shop"
   broom:
     cast: "&6(&eMagic&6) &7Your broom springs to life."
     deactivate: "&6(&eMagic&6) &7Your broom quiets down."
@@ -216,6 +218,15 @@ spells:
     upgrade_description: "&r&8&bull; &eIncreased damage, accuracy and velocity."
   arrow|4:
     upgrade_description: "&r&8&bull; &eIncreased damage, accuracy and velocity."
+  arrowmaxima:
+    name: "Arrow Maxima"
+    description: "The Arrow-Conjuring Spell"
+  arrowmaxima|2:
+    upgrade_description: "&r&8&bull; &eIncreased damage and arrow count. Decreased spread."
+  arrowmaxima|3:
+    upgrade_description: "&r&8&bull; &eIncreased damage and arrow count. Decreased spread and delay."
+  arrowmaxima|4:
+    upgrade_description: "&r&8&bull; &eArrows are ignited."
   incendio:
     description: "The Fire-Making Spell"
   incendio|2:
@@ -295,7 +306,7 @@ spells:
   bombarda:
     description: "The Exploding Spell"
   bombarda|2:
-    upgrade_description: "&r&8&bull; &eIncreased size."
+    upgrade_description: "&r&8&bull; &eIncreased size and range."
   rennervate:
     description: "The Awakening Spell"
   bubblehead:
@@ -367,6 +378,16 @@ spells:
   apparate:
     name: "Short-Distance Apparition"
     description: "The Apparition Spell"
+  apparate|2:
+    upgrade_description: "&r&8&bull; &eIncreased range."
+  apparate|3:
+    upgrade_description: "&r&8&bull; &eIncreased range."
+  apparate|4:
+    upgrade_description: "&r&8&bull; &eIncreased range."
+  apparate|5:
+    upgrade_description: "&r&8&bull; &eIncreased range."
+  apparate|6:
+    upgrade_description: "&r&8&bull; &eIncreased range."
   ventus:
     description: "The Wind-Blasting Jinx"
   disillusion:
@@ -651,6 +672,18 @@ spells:
   homenumrevelio:
     name: "Homenum Revelio"
     description: "The Human-Presence Revealing Charm"
+  percutios:
+    name: "Percutios"
+    description: "The Tempest Jinx"
+  percutios|2:
+    upgrade_description: "&r&8&bull; &eIncreased damage."
+  multabasiorum:
+    name: Multa Basiorium
+    description: "The Cascading Jinx"
+  multabasiorum|2:
+    upgrade_description: "&r&8&bull; &eIncreased damage, size. Now targets up to five creatures."
+  multabasiorum|3:
+    upgrade_description: "&r&8&bull; &eIncreased damage, size. Now targets up to eight creatures."
 
 # Annoying messages stuff
 

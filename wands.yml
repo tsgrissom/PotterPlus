@@ -123,6 +123,7 @@ potterwand:
   icon: diamond_hoe:40,diamond_hoe:50,diamond_hoe:70
   spells:
     - lumos
+    - aparecium
   active_spell: lumos
 
 # Staff Wands
