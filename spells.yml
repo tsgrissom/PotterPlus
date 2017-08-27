@@ -3116,10 +3116,9 @@ multabasiorum|2:
   upgrade_required_casts: 75
   parameters:
     damage: 5
-    size: 1
     target_count: 5
 
 multabasiorum|3:
   parameters:
-    size: 1.5
+    damage: 7
     target_count: 5

@@ -681,9 +681,9 @@ spells:
     name: Multa Basiorium
     description: "The Cascading Jinx"
   multabasiorum|2:
-    upgrade_description: "&r&8&bull; &eIncreased damage, size. Now targets up to five creatures."
+    upgrade_description: "&r&8&bull; &eIncreased damage. Now targets up to five creatures."
   multabasiorum|3:
-    upgrade_description: "&r&8&bull; &eIncreased damage, size. Now targets up to eight creatures."
+    upgrade_description: "&r&8&bull; &eIncreased damage. Now targets up to eight creatures."
 
 # Annoying messages stuff
 
