@@ -687,6 +687,10 @@ spells:
   brackiumemendo:
     name: Brackium Emendo
     description: "The Bone-Mending Charm"
+  brackiumemendo|2:
+    upgrade_description: "&r&8&bull; &eIncreased efficacy."
+  brackiumemendo|3:
+    upgrade_description: "&r&8&bull; &eIncreased efficacy."
 
 # Annoying messages stuff
 
