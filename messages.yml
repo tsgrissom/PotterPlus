@@ -28,7 +28,7 @@ categories:
         description: Spells used to control magical creature.
     potions:
       name: Potions
-      description: Spells thatt are only casted by potions.
+      description: Spells that are only casted by potions.
 
 # AC
 

@@ -3125,7 +3125,9 @@ multabasiorum|3:
 
 brackiumemendo:
   inherit: ferula
+  cost: 10
   icon_url: http://textures.minecraft.net/texture/964590674dbaf76126bd87694bfe97575be8de19aac4a8d9aa5579f8f01ed1
+  category: charms
   actions:
     cast:
       - class: Repeat
@@ -3148,3 +3150,18 @@ brackiumemendo:
     count: 3
     amount: 3
     delay: 1000
+
+brackiumemendo|2:
+  upgrade_required_path: year3
+  upgrade_required_casts: 75
+  parameters:
+    count: 5
+    amount: 4
+    delay: 500
+
+brackiumemendo|3:
+  upgrade_required_path: year4
+  upgrade_required_casts: 100
+  parameters:
+    amount: 5
+    delay: 250
