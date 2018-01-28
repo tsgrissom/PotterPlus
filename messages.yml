@@ -684,6 +684,9 @@ spells:
     upgrade_description: "&r&8&bull; &eIncreased damage. Now targets up to five creatures."
   multabasiorum|3:
     upgrade_description: "&r&8&bull; &eIncreased damage. Now targets up to eight creatures."
+  brackiumemendo:
+    name: Brackium Emendo
+    description: "The Bone-Mending Charm"
 
 # Annoying messages stuff
 
