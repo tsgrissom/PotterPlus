@@ -2,7 +2,10 @@
 # !! IMPORTANT !!
 #
 # If you wish to customize this plugin, edit the "mobs.yml" file instead.
-# 
+#
+# DO NOT JUST COPY THIS WHOLE FILE INTO YOUR mobs.yml !!!!
+# If you do this, updating the plugin in the future may not work as expected.
+#
 # This file is merged from the files in the following folder:
 #
 # https://github.com/elBukkit/MagicPlugin/tree/master/src/main/resources/defaults/mobs
@@ -22,9 +25,7 @@ dark_spider:
   - sp:8
   potion_effects:
   - type: speed
-    amplifier: 1
-  - type: increase_damage
-    amplifier: 2
+    amplifier: 0
     
 dark_wizard:
   name: Dark Wizard
@@ -69,6 +70,16 @@ dark_wizard:
   - type: speed
     amplifier: 1
     
+killer_bunny:
+  type: rabbit
+  rabbit_type: the_killer_bunny
+  name: Killer Bunny
+  health: 100
+  default_drops: false
+  drops:
+  - gold_nugget@10
+  - sp:10
+
 madscientist:
   name: Mad Scientist
   type: pig_zombie
@@ -107,10 +118,8 @@ mega_spider:
   - gold_nugget@10
   - sp:10
   potion_effects:
-  - type: speed
-    amplifier: 0
   - type: increase_damage
-    amplifier: 3
+    amplifier: 0
     
 mutant:
   type: pig_zombie
@@ -177,13 +186,14 @@ undead_overlord:
   name: Undead Overlord
   health: 150
   potion_effects:
-  - type: speed
+  - type: increase_damage
     amplifier: 1
     
 warlock:
   type: zombie
   villager_profession: butcher
   item: warlock_wand
+  cast_requires_item: warlock_wand
   chestplate: warlock_chestplate
   leggings: warlock_leggings
   helmet: chainmail_helmet
@@ -204,7 +214,3 @@ warlock:
   drops:
   - gold_nugget@16
   - sp:16
-  potion_effects:
-  - type: speed
-    amplifier: 1
-

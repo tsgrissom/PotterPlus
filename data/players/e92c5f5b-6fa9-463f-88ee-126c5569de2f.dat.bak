@@ -533,23 +533,20 @@ wands:
   ticket:
     item:
       ==: org.bukkit.inventory.ItemStack
-      type: PAPER
+      type: WOOD_HOE
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §6Wand Ticket
+        display-name: §bWand
         lore:
-        - §o§aTake this to a wand shop to
-        - §a get your first wand!
-        - §3§oBound to (H)(Headmaster) TylerFortescue
-        ItemFlags: !!set
-          HIDE_PLACED_ON: null
-          HIDE_ENCHANTS: null
-          HIDE_UNBREAKABLE: null
-          HIDE_POTION_EFFECTS: null
-          HIDE_ATTRIBUTES: null
-          HIDE_DESTROYS: null
-        Unbreakable: true
+        - §2§o(H)(Headmaster) TylerFortescue's Wand
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
         internal: H4sIAAAAAAAAAB3LPQrCMAAG0A+0WnoIcXBohwxGE5oLSA/gLjH5AsH+SBot3l5xf68CKqwXO/oSZebw7G0mNjm6B3OJYlpGJuzqrqk7Wj/YOTM1++unZ7pMKXN2L/7q392ix4FGOhXUXehgjTjrUxBtS4qj1E4pbTxlWGH7ZprjNAIogC/kfPjdhgAAAA==
     wand:
       template: ticket
@@ -564,21 +561,20 @@ wands:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §6Crucio§f (§3Wand§f)
+        display-name: §bWand
         lore:
         - §o§aRosewood and Pheonix Feather
-        - §3§oBound to (H)(Headmaster) TylerFortescue
-        - Knows 89 Spells
+        - §2§o(H)(Headmaster) TylerFortescue's Wand
+        - Knows 2 Spells
         - §6Cost Reduction X
         - §6Cooldown Reduction X
-        ItemFlags: !!set
-          HIDE_PLACED_ON: null
-          HIDE_ENCHANTS: null
-          HIDE_UNBREAKABLE: null
-          HIDE_POTION_EFFECTS: null
-          HIDE_ATTRIBUTES: null
-          HIDE_DESTROYS: null
-        Unbreakable: true
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
         internal: H4sIAAAAAAAAAHVXS3cURRQupiaTyQACQfEBYo6gB9SgBBIJCyQKGJSH8lj4wLGmu3qmpLqrqa6eJDs3/gbXHrcu/AH+Btf+Fld+t3qmp3oSc07Oya2uqnvru9/97k2PsR5r74gs7rKuk2muhZOslxvnpK2WF8xOJi07e2H74oVtKeJUFPh2ceXJnpb2jrFOFlEpO2w5MkbH2Ny3Mi4jp0x28zzzP232Uioy0XcqlYUTac7YoWe/Jf9wOPW391XMzsvNtWg9WR+sbiRic/XqxpVk9do1KVcvr21E6+sbm7FcS7qsrSKTscM7xsT9kZHX16522eEYMViVk0925pEpJH1eQfgrX42kydTuyh0p3Ehazjoj4wbCUlicLY6lLegQYws9dqzIpdZ9lY1l5ozdw/dY5lalBt8PcdYVRSSzWJHJYcqxyOCYzHXOFoS1Zgd/n8Enh2jKaucGZ0sqzaUdq7IgR/g8MCliiAXMq5wdEVZkSsjdMhUKSx1ESSH47YuIogKULutyPFYVSutyEvfHHPkbKUDKrnH2kjaRSY3Dr63OI9DDKouEjaQ1fqWNgIBhYlU2NBMPPkAf7iZnJ3KJ+BMVlYUzTmh/6jruAVopXKvqHuB3TGgBAlS4CCuxeJyzo9gXq2DniYnHMou9fQN3WRUhQDDOEgqfYEWrFAtTEG5y1jM2GqlYVpcs46FxaSe5WEoUXCZ73uenACwvdeH3ncTBQTkYaDkCW7HwGXKTSifp5C2Ar0WuEmNp721cFEtNz/Vn79DFprS5UZmD/QpsMSxFimxQUJ9zdjxRmXKSIM0ciiXFcsunODWDssLqFBAFG8B18rmNwMVY0YdXiTVA3Q491q/BjFWCG2MyP0KgSZka2vk6ec4BaaRKcvEGtha5yYYq2YP5BZmZ2RkIrWGeRuanX1Oxq1LC9EvsSbTKZXU7WLVoBqhVD+E9T6ux1D6Q+7AKV+bSX/4yDubCWZP515xFWHoS1gOAq+UYNWjzmkxEnQhPpzgfIv25NU4OTR3IORyyMkOdj0ldGDvP2Sm5S8cIWDyBbi+M9mC+DSpERmuTTyn8Nc7vgKyomAqMR+RUSQt2evtdIDw2ml7yGFSIbBn5ZzGfbXA/89su4JWT2GC9CWuIr1XmV6dl5g/eDV61C/sJZzwz9NdTXIncT2XgLdKQUuNp9NBv4HxghkoWFSkWZa6K55Iw3aIyH4tYPJexGPvd32KJUECZCJv6KK5gqZAojLSujIt4PIq5wG/syf4eFhIF8hlUA5HyfdKeqAr8O8DvSE4IVTn0N3yAqBJpSy0q9ekBXYNUWEUL31MtSjBNJcIOycEzkAnV+lOZQcTHynnmXqLEh2n6gby6ihUfeqYJuPPpvUzc1WZEIkQu+rCBXs2HH0lKc7istgtcLV6UAiFWIveOL29fPpZcrbEuwKNgZN9L9DTFPaDlJVsTk4uGXvOAtXyetbwp5q1AvdtNeW415LfVJBRvEIo3CMUbhOJN2vB9YsoPkE0e0ok36MT3c2dhpo+tMON8TsNaB6W3dbCwtZsCxeczxZsSwxsyssA65Klw+wcChJoLTza2xDo+h0WXCqgJS53O/bHN0hdmNmi0zaY67ad1LiuopvDOt81Gx5xCOXtp0D73dcC5LIY9bNqjaoyCXhP0j6pZzPrEpCcE7WAm/RPa1iyc6faMbnN6HEpxmM1AUacKOuN6U5VCQQq1aE566mqY59tEOGbUmqlHUPhNgs+KcjZ3zcasxlBUzUP1THPAOBNMI41BpDGD1OUWzBrhZDEZKmbzRDBKBBVXTwK1HMwa+XzTrht03ZsnGhb02P/rnI2mGfbLqjUG/cy3srptNdvSpJOEPaLRHsImEIh8oO+1tHfYkWrW7kemzNxNNvlZYstbDjANSifvG3AAvCt6NNa1Wffp07u37kMz/j1348zWz9uyzZZo6R4qzP15+q+/f/3lj987rLOV+isncoL/Ch5r41gXactG/r+Wo7WLB8gDOzmUGb3/knBORM8f51LG0MWHAEW4apCmW/ze5dsvSpUTvivT8Bj7D/GJeyEpDQAA
     wand:
       template: potterwand

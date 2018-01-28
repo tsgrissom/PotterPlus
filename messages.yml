@@ -671,7 +671,7 @@ spells:
     upgrade_description: "&r&8&bull; &eIncreased speed, height, steer speed, and thrust. Decreased liftoff duration."
   homenumrevelio:
     name: "Homenum Revelio"
-    description: "The Human-Presence Revealing Charm"
+    description: "The Presence-Revealing Charm"
   percutios:
     name: "Percutios"
     description: "The Tempest Jinx"

@@ -2,7 +2,10 @@
 # !! IMPORTANT !!
 #
 # If you wish to customize this plugin, edit the "crafting.yml" file instead.
-# 
+#
+# DO NOT JUST COPY THIS WHOLE FILE INTO YOUR crafting.yml !!!!
+# If you do this, updating the plugin in the future may not work as expected.
+#
 # This file is merged from the files in the following folder:
 #
 # https://github.com/elBukkit/MagicPlugin/tree/master/src/main/resources/defaults/crafting
@@ -125,6 +128,19 @@ elytra:
   row_1: " e "
   row_2: "ini"
   row_3: "i i"
+emeraldsword:
+  output: emerald_sword
+  output_type: item
+
+  materials:
+    o: stick
+    i: emerald
+    
+  row_1: i
+  row_2: i
+  row_3: o
+
+
 flashboots:
   enabled: false
   output: flashboots
@@ -169,6 +185,19 @@ magichat:
   row_1: o
   row_2: i
   row_3:
+
+mirrorshield:
+  output: mirrorshield
+  output_type: wand
+
+  materials:
+    o: nether_star
+    i: shield
+    
+  row_1: o
+  row_2: i
+  row_3:
+
 
 name_tag:
   enabled: false
@@ -226,6 +255,29 @@ saddle:
   row_2: "lll"
   row_3: "l l"
   
+spellbook:
+  output: spellbook
+  output_type: wand
+
+  materials:
+    o: nether_star
+    i: book
+
+  row_1: o
+  row_2: i
+  row_3:
+
+
+talisman:
+  output: talisman
+  output_type: wand
+  materials:
+    o: nether_star
+    i: gold_nugget
+  row_1: " i "
+  row_2: "ioi"
+  row_3: " i "
+
 wand:
   # This defines the recipe output- a template wand will be created, and
   # then upgraded based on its enchanting path and the # of levels in parenthesis
@@ -302,7 +354,7 @@ zombie_leather:
   output_type: item
   materials:
     o: rotten_flesh
-  row_1: ooo
-  row_2: ooo
-  row_3: ooo
+  row_1: oo
+  row_2: oo
+  row_3: 
 
