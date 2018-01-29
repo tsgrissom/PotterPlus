@@ -125,7 +125,7 @@ default:
 #
 # DO NOT JUST COPY THIS WHOLE FILE INTO YOUR spells.yml !!!!
 # If you do this, updating the plugin in the future may not work as expected.
-# 
+#
 # This file is merged from the files in the following folder:
 #
 # https://github.com/elBukkit/MagicPlugin/tree/master/src/main/resources/defaults/spells
@@ -2425,7 +2425,7 @@ bridge:
         target_offset: 0,-2,0
     costs:
         mana: 5
-    
+
 broom:
     icon: diamond_axe:168
     icon_disabled: diamond_hoe:168
@@ -2755,7 +2755,7 @@ buyshop:
         confirm: false
         auto_close: false
         use_items: false
-        
+
 cage:
     icon: diamond_axe:157
     icon_disabled: diamond_hoe:157
@@ -2832,7 +2832,7 @@ capture:
          firework: star
   parameters:
     range: 32
-    
+
 cat:
     icon: diamond_axe:70
     icon_disabled: diamond_hoe:70
@@ -3037,7 +3037,7 @@ cloak:
         duration: 8000
         cooldown: 30000
         effect_invisibility: 5
-    
+
 cluster:
     icon: diamond_axe:92
     icon_disabled: diamond_hoe:92
@@ -4054,7 +4054,7 @@ dragonball:
              iterations: 15
              particle: dragon_breath
              lengthGrow: 0.1
-           sound: entity_enderdragon_shoot 
+           sound: entity_enderdragon_shoot
            sound_volume: 1
            sound_pitch: 0.25
         -  class: EffectSingle
@@ -4081,7 +4081,7 @@ dragonball:
         break_blocks: false
     costs:
         mana: 100
-        
+
 earth:
     icon: diamond_axe:141
     icon_disabled: diamond_hoe:141
@@ -4917,7 +4917,7 @@ fling|4:
         cooldown: 0
     costs:
         mana: 90
-  
+
 floodfill:
     icon: diamond_axe:82
     icon_disabled: diamond_hoe:82
@@ -5311,13 +5311,13 @@ fury:
           track_speed: 0.1
     costs:
         mana: 100
-        
+
 fury|2:
     upgrade_required_path: master
     upgrade_required_casts: 50
     parameters:
       target_count: 6
-      
+
 fury|3:
     parameters:
       target_count: 8
@@ -6028,7 +6028,7 @@ glide:
         delay: 750
     costs:
         mana: 100
-                     
+
 glider:
     hidden: true
     icon: diamond_axe:14
@@ -6794,7 +6794,7 @@ itemshop:
           cost: 100
         - item: bed
           cost: 200
-  
+
 iterate:
     icon: diamond_axe:142
     icon_disabled: diamond_hoe:142
@@ -7976,7 +7976,7 @@ mobshop:
     - witherarcheregg
     - zombiehorseegg
     - skelliehorseegg
-      
+
 monster:
     icon: diamond_axe:64
     icon_disabled: diamond_hoe:64
@@ -8105,168 +8105,168 @@ note:
              particleOffsetY: 0.1
              particleOffsetZ: 2
              iterations: 3
-                     
+
 note01:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/c4c932901eaf61a741a8fa8a786fa9e509b13ba518f384c6c731086ffdc829e
     parameters:
       sound: flute.1C
-      
+
 note02:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/def3c2c36a1f9328061af375aaf22f7d1d7921e97e57ea5fb7a99fdcb12540
     parameters:
       sound: flute.2C#
-      
+
 note03:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
     parameters:
       sound: flute.3D
-      
+
 note04:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/def3c2c36a1f9328061af375aaf22f7d1d7921e97e57ea5fb7a99fdcb12540
     parameters:
       sound: flute.4D#
-               
+
 note05:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
     parameters:
       sound: flute.5E
-               
+
 note06:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
     parameters:
       sound: flute.6F
-               
+
 note07:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/def3c2c36a1f9328061af375aaf22f7d1d7921e97e57ea5fb7a99fdcb12540
     parameters:
       sound: flute.7F#
-               
+
 note08:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
     parameters:
        sound: flute.8G
-               
+
 note09:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/def3c2c36a1f9328061af375aaf22f7d1d7921e97e57ea5fb7a99fdcb12540
     parameters:
       sound: flute.9G#
-               
+
 note10:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
     parameters:
       sound: flute.10A
-        
+
 note11:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/def3c2c36a1f9328061af375aaf22f7d1d7921e97e57ea5fb7a99fdcb12540
     parameters:
       sound: flute.11A#
-               
+
 note12:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
     parameters:
       sound: flute.12B
-        
+
 note13:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/812a772ef923c597e12f41986d7bea9a9387055eb17eeebb1d8c6de3ca25f
     parameters:
       sound: flute.13Coctave
-               
+
 note14:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/def3c2c36a1f9328061af375aaf22f7d1d7921e97e57ea5fb7a99fdcb12540
     parameters:
       sound: flute.14C#
-        
+
 note15:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
     parameters:
       sound: flute.15D
-               
+
 note16:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/def3c2c36a1f9328061af375aaf22f7d1d7921e97e57ea5fb7a99fdcb12540
     parameters:
       sound: flute.16D#
-        
+
 note17:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
     parameters:
       sound: flute.17E
-               
+
 note18:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
     parameters:
       sound: flute.18F
-               
+
 note19:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/def3c2c36a1f9328061af375aaf22f7d1d7921e97e57ea5fb7a99fdcb12540
     parameters:
       sound: flute.19F#
-               
+
 note20:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
     parameters:
       sound: flute.20G
-               
+
 note21:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/def3c2c36a1f9328061af375aaf22f7d1d7921e97e57ea5fb7a99fdcb12540
     parameters:
       sound: flute.21G#
-               
+
 note22:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/d0347fcef38a2fd59eefafb5e969f8536c7c13783b822a12d02f43a9a21d56
     parameters:
       sound: flute.22A
-               
+
 note23:
     hidden: true
     inherit: note
     icon_url: http://textures.minecraft.net/texture/def3c2c36a1f9328061af375aaf22f7d1d7921e97e57ea5fb7a99fdcb12540
     parameters:
       sound: flute.23A#
-               
+
 note24:
     hidden: true
     inherit: note
@@ -9725,7 +9725,7 @@ railgun:
         transparent: air,water,stationary_water
     costs:
         mana: 150
-                
+
 rainbow:
     icon: diamond_axe:193
     icon_disabled: diamond_hoe:193
@@ -10194,7 +10194,7 @@ rollback:
         -  class: Undo
            target_down: true
     effects:
-        no_target: 
+        no_target:
         -  class: EffectSingle
            sound: magic.bonk
            sound_volume: 1
@@ -10692,7 +10692,7 @@ saplingshop:
         - sapling|3
         - sapling|4
         - sapling|5
-          
+
 naturesellshop:
     inherit: sellshop
     parameters:
@@ -10728,7 +10728,7 @@ miningsellshop:
         - coal@64
         - iron_ore@64
         - gold_ore@64
-          
+
 clayshop:
     inherit: buyshop
     parameters:
@@ -10848,7 +10848,7 @@ redstoneshop:
         - wood_button
         - stone_plate
         - wood_plate
-      
+
 redstonesellshop:
     inherit: sellshop
     parameters:
@@ -10908,7 +10908,7 @@ armorshop:
         items:
         - diamond_helmet
         - helmet_of_blinding
-                 
+
 toolshop:
     icon: diamond_helmet
     inherit: buyshop
@@ -10921,7 +10921,7 @@ toolshop:
         - diamond_axe
         - dwarven_spade
         - dwarven_axe
-                 
+
 pickaxeshop:
     icon: diamond_pickaxe
     inherit: buyshop
@@ -10935,7 +10935,7 @@ pickaxeshop:
         - dwarven_pickaxe_luck
         - felicis_pickaxe
         - dwarven_felicis_pickaxe
-          
+
 potionshop:
     icon: potion
     category: shop
@@ -11011,7 +11011,7 @@ brushshop:
           brush:quartz_block: 600
           brush:quartz_block|1: 600
           brush:quartz_block|2: 700
-          
+
 appraiser:
     inherit: sellshop
     icon: emerald
@@ -11692,7 +11692,7 @@ spsellshop:
           cost: 1000
         - item: sp:1000
           cost: 10000
-          
+
 spshop:
     inherit: buyshop
     parameters:
@@ -11703,7 +11703,7 @@ spshop:
           cost: 1000
         - item: sp:1000
           cost: 10000
-          
+
 stash:
     icon: diamond_axe:106
     icon_disabled: diamond_hoe:106
@@ -13296,7 +13296,7 @@ tpshop:
         cast_spells: true
         spells:
           randomtp: 1
-          
+
 tracking:
     icon: diamond_axe:189
     icon_disabled: diamond_hoe:189
@@ -13434,7 +13434,7 @@ trinketshop:
         - skull_whitecandle
         - skull_wildboar
         - skull_yoshi
-          
+
 tunnel:
     icon: diamond_axe:110
     icon_disabled: diamond_hoe:110
@@ -14022,7 +14022,7 @@ webbing:
         - class: Sphere
           actions:
           - class: ModifyBlock
-        tick: 
+        tick:
         - class: ModifyBlock
     effects:
         cast:
@@ -14243,7 +14243,7 @@ workbench:
     worth: 80
     actions:
         cast:
-        - class: Inventory  
+        - class: Inventory
     effects:
         cast:
         -  class: EffectSingle
@@ -14452,4 +14452,3 @@ wound|3:
   parameters:
     damage: 10
     target_breakables: 3
-

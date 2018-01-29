@@ -3165,3 +3165,57 @@ brackiumemendo|3:
   parameters:
     amount: 5
     delay: 250
+
+carperetractum:
+  icon_url: http://textures.minecraft.net/texture/a4175466837a6d767b589fba40b2373eeb3f74dd693921b4b16a9c25f75963d7
+  cost: 10
+  upgrade_required_casts: 75
+  upgrade_required_path: year5
+  actions:
+    cast:
+      - class: Delay
+      - class: CustomProjectile
+        actions:
+          - class: Velocity
+  effects:
+    cast:
+      - class: EffectSingle
+        use_wand_location: false
+        effectlib:
+          class: AnimatedBall
+          particle: redstone
+          color: b37227
+          period: 1
+          iterations: 30
+    tick:
+      - class: EffectSingle
+        particle: drip_lava
+        color: b37227
+        particle_count: 20
+        particle_offset_x: 0.1
+        particle_offset_y: 0.1
+        particle_offset_z: 0.1
+        location: target
+      - class: EffectSingle
+        particle: fireworks_spark
+        particle_count: 1
+        location: target
+  parameters:
+    target_type: Entity
+    range: 24
+    item_speed: 3
+    living_entity_speed: 2
+    push: -1
+    duration: 10000
+    cooldown: 2000
+    delay: 1000
+    speed: 25
+  costs:
+    mana: 10
+
+carperetractum|2:
+  parameters:
+    item_speed: 4
+    living_entity_speed: 2
+    cooldown: 1500
+    speed: 50

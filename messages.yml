@@ -691,6 +691,11 @@ spells:
     upgrade_description: "&r&8&bull; &eIncreased efficacy."
   brackiumemendo|3:
     upgrade_description: "&r&8&bull; &eIncreased efficacy."
+  carperetractum:
+    name: Carpe Retractum
+    description: "Seize and Pull Charm"
+  carperetractum|2:
+    upgrade_description: "&r&8&bull; &eIncreased strength."
 
 # Annoying messages stuff
 
