@@ -3210,7 +3210,7 @@ carperetractum:
     duration: 10000
     cooldown: 2000
     delay: 1000
-    speed: 25
+    velocity: 25
   costs:
     mana: 10
 
@@ -3219,7 +3219,7 @@ carperetractum|2:
     item_speed: 4
     living_entity_speed: 2
     cooldown: 1500
-    speed: 50
+    velocity: 50
 
 pulvifors:
   inherit: arresto
@@ -3284,6 +3284,8 @@ finestra|2:
 waddiwasi:
   inherit: colloshoo
   icon_url: http://textures.minecraft.net/texture/5e80124b17d6e42d6e4c171758b5754a8e83c43bad4645ec5036727fa7d430
+  cost: 10
+  category: charms
   effects:
     tick:
       - location: target
@@ -3302,3 +3304,75 @@ waddiwasi:
           material: purpur_block
           radius: 2.5
           duration: $duration
+
+titillando:
+  icon_url: http://textures.minecraft.net/texture/c7142a19d8c84389da74b69641542b8b2fafbed8f7515d1d36c63c96bd749
+  category: dada
+  worth: 10
+  upgrade_required_path: year6
+  upgrade_required_casts: 75
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: PotionEffect
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap
+        location: origin
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          particle: spell_mob
+          color: b343e0
+          lengthGrow: 0.1
+          radiusGrow: 0.003
+          updateLocations: false
+          updateDirections: false
+    tick:
+      - class: EffectSingle
+        sound: magic.zap_crack
+        particle: redstone
+        color: FFFFFF
+        location: target
+    hit_entity:
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: AnimatedBall
+          period: 1
+          iterations: 64
+          particle: spell_mob
+          color: b343e0
+  costs:
+    mana: 15
+  parameters:
+    target: other
+    target_type: Damageable
+    range: 16
+    hitbox: true
+    cooldown: 15000
+    effect_confusion: 6
+    effect_slow: 1
+    effect_weakness: 2
+    duration: 3000
+    velocity: 50
+
+titillando|2:
+  upgrade_required_path: year7
+  upgrade_required_casts: 125
+  parameters:
+    range: 24
+    cooldown: 12000
+    effect_confusion: 8
+    effect_slow: 2
+    effect_weakness: 3
+    duration: 5000
+
+titillando|3:
+  parameters:
+    range: 32
+    effect_confusion: 10
+    effect_slow: 3
+    effect_weakness: 4

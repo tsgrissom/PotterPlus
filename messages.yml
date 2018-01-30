@@ -707,6 +707,13 @@ spells:
   waddiwasi:
     name: Waddiwasi
     description: "The Sticky Gum-Conjuring Charm"
+  titillando:
+    name: Titillando
+    description: "The Tickling Jinx"
+  titillando|2:
+    upgrade_description: "&r&8&bull; &eDecreased cooldown, increased range, efficacy, and duration."
+  titillando|3:
+    upgrade_description: "&r&8&bull; &eDecreased cooldown, increased range and efficacy."
 
 # Annoying messages stuff
 
