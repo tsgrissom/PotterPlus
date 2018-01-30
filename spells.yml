@@ -2180,7 +2180,7 @@ evertestatum:
         effectlib:
           class: ConeEffect
           iterations: 10
-          particle: firework_spark
+          particle: fireworks_spark
           lengthGrow: 0.1
           radiusGrow: 0.04
           updateLocations: false
