@@ -3125,7 +3125,7 @@ multabasiorum|3:
 
 brackiumemendo:
   inherit: ferula
-  cost: 10
+  worth: 10
   icon_url: http://textures.minecraft.net/texture/964590674dbaf76126bd87694bfe97575be8de19aac4a8d9aa5579f8f01ed1
   category: charms
   actions:
@@ -3168,9 +3168,10 @@ brackiumemendo|3:
 
 carperetractum:
   icon_url: http://textures.minecraft.net/texture/a4175466837a6d767b589fba40b2373eeb3f74dd693921b4b16a9c25f75963d7
-  cost: 10
+  worth: 10
   upgrade_required_casts: 75
   upgrade_required_path: year5
+  category: charms
   actions:
     cast:
       - class: Delay
@@ -3219,3 +3220,56 @@ carperetractum|2:
     living_entity_speed: 2
     cooldown: 1500
     speed: 50
+
+pulvifors:
+  inherit: arresto
+  worth: 5
+  category: charms
+  effects:
+    cast:
+    -  class: EffectSingle
+       sound: horse_saddle
+       sound_volume: 1
+       effectlib:
+         class: ShieldEffect
+         iterations: 10
+         particle: water_wake
+    -  class: EffectSingle
+       sound: horse_saddle
+       sound_volume: 1
+       effectlib:
+         class: ShieldEffect
+         iterations: 10
+         particle: smoke_normal
+    land:
+    -  class: EffectRing
+       effect: step_sound
+       period: 2
+  parameters:
+    protection_count: 1
+
+finestra:
+  icon_url: http://textures.minecraft.net/texture/c7142a19d8c84389da74b69641542b8b2fafbed8f7515d1d36c63c96bd749
+  category: charms
+  worth: 15
+  class: ConstructSpell
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: block_glass_break
+      - class: EffectTrail
+        effect: step_sound
+        material: glass
+  costs:
+    mana: 20
+  parameters:
+    allow_max_range: false
+    range: 32
+    check_destructible: true
+    destructible: destructible_glass
+    brush: erase
+    radius: 2
+    transparent: transparent_to_construction
+    undo: 5000
+    undo_speed: 0.2
+    cooldown: 20000

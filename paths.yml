@@ -12,6 +12,7 @@ year1:
     - lumossolem
     - felixleporemos
     - despello
+    - pulvifors
   required_spells:
     - alohomora
 
@@ -52,6 +53,7 @@ year3:
     - aberto
     - frigusignatus
     - flagellos
+    - finestra
   required_spells:
     - glacius
 

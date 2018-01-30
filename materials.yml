@@ -9,7 +9,7 @@
 # To see the current default builtin configs, look in this folder:
 # https://github.com/elBukkit/MagicPlugin/tree/master/src/main/resources/defaults/materials
 #
-# For customization help see: 
+# For customization help see:
 # https://github.com/elBukkit/MagicPlugin/wiki/Customization
 #
 # You only need to edit this file if you want to change the default configuration.
@@ -20,7 +20,7 @@
 # Note that a "#" chararacter means the line is commented out and has no effect.
 # Make sure to not comment out the lines you add, there should not be a space in front of the name, indentation is important.
 # Use http://www.yamllint.com if you have issues with your config, make sure not to use tabs!
-# 
+#
 
 # Change/Limit which blocks are destructible by most block-destroying spells
 
@@ -38,5 +38,8 @@
 # transparent:
 # - air
 
-
-
+destructible_glass:
+  - glass
+  - stained_glass_pane
+  - thin_glass
+  - stained_glass

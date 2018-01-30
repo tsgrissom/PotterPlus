@@ -693,9 +693,15 @@ spells:
     upgrade_description: "&r&8&bull; &eIncreased efficacy."
   carperetractum:
     name: Carpe Retractum
-    description: "Seize and Pull Charm"
+    description: "The Seize and Pull Charm"
   carperetractum|2:
     upgrade_description: "&r&8&bull; &eIncreased strength."
+  pulvifors:
+    name: Pulvifors
+    description: "The Cushioning Charm"
+  finestra:
+    name: Finestra
+    description: "The Glass-Vaporizing Spell"
 
 # Annoying messages stuff
 
