@@ -719,6 +719,9 @@ spells:
     description: "The Stairs to Slide Spell"
   glisseo|2:
     upgrade_description: "&r&8&bull; &eIncreased duration and radius, decreased undo speed."
+  herbifors:
+    name: Herbifors
+    description: "The Flower-Head Jinx"
 
 # Annoying messages stuff
 
