@@ -3444,7 +3444,7 @@ herbifors:
         actions:
           - class: Hat
   parameters:
-    material: yellow_flower
+    material: double_plant:1
     target: other
     target_type: Player
     range: 12
