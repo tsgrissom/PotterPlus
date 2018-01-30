@@ -702,6 +702,11 @@ spells:
   finestra:
     name: Finestra
     description: "The Glass-Vaporizing Spell"
+  finestra|2:
+    upgrade_description: "&r&8&bull; &eDecreased cooldown, increased radius."
+  waddiwasi:
+    name: Waddiwasi
+    description: "The Sticky Gum-Conjuring Charm"
 
 # Annoying messages stuff
 

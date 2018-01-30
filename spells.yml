@@ -3253,6 +3253,8 @@ finestra:
   category: charms
   worth: 15
   class: ConstructSpell
+  upgrade_required_casts: 75
+  upgrade_required_path: year5
   effects:
     cast:
       - class: EffectSingle
@@ -3273,3 +3275,30 @@ finestra:
     undo: 5000
     undo_speed: 0.2
     cooldown: 20000
+
+finestra|2:
+  parameters:
+    radius: 3
+    cooldown: 10000
+
+waddiwasi:
+  inherit: colloshoo
+  icon_url: http://textures.minecraft.net/texture/5e80124b17d6e42d6e4c171758b5754a8e83c43bad4645ec5036727fa7d430
+  effects:
+    tick:
+      - location: target
+        particle: block_crack
+        material: purpur_block
+        particle_count: 4
+        particle_offset_x: 0.5
+        particle_offset_z: 0.5
+        particle_offset_y: 0
+    hit_entity:
+      - location: target
+        target_offset: 0,-3,0
+        effectlib:
+          class: SphereEffect
+          particle: block_crack
+          material: purpur_block
+          radius: 2.5
+          duration: $duration
