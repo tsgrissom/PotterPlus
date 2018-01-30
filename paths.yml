@@ -138,6 +138,7 @@ year7:
     - fiendfyre
     - incarcifors
     - obliviate
+    - glisseo
   required_spells:
     - protegomaxima
   upgrade_commands:

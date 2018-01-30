@@ -3306,7 +3306,7 @@ waddiwasi:
           duration: $duration
 
 titillando:
-  icon_url: http://textures.minecraft.net/texture/c7142a19d8c84389da74b69641542b8b2fafbed8f7515d1d36c63c96bd749
+  icon_url: http://textures.minecraft.net/texture/de286f2a50c28f514e50d456b56a86164681bc51fb55fc7a9b2a4c6c7f48788
   category: dada
   worth: 10
   upgrade_required_path: year6
@@ -3376,3 +3376,36 @@ titillando|3:
     effect_confusion: 10
     effect_slow: 3
     effect_weakness: 4
+
+glisseo:
+  icon_url: http://textures.minecraft.net/texture/872d9b98a6b34a2762aac1af915873c066c43c2b2b8d689d27626cc5afcb11
+  category: transfiguration
+  worth: 20
+  class: ConstructSpell
+  upgrade_required_path: year7
+  upgrade_required_casts: 100
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: block_glass_break
+      - class: EffectTrail
+        effect: step_sound
+        material: ice
+  costs:
+    mana: 20
+  parameters:
+    allow_max_range: false
+    range: 32
+    check_destructible: true
+    destructible: stairs
+    brush: ice
+    radius: 2
+    transparent: transparent_to_construction
+    undo: 5000
+    cooldown: 20000
+
+glisseo|2:
+  parameters:
+    undo: 7000
+    undo_speed: 0.3
+    radius: 3

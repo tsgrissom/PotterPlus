@@ -43,3 +43,19 @@ destructible_glass:
   - stained_glass_pane
   - thin_glass
   - stained_glass
+
+stairs:
+  - acacia_stairs
+  - birch_wood_stairs
+  - brick_stairs
+  - cobblestone_stairs
+  - dark_oak_stairs
+  - jungle_wood_stairs
+  - nether_brick_stairs
+  - purpur_stairs
+  - quartz_stairs
+  - red_sandstone_stairs
+  - sandstone_stairs
+  - smooth_stairs
+  - spruce_wood_stairs
+  - wood_stairs

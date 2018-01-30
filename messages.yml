@@ -714,6 +714,11 @@ spells:
     upgrade_description: "&r&8&bull; &eDecreased cooldown, increased range, efficacy, and duration."
   titillando|3:
     upgrade_description: "&r&8&bull; &eDecreased cooldown, increased range and efficacy."
+  glisseo:
+    name: Glisseo
+    description: "The Stairs to Slide Spell"
+  glisseo|2:
+    upgrade_description: "&r&8&bull; &eIncreased duration and radius, decreased undo speed."
 
 # Annoying messages stuff
 
