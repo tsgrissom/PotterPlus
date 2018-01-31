@@ -1924,7 +1924,7 @@ obliviatemaxima:
     mana: 75
   actions:
     cast:
-      - class: com.aurelia_network.magicaddons.actions.ClearChatAction
+      - class: com.rowlingsrealm.magicaddons.actions.ClearChatAction
   effects:
     cast:
       - class: EffectSingle
@@ -2411,7 +2411,7 @@ despello:
     cast:
       - class: CustomProjectile
         actions:
-          - class: com.aurelia_network.magicaddons.actions.ChatAction
+          - class: com.rowlingsrealm.magicaddons.actions.ChatAction
   effects:
     tick:
       - particle: fireworks_spark
@@ -2431,8 +2431,6 @@ despello:
       - "blablablabla"
       - "fwufheuf"
       - "It's a FISH!"
-      - "Ashley smells"
-      - "Megan is a meanie"
       - "grrr i'm angry"
       - "All hail the flapjack"
       - "BUILD A WALL"
@@ -3100,7 +3098,7 @@ multabasiorum:
              color: 0f3357
              duration: 2000
     hit_entity:
-      - class: EffectSignle
+      - class: EffectSingle
         location: target
         effectlib:
           class: ExplodeEffect
@@ -3284,7 +3282,7 @@ finestra|2:
 waddiwasi:
   inherit: colloshoo
   icon_url: http://textures.minecraft.net/texture/5e80124b17d6e42d6e4c171758b5754a8e83c43bad4645ec5036727fa7d430
-  cost: 10
+  worth: 10
   category: charms
   effects:
     tick:
@@ -3531,7 +3529,7 @@ locomotorwibbly|3:
 epoximise:
   inherit: colloshoo
   icon_url: http://textures.minecraft.net/texture/cd76c83453ba48a6aceac090ef4e2c8918ecd8891e91621bed2e03fad8a7f6
-  cost: 10
+  worth: 10
   category: transfiguration
   effects:
     tick:
@@ -3542,12 +3540,61 @@ epoximise:
         particle_offset_x: 0.5
         particle_offset_z: 0.5
         particle_offset_y: 0
-    hit_entity:
-      - location: target
-        target_offset: 0,-3,0
-        effectlib:
-          class: SphereEffect
-          particle: block_crack
-          material: web
-          radius: 2.5
-          duration: $duration
+
+sluguluseructo:
+  inherit: bogies
+  worth: 15
+  category: dark
+  upgrade_required_path: year3
+  upgrade_required_casts: 75
+  actions:
+    cast:
+      - class: Debugger
+      - class: CustomProjectile
+        actions:
+          - class: Repeat
+            actions:
+              - class: Delay
+              - class: PotionEffect
+              - class: SpawnEntity
+  effects:
+    hit:
+      -  class: EffectSingle
+         location: target
+         requires_entity_target: true
+         effectlib:
+           class: WarpEffect
+           particle: slime
+           iterations: 1
+      -  class: EffectSingle
+         location: target
+         requires_entity_target: true
+         effectlib:
+           class: SphereEffect
+           iterations: 60
+           period: .1
+           particle: slime
+           radius: .75
+           particles: 20
+  parameters:
+    type: silverfish
+    name: "&aSlug"
+    delay: 250
+    count: 2
+    target: other_entity
+    target_type: Player
+    effect_poison: 2
+    duration: 1000
+    cast_on_no_target: false
+    range: 24
+  costs:
+    mana: 20
+
+sluguluseructo|2:
+  upgrade_required_casts: 125
+  upgrade_required_path: year4
+  parameters:
+    count: 4
+
+sluguluseructo|3:
+  parameters: 6

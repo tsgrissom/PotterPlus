@@ -1,8 +1,8 @@
 id: fba51f45-4afd-44c1-b5ff-1b2807270f05
-name: KatieIsNasty
+name: grisstyl
 last_cast: 0
 cooldown_expiration: 0
-last_death_location: ''
+last_death_location: -70.09957145156211,81.0,192.8808366546758,world,-303.29797,30.000002
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -27,13 +27,13 @@ wands:
         - §o§a§7Exchange this for
         - §7 something wondrous
         - §3§oBound to KatieIsNasty
-        ItemFlags: !!set
-          HIDE_PLACED_ON: null
-          HIDE_ENCHANTS: null
-          HIDE_UNBREAKABLE: null
-          HIDE_POTION_EFFECTS: null
-          HIDE_ATTRIBUTES: null
-          HIDE_DESTROYS: null
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
         Unbreakable: true
         internal: H4sIAAAAAAAAAG2QTY7TQBCFy4xtrCRiydoLJFaW8mMTZxWGKBrQjBJpiIRYWWV3ddIap7vpbhM4ClyAe7BjPReZI0w7AzverqSq79V7A4ABhCeULIGQGaVhtPq8ullX77e7d5e3CSSOjrpFRzDot5xo7sglEKmTJAOja3SCPtgNWvc9hpfEOTWu0mj8YkuV4tySW97PzvIW9oQaws12s/boM6MSDF7xGosJz4ssR86yPG8mWV1wnk3qaTmeT+djPi4CiGrVSRZ4jGiUhEijJvMfV4NMdHb550evnwkMGdnGCO2Ev3r9+9d8/a05oNxT6g7CplyZ1Koj+UHu05OSvofO+jMj9gdXNa3PDPFue3V1sw7ghZAe50zXOFG3FFzA869kbI8GiBIY/f2mUa0yEEolKYDwjkj7xwct8X/EcHX5ceezSDwSDD/5ctPdud0Yoi+dIPcWnpTAs74jLJHhbDHPSqx9R2z6JvNlLTJWzBbIZ2VZ5hjD6KBcjcbbd9ItH54IAcSt8mgWBDDs+nxaY/88wCOyNJWiAQIAAA==
     wand:

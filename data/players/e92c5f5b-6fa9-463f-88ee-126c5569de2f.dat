@@ -1,6 +1,6 @@
 id: e92c5f5b-6fa9-463f-88ee-126c5569de2f
 name: MineStein_
-last_cast: 1501693364742
+last_cast: 1517421315949
 cooldown_expiration: 0
 last_death_location: ''
 fall_protection_count: 0
@@ -79,6 +79,11 @@ spells:
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
+  testspell:
+    cast_count: 20
+    last_cast: 1517417124519
+    last_earn: 0
+    cooldown_expiration: 0
   ferula|3:
     cast_count: 0
     last_cast: 0
@@ -140,8 +145,8 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   aparecium:
-    cast_count: 1
-    last_cast: 1501479403470
+    cast_count: 4
+    last_cast: 1517421187056
     last_earn: 0
     cooldown_expiration: 0
   snowball:
@@ -415,8 +420,8 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   lumos:
-    cast_count: 4
-    last_cast: 1501449606451
+    cast_count: 5
+    last_cast: 1517417116968
     last_earn: 0
     cooldown_expiration: 0
   periculum:
@@ -514,6 +519,11 @@ spells:
     last_cast: 1501603327190
     last_earn: 0
     cooldown_expiration: 0
+  sluguluseructo:
+    cast_count: 12
+    last_cast: 1517421315949
+    last_earn: 0
+    cooldown_expiration: 1517420962230
   alohomora:
     cast_count: 0
     last_cast: 0
@@ -533,13 +543,15 @@ wands:
   ticket:
     item:
       ==: org.bukkit.inventory.ItemStack
-      type: WOOD_HOE
+      type: PAPER
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §bWand
+        display-name: §6Wand Ticket
         lore:
-        - §2§o(H)(Headmaster) TylerFortescue's Wand
+        - §o§aTake this to a wand shop to
+        - §a get your first wand!
+        - §3§oBound to (H)(Headmaster) TylerFortescue
         ItemFlags:
         - HIDE_ENCHANTS
         - HIDE_ATTRIBUTES
@@ -547,6 +559,7 @@ wands:
         - HIDE_DESTROYS
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
+        Unbreakable: true
         internal: H4sIAAAAAAAAAB3LPQrCMAAG0A+0WnoIcXBohwxGE5oLSA/gLjH5AsH+SBot3l5xf68CKqwXO/oSZebw7G0mNjm6B3OJYlpGJuzqrqk7Wj/YOTM1++unZ7pMKXN2L/7q392ix4FGOhXUXehgjTjrUxBtS4qj1E4pbTxlWGH7ZprjNAIogC/kfPjdhgAAAA==
     wand:
       template: ticket
@@ -556,18 +569,19 @@ wands:
   potterwand:
     item:
       ==: org.bukkit.inventory.ItemStack
-      type: WOOD_HOE
-      damage: 24
+      type: DIAMOND_HOE
+      damage: 50
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §bWand
+        display-name: §6sluguluseructo§f (§3Wand§f)
         lore:
-        - §o§aRosewood and Pheonix Feather
-        - §2§o(H)(Headmaster) TylerFortescue's Wand
-        - Knows 2 Spells
-        - §6Cost Reduction X
-        - §6Cooldown Reduction X
+        - §o§aTen Inches Reasonably Supple
+        - §a Maple with Thestral Tail-Hair
+        - §3§oBound to MineStein_
+        - §7Knows §e3 spells
+        - §3Cost Reduction X
+        - §3Cooldown Reduction X
         ItemFlags:
         - HIDE_ENCHANTS
         - HIDE_ATTRIBUTES
@@ -575,229 +589,32 @@ wands:
         - HIDE_DESTROYS
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
-        internal: 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
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAHVSzW4TMRCekk3YLCVI4QiHlag4EVRCN016QEQCqZUISCTlhlaOPdtY9drGnk3UGxeegQfgyoEH4Bl4IC7g3fBTFeGDpRnPfN983zgBSCDaMC1iiAlLqxghJNYQodum22aj0UEykxrnhFLnHehzY5QID7lDUXGSRj/dg+ZE0CuZZjnJEj2x0gLssNmbtz8CQYOUSwF7OBnyrMiWg1HBJoOD0eNiMB4jDh4NRzzLRhOBwyKGSHKjoSckK40W+crgUbYfww2Bnjtpa1o4WqBOTzRfoU9fI/NGs6W6SOeVtQrTGavvjaRVuggV5JhKF0yqwTGTrgXX1+h8jQLQTuCWt6hULvUaNRl30YK2qkrja1kt6FLobypCeC3EzDKHXFZliHda0POqOqtU5dEFR0zTE8MuC+6sMd82XqlJYHdLqXCNykMHetx4+tfUgINFgZxybpRxcH98KIJnh5Nsf3nw4L9BFzoNvo+bxfxSc2nwS5qujt+F/pTIyWVFODNCFjJYldRSI4hPT0+ezcKk3+89uTt9f4wRdOvUi+A/fbnz9dvHD58/daAzLU2l6a+IaK4MQVwyqVfN37r5h+IlKxFun2H4IJI/ZESMn88toghGv7LoGG3XVKM0tf3n7yppy7Cp9Pd4AD8B9oAJds8CAAA=
     wand:
       template: potterwand
-      owner: (H)(Headmaster) TylerFortescue
+      owner: MineStein_
       cooldown_reduction: 10.0
-      mana_timestamp: 1501651458051
+      mana_timestamp: 1517420961279
       owner_id: e92c5f5b-6fa9-463f-88ee-126c5569de2f
-      icon: wood_hoe:24
-      description: Rosewood and Pheonix Feather
-      hotbar: 0
+      icon: diamond_hoe:50
+      description: Ten Inches Reasonably Supple Maple with Thestral Tail-Hair
       version: 5
       spell_inventory:
-        deprimo: 1
-        ascendio: 3
-        evanesco: 53
-        arrow: 28
-        tripudio: 54
-        impervius: 5
-        bombarda: 52
-        araniaexumai: 6
-        ventus: 7
-        reducto: 8
-        disillusion: 55
-        whip: 56
-        locomotomortus: 3
-        incarcerous: 4
-        confringo: 7
-        imperio: 57
-        petrificustotalus: 58
-        vermillious: 0
-        alarteascendare: 16
-        verdimillious: 17
-        confundus: 62
-        rictusempra: 63
-        limusexumai: 64
-        orchideous: 18
-        duro: 1
-        fiendfyre: 66
-        pulsus: 19
-        bubblehead: 67
-        meteo: 68
-        lapifors: 69
-        deletrius: 70
-        fourpoint: 21
-        aguamenti: 71
-        finiteincantatem: 2
-        immobulus: 22
-        arresto: 72
-        avis: 23
-        engorgio: 24
-        diffindo: 48
-        fumos: 25
-        aparecium: 26
-        spongify: 74
-        snowball: 27
-        spongifymaxima: 75
-        flipendo: 6
-        obscuro: 76
-        revelio: 77
-        stupefy: 20
-        patronus: 30
-        lumos: 78
-        levicorpus: 4
-        periculum: 79
-        protegomaxima: 35
-        rennervate: 36
-        experimentallumossolem: 34
-        colloportus: 81
-        wingardium: 82
-        piertotum: 38
-        volo: 83
-        crucio: 0
-        lacarnum: 40
-        protego: 29
-        glacius: 45
-        reducio: 73
-        periculux: 84
-        nox: 85
-        incendio: 31
-        vulnera: 89
-        bogies: 2
-        episkey: 65
-        avadakedavra: 90
-        expelliarmus: 51
-        sectumsempra: 41
-        morsmordre: 42
-        fiantoduri: 43
-        accio: 91
-        tarantallegra: 44
-        ferula: 5
-        colorvaria: 92
-        reparifarge: 93
-        conjunctivitis: 46
-        lumossolem: 94
-        atmos: 47
-        flagrate: 49
-        alohomora: 95
-        noxmaxima: 96
-        apparate: 97
-        aquaeructo: 37
-        firestorm: 50
-      active_spell: crucio
-      spell_levels:
-        deprimo: 3
-        lumos: 3
-        levicorpus: 3
-        ascendio: 2
-        arrow: 4
-        bombarda: 2
-        reducto: 2
-        lacarnum: 3
-        protego: 3
-        glacius: 3
-        reducio: 3
-        incendio: 3
-        vermillious: 3
-        verdimillious: 3
-        bogies: 3
-        episkey: 3
-        expelliarmus: 5
-        duro: 2
-        ferula: 3
-        aguamenti: 2
-        conjunctivitis: 2
-        finiteincantatem: 4
-        diffindo: 3
-        aquaeructo: 3
-        flipendo: 3
-        stupefy: 5
+        lumos: 0
+        testspell: 2
+        aparecium: 1
+        sluguluseructo: 3
+      active_spell: sluguluseructo
+      spell_levels: {}
       cost_reduction: 10.0
-      page: 0
+      effect_color: 87d63f7950b4,87d63f7950b4,87d63f7950b4
       spells:
-      - vermillious
-      - deprimo
-      - finiteincantatem
-      - ascendio
-      - levicorpus
-      - impervius
-      - araniaexumai
-      - ventus
-      - reducto
-      - duro
-      - bogies
-      - locomotomortus
-      - incarcerous
-      - ferula
-      - flipendo
-      - confringo
-      - alarteascendare
-      - verdimillious
-      - orchideous
-      - pulsus
-      - stupefy
-      - fourpoint
-      - immobulus
-      - avis
-      - engorgio
-      - fumos
-      - aparecium
-      - snowball
-      - arrow
-      - protego
-      - patronus
-      - incendio
-      - protegomaxima
-      - rennervate
-      - aquaeructo
-      - piertotum
-      - crucio
-      - lacarnum
-      - sectumsempra
-      - morsmordre
-      - fiantoduri
-      - tarantallegra
-      - glacius
-      - conjunctivitis
-      - atmos
-      - diffindo
-      - flagrate
-      - firestorm
-      - expelliarmus
-      - bombarda
-      - evanesco
-      - tripudio
-      - disillusion
-      - whip
-      - imperio
-      - petrificustotalus
-      - confundus
-      - rictusempra
-      - limusexumai
-      - episkey
-      - fiendfyre
-      - bubblehead
-      - meteo
-      - lapifors
-      - deletrius
-      - aguamenti
-      - arresto
-      - reducio
-      - spongify
-      - spongifymaxima
-      - obscuro
-      - revelio
       - lumos
-      - periculum
-      - experimentallumossolem
-      - colloportus
-      - wingardium
-      - volo
-      - periculux
-      - nox
-      - vulnera
-      - avadakedavra
-      - accio
-      - colorvaria
-      - reparifarge
-      - lumossolem
-      - alohomora
-      - noxmaxima
-      - apparate
-      hotbar_count: 2.0
-open_wand: false
+      - aparecium
+      - testspell
+      - sluguluseructo
+open_wand: true
 gave_welcome_wand: true
 data:
   sp: 100

@@ -19,13 +19,13 @@ redstonesellshop:
 emancipare:
   cast_count: 0
   last_cast: 0
-farm:
-  cast_count: 0
-  last_cast: 0
 alarteascendare:
   cast_count: 0
   last_cast: 0
 verdimillious:
+  cast_count: 0
+  last_cast: 0
+farm:
   cast_count: 0
   last_cast: 0
 silence:
@@ -64,10 +64,10 @@ engorgio:
 respawn:
   cast_count: 0
   last_cast: 0
-sponge:
+flight:
   cast_count: 0
   last_cast: 0
-flight:
+sponge:
   cast_count: 0
   last_cast: 0
 forest:
@@ -97,10 +97,10 @@ lacarnum:
 birth_defender:
   cast_count: 0
   last_cast: 0
-tocreative:
+sectumsempra:
   cast_count: 0
   last_cast: 0
-sectumsempra:
+tocreative:
   cast_count: 0
   last_cast: 0
 mine:
@@ -148,31 +148,31 @@ entangle:
 glider:
   cast_count: 0
   last_cast: 0
+silenciomaxima:
+  cast_count: 0
+  last_cast: 0
 fling:
   cast_count: 0
   last_cast: 0
 stun:
   cast_count: 0
   last_cast: 0
-silenciomaxima:
-  cast_count: 0
-  last_cast: 0
 disillusion:
-  cast_count: 0
-  last_cast: 0
-randomtp:
   cast_count: 0
   last_cast: 0
 aberto:
   cast_count: 0
   last_cast: 0
+randomtp:
+  cast_count: 0
+  last_cast: 0
 trinketshop:
   cast_count: 0
   last_cast: 0
-workbench:
+confundus:
   cast_count: 0
   last_cast: 0
-confundus:
+workbench:
   cast_count: 0
   last_cast: 0
 rictusempra:
@@ -196,16 +196,19 @@ lapifors:
 gather:
   cast_count: 0
   last_cast: 0
-donatorshop:
+colloshoo:
   cast_count: 0
   last_cast: 0
-colloshoo:
+donatorshop:
   cast_count: 0
   last_cast: 0
 cantis:
   cast_count: 0
   last_cast: 0
 shell:
+  cast_count: 0
+  last_cast: 0
+brackiumemendo:
   cast_count: 0
   last_cast: 0
 emp:
@@ -256,28 +259,25 @@ mobshop:
 spsellshop:
   cast_count: 0
   last_cast: 0
-tunnel:
+fergalicious:
   cast_count: 0
   last_cast: 0
-fergalicious:
+tunnel:
   cast_count: 0
   last_cast: 0
 ascendio:
   cast_count: 0
   last_cast: 0
-backup:
+fountain:
   cast_count: 0
   last_cast: 0
-fountain:
+backup:
   cast_count: 0
   last_cast: 0
 invincible:
   cast_count: 0
   last_cast: 0
 convert:
-  cast_count: 0
-  last_cast: 0
-tracking:
   cast_count: 0
   last_cast: 0
 upgrades:
@@ -289,6 +289,9 @@ ventus:
 reducto:
   cast_count: 0
   last_cast: 0
+tracking:
+  cast_count: 0
+  last_cast: 0
 upgradeshop:
   cast_count: 0
   last_cast: 0
@@ -298,8 +301,14 @@ dungbomb:
 locomotomortus:
   cast_count: 0
   last_cast: 0
+scribblifors:
+  cast_count: 0
+  last_cast: 0
 pollinate:
   cast_count: 0
+  last_cast: 0
+testspell:
+  cast_count: 4
   last_cast: 0
 superpyramid:
   cast_count: 0
@@ -338,7 +347,7 @@ furnunculus:
   cast_count: 0
   last_cast: 0
 aparecium:
-  cast_count: 0
+  cast_count: 1
   last_cast: 0
 curse:
   cast_count: 0
@@ -358,10 +367,13 @@ rennervate:
 anvil:
   cast_count: 0
   last_cast: 0
-clayshop:
+waddiwasi:
   cast_count: 0
   last_cast: 0
 amplify:
+  cast_count: 0
+  last_cast: 0
+clayshop:
   cast_count: 0
   last_cast: 0
 disposal:
@@ -403,13 +415,13 @@ webbing:
 counterspell:
   cast_count: 0
   last_cast: 0
+despello:
+  cast_count: 0
+  last_cast: 0
 torch:
   cast_count: 0
   last_cast: 0
 superkill:
-  cast_count: 0
-  last_cast: 0
-despello:
   cast_count: 0
   last_cast: 0
 conjunctivitis:
@@ -448,6 +460,9 @@ flashbang:
 cage:
   cast_count: 0
   last_cast: 0
+epoximise:
+  cast_count: 0
+  last_cast: 0
 virus_death:
   cast_count: 0
   last_cast: 0
@@ -484,13 +499,13 @@ superbackup:
 broom:
   cast_count: 0
   last_cast: 0
-superregenerate:
-  cast_count: 0
-  last_cast: 0
 bubblehead:
   cast_count: 0
   last_cast: 0
 meteo:
+  cast_count: 0
+  last_cast: 0
+superregenerate:
   cast_count: 0
   last_cast: 0
 admission:
@@ -514,16 +529,16 @@ broom_legacy:
 superblob:
   cast_count: 0
   last_cast: 0
-airscooter:
-  cast_count: 0
-  last_cast: 0
 stupefy:
   cast_count: 0
   last_cast: 0
-tweakshop:
+airscooter:
   cast_count: 0
   last_cast: 0
 levicorpus:
+  cast_count: 0
+  last_cast: 0
+tweakshop:
   cast_count: 0
   last_cast: 0
 box:
@@ -538,10 +553,10 @@ sandblast:
 harden:
   cast_count: 0
   last_cast: 0
-wound:
+glacius:
   cast_count: 0
   last_cast: 0
-glacius:
+wound:
   cast_count: 0
   last_cast: 0
 flamethrower:
@@ -556,13 +571,13 @@ singularity:
 toolshop:
   cast_count: 0
   last_cast: 0
-disintegrate:
-  cast_count: 0
-  last_cast: 0
 lumossolem:
   cast_count: 0
   last_cast: 0
 brachiabindo:
+  cast_count: 0
+  last_cast: 0
+disintegrate:
   cast_count: 0
   last_cast: 0
 earth:
@@ -598,9 +613,6 @@ paint:
 cure:
   cast_count: 0
   last_cast: 0
-absorb:
-  cast_count: 0
-  last_cast: 0
 araniaexumai:
   cast_count: 0
   last_cast: 0
@@ -608,6 +620,9 @@ lumosmaxima:
   cast_count: 0
   last_cast: 0
 percutios:
+  cast_count: 0
+  last_cast: 0
+absorb:
   cast_count: 0
   last_cast: 0
 animate:
@@ -661,10 +676,10 @@ mount:
 toss:
   cast_count: 0
   last_cast: 0
-superrepair:
+arrowmaxima:
   cast_count: 0
   last_cast: 0
-arrowmaxima:
+superrepair:
   cast_count: 0
   last_cast: 0
 horse:
@@ -778,13 +793,13 @@ bomb:
 extinguish:
   cast_count: 0
   last_cast: 0
+spellshop:
+  cast_count: 0
+  last_cast: 0
 life3:
   cast_count: 0
   last_cast: 0
 armorshop:
-  cast_count: 0
-  last_cast: 0
-spellshop:
   cast_count: 0
   last_cast: 0
 neutron:
@@ -793,13 +808,13 @@ neutron:
 imperio:
   cast_count: 0
   last_cast: 0
+petrificustotalus:
+  cast_count: 0
+  last_cast: 0
 missile:
   cast_count: 0
   last_cast: 0
 fillwand:
-  cast_count: 0
-  last_cast: 0
-petrificustotalus:
   cast_count: 0
   last_cast: 0
 hat:
@@ -820,10 +835,13 @@ protegototalus:
 deluminate:
   cast_count: 0
   last_cast: 0
-superconvert:
+finestra:
   cast_count: 0
   last_cast: 0
 silenciototalus:
+  cast_count: 0
+  last_cast: 0
+superconvert:
   cast_count: 0
   last_cast: 0
 aguamenti:
@@ -866,7 +884,7 @@ revelio:
   cast_count: 0
   last_cast: 0
 lumos:
-  cast_count: 0
+  cast_count: 1
   last_cast: 0
 boon:
   cast_count: 0
@@ -904,13 +922,13 @@ wave:
 stoneshop:
   cast_count: 0
   last_cast: 0
+protego:
+  cast_count: 0
+  last_cast: 0
 defender_death:
   cast_count: 0
   last_cast: 0
 lava:
-  cast_count: 0
-  last_cast: 0
-protego:
   cast_count: 0
   last_cast: 0
 icbm:
@@ -991,6 +1009,9 @@ erecto:
 gills:
   cast_count: 0
   last_cast: 0
+locomotorwibbly:
+  cast_count: 0
+  last_cast: 0
 multabasiorum:
   cast_count: 0
   last_cast: 0
@@ -1000,10 +1021,13 @@ incarcerous:
 architectshop:
   cast_count: 0
   last_cast: 0
+confringo:
+  cast_count: 0
+  last_cast: 0
 frost:
   cast_count: 0
   last_cast: 0
-confringo:
+titillando:
   cast_count: 0
   last_cast: 0
 weather:
@@ -1018,10 +1042,10 @@ emeraldshop:
 phase:
   cast_count: 0
   last_cast: 0
-tpshop:
+orchideous:
   cast_count: 0
   last_cast: 0
-orchideous:
+tpshop:
   cast_count: 0
   last_cast: 0
 birth_worm:
@@ -1063,10 +1087,10 @@ repairitem:
 force:
   cast_count: 0
   last_cast: 0
-addsp:
+snowball:
   cast_count: 0
   last_cast: 0
-snowball:
+addsp:
   cast_count: 0
   last_cast: 0
 patronus:
@@ -1096,10 +1120,10 @@ snake_death:
 longapparate:
   cast_count: 0
   last_cast: 0
-leathershop:
+baubillious:
   cast_count: 0
   last_cast: 0
-baubillious:
+leathershop:
   cast_count: 0
   last_cast: 0
 recall:
@@ -1192,16 +1216,22 @@ note06:
 wolfhouse:
   cast_count: 0
   last_cast: 0
-woodshop:
+reveal:
   cast_count: 0
   last_cast: 0
-reveal:
+woodshop:
   cast_count: 0
   last_cast: 0
 tripudio:
   cast_count: 0
   last_cast: 0
+pulvifors:
+  cast_count: 0
+  last_cast: 0
 birth_hunter:
+  cast_count: 0
+  last_cast: 0
+carperetractum:
   cast_count: 0
   last_cast: 0
 bowshop:
@@ -1240,10 +1270,10 @@ evade:
 tag:
   cast_count: 0
   last_cast: 0
-hunter:
+frigusignatus:
   cast_count: 0
   last_cast: 0
-frigusignatus:
+hunter:
   cast_count: 0
   last_cast: 0
 day:
@@ -1300,16 +1330,19 @@ note24:
 note23:
   cast_count: 0
   last_cast: 0
-note22:
+diffindo:
   cast_count: 0
   last_cast: 0
-diffindo:
+note22:
   cast_count: 0
   last_cast: 0
 note21:
   cast_count: 0
   last_cast: 0
 note20:
+  cast_count: 0
+  last_cast: 0
+herbifors:
   cast_count: 0
   last_cast: 0
 chainlightning:
@@ -1328,6 +1361,9 @@ tent:
   cast_count: 0
   last_cast: 0
 periculum:
+  cast_count: 0
+  last_cast: 0
+glisseo:
   cast_count: 0
   last_cast: 0
 permamelt:

@@ -736,6 +736,13 @@ spells:
   epoximise:
     name: Epoximise
     description: "The Sticking Charm"
+  sluguluseructo:
+    name: Slugulus Eructo
+    description: "The Slug-Vomiting Hex"
+  sluguluseructo|2:
+    upgrade_description: "&r&8&bull; &eMore slugs spawn."
+  sluguluseructo|3:
+    upgrade_description: "&r&8&bull; &eMore slugs spawn."
 
 # Annoying messages stuff
 

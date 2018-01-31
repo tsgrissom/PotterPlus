@@ -1,8 +1,8 @@
 id: fba51f45-4afd-44c1-b5ff-1b2807270f05
-name: KatieIsNasty
+name: grisstyl
 last_cast: 0
 cooldown_expiration: 0
-last_death_location: ''
+last_death_location: -70.09957145156211,81.0,192.8808366546758,world,-303.29797,30.000002
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -25,108 +25,42 @@ wands:
         display-name: §6Wand Ticket
         lore:
         - §o§a§7Exchange this for
-        - §o§a something wondrous
-        - §o§3Bound to KatieIsNasty
-        ItemFlags: !!set
-          HIDE_PLACED_ON: null
-          HIDE_UNBREAKABLE: null
-          HIDE_POTION_EFFECTS: null
-          HIDE_ATTRIBUTES: null
-          HIDE_DESTROYS: null
+        - §7 something wondrous
+        - §3§oBound to KatieIsNasty
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
         Unbreakable: true
-        internal: H4sIAAAAAAAAAG2QwWrbQBCGh1YJwjY99qxDoScFWZZq+Zgak5QGGxpD6EmMdmftJfLudneF2yfKe/TJOip1Tj0uO/8/33wTgAkkZzQyhUR662C2/r5+2LT3u/3n228ppJFOrsdIMBmnohbPFFO4smdDHmZfMWr6ErYY4q8U3pNSJGLr0PNgT61VKlCEt8XNgvvDGR0k2912w71/C1ot4YPqsJ6rqs4rVDKvKjHPu1qpfN6VTbEsl4Uqat7Y2cFISKIfiLu0sAauHDry/9nrUeohjHvLFKaSgvDaRc2Rj79flpuf4ojmQFk86pAp67NgT8QPc8jO1rCGIXDM68MxtqLnk+F6v7u7e2Dud9pwHUOIqLueLjyzfwTC9tZDYqwZIZ+J3GVi0pO6tCXr28c9/xs8EUyf2Gu2v4j9MejRWHlTpPBm1IMNSlyslnmDHeuR5aecPa1yWS9WqBZN01TIAEcbO/QMMBiOz8f4dW+59NXZdBhPcw5fuQH+AINgH6AAAgAA
+        internal: H4sIAAAAAAAAAG2QTY7TQBCFy4xtrCRiydoLJFaW8mMTZxWGKBrQjBJpiIRYWWV3ddIap7vpbhM4ClyAe7BjPReZI0w7AzverqSq79V7A4ABhCeULIGQGaVhtPq8ullX77e7d5e3CSSOjrpFRzDot5xo7sglEKmTJAOja3SCPtgNWvc9hpfEOTWu0mj8YkuV4tySW97PzvIW9oQaws12s/boM6MSDF7xGosJz4ssR86yPG8mWV1wnk3qaTmeT+djPi4CiGrVSRZ4jGiUhEijJvMfV4NMdHb550evnwkMGdnGCO2Ev3r9+9d8/a05oNxT6g7CplyZ1Koj+UHu05OSvofO+jMj9gdXNa3PDPFue3V1sw7ghZAe50zXOFG3FFzA869kbI8GiBIY/f2mUa0yEEolKYDwjkj7xwct8X/EcHX5ceezSDwSDD/5ctPdud0Yoi+dIPcWnpTAs74jLJHhbDHPSqx9R2z6JvNlLTJWzBbIZ2VZ5hjD6KBcjcbbd9ItH54IAcSt8mgWBDDs+nxaY/88wCOyNJWiAQIAAA==
     wand:
-      template: wandticket
-      bound: true
-      indestructible: true
-      undroppable: true
-      effect_color: none
-      effect_particle_radius: 0.2
-      effect_particle_offset: 0.3
-      hotbar_count: 1.0
-      icon: paper
-      keep: true
-      locked: true
-      quiet: 2.0
-      left_click: CAST
-      right_click: TOGGLE
       drop: CYCLE_HOTBAR
-      swap: NONE
-      id: a8ada397-8abd-4d26-afd9-d539af38884a
+      template: wandticket
       owner: KatieIsNasty
+      effect_particle_offset: 0.3
+      swap: NONE
       owner_id: fba51f45-4afd-44c1-b5ff-1b2807270f05
-      name: Wand Ticket
+      bound: true
+      icon: paper
+      effect_particle_radius: 0.2
       description: §7Exchange this for something wondrous
+      right_click: TOGGLE
+      indestructible: true
+      version: 5
+      effect_color: none
+      keep: true
+      left_click: CAST
+      name: Wand Ticket
+      quiet: 2.0
+      id: a8ada397-8abd-4d26-afd9-d539af38884a
+      hotbar_count: 1.0
+      locked: true
+      undroppable: true
 open_wand: false
 gave_welcome_wand: true
-soul:
-  id: 4537fa8c-e50e-4eb6-bff7-a7b892ba3044
-  materials: &id001 []
-  spells: *id001
-  hotbar_count: 1
-  hotbar: 0
-  active_spell: ''
-  active_material: ''
-  name: Wand
-  description: ''
-  owner: ''
-  owner_id: ''
-  cost_reduction: 0.0
-  consume_reduction: 0.0
-  cooldown_reduction: 0.0
-  power: 0.0
-  enchant_count: 0
-  max_enchant_count: 0
-  protection: 0.0
-  protection_physical: 0.0
-  protection_projectiles: 0.0
-  protection_falling: 0.0
-  protection_fire: 0.0
-  protection_explosions: 0.0
-  mana: 0.0
-  mana_regeneration: 0
-  mana_max: 0
-  mana_max_boost: 0.0
-  mana_regeneration_boost: 0.0
-  mana_timestamp: 0
-  mana_per_damage: 0.0
-  uses: 0
-  has_uses: false
-  locked: false
-  effect_color: none
-  effect_bubbles: false
-  effect_particle_data: '0.0'
-  effect_particle_count: 0
-  effect_particle_min_velocity: 0.0
-  effect_particle_interval: 0
-  effect_particle_radius: 0.2
-  effect_particle_offset: 0.3
-  effect_sound_interval: 0
-  cast_interval: 0
-  cast_min_velocity: 0.0
-  quiet: 0
-  passive: false
-  keep: false
-  randomize: false
-  rename: false
-  rename_description: false
-  bound: false
-  soul: false
-  force: false
-  indestructible: false
-  protected: false
-  powered: false
-  glow: false
-  undroppable: false
-  heroes: false
-  fill: false
-  upgrade: false
-  organize: false
-  alphabetize: false
-  left_click: CAST
-  right_click: TOGGLE
-  drop: CYCLE_HOTBAR
-  swap: NONE
-  icon: wood_hoe
-  icon_inactive_delay: 0
 data: {}
+properties: {}
+classes: {}
