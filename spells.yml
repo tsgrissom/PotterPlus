@@ -3530,7 +3530,7 @@ locomotorwibbly|3:
 
 epoximise:
   inherit: colloshoo
-  icon_url: http://textures.minecraft.net/texture/5e80124b17d6e42d6e4c171758b5754a8e83c43bad4645ec5036727fa7d430
+  icon_url: http://textures.minecraft.net/texture/cd76c83453ba48a6aceac090ef4e2c8918ecd8891e91621bed2e03fad8a7f6
   cost: 10
   category: transfiguration
   effects:
