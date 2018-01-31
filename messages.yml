@@ -322,6 +322,7 @@ spells:
   aguamenti|2:
     upgrade_description: "&r&8&bull; &eIncreased radius and range."
   locomotomortus:
+    name: "Locomotor Mortus"
     description: "The Leg-Locking Curse"
   episkey:
     description: "The Minor Healing Spell"
@@ -725,6 +726,13 @@ spells:
   scribblifors:
     name: Scribblifors
     description: "The Stationery-Conjuring Spell"
+  locomotorwibbly:
+    name: Locomotor Wibbly
+    description: "The Jelly-Legs Curse"
+  locomotorwibbly|2:
+    upgrade_description: "&r&8&bull; &eIncreased speed and duration."
+  locomotorwibbly|3:
+    upgrade_description: "&r&8&bull; &eIncreased efficacy and range."
 
 # Annoying messages stuff
 

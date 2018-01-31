@@ -3469,3 +3469,61 @@ scribblifors:
     cooldown: 30000
     item: book_and_quill
     target: self
+
+locomotorwibbly:
+  icon_url: http://textures.minecraft.net/texture/4fac8811189b95ba0b198d3962f4b95819c4785142701b9e5ffaaf224338
+  category: dada
+  worth: 10
+  upgrade_required_casts: 75
+  upgrade_required_path: year5
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap
+        location: origin
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          particle: redstone
+          color: d59323
+          lengthGrow: 0.1
+          radiusGrow: 0.003
+          updateLocations: false
+          updateDirections: false
+    tick:
+      - class: EffectSingle
+        location: target
+        particle: spell_mob
+        color: d59323
+    hit:
+      - class: EffectSingle
+        firework: burst
+        color: d59323
+        location: target
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: PotionEffect
+  parameters:
+    target: other
+    target_type: Damageable
+    range: 24
+    effect_slow: 2
+    effect_confusion: 2
+    duration: 8000
+    cooldown: 10000
+  costs:
+    mana: 20
+
+locomotorwibbly|2:
+  upgrade_required_casts: 125
+  upgrade_required_path: year6
+  parameters:
+    duration: 10000
+    velocity: 100
+
+locomotorwibbly|3:
+  parameters:
+    effect_slow: 2
+    range: 32
