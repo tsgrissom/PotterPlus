@@ -722,6 +722,9 @@ spells:
   herbifors:
     name: Herbifors
     description: "The Flower-Head Jinx"
+  scribblifors:
+    name: Scribblifors
+    description: "The Stationery-Conjuring Spell"
 
 # Annoying messages stuff
 

@@ -3453,3 +3453,19 @@ herbifors:
     cooldown: 12000
   costs:
     mana: 10
+
+scribblifors:
+  icon_url: http://textures.minecraft.net/texture/8dd5ea25877fc4f2973e9ae746e77326b9b9dd735ca811cba3bdfb4e47108970
+  category: transfiguration
+  worth: 5
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap
+  actions:
+    cast:
+      - class: GiveItem
+  parameters:
+    cooldown: 30000
+    item: book_and_quill
+    target: self
