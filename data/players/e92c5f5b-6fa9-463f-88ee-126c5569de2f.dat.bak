@@ -1,6 +1,6 @@
 id: e92c5f5b-6fa9-463f-88ee-126c5569de2f
 name: MineStein_
-last_cast: 1517421315949
+last_cast: 1517425923180
 cooldown_expiration: 0
 last_death_location: ''
 fall_protection_count: 0
@@ -419,6 +419,11 @@ spells:
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
+  flintifors:
+    cast_count: 2
+    last_cast: 1517425923184
+    last_earn: 0
+    cooldown_expiration: 0
   lumos:
     cast_count: 5
     last_cast: 1517417116968
@@ -520,8 +525,8 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   sluguluseructo:
-    cast_count: 12
-    last_cast: 1517421315949
+    cast_count: 14
+    last_cast: 1517421748493
     last_earn: 0
     cooldown_expiration: 1517420962230
   alohomora:
@@ -574,12 +579,12 @@ wands:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §6sluguluseructo§f (§3Wand§f)
+        display-name: §6flintifors§f (§3Wand§f)
         lore:
         - §o§aTen Inches Reasonably Supple
         - §a Maple with Thestral Tail-Hair
         - §3§oBound to MineStein_
-        - §7Knows §e3 spells
+        - §7Knows §e4 spells
         - §3Cost Reduction X
         - §3Cooldown Reduction X
         ItemFlags:
@@ -590,7 +595,7 @@ wands:
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
         Unbreakable: true
-        internal: H4sIAAAAAAAAAHVSzW4TMRCekk3YLCVI4QiHlag4EUST5q8HRCSQWomARFJuaDXxzjYWXnuxZxP1xoVn4AG4cuABeAYeiAt4N/xURfhgacYz3zffN44AIgi2qNMQQqa8UMgEUWGYye7STbPVZCGaS00LJqmTFnSFMSr1D4mltBQsjX5yAPUJoJOjxoRlTo4xLwD2cP76zQ9PUCMlMoUDmvbFMBuueqMMp72j0SDrTSZEvcP+SAyHo2lK/SyEQAqjoZNKzI1Ok7Wh4+GjEG6k5ISVRUULx0vS8akWa3LxK0JnNK7URbwoi0JRPMfq3kpex0tfwRZVvESpeicobQOub8i6CgWgGcEtV5BSidQb0mzsRQOaqsyNq2Q1oM2+v67w4TUfY4GWhCxzH+81oONUeV6q0pH1jpi6J4R99O5sKNk1XqmJYH9HqWhDykELOsI4/tdUj0NZRoITYZSxcH8ypjEOxmMxOMwe/DdoQ6vGd2G9mF9qLg1+SdPV8dvQnTFbuSqZ5iaVmfRWRZXUAMKzs9Oncz/p93uP787en1AA7Sr13PvPX+58/fbxw+dPLWjNclNq/isiWCjDEOYo9br+Wzf/ULzAnOD2OfkPIsVDZEbxdlEQpd7olwVZ5N2aKpS6tvvsXSmL3G8q/j0ewE/oeZCRzwIAAA==
+        internal: H4sIAAAAAAAAAHVSzY7TMBCepWlJw1KkcoRDJFacKGK7pJvuAVEJpF2JgES73FDk2pOthWMHe9Jqb1x4Bh6AKwcegGfggbiAk/JTgfDB0jcef998MxMBRBBsmBYhhIRlpRghRJUhQrsNd81Go4UokxrnhFLnPRhyY5TwD7lFUXOSRj8+gPYEMCiZZjnJEh2xsgLYY9mr19+9QMuUSwEHOB3zpEiWo0nBpqOHk6NilKaIo8PxhCfJZCpwXIQQSG40DIRkpdEiXxk8SR6EcE2g41ZWjSycLFDHZ5qv0MUvkTmj2VJdxvO6qhTGGWvujaRVvPAZZJmKF0yq0SmTtgNX12hdwwLQjeCGq1CpXOo1ajL2sgNdVZfGNbY60Cf/v83w8IrHrGIWuaxLj/c6EBVKapKFsW6bMHCqvqhV7dD6FpmWJIR95tu1xnzLtPMpgv2tvsI1Kgc9GHDj6N8Oew4sCuSUc6OMhbvpMV+KwyRNj9Lje/8Ffei1/C5sp/TT2o6Lv+vdNdSH4YzIymVNmBkhC4lNxd54AOH5+dmTzJf67c6j27N3pxhAvwk989Ogz7e+fP3w/tPHHvRmpak1/XERzJUhCEsm9ardtOu/JZ6zEuHmBfp1kfw+I2L8zbxCFL7tLyq0jLZDa1ja3OHTt7WsSj+3+Fd5AD8AQyOOG90CAAA=
     wand:
       template: potterwand
       owner: MineStein_
@@ -604,77 +609,18 @@ wands:
         lumos: 0
         testspell: 2
         aparecium: 1
+        flintifors: 2
         sluguluseructo: 3
-      active_spell: sluguluseructo
+      active_spell: flintifors
       spell_levels: {}
       cost_reduction: 10.0
-      effect_color: 87e7a377c31f,87e7a377c31f,87e7a377c31f
+      effect_color: 87cbd1588387,87cbd1588387,87cbd1588387
       spells:
       - lumos
       - aparecium
-      - testspell
       - sluguluseructo
-inventory:
-- ==: org.bukkit.inventory.ItemStack
-  type: DIAMOND_HOE
-  damage: 50
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: §6Aparecium§f (§3Wand§f)
-    lore:
-    - §o§aTen Inches Reasonably Supple
-    - §a Maple with Thestral Tail-Hair
-    - §3§oBound to MineStein_
-    - §7Knows §e3 spells
-    - §3Cost Reduction X
-    - §3Cooldown Reduction X
-    ItemFlags:
-    - HIDE_ENCHANTS
-    - HIDE_ATTRIBUTES
-    - HIDE_UNBREAKABLE
-    - HIDE_DESTROYS
-    - HIDE_PLACED_ON
-    - HIDE_POTION_EFFECTS
-    Unbreakable: true
-    internal: H4sIAAAAAAAAAHVSzW4TMRCekk3YLCVI4QiHlag4EUST5q8HRCSQWomARFJuaDXxzjYWXnuxZxP1xoVn4AG4cuABeAYeiAt4N0ArED5YmvHM9833jSOACIIt6jSEkCkvFDJBVBhmsrt002w1WYjmUtOCSeqkBV1hjEr9Q2IpLQVLo58cQH0C6OSoMWGZk2PMC4A9nL9+88MT1EiJTOGApn0xzIar3ijDae9oNMh6kwlR77A/EsPhaJpSPwshkMJo6KQSc6PTZG3oePgohBspOWFlUdHC8ZJ0fKrFmlz8itAZjSt1ES/KolAUz7G6t5LX8dJXsEUVL1Gq3glK24DrG7KuQgFoRnDLFaRUIvWGNBt70YCmKnPjKlkNaLPvryt8eM3HWKAlIcvcx3sN6DhVnpeqdGS9I6buCWEfvTsbSnaNlz0R7O/YFG1IOWhBRxjH//rpISjLSHAijDIW7k/GNMbBeCwGh9mD/wZtaNX4Lqx38kvIlZmvyPl78jZ0Z8xWrkqmuUllJr1LUaUygPDs7PTp3E/6/d7ju7P3JxRAu0o999bzlztfv3388PlTC1qz3JSaL0UEC2UYwhylXtff6uYfiheYE9w+J/83pHiIzCjeLgqi1Hv8siCLvNtQhVLXdp+9K2WR+yXFv8cD+AnJGYviygIAAA==
-- ==: org.bukkit.inventory.ItemStack
-  type: STONE_SWORD
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-open_wand: true
+      - flintifors
+open_wand: false
 gave_welcome_wand: true
 data:
   sp: 100

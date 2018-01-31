@@ -743,6 +743,9 @@ spells:
     upgrade_description: "&r&8&bull; &eMore slugs spawn."
   sluguluseructo|3:
     upgrade_description: "&r&8&bull; &eMore slugs spawn."
+  flintifors:
+    name: Flintifors
+    description: "The Fire Striker-Conjuring Spell"
 
 # Annoying messages stuff
 

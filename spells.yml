@@ -3460,13 +3460,22 @@ scribblifors:
     cast:
       - class: EffectSingle
         sound: magic.zap
+        location: origin
+        use_wand_location: false
+        effectlib:
+          class: AnimatedBallEffect
+          particle: enchantment_table
+          iterations: 16
   actions:
     cast:
+      - class: Delay
       - class: GiveItem
   parameters:
     cooldown: 30000
     item: book_and_quill
+    name: "&dConjured Book and Quill"
     target: self
+    delay: 1000
 
 locomotorwibbly:
   icon_url: http://textures.minecraft.net/texture/4fac8811189b95ba0b198d3962f4b95819c4785142701b9e5ffaaf224338
@@ -3598,3 +3607,20 @@ sluguluseructo|2:
 
 sluguluseructo|3:
   parameters: 6
+
+flintifors:
+  inherit: scribblifors
+  icon_url: http://textures.minecraft.net/texture/a5454f6488662cdb7d57d5fcaf3d9b061b57c109ba2aaa06c54707174d7a0c4
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap
+        location: origin
+        use_wand_location: false
+        effectlib:
+          class: AnimatedBallEffect
+          particle: flame
+          iterations: 16
+  parameters:
+    item: flint_and_steel
+    name: "&dConjured Flint and Steel"
