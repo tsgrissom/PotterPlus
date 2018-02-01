@@ -746,6 +746,9 @@ spells:
   flintifors:
     name: Flintifors
     description: "The Fire Striker-Conjuring Spell"
+  ignisdisceditus:
+    name: Ignis Disceditus
+    description: "The Extinguishing Charm"
 
 # Annoying messages stuff
 

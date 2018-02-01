@@ -1,6 +1,6 @@
 id: e92c5f5b-6fa9-463f-88ee-126c5569de2f
 name: MineStein_
-last_cast: 1517426172768
+last_cast: 1517454191747
 cooldown_expiration: 0
 last_death_location: ''
 fall_protection_count: 0
@@ -104,6 +104,11 @@ spells:
     last_cast: 1501476120220
     last_earn: 0
     cooldown_expiration: 1501476123220
+  defodio|3:
+    cast_count: 21
+    last_cast: 1517454136498
+    last_earn: 0
+    cooldown_expiration: 0
   orchideous:
     cast_count: 0
     last_cast: 0
@@ -212,6 +217,11 @@ spells:
   lacarnum|3:
     cast_count: 0
     last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  defodio:
+    cast_count: 9
+    last_cast: 1517453033448
     last_earn: 0
     cooldown_expiration: 0
   sectumsempra:
@@ -377,6 +387,11 @@ spells:
   deluminate:
     cast_count: 6
     last_cast: 1501602734990
+    last_earn: 0
+    cooldown_expiration: 0
+  ignisdisceditus:
+    cast_count: 27
+    last_cast: 1517454191747
     last_earn: 0
     cooldown_expiration: 0
   deletrius:
@@ -584,12 +599,12 @@ wands:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §6flintifors§f (§3Wand§f)
+        display-name: §6ignisdisceditus§f (§3Wand§f)
         lore:
         - §o§aTen Inches Reasonably Supple
         - §a Maple with Thestral Tail-Hair
         - §3§oBound to MineStein_
-        - §7Knows §e5 spells
+        - §7Knows §e7 spells
         - §3Cost Reduction X
         - §3Cooldown Reduction X
         ItemFlags:
@@ -600,7 +615,7 @@ wands:
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
         Unbreakable: true
-        internal: H4sIAAAAAAAAAHVSzW7TQBCeEic4JgQpHOFgiYoTQbTFqdMDIhJIrURAIik3ZG3W42bF/pjdcaLeuPAMPABXDjwAz8ADcYG1rUIEYg8rfbOz38z3zUQAEQRbpvMQQkJVSkYIUWmI0LbhrtlqtBDNhcYFodBZD0bcGJn7h8xiXnESRj/dh+YEMFRMs4yEQkdMlQB7bP7m7U9foGHKRA77OD3kSZGsxpOCTcePJ0fFOE0RxweHE54kk2mOh0UIgeBGwzAXTBmdZ2uDJ8mjEG7k6LgVZV0WTpao4zPN1+ji18ic0WwlL+NFVZYS4zmr762gdbz0GWSZjJdMyPEpE7YD1zdoXc0C0I3glitRykzoDWoy9rIDXVkp42pZHeiT/99keHjNY1Yyi1xUyuO9DkSFFJpEYaxrE4ZOVheVrBxab5FpSEIYMG/XBrOWaedTBIO2vsQNSgc9GHLj6F+HPQcWBXLKuJHGwv30mK/ygyRNj9LjB/8Ffeg1/C6s1V5J21Hxd7+7gga14auVbFEfRjMiH6gI5yYXhcC6f29DAOH5+dmzuW/8x70nd2cfTjGAfh164WdDX+98+/7p45fPPejNlKk0/dEULKQhCBUTet3s3c3fJV4yhXD7Av3yCP6QETH+blEi5n4Ir0q0jNoR1ixN7uj5+0qUyk8xvmoP4Ber2Wj/6wIAAA==
+        internal: H4sIAAAAAAAAAHVSwW4TMRCdkk26WUoqhSMcVqLiRBBNSbrpAREJpFYiIJGUG1o59mxi4bUXezZRb1z4Bj6AKwc+gG/gg7iAd6OUtggfLM14/N68NxMBRBCsmRYhhIR5oRghRIUhQrtJN81ao4VoIjVOCaVOW9DlxijhH1KLouQkjX5+APUJoJMzzVKSOTpieQGwwybv3v/2BDVSKgUc4KjPB9lg3htmbNR7OjzKekmC2DvsD/lgMBwJ7GchBJIbDR0hWW60SJcGTwZPQrgt0HEri4oWTmao4zPNl+jit8ic0WyuLuJpWRQK4wmr7rWkZTzzFWSZimdMqt4pk7YBuyu0rkIBaEaw7wpUKpV6hZqMvWhAU5W5cZWsBuxVnPO5kpmxVSpoQJs8ZP3Jx7d8zApmkcsy9/GOhxeYGSFNBd+AKFNS0/a7L+84VS5KVTq03kNTs4Swx7yfK0w3uPtyoaUT0nEUkkoX+T7qLhWuULlrHA1oQYcbR/9OxcNiliGnlBtlLDxMjvlcHA6S5Cg5fvTfoA2tms2FHmN3a8cVmTclXNV43bDLPm8qgjZ0x0S+tCSc+JJM+qFElYMBhOfnZy8mXtKvB8/ujz+dYgDtKvXKT5q+3/vx88vnb19b0BrnptT0V20wVYYgzJnUy3qL71xSvGY5wt0F+lWU/DEjYvzDtEAUfn5vCrSMNgtRodS13ZcfS1nkfifibXsAfwCPL0TqOQMAAA==
     wand:
       template: potterwand
       owner: MineStein_
@@ -612,12 +627,15 @@ wands:
       version: 5
       spell_inventory:
         lumos: 0
+        scribblifors: 4
         testspell: 2
         aparecium: 1
+        defodio: 5
         flintifors: 2
         sluguluseructo: 3
-      active_spell: flintifors
-      spell_levels: {}
+      active_spell: ignisdisceditus
+      spell_levels:
+        defodio: 3
       cost_reduction: 10.0
       effect_color: 87cbd1588387,87cbd1588387,87cbd1588387
       spells:
@@ -626,7 +644,72 @@ wands:
       - sluguluseructo
       - flintifors
       - scribblifors
-open_wand: false
+      - defodio
+      - ignisdisceditus
+inventory:
+- ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_HOE
+  damage: 50
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §6Defodio§f (§3Wand§f)
+    lore:
+    - §o§aTen Inches Reasonably Supple
+    - §a Maple with Thestral Tail-Hair
+    - §3§oBound to MineStein_
+    - §7Knows §e6 spells
+    - §3Cost Reduction X
+    - §3Cooldown Reduction X
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_DESTROYS
+    - HIDE_PLACED_ON
+    - HIDE_POTION_EFFECTS
+    Unbreakable: true
+    internal: H4sIAAAAAAAAAHWSwW7TQBCGp9gxjilBCkc4WKLiRBBN69TpAREJpFYiIJGUG7I263GzYr1rdseJeuPCM/AAXDnwADwDD8QF1o5SWhA+WJrZ2e+f+WcjgAj8NVN5CCFhWUlGCFGlidBs0h29VmggmgqFM0KhsgD6XGuZu4PMYF5zElo924P286FXMsUyEiVaYmUFsMOmb9/9cgItKRM57OF4yJMiWQxGBRsPDkcHxSBNEQf7wxFPktE4x2ERgi+4VtDLBSu1yrOlxuPkSQi3crTciKqRheM5qvhU8SXa+A0yqxVbyIt4VleVxHjKmv9a0DKeuwoyTMZzJuTghAnjwc0VGttQADoR3LEVSpkJtUJF2lx40JF1qW0zlge7jeZiIUWhTZPyPeiSQ7aXXHzDxaxiBrmoSxfvOHyOhc6FbvAeRIUUirbXXXnPyvq8lrVF4zzUrUoIu8z5ucJsw90iIqffdidxhdJeY3sQQI9rS/9uw+GwKJBTxrXUBh6mR3yR7ydpepAePfpv0IWgVbOhYwRbG66M93frV2e7btRln13oT4jcSU04dZlCOO+jxigfwrOz0+dTN8HPB0/vTz6eoA/dJvXSLZS+3fv+4/Onr18CCCalrhX9Gc6fSU0QlkyoZftYb19KvGIlwt1zdC9O8MeMiPH3swoxd2t6XaFhtNl7Q2lr+y8+1KIq3erjbXsAvwGQ9ppSIAMAAA==
+- ==: org.bukkit.inventory.ItemStack
+  type: STONE_SWORD
+- ==: org.bukkit.inventory.ItemStack
+  type: BOOK_AND_QUILL
+- ==: org.bukkit.inventory.ItemStack
+  type: GRAVEL
+  amount: 64
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+open_wand: true
 gave_welcome_wand: true
 data:
   sp: 100
