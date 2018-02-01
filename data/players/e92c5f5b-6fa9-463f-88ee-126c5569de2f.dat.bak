@@ -1,6 +1,6 @@
 id: e92c5f5b-6fa9-463f-88ee-126c5569de2f
 name: MineStein_
-last_cast: 1517425923180
+last_cast: 1517426172768
 cooldown_expiration: 0
 last_death_location: ''
 fall_protection_count: 0
@@ -62,6 +62,11 @@ spells:
   incarcerous:
     cast_count: 0
     last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  scribblifors:
+    cast_count: 4
+    last_cast: 1517426165145
     last_earn: 0
     cooldown_expiration: 0
   bogies|3:
@@ -420,8 +425,8 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   flintifors:
-    cast_count: 2
-    last_cast: 1517425923184
+    cast_count: 6
+    last_cast: 1517426172769
     last_earn: 0
     cooldown_expiration: 0
   lumos:
@@ -584,7 +589,7 @@ wands:
         - §o§aTen Inches Reasonably Supple
         - §a Maple with Thestral Tail-Hair
         - §3§oBound to MineStein_
-        - §7Knows §e4 spells
+        - §7Knows §e5 spells
         - §3Cost Reduction X
         - §3Cooldown Reduction X
         ItemFlags:
@@ -595,7 +600,7 @@ wands:
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
         Unbreakable: true
-        internal: H4sIAAAAAAAAAHVSzY7TMBCepWlJw1KkcoRDJFacKGK7pJvuAVEJpF2JgES73FDk2pOthWMHe9Jqb1x4Bh6AKwcegGfggbiAk/JTgfDB0jcef998MxMBRBBsmBYhhIRlpRghRJUhQrsNd81Go4UokxrnhFLnPRhyY5TwD7lFUXOSRj8+gPYEMCiZZjnJEh2xsgLYY9mr19+9QMuUSwEHOB3zpEiWo0nBpqOHk6NilKaIo8PxhCfJZCpwXIQQSG40DIRkpdEiXxk8SR6EcE2g41ZWjSycLFDHZ5qv0MUvkTmj2VJdxvO6qhTGGWvujaRVvPAZZJmKF0yq0SmTtgNX12hdwwLQjeCGq1CpXOo1ajL2sgNdVZfGNbY60Cf/v83w8IrHrGIWuaxLj/c6EBVKapKFsW6bMHCqvqhV7dD6FpmWJIR95tu1xnzLtPMpgv2tvsI1Kgc9GHDj6N8Oew4sCuSUc6OMhbvpMV+KwyRNj9Lje/8Ffei1/C5sp/TT2o6Lv+vdNdSH4YzIymVNmBkhC4lNxd54AOH5+dmTzJf67c6j27N3pxhAvwk989Ogz7e+fP3w/tPHHvRmpak1/XERzJUhCEsm9ardtOu/JZ6zEuHmBfp1kfw+I2L8zbxCFL7tLyq0jLZDa1ja3OHTt7WsSj+3+Fd5AD8AQyOOG90CAAA=
+        internal: H4sIAAAAAAAAAHVSzW7TQBCeEic4JgQpHOFgiYoTQbTFqdMDIhJIrURAIik3ZG3W42bF/pjdcaLeuPAMPABXDjwAz8ADcYG1rUIEYg8rfbOz38z3zUQAEQRbpvMQQkJVSkYIUWmI0LbhrtlqtBDNhcYFodBZD0bcGJn7h8xiXnESRj/dh+YEMFRMs4yEQkdMlQB7bP7m7U9foGHKRA77OD3kSZGsxpOCTcePJ0fFOE0RxweHE54kk2mOh0UIgeBGwzAXTBmdZ2uDJ8mjEG7k6LgVZV0WTpao4zPN1+ji18ic0WwlL+NFVZYS4zmr762gdbz0GWSZjJdMyPEpE7YD1zdoXc0C0I3glitRykzoDWoy9rIDXVkp42pZHeiT/99keHjNY1Yyi1xUyuO9DkSFFJpEYaxrE4ZOVheVrBxab5FpSEIYMG/XBrOWaedTBIO2vsQNSgc9GHLj6F+HPQcWBXLKuJHGwv30mK/ygyRNj9LjB/8Ffeg1/C6s1V5J21Hxd7+7gga14auVbFEfRjMiH6gI5yYXhcC6f29DAOH5+dmzuW/8x70nd2cfTjGAfh164WdDX+98+/7p45fPPejNlKk0/dEULKQhCBUTet3s3c3fJV4yhXD7Av3yCP6QETH+blEi5n4Ir0q0jNoR1ixN7uj5+0qUyk8xvmoP4Ber2Wj/6wIAAA==
     wand:
       template: potterwand
       owner: MineStein_
@@ -620,6 +625,7 @@ wands:
       - aparecium
       - sluguluseructo
       - flintifors
+      - scribblifors
 open_wand: false
 gave_welcome_wand: true
 data:

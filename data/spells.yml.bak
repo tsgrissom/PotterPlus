@@ -211,6 +211,9 @@ shell:
 brackiumemendo:
   cast_count: 0
   last_cast: 0
+flintifors:
+  cast_count: 6
+  last_cast: 0
 emp:
   cast_count: 0
   last_cast: 0
@@ -246,6 +249,9 @@ supergather:
   last_cast: 0
 accio:
   cast_count: 0
+  last_cast: 0
+sluguluseructo:
+  cast_count: 2
   last_cast: 0
 tame:
   cast_count: 0
@@ -302,7 +308,7 @@ locomotomortus:
   cast_count: 0
   last_cast: 0
 scribblifors:
-  cast_count: 0
+  cast_count: 4
   last_cast: 0
 pollinate:
   cast_count: 0

@@ -630,7 +630,7 @@ spells:
     name: "Defodio"
     description: "The Gouging Spell"
   defodio|2:
-    upgrade_description: "&r&8&bull; &eGouges more blocks, increased radius."
+    upgrade_description: "&r&8&bull; &eIncreased radius."
   defodio|3:
     upgrade_description: "&r&8&bull; &eIncreased radius."
   expulso:
