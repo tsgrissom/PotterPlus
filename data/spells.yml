@@ -1139,7 +1139,7 @@ broomshop:
   cast_count: 0
   last_cast: 0
 defodio:
-  cast_count: 0
+  cast_count: 30
   last_cast: 0
 bogies:
   cast_count: 0
@@ -1311,6 +1311,9 @@ tree:
   last_cast: 0
 capture:
   cast_count: 0
+  last_cast: 0
+ignisdisceditus:
+  cast_count: 60
   last_cast: 0
 earthquake:
   cast_count: 0
