@@ -1,0 +1,68 @@
+felixleporemos:
+  category: charms
+  icon_url: http://textures.minecraft.net/texture/bc8e7e971bbac56883fe9bfe1b38c5f568ece6cbe09ca59d85f6dab4688d14
+  icon: diamond_axe:46
+  upgrade_required_casts: 25
+  upgrade_required_path: year2
+  worth: 5
+  costs:
+    mana: 15
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: PotionEffect
+  effects:
+    cast:
+      - location: origin
+        sound: magic.shimmer
+    tick:
+      - location: target
+        particle: spell_mob
+        color: d9d237
+        particle_count: 20
+        particle_offset_x: 0.1
+        particle_offset_y: 0.1
+        particle_offset_z: 0.1
+      - location: target
+        particle: villager_happy
+        particle_count: 10
+        particle_offset_x: 0.1
+        particle_offset_y: 0.1
+        particle_offset_z: 0.1
+    hit_entity:
+      - location: target
+        sound: entity_player_levelup
+        sound_volume: 0.5
+    hit:
+      - location: target
+        firework: ball
+        color: d9d237
+        fadeColor: FFFFFF
+  parameters:
+    cooldown: 12000
+    target: other
+    target_type: LivingEntity
+    hitbox: true
+    effect_speed: 1
+    effect_jump: 1
+    duration: 3000
+    velocity: 125
+    range: 12
+
+felixleporemos|2:
+  upgrade_required_casts: 50
+  upgrade_required_path: year3
+  costs:
+    mana: 20
+  parameters:
+    cooldown: 14000
+    duration: 5000
+
+felixleporemos|3:
+  costs:
+    mana: 25
+  parameters:
+    effect_speed: 2
+    effect_jump: 2
+    velocity: 200

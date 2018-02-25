@@ -1,0 +1,33 @@
+glisseo:
+  icon_url: http://textures.minecraft.net/texture/872d9b98a6b34a2762aac1af915873c066c43c2b2b8d689d27626cc5afcb11
+  category: transfiguration
+  worth: 20
+  class: ConstructSpell
+  upgrade_required_path: year7
+  upgrade_required_casts: 100
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: block_glass_break
+      - class: EffectTrail
+        effect: step_sound
+        material: ice
+  costs:
+    mana: 20
+  parameters:
+    allow_max_range: false
+    range: 32
+    check_destructible: true
+    destructible: stairs
+    brush: ice
+    radius: 2
+    transparent: transparent_to_construction
+    undo: 5000
+    undo_speed: 0.2
+    cooldown: 20000
+
+glisseo|2:
+  parameters:
+    undo: 7000
+    undo_speed: 0.1
+    radius: 3

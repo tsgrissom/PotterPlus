@@ -1,0 +1,35 @@
+defodio:
+  icon_url: http://textures.minecraft.net/texture/964590674dbaf76126bd87694bfe97575be8de19aac4a8d9aa5579f8f01ed1
+  category: charms
+  worth: 15
+  class: ConstructSpell
+  upgrade_required_casts: 75
+  upgrade_required_path: year5
+  effects:
+    cast:
+      - class: EffectTrail
+        effect: step_sound
+        material: stone
+  costs:
+    mana: 20
+  parameters:
+    allow_max_range: false
+    range: 32
+    check_destructible: true
+    destructible: gravel
+    brush: erase
+    radius: 2
+    transparent: transparent_to_construction
+    undo: 5000
+    undo_speed: 0.2
+    cooldown: 20000
+
+defodio|2:
+  upgrade_required_casts: 125
+  upgrade_required_path: year6
+  parameters:
+    radius: 3
+
+defodio|3:
+  parameters:
+    radius: 4

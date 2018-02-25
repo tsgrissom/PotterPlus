@@ -1,0 +1,28 @@
+lumos:
+  upgrade_required_path: year1
+  upgrade_required_casts: 25
+  costs:
+    mana: 30
+  worth: 5
+  effects:
+    cast_self:
+      - class: EffectSingle
+        location: origin
+        color: FFFFFF
+        firework: ball
+  parameters:
+    target: self
+
+lumos|2:
+  upgrade_required_path: year2
+  upgrade_required_casts: 50
+  costs:
+    mana: 35
+  parameters:
+    duration: 30000
+
+lumos|3:
+  costs:
+    mana: 40
+  parameters:
+    duration: 40000

@@ -157,6 +157,15 @@ categories:
     music:
         name: Music
         description: Used for playing music
+classes:
+
+  battle_mage:
+    name: "Battle Mage"
+    description: "A warrior who wields a magic sword"
+
+  mage:
+    name: "Mage"
+    description: "The ultimate spellcaster"
 item:
     duplicated: Your item has been duplicated
     destroyed: Your item has been destroyed
@@ -201,6 +210,10 @@ mage:
     not_reconfigured: Mage not reconfigured
     earned_sp: "a:&6+&e$amount &6SP"
     no_class: "You are not trained to use $name"
+    player_spell_upgraded: "$players's &r&6$name &d&ohas been upgraded to &3$level"
+    spell_upgraded: "&r&6$name &d&ohas been upgraded to &3$level"
+    spell_added: "The &r&6$name &d&ospell has been added"
+    brush_added: "The &r&7$name &d&obrush has been added"
 general:
     no_spells: You don't know any spells
     no_spells_in_category: You don't know any spells in the $category category
@@ -366,6 +379,12 @@ shops:
   prerequisite_spell_level: "&6$name"
   prerequisite_spell_progress_level: " (Progress $level/$max_level)"
   required_spells: "&r&cRequires: $spells"
+  cast_spell: "Cast $spell on you"
+  unlock_class: "$class"
+  nothing: "Nothing"
+  cost_lore: "&6Costs: &e$cost"
+  has_class: "You already have class $class"
+  at_limit: "You are at your limit of $limit"
 spell:
     category: ""
     # category: "&7&o$category"
@@ -1681,8 +1700,8 @@ spells:
         no_path_end: You must be ready to advance from $path!
         no_wand: You must be holding a wand!
         insufficient: "&4Costs &c$cost"
-        confirm_title: "Buy $item"
-        deducted: "&d&oYou bought &r&6$item &r&d&ofor &r&a$cost"
+        confirm_title: "Learn $item"
+        deducted: "&d&oYou learned &r&6$item &r&d&ofor &r&a$cost"
         fail: ""
     engineershop:
         name: Engineer Shop
@@ -1923,14 +1942,14 @@ wand:
     material_count: Has $count Materials
     upgrade_spell_count: Adds $count Spells
     upgrade_material_count: Adds $count Materials
-    mana_max: "Mana: $amount"
-    mana_amount: "&d&oMana: $amount"
-    mana_amount_boosted: "&d&oMana: $amount &f(&b$mana&f)"
-    mana_regeneration: "&d&oMana Regeneration: $amount/s"
-    mana_per_damage: "&4&oMana Rage: $amount/HP"
-    mana_regeneration_boosted: "&d&oMana Regeneration: $amount &f(&b$mana&f)&d/s"
-    mana_boost: "&d&oMana Boost: $amount%"
-    mana_regeneration_boost: "&d&oMana Regeneration Boost: $amount%"
+    mana_max: "&eMana: $amount"
+    mana_amount: "&eMana: $amount"
+    mana_amount_boosted: "&eMana: $amount &f(&b$mana&f)"
+    mana_regeneration: "&eMana Regeneration: $amount/s"
+    mana_per_damage: "&eMana Rage: $amount/HP"
+    mana_regeneration_boosted: "&eMana Regeneration: $amount &f(&b$mana&f)&d/s"
+    mana_boost: "&eMana Boost: $amount%"
+    mana_regeneration_boost: "&eMana Regeneration Boost: $amount%"
     sp_multiplier: "&6SP Earn Boost: $amount%"
     block_chance: "&bBlocking $roman"
     reflect_chance: "&bReflective $roman"
@@ -1957,14 +1976,14 @@ wand:
     player_unmodifiable: $name's wand can not be modified
     bound_to_other: That wand is not bound to you
     bound: That wand is bound to $name
-    spell_added: "The &r&6$name &d&ospell has been added to your $wand"
-    brush_added: "The &r&7$name &d&obrush has been added to your $wand"
+    spell_added: "You have learned the &r&6$name &d&ospell"
+    brush_added: "You have learned the &r&7$name &d&obrush"
     player_spell_upgraded: "$players's &r&6$name &d&ohas been upgraded to &3$level"
     spell_upgraded: "&r&6$name &d&ohas been upgraded to &3$level"
     spell_override_upgraded: "&r&6$name &d&ohas been upgraded"
-    upgraded_property: "&r&dYour $wand has been upgraded to &r&b$name"
+    upgraded_property: "&r&dYou have been upgraded to &r&b$name"
     spell_progression: "&r&6$name &d&ohas progressed to &3$level&d&o/&3$max_level"
-    mana_added: "&r&dYour $wand now has $value mana"
+    mana_added: "&r&dYou now have $value mana"
     hotbar_count: "$amount hotbars"
     player_upgraded: $name's wand upgraded
     player_not_upgraded: $name's wand not upgraded
@@ -1983,7 +2002,7 @@ wand:
     player_unenchanted: $name's wand has been turned into a normal item
     no_path: "&r&4Your $wand can not be enchanted"
     max_enchanted: "&r&4Your $wand can not be enchanted any further"
-    level_up: "&r&bYour $wand has been upgraded to &r&5$path"
+    level_up: "&r&bYou have progressed to to &r&5$path"
     duplicated: Your wand has been duplicated
     player_duplicated: $name's wand has been duplicated
     restored: Your wands have been restored
@@ -2014,7 +2033,7 @@ wand:
     self_destruct: The ancient artifact crumbles in your hands
     no_permission: "&r&4You may not use that $wand &r&4here."
     single_spell: Wand of $spell
-    fully_enchanted: "&cThis $wand is fully enchanted &4(for now)"
+    fully_enchanted: "&cYou cannot progress any further &4(for now)"
     need_more_levels: "You need at least &r&4$levels &d&olevels to enchant"
     require_more_levels: "You must enchant at a higher level"
     randomized_lore: What kind of wand will you get?
@@ -2026,6 +2045,8 @@ wand:
     #path_lore: "&o$path"
     hotbar_count_usage: "&ePress $cycle_hotbar while your $wand is active to cycle hotbars"
     inventory_instructions: "&r&eYour $wand now has more than one spell. Press $toggle to open/close the spell inventory. Use the hotbar buttons to select a spell."
+    chest_instructions: "&r&eYour $wand now has more than one spell. Press $toggle to open/close the spell inventory, click a spell to cast."
+    skills_instructions: "&r&eYour $wand now has more than one spell. Press $toggle to open/close the spell inventory, drag a spell to the hotbar to cast."
     page_instructions: "&r&eYour $wand now has more than one page of spells. Click outside the spell inventory to change pages."
     bound_instructions: "&r&3Your $wand is bound to you, and is undroppable."
     spell_instructions: "&r&bSwing your $wand to cast &r&6$spell&d&o. Spells require mana, shown in the XP bar."
@@ -2371,7 +2392,7 @@ wands:
         description: Right-click to view skills, drag skill to hotbar to use
     spellbook:
         name: Spell Book
-        description: Press Q to view spells, drag skill to hotbar to use
+        description: Right-click to view spells, drag skill to hotbar to use
     appearance_beginner:
         name: Beginner Wand Appearance
         description: Will change the appearance of your wand

@@ -1,0 +1,36 @@
+arrowmaxima:
+  inherit: arrow
+  upgrade_required_path: year5
+  upgrade_required_casts: 25
+  actions:
+    cast:
+      - class: Repeat
+        actions:
+          - class: Projectile
+          - class: Delay
+  parameters:
+    damage: 1
+    repeat: 3
+    spread: 2
+    delay: 100
+
+arrowmaxima|2:
+  upgrade_required_path: year6
+  upgrade_required_casts: 50
+  parameters:
+    damage: 2
+    repeat: 6
+    spread: 1
+
+arrowmaxima|3:
+  upgrade_required_path: year7
+  upgrade_required_casts: 75
+  parameters:
+    damage: 3
+    repeat: 8
+    spread: 0
+    delay: 50
+
+arrowmaxima|4:
+  parameters:
+    fire: true

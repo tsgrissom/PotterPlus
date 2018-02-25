@@ -1,0 +1,23 @@
+waddiwasi:
+  inherit: colloshoo
+  icon_url: http://textures.minecraft.net/texture/5e80124b17d6e42d6e4c171758b5754a8e83c43bad4645ec5036727fa7d430
+  worth: 10
+  category: charms
+  effects:
+    tick:
+      - location: target
+        particle: block_crack
+        material: purpur_block
+        particle_count: 4
+        particle_offset_x: 0.5
+        particle_offset_z: 0.5
+        particle_offset_y: 0
+    hit_entity:
+      - location: target
+        target_offset: 0,-3,0
+        effectlib:
+          class: SphereEffect
+          particle: block_crack
+          material: purpur_block
+          radius: 2.5
+          duration: $duration

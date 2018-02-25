@@ -1,0 +1,66 @@
+levicorpus:
+  inherit: false
+  worth: 15
+  icon_url: http://textures.minecraft.net/texture/3f6c497d587c1398ae29cb648a9707fbe974a651cf88c6a2296442db4f6fa5c
+  icon: diamond_axe:227
+  category: dada
+  cast_on_no_target: true
+  pvp_restricted: true
+  upgrade_required_casts: 25
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: burp
+        sound_volume: 1
+        location: origin
+        effectlib:
+          class: ConeEffect
+          iterations: 15
+          particle: redstone
+          color: 8258FA
+          lengthGrow: 0.4
+      - class: EffectSingle
+        location: target
+        color: 8258FA
+        firework: burst
+  actions:
+    cast:
+      - class: PotionEffect
+        duration: 2000
+      - class: Delay
+        delay: 2250
+      - class: Repeat
+        actions:
+          - class: PotionEffect
+            duration: 500
+          - class: Delay
+            delay: 750
+  parameters:
+    target_type: LivingEntity
+    allow_max_range: false
+    range: 48
+    fov: 0.12
+    cooldown: 3000
+    target_breakables: 0
+    undo_velocity: true
+    undo_damage: true
+    undo_movement: true
+    hitbox: true
+    repeat: 4
+    effect_levitation: 4
+  costs:
+    mana: 40
+
+levicorpus|2:
+  inherit: false
+  upgrade_required_casts: 50
+  upgrade_required_path: year7
+  parameters:
+    repeat: 8
+    effect_levitation: 5
+
+levicorpus|3:
+  inherit: false
+  parameters:
+    repeat: 12
+    effect_levitation: 6

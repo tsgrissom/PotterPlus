@@ -1,0 +1,14 @@
+epoximise:
+  inherit: colloshoo
+  icon_url: http://textures.minecraft.net/texture/cd76c83453ba48a6aceac090ef4e2c8918ecd8891e91621bed2e03fad8a7f6
+  worth: 10
+  category: transfiguration
+  effects:
+    tick:
+      - location: target
+        particle: block_crack
+        material: web
+        particle_count: 4
+        particle_offset_x: 0.5
+        particle_offset_z: 0.5
+        particle_offset_y: 0

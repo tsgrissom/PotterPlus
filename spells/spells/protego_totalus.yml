@@ -1,0 +1,61 @@
+protegototalus:
+  icon: diamond_axe:74
+  icon_url: http://textures.minecraft.net/texture/9330f3a837c4a358fa62f2b684c5c4c2dadf799c0fe9be8f4a4aecace62a
+  category: dada
+  tags: noduel
+  worth: 20
+  upgrade_required_path: year6
+  upgrade_required_casts: 50
+  costs:
+    mana: 90
+  actions:
+    cast:
+      - class: AreaOfEffect
+        actions:
+          - class: PotionEffect
+          - class: Message
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap_crack
+        location: target
+        effectlib:
+          class: SphereEffect
+          iterations: 70
+          period: 0.1
+          particle: water_wake
+          radius: 3
+          particles: 100
+  parameters:
+    radius: 3
+    y_radius: 3
+    cooldown: 20000
+    effect_damage_resistance: 300
+    effect_fire_resistance: 1
+    duration: 10000
+    target_count: 10
+    target_source: true
+    target: self
+    target_type: Player
+    message: "&bProtego Totalus!"
+    message_type: title
+    message_target: true
+
+protegototalus|2:
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap_crack
+        location: target
+        effectlib:
+          class: SphereEffect
+          iterations: 70
+          period: 0.1
+          particle: water_wake
+          radius: 6
+          particles: 600
+  parameters:
+    radius: 6
+    y_radius: 6
+    duration: 15000
+    target_count: 20

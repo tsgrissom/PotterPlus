@@ -1,0 +1,63 @@
+bombarda:
+  inherit: false
+  icon: diamond_axe:35
+  icon_url: http://textures.minecraft.net/texture/70df3afc6a6035b189f83d2cfc84ff9ffe33750273247d1e41acb5a805f54
+  category: dark
+  pvp_restricted: true
+  worth: 20
+  upgrade_required_path: year4
+  upgrade_required_casts: 50
+  costs:
+    mana: 35
+  actions:
+    cast:
+      - class: PlayEffects
+        effect: warmup
+      - class: Delay
+      - class: CustomProjectile
+        actions:
+          - class: Explosion
+  effects:
+    warmup:
+      - class: EffectSingle
+        location: origin
+        sound: magic.zap
+        use_wand_location: false
+        effectlib:
+          class: AnimatedBall
+          period: 1
+          iterations: 30
+          particle: redstone
+          color: 8A084B
+    tick:
+      - class: EffectSingle
+        location: target
+        particle: redstone
+        particle_count: 10
+        color: 8A084B
+      - class: EffectSingle
+        location: target
+        particle: redstone
+        particle_count: 10
+        color: FFFFFF
+  parameters:
+    target: other
+    delay: 750
+    gravity: .05
+    velocity: 100
+    allow_max_range: false
+    range: 32
+    break_blocks: false
+    size: 2
+    cooldown: 7000
+    undo: 3000
+    undo_speed: 0.5
+    fire: false
+
+bombarda|2:
+  parameters:
+    velocity: 125
+    size: 3
+    cooldown: 8000
+    undo: 4000
+    range: 64

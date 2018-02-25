@@ -1,0 +1,34 @@
+limusexumai:
+  inherit: araniaexumai
+  icon_url: http://textures.minecraft.net/texture/d8532e9a6994e828df3a7236a7b3686194eba57dae3eb10789d98915cbb3336
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: ghast_fireball
+        sound_volume: 1
+        sound_pitch: 3
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          lengthGrow: 0.15
+          particle: spell_mob
+          color: 98fb98
+      - class: EffectSingle
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          lengthGrow: 0.15
+          particle: spell_mob
+          color: FFFFFF
+  parameters:
+    target_type: Slime
+
+limusexumai|2:
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
+  parameters:
+    damage: 15
+
+limusexumai|3:
+  parameters:
+    damage: 20

@@ -1,0 +1,71 @@
+bruchumaculeatos:
+  category: dark
+  icon: diamond_axe:151
+  icon_url: http://textures.minecraft.net/texture/c7142a19d8c84389da74b69641542b8b2fafbed8f7515d1d36c63c96bd749
+  worth: 20
+  upgrade_required_path: year6
+  upgrade_required_casts: 25
+  costs:
+    mana: 60
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Repeat
+            actions:
+              - class: Delay
+              - class: Damage
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap
+        location: origin
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          particle: fireworks_spark
+          lengthGrow: 0.1
+          radiusGrow: 0.01
+          updateLocations: false
+          updateDirections: false
+    tick:
+      - location: target
+        particle: redstone
+        color: FFFFFF
+        particle_count: 5
+        particle_offset_x: 0.1
+        particle_offset_y: 0.1
+        particle_offset_z: 0.1
+    hit:
+      - location: target
+        firework: ball
+        color: FFFFFF
+    hit_entity:
+      - location: target
+        effectlib:
+          class: BleedEffect
+  parameters:
+    target: other
+    target_type: LivingEntity
+    player_damage: 2
+    entity_damage: 2
+    hitbox: true
+    repeat: 4
+    delay: 500
+    range: 12
+    cooldown: 15000
+    velocity: 125
+
+bruchumaculeatos|2:
+  upgrade_required_casts: 50
+  upgrade_required_path: year7
+  parameters:
+    player_damage: 3
+    entity_damage: 3
+    repeat: 6
+    delay: 250
+
+bruchumaculeatos|3:
+  parameters:
+    player_damage: 4
+    entity_damage: 4

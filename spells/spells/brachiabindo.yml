@@ -1,0 +1,12 @@
+brachiabindo:
+  inherit: incarcerous
+  effects:
+    cast:
+      - class: EffectTrail
+        particle: spell
+        reverse: false
+        length: 16
+        particle_count: 6
+  parameters:
+    brush: birch_fence
+    undo: 2000

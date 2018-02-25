@@ -1,0 +1,21 @@
+protegomaxima:
+  icon_url: http://textures.minecraft.net/texture/9330f3a837c4a358fa62f2b684c5c4c2dadf799c0fe9be8f4a4aecace62a
+  upgrade_required_casts: 50
+  parameters:
+    radius: 5
+    target: self
+    cooldown: 20000
+    undo: 2000
+    reflect_chance: 0.7
+
+protegomaxima|2:
+  actions:
+    alternate_down:
+      - class: ChangeContext
+        target_caster: true
+  parameters:
+    radius: 6
+    target: other
+    cooldown: 15000
+    undo: 4000
+    reflect_chance: 1

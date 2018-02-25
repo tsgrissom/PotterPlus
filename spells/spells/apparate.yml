@@ -1,0 +1,70 @@
+apparate:
+  worth: 30
+  inherit: blink
+  upgrade_required_path: year5
+  upgrade_required_casts: 25
+  effects:
+    teleport:
+      - class: EffectSingle
+        sound: magic.teleport
+        location: target
+        source_location: eyes
+        effectlib:
+          class: AtomEffect
+          particleNucleus: redstone
+          particleOrbital: spell_mob
+          colorNucleus: FFFFFF
+          colorOrbital: FFFFFF
+          iterations: 8
+          offset: 0,-1,0
+    precast:
+      - class: EffectSingle
+        sound: magic.teleport
+        location: origin
+        source_location: eyes
+        effectlib:
+          class: AtomEffect
+          updateLocations: false
+          particleNucleus: redstone
+          particleOrbital: spell_mob
+          colorNucleus: FFFFFF
+          colorOrbital: FFFFFF
+          iterations: 8
+          offset: 0,-1,0
+      - class: EffectSingle
+        effectlib:
+          class: LineEffect
+          particle: redstone
+          color: FFFFFF
+          updateLocations: false
+
+apparate|2:
+  inherit: blink|2
+  upgrade_required_path: year5
+  upgrade_required_casts: 50
+
+apparate|3:
+  inherit: blink|3
+  upgrade_required_path: year6
+  upgrade_required_casts: 75
+  actions:
+    alternate_up: []
+
+apparate|4:
+  inherit: blink|4
+  upgrade_required_path: year6
+  upgrade_required_casts: 100
+  actions:
+    alternate_down: []
+
+apparate|5:
+  inherit: blink|5
+  upgrade_required_path: year7
+  upgrade_required_casts: 125
+  parameters:
+    allow_passthrough: false
+    passthrough_range: 0
+
+apparate|6:
+  parameters:
+    range: 64

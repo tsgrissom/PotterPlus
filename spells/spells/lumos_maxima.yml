@@ -1,0 +1,28 @@
+lumosmaxima:
+  upgrade_required_path: year5
+  upgrade_required_casts: 50
+  inherit: lumos
+  costs:
+    mana: 50
+  worth: 15
+  effects:
+    cast_self:
+      - class: EffectSingle
+        location: origin
+        color: FFFFFF
+        firework: ball_large
+      - class: EffectSingle
+        location: origin
+        color: FF0080
+        firework: ball
+  parameters:
+    effect_night_vision: 2
+    duration: 60000
+    cooldown: 60000
+
+lumosmaxima|2:
+  costs:
+    mana: 60
+  parameters:
+    duration: 90000
+    cooldown: 90000

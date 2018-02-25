@@ -1,0 +1,110 @@
+stupefy:
+  icon: ink_sack:1
+  icon_url: http://textures.minecraft.net/texture/be69d3295210f65ed47322b8838eb98d6c898d12fcafaa0e4b8dd3813c6e
+  upgrade_required_path: year5
+  upgrade_required_casts: 25
+  category: dada
+  worth: 15
+  earns_sp: 7
+  earns_cooldown: 2000
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Damage
+          - class: PotionEffect
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap
+        location: origin
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          particle: redstone
+          color: 8b0000
+          lengthGrow: 0.1
+          radiusGrow: 0.003
+          updateLocations: false
+          updateDirections: false
+    tick:
+      - particle: redstone
+        location: target
+        color: FF0000
+    hit_block:
+      - class: EffectSingle
+        location: target
+        particle: block_crack
+        particle_count: 50
+        particle_offset_x: 0.2
+        particle_offset_y: 1
+        particle_offset_z: 0.2
+    hit:
+      - class: EffectSingle
+        location: target
+        color: FF0000
+        firework: ball
+        fadeColor: 0099ff
+  headshot_parameters:
+    player_damage: 3
+    entity_damage: 3
+  parameters:
+    allow_max_range: true
+    velocity: 100
+    hitbox: true
+    range: 24
+    target_type: LivingEntity
+    player_damage: 1
+    entity_damage: 1
+    target_breakables: 1
+    cooldown: 4000
+    reorient: false
+    effect_confusion: 120,2
+    duration: 2000
+  costs:
+    mana: 15
+
+stupefy|2:
+  upgrade_required_path: year6
+  upgrade_required_casts: 50
+  parameters:
+    cooldown: 2000
+    player_damage: 2
+    entity_damage: 2
+    duration: 4000
+  headshot_parameters:
+    player_damage: 4
+    entity_damage: 4
+
+stupefy|3:
+  upgrade_required_path: year7
+  upgrade_required_casts: 75
+  effects:
+    hit:
+      - class: EffectSingle
+        location: target
+        color: 8b0000
+        firework: ball_large
+        fadeColor: 0099ff
+      - class: EffectSingle
+        location: target
+        color: FF0000
+        firework: ball
+        fadeColor: 0099ff
+  parameters:
+    range: 48
+    player_damage: 3
+    entity_damage: 3
+    duration: 6000
+  headshot_parameters:
+    player_damage: 5
+    entity_damage: 5
+
+stupefy|4:
+  parameters:
+    player_damage: 4
+    entity_damage: 4
+    duration: 8000
+  headshot_parameters:
+    player_damage: 6
+    entity_damage: 6

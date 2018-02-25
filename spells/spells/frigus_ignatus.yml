@@ -1,0 +1,31 @@
+frigusignatus:
+  category: charms
+  icon_url: http://textures.minecraft.net/texture/a9e073da36aaf2c844da428cd4a19dfde32c8cdc2404eed4a135f6095b17c
+  icon: diamond_axe:139
+  upgrade_required_casts: 25
+  upgrade_required_path: year4
+  worth: 5
+  costs:
+    mana: 30
+  actions:
+    cast:
+      - class: PotionEffect
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap_crack
+        firework: ball
+        color: 58ebd9
+        fadeColor: FFFFFF
+  parameters:
+    effect_fire_resistance: 1
+    duration: 5000
+    cooldown: 12000
+    target: self
+
+frigusignatus|2:
+  costs:
+    mana: 35
+  parameters:
+    duration: 8000
+    coolown: 15000

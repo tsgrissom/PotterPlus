@@ -1,0 +1,34 @@
+liberacorpus:
+  category: charms
+  icon: diamond_axe
+  icon_url: http://textures.minecraft.net/texture/3f6c497d587c1398ae29cb648a9707fbe974a651cf88c6a2296442db4f6fa5c
+  worth: 10
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.shimmer
+        use_wand_location: false
+        source_location: feet
+        effectlib:
+          class: WarpEffect
+          particle: redstone
+          color: 8A2BE2
+          duration: 5000
+          rings: 10
+          particles: 30
+  actions:
+    cast:
+      - class: AreaOfEffect
+        actions:
+        - class: Undo
+      - class: PotionEffect
+  costs:
+    mana: 30
+  parameters:
+    radius: 20
+    remove_effects:
+     - levitation
+    target_spell: levicorpus
+    force: true
+    target: self
+    cooldown: 8000

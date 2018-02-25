@@ -1,0 +1,42 @@
+protego:
+  worth: 15
+  upgrade_required_path: year4
+  upgrade_required_casts: 25
+  parameters:
+    brushcolor: false
+    cooldown: 8000
+    undo: 500
+    reflect_chance: 0.2
+
+protego|2:
+  upgrade_required_path: year5
+  upgrade_required_casts: 50
+  parameters:
+    cooldown: 6000
+    undo: 800
+    reflect_chance: 0.4
+    radius: 2
+
+protego|3:
+  upgrade_required_path: year6
+  upgrade_required_casts: 75
+  parameters:
+    cooldown: 4000
+    undo: 1000
+    reflect_chance: 0.6
+    radius: 3
+
+protego|4:
+  upgrade_required_path: year7
+  upgrade_required_casts: 100
+  parameters:
+    cooldown: 2000
+    undo: 1500
+    reflect_chance: 0.8
+    radius: 4
+
+protego|5:
+  parameters:
+    undo: 2000
+    reflect_chance: 1
+    radius: 5

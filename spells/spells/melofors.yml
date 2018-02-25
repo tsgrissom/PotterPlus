@@ -1,0 +1,57 @@
+melofors:
+  icon_url: http://textures.minecraft.net/texture/ace674ef296f926e2a852be31051493259f9c9cfb98682eeed5a25517b9da1
+  icon: pumpkin
+  category: transfiguration
+  worth: 10
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Hat
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap_crack
+        location: origin
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          particle: spell_mob
+          color: ff4500
+          lengthGrow: 0.1
+          radiusGrow: 0.003
+          updateLocations: false
+          updateDirections: false
+    tick:
+      - particle: spell_mob
+        location: target
+        color: ffa500
+    hit_entity:
+      - class: EffectSingle
+        location: target
+        color: ffa500
+        firework: ball
+      - class: EffectSingle
+        location: target
+        color: ff4500
+        firework: ball_large
+    hit:
+      - class: EffectSingle
+        location: target
+        particle: fireworks_spark
+        particle_count: 20
+        particle_offset_x: 0.3
+        particle_offset_y: 0.5
+        particle_offset_z: 0.3
+        sound: magic.zap
+        sound_volume: .3
+        particle_data: 0.3
+  parameters:
+    velocity: 200
+    target_type: LivingEntity
+    range: 24
+    cooldown: 4000
+    brush: pumpkin
+    undo: 6000
+  costs:
+    mana: 24

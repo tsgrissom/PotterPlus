@@ -1,0 +1,30 @@
+depulso:
+  inherit: ventus
+  category: charms
+  upgrade_required_path: year5
+  upgrade_required_casts: 25
+  worth: 10
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: block_fire_extinguish
+        sound_volume: 1
+        sound_pitch: -0.1
+        location: origin
+        effectlib:
+          class: DnaEffect
+          particlesBase: 0
+          particlesHelix: 7
+          particleHelix: spell
+          particleBase1: spell
+          particleBase2: spell
+          iterations: 10
+          radius: 0.5
+    iterate: []
+  parameters:
+    repeat: 1
+
+depulso|2:
+  parameters:
+    item_speed: 0.2
+    entity_speed: 0.5

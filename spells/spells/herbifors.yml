@@ -1,0 +1,43 @@
+herbifors:
+  icon_url: http://textures.minecraft.net/texture/b6d7a7f167e24d166ab1d8dedd79311481d4e1ebddbaba8ec6cb394713fb
+  category: herbology
+  worth: 5
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap
+        location: origin
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          particle: item_crack
+          material: bone
+          lengthGrow: 0.1
+          radiusGrow: 0.003
+          updateLocations: false
+          updateDirections: false
+    tick:
+      - class: EffectSingle
+        sound: magic.zap_up
+        particle: villager_happy
+        location: target
+    hit:
+      - class: EffectSingle
+        firework: burst
+        color: 2dfc42
+        location: target
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Hat
+  parameters:
+    material: double_plant:1
+    target: other
+    target_type: Player
+    range: 12
+    hitbox: true
+    undo: 5000
+    cooldown: 12000
+  costs:
+    mana: 10

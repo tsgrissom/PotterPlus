@@ -1,0 +1,24 @@
+emancipare:
+  icon: diamond_axe:177
+  icon_url: http://textures.minecraft.net/texture/b2545861d5871f75caa3b378ec44655bcb3d6cabe697b27303dbdaa8b5b5
+  category: charms
+  worth: 10
+  costs:
+    mana: 20
+  actions:
+    cast:
+      - class: Undo
+        target_spell: incarcerous
+      - class: Undo
+        target_spell: brachiabindo
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.shimmer
+      - class: EffectTrail
+        particle: block_crack
+        material: fence
+  parameters:
+    target: other
+    range: 12
+    cooldown: 5000

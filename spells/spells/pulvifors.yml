@@ -1,0 +1,26 @@
+pulvifors:
+  inherit: arresto
+  worth: 5
+  category: charms
+  effects:
+    cast:
+    -  class: EffectSingle
+       sound: horse_saddle
+       sound_volume: 1
+       effectlib:
+         class: ShieldEffect
+         iterations: 10
+         particle: water_wake
+    -  class: EffectSingle
+       sound: horse_saddle
+       sound_volume: 1
+       effectlib:
+         class: ShieldEffect
+         iterations: 10
+         particle: smoke_normal
+    land:
+    -  class: EffectRing
+       effect: step_sound
+       period: 2
+  parameters:
+    protection_count: 1

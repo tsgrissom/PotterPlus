@@ -1,0 +1,17 @@
+lapifors:
+  upgrade_required_casts: 25
+  upgrade_required_path: year5
+  inherit: avis
+  parameters:
+    type: rabbit
+
+lapifors|2:
+  upgrade_required_casts: 50
+  upgrade_required_path: year6
+  parameters:
+    count: 5
+
+lapifors|3:
+  parameters:
+    count: 10
+    baby: false

@@ -1,0 +1,84 @@
+fiendfyre:
+  inherit: false
+  icon_url: http://textures.minecraft.net/texture/a9e073da36aaf2c844da428cd4a19dfde32c8cdc2404eed4a135f6095b17c
+  icon: diamond_axe:139
+  icon_disabled: diamond_hoe:139
+  worth: 35
+  pvp_restricted: true
+  upgrade_required_path: year7
+  upgrade_required_casts: 50
+  category: dark
+  costs:
+    mana: 150
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Damage
+          - class: Ignite
+          - class: Disc
+            radius: 1
+            actions:
+              - class: Cover
+                actions:
+                  - class: Burn
+          - class: Line
+            size: 2
+            actions:
+              - class: Cover
+                actions:
+                  - class: Burn
+  effects:
+    tick:
+      - particle: lava
+        location: target
+        particle_count: 25
+        particle_offset_x: 0.01
+        particle_offset_y: 0.01
+        particle_offset_z: 0.01
+    hit_entity:
+      - class: EffectSingle
+        location: target
+        color: FE642E
+        firework: ball_large
+  parameters:
+    damage: 20
+    hitbox: true
+    velocity: 30
+    range: 48
+    hitbox_size: 0.5
+    target_type: Damageable
+    target_breakables: 1
+    cooldown: 45000
+    track_target: true
+    lifetime: 20000
+    target_self_timeout: 2000
+    track_speed: 0.1
+    use_target_location: false
+    duration: 15000
+    undo: 5000
+
+fiendfyre|2:
+  actions:
+    cast:
+      - class: CustomProjectile
+        hitbox: true
+        actions:
+          - class: Damage
+          - class: Ignite
+          - class: Disc
+            radius: 3
+            actions:
+              - class: Cover
+                actions:
+                  - class: Burn
+          - class: Line
+            size: 3
+            actions:
+              - class: Cover
+                actions:
+                  - class: Burn
+  parameters:
+    damage: 40
+    undo: 7000
+    velocity: 40

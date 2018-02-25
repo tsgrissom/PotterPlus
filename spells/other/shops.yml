@@ -1,0 +1,44 @@
+spellshop:
+  parameters:
+    confirm_filler: stained_glass_pane:5
+
+bookshop:
+  icon: book
+  category: npc
+  hidden: true
+  actions:
+    cast:
+      - class: ItemShop
+  parameters:
+    quiet: true
+    confirm: true
+    confirm_filler: stained_glass_pane:3
+    items:
+      - item: book|dada
+      - item: book|charms
+      - item: book|transfiguration
+      - item: book|herbology
+      - item: book|dark
+      - item: book|creatures
+      - item: book|elective
+
+broomshop:
+  icon: ink_sack:9
+  category: npc
+  hidden: true
+  actions:
+    cast:
+      - class: ItemShop
+  parameters:
+    quiet: true
+    confirm: true
+    confirm_filler: stained_glass_pane:3
+    items:
+      - item: wand|firebolt
+        cost: 5000
+      - item: wand|nimbus
+        cost: 3000
+      - item: wand|cleansweep1
+        cost: 1000
+      - item: wand|bluebottle
+        cost: 500

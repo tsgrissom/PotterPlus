@@ -1,0 +1,33 @@
+araniaexumai:
+  worth: 10
+  upgrade_required_path: year2
+  upgrade_required_casts: 25
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: ghast_fireball
+        sound_volume: 1
+        sound_pitch: 3
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          lengthGrow: 0.15
+          particle: spell_mob
+          color: 58FAD0
+      - class: EffectSingle
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          lengthGrow: 0.15
+          particle: spell_mob
+          color: FFFFFF
+
+araniaexumai|2:
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
+  parameters:
+    damage: 15
+
+araniaexumai|3:
+  parameters:
+    damage: 20

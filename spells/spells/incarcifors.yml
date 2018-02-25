@@ -1,0 +1,9 @@
+incarcifors:
+  inherit: cage
+  worth: 25
+  category: transfiguration
+  cast_on_no_target: false
+  parameters:
+    undo: 15000
+    target: other_entity
+    target_type: LivingEntity

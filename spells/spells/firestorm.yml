@@ -1,0 +1,67 @@
+firestorm:
+  inherit: false
+  icon_url: http://textures.minecraft.net/texture/92d331289b5e527c540652d61561a2e90f52a8755c1c7d0cd1a1a98f49de450
+  icon: diamond_axe:144
+  icon_disabled: diamond_hoe:144
+  category: dark
+  pvp_restricted: true
+  worth: 20
+  upgrade_required_casts: 50
+  upgrade_required_path: year6
+  actions:
+    cast:
+      - class: PotionEffect
+      - class: AreaOfEffect
+        actions:
+          - class: Ignite
+          - class: Velocity
+          - class: Damage
+      - class: Disc
+        actions:
+          - class: Skip
+            actions:
+              - class: Delay
+          - class: Cover
+            actions:
+              - class: Burn
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap
+        use_wand_location: false
+        effectlib:
+          offset: 0,1,0
+          class: HelixEffect
+          iterations: 1
+          particle: lava
+          radius: 5
+  parameters:
+    radius: 2
+    y_radius: 2
+    thickness: 3
+    fizzle_chance: 0.2
+    target: self
+    target_type: LivingEntity
+    cooldown: 16000
+    undo: 6000
+    duration: 10000
+    effect_fire_resistance: 1
+    push: 1
+    damage: 2
+    bypass_backfire: true
+    bypass_build: true
+    bypass_break: true
+    skip: 8
+    delay: 100
+    target_source: false
+    target_count: 12
+
+firestorm|2:
+  parameters:
+    radius: 3
+    y_radius: 3
+    fizzle_chance: 0
+    undo: 8000
+    duration: 12000
+    push: 2
+    damage: 3

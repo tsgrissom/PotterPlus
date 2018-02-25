@@ -1,8 +1,8 @@
 id: e92c5f5b-6fa9-463f-88ee-126c5569de2f
 name: MineStein_
-last_cast: 1517454191747
+last_cast: 1518562216827
 cooldown_expiration: 0
-last_death_location: ''
+last_death_location: -1084.9402622272096,68.0,-83.67444235179208,world,-5.095642,31.499947
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -16,12 +16,17 @@ undo: []
 spells:
   finiteincantatem|4:
     cast_count: 3
-    last_cast: 1501603333838
+    last_cast: 1518293987421
     last_earn: 0
     cooldown_expiration: 0
   levicorpus|3:
     cast_count: 0
     last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  homenumrevelio:
+    cast_count: 1
+    last_cast: 1518293797480
     last_earn: 0
     cooldown_expiration: 0
   impervius:
@@ -49,9 +54,14 @@ spells:
     last_cast: 1501693293235
     last_earn: 0
     cooldown_expiration: 0
+  fumos|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   deprimo|3:
     cast_count: 0
-    last_cast: 1501693143987
+    last_cast: 1518294231104
     last_earn: 0
     cooldown_expiration: 0
   locomotomortus:
@@ -94,6 +104,11 @@ spells:
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
+  emancipare:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   alarteascendare:
     cast_count: 1
     last_cast: 1501479331012
@@ -124,12 +139,22 @@ spells:
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
+  melofors:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   fourpoint:
     cast_count: 0
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
   immobulus:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  despello|2:
     cast_count: 0
     last_cast: 0
     last_earn: 0
@@ -155,8 +180,8 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   aparecium:
-    cast_count: 4
-    last_cast: 1517421187056
+    cast_count: 10
+    last_cast: 1518293777793
     last_earn: 0
     cooldown_expiration: 0
   snowball:
@@ -189,6 +214,11 @@ spells:
     last_cast: 1501550364025
     last_earn: 0
     cooldown_expiration: 0
+  obscuro|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   rennervate:
     cast_count: 0
     last_cast: 0
@@ -199,9 +229,19 @@ spells:
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
+  flight|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   aquaeructo|3:
     cast_count: 17
     last_cast: 1501603543309
+    last_earn: 0
+    cooldown_expiration: 0
+  salviohexia|2:
+    cast_count: 0
+    last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
   piertotum:
@@ -267,6 +307,11 @@ spells:
   diffindo|3:
     cast_count: 0
     last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  protegomaxima|2:
+    cast_count: 20
+    last_cast: 1518296474676
     last_earn: 0
     cooldown_expiration: 0
   aquaeructo:
@@ -349,9 +394,24 @@ spells:
     last_cast: 1501603594661
     last_earn: 0
     cooldown_expiration: 0
+  bruchumaculeatos|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  avis|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   ollivander:
     cast_count: 3
     last_cast: 1501460878823
+    last_earn: 0
+    cooldown_expiration: 0
+  percutios|2:
+    cast_count: 0
+    last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
   episkey|3:
@@ -390,8 +450,8 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   ignisdisceditus:
-    cast_count: 27
-    last_cast: 1517454191747
+    cast_count: 64
+    last_cast: 1517733070885
     last_earn: 0
     cooldown_expiration: 0
   deletrius:
@@ -412,6 +472,16 @@ spells:
   spongify:
     cast_count: 0
     last_cast: 1501479356215
+    last_earn: 0
+    cooldown_expiration: 0
+  araniaexumai|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  flagellos|2:
+    cast_count: 0
+    last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
   aguamenti|2:
@@ -445,8 +515,8 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   lumos:
-    cast_count: 5
-    last_cast: 1517417116968
+    cast_count: 16
+    last_cast: 1518562216833
     last_earn: 0
     cooldown_expiration: 0
   periculum:
@@ -457,6 +527,11 @@ spells:
   experimentallumossolem:
     cast_count: 0
     last_cast: 1501693310484
+    last_earn: 0
+    cooldown_expiration: 0
+  arrowmaxima|4:
+    cast_count: 0
+    last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
   colloportus:
@@ -525,8 +600,8 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   lumos|3:
-    cast_count: 67
-    last_cast: 1501647401844
+    cast_count: 68
+    last_cast: 1518293774228
     last_earn: 0
     cooldown_expiration: 0
   colorvaria:
@@ -564,6 +639,11 @@ spells:
     last_cast: 1501602907957
     last_earn: 0
     cooldown_expiration: 0
+  lumosmaxima|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
 wands:
   ticket:
     item:
@@ -599,14 +679,15 @@ wands:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §6ignisdisceditus§f (§3Wand§f)
+        display-name: §6Aparecium§f (§3Wand§f)
         lore:
-        - §o§aTen Inches Reasonably Supple
-        - §a Maple with Thestral Tail-Hair
+        - §o§aTwelve and 1/4 Inches
+        - §a Reasonably Supple Olive with
+        - §a White River Monster Spine
         - §3§oBound to MineStein_
-        - §7Knows §e7 spells
-        - §3Cost Reduction X
-        - §3Cooldown Reduction X
+        - §7Knows §e2 spells
+        - '§7Energy: §e50'
+        - '§7Energy Regeneration: §e6/s'
         ItemFlags:
         - HIDE_ENCHANTS
         - HIDE_ATTRIBUTES
@@ -615,37 +696,19 @@ wands:
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
         Unbreakable: true
-        internal: H4sIAAAAAAAAAHVSwW4TMRCdkk26WUoqhSMcVqLiRBBNSbrpAREJpFYiIJGUG1o59mxi4bUXezZRb1z4Bj6AKwc+gG/gg7iAd6OUtggfLM14/N68NxMBRBCsmRYhhIR5oRghRIUhQrtJN81ao4VoIjVOCaVOW9DlxijhH1KLouQkjX5+APUJoJMzzVKSOTpieQGwwybv3v/2BDVSKgUc4KjPB9lg3htmbNR7OjzKekmC2DvsD/lgMBwJ7GchBJIbDR0hWW60SJcGTwZPQrgt0HEri4oWTmao4zPNl+jit8ic0WyuLuJpWRQK4wmr7rWkZTzzFWSZimdMqt4pk7YBuyu0rkIBaEaw7wpUKpV6hZqMvWhAU5W5cZWsBuxVnPO5kpmxVSpoQJs8ZP3Jx7d8zApmkcsy9/GOhxeYGSFNBd+AKFNS0/a7L+84VS5KVTq03kNTs4Swx7yfK0w3uPtyoaUT0nEUkkoX+T7qLhWuULlrHA1oQYcbR/9OxcNiliGnlBtlLDxMjvlcHA6S5Cg5fvTfoA2tms2FHmN3a8cVmTclXNV43bDLPm8qgjZ0x0S+tCSc+JJM+qFElYMBhOfnZy8mXtKvB8/ujz+dYgDtKvXKT5q+3/vx88vnb19b0BrnptT0V20wVYYgzJnUy3qL71xSvGY5wt0F+lWU/DEjYvzDtEAUfn5vCrSMNgtRodS13ZcfS1nkfifibXsAfwCPL0TqOQMAAA==
+        internal: H4sIAAAAAAAAAE2QsU7jQBCGByUBx9yBBCUUK0EbOAKOyBWISCCBREDCIEprsx6fR6x39+xxIrpr7hnuAa6l4AF4Bh6Iio0RiO3m/0f//t+EACG0Z9KkAQSMhdOSEUJnmbF8lzt2ZrCEcEwGY0YySQDfpGKaYlI51Bq60skSFdWFD2m2E0phG4d9FWXRpDfI5LB3MNjPeoeHiL29/kBF0WCYYj8LoE3KGlhJSRbWpElu8Wf0I4DlFCtVkmPy7sXNDPUUhe8j9nYPxLlROVbiGmVljZzoBxHXzmkUV9q3EjPiXNzlxCiu/VyKsTWV5xGx8wwtWPJaNc8F6ISw2kAkZKZo2JYPLejourCVd6H1hc2PCwBdWBsxlzSpGcc2pYx8Vjj32hDc3p6fjG3Fr1tHm6M/Z9iG7ly68D35aeP55d/fx/+LsDgqbG34eBua508Qa8sQFJJM3pz8++cXl7JAWP+F/qakdiSzVPexQ0x9syuHpeR3jnlKs7t2+rsmV3gU8VEP4A2QEXQf5gEAAA==
     wand:
       template: potterwand
       owner: MineStein_
-      cooldown_reduction: 10.0
-      mana_timestamp: 1517420961279
+      active_spell: aparecium
       owner_id: e92c5f5b-6fa9-463f-88ee-126c5569de2f
       icon: diamond_hoe:50
-      description: Ten Inches Reasonably Supple Maple with Thestral Tail-Hair
+      description: Twelve and 1/4 Inches Reasonably Supple Olive with White River
+        Monster Spine
       version: 5
       spell_inventory:
         lumos: 0
-        scribblifors: 4
-        testspell: 2
         aparecium: 1
-        defodio: 5
-        flintifors: 2
-        sluguluseructo: 3
-      active_spell: ignisdisceditus
-      spell_levels:
-        defodio: 3
-      cost_reduction: 10.0
-      effect_color: 87cbd1588387,87cbd1588387,87cbd1588387
-      spells:
-      - lumos
-      - aparecium
-      - sluguluseructo
-      - flintifors
-      - scribblifors
-      - defodio
-      - ignisdisceditus
 inventory:
 - ==: org.bukkit.inventory.ItemStack
   type: DIAMOND_HOE
@@ -653,14 +716,15 @@ inventory:
   meta:
     ==: ItemMeta
     meta-type: UNSPECIFIC
-    display-name: §6Defodio§f (§3Wand§f)
+    display-name: §6Lumos§f (§3Wand§f)
     lore:
-    - §o§aTen Inches Reasonably Supple
-    - §a Maple with Thestral Tail-Hair
+    - §o§aTwelve and 1/4 Inches
+    - §a Reasonably Supple Olive with
+    - §a White River Monster Spine
     - §3§oBound to MineStein_
-    - §7Knows §e6 spells
-    - §3Cost Reduction X
-    - §3Cooldown Reduction X
+    - §7Knows §e2 spells
+    - '§7Energy: §e50'
+    - '§7Energy Regeneration: §e6/s'
     ItemFlags:
     - HIDE_ENCHANTS
     - HIDE_ATTRIBUTES
@@ -669,14 +733,10 @@ inventory:
     - HIDE_PLACED_ON
     - HIDE_POTION_EFFECTS
     Unbreakable: true
-    internal: H4sIAAAAAAAAAHWSwW7TQBCGp9gxjilBCkc4WKLiRBBN69TpAREJpFYiIJGUG7I263GzYr1rdseJeuPCM/AAXDnwADwDD8QF1o5SWhA+WJrZ2e+f+WcjgAj8NVN5CCFhWUlGCFGlidBs0h29VmggmgqFM0KhsgD6XGuZu4PMYF5zElo924P286FXMsUyEiVaYmUFsMOmb9/9cgItKRM57OF4yJMiWQxGBRsPDkcHxSBNEQf7wxFPktE4x2ERgi+4VtDLBSu1yrOlxuPkSQi3crTciKqRheM5qvhU8SXa+A0yqxVbyIt4VleVxHjKmv9a0DKeuwoyTMZzJuTghAnjwc0VGttQADoR3LEVSpkJtUJF2lx40JF1qW0zlge7jeZiIUWhTZPyPeiSQ7aXXHzDxaxiBrmoSxfvOHyOhc6FbvAeRIUUirbXXXnPyvq8lrVF4zzUrUoIu8z5ucJsw90iIqffdidxhdJeY3sQQI9rS/9uw+GwKJBTxrXUBh6mR3yR7ydpepAePfpv0IWgVbOhYwRbG66M93frV2e7btRln13oT4jcSU04dZlCOO+jxigfwrOz0+dTN8HPB0/vTz6eoA/dJvXSLZS+3fv+4/Onr18CCCalrhX9Gc6fSU0QlkyoZftYb19KvGIlwt1zdC9O8MeMiPH3swoxd2t6XaFhtNl7Q2lr+y8+1KIq3erjbXsAvwGQ9ppSIAMAAA==
-- ==: org.bukkit.inventory.ItemStack
-  type: STONE_SWORD
-- ==: org.bukkit.inventory.ItemStack
-  type: BOOK_AND_QUILL
-- ==: org.bukkit.inventory.ItemStack
-  type: GRAVEL
-  amount: 64
+    internal: H4sIAAAAAAAAAD2Qz07CQBDGxwhY6p8DHvWwiVxRQUrAg5FEE0lAEirxSJZ2ajdud9d2SuPNi8/gA3j14AP4DD6QJxeIzm2+b/LNb8YFcKFUcBU64BAmRnJCcI0mwnQtl3WhMAV3JBT6hELNHNjhAYkFzjKDUkJZ5onObMBqciZCqGOvFXiRN290It5rtDtnUaPbRWw0W53A8zq9EFuRAyURaAV7oeCJVuEs1njunTqwHWIWpMKQsO7wrkC5QGZZWPOkzQYqiDFjE+SZVnwun5mfGyORjaUlYoWgmN3HgpBNbJ+ykVaZvYX5xvJvwpbVsmUuQBmqUOsTpWKeE450KCJhTddaGyVwptPB1Uhn9HN0cdh/ucESVJfS0C6mz4Ov77fXj/cKVPqJzhVd1mFV9iZfagIn4ULFq//t/q+45QnC/gPaJ4ngmBPx4NE3iOEmVMcGU05rsGXKarZ2/ZQLk6Ai9ocH8AvBwiapswEAAA==
+- null
+- null
+- null
 - null
 - null
 - null
@@ -714,4 +774,8 @@ gave_welcome_wand: true
 data:
   sp: 100
 properties: {}
-classes: {}
+classes:
+  wizard:
+    mana_timestamp: 1518565075094
+    mana: 50.0
+active_class: wizard

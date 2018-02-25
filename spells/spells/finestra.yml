@@ -1,0 +1,32 @@
+finestra:
+  icon_url: http://textures.minecraft.net/texture/c7142a19d8c84389da74b69641542b8b2fafbed8f7515d1d36c63c96bd749
+  category: charms
+  worth: 15
+  class: ConstructSpell
+  upgrade_required_casts: 75
+  upgrade_required_path: year5
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: block_glass_break
+      - class: EffectTrail
+        effect: step_sound
+        material: glass
+  costs:
+    mana: 20
+  parameters:
+    allow_max_range: false
+    range: 32
+    check_destructible: true
+    destructible: destructible_glass
+    brush: erase
+    radius: 2
+    transparent: transparent_to_construction
+    undo: 5000
+    undo_speed: 0.2
+    cooldown: 20000
+
+finestra|2:
+  parameters:
+    radius: 3
+    cooldown: 10000

@@ -1,0 +1,38 @@
+obliviate:
+  category: charms
+  icon_url: http://textures.minecraft.net/texture/89f9399aceb3211c3ca1259d5b1bb1f3fb61a4d5626a757ee1a1ccec28a0ae
+  icon: diamond_axe:230
+  worth: 25
+  costs:
+    mana: 40
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Repeat
+            actions:
+              - class: Message
+  effects:
+    tick:
+      - location: target
+        particle: redstone
+        color: FFFFFF
+        particle_count: 20
+        particle_offset_x: 0.4
+        particle_offset_y: 0.4
+        particle_offset_z: 0.4
+    hit_entity:
+      - location: target
+        firework: ball
+        color: FFFFFF
+        fadeColor: D3D3D3
+  parameters:
+    repeat: 100
+    range: 16
+    hitbox: true
+    velocity: 125
+    target: other
+    target_type: Player
+    message: " "
+    message_target: true
+    duration: 1000

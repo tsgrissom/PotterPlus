@@ -1,0 +1,22 @@
+reveal:
+  class: FillSpell
+  category: specialty
+  parameters:
+    target: select
+    max_dimension: 64
+    check_destructible: false
+    brush: erase
+    undo: 5000
+
+fountain:
+  hidden: true
+  category: specialty
+  effects:
+    cast:
+      - class: EffectSingle
+        location: target
+        target_offset: 0,2,0
+        effectlib:
+          class: FountainEffect
+  parameters:
+    target: self

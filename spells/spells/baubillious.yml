@@ -1,0 +1,31 @@
+baubillious:
+  inherit: chainlightning
+  worth: 20
+  upgrade_required_path: year6
+  upgrade_required_casts: 25
+  effects:
+    projectile:
+        - class: EffectSingle
+          effectlib:
+             class: LineEffect
+             isZigZag: true
+             zigZags: 2
+             zigZagOffset: 0,0.05,0
+             length: 6
+             particles: 50
+             particle: firework_spark
+             color: "FFFFFF"
+             duration: 2000
+
+baubillious|2:
+  upgrade_required_path: year7
+  upgrade_required_casts: 50
+  parameters:
+    player_damage: 3
+    entity_damage: 3.5
+
+baubillious|3:
+  parameters:
+    player_damage: 4.5
+    entity_damage: 5
+    repeat: 8

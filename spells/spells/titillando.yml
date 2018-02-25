@@ -1,0 +1,71 @@
+titillando:
+  icon_url: http://textures.minecraft.net/texture/de286f2a50c28f514e50d456b56a86164681bc51fb55fc7a9b2a4c6c7f48788
+  category: dada
+  worth: 10
+  upgrade_required_path: year6
+  upgrade_required_casts: 75
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: PotionEffect
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap
+        location: origin
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          particle: spell_mob
+          color: b343e0
+          lengthGrow: 0.1
+          radiusGrow: 0.003
+          updateLocations: false
+          updateDirections: false
+    tick:
+      - class: EffectSingle
+        sound: magic.zap_crack
+        particle: redstone
+        color: FFFFFF
+        location: target
+    hit_entity:
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: AnimatedBall
+          period: 1
+          iterations: 64
+          particle: spell_mob
+          color: b343e0
+  costs:
+    mana: 15
+  parameters:
+    target: other
+    target_type: Damageable
+    range: 16
+    hitbox: true
+    cooldown: 15000
+    effect_confusion: 6
+    effect_slow: 1
+    effect_weakness: 2
+    duration: 3000
+    velocity: 50
+
+titillando|2:
+  upgrade_required_path: year7
+  upgrade_required_casts: 125
+  parameters:
+    range: 24
+    cooldown: 12000
+    effect_confusion: 8
+    effect_slow: 2
+    effect_weakness: 3
+    duration: 5000
+
+titillando|3:
+  parameters:
+    range: 32
+    effect_confusion: 10
+    effect_slow: 3
+    effect_weakness: 4

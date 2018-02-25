@@ -1,0 +1,10 @@
+aberto:
+  inherit: alohomora
+  effects:
+        cast:
+        -  class: EffectSingle
+           sound: magic.shimmer
+        -  class: EffectTrail
+           particle: spell_mob
+           color: FFFFFF
+           particle_count: 5

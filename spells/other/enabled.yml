@@ -1,0 +1,19 @@
+# Enabled
+
+tweakshop:
+  enabled: true
+
+camera:
+  enabled: true
+  hidden: true
+  category: speciality
+
+music:
+  enabled: true
+  hidden: true
+  category: speciality
+
+upgrades:
+  enabled: true
+  hidden: true
+  category: npc

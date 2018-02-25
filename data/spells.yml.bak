@@ -59,7 +59,7 @@ superbox:
   cast_count: 0
   last_cast: 0
 engorgio:
-  cast_count: 0
+  cast_count: 5
   last_cast: 0
 respawn:
   cast_count: 0
@@ -212,7 +212,7 @@ brackiumemendo:
   cast_count: 0
   last_cast: 0
 flintifors:
-  cast_count: 6
+  cast_count: 7
   last_cast: 0
 emp:
   cast_count: 0
@@ -353,7 +353,7 @@ furnunculus:
   cast_count: 0
   last_cast: 0
 aparecium:
-  cast_count: 1
+  cast_count: 3
   last_cast: 0
 curse:
   cast_count: 0
@@ -890,7 +890,7 @@ revelio:
   cast_count: 0
   last_cast: 0
 lumos:
-  cast_count: 1
+  cast_count: 7
   last_cast: 0
 boon:
   cast_count: 0
@@ -1139,7 +1139,7 @@ broomshop:
   cast_count: 0
   last_cast: 0
 defodio:
-  cast_count: 0
+  cast_count: 30
   last_cast: 0
 bogies:
   cast_count: 0
@@ -1308,6 +1308,9 @@ backflip:
   last_cast: 0
 tree:
   cast_count: 0
+  last_cast: 0
+ignisdisceditus:
+  cast_count: 62
   last_cast: 0
 capture:
   cast_count: 0

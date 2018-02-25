@@ -1,0 +1,18 @@
+percutios:
+  inherit: smite
+  category: dark
+  worth: 25
+  actions:
+    cast:
+      - class: Lightning
+        ignore_result: true
+      - class: AreaOfEffect
+        actions:
+          - class: Damage
+          - class: Ignite
+  parameters:
+    damage: 2
+
+percutios|2:
+  parameters:
+    damage: 4

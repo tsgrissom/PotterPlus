@@ -1,0 +1,27 @@
+flagellos:
+  inherit: whip
+  category: dark
+  upgrade_required_path: year4
+  upgrade_required_casts: 50
+  worth: 15
+  effects:
+    hit:
+      - class: EffectSingle
+        sound: magic.zap_crack
+        sound_volume: .3
+        location: target
+        particle: explosion_normal
+    hit_entity:
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: BleedEffect
+          height: 0.5
+  parameters:
+    player_damage: 5
+    entity_damage: 5
+
+flagellos|2:
+  parameters:
+    player_damage: 8
+    entity_damage: 8

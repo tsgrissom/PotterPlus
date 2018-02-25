@@ -1,0 +1,81 @@
+impedimenta:
+  icon_url: http://textures.minecraft.net/texture/505b13370fac6a8caa93b6ccb225b11d49ae9eb0e8d7fb84c628c82e234328
+  category: dada
+  upgrade_required_path: year4
+  upgrade_required_casts: 25
+  worth: 20
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: PotionEffect
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap_crack
+        location: origin
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          particle: redstone
+          color: 00E5EE
+          lengthGrow: 0.1
+          radiusGrow: 0.003
+          updateLocations: false
+          updateDirections: false
+    tick:
+      - particle: redstone
+        location: target
+        color: FFFFFF
+    hit_block:
+      - class: EffectSingle
+        location: target
+        particle: block_crack
+        particle_count: 50
+        particle_offset_x: 0.2
+        particle_offset_y: 1
+        particle_offset_z: 0.2
+    hit:
+      - particle: fireworks_spark
+        location: target
+        particle_count: 20
+        particle_offset_x: 0.3
+        particle_offset_y: 0.5
+        particle_offset_z: 0.3
+        sound: magic.zap
+        sound_volume: .3
+        particle_data: 0.3
+    hit_entity:
+      - class: EffectSingle
+        firework: ball
+        color: FFFFFF
+        fadeColor: 00E5EE
+        location: target
+  parameters:
+    velocity: 100
+    hitbox: true
+    range: 24
+    deactivate_target_mage: false
+    target_type: LivingEntity
+    target: other
+    target_breakables: 1
+    duration: 3000
+    effect_slow: 1.5
+    effect_jump: -20
+    cooldown: 7000
+  costs:
+    mana: 30
+
+impedimenta|2:
+  upgrade_required_casts: 50
+  upgrade_required_path: year5
+  parameters:
+    effect_slow: 2
+    duration: 7000
+    cooldown: 12000
+
+impedimenta|3:
+  parameters:
+    effect_slow: 3
+    duration: 10000
+    cooldown: 15000

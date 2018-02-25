@@ -1,0 +1,54 @@
+evertestatum:
+  icon: diamond_axe:151
+  icon_url: http://textures.minecraft.net/texture/c7142a19d8c84389da74b69641542b8b2fafbed8f7515d1d36c63c96bd749
+  category: dada
+  pvp_restricted: true
+  worth: 10
+  upgrade_required_path: year3
+  upgrade_required_casts: 25
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Velocity
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap
+        location: origin
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          particle: fireworks_spark
+          lengthGrow: 0.1
+          radiusGrow: 0.04
+          updateLocations: false
+          updateDirections: false
+    hit_entity:
+      - location: target
+        firework: ball
+        color: FFFFFF
+  parameters:
+    range: 24
+    fov: .12
+    hitbox: true
+    target_type: LivingEntity
+    allow_max_range: false
+    item_speed: 0
+    living_entity_speed: 5
+    push: 1
+    cooldown: 3000
+    velocity: 150
+  costs:
+    mana: 25
+
+evertestatum|2:
+  upgrade_required_path: year4
+  upgrade_required_casts: 50
+  parameters:
+    living_entity_speed: 6
+
+evertestatum|3:
+  parameters:
+    living_entity_speed: 8
+    push: 2

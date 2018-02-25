@@ -1,0 +1,12 @@
+bubblehead:
+  worth: 5
+  upgrade_required_path: year2
+  upgrade_required_casts: 25
+  parameters:
+    brushcolor: false
+    brush: ice
+
+bubblehead|2:
+  parameters:
+    duration: 60000
+    undo: 60000

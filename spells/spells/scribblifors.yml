@@ -1,0 +1,24 @@
+scribblifors:
+  icon_url: http://textures.minecraft.net/texture/8dd5ea25877fc4f2973e9ae746e77326b9b9dd735ca811cba3bdfb4e47108970
+  category: transfiguration
+  worth: 5
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap
+        location: origin
+        use_wand_location: false
+        effectlib:
+          class: AnimatedBallEffect
+          particle: enchantment_table
+          iterations: 16
+  actions:
+    cast:
+      - class: Delay
+      - class: GiveItem
+  parameters:
+    cooldown: 30000
+    item: book_and_quill
+    name: "&dConjured Book and Quill"
+    target: self
+    delay: 1000

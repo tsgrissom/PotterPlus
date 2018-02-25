@@ -1,0 +1,47 @@
+legilimens:
+  inherit: false
+  icon: diamond_axe:107
+  icon_url: http://textures.minecraft.net/texture/3bc9de58822a3f7c6c23e212cf954fc728a6b2e45c54a89b4af5e453d39b1
+  category: elective
+  cast_on_no_target: true
+  worth: 15
+  costs:
+    mana: 45
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Delay
+          - class: Command
+  effects:
+    tick:
+      - location: target
+        particle: smoke_normal
+        particle_count: 5
+        particle_offset_x: 0.1
+        particle_offset_y: 0.1
+        particle_offset_z: 0.1
+    hit_entity:
+      - location: target
+        firework: burst
+        color: 000000
+      - class: EffectSingle
+        location: target
+        use_wand_location: true
+        source_location: eyes
+        effectlib:
+          class: AtomEffect
+          particleNucleus: redstone
+          particleOrbital: redstone
+          colorNucleus: 000000
+          colorOrbital: 000000
+  parameters:
+    cooldown: 20000
+    delay: 2000
+    range: 6
+    hitbox: true
+    target: other
+    target_type: Player
+    command: invsee @tn
+    op: true
+    console: false

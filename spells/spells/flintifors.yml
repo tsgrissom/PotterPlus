@@ -1,0 +1,16 @@
+flintifors:
+  inherit: scribblifors
+  icon_url: http://textures.minecraft.net/texture/a5454f6488662cdb7d57d5fcaf3d9b061b57c109ba2aaa06c54707174d7a0c4
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap
+        location: origin
+        use_wand_location: false
+        effectlib:
+          class: AnimatedBallEffect
+          particle: flame
+          iterations: 16
+  parameters:
+    item: flint_and_steel
+    name: "&dConjured Flint and Steel"

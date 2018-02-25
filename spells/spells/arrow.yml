@@ -1,0 +1,9 @@
+arrow:
+  worth: 10
+  effects:
+    hit:
+      - class: EffectSingle
+        location: origin
+        color_override: color
+        firework: ball
+        sound: magic.hit

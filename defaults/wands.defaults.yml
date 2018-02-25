@@ -239,7 +239,7 @@ architect:
 
 
 architectstaff:
-  inherit: conduit
+  inherit: base_wand
   path: staff
   active_spell: pillar
   active_brush: copy
@@ -445,23 +445,11 @@ base_sword:
 #
 battle:
     inherit: base_sword
+    class: battle_mage
     icon: gold_sword:1
     migrate_icon: gold_sword
     effect_color: '11FF11'
     protection_physical: 0.3
-    path: battle
-    mana_regeneration: 5
-    mana_max: 50
-    mana: 50
-    spells:
-      - missile
-      - arrow
-      - boom
-      - curse
-      - fire
-      - fireball
-      - grenade
-      - push
 
 #
 #
@@ -1274,31 +1262,23 @@ student_upgrade:
     hidden: true
     indestructible: false
     hotbar_count: 2
-    mana_max: 100
-    mana_regeneration: 10
 apprentice_upgrade:
     icon: wood_hoe:3
     upgrade: true
     hidden: true
     indestructible: false
     hotbar_count: 2
-    mana_max: 150
-    mana_regeneration: 30
 master_upgrade:
     icon: wood_hoe:4
     upgrade: true
     hidden: true
     indestructible: false
-    mana_max: 200
-    mana_regeneration: 40
     hotbar_count: 3
 engineer_upgrade:
     icon: wood_hoe:5
     upgrade: true
     hidden: true
     indestructible: false
-    mana_max: 250
-    mana_regeneration: 50
     spells:
     - brushselect
     - place
@@ -1310,8 +1290,6 @@ architect_upgrade:
     upgrade: true
     hidden: true
     indestructible: false
-    mana_max: 350
-    mana_regeneration: 70
 conduit_upgrade:
     icon: wood_hoe:6
     upgrade: true
@@ -1324,21 +1302,15 @@ squire_upgrade:
     hidden: true
     indestructible: false
     hotbar_count: 2
-    mana_max: 100
-    mana_regeneration: 10
 soldier_upgrade:
     upgrade: true
     hidden: true
     indestructible: false
     hotbar_count: 2
-    mana_max: 150
-    mana_regeneration: 30
 knight_upgrade:
     upgrade: true
     hidden: true
     indestructible: false
-    mana_max: 200
-    mana_regeneration: 40
     hotbar_count: 3
 potion_sp100:
   icon: potion
@@ -1530,7 +1502,7 @@ spleef:
       - harden
 
 staff:
-  inherit: master
+  inherit: base_wand
   path: staff
   hotbar_count: 2
   active_spell: levitate|4
@@ -1836,17 +1808,11 @@ antihunger:
 # 
 wand:
     inherit: base_wand
+    class: mage
     icon: wood_hoe:1
     migrate_icon: wood_hoe
     effect_color: random
-    path: beginner
-    active_spell: missile
-    mana_max: 50
-    mana: 50
-    mana_regeneration: 5
-    spells:
-     - missile
-     
+
 wizardboots:
     icon: chainmail_boots
     indestructible: true
@@ -1885,7 +1851,7 @@ wizardleggings:
       protection_fire: 2
 
 wolf:
-  inherit: conduit
+  inherit: base_wand
   path: staff
   icon: wood_hoe:7
   migrate_icon: gold_hoe
