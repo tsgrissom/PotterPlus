@@ -1,0 +1,115 @@
+randomized:
+   wood:
+     - Acacia
+     - Alder
+     - Apple
+     - Ash
+     - Aspen
+     - Beech
+     - Blackthorn
+     - Black Walnut
+     - Cedar
+     - Cherry
+     - Chestnut
+     - Cypress
+     - Dogwood
+     - Ebony
+     - English Oak
+     - Elder
+     - Elm
+     - Fir
+     - Hawthorn
+     - Hazel
+     - Holly
+     - Hornbeam
+     - Larch
+     - Laurel
+     - Mahogany
+     - Maple
+     - Oak
+     - Olive
+     - Pear
+     - Pine
+     - Poplar
+     - Red Oak
+     - Redwood
+     - Rosewood
+     - Rowan
+     - Silver Lime
+     - Spruce
+     - Sycamore
+     - Vine
+     - Walnut
+     - Willow
+     - Yew
+   core:
+     - Unicorn Tail Hair
+     - Dragon Heartstring
+     - Pheonix Feather
+     - Veela Hair
+     - Thestral Tail-Hair
+     - Troll Whisker
+     - Kneazle Whisker
+     - Dittany Stalk
+     - Kelpie Manes
+     - Coral
+     - Thunderbird Tail Feather
+     - Wampus Cat Hair
+     - White River Monster Spine
+     - Rougarou Hair
+     - Horned Serpent Horn
+     - Snallygaster Heartstring
+     - Jackalope Antler
+     - Basilisk Horn
+     - Bone
+     - Shell
+   length:
+     - Eight
+     - Eight and 1/4
+     - Eight and 1/2
+     - Eight and 3/4
+     - Nine
+     - Nine and 1/4
+     - Nine and 1/2
+     - Nine and 3/4
+     - Ten
+     - Ten and 1/4
+     - Ten and 1/2
+     - Ten and 3/4
+     - Eleven
+     - Eleven and 1/4
+     - Eleven and 1/2
+     - Eleven and 3/4
+     - Twelve
+     - Twelve and 1/4
+     - Twelve and 1/2
+     - Twelve and 3/4
+     - Thirteen
+     - Thirteen and 1/4
+     - Thirteen and 1/2
+     - Thirteen and 3/4
+     - Fourteen
+     - Fourteen and 1/4
+     - Fourteen and 1/2
+     - Fourteen and 3/4
+     - Fifteen
+   flex:
+     - Very Flexible
+     - Quite Bendy
+     - Quite Flexible
+     - Fairly Bendy
+     - Pliant
+     - Supple
+     - Swishy
+     - Reasonably Supple
+     - Slightly Springy
+     - Surprisingly Swishy
+     - Whippy
+     - Brittle
+     - Solid
+     - Hard
+     - Slightly Yielding
+     - Stiff
+     - Rigid
+     - Unbending
+     - Unyielding

@@ -1,0 +1,18 @@
+wands:
+  wand:
+    name: Wand
+    description: $wood with $core
+    randomized_description: Ugh
+  potterwand:
+    name: Wand
+    description: $length Inches $flex $wood with $core
+    randomized_description: Ugh
+  conductorswand:
+    name: Conductor's Wand
+    description: Play some music!
+  ticket:
+    name: Wand Ticket
+    description: Take this to a wand shop to get your first wand!
+  musicbox:
+    name: Music Box
+    description: Play some music!
