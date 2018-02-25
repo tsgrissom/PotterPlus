@@ -1,0 +1,14 @@
+default:
+  drop: toggle
+  left_click: cast
+  swap: cycle_hotbar
+
+wandbox:
+  icon: wood_step:2
+
+potterwand:
+  icon: diamond_hoe:40,diamond_hoe:50,diamond_hoe:70
+  spells:
+    - lumos
+    - aparecium
+  active_spell: lumos

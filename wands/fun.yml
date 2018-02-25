@@ -1,0 +1,21 @@
+conductorswand:
+  icon: stick
+  active_spell: music
+  spells:
+    - music
+  left_click: cast
+  right_click: none
+  drop: none
+  swap: none
+  mana: 20
+  mana_regeneration: 10
+  has_uses: true
+  uses: 5
+
+musicbox:
+  inherit: conductorswand
+  icon: note_block
+  cost_reduction: 10
+  cooldown_reduction: 10
+  has_uses: false
+  uses: 0
