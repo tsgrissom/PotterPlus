@@ -1,6 +1,6 @@
 id: e06ea7a1-d746-3258-a39c-c4bf0551fdcf
 name: grisstyl
-last_cast: 0
+last_cast: 1521295501664
 cooldown_expiration: 0
 last_death_location: ''
 fall_protection_count: 0
@@ -13,7 +13,182 @@ brush:
   scale: 1.0
   erase: true
 undo: []
-spells: {}
+spells:
+  lumos:
+    cast_count: 1
+    last_cast: 1521294148007
+    last_earn: 0
+    cooldown_expiration: 0
+  finiteincantatem|4:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  homenumrevelio:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  obscuro|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  flight|3:
+    cast_count: 2
+    last_cast: 1521294856089
+    last_earn: 0
+    cooldown_expiration: 0
+  ascendio|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  arrowmaxima|4:
+    cast_count: 0
+    last_cast: 1521294599722
+    last_earn: 0
+    cooldown_expiration: 0
+  aquaeructo|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  impervius:
+    cast_count: 22
+    last_cast: 1521295110959
+    last_earn: 0
+    cooldown_expiration: 0
+  salviohexia|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  piertotum:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  araniaexumai:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  fumos|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  crucio:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  deprimo|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  ferula|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  emancipare:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  vermillious:
+    cast_count: 0
+    last_cast: 1521294156258
+    last_earn: 0
+    cooldown_expiration: 0
+  alarteascendare:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  verdimillious|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  day:
+    cast_count: 4
+    last_cast: 1521294158575
+    last_earn: 0
+    cooldown_expiration: 0
+  bruchumaculeatos|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  avis|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  percutios|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  lumos|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  pulsus:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  melofors:
+    cast_count: 0
+    last_cast: 1521295501664
+    last_earn: 0
+    cooldown_expiration: 0
+  fourpoint:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  despello|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  vermillious|3:
+    cast_count: 58
+    last_cast: 1521295495810
+    last_earn: 0
+    cooldown_expiration: 0
+  engorgio:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  protegomaxima|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  aparecium:
+    cast_count: 2
+    last_cast: 1521294154957
+    last_earn: 0
+    cooldown_expiration: 0
+  araniaexumai|3:
+    cast_count: 75
+    last_cast: 1521295390856
+    last_earn: 0
+    cooldown_expiration: 0
+  lumosmaxima|2:
+    cast_count: 1
+    last_cast: 1521294608332
+    last_earn: 0
+    cooldown_expiration: 0
 wands:
   ticket:
     item:
@@ -44,6 +219,193 @@ wands:
 open_wand: false
 gave_welcome_wand: true
 data:
-  sp: 0
+  sp: 8
 properties: {}
-classes: {}
+classes:
+  wizard:
+    spells:
+    - lumos
+    - aparecium
+    - vermillious
+    - impervius
+    - day
+    - deprimo
+    - finiteincantatem
+    - homenumrevelio
+    - araniaexumai
+    - lumosmaxima
+    - percutios
+    - ferula
+    - emancipare
+    - alarteascendare
+    - verdimillious
+    - pulsus
+    - melofors
+    - fourpoint
+    - arrowmaxima
+    - despello
+    - avis
+    - engorgio
+    - fumos
+    - flight
+    - protegomaxima
+    - obscuro
+    - ascendio
+    - aquaeructo
+    - salviohexia
+    - piertotum
+    - crucio
+    - bruchumaculeatos
+    - lacarnum
+    - flagellos
+    - sectumsempra
+    - glacius
+    - atmos
+    - diffindo
+    - flagrate
+    - firestorm
+    - legilimens
+    - expelliarmus
+    - evanesco
+    - multabasiorum
+    - disillusion
+    - aberto
+    - imperio
+    - petrificustotalus
+    - confundus
+    - rictusempra
+    - limusexumai
+    - duro
+    - protegototalus
+    - lapifors
+    - aguamenti
+    - frigusignatus
+    - colloshoo
+    - obliviate
+    - cantis
+    - spongify
+    - brackiumemendo
+    - spongifymaxima
+    - flipendo
+    - revelio
+    - arrow
+    - colloportus
+    - wingardium
+    - protego
+    - reducio
+    - nox
+    - incendio
+    - vulnera
+    - sluguluseructo
+    - conjunctivitis
+    - avadakedavra
+    - episkey
+    - accio
+    - colorvaria
+    - reparifarge
+    - incarcifors
+    - fiendfyre
+    - noxmaxima
+    - apparate
+    - levicorpus
+    - erecto
+    - ventus
+    - reducto
+    - bogies
+    - locomotomortus
+    - incarcerous
+    - expulso
+    - baubillious
+    - confringo
+    - obliviatemaxima
+    - orchideous
+    - evertestatum
+    - stupefy
+    - immobulus
+    - light
+    - furnunculus
+    - snowball
+    - patronus
+    - felixleporemos
+    - bubblehead
+    - rennervate
+    - waddiwasi
+    - fiantoduri
+    - depulso
+    - tarantallegra
+    - bombarda
+    - tripudio
+    - pulvifors
+    - epoximise
+    - liberacorpus
+    - meteo
+    - arresto
+    - periculum
+    - volo
+    - periculux
+    - lumossolem
+    - brachiabindo
+    - alohomora
+    mana_timestamp: 1521305926543
+    spell_levels:
+      deprimo: 3
+      ascendio: 2
+      arrow: 4
+      bombarda: 2
+      araniaexumai: 3
+      percutios: 2
+      lumosmaxima: 2
+      reducto: 2
+      multabasiorum: 3
+      verdimillious: 3
+      vermillious: 3
+      frigusignatus: 2
+      limusexumai: 3
+      duro: 2
+      evertestatum: 3
+      fiendfyre: 2
+      protegototalus: 2
+      lapifors: 3
+      bubblehead: 2
+      expulso: 2
+      aguamenti: 2
+      finiteincantatem: 4
+      arrowmaxima: 4
+      colloshoo: 4
+      avis: 3
+      diffindo: 3
+      fumos: 3
+      furnunculus: 2
+      brackiumemendo: 3
+      obscuro: 2
+      flipendo: 3
+      stupefy: 4
+      lumos: 3
+      patronus: 3
+      flight: 3
+      levicorpus: 3
+      felixleporemos: 3
+      protegomaxima: 2
+      salviohexia: 2
+      bruchumaculeatos: 3
+      lacarnum: 3
+      glacius: 3
+      protego: 5
+      reducio: 3
+      baubillious: 3
+      incendio: 3
+      flagellos: 2
+      bogies: 3
+      episkey: 3
+      expelliarmus: 5
+      ferula: 3
+      despello: 2
+      depulso: 2
+      conjunctivitis: 2
+      sluguluseructo: 3
+      flagrate: 2
+      apparate: 6
+      aquaeructo: 3
+      firestorm: 2
+    mana: 50.0
+active_class: wizard

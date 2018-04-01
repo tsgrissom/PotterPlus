@@ -50,9 +50,8 @@ apprenticeleggings:
   row_2: i i
   row_3: ioi
 
-# Other default craftable items
 battle:
-  output: battle
+  output: magicsword
   output_type: wand
   materials:
     o: nether_star
@@ -60,18 +59,6 @@ battle:
   row_1: o
   row_2: o
   row_3: i
-
-blaster:
-  enabled: false
-  output: blaster
-  output_type: wand
-  materials:
-    p: wood
-    i: iron_ingot
-    g: emerald
-  row_1: "iig"
-  row_2: "ii "
-  row_3: "p  "
 
 broomstick:
   output: broomstick
@@ -176,6 +163,16 @@ invisiblecloak:
   row_2: "ioi"
   row_3: "eoe"
 
+magicbow:
+  output: magicbow
+  output_type: wand
+  materials:
+    o: nether_star
+    i: bow
+  row_1: o
+  row_2: i
+  row_3: ""
+
 magichat:
   output: magichat
   output_type: wand
@@ -185,6 +182,17 @@ magichat:
   row_1: o
   row_2: i
   row_3:
+
+mastersword:
+  enabled: false
+  output: mastersword
+  output_type: wand
+  materials:
+    o: nether_star
+    i: blaze_rod
+  row_1: o
+  row_2: o
+  row_3: i
 
 mirrorshield:
   output: mirrorshield

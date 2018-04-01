@@ -1,17 +1,34 @@
 lumos:
-  upgrade_required_path: year1
-  upgrade_required_casts: 25
-  costs:
-    mana: 30
-  worth: 5
+  inherit: false
+  icon: diamond_axe:228
+  icon_disabled: diamond_hoe:228
+  category: charms
+  icon_url: http://textures.minecraft.net/texture/4abfe52d50f710f4103bc650b5e972d49832ea419841d9fa24e16ce617c716
+  worth: 10
   effects:
-    cast_self:
+    cast:
       - class: EffectSingle
         location: origin
-        color: FFFFFF
+        use_wand_location: true
         firework: ball
+        color: FFFFFF
+  actions:
+    cast:
+      - class: Repeat
+        actions:
+          - class: Light
+          - class: Delay
+          - class: Retarget
   parameters:
     target: self
+    undo: 3000
+    level: 30
+    async: true
+    count: 10
+    delay: 1500
+    cooldown: 15000
+  costs:
+    mana: 20
 
 lumos|2:
   upgrade_required_path: year2
@@ -19,10 +36,10 @@ lumos|2:
   costs:
     mana: 35
   parameters:
-    duration: 30000
+    undo: 30000
 
 lumos|3:
   costs:
     mana: 40
   parameters:
-    duration: 40000
+    undo: 40000

@@ -6,7 +6,7 @@
 # To see the current default builtin configs, look in this folder:
 # https://github.com/elBukkit/MagicPlugin/tree/master/src/main/resources/defaults/mobs
 #
-# For customization help see: 
+# For customization help see:
 # https://github.com/elBukkit/MagicPlugin/wiki/Customization
 #
 #
@@ -24,7 +24,7 @@
 # Note that a "#" chararacter means the line is commented out and has no effect.
 # Make sure to not comment out the lines you add, there should not be a space in front of the name, indentation is important.
 # Use http://www.yamllint.com if you have issues with your config, make sure not to use tabs!
-# 
+#
 
 # Add a disguised mob type (requires LibsDisguises plugin!)
 # cowlock:
@@ -71,43 +71,25 @@ warlock:
 mutant:
   enabled: false
 
-deatheater:
-  name: "&3Death Eater"
-  type: zombie
-  item: diamond_hoe:50
-  chestplate: warlock_chestplate
-  leggings: warlock_leggings
-  helmet: iron_helmet
-  boots: warlock_boots
+acromantula:
+  type: cave_spider
+  name: "&cAcromantula"
   health: 50
   default_drops: false
   cast_interval: 1000
   cast:
-    stupefy|2: 75
-    avadakedavra: 10
-    crucio: 25
-    vermillious: 100
-    flipendo: 50
-    confringo: 20
-    none: 20
-  drops:
-  - wand|brokenwand
-  potion_effects:
-  - type: speed
-    amplifier: 1
+    webbing: 60
+    bogies: 50
 
-acromantula:
-  type: cave_spider
-  name: "&3Acromantula"
-  health: 20
+queen_acromantula:
+  type: spider
+  name: "&4Queen Acromantula"
+  health: 100
   default_drops: false
-  cast_interval: 1000
+  cast_interval: 750
   cast:
-    webbing: 100
-    bogies: 25
-    none: 50
-  drops:
-  - spider_eye
+    webbing: 60
+    bogies: 50
   potion_effects:
-  - type: speed
-    amplifier: 1
+    - type: speed
+      amplifier: 1

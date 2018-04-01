@@ -1,8 +1,8 @@
 id: 80e74867-a7ca-3e42-bdbb-bf915bc49289
 name: MineStein_
-last_cast: 1518966202726
+last_cast: 1522083308580
 cooldown_expiration: 0
-last_death_location: -38.69999998807907,63.0,275.30000001192093,world,17.999931,17.999931
+last_death_location: -30.140943518499792,66.0,350.30000001192093,world,64.500244,12.599949
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -15,23 +15,38 @@ brush:
 undo: []
 spells:
   lumos:
-    cast_count: 4
-    last_cast: 1518966202726
+    cast_count: 114
+    last_cast: 1520803482689
     last_earn: 0
-    cooldown_expiration: 0
+    cooldown_expiration: 1520803497689
   engorgio:
     cast_count: 5
     last_cast: 1518581323289
     last_earn: 0
     cooldown_expiration: 0
+  light:
+    cast_count: 14
+    last_cast: 1519569944624
+    last_earn: 0
+    cooldown_expiration: 0
   aparecium:
-    cast_count: 1
-    last_cast: 1518924214599
+    cast_count: 2
+    last_cast: 1519523106515
+    last_earn: 0
+    cooldown_expiration: 0
+  brackiumemendo:
+    cast_count: 0
+    last_cast: 1522083308581
     last_earn: 0
     cooldown_expiration: 0
   flintifors:
-    cast_count: 1
-    last_cast: 1518924168338
+    cast_count: 7
+    last_cast: 1520803484335
+    last_earn: 0
+    cooldown_expiration: 1520803514335
+  stupefy:
+    cast_count: 30
+    last_cast: 1519569997014
     last_earn: 0
     cooldown_expiration: 0
 wands:
@@ -65,19 +80,17 @@ wands:
     item:
       ==: org.bukkit.inventory.ItemStack
       type: DIAMOND_HOE
-      damage: 50
+      damage: 70
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §6Lumos§f (§3Wand§f)
+        display-name: §3Wand
         lore:
-        - §o§aTwelve and 1/2 Inches
-        - §a Surprisingly Swishy Cedar with
-        - §a Pheonix Feather
+        - §o§aEleven Inches Slightly
+        - §a Springy Oak with Unicorn Tail
+        - §a Hair
         - §3§oBound to MineStein_
         - §7Knows §e2 spells
-        - §3Cost Reduction V
-        - §3Cooldown Reduction X
         ItemFlags:
         - HIDE_ENCHANTS
         - HIDE_ATTRIBUTES
@@ -86,20 +99,21 @@ wands:
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
         Unbreakable: true
-        internal: H4sIAAAAAAAAAGVRwW7TQBAdiBMcI4oUjvSwEr0G2pCShANqREFUIoBkerbWu5N61PWu2R3H5NZLv4EP4MqBD+Ab+CBO2KmAA3ubmbdv3nuTACQQNdLqGGLGsjKSEZLKMaO/afddY9FDsiKLKSPZbAB7ygXOPOpaMTl7cgC7N4CRcs7o9sf/w3bBjikjDQfzQ5xN589mYzlTcvwUp5NxrvN8nK8XR8e5mi4m80UMESlnYU+TLJ3VWeHw+fFhDHc1BuWp6tjh9GODZoOi1SqOnkzEmVUFBpHWvvIUyF6YrUgbCsVWvEQtvWiIC/GhQGfps3iNkgv0PbizQR86PoB+AvdDhcZkZDdo2fltD/qmLl3ofPRgKCvpUVFdtuWtHiRrQ5Zp7XwHuA0whNGS2VNeM66cpjW15EkHjiA+Pz87XbXx/Xr0Yn959QYjGHattygDf3/44+eX629fBzBYlq62/C+8KDWOIS4l2WJ3l3t/V7yTJcKDC2zDJfVYMkt1mVaIupX6vkIv+cZYx7LDjl59qqkqW2/ijzyA3wo+iwsLAgAA
+        internal: H4sIAAAAAAAAAE2RvY7TQBDHB+IcjvmSjhKKlbg26DgCSSgQkTjpTiJcYVJb6/U4Ht16d9kdJ0pHwzPwALQUPADPwANRsfYJxFYz/5n9zVcGkEGyl6ZKIWVsnZaMkDnLjP5GHtu9QQ/ZmgzmjGSKFO5JxbTDIjjUGrJak2GqrQ+RMqQXVMHJ4hTns8Wr+VTOlZy+wNnZtKzKclrWy+cvSzVbni2WKSSkrIEHFcnWmqpoLL6en6Zwt8KgPDmmGF2ea9yhEZdGNRhErmnbsD6I3Hky24O4ktdiT9yIjYk0b8RHSVpcSPIjuLNDH3oIwDiDh0PLBZmIY+sPIxjrrrUhRqG3e3BvjmAinfSoqGujf2v0/5RRuB3BgTuH9SF6CcAEjlfMnsqOcW0rqimWzfqvCaSbzeW7tQ38++mbJ6vPF5jApJfeowz84/HPX1+/fP92BEer1naG357A8OJqcm0Z0laSaYZb3P9X4oNsER5tMe6a1DPJLNV17hCr2PiVQy/5ZuSeMuQen3/qyLVxavG3PYA/Inij0P8BAAA=
     wand:
       template: potterwand
       owner: MineStein_
-      cost_reduction: 10.0
-      cooldown_reduction: 10.0
+      active_spell: flintifors
       owner_id: 80e74867-a7ca-3e42-bdbb-bf915bc49289
-      icon: diamond_hoe:50
-      description: Twelve and 1/2 Inches Surprisingly Swishy Cedar with Pheonix Feather
+      icon: diamond_hoe:70
+      description: Eleven Inches Slightly Springy Oak with Unicorn Tail Hair
       version: 5
       spell_inventory:
         lumos: 0
+        light: 3
         aparecium: 1
         flintifors: 2
+        stupefy: 4
 open_wand: false
 gave_welcome_wand: true
 data:
@@ -107,11 +121,13 @@ data:
 properties: {}
 classes:
   wizard:
-    mana_timestamp: 1519489472668
+    mana_timestamp: 1522545671792
     spells:
     - lumos
     - aparecium
     - flintifors
+    - light
+    - stupefy
     spell_levels: {}
     mana: 50.0
 active_class: wizard

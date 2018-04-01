@@ -17,3 +17,6 @@ upgrades:
   enabled: true
   hidden: true
   category: npc
+
+light:
+  enabled: true

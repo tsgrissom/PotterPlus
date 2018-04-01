@@ -196,6 +196,9 @@ lapifors:
 gather:
   cast_count: 0
   last_cast: 0
+magictorch:
+  cast_count: 0
+  last_cast: 0
 colloshoo:
   cast_count: 0
   last_cast: 0
@@ -212,7 +215,7 @@ brackiumemendo:
   cast_count: 0
   last_cast: 0
 flintifors:
-  cast_count: 7
+  cast_count: 9
   last_cast: 0
 emp:
   cast_count: 0
@@ -472,6 +475,9 @@ epoximise:
 virus_death:
   cast_count: 0
   last_cast: 0
+potterappearanceshop:
+  cast_count: 0
+  last_cast: 0
 liberacorpus:
   cast_count: 0
   last_cast: 0
@@ -536,7 +542,7 @@ superblob:
   cast_count: 0
   last_cast: 0
 stupefy:
-  cast_count: 0
+  cast_count: 11
   last_cast: 0
 airscooter:
   cast_count: 0
@@ -890,7 +896,7 @@ revelio:
   cast_count: 0
   last_cast: 0
 lumos:
-  cast_count: 7
+  cast_count: 19
   last_cast: 0
 boon:
   cast_count: 0
@@ -1077,6 +1083,9 @@ permafrost:
   last_cast: 0
 regenerate:
   cast_count: 0
+  last_cast: 0
+light:
+  cast_count: 2
   last_cast: 0
 warpunlock:
   cast_count: 0

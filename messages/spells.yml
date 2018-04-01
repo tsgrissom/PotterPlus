@@ -246,6 +246,8 @@ spells:
     description: "The Body-Binding Spell"
   ferula:
     description: "The Bandaging Spell"
+    cast_self: ""
+    cast: ""
   reducto:
     description: "The Vaporizing Curse"
   reducto|2:
@@ -570,6 +572,8 @@ spells:
   brackiumemendo:
     name: Brackium Emendo
     description: "The Bone-Mending Charm"
+    cast_self: ""
+    cast: ""
   brackiumemendo|2:
     upgrade_description: "&r&8&bull; &eIncreased efficacy."
   brackiumemendo|3:
