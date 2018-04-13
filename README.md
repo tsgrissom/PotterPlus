@@ -1,16 +1,46 @@
 # BetterPotter
 
-This is a set of improvements and expansions upon the Potter example configs built-in to NathanWolf's Magic plugin.
+## What is BetterPotter?
 
-The goal of this project is to make a more developed, cohesive and lore-accurate experience.
+> BetterPotter is a project focused on extending and improving the Potter configurations bundled into the [Magic plugin](https://www.spigotmc.org/resources/magic.1056/) to create a cohesive Harry Potter experience.
 
-## Custom Spells
+Need support? Message me on Discord @ *Tyler#6978*
 
-There are a couple of spells in the base configuration of these files which are not a part of Harry Potter lore; however, all spells are based off of known spells, named or unnamed, in the Potter universe.
+## Installation
+
+* Grab your copy of [Magic](https://www.spigotmc.org/resources/magic.1056/).
+* Place the JAR into your `/plugins/` folder and restart your server.
+* Verify you have installed the latest version of Magic by performing `/magic`.
+* Place the contents of the latest BetterPotter files into your `/plugins/Magic/` folder, replacing any existing contents.
+* Restart your server once more.
+* Configure to your liking!
+
+## File structure
+
+The key to understanding and configuring your installation of BetterPotter is to know the file structure.
+
+`/potter/` contains the default Potter files for reference while developing the configuration.
+
+
+`/messages/` contains most of the plugin messages.
+
+
+`/spells/` contains the spells of the plugin.
+
+
+`/spells/other/` contains various specialty spells, along with those that are enabled, disabled, or are in
+the process of a rewrite.
+
+
+`/spells/not_canon/` contains the spells which are either fictional in the Harry Potter universe or are unnamed spells from the lore with a Latin incantation.
 
 ## Servers
 
-Want your server added to this list? Feel free to edit the document.
+Feel free to add your BetterPotter server to this list!
 
 * [Rowling's Realm](http://rowlingsrealm.com)
 * [Astoria Network](http://astoria.network/)
+
+## Credits
+
+BetterPotter is developed with [Atom](https://atom.io/) and would not be possible without the amazing [Magic plugin](http://github.com/elBukkit/MagicPlugin).
