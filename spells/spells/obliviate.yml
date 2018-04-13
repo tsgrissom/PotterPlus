@@ -9,9 +9,7 @@ obliviate:
     cast:
       - class: CustomProjectile
         actions:
-          - class: Repeat
-            actions:
-              - class: Message
+          - class: ClearChat
   effects:
     tick:
       - location: target
@@ -33,6 +31,4 @@ obliviate:
     velocity: 125
     target: other
     target_type: Player
-    message: " "
-    message_target: true
     duration: 1000

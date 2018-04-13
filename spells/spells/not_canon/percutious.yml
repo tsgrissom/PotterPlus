@@ -1,3 +1,5 @@
+# Corresponds to the Smiting Hex
+
 percutios:
   inherit: smite
   category: dark

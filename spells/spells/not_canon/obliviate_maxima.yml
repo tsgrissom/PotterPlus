@@ -1,3 +1,5 @@
+# Made up as an admin tool to clear everyone's chat
+
 obliviatemaxima:
   category: staff
   icon_url: http://textures.minecraft.net/texture/89f9399aceb3211c3ca1259d5b1bb1f3fb61a4d5626a757ee1a1ccec28a0ae
@@ -7,7 +9,10 @@ obliviatemaxima:
     mana: 75
   actions:
     cast:
-      - class: com.rowlingsrealm.magicaddons.actions.ClearChatAction
+      - class: AllEntities
+        actions:
+          - class: PotionEffect
+          - class: ClearChat
   effects:
     cast:
       - class: EffectSingle
@@ -21,8 +26,6 @@ obliviatemaxima:
   parameters:
     cooldown: 20000
     target_all_worlds: true
-    repeat: 100
+    target_type: Player
     effect_confusion: 1
     duration: 1000
-    global: true
-    target_source: false
