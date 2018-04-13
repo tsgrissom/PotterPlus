@@ -22,7 +22,11 @@
 
 The key to understanding and configuring your installation of BetterPotter is to know the file structure.
 
-`/potter/` contains the default Potter files for reference while developing the configuration.
+
+`/defaults/` contain Magic plugin configuration defaults as a reference point.
+
+
+`/defaults/potter/` contains the default Potter files for reference while developing the configuration.
 
 
 `/messages/` contains most of the plugin messages.
