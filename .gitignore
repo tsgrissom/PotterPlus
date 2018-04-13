@@ -1,5 +1,2 @@
-.floo
-.flooignore
-.remote-sync.json
-data
-.DS_Store
+dist
+files/data
