@@ -4,8 +4,6 @@
 
 > BetterPotter is a project focused on extending and improving the Potter configurations bundled into the [Magic plugin](https://www.spigotmc.org/resources/magic.1056/) to create a cohesive Harry Potter experience.
 
-Need support? Message me on Discord @ *Tyler#6978*
-
 ## Installation
 
 * Grab your copy of [Magic](https://www.spigotmc.org/resources/magic.1056/).
@@ -14,6 +12,11 @@ Need support? Message me on Discord @ *Tyler#6978*
 * Place the contents of the latest BetterPotter files into your `/plugins/Magic/` folder, replacing any existing contents.
 * Restart your server once more.
 * Configure to your liking!
+
+### Need support?
+
+* For Magic support, visit the [RPG MC Central Discord](https://discord.gg/KG8Tr4b) or ask on the [Magic thread](https://www.spigotmc.org/threads/magic.28645/)
+* For BetterPotter support, message me on Discord @ *Tyler#6978*
 
 ## File structure
 
