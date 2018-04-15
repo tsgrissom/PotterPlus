@@ -7,13 +7,13 @@ wands:
     name: Wand
     description: $length Inches $flex $wood with $core
     randomized_description: Ugh
-  conductorswand:
+  conductors_wand:
     name: Conductor's Wand
     description: Play some music!
   ticket:
     name: Wand Ticket
     description: Take this to a wand shop to get your first wand!
-  musicbox:
+  music_box:
     name: Music Box
     description: Play some music!
   erkling_dart_blower:

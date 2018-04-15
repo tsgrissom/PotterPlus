@@ -11,6 +11,41 @@ base:
     path: subclass
     hotbar_count: subclass
 
+    # Attributes are primarily stored on the mage
+    # But attributes can also be set on wands to provide attribute buffs.
+    attributes: mage,wand
+
+#
+# !! IMPORTANT !!
+#
+# If you wish to customize this plugin, edit the "classes.yml" file instead.
+#
+# DO NOT JUST COPY THIS WHOLE FILE INTO YOUR classes.yml !!!!
+# If you do this, updating the plugin in the future may not work as expected.
+#
+# This file is merged from the files in the following folder:
+#
+# https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/classes
+#
+archer_mage:
+  inherit: base
+  locked: false
+  path: archer
+  active_spell: arrow_regular
+  spells:
+  - arrow_regular
+  - arrow_poison
+battle_mage:
+  parent: caster
+  locked: false
+  path: battle
+  spells:
+    - missile
+    - arrow
+    - curse
+    - fire
+    - push
+
 broomrider:
   storage:
     spell_levels: class
@@ -21,32 +56,13 @@ caster:
   mana_max: 50
   mana: 50
   mana_regeneration: 5
-  active_spell: missile
   spells:
-   - missile
-
-battle_mage:
-  parent: caster
-  locked: false
-  limit_spells_to_path: true
-  path: battle
-  spells:
-    - missile
-    - arrow
-    - curse
-    - fire
-    - push
+  - missile
 
 mage:
   parent: caster
   locked: false
   path: beginner
-
-archer_mage:
-  parent: base
-  locked: false
-  path: archer
-  active_spell: arrow_regular
   spells:
-  - arrow_regular
-  - arrow_poison
+  - missile
+

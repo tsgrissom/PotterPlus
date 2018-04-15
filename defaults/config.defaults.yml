@@ -8,8 +8,62 @@
 #
 # This file is merged from the files in the following folder:
 #
-# https://github.com/elBukkit/MagicPlugin/tree/master/src/main/resources/defaults/config
+# https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/config
 #
+
+#
+# Here you can specify custom damage types.
+# There are several builtin damage types that correspond to vanilla damage sources. You can add your own types, for
+# use in protection and damage bonuses, and by the Damage action damage_type parameter.
+#
+# For each damage type you can specify a max reduction % allowed. This is by how much damage is reduced for a player
+# that has maxed out protection for that source.
+#
+# You can also specify max_strength- this is the damage multiplier that an attacker will receive if they have a "strength"
+# of 1.
+#
+# And max_weakness is the damage multiplier that a defender will receive if they have a "weakness" of 1.
+#
+# For instance, if you have fire damage set to max_reduction of 0.5, a player with a protection.fire of 1.0 (100%, maxed out)
+# will take 50% damage from all fire sources. A player with protection.fire of 0.5 will take 25% damage.
+#
+# Protection will never be allowed to go above 100% of the values specified here. Even if using stacking items, if a player
+# has armor with protection.fire of 0.7 and holding a wand with protection.fire of 0.5, they will stack but cap at 1.0
+#
+# However, "overall" protection does stack with the other amounts, so take care with that. If the protection values
+# add up to over 1.0 the player is completely immune to that type of damage.
+#
+# The "overall" type is special, it applies to the "overall" protection which will be used for any type of damage.
+#
+damage_types:
+  overall:
+    max_reduction: 0.2
+    max_strength: 5
+    max_weakness: 10
+  explosion:
+    max_reduction: 0.2
+    max_strength: 5
+    max_weakness: 10
+  fall:
+    max_reduction: 1.0
+    max_strength: 5
+    max_weakness: 10
+  fire:
+    max_reduction: 0.5
+    max_strength: 5
+    max_weakness: 10
+  physical:
+    max_reduction: 0.6
+    max_strength: 5
+    max_weakness: 10
+  projectile:
+    max_reduction: 0.2
+    max_strength: 5
+    max_weakness: 10
+  magic:
+    max_reduction: 0.5
+    max_strength: 5
+    max_weakness: 10
 # This can be used to turn off loading all of the default configs
 # This is the same as setting all of the following "load_default_*" to false.
 load_default_configs: true
@@ -39,6 +93,9 @@ load_default_paths: true
 # Set to false to skip loading defaults/classes.defaults.yml entirely.
 load_default_classes: true
 
+# Set to false to skip loading defaults/attributes.defaults.yml entirely.
+load_default_attributes: true
+
 # Set to false to skip loading defaults/crafting.defaults.yml entirely.
 load_default_crafting: true
 
@@ -48,8 +105,11 @@ load_default_mobs: true
 # Set to false to skip loading defaults/items.defaults.yml entirely.
 load_default_items: true
 
+# A class to use with the /mage command when a player doesn't yet have a class assigned
+default_mage_class: mage
+
 # Give new players a wand when they join.
-# e.g. welcome_wand: beginner
+# e.g. welcome_wand: wand
 welcome_wand: ""
 
 # Whether or not to show any messages (in chat)
@@ -172,15 +232,17 @@ wand_location_offset_vertical: 0
 # Set this to true to make wands "Unbreakable", regardless of the indestructible property
 wand_unbreakable: false
 
-# Set this to false to allow players to drop wands by dragging them out of their inventories
-# and to let players put wands in chests.
-# The Magic.wand.override_drop permission also allows players to do this.
-# Wands are droppable normally unless they are set to "undroppable: true"
-wand_undroppable: false
+# Set this to false to allow players to put wands in chests.
+# The Magic.wand.override_stash permission also allows players to override this setting.
+# Wands are droppable and stashable normally unless they are set to "undroppable: true"
+# The "unstashable" property can also be set per-wand instead of using this global setting.
+wand_unstashable: false
 
 # Skill configuration
 default_skill_icon: stick
+default_spell_icon: eye_of_ender
 skill_inventory_max_rows: 6
+mskills_spell: skills
 
 # Control word-wrapping in various lore texts
 lore_wrap_limit: 32
@@ -241,6 +303,12 @@ cancel_interact_on_right_click: false
 # Set this to false to disallow casting using an offhand wand
 allow_offhand_casting: true
 
+# Set this to false to prevent casting a spell from an inventory using the drop button
+allow_inventory_casting: true
+
+# Set this to false to prevent selecting a spell from an inventory using right-click
+allow_inventory_selection: true
+
 # Set this to specify the time interval in ms that must pass between offhand casts
 # this is meant to throttle the spammy behavior that happens if you hold right-click with an offhand wand
 offhand_cast_cooldown: 500
@@ -271,6 +339,10 @@ fill_wands: false
 # 0 means put the max level of each spell on the wand,
 # 1 would be only the level 1 versions
 fill_wand_level: 0
+
+# Set this to true to only fill wands with spells created by the player
+# Useful in sandbox configs
+fill_wand_creator: false
 
 # Players can remove spells from their wands
 allow_spell_dropping: false
@@ -431,13 +503,6 @@ brush_replacements:
   carrot: carrot_item
   potato: potato_item
 
-# The folder and file path to use for loading schematics. This will be relative to
-# The server's /plugins folder.
-# You can use WorldEdit's schematics folder for easy access to saved schematics.
-# You can use this folder to override the built-in schematics, such as replacing the schematics
-# used for Tent or Cage.
-schematic_files: WorldEdit/schematics/
-
 # How many casts to track in the undo queue
 undo_depth: 128
 
@@ -548,56 +613,6 @@ max_power: 100.0
 max_cost_reduction: 0.5
 max_cooldown_reduction: 0.75
 
-#
-# Here you can specify custom damage types.
-# There are several builtin damage types that correspond to vanilla damage sources. You can add your own types, for
-# use in protection and damage bonuses, and by the Damage action damage_type parameter.
-#
-# For each damage type you can specify a max reduction % allowed. This is by how much damage is reduced for a player
-# that has maxed out protection for that source.
-#
-# You can also specify max_strength- this is the damage multiplier that an attacker will receive if they have a "strength"
-# of 1.
-#
-# And max_weakness is the damage multiplier that a defender will receive if they have a "weakness" of 1.
-#
-# For instance, if you have fire damage set to max_reduction of 0.5, a player with a protection.fire of 1.0 (100%, maxed out)
-# will take 50% damage from all fire sources. A player with protection.fire of 0.5 will take 25% damage.
-#
-# Protection will never be allowed to go above 100% of the values specified here. Even if using stacking items, if a player
-# has armor with protection.fire of 0.7 and holding a wand with protection.fire of 0.5, they will stack but cap at 1.0
-#
-# However, "overall" protection does stack with the other amounts, so take care with that. If the protection values
-# add up to over 1.0 the player is completely immune to that type of damage.
-#
-# The "overall" type is special, it applies to the "overall" protection which will be used for any type of damage.
-#
-damage_types:
-  overall:
-    max_reduction: 0.2
-    max_strength: 5
-    max_weakness: 10
-  explosion:
-    max_reduction: 0.2
-    max_strength: 5
-    max_weakness: 10
-  fall:
-    max_reduction: 1.0
-    max_strength: 5
-    max_weakness: 10
-  fire:
-    max_reduction: 0.5
-    max_strength: 5
-    max_weakness: 10
-  physical:
-    max_reduction: 0.6
-    max_strength: 5
-    max_weakness: 10
-  projectile:
-    max_reduction: 0.2
-    max_strength: 5
-    max_weakness: 10
-
 # These are used only for "Roman" display mode for mana on wand lore
 max_mana: 1000
 max_mana_regeneration: 100
@@ -668,6 +683,11 @@ max_velocity: 10
 
 # Commands like /mgive and /wand will bind wands to players
 bind_on_give: false
+
+# This can be used for a server that is hooked up with a live editor
+# The editor will update Magic/data/updated.yml, and the server will automatically
+# reload configurations when the configs have changed.
+config_update_interval: 0
 ## Work-in-Progress or not-fully-functional options
 
 # Whether or not to show (or broadcast) cast messages as holotext
@@ -884,7 +904,28 @@ use_scoreboard_teams: false
 
 # If not using scoreboard teams or Heroes parties, should players be "friends" by default?
 # This will affect being able to cast healing or other perk type spells on other players.
+# This does not affect targeting with normal (damaging, etc) spells.
 default_friendly: true
+
+# Which mobs types should be considered friendly by default.
+# these mobs can still be targeted by damaging spells, but they can also be targeted by friendly healing or perk spells.
+friendly_entity_types:
+- chicken
+- cow
+- donkey
+- villager
+- horse
+- iron_golem
+- llama
+- mule
+- ocelot
+- parrot
+- pig
+- polar_bear
+- rabbit
+- sheep
+- snowman
+- wolf
 
 ### Heroes/Skills configuration
 
@@ -929,7 +970,30 @@ mobarena:
   # - arena2
 
 # Skript integration will add cast events and effect
-skript_enabled: true;
+skript_enabled: true
+
+# Citadel integration
+citadel:
+  # Disable integration
+  enabled: true
+
+  # Non-player reinforcements will be indestructible to spells
+  reinforcements_indestructible: false
+
+  # Player reinforcements will be indestructible to spells
+  player_reinforcements_indestructible: false
+
+  # Reinforcements will be taken into account in the BreakBlock action
+  # Spells that use ModifyBlock to directly erase blocks will still be able to destroy
+  # reinforced blocks, unless the above flags are set.
+  reinforcement_durability: true
+
+# The folder and file path to use for loading schematics. This will be relative to
+# The server's /plugins folder.
+# You can use WorldEdit's schematics folder for easy access to saved schematics.
+# You can use this folder to override the built-in schematics, such as replacing the schematics
+# used for Tent or Cage.
+schematic_files: WorldEdit/schematics/
 # This resource pack will automatically be used if none is defined in your server.properties
 # Set this to "" if you have some other plugin or Bungee managing resource packs.
 resource_pack: "https://s3-us-west-2.amazonaws.com/elmakers/Magic/Magic-RP-7.zip"

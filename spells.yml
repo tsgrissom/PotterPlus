@@ -1,1 +1,1 @@
-# Spells are no longer contained entirely in the spells.yml. They are each in their own respective files under /spells/ directory.
+# Spells are contained under /spells/

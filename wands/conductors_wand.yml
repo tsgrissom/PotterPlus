@@ -1,0 +1,12 @@
+conductors_wand:
+  icon: stick
+  active_spell: music
+  spells:
+    - music
+  left_click: cast
+  right_click: none
+  drop: none
+  swap: none
+  mana: 20
+  mana_regeneration: 10
+  uses: 5
