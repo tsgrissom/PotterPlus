@@ -1,0 +1,12 @@
+# Fwooper
+
+fwooper:
+  name: '&dFwooper'
+  type: parrot
+  health: 4
+  default_drops: false
+  triggers:
+    death:
+      cast:
+        none: 20
+        fwooper_death: 80

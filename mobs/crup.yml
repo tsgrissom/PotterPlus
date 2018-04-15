@@ -1,0 +1,16 @@
+# Crup
+
+crup_puppy:
+  name: '&cCrup Puppy'
+  type: wolf
+  tamed: true
+  baby: true
+  interact_spell: crup_pet
+  default_drops: false
+
+crup:
+  name: '&cCrup'
+  type: wolf
+  tamed: true
+  interact_spell: crup_pet
+  default_drops: false

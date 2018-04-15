@@ -1,0 +1,34 @@
+kneazle_pet:
+  icon: bone
+  category: beast_ability
+  hidden: true
+  actions:
+    cast:
+      - class: Message
+  effects:
+    cast:
+      - class: EffectSingle
+        location: origin
+        source_location: feet
+        effectlib:
+          class: HeartEffect
+          particle: redstone
+          color: c10f0f
+          yFactor: 2
+          xFactor: 2
+          enable_rotation: true
+          offset: 0,1,0
+      - class: EffectSingle
+        location: origin
+        source_location: feet
+        effectlib:
+          class: HeartEffect
+          particle: heart
+          particles: 25
+          enable_rotation: true
+          offset: 0,1,0
+  parameters:
+    target: self
+    message: '&eThe kneazle purrs...'
+    message_type: title
+    cooldown: 10000

@@ -635,3 +635,90 @@ spells:
   ignisdisceditus:
     name: Ignis Disceditus
     description: "The Extinguishing Charm"
+  acromantula_summon:
+    name: "Summon"
+    description: "Summons more Acromantula"
+  acromantula_spit:
+    name: "Acromantula Spit"
+    description: "Spits poison"
+  acromantula_webbing:
+    name: "Acromantula Webbing"
+    description: "Shoots webbing"
+  ashwinder_ambient:
+    name: "Ashwinder Ambient"
+    description: "Creates snake-like effect for Ashwinders"
+  ashwinder_summon:
+    name: "Ashwinder Summon"
+    description: "Summons more Ashwinders"
+  ashwinder_burn:
+    name: "Ashwinder Burn"
+    description: "Causes a fire"
+  augurey_death:
+    name: "Augurey Death"
+    description: "Screeches, changes weather, and causes death to those who bear witness"
+  bowtruckle_tree:
+    name: "Bowtruckle Tree"
+    description: "Captures the target in the Bowtruckle's domain"
+  bowtruckle_wood_throw:
+    name: "Bowtruckle Wood Throw"
+    description: "Throws damaging wood pieces"
+  bowtruckle_shield:
+    name: "Bowtruckle Shield"
+    description: "Conjures a wooden shield"
+  bundimun_summon:
+    name: "Bundimun Summon"
+    description: "Summons more Bundimun"
+  centaur_arrow:
+    name: "Centaur Arrow"
+    description: "Shoots a deadly projectile"
+  centaur_heal:
+    name: "Centaur Heal"
+    description: "Heals quickly"
+  crup_pet:
+    name: "Pet the Crup"
+    description: "Pet the doggy"
+  demiguise_disappear:
+    name: "Demiguise Disappear"
+    description: "Disappear into thin air"
+  erkling_dart:
+    name: "Erkling Dart"
+    description: "A erkling-crafted projectile"
+  erkling_poisoned_dart:
+    name: "Erkling Dart of Poison"
+    description: "A poison-tipped projectile crafted by erklings"
+  erkling_freezing_dart:
+    name: "Erkling Dart of Freezing"
+    description: "A projectile crafted by erklings for slowing down prey"
+  erkling_flaming_dart:
+    name: "Erkling Dart of Fire"
+    description: "A burning-hot projectile crafted by erklings"
+  erkling_weakening_dart:
+    name: "Erkling Dart of Weakening"
+    description: "A tipped projectile crafted by erklings designed to expose prey"
+  erumpent_attack:
+    name: "Erumpent Attack"
+    description: "Exposive offensive"
+  erumpent_death:
+    name: "Erumpent Death"
+    description: "Erumpent horns are a Class-B tradeable material, highly volatile"
+  fire_crab_attack:
+    name: "Fire Crab Attack"
+    description: "Lights things on fire"
+  fire_crab_alt_attack:
+    name: "Fire Crab Alternate Attack"
+    description: "Surrounds the fire crab in fire"
+  fire_crab_ambient:
+    name: "Fire Crab Ambient"
+    description: "Ambient effect for fire crabs"
+  fwooper_death:
+    name: "Fwooper Death"
+    description: "Sounds off every noise it ever heard, causing mass confusion and hinderance"
+  phoenix_ambient:
+    name: "Phoenix Ambient"
+    description: "Unused"
+  phoenix_death:
+    name: "Phoenix Death"
+    description: "From the ashes, reborn."
+  wampus_scratch:
+    name: "Wampus Scratch"
+    description: "Deadly, magical claw scratches leave you bleeding"

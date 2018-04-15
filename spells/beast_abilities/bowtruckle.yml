@@ -1,0 +1,45 @@
+bowtruckle_tree:
+  inherit: forest
+  icon: log
+  category: beast_ability
+  hidden: true
+  parameters:
+    undo: 12000
+    target: self
+    cooldown: 0
+
+bowtruckle_wood_throw:
+  icon: log
+  category: beast_ability
+  hidden: true
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Damage
+  effects:
+    hit:
+      - class: EffectSingle
+        firework: burst
+        location: target
+        color: 6d991c
+    tick:
+      - class: EffectSingle
+        location: target
+        particle: block_crack
+        material: log
+        particle_count: 20
+        sound: magic.zap_up
+  parameters:
+    allow_max_range: false
+    range: 24
+    velocity: 50
+    target: other
+    cooldown: 0
+
+bowtruckle_shield:
+  inherit: protego|3
+  parameters:
+    cooldown: 0
+    brush: log
+    undo: 3000

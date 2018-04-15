@@ -1,0 +1,19 @@
+# Erumpent
+
+erumpent:
+  name: '&7Erumpent'
+  type: polar_bear
+  health: 75
+  default_drops: false
+  interval: 2000
+  drops:
+    - erumpent_horn
+  triggers:
+    interval:
+      cast:
+        none: 75
+        erumpent_attack: 25
+    death:
+      cast:
+        none: 20
+        erumpent_death: 80

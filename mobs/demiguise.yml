@@ -1,0 +1,12 @@
+# Demiguise
+
+demiguise:
+  name: '&fDemiguise'
+  type: rabbit
+  health: 50
+  default_drops: false
+  triggers:
+    damage:
+      cast:
+        none: 10
+        demiguise_disappear: 90

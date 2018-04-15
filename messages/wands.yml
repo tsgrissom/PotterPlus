@@ -16,3 +16,14 @@ wands:
   musicbox:
     name: Music Box
     description: Play some music!
+  erkling_dart_blower:
+    name: "&2Erkling Dart Blower"
+    description: "&aA dart blower stolen from an erkling"
+    spell_instructions: ""
+    bound_instructions: ""
+    inventory_instructions: ""
+  erumpent_horn:
+    name: "&8Erumpent Horn"
+    description: "&7A Class-B tradeable material. Highly explosive."
+    spell_instructions: ""
+    bound_instructions: ""

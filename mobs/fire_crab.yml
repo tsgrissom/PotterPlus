@@ -1,0 +1,22 @@
+# Fire Crab
+
+fire_crab:
+  name: '&4Fire Crab'
+  type: spider
+  health: 50
+  default_drops: false
+  potion_effects:
+    - type: fire_resistance
+      amplifier: 255
+  interval: 1000
+  triggers:
+    interval1:
+      type: interval
+      cast:
+        fire_crab_ambient: 100
+    interval2:
+      type: interval
+      cast:
+        none: 60
+        fire_crab_attack: 20
+        fire_crab_alt_attack: 10

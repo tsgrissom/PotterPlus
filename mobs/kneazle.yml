@@ -1,0 +1,14 @@
+# Kneazle
+
+kneazle_kitten:
+  name: '&eKneazle Kitten'
+  type: ocelot
+  tamed: true
+  baby: true
+  interact_spell: kneazle_pet
+
+kneazle:
+  name: '&eKneazle'
+  type: ocelot
+  tamed: true
+  interact_spell: kneazle_pet

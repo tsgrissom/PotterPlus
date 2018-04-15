@@ -1,0 +1,35 @@
+wampus_scratch:
+  icon: fish
+  category: beast_ability
+  hidden: true
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: PotionEffect
+  effects:
+    tick:
+      - class: EffectSingle
+        location: target
+        particle: spell
+        particle_offset_x: 0.1
+        particle_offset_y: 0.1
+        particle_offset_z: 0.1
+        particle_count: 5
+    hit_entity:
+      - class: EffectSingle
+        requires_entity_target: true
+        location: target
+        sound: entity_irongolem_death
+        sound_volume: 1
+        effectlib:
+          class: BleedEffect
+          duration: 2000
+          disappear_with_origin_entity: true
+  parameters:
+    allow_max_range: false
+    range: 6
+    hitbox: true
+    velocity: 30
+    effect_wither: 2
+    duration: 2000

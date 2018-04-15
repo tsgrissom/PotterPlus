@@ -1,0 +1,29 @@
+# Ashwinder
+
+ashwinder:
+  type: silverfish
+  name: '&4Ashwinder'
+  health: 40
+  default_drops: false
+  potion_effects:
+    - type: fire_resistance
+      amplifier: 255
+  interval: 1000
+  triggers:
+    interval1:
+      type: interval
+      cast:
+        none: 10
+        ashwinder_ambient: 90
+    interval2:
+      type: interval
+      cast:
+        none: 90
+        ashwinder_summon: 5
+        ashwinder_summon|2: 1
+    damage:
+      cast:
+        none: 60
+        ashwinder_burn: 25
+        ashwinder_burn|2: 10
+        ashwinder_burn|3: 5

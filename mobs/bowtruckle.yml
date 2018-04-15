@@ -1,0 +1,18 @@
+# Bowtruckle
+
+bowtruckle:
+  name: "&aBowtruckle"
+  type: zombie
+  baby: true
+  health: 30
+  interval: 3000
+  default_drops: false
+  triggers:
+    interval:
+      cast:
+        none: 20
+        bowtruckle_wood_throw: 80
+    damage:
+      cast:
+        none: 95
+        bowtruckle_shield: 5
