@@ -1,0 +1,14 @@
+erumpent_horn:
+  inherit: base_wand
+  icon: nether_star
+  lore:
+    - '$description'
+    - ''
+    - '$uses'
+  mana: 200
+  uses: 8
+  undroppable: false
+  right_click: none
+  active_spell: erumpent_attack
+  spells:
+    - erumpent_attack

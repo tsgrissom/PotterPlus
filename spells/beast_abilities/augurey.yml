@@ -1,0 +1,37 @@
+augurey_death:
+  icon: water
+  category: beast_ability
+  hidden: true
+  actions:
+    cast:
+      - class: Weather
+        weather: storm
+      - class: Delay
+      - class: Weather
+        weather: clear
+  effects:
+    cast:
+      - class: EffectSingle
+        source_location: feet
+        location: origin
+        sound: entity_parrot_death
+        effectlib:
+          class: SphereEffect
+          radius: 1
+          radiusIncrease: 0.2
+          particle: water_wake
+          particles: 100
+      - class: EffectSingle
+        source_location: feet
+        location: origin
+        effectlib:
+          class: AtomEffect
+          radius: 0.5
+          particleOrbital: spell_mob
+          particleNucleus: spell
+          colorOrbital: "3488ac"
+          iterations: 24
+  parameters:
+    cooldown: 0
+    delay: 30000
+    target: self

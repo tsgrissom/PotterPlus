@@ -1,0 +1,18 @@
+erkling_dart_blower:
+  inherit: base_wand
+  icon: stick
+  lore:
+    - '$description'
+    - ''
+    - '$uses'
+  mana: 50
+  mana_regeneration: 10
+  undroppable: false
+  active_spell: erkling_dart
+  uses: 15
+  spells:
+    - erkling_dart
+    - erkling_poisoned_dart
+    - erkling_freezing_dart
+    - erkling_weakening_dart
+    - erkling_flaming_dart

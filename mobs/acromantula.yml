@@ -1,0 +1,13 @@
+# Acromantula
+
+acromantula:
+  type: cave_spider
+  name: '&2Acromantula'
+  health: 30
+  default_drops: false
+  triggers:
+    damage:
+      cast:
+        none: 60
+        acromantula_spit: 20
+        acromantula_webbing: 10

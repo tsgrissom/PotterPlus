@@ -1,0 +1,15 @@
+# Centaur
+
+centaur:
+  name: '&7Centaur'
+  type: horse
+  health: 100
+  default_drops: false
+  aggro: true
+  interval: 2000
+  triggers:
+    interval:
+      cast:
+        none: 20
+        centaur_arrow: 60
+        centaur_heal: 20

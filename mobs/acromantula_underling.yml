@@ -1,0 +1,15 @@
+# Acromantula Underling
+
+acromantula_underling:
+  type: cave_spider
+  name: '&2Acromantula Underling'
+  health: 10
+  default_drops: false
+  potion_effects:
+    - type: speed
+      amplifier: 2
+  triggers:
+    damage:
+      cast:
+        none: 60
+        acromantula_spit: 10

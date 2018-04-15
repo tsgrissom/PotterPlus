@@ -1,0 +1,77 @@
+erumpent_death:
+  icon: tnt
+  category: beast_ability
+  hidden: true
+  actions:
+    cast:
+      - class: Explosion
+  parameters:
+    target: self
+    size: 5
+    break_blocks: true
+    fire: true
+    undo: 3000
+    undo_speed: 1
+
+erumpent_ambient:
+  icon: tnt
+  category: beast_ability
+  hidden: true
+  actions:
+    cast:
+      - class: PotionEffect
+  parameters:
+    target: self
+    effect_glowing: 1
+    duration: 1500
+
+erumpent_attack:
+  inherit: bombarda
+  icon: tnt
+  actions:
+    cast:
+      - class: Delay
+      - class: CustomProjectile
+        actions:
+          - class: Explosion
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap_up
+        location: origin
+      - class: EffectSingle
+        location: origin
+        source_location: feet
+        effectlib:
+          class: AnimatedBallEffect
+          particle: spell_mob
+          color: dba929
+          size: 2
+          iterations: 25
+    tick:
+      - particle: redstone
+        color: dba929
+        location: target
+      - location: target
+        particle: fireworks_spark
+        particle_count: 6
+        particle_offset_x: 0.5
+        particle_offset_y: 0.5
+        particle_offset_z: 0.5
+    hit:
+      - class: EffectSingle
+        custom_sound: magic.shield_boom
+        sound_pitch: 2
+        location: both
+      - class: EffectSingle
+        location: target
+        color: dba929
+        firework: burst
+      - class: EffectSingle
+        target_offset: 0,0.5,0
+        location: target
+        color: dba929
+        firework: burst
+        particle: explosion_huge
+  parameters:
+    delay: 1500

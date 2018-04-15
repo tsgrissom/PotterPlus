@@ -1,0 +1,13 @@
+# Wampus
+
+wampus:
+  name: '&6Wampus'
+  type: ocelot
+  health: 20
+  default_drops: false
+  aggro: true
+  triggers:
+    interval:
+      cast:
+        none: 20
+        wampus_scratch: 80

@@ -1,0 +1,46 @@
+ashwinder_ambient:
+  icon: fire
+  category: beast_ability
+  hidden: true
+  actions:
+    cast:
+      - class: Ignite
+  effects:
+    cast:
+      - class: EffectSingle
+        source_location: feet
+        sound: entity_blaze_ambient
+        effectlib:
+          class: AtomEffect
+          particle_nucleus: flame
+          particle_orbital: flame
+          iterations: 16
+          radius: 0.3
+      - class: EffectSingle
+        source_location: feet
+        effectlib:
+          class: AtomEffect
+          particle_nucleus: smoke
+          particle_orbital: smoke
+          iterations: 16
+          radius: 0.8
+  parameters:
+    target: self
+    cooldown: 0
+
+ashwinder_summon:
+  inherit: ashwinder_ambient
+  actions:
+    cast:
+      - class: SpawnEntity
+  parameters:
+    type: ashwinder
+    target: self
+    amount: 2
+
+ashwinder_summon|2:
+  parameters:
+    amount: 3
+
+ashwinder_burn:
+  inherit: incendio

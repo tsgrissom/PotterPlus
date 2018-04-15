@@ -1,0 +1,49 @@
+acromantula_summon:
+  icon: web
+  category: beast_ability
+  hidden: true
+  effects:
+    cast:
+      - class: EffectSingle
+        source_location: feet
+        location: origin
+        sound: entity_spider_ambient
+        material: web
+        effectlib:
+          class: SphereEffect
+          radius: 2
+          radiusIncrease: 0.2
+          particle: block_crack
+  actions:
+    cast:
+      - class: SpawnEntity
+  parameters:
+    entity_types:
+      acromantula: 20
+      acromantula_underling: 40
+    target: self
+    cooldown: 0
+    amount: 2
+
+acromantula_spit:
+  inherit: bogies
+  parameters:
+    range: 24
+    cooldown: 0
+
+acromantula_spit|2:
+  parameters:
+    effect_confusion: 2
+
+acromantula_webbing:
+  inherit: webbing
+  effects:
+    tick: []
+  parameters:
+    radius: 0.5
+    undo_speed: 1
+    cooldown: 0
+
+acromantula_webbing|2:
+  parameters:
+    radius: 1
