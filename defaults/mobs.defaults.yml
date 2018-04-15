@@ -8,7 +8,7 @@
 #
 # This file is merged from the files in the following folder:
 #
-# https://github.com/elBukkit/MagicPlugin/tree/master/src/main/resources/defaults/mobs
+# https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/mobs
 #
 dark_spider:
   type: cave_spider
@@ -105,6 +105,15 @@ dummy:
   potion_effects:
   - type: slow
     amplifier: 10
+dummynoai:
+  type: husk
+  name: Dummy
+  health: 100
+  protection:
+    fire: 2
+  weakness:
+    water: 1
+  ai: false
 fire_elemental:
   type: blaze
   name: Fire Elemental
@@ -228,7 +237,7 @@ mutant_captain:
   potion_effects:
   - type: speed
     amplifier: 1
-  attributes:
+  entity_attributes:
     generic_knockback_resistance: 1
     generic_attack_speed: 5
     

@@ -8,7 +8,7 @@
 # 
 # This file is merged from the files in the following folder:
 #
-# https://github.com/elBukkit/MagicPlugin/tree/master/src/main/resources/defaults/wands
+# https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/wands
 #
 admin:
     inherit: conduit
@@ -104,7 +104,6 @@ apprentice:
     icon: wood_hoe:3
     migrate_icon: wood_hoe
     effect_color: '22FF22'
-    path: apprentice
     hotbar_count: 2
     mana_regeneration: 40
     mana_max: 200
@@ -444,17 +443,17 @@ base_wand:
     swap: cycle_hotbar
     quiet: 1
     effect_bubbles: false
-    attributes:
+    item_attributes:
       GENERIC_ATTACK_SPEED: 10
-    attribute_slot: mainhand
+    item_attribute_slot: mainhand
   
 base_sword:
     hidden: true
     inherit: base_bound
     mode: inventory
-    drop: toggle
+    drop: cycle_hotbar
     left_click: none
-    right_click: none
+    right_click: toggle
     swap: cycle_hotbar
     quick_cast: true
     quiet: 1
@@ -489,8 +488,10 @@ battle:
 #
 # It is probably best to use the default "wand" for this now instead!
 #
+# This wand will automatically migrate to the "wand" template.
+#
 beginner:
-    inherit: wand
+  migrate_to: wand
 
 borealis:
     inherit: master
@@ -554,15 +555,13 @@ camera:
     icon: skull_item:http://textures.minecraft.net/texture/e49b4f3261328c05350ee4031212d2fc7555f211af91c0f0278a5aaf9cec65
     indestructible: false
     locked: true
-    boostable: false
-    mana: 5
-    mana_max: 5
-    mana_regeneration: 2
     effect_color: '888888'
     spells:
-        - camera
+    - camera
     lore:
     - $description
+    - "&3Takes 5 seconds to charge"
+    - "&bRequires 1 &fPaper"
 
 clericchestplate:
     icon: chainmail_chestplate
@@ -1072,7 +1071,8 @@ magicbow:
   inherit: base_bow
   class: archer_mage
   icon: bow:1
-  cast_min_bowpull: 0.5
+  # This can be used to force the bow to always cast a normal arrow under some amount of pull
+  # cast_min_bowpull: 0.5
   protection:
     projectile: 0.5
 
@@ -1100,9 +1100,12 @@ magicsword:
     migrate_icon: gold_sword
     effect_color: '11FF11'
     hide_flags: 62
+    active_spell: missile
+    limit_spells_to_path: true
+    limit_brushes_to_path: true
     protection:
       physical: 0.4
-    attributes:
+    item_attributes:
       GENERIC_ATTACK_DAMAGE: 6
 
 magictorch:
@@ -1125,7 +1128,6 @@ magneticleggings:
 
 master:
     inherit: apprentice
-    path: master
     icon: wood_hoe:4
     migrate_icon: gold_axe
     mana_regeneration: 50
@@ -1194,7 +1196,7 @@ mastersword:
     drop: alt_cast
     protection:
       physical: 0.5
-    attributes:
+    item_attributes:
       GENERIC_ATTACK_DAMAGE: 10
 
 minister:
@@ -1550,9 +1552,15 @@ spellbook:
     keep: true
     bound: true
     class: mage
-    # This parameter in skills mode determines if the skill items are quick cast
-    # or if they must be held and right-clicked to cast.
-    quick_cast: true
+    skills:
+      # Set this to false if you want skills to be held and right-clicked to cast
+      # quick_cast: false
+
+      # Don't lose skill items on death (they will disappear otherwise, they are never dropped)
+      keep: true
+
+      # Make skill items undroppable
+      # undroppable: true
 spleef:
     locked: true
     icon: stick
@@ -1604,7 +1612,8 @@ starter:
 # A sampling of "pre-levelled up" wands
 #
 student:
-    inherit: beginner
+    inherit: base_wand
+    active_spell: missile
     icon: wood_hoe:2
     migrate_icon: wood_hoe
     effect_color: '00FF00'
@@ -1878,6 +1887,7 @@ wand:
     icon: wood_hoe:1
     migrate_icon: wood_hoe
     effect_color: random
+    active_spell: missile
 
 wizardboots:
     icon: chainmail_boots
@@ -1991,7 +2001,7 @@ wolf:
     - iterate@95
     - kill@36
     - laser|3@80
-    - levitate|5@0
+    - superfly@0
     - life@82
     - lightning|3@87
     - damage@4
