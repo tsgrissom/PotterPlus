@@ -1,5 +1,5 @@
 finestra:
-  icon_url: http://textures.minecraft.net/texture/c7142a19d8c84389da74b69641542b8b2fafbed8f7515d1d36c63c96bd749
+  icon: diamond_axe:108
   category: charms
   worth: 15
   class: ConstructSpell

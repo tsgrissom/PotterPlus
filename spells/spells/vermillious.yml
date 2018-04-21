@@ -1,0 +1,23 @@
+vermillious:
+  enabled: false
+  worth: 10
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: irongolem_death
+        sound_volume: 1
+      - class: EffectSingle
+        sound: magic.zap
+        sound_volume: 1
+        location: origin
+        effectlib:
+          class: ConeEffect
+          iterations: 15
+          particle: redstone
+          color: c64343
+          lengthGrow: 0.3
+      - class: EffectSingle
+        location: target
+        color: c64343
+        color2: c64343
+        firework: ball
