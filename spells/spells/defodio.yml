@@ -1,5 +1,5 @@
 defodio:
-  icon_url: http://textures.minecraft.net/texture/964590674dbaf76126bd87694bfe97575be8de19aac4a8d9aa5579f8f01ed1
+  icon: diamond_axe:108
   category: charms
   worth: 15
   class: ConstructSpell

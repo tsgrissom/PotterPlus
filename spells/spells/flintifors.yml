@@ -1,6 +1,6 @@
 flintifors:
   inherit: scribblifors
-  icon_url: http://textures.minecraft.net/texture/a5454f6488662cdb7d57d5fcaf3d9b061b57c109ba2aaa06c54707174d7a0c4
+  icon: diamond_axe:178
   effects:
     cast:
       - class: EffectSingle

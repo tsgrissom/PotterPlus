@@ -1,6 +1,5 @@
 stupefy:
-  icon: ink_sack:1
-  icon_url: http://textures.minecraft.net/texture/be69d3295210f65ed47322b8838eb98d6c898d12fcafaa0e4b8dd3813c6e
+  icon: diamond_axe:159
   upgrade_required_path: year5
   upgrade_required_casts: 25
   category: dada
