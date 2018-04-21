@@ -1,7 +1,6 @@
 colloshoo:
   category: dada
-  icon: diamond_axe
-  icon_url: http://textures.minecraft.net/texture/f441923eb636b6fbc4cfba5475fd6abae52a41593a63d99bfecdd4d845b91a
+  icon: diamond_axe:180
   worth: 10
   upgrade_required_casts: 25
   upgrade_required_path: year3

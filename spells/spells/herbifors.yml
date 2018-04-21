@@ -1,5 +1,5 @@
 herbifors:
-  icon_url: http://textures.minecraft.net/texture/b6d7a7f167e24d166ab1d8dedd79311481d4e1ebddbaba8ec6cb394713fb
+  icon: diamond_axe:41
   category: herbology
   worth: 5
   effects:

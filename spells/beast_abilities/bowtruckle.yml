@@ -39,6 +39,7 @@ bowtruckle_wood_throw:
 
 bowtruckle_shield:
   inherit: protego|3
+  hidden: true2
   parameters:
     cooldown: 0
     brush: log

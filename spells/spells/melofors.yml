@@ -1,6 +1,5 @@
 melofors:
-  icon_url: http://textures.minecraft.net/texture/ace674ef296f926e2a852be31051493259f9c9cfb98682eeed5a25517b9da1
-  icon: pumpkin
+  icon: diamond_axe:145
   category: transfiguration
   worth: 10
   actions:

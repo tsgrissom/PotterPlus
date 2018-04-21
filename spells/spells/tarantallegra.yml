@@ -1,6 +1,5 @@
 tarantallegra:
-  icon: redstone
-  icon_url: http://textures.minecraft.net/texture/3f6c497d587c1398ae29cb648a9707fbe974a651cf88c6a2296442db4f6fa5c
+  icon: diamond_axe:163
   worth: 10
   category: charms
   effects:

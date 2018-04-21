@@ -1,5 +1,5 @@
 locomotorwibbly:
-  icon_url: http://textures.minecraft.net/texture/4fac8811189b95ba0b198d3962f4b95819c4785142701b9e5ffaaf224338
+  icon: diamond_axe:145
   category: dada
   worth: 10
   upgrade_required_casts: 75

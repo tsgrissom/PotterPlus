@@ -1,6 +1,6 @@
 waddiwasi:
   inherit: colloshoo
-  icon_url: http://textures.minecraft.net/texture/5e80124b17d6e42d6e4c171758b5754a8e83c43bad4645ec5036727fa7d430
+  icon: diamond_axe:133
   worth: 10
   category: charms
   effects:
