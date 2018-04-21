@@ -42,7 +42,7 @@ bombarda:
         color: FFFFFF
   parameters:
     target: other
-    delay: 750
+    delay: 1500
     gravity: .05
     velocity: 100
     allow_max_range: false
