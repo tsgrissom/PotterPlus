@@ -28,6 +28,7 @@ erumpent_ambient:
 erumpent_attack:
   inherit: bombarda
   icon: tnt
+  hidden: true
   actions:
     cast:
       - class: Delay

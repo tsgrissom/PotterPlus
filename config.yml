@@ -1,9 +1,5 @@
 example: potter
 
-default_resource_pack: ""
-
-url_icons_enabled: true
-
 sp_earn_enabled: false
 sp_display: none
 sp_default: 0

@@ -1,8 +1,8 @@
 id: e92c5f5b-6fa9-463f-88ee-126c5569de2f
 name: MineStein_
-last_cast: 1518562216827
+last_cast: 1524269637688
 cooldown_expiration: 0
-last_death_location: -1084.9402622272096,68.0,-83.67444235179208,world,-5.095642,31.499947
+last_death_location: -198.20594174572503,74.0,-146.6360127113621,world,258.7071,16.199892
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -19,19 +19,44 @@ spells:
     last_cast: 1518293987421
     last_earn: 0
     cooldown_expiration: 0
+  finestra|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  deprimo:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  ascendio:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   levicorpus|3:
     cast_count: 0
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
   homenumrevelio:
-    cast_count: 1
-    last_cast: 1518293797480
+    cast_count: 5
+    last_cast: 1524264513003
+    last_earn: 0
+    cooldown_expiration: 0
+  bowtruckle_shield:
+    cast_count: 0
+    last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
   impervius:
     cast_count: 0
     last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  erecto:
+    cast_count: 1
+    last_cast: 1524019647339
     last_earn: 0
     cooldown_expiration: 0
   araniaexumai:
@@ -49,6 +74,11 @@ spells:
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
+  reducto:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   duro|2:
     cast_count: 0
     last_cast: 1501693293235
@@ -61,7 +91,7 @@ spells:
     cooldown_expiration: 0
   deprimo|3:
     cast_count: 0
-    last_cast: 1518294231104
+    last_cast: 1524263650539
     last_earn: 0
     cooldown_expiration: 0
   locomotomortus:
@@ -75,8 +105,23 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   scribblifors:
-    cast_count: 4
-    last_cast: 1517426165145
+    cast_count: 6
+    last_cast: 1524269610146
+    last_earn: 0
+    cooldown_expiration: 0
+  expulso|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  baubillious|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  lapifors|3:
+    cast_count: 0
+    last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
   bogies|3:
@@ -119,12 +164,22 @@ spells:
     last_cast: 1501476120220
     last_earn: 0
     cooldown_expiration: 1501476123220
+  obliviatemaxima:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   defodio|3:
     cast_count: 21
     last_cast: 1517454136498
     last_earn: 0
     cooldown_expiration: 0
   orchideous:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  locomotorwibbly|3:
     cast_count: 0
     last_cast: 0
     last_earn: 0
@@ -144,7 +199,22 @@ spells:
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
+  stupefy|4:
+    cast_count: 14
+    last_cast: 1524263656709
+    last_earn: 0
+    cooldown_expiration: 1524263658709
   fourpoint:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  erkling_freezing_dart:
+    cast_count: 0
+    last_cast: 1524019377096
+    last_earn: 0
+    cooldown_expiration: 1524019389096
+  finiteincantatem:
     cast_count: 0
     last_cast: 0
     last_earn: 0
@@ -154,6 +224,11 @@ spells:
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
+  vermillious|2:
+    cast_count: 0
+    last_cast: 1523831033023
+    last_earn: 0
+    cooldown_expiration: 1523831036023
   despello|2:
     cast_count: 0
     last_cast: 0
@@ -166,10 +241,15 @@ spells:
     cooldown_expiration: 0
   vermillious|3:
     cast_count: 6
-    last_cast: 1501651467804
+    last_cast: 1523831030863
+    last_earn: 0
+    cooldown_expiration: 1523831033863
+  engorgio:
+    cast_count: 0
+    last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
-  engorgio:
+  light:
     cast_count: 0
     last_cast: 0
     last_earn: 0
@@ -181,20 +261,35 @@ spells:
     cooldown_expiration: 0
   aparecium:
     cast_count: 10
-    last_cast: 1518293777793
+    last_cast: 1524019052344
     last_earn: 0
     cooldown_expiration: 0
+  impedimenta|3:
+    cast_count: 9
+    last_cast: 1524264265198
+    last_earn: 0
+    cooldown_expiration: 1524264253870
+  erkling_flaming_dart:
+    cast_count: 0
+    last_cast: 1524019378247
+    last_earn: 0
+    cooldown_expiration: 1524019390247
   snowball:
     cast_count: 0
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
   arrow|4:
+    cast_count: 43
+    last_cast: 1524019357578
+    last_earn: 0
+    cooldown_expiration: 0
+  patronus:
     cast_count: 0
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
-  patronus:
+  ashwinder_burn:
     cast_count: 0
     last_cast: 0
     last_earn: 0
@@ -207,6 +302,16 @@ spells:
   incendio|3:
     cast_count: 123
     last_cast: 1501647255523
+    last_earn: 0
+    cooldown_expiration: 0
+  bubblehead|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  protego|5:
+    cast_count: 0
+    last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
   protegomaxima:
@@ -225,8 +330,8 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   ascendio|2:
-    cast_count: 0
-    last_cast: 0
+    cast_count: 7
+    last_cast: 1524264526708
     last_earn: 0
     cooldown_expiration: 0
   flight|3:
@@ -249,9 +354,24 @@ spells:
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
+  waddiwasi:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   crucio:
     cast_count: 3
     last_cast: 1501693364749
+    last_earn: 0
+    cooldown_expiration: 0
+  titillando|3:
+    cast_count: 0
+    last_cast: 1524267165941
+    last_earn: 0
+    cooldown_expiration: 0
+  glisseo|2:
+    cast_count: 4
+    last_cast: 1524264550667
     last_earn: 0
     cooldown_expiration: 0
   lacarnum|3:
@@ -262,6 +382,11 @@ spells:
   defodio:
     cast_count: 9
     last_cast: 1517453033448
+    last_earn: 0
+    cooldown_expiration: 0
+  fire_crab_attack:
+    cast_count: 0
+    last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
   sectumsempra:
@@ -275,6 +400,11 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   fiantoduri:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  depulso|2:
     cast_count: 0
     last_cast: 0
     last_earn: 0
@@ -324,6 +454,21 @@ spells:
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
+  legilimens:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  erkling_dart:
+    cast_count: 2
+    last_cast: 1524019378897
+    last_earn: 0
+    cooldown_expiration: 1524019390897
+  carperetractum|2:
+    cast_count: 0
+    last_cast: 1524265556945
+    last_earn: 0
+    cooldown_expiration: 0
   bombarda|2:
     cast_count: 0
     last_cast: 0
@@ -336,7 +481,17 @@ spells:
     cooldown_expiration: 0
   expelliarmus|5:
     cast_count: 0
-    last_cast: 0
+    last_cast: 1524264543864
+    last_earn: 0
+    cooldown_expiration: 0
+  fire_crab_alt_attack:
+    cast_count: 1
+    last_cast: 1524019131670
+    last_earn: 0
+    cooldown_expiration: 0
+  reveal:
+    cast_count: 0
+    last_cast: 1524265937543
     last_earn: 0
     cooldown_expiration: 0
   arrow:
@@ -345,6 +500,31 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   tripudio:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  evertestatum|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  multabasiorum|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  erumpent_attack:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  pulvifors:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  centaur_heal:
     cast_count: 0
     last_cast: 0
     last_earn: 0
@@ -359,14 +539,34 @@ spells:
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
+  aberto:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   spellshop:
     cast_count: 13
     last_cast: 1501467814379
     last_earn: 0
     cooldown_expiration: 0
+  epoximise:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  colloshoo|4:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   imperio:
     cast_count: 0
     last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  liberacorpus:
+    cast_count: 0
+    last_cast: 1524266018870
     last_earn: 0
     cooldown_expiration: 0
   petrificustotalus:
@@ -376,7 +576,7 @@ spells:
     cooldown_expiration: 0
   vermillious:
     cast_count: 0
-    last_cast: 1501450450828
+    last_cast: 1523831038391
     last_earn: 0
     cooldown_expiration: 0
   confundus:
@@ -400,6 +600,11 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   avis|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  duro:
     cast_count: 0
     last_cast: 0
     last_earn: 0
@@ -454,7 +659,22 @@ spells:
     last_cast: 1517733070885
     last_earn: 0
     cooldown_expiration: 0
+  flagrate|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   deletrius:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  aguamenti:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  frigusignatus|2:
     cast_count: 0
     last_cast: 0
     last_earn: 0
@@ -462,6 +682,16 @@ spells:
   arresto:
     cast_count: 1
     last_cast: 1501603210857
+    last_earn: 0
+    cooldown_expiration: 0
+  obliviate:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  cantis:
+    cast_count: 0
+    last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
   reducio|3:
@@ -474,9 +704,19 @@ spells:
     last_cast: 1501479356215
     last_earn: 0
     cooldown_expiration: 0
-  araniaexumai|3:
+  protegototalus|2:
     cast_count: 0
     last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  herbifors:
+    cast_count: 0
+    last_cast: 1524269637688
+    last_earn: 0
+    cooldown_expiration: 0
+  araniaexumai|3:
+    cast_count: 0
+    last_cast: 1524019646572
     last_earn: 0
     cooldown_expiration: 0
   flagellos|2:
@@ -514,9 +754,19 @@ spells:
     last_cast: 1517426172769
     last_earn: 0
     cooldown_expiration: 0
+  stupefy:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   lumos:
     cast_count: 16
-    last_cast: 1518562216833
+    last_cast: 1524018948747
+    last_earn: 0
+    cooldown_expiration: 1524018963747
+  levicorpus:
+    cast_count: 0
+    last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
   periculum:
@@ -530,6 +780,11 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   arrowmaxima|4:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  acromantula_spit|2:
     cast_count: 0
     last_cast: 0
     last_earn: 0
@@ -549,6 +804,16 @@ spells:
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
+  brackiumemendo|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  protego:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   periculux:
     cast_count: 5
     last_cast: 1501479242601
@@ -559,19 +824,29 @@ spells:
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
+  firestorm|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   incendio:
     cast_count: 1
     last_cast: 1501450453829
     last_earn: 0
     cooldown_expiration: 0
   vulnera:
-    cast_count: 0
-    last_cast: 0
+    cast_count: 3
+    last_cast: 1524264269350
     last_earn: 0
     cooldown_expiration: 0
   conjunctivitis|2:
     cast_count: 3
     last_cast: 1501603325788
+    last_earn: 0
+    cooldown_expiration: 0
+  sluguluseructo|3:
+    cast_count: 0
+    last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
   deprimomaxima:
@@ -585,6 +860,16 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
   avadakedavra:
+    cast_count: 2
+    last_cast: 1524019072222
+    last_earn: 0
+    cooldown_expiration: 0
+  expelliarmus:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  felixleporemos|3:
     cast_count: 0
     last_cast: 0
     last_earn: 0
@@ -592,6 +877,11 @@ spells:
   reducto|2:
     cast_count: 0
     last_cast: 1501693258585
+    last_earn: 0
+    cooldown_expiration: 0
+  apparate|6:
+    cast_count: 0
+    last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
   accio:
@@ -619,12 +909,42 @@ spells:
     last_cast: 1501603327190
     last_earn: 0
     cooldown_expiration: 0
+  brachiabindo:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  incarcifors:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  patronus|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   sluguluseructo:
     cast_count: 14
     last_cast: 1517421748493
     last_earn: 0
     cooldown_expiration: 1517420962230
+  fiendfyre|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  limusexumai|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
   alohomora:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+  centaur_arrow:
     cast_count: 0
     last_cast: 0
     last_earn: 0
@@ -634,6 +954,11 @@ spells:
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
+  erkling_weakening_dart:
+    cast_count: 0
+    last_cast: 1524019377647
+    last_earn: 0
+    cooldown_expiration: 1524019389647
   apparate:
     cast_count: 1
     last_cast: 1501602907957
@@ -644,7 +969,47 @@ spells:
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
+  erkling_poisoned_dart:
+    cast_count: 0
+    last_cast: 1524019376395
+    last_earn: 0
+    cooldown_expiration: 1524019388395
 wands:
+  erkling_dart_blower:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Erkling Dart§f (§3§2Erkling Dart Blower§f)§4 (§c10 Uses§4)
+        lore:
+        - §o§a§aA dart blower stolen from
+        - §a an erkling
+        - ''
+        - §c10 Uses
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAE1Ru07DQBDccIdxLBASrwYKJNIaiYCtuEGJBBJIBIootXWx1+Fk+86cz7GgouEb+ABaCj6Ab+CDqHAcGXm725mdnZu1ADpAY8SsYwEtmQhNMDWmWcI0wi6qOOFi7odMaX+WyBKVCeuyFKjAGnOBE41c+AbQlAk29KCuSqKm+DyEHnr9wImcme1GzLMv3PPIHgwQ7bO+GziO64XYjwjQIse8GrUIbCxQ5VyK6mVYsJ1nmCQ+FwsUWqpnAgeNqRJZjKKxV9EJgb0GjBKWtiBKYL+BMslzKTBssE4LixTiS2tujcBmO4TVB7uwM9Ja8VmhcSxDHvHKsrWUomBOp7dXY5nr35PLo9HrDVLoLlt3yHL9dfj98/72+WGAMUplIfSw10RGJ4nUYKaMi8f6DFv/K+5ZWt1ijlWkPDhlWrMgnmSIIYHuQ4aK6VVcS5Wau3P9VPAsrRI7buwB/AFHBVEm6wEAAA==
+    wand:
+      template: erkling_dart_blower
+      owner: MineStein_
+      mana: 25.0
+      owner_id: e92c5f5b-6fa9-463f-88ee-126c5569de2f
+      uses: 10
+      version: 6
+      spell_inventory:
+        erkling_weakening_dart: 3
+        erkling_flaming_dart: 4
+        erkling_poisoned_dart: 1
+        erkling_freezing_dart: 2
+        erkling_dart: 0
   ticket:
     item:
       ==: org.bukkit.inventory.ItemStack
@@ -665,29 +1030,26 @@ wands:
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
         Unbreakable: true
-        internal: H4sIAAAAAAAAAB3LPQrCMAAG0A+0WnoIcXBohwxGE5oLSA/gLjH5AsH+SBot3l5xf68CKqwXO/oSZebw7G0mNjm6B3OJYlpGJuzqrqk7Wj/YOTM1++unZ7pMKXN2L/7q392ix4FGOhXUXehgjTjrUxBtS4qj1E4pbTxlWGH7ZprjNAIogC/kfPjdhgAAAA==
+        internal: H4sIAAAAAAAAAB3LMQ6CMBgG0L8RkeAdjIMDDB1E28AFDAdwN4V+TQjQNqVIvL3G/b2cKKdkU1ZnlEXMflIRlMahHxEz2rvNItCpaMuihdKzWiJCeX5+JoSHCxFLv+JX/+41aLqgqXphRMelUQ2/y5vhdQ3wayV7IWSjUZkdHd4Iy+AsEaXEKBkBzxgdV6uD8151Exh9Adsy1xqdAAAA
     wand:
       template: ticket
       owner: (H)(Headmaster) TylerFortescue
       owner_id: e92c5f5b-6fa9-463f-88ee-126c5569de2f
-      version: 5
-  potterwand:
+      version: 6
+  elder:
     item:
       ==: org.bukkit.inventory.ItemStack
-      type: DIAMOND_HOE
-      damage: 50
+      type: WOOD_HOE
+      damage: 27
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §6Aparecium§f (§3Wand§f)
+        display-name: §6Expelliarmus§f (§3Elder Wand§f)
         lore:
-        - §o§aTwelve and 1/4 Inches
-        - §a Reasonably Supple Olive with
-        - §a White River Monster Spine
+        - §o§aElder Wood and Thestral Hair
         - §3§oBound to MineStein_
-        - §7Knows §e2 spells
-        - '§7Energy: §e50'
-        - '§7Energy Regeneration: §e6/s'
+        - §7Knows §e17 spells
+        - §3Cost Reduction X
         ItemFlags:
         - HIDE_ENCHANTS
         - HIDE_ATTRIBUTES
@@ -696,26 +1058,440 @@ wands:
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
         Unbreakable: true
-        internal: H4sIAAAAAAAAAE2QsU7jQBCGByUBx9yBBCUUK0EbOAKOyBWISCCBREDCIEprsx6fR6x39+xxIrpr7hnuAa6l4AF4Bh6Iio0RiO3m/0f//t+EACG0Z9KkAQSMhdOSEUJnmbF8lzt2ZrCEcEwGY0YySQDfpGKaYlI51Bq60skSFdWFD2m2E0phG4d9FWXRpDfI5LB3MNjPeoeHiL29/kBF0WCYYj8LoE3KGlhJSRbWpElu8Wf0I4DlFCtVkmPy7sXNDPUUhe8j9nYPxLlROVbiGmVljZzoBxHXzmkUV9q3EjPiXNzlxCiu/VyKsTWV5xGx8wwtWPJaNc8F6ISw2kAkZKZo2JYPLejourCVd6H1hc2PCwBdWBsxlzSpGcc2pYx8Vjj32hDc3p6fjG3Fr1tHm6M/Z9iG7ly68D35aeP55d/fx/+LsDgqbG34eBua508Qa8sQFJJM3pz8++cXl7JAWP+F/qakdiSzVPexQ0x9syuHpeR3jnlKs7t2+rsmV3gU8VEP4A2QEXQf5gEAAA==
+        internal: H4sIAAAAAAAAAFVSsY4TMRCdsJucs5fjTkcJBRLXBolAokuDiAQSSASK6OpoYs/uWdm1jdfe46ho+AY+gJaCD+Ab+CAqxhuBhJvVm+eZN+95C4AB5HsiNyggv0GjBIhAjasxEAypVuQFDO2NIQ/FWhvaBNJmK2CCMuiOtq2juoYJfUxfjb6J7QCE9RUa/YmAx/XNW63ggpYzOS/nu+mixOX02eJpOb28JJo+mS3kfL5YKpqVGeQOKwI+GYyubdihP4CjjnyrrWEwKuC0F95q05EJ1t8yr8h53VjmjzMQ2EoySieYZ1DU1GlpvYstF8asoqJP3IQ5T4ZX7JJlzoO5ztaJG2YwxipiwxKasWARTyrKkNgig7NSG50CkWgCtzdcPuO1pY+yVz7hDudtoCqhUVrLOfQHpeRJN458f/VuchhrXgQZHWWccIcK96Sw60un2f8xpwHc04boqLxldCc95nE0ylsW2dU0GMP5KgSvdzHQ2ipdao6wSCZzEFdXb16ubRt+P3r+YPX5NeUwTqW3hG34cf/nr69fvn8bwWjV2GjCiwvoj4B8U9sAokFtrvv/5eSfxDtOCu5VxB60fIwhoNxvHJHiHN+zTwyH50tT+rvnrz5E7VK8D/+uB/AHeB6J+pQCAAA=
+    wand:
+      template: elder
+      owner: MineStein_
+      active_spell: expelliarmus
+      organize: false
+      owner_id: e92c5f5b-6fa9-463f-88ee-126c5569de2f
+      page: 0
+      hotbar: 0
+      version: 6
+      spell_inventory:
+        deprimo: 11
+        ascendio: 4
+        levicorpus: 9
+        duro: 12
+        rennervate: 1
+        volo: 5
+        aguamenti: 8
+        reducto: 10
+        finiteincantatem: 16
+        crucio: 13
+        protego: 6
+        apparate: 0
+        imperio: 14
+        vulnera: 7
+        avadakedavra: 15
+        expelliarmus: 3
+        stupefy: 2
+  potterwand:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      damage: 24
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6Herbifors§f (§3Wand§f)
+        lore:
+        - §o§aEight and 1/4 Inches Very
+        - §a Flexible Acacia with Dragon
+        - §a Heartstring
+        - §3§oBound to MineStein_
+        - §7Knows §e145 spells
+        - §3Cost Reduction X
+        - §3Cooldown Reduction X
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAAAGVWx5YcNRSVqfEwAdvYZGygAQMLGMCDZ7ANGIZDsAGTTDqkRqV61SVGJZVVUveMSSaYnFmYvGHLgg/gG/ggVtyn6m7POfSqpZJeuO+++7QgxDYxs07UbFsQMyNpizkxF6hujAwkFhoXAvlue7sbWfJi4YS2dDKQtv05cZFUQQ+p3zZkjJivyOe6dL6dFTuVa0PfUxFxwtkH9ov0mxV7lHOmgK3/f4Tr5KOvC7GfDi+rlXIlX1ot5eGlg6t3lUuHDhEtHVheVSsrq4cLWi7nxIxWzorFkXNFv3J0ZPngnFgsqFVeN2xarD2sB1XoIYPegTsO9o5bVVHbe4H8Zu8RQxs6N9RbU1Jp2RvpUPUe8nLgbO8YSR/a4LUdZGKmkQNCfFkmZisXcuk52kxcOCTfshPktSB2JRD62g7JBuc38b2gxuva4fuXmVjUdUOFrvFVYueSTMzJVpEtNB+4OBM7K4ePsfY0JJM2r87E7tyNgo9q3QDlSpMpsH9pJubZmh/q2GK9jMDIkwp86XCGsnhptaSNWEuNraPwbmLt2lpu6Jq9z8EC7qsIkNjCPCxw3MncAkLvisP2FjOxyzjlaoesRjrPzSZ2L8rEjjqaIHMJCHyssbcDOUxO1s53xnZy5lZJr8i7tLMLAXKBYCmRBVsXIBwUsmS82efuTCxQLa3SjfQM/R5sBB20MagknziNqKRBkagDsTs2g6hQFKCMk7pzdxlOOrgaalB6CsDlMOi8qnRB3bErEBWAh8E2yJDyuRKgNNG06ftVqFdNxo0jBhfmSxd947QNWO8FZrTBpzm6fZm4uNRWc5soiYLDM7avycRl5NcNsuyXnug0/0HobOBa4CS9d6NpiNelKtcujyZF0AMT5VDz3+sRDAEqP0g8uSET2w3zHP9vxP+Sa43/+2FBMoJKp4RuysSlU/9G1lvc3wyLrXWjXKKRhbgFpZRtNdK2QD/m0TPJb8WZRgbvbIrnNsBTTtwu4UIJ2m4Yapynzv/tKEfjXaCBm2Z1B4D3ZNHmQ5YYIe5kKmoA7zrUD2A9kkWhR2AW1tsBTCvNULsK/com7oJjhZ5IuR8E1DkWFbiuoiEZkusVxGokaGeT0VUYyWXMz9Pibi6gQWMbky4cSv1auq4dZ+EidwNN/OlIqqanvvIy78sQpFrH9j3MYzRdrFsIpufI7kVypUbBXRE9B38fEAjcjQG40iAduhChQaJYLdjV/Z1QjJnzQMbSad+MlpUVjOcA1lBTGTpMH8Rtjtt36D0Cj/JUlOTH7foo54VgW3QrZ34MB+BZG1YeNnCciT4mwbj4jzGdhtJCN9nE46DJlnxNOJ/zE8CF9UkySV7nsJiy+P8kTEAum9jh9xSaDiFBo+yW20/jUO5qCGjBQDzDlY+o7LinnkVkiuUx+n7VuTiJuhW6RdniWGmfY4Ckh3hR8FJ1nOkjLJkzh7B4AWZBQvBNtwzRiwA4qWWK7CU4MRpnpXK+SVR4CzLbwJoutYrADbVK+y+PVSnaIq1fQTEhUQOEMrCyk7dXEaDXCGPKgddYbHWNjYn8SjQu+MDe81Qd6FW5mQRLIZtxh5z3WyTuNhNYCBXMI9SSAArLfwncawrEBjGediEa3QIlhfHSRVUxSTCnMcE4JM86MIiSZw8H9GZKjIlfOTayDoRQSOYMVgZfp4KJdc3tBgYnKlomry5hPMmwY9lonB3okqdCg3RyILsOvSF4S2dOZVteBlhvw6HJnakstAjB5a3qYAqJ5LoZW4hpIE2m4pCbDPQNE4MjfG5DbCjFsMFiOBbAtxP5h3pa6ne6uYc6m0Scd3F1YHTbJjDfQOkSLs1kep2BAYjgAIztJPR91HLoUuN+kO7i6ZBOfojVuJJYfTQZoSnis1u8bmD9cSYy6/jfJ0gUI2LyCviUHxXRQBwZk894kg9lIdepkMO09TmPmUa368SpfsGtvMFCoqWvUxjvcU+qzu1XLNDoQsM3v0YmyM1Bdn1S0W+galJ5KDPGvpF4w2nWgm+Z0IShoUvp07PnOwaRAW2dSWPse7jlKlda5mMe/DCd8pOinOMqmzjg4TUVpx+ZiMZV/DzgGH5CR006fqIkP+MMwJky45dMXD7RqxEBC7tFuX7lV1SDaDuq/rZlwGIyt85SMTn6Oz91F9HL3uECumnbvNizFtD2eQx0AsKPxvTtAjN0Rsw9//zxh07gDfvvjUf3rZ05RjNinreewHsj/LX373/Onf3zj1kxu1a7aMP5F+zMSeMCXgpS2yo9m3dMXTyJ/hOXDMgyE27vRPFkQ4R2n38K9JChUzi2ks7uefhU1A03bW8SnhD/AQVbAFuyCwAA
     wand:
       template: potterwand
       owner: MineStein_
-      active_spell: aparecium
+      active_spell: herbifors
+      cost_reduction: 10.0
+      cooldown_reduction: 10.0
       owner_id: e92c5f5b-6fa9-463f-88ee-126c5569de2f
-      icon: diamond_hoe:50
-      description: Twelve and 1/4 Inches Reasonably Supple Olive with White River
-        Monster Spine
-      version: 5
+      icon: wood_hoe:24
+      description: Eight and 1/4 Inches Very Flexible Acacia with Dragon Heartstring
+      page: 3
+      hotbar: 0
+      version: 6
       spell_inventory:
-        lumos: 0
-        aparecium: 1
-open_wand: true
+        deprimo: 140
+        impedimenta: 19
+        ascendio: 16
+        homenumrevelio: 26
+        bowtruckle_shield: 20
+        impervius: 50
+        erecto: 57
+        araniaexumai: 62
+        lumosmaxima: 8
+        percutios: 9
+        ventus: 10
+        reducto: 11
+        locomotorwibbly: 12
+        multabasiorum: 13
+        locomotomortus: 14
+        incarcerous: 15
+        scribblifors: 2
+        confringo: 17
+        emancipare: 18
+        titillando: 122
+        alarteascendare: 4
+        verdimillious: 21
+        obliviatemaxima: 22
+        orchideous: 23
+        evertestatum: 24
+        pulsus: 25
+        melofors: 3
+        fourpoint: 27
+        expulso: 28
+        finiteincantatem: 29
+        erkling_freezing_dart: 30
+        arrowmaxima: 31
+        immobulus: 32
+        avis: 33
+        engorgio: 34
+        light: 35
+        fumos: 36
+        aparecium: 37
+        erkling_flaming_dart: 38
+        snowball: 39
+        ashwinder_burn: 43
+        patronus: 44
+        flight: 45
+        felixleporemos: 46
+        protegomaxima: 47
+        rennervate: 48
+        piertotum: 49
+        waddiwasi: 5
+        salviohexia: 51
+        crucio: 52
+        bruchumaculeatos: 53
+        lacarnum: 54
+        baubillious: 55
+        flagellos: 56
+        defodio: 6
+        bogies: 58
+        fire_crab_attack: 59
+        sectumsempra: 60
+        fiantoduri: 61
+        tarantallegra: 7
+        despello: 63
+        depulso: 64
+        conjunctivitis: 65
+        atmos: 66
+        flagrate: 70
+        aquaeructo: 71
+        firestorm: 72
+        legilimens: 73
+        erkling_dart: 74
+        evanesco: 75
+        fire_crab_alt_attack: 76
+        reveal: 94
+        arrow: 78
+        tripudio: 79
+        erumpent_attack: 80
+        bombarda: 81
+        pulvifors: 82
+        centaur_heal: 83
+        disillusion: 84
+        carperetractum: 95
+        aberto: 86
+        epoximise: 87
+        imperio: 88
+        liberacorpus: 123
+        petrificustotalus: 90
+        confundus: 91
+        frigusignatus: 92
+        rictusempra: 93
+        limusexumai: 97
+        duro: 98
+        fiendfyre: 99
+        protegototalus: 100
+        lapifors: 101
+        bubblehead: 102
+        meteo: 103
+        ignisdisceditus: 104
+        finestra: 114
+        aguamenti: 106
+        colloshoo: 107
+        arresto: 108
+        obliviate: 109
+        cantis: 110
+        diffindo: 111
+        spongify: 112
+        brackiumemendo: 113
+        herbifors: 1
+        spongifymaxima: 115
+        obscuro: 116
+        flipendo: 117
+        revelio: 118
+        flintifors: 119
+        stupefy: 120
+        lumos: 124
+        levicorpus: 125
+        periculum: 126
+        glisseo: 96
+        colloportus: 128
+        wingardium: 129
+        volo: 130
+        glacius: 131
+        protego: 132
+        reducio: 133
+        periculux: 134
+        nox: 135
+        incendio: 136
+        vulnera: 137
+        avadakedavra: 138
+        episkey: 139
+        expelliarmus: 127
+        accio: 141
+        ferula: 142
+        colorvaria: 143
+        acromantula_spit: 144
+        reparifarge: 145
+        lumossolem: 146
+        brachiabindo: 147
+        incarcifors: 151
+        sluguluseructo: 152
+        alohomora: 153
+        centaur_arrow: 154
+        noxmaxima: 155
+        erkling_weakening_dart: 156
+        apparate: 157
+        erkling_poisoned_dart: 158
+open_wand: false
 gave_welcome_wand: true
 data:
   sp: 100
 properties: {}
 classes:
   wizard:
-    mana_timestamp: 1518565085898
+    mana_timestamp: 1524269676983
+    spells:
+    - deprimo
+    - impedimenta
+    - ascendio
+    - homenumrevelio
+    - bowtruckle_shield
+    - impervius
+    - erecto
+    - araniaexumai
+    - lumosmaxima
+    - percutios
+    - ventus
+    - reducto
+    - locomotorwibbly
+    - multabasiorum
+    - locomotomortus
+    - incarcerous
+    - scribblifors
+    - confringo
+    - emancipare
+    - titillando
+    - alarteascendare
+    - verdimillious
+    - obliviatemaxima
+    - orchideous
+    - evertestatum
+    - pulsus
+    - melofors
+    - fourpoint
+    - expulso
+    - finiteincantatem
+    - erkling_freezing_dart
+    - arrowmaxima
+    - immobulus
+    - avis
+    - engorgio
+    - light
+    - fumos
+    - furnunculus
+    - aparecium
+    - erkling_flaming_dart
+    - snowball
+    - ashwinder_burn
+    - patronus
+    - flight
+    - felixleporemos
+    - protegomaxima
+    - rennervate
+    - piertotum
+    - waddiwasi
+    - salviohexia
+    - crucio
+    - bruchumaculeatos
+    - lacarnum
+    - baubillious
+    - flagellos
+    - defodio
+    - bogies
+    - fire_crab_attack
+    - sectumsempra
+    - fiantoduri
+    - tarantallegra
+    - despello
+    - depulso
+    - conjunctivitis
+    - atmos
+    - flagrate
+    - aquaeructo
+    - firestorm
+    - legilimens
+    - erkling_dart
+    - evanesco
+    - fire_crab_alt_attack
+    - reveal
+    - arrow
+    - tripudio
+    - erumpent_attack
+    - bombarda
+    - pulvifors
+    - centaur_heal
+    - disillusion
+    - carperetractum
+    - aberto
+    - epoximise
+    - imperio
+    - liberacorpus
+    - petrificustotalus
+    - vermillious
+    - confundus
+    - frigusignatus
+    - rictusempra
+    - limusexumai
+    - duro
+    - fiendfyre
+    - protegototalus
+    - lapifors
+    - bubblehead
+    - meteo
+    - ignisdisceditus
+    - finestra
+    - aguamenti
+    - colloshoo
+    - arresto
+    - obliviate
+    - cantis
+    - diffindo
+    - spongify
+    - brackiumemendo
+    - herbifors
+    - spongifymaxima
+    - obscuro
+    - flipendo
+    - revelio
+    - flintifors
+    - stupefy
+    - lumos
+    - levicorpus
+    - periculum
+    - glisseo
+    - colloportus
+    - wingardium
+    - volo
+    - glacius
+    - protego
+    - reducio
+    - periculux
+    - nox
+    - incendio
+    - vulnera
+    - avadakedavra
+    - episkey
+    - expelliarmus
+    - accio
+    - ferula
+    - colorvaria
+    - acromantula_spit
+    - reparifarge
+    - lumossolem
+    - brachiabindo
+    - incarcifors
+    - sluguluseructo
+    - alohomora
+    - centaur_arrow
+    - noxmaxima
+    - erkling_weakening_dart
+    - apparate
+    - erkling_poisoned_dart
+    hotbar_count: 2.0
+    spell_levels:
+      deprimo: 3
+      impedimenta: 3
+      ascendio: 2
+      arrow: 4
+      bombarda: 2
+      araniaexumai: 3
+      percutios: 2
+      lumosmaxima: 2
+      reducto: 2
+      carperetractum: 2
+      locomotorwibbly: 3
+      multabasiorum: 3
+      titillando: 3
+      verdimillious: 3
+      vermillious: 3
+      frigusignatus: 2
+      limusexumai: 3
+      duro: 2
+      evertestatum: 3
+      fiendfyre: 2
+      protegototalus: 2
+      lapifors: 3
+      bubblehead: 2
+      finestra: 2
+      expulso: 2
+      aguamenti: 2
+      finiteincantatem: 4
+      arrowmaxima: 4
+      colloshoo: 4
+      avis: 3
+      diffindo: 3
+      fumos: 3
+      furnunculus: 2
+      brackiumemendo: 3
+      obscuro: 2
+      flipendo: 3
+      stupefy: 4
+      lumos: 3
+      patronus: 3
+      flight: 3
+      levicorpus: 3
+      felixleporemos: 3
+      protegomaxima: 2
+      glisseo: 2
+      salviohexia: 2
+      bruchumaculeatos: 3
+      lacarnum: 3
+      glacius: 3
+      protego: 5
+      reducio: 3
+      baubillious: 3
+      incendio: 3
+      defodio: 3
+      flagellos: 2
+      bogies: 3
+      episkey: 3
+      expelliarmus: 5
+      ferula: 3
+      acromantula_spit: 2
+      despello: 2
+      depulso: 2
+      conjunctivitis: 2
+      sluguluseructo: 3
+      flagrate: 2
+      apparate: 6
+      aquaeructo: 3
+      firestorm: 2
     mana: 50.0
 active_class: wizard

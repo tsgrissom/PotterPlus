@@ -1,6 +1,7 @@
 reveal:
   class: FillSpell
   category: specialty
+  hidden: true
   parameters:
     target: select
     max_dimension: 64

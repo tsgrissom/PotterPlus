@@ -19,6 +19,9 @@ redstonesellshop:
 emancipare:
   cast_count: 0
   last_cast: 0
+wampus_scratch:
+  cast_count: 0
+  last_cast: 0
 alarteascendare:
   cast_count: 0
   last_cast: 0
@@ -61,6 +64,9 @@ superbox:
 engorgio:
   cast_count: 5
   last_cast: 0
+erkling_flaming_dart:
+  cast_count: 0
+  last_cast: 0
 respawn:
   cast_count: 0
   last_cast: 0
@@ -92,6 +98,9 @@ bruchumaculeatos:
   cast_count: 0
   last_cast: 0
 lacarnum:
+  cast_count: 0
+  last_cast: 0
+bowtruckle_tree:
   cast_count: 0
   last_cast: 0
 birth_defender:
@@ -283,6 +292,9 @@ fountain:
 backup:
   cast_count: 0
   last_cast: 0
+bowtruckle_shield:
+  cast_count: 0
+  last_cast: 0
 invincible:
   cast_count: 0
   last_cast: 0
@@ -316,6 +328,9 @@ scribblifors:
 pollinate:
   cast_count: 0
   last_cast: 0
+erumpent_ambient:
+  cast_count: 0
+  last_cast: 0
 testspell:
   cast_count: 4
   last_cast: 0
@@ -344,6 +359,9 @@ chop:
   cast_count: 0
   last_cast: 0
 finiteincantatem:
+  cast_count: 0
+  last_cast: 0
+erkling_freezing_dart:
   cast_count: 0
   last_cast: 0
 animation:
@@ -409,10 +427,19 @@ bubble:
 sphere:
   cast_count: 0
   last_cast: 0
+ashwinder_ambient:
+  cast_count: 0
+  last_cast: 0
+fire_crab_attack:
+  cast_count: 0
+  last_cast: 0
 camera:
   cast_count: 0
   last_cast: 0
 map:
+  cast_count: 0
+  last_cast: 0
+demiguise_disappear:
   cast_count: 0
   last_cast: 0
 tarantallegra:
@@ -454,10 +481,16 @@ peek:
 redstoneshop:
   cast_count: 0
   last_cast: 0
+fire_crab_alt_attack:
+  cast_count: 0
+  last_cast: 0
 brushselect:
   cast_count: 0
   last_cast: 0
 arrow:
+  cast_count: 0
+  last_cast: 0
+erumpent_attack:
   cast_count: 0
   last_cast: 0
 bombarda:
@@ -467,6 +500,9 @@ flashbang:
   cast_count: 0
   last_cast: 0
 cage:
+  cast_count: 0
+  last_cast: 0
+bowtruckle_wood_throw:
   cast_count: 0
   last_cast: 0
 epoximise:
@@ -497,6 +533,9 @@ alter:
   cast_count: 0
   last_cast: 0
 worm_death:
+  cast_count: 0
+  last_cast: 0
+acromantula_summon:
   cast_count: 0
   last_cast: 0
 grenade:
@@ -538,6 +577,9 @@ arresto:
 broom_legacy:
   cast_count: 0
   last_cast: 0
+ashwinder_summon:
+  cast_count: 0
+  last_cast: 0
 superblob:
   cast_count: 0
   last_cast: 0
@@ -574,7 +616,13 @@ wound:
 flamethrower:
   cast_count: 0
   last_cast: 0
+phoenix_death:
+  cast_count: 0
+  last_cast: 0
 heal:
+  cast_count: 0
+  last_cast: 0
+fire_crab_ambient:
   cast_count: 0
   last_cast: 0
 singularity:
@@ -590,6 +638,12 @@ brachiabindo:
   cast_count: 0
   last_cast: 0
 disintegrate:
+  cast_count: 0
+  last_cast: 0
+centaur_arrow:
+  cast_count: 0
+  last_cast: 0
+erkling_weakening_dart:
   cast_count: 0
   last_cast: 0
 earth:
@@ -608,6 +662,9 @@ cluster:
   cast_count: 0
   last_cast: 0
 flare:
+  cast_count: 0
+  last_cast: 0
+kneazle_pet:
   cast_count: 0
   last_cast: 0
 homenumrevelio:
@@ -697,6 +754,12 @@ superrepair:
 horse:
   cast_count: 0
   last_cast: 0
+phoenix_ambient:
+  cast_count: 0
+  last_cast: 0
+crup_pet:
+  cast_count: 0
+  last_cast: 0
 shuriken:
   cast_count: 0
   last_cast: 0
@@ -710,6 +773,9 @@ woolshop:
   cast_count: 0
   last_cast: 0
 bridge:
+  cast_count: 0
+  last_cast: 0
+ashwinder_burn:
   cast_count: 0
   last_cast: 0
 protegomaxima:
@@ -898,6 +964,9 @@ revelio:
 lumos:
   cast_count: 19
   last_cast: 0
+bundimun_summon:
+  cast_count: 0
+  last_cast: 0
 boon:
   cast_count: 0
   last_cast: 0
@@ -1000,6 +1069,9 @@ potionshop:
 time:
   cast_count: 0
   last_cast: 0
+erkling_poisoned_dart:
+  cast_count: 0
+  last_cast: 0
 wither:
   cast_count: 0
   last_cast: 0
@@ -1043,6 +1115,9 @@ titillando:
   cast_count: 0
   last_cast: 0
 weather:
+  cast_count: 0
+  last_cast: 0
+erumpent_death:
   cast_count: 0
   last_cast: 0
 simulate:
@@ -1171,6 +1246,9 @@ fiantoduri:
 tornado:
   cast_count: 0
   last_cast: 0
+fwooper_death:
+  cast_count: 0
+  last_cast: 0
 fury:
   cast_count: 0
   last_cast: 0
@@ -1219,6 +1297,9 @@ note08:
 projectile:
   cast_count: 0
   last_cast: 0
+erkling_dart:
+  cast_count: 0
+  last_cast: 0
 note07:
   cast_count: 0
   last_cast: 0
@@ -1241,6 +1322,9 @@ tripudio:
   cast_count: 0
   last_cast: 0
 pulvifors:
+  cast_count: 0
+  last_cast: 0
+centaur_heal:
   cast_count: 0
   last_cast: 0
 birth_hunter:
@@ -1354,6 +1438,9 @@ diffindo:
 note22:
   cast_count: 0
   last_cast: 0
+acromantula_webbing:
+  cast_count: 0
+  last_cast: 0
 note21:
   cast_count: 0
   last_cast: 0
@@ -1417,10 +1504,16 @@ ghast:
 supertorch:
   cast_count: 0
   last_cast: 0
+augurey_death:
+  cast_count: 0
+  last_cast: 0
 breach:
   cast_count: 0
   last_cast: 0
 ferula:
+  cast_count: 0
+  last_cast: 0
+acromantula_spit:
   cast_count: 0
   last_cast: 0
 forgetfulnesspotion:

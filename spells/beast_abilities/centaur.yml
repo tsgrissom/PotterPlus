@@ -1,5 +1,6 @@
 centaur_arrow:
   inherit: arrow|5
+  hidden: true
   actions:
     cast:
       - class: Delay
@@ -22,6 +23,7 @@ centaur_arrow:
 
 centaur_heal:
   inherit: episkey
+  hidden: true
   parameters:
     cooldown: 0
     target: self

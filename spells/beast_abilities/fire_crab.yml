@@ -11,6 +11,8 @@ fire_crab_ambient:
 
 fire_crab_attack:
   inherit: incendio
+  hidden: true
 
 fire_crab_alt_attack:
   inherit: firestorm
+  hidden: true

@@ -722,3 +722,6 @@ spells:
   wampus_scratch:
     name: "Wampus Scratch"
     description: "Deadly, magical claw scratches leave you bleeding"
+  reveal:
+    name: "Reveal"
+    description: "Reveals hidden things"
