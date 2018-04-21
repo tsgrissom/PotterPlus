@@ -23,6 +23,7 @@ homenumrevelio:
           class: SphereEffect
           particle: crit_magic
           radius: 1.5
+          radiusIncrease: 0.08
           iterations: 20
   parameters:
     radius: 25
@@ -32,5 +33,5 @@ homenumrevelio:
     effect_glowing: 2
     duration: 24000
     target: self
-    target_type: LivingEntity
+    target_type: Player
     cooldown: 24000

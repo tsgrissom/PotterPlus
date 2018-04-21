@@ -27,6 +27,7 @@ acromantula_summon:
 
 acromantula_spit:
   inherit: bogies
+  hidden: true
   parameters:
     range: 24
     cooldown: 0
@@ -37,6 +38,7 @@ acromantula_spit|2:
 
 acromantula_webbing:
   inherit: webbing
+  hidden: true
   effects:
     tick: []
   parameters:

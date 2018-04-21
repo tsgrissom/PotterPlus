@@ -44,3 +44,4 @@ ashwinder_summon|2:
 
 ashwinder_burn:
   inherit: incendio
+  hidden: true

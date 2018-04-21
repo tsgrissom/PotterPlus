@@ -1,5 +1,5 @@
 carperetractum:
-  icon_url: http://textures.minecraft.net/texture/a4175466837a6d767b589fba40b2373eeb3f74dd693921b4b16a9c25f75963d7
+  icon: diamond_axe:198
   worth: 10
   upgrade_required_casts: 75
   upgrade_required_path: year5
