@@ -410,6 +410,7 @@ alter:
         allow_max_range: false
         range: 32
         transparent: transparent_to_construction
+        cycle_colors: true
         materials:
         - - dirt
           - dirt:1
@@ -576,22 +577,6 @@ alter:
           - piston_base:3
           - piston_base:4
           - piston_base:5
-        - - wool
-          - wool:1
-          - wool:2
-          - wool:3
-          - wool:4
-          - wool:5
-          - wool:6
-          - wool:7
-          - wool:8
-          - wool:9
-          - wool:10
-          - wool:11
-          - wool:12
-          - wool:13
-          - wool:14
-          - wool:15
         - - yellow_flower
           - yellow_flower:1
           - yellow_flower:2
@@ -808,22 +793,6 @@ alter:
           - diode_block_on:3
           - diode_block_on:4
           - diode_block_on:5
-        - - stained_glass
-          - stained_glass:1
-          - stained_glass:2
-          - stained_glass:3
-          - stained_glass:4
-          - stained_glass:5
-          - stained_glass:6
-          - stained_glass:7
-          - stained_glass:8
-          - stained_glass:9
-          - stained_glass:10
-          - stained_glass:11
-          - stained_glass:12
-          - stained_glass:13
-          - stained_glass:14
-          - stained_glass:15
         - - monster_eggs
           - monster_eggs:1
           - monster_eggs:2
@@ -980,70 +949,6 @@ alter:
           - quartz_stairs:1
           - quartz_stairs:2
           - quartz_stairs:3
-        - - stained_clay
-          - stained_clay:1
-          - stained_clay:2
-          - stained_clay:3
-          - stained_clay:4
-          - stained_clay:5
-          - stained_clay:6
-          - stained_clay:7
-          - stained_clay:8
-          - stained_clay:9
-          - stained_clay:10
-          - stained_clay:11
-          - stained_clay:12
-          - stained_clay:13
-          - stained_clay:14
-          - stained_clay:15
-        - - stained_glass_pane
-          - stained_glass_pane:1
-          - stained_glass_pane:2
-          - stained_glass_pane:3
-          - stained_glass_pane:4
-          - stained_glass_pane:5
-          - stained_glass_pane:6
-          - stained_glass_pane:7
-          - stained_glass_pane:8
-          - stained_glass_pane:9
-          - stained_glass_pane:10
-          - stained_glass_pane:11
-          - stained_glass_pane:12
-          - stained_glass_pane:13
-          - stained_glass_pane:14
-          - stained_glass_pane:15
-        - - carpet
-          - carpet:1
-          - carpet:2
-          - carpet:3
-          - carpet:4
-          - carpet:5
-          - carpet:6
-          - carpet:7
-          - carpet:8
-          - carpet:9
-          - carpet:10
-          - carpet:11
-          - carpet:12
-          - carpet:13
-          - carpet:14
-          - carpet:15
-        - - hard_clay
-          - hard_clay:1
-          - hard_clay:2
-          - hard_clay:3
-          - hard_clay:4
-          - hard_clay:5
-          - hard_clay:6
-          - hard_clay:7
-          - hard_clay:8
-          - hard_clay:9
-          - hard_clay:10
-          - hard_clay:11
-          - hard_clay:12
-          - hard_clay:13
-          - hard_clay:14
-          - hard_clay:15
         - - double_plant
           - double_plant:1
           - double_plant:2
@@ -1051,102 +956,6 @@ alter:
           - double_plant:4
           - double_plant:5
           - double_plant:6
-        - - white_glazed_terracotta
-          - white_glazed_terracotta:1
-          - white_glazed_terracotta:2
-          - white_glazed_terracotta:3
-        - - orange_glazed_terracotta
-          - orange_glazed_terracotta:1
-          - orange_glazed_terracotta:2
-          - orange_glazed_terracotta:3
-        - - magenta_glazed_terracotta
-          - magenta_glazed_terracotta:1
-          - magenta_glazed_terracotta:2
-          - magenta_glazed_terracotta:3
-        - - light_blue_glazed_terracotta
-          - light_blue_glazed_terracotta:1
-          - light_blue_glazed_terracotta:2
-          - light_blue_glazed_terracotta:3
-        - - yellow_glazed_terracotta
-          - yellow_glazed_terracotta:1
-          - yellow_glazed_terracotta:2
-          - yellow_glazed_terracotta:3
-        - - lime_glazed_terracotta
-          - lime_glazed_terracotta:1
-          - lime_glazed_terracotta:2
-          - lime_glazed_terracotta:3
-        - - pink_glazed_terracotta
-          - pink_glazed_terracotta:1
-          - pink_glazed_terracotta:2
-          - pink_glazed_terracotta:3
-        - - gray_glazed_terracotta
-          - gray_glazed_terracotta:1
-          - gray_glazed_terracotta:2
-          - gray_glazed_terracotta:3
-        - - silver_glazed_terracotta
-          - silver_glazed_terracotta:1
-          - silver_glazed_terracotta:2
-          - silver_glazed_terracotta:3
-        - - cyan_glazed_terracotta
-          - cyan_glazed_terracotta:1
-          - cyan_glazed_terracotta:2
-          - cyan_glazed_terracotta:3
-        - - purple_glazed_terracotta
-          - purple_glazed_terracotta:1
-          - purple_glazed_terracotta:2
-          - purple_glazed_terracotta:3
-        - - blue_glazed_terracotta
-          - blue_glazed_terracotta:1
-          - blue_glazed_terracotta:2
-          - blue_glazed_terracotta:3
-        - - brown_glazed_terracotta
-          - brown_glazed_terracotta:1
-          - brown_glazed_terracotta:2
-          - brown_glazed_terracotta:3
-        - - green_glazed_terracotta
-          - green_glazed_terracotta:1
-          - green_glazed_terracotta:2
-          - green_glazed_terracotta:3
-        - - red_glazed_terracotta
-          - red_glazed_terracotta:1
-          - red_glazed_terracotta:2
-          - red_glazed_terracotta:3
-        - - black_glazed_terracotta
-          - black_glazed_terracotta:1
-          - black_glazed_terracotta:2
-          - black_glazed_terracotta:3
-        - - concrete
-          - concrete:1
-          - concrete:2
-          - concrete:3
-          - concrete:4
-          - concrete:5
-          - concrete:6
-          - concrete:7
-          - concrete:8
-          - concrete:9
-          - concrete:10
-          - concrete:11
-          - concrete:12
-          - concrete:13
-          - concrete:14
-          - concrete:15
-        - - concrete_powder
-          - concrete_powder:1
-          - concrete_powder:2
-          - concrete_powder:3
-          - concrete_powder:4
-          - concrete_powder:5
-          - concrete_powder:6
-          - concrete_powder:7
-          - concrete_powder:8
-          - concrete_powder:9
-          - concrete_powder:10
-          - concrete_powder:11
-          - concrete_powder:12
-          - concrete_powder:13
-          - concrete_powder:14
-          - concrete_powder:15
         - - stone
           - stone:1
           - stone:2
@@ -1154,6 +963,87 @@ alter:
           - stone:4
           - stone:5
           - stone:6
+
+        # 1.13
+
+        - - dark_oak_log
+          - oak_log
+          - birch_log
+          - acacia_log
+          - jungle_log
+          - spruce_log
+        - - dark_oak_planks
+          - oak_planks
+          - birch_planks
+          - acacia_planks
+          - jungle_planks
+          - spruce_planks
+        - - dark_oak_slab
+          - oak_slab
+          - birch_slab
+          - acacia_slab
+          - jungle_slab
+          - spruce_slab
+        - - dark_oak_sapling
+          - oak_sapling
+          - birch_sapling
+          - acacia_sapling
+          - jungle_sapling
+          - spruce_sapling
+        - - dark_oak_stairs
+          - oak_stairs
+          - birch_stairs
+          - acacia_stairs
+          - jungle_stairs
+          - spruce_stairs
+        - - dark_oak_trapdoor
+          - oak_trapdoor
+          - birch_trapdoor
+          - acacia_trapdoor
+          - jungle_trapdoor
+          - spruce_trapdoor
+        - - dark_oak_fence
+          - oak_fence
+          - birch_fence
+          - acacia_fence
+          - jungle_fence
+          - spruce_fence
+        - - dark_oak_pressure_plate
+          - oak_pressure_plate
+          - birch_pressure_plate
+          - acacia_pressure_plate
+          - jungle_pressure_plate
+          - spruce_pressure_plate
+        - - dark_oak_bark
+          - oak_bark
+          - birch_bark
+          - acacia_bark
+          - jungle_bark
+          - spruce_bark
+        - - dark_oak_button
+          - oak_button
+          - birch_button
+          - acacia_button
+          - jungle_button
+          - spruce_button
+        - - dark_oak_fence_gate
+          - oak_fence_gate
+          - birch_fence_gate
+          - acacia_fence_gate
+          - jungle_fence_gate
+          - spruce_fence_gate
+        - - dark_oak_leaves
+          - oak_leaves
+          - birch_leaves
+          - acacia_leaves
+          - jungle_leaves
+          - spruce_leaves
+        - - stripped_dark_oak_log
+          - stripped_oak_log
+          - stripped_birch_log
+          - stripped_acacia_log
+          - stripped_jungle_log
+          - stripped_spruce_log
     costs:
         mana: 10
 
@@ -1653,7 +1543,6 @@ arrow_bomb:
       destructible: solid
       destructible_override: true
       break_durability: 10
-      physics_blocks: true
       undo_speed: 0.5
       speed: "bowpull * 3"
       spread: "1 - bowpull"
@@ -2480,7 +2369,6 @@ blast:
         destructible_durability: 50
         break_durability: 10
         select_self: false
-        physics_blocks: true
         undo_speed: 0.5
         damage: 6
     costs:
@@ -3515,117 +3403,6 @@ broom|5:
     duration: 120000
     cooldown: 8000
 
-broom_legacy:
-    icon: diamond_axe:168
-    icon_disabled: diamond_hoe:168
-    hidden: true
-    icon_url: http://textures.minecraft.net/texture/7f4f1b4c6661ab552b21df8ed841a221296512de46c86e8dee891efbd2fba6
-    category: specialty
-    class: LevitateSpell
-    worth: 600
-    show_undoable: false
-    quick_cast: true
-    effects:
-        cast:
-        -  class: EffectSingle
-           sound: entity_enderdragon_flap
-           sound_volume: 1.1
-        -  class: EffectSingle
-           effectlib:
-             class: TraceEffect
-             iterations: 30
-             particle: spell
-        crash:
-        -  class: EffectSingle
-           location: origin
-           entity_effect: hurt
-           particle: explosion_large
-        -  class: EffectSingle
-           location: origin
-           effectlib:
-             class: SmokeEffect
-             iterations: 12
-        area:
-        -  class: EffectSingle
-           sound: entity_enderdragon_flap
-           sound_volume: 1.1
-           effectlib:
-             class: TraceEffect
-             iterations: 30
-             particle: spell
-        -  class: EffectSingle
-           particle: spell
-           effectlib:
-             class: ShieldEffect
-             iterations: 30
-             particle: spell
-        boost:
-        -  class: EffectSingle
-           sound: entity_enderdragon_flap
-           sound_volume: 1.1
-           effectlib:
-             class: TraceEffect
-             iterations: 30
-             particle: spell
-        -  class: EffectSingle
-           particle: spell
-           effectlib:
-             class: ShieldEffect
-             iterations: 30
-             particle: spell
-        land:
-        -  sound: block_stone_step
-           sound_pitch: 0.7
-        -  class: EffectRing
-           particle: block_crack
-           source_location: feet
-           period: 4
-           particle_count: 80
-           radius: 4
-           particle_offset_x: 0.9
-           particle_offset_z: 0.9
-           particle_offset_y: 0.1
-    parameters:
-        thrust: 0.4
-        auto_deactivate: 4
-        auto_deactivate_ticks: 10
-        slow: 0.2
-        start_delay: 20
-        crash_distance: 0.9
-        effect_confusion: 120,2
-        bypass_confusion: false
-        bypass_deactivate: false
-        stash_item: true
-        mount_baby: true
-        mount_type: Horse
-        armor_stand: true
-        armor_stand_helmet: false
-        armor_stand_yaw: -0.5
-        armor_stand_pitch: 0.3
-        armor_stand_arm: 0,0,-0.62
-        armor_stand_marker: true
-        armor_stand_small: false
-        mount_invisible: true
-        mount_boost_ticks: 100
-        mount_reason: mount
-        power_mount_boost_ticks: 500
-        mount_health: 2
-        power_mount_health: 10
-        mount_boost: 0.3
-        mount_boost_minimum: 0.5
-        power_mount_boost: 1
-        slow_ticks: 2
-        power_slow_ticks: 10
-        steer_speed: 0.05
-        power_steer_speed: 0.3
-        slow_steer_speed: 2
-        mount_boost_from_jump: true
-        sound: magic.flying
-        effect_sound_interval: 120
-        effect_sound_volume: 15
-        duration: 60000
-        cooldown: 10000
-
 broomshop:
     icon: gold_spade
     category: npc
@@ -4240,7 +4017,6 @@ collapse:
         undo: 10000
         cooldown: 8000
         select_self: false
-        physics_blocks: true
         undo_speed: 1
     costs:
         mana: 50
@@ -8937,7 +8713,6 @@ laser|2:
     parameters:
         radius: 1
         size: 1
-        destructible: destructible,destructible2,transparent
         player_damage: 1
         entity_damage: 2
         repeat: 13
@@ -8945,7 +8720,6 @@ laser|2:
 
 laser|3:
     parameters:
-        destructible: destructible,destructible2,destructible3,transparent
         radius: 1
         size: 2
         player_damage: 1
@@ -9033,11 +8807,20 @@ levitate:
     alias: fly
     category: master
     tags: noduel
-    class: LevitateSpell
     worth: 5000
     show_undoable: false
     quick_cast: true
     disable_mana_regeneration: true
+    toggle: cancel
+    actions:
+       cast:
+       - class: Velocity
+         direction: 0,1,0
+         additive: true
+         speed: 2
+       - class: Delay
+         delay: 100
+       - class: Fly
     effects:
         cast:
            - class: EffectSingle
@@ -9089,12 +8872,15 @@ levitate:
            particle_offset_y: 0.1
            radius: 4
     parameters:
+        target: self
+        max_height_above_ground: 8
+        max_height: 260
         speed: 0.2
         cooldown: 30000
     costs:
-        mana: 50
+        mana: 20
     active_costs:
-        mana: 100
+        mana: 10
 
 levitate|2:
     upgrade_required_path: master
@@ -9102,6 +8888,7 @@ levitate|2:
     parameters:
         speed: 0.5
         cooldown: 20000
+        max_height_above_ground: 12
 
 levitate|3:
     upgrade_required_path: engineer
@@ -9109,6 +8896,7 @@ levitate|3:
     parameters:
         speed: 0.75
         cooldown: 10000
+        max_height_above_ground: 16
 
 levitate|4:
     upgrade_required_path: engineer
@@ -9116,15 +8904,13 @@ levitate|4:
     parameters:
         speed: 1
         cooldown: 5000
-    active_costs:
-        mana: 150
+        max_height_above_ground: 24
 
 levitate|5:
     parameters:
         speed: 2
         cooldown: 1000
-    active_costs:
-        mana: 150
+        max_height_above_ground: 32
 
 life:
     icon: diamond_axe:20
@@ -9960,11 +9746,19 @@ missile:
         tick:
         - particle: redstone
           location: target
+        break:
+        -  class: EffectSingle
+           location: target
+           particle: block_crack
+           particle_count: 100
+           particle_offset_x: 0.6
+           particle_offset_y: 0.6
+           particle_offset_z: 0.6
         hit_block:
         -  class: EffectSingle
            location: target
            particle: block_crack
-           particle_count: 50
+           particle_count: 30
            particle_offset_x: 0.2
            particle_offset_y: 1
            particle_offset_z: 0.2
@@ -11889,9 +11683,10 @@ pull:
           effectlib:
             class: Sphere
             particle: spell
-            particles: 20
-            iterations: 20
-            particle_count: 5
+            particles: 4
+            period: 2
+            duration: 500
+            particle_count: 10
             particle_offset_x: 0.5
             particle_offset_y: 0.5
             particle_offset_z: 0.5
@@ -11960,8 +11755,9 @@ push:
           effectlib:
             class: Sphere
             particle: spell
-            particles: 5
-            iterations: 20
+            particles: 2
+            period: 4
+            duration: 500
             particle_count: 10
             particle_offset_x: 0.5
             particle_offset_y: 0.5
@@ -11986,8 +11782,9 @@ push:
           effectlib:
             class: Sphere
             particle: spell
-            particles: 5
-            iterations: 20
+            particles: 2
+            period: 4
+            duration: 500
             particle_count: 10
             particle_offset_x: 0.5
             particle_offset_y: 0.5
@@ -12975,7 +12772,7 @@ secure:
         check_destructible: true
         destructible: chest,trapped_chest
         cooldown: 5000
-        key_icon: "skull_item:http://textures.minecraft.net/texture/3944e12e8e67fd67a55359df56c3c59c99550f6eaccb23813769afb2f1992"
+        key_icon: "skull:http://textures.minecraft.net/texture/3944e12e8e67fd67a55359df56c3c59c99550f6eaccb23813769afb2f1992"
     costs:
         mana: 100
 
@@ -14560,7 +14357,6 @@ sticky:
         falling: true
         direction: 0,0.5,0
         undo: 15000
-        physics_blocks: true
         destructible_durability: 200
         break_durability: 50
         radius: 2
@@ -15105,8 +14901,17 @@ superfly:
     icon_url: http://textures.minecraft.net/texture/d02585f4a2b47524541d67ae253cf21fde8eea1c21494f61df5f4929a76e0
     quick_cast: true
     category: staff
-    class: LevitateSpell
     worth: 1500
+    toggle: cancel
+    actions:
+       cast:
+       - class: Velocity
+         direction: 0,1,0
+         additive: true
+         speed: 2
+       - class: Delay
+         delay: 100
+       - class: Fly
     effects:
         cast:
         -  class: EffectSingle
@@ -15116,6 +14921,7 @@ superfly:
            sound: entity_enderdragon_flap
            sound_pitch: 0.2
     parameters:
+        target: self
         speed: 2.5
 
 supergather:
@@ -15823,6 +15629,7 @@ torch:
         allow_max_range: false
         range: 32
         allow_glowstone: true
+        allow_sea_lantern: true
         undo: 30000
         cooldown: 10000
         destructible: destructible_replace
@@ -17494,6 +17301,17 @@ wound:
              zEquation: "-t/20 + 0.5"
              updateLocations: false
              updateDirections: false
+        -  location: target
+           requires_entity_target: true
+           use_hit_location: false
+           use_wand_location: false
+           target_offset: 0,-1.3,0
+           effectlib:
+             class: AnimatedBall
+             duration: 2000
+             particle: item_crack
+             material: redstone
+             size: 0.3
         -  location: source
            material: redstone_block
            effectlib:

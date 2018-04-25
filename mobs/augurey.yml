@@ -3,6 +3,7 @@
 augurey:
   name: '&bAugurey'
   type: parrot
+  parrot_variant: blue
   health: 4
   default_drops: false
   triggers:
