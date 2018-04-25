@@ -7,6 +7,11 @@
 #
 # https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/materials
 #
+all_attachable:
+- attachable
+- attachable_wall
+- attachable_double
+- delayed
 all_lava:
 - lava
 - stationary_lava
@@ -20,23 +25,10 @@ all_water:
 # attached to has copied over.
 # This also prevents server issues when trying to clone items that will not "stick",
 # which results in spawning thousands (or more) of item entities when they break and drop.
-# This should generally include all the things in attachables_double
 attachable:
+- attachable_double
 - snow
-- long_grass
-- dead_bush
-- yellow_flower
-- red_rose
-- wheat
 - flower_pot
-- brown_mushroom
-- red_mushroom
-- carrot
-- potato
-- crops
-- melon_stem
-- pumpkin_stem
-- sign_post
 - lever
 - bed_block
 - torch
@@ -60,53 +52,34 @@ attachable:
 - activator_rail
 - powered_rail
 - detector_rail
-- carpet
 - portal
 - ender_portal
-- standing_banner
-- sand
-- gravel
 - trap_door
 - iron_trap_door
 - fire
-- cactus
-- iron_door_block
-- wooden_door
-- sugar_cane_block
-- double_plant
-- spruce_door
-- birch_door
-- jungle_door
-- acacia_door
-- dark_oak_door
-- standing_banner
-- cocoa
-- bed_block
 - grass_path
+- carpets
+- beds
+- flowers
+- plants
+- signs
+
+# 1.13
+
+- redstone_torch
+- redstone_wall_torch
+- repeater
+- comparator
+- wall_torch
 
 # Things that double-stack like doors and tall plants
 attachable_double:
 - cactus
-- iron_door_block
-- iron_door
-- wooden_door
-- wood_door
 - sugar_cane_block
 - sugar_cane
 - double_plant
-- spruce_door
-- birch_door
-- jungle_door
-- acacia_door
-- dark_oak_door
-- spruce_door_item
-- birch_door_item
-- jungle_door_item
-- acacia_door_item
-- dark_oak_door_item
-- standing_banner
-- banner
-- wall_banner
+- banners
+- doors
 
 # Copied from attachable_double
 # Things that can specifically be attached to walls. 
@@ -130,6 +103,68 @@ attachable_wall:
 - trap_door
 - iron_trap_door
 
+banners:
+- banner
+- standing_banner
+- wall_banner
+
+# 1.13
+
+- black_banner
+- blue_banner
+- brown_banner
+- cyan_banner
+- gray_banner
+- green_banner
+- light_blue_banner
+- light_gray_banner
+- lime_banner
+- magenta_banner
+- orange_banner
+- pink_banner
+- purple_banner
+- red_banner
+- white_banner
+- yellow_banner
+- black_wall_banner
+- blue_wall_banner
+- brown_wall_banner
+- cyan_wall_banner
+- gray_wall_banner
+- green_wall_banner
+- light_blue_wall_banner
+- light_gray_wall_banner
+- lime_wall_banner
+- magenta_wall_banner
+- orange_wall_banner
+- pink_wall_banner
+- purple_wall_banner
+- red_wall_banner
+- white_wall_banner
+- yellow_wall_banner
+
+
+beds:
+- bed
+- bed_block
+
+# 1.13
+- black_bed
+- blue_bed
+- brown_bed
+- cyan_bed
+- gray_bed
+- green_bed
+- light_blue_bed
+- light_gray_bed
+- lime_bed
+- magenta_bed
+- orange_bed
+- pink_bed
+- purple_bed
+- red_bed
+- white_bed
+- yellow_bed
 # Which materials are acceptable as building materials. This
 # affects what can be absorbed and added to a wand.
 building:
@@ -139,9 +174,7 @@ building:
 - cobblestone
 - wood
 - water
-- stationary_water
 - lava
-- stationary_lava
 - sand
 - gravel
 - gold_ore
@@ -163,14 +196,7 @@ building:
 - piston_sticky_base
 - piston_base
 - piston_extension
-- long_grass
-- dead_bush
 - piston_moving_piece
-- yellow_flower
-- red_rose
-- wheat
-- brown_mushroom
-- red_mushroom
 - wool
 - gold_block
 - iron_block
@@ -180,7 +206,6 @@ building:
 - bookshelf
 - mossy_cobblestone
 - obsidian
-- wood_stairs
 - redstone_wire
 - diamond_ore
 - diamond_block
@@ -190,16 +215,13 @@ building:
 - burning_furnace
 - ladder
 - rails
-- cobblestone_stairs
 - redstone_ore
 - glowing_redstone_ore
 - ice
 - snow_block
 - cactus
 - clay
-- sugar_cane_block
 - jukebox
-- fence
 - pumpkin
 - netherrack
 - soul_sand
@@ -207,44 +229,29 @@ building:
 - portal
 - jack_o_lantern
 - cake_block
-- diode_block_off
-- diode_block_on
-- redstone_comparator_off
-- redstone_comparator_on
+- repeater
+- redstone_comparator
 - locked_chest
 - trap_door
 - smooth_brick
 - huge_mushroom_1
 - huge_mushroom_2
-- iron_fence
 - thin_glass
 - melon_block
 - vine
-- fence_gate
-- brick_stairs
-- smooth_stairs
 - mycel
 - water_lily
 - nether_brick
-- nether_fence
-- nether_brick_stairs
-- nether_warts
 - cauldron
 - ender_stone
 - redstone_lamp_off
 - redstone_lamp_on
 - wood_double_step
 - wood_step
-- cocoa
-- sandstone_stairs
 - emerald_ore
 - emerald_block
-- spruce_wood_stairs
-- birch_wood_stairs
-- jungle_wood_stairs
 - cobble_wall
 - flower_pot
-- skull
 - anvil
 - gold_plate
 - iron_plate
@@ -252,7 +259,6 @@ building:
 - quartz_ore
 - hopper
 - quartz_block
-- quartz_stairs
 - activator_rail
 - dropper
 - stained_clay
@@ -260,43 +266,58 @@ building:
 - carpet
 - hard_clay
 - coal_block
-- stained_glass_pane
-- stained_glass
 - packed_ice
 - tnt
-- acacia_stairs
-- dark_oak_stairs
 - red_sandstone
 - slime_block
 - barrier
 - prismarine
 - sea_lantern
-- red_sandstone_stairs
-- spruce_fence_gate
-- birch_fence_gate
-- jungle_fence_gate
-- dark_oak_fence_gate
-- acacia_fence_gate
-- spruce_fence
-- birch_fence
-- jungle_fence
-- dark_oak_fence
-- acacia_fence
 - double_stone_slab2
 - stone_slab2
 - web
-
+- plants
+- stained_glasses
+- stained_glass_panes
+- fences
+- gates
+- stairs
+- skulls
+- banners
 burnable:
 - air
 - snow
-- long_grass
-- dead_bush
-- yellow_flower
-- red_rose
-- brown_mushroom
-- red_mushroom
-- double_plant
+- plants
 
+carpets:
+- carpet
+
+# 1.13
+- black_carpet
+- blue_carpet
+- brown_carpet
+- cyan_carpet
+- gray_carpet
+- green_carpet
+- light_blue_carpet
+- light_gray_carpet
+- lime_carpet
+- magenta_carpet
+- orange_carpet
+- pink_carpet
+- purple_carpet
+- red_carpet
+- white_carpet
+- yellow_carpet
+commands:
+- command
+- command_chain
+- command_repeating
+
+# 1.13
+- command_block
+- chain_command_block
+- repeating_command_block
 containers:
 - chest
 - furnace
@@ -306,6 +327,19 @@ containers:
 - dropper
 - trapped_chest
 
+crops:
+- carrot
+- potato
+- melon_stem
+- pumpkin_stem
+- wheat
+- sugar_cane_block
+- nether_wart_block
+- nether_warts
+- cocoa
+
+# 1.13
+- nether_warts
 # blocks that should otherwise be delayed until the second pass
 delayed:
 - redstone_block
@@ -334,14 +368,6 @@ destructible:
 - mycel
 - soul_sand
 - snow
-- long_grass
-- dead_bush
-- yellow_flower
-- red_rose
-- sugar_cane_block
-- sapling
-- brown_mushroom
-- red_mushroom
 - leaves
 - leaves_2
 - sandstone
@@ -364,6 +390,7 @@ destructible:
 - grass_path
 - frosted_ice
 - magma
+- plants
 
 # Destructible level 2
 destructible2:
@@ -469,41 +496,29 @@ destructible_mining:
 - netherrack
 - soul_sand
 - snow
-- long_grass
-- dead_bush
-- yellow_flower
-- red_rose
-- brown_mushroom
-- red_mushroom
 - leaves
 - sandstone
 - stained_clay
 - mycel
 - ender_stone
 - hard_clay
+- plants
 
 # Which materials spells that build blocks will replace
 destructible_replace:
 - air
 - fire
 - snow
-- long_grass
-- dead_bush
-- yellow_flower
-- red_rose
-- water
-- stationary_water
+- plants
+- all_water
 
 # All doors, for the DoorSpell generally
 doors:
 - iron_door_block
-- wooden_door
-- spruce_door
-- birch_door
-- jungle_door
-- acacia_door
-- dark_oak_door
+- unlocked_doors
 
+# 1.13
+- iron_door
 enchantable:
 - wood_sword
 - iron_sword
@@ -523,40 +538,68 @@ enchantable:
 - diamond_pickaxe
 - bow
 
+fences:
+- fence
+- spruce_fence
+- birch_fence
+- jungle_fence
+- dark_oak_fence
+- acacia_fence
+- nether_fence
+- iron_fence
+flowers:
+- yellow_flower
+- red_rose
+- double_plant
 freeze_transparent:
 - air
 - fire
-- long_grass
-- dead_bush
-- yellow_flower
-- red_rose
-- brown_mushroom
-- red_mushroom
-- double_plant
+- flowers
 - snow
 
 freezeable:
 - air
 - fire
-- water
-- stationary_water
-- stationary_lava
-- lava
-- long_grass
-- dead_bush
-- yellow_flower
-- red_rose
-- brown_mushroom
-- red_mushroom
-- double_plant
+- all_water
+- all_lava
+- plants
 - snow
 - ice
 
+gates:
+- fence_gate
+- oak_fence_gate
+- spruce_fence_gate
+- birch_fence_gate
+- jungle_fence_gate
+- dark_oak_fence_gate
+- acacia_fence_gate
+half:
+- stone_slab2
+- purpur_slab
+- step
+- wood_step
+
+# 1.13
+
+- acacia_slab
+- birch_slab
+- brick_slab
+- cobblestone_slab
+- dark_oak_slab
+- jungle_slab
+- nether_brick_slab
+- oak_slab
+- petrified_oak_slab
+- quartz_slab
+- red_sandstone_slab
+- sandstone_slab
+- spruce_slab
+- stone_brick_slab
+- stone_slab
 hardenable:
-- water
-- stationary_water
-- lava
-- stationary_lava
+- all_water
+- all_lava
 
 # Which materials are always considered indestructible.
 # No spell will ever modify a block of this type.
@@ -569,8 +612,6 @@ indestructible:
 
 interactible:
 - chest
-- wooden_door
-- iron_door_block
 - ender_chest
 - anvil
 - brewing_stand
@@ -583,25 +624,15 @@ interactible:
 - stone_button
 - wood_button
 - lever
-- bed_block
-- sign_post
-- command
-- wall_sign
-- spruce_door
-- birch_door
-- jungle_door
-- acacia_door
-- dark_oak_door
-- fence_gate
-- spruce_fence_gate
-- birch_fence_gate
-- jungle_fence_gate
-- dark_oak_fence_gate
-- acacia_fence_gate
 - daylight_detector
 - daylight_detector_inverted
 - trap_door
 - iron_trap_door
+- doors
+- commands
+- beds
+- signs
+- gates
 
 melee:
 - diamond_sword
@@ -609,6 +640,7 @@ melee:
 - iron_sword
 - stone_sword
 - gold_sword
+- trident
 - shield
 
 mining:
@@ -637,16 +669,20 @@ nopassthrough:
 - iron_door_block
 - obsidian
 
+# 1.13
+- iron_door
+
 # Materials that you can't attach items (e.g. torches) to.
 # Used by the Torch action.
 not_attachable:
 - glass
-- stained_glass
 - sea_lantern
 - ice
 - glowstone
 - leaves
 - leaves_2
+- stained_glasses
+- stained_glass_panes
 
 # Which materials are defined as ores
 # This can be used to make "erasure" spells that avoid destroying ore,
@@ -663,19 +699,9 @@ ores:
 - quartz_ore
 
 passthrough:
-- water
-- stationary_water
+- all_water
 - air
 - snow
-- long_grass
-- dead_bush
-- yellow_flower
-- red_rose
-- wheat
-- brown_mushroom
-- red_mushroom
-- double_plant
-- sapling
 - torch
 - fire
 - redstone_wire
@@ -690,8 +716,6 @@ passthrough:
 - portal
 - diode_block_off
 - diode_block_on
-- pumpkin_stem
-- melon_stem
 - vine
 - water_lily
 - nether_warts
@@ -700,22 +724,40 @@ passthrough:
 - tripwire_hook
 - tripwire
 - flower_pot
-- carrot
-- potato
 - wood_button
-- skull
 - restone_comparator_off
 - restone_comparator_on
 - activator_rail
-- double_plant
-- carpet
-- sign_post
-- wall_sign
 - step
 - wood_step
 - web
 - ladder
+- skulls
+- carpets
+- plants
+- signs
 
+# 1.13
+- wall_torch
+- redstone_torch
+- redstone_wall_torch
+- repeater
+- restone_comparator
+plants:
+- brown_mushroom
+- red_mushroom
+- flowers
+- long_grass
+- dead_bush
+- crops
+- saplings
+player_skulls:
+- skull:3
+- skull_item:3
+
+# 1.13
+- player_head
+- player_wall_head
 powerable:
 - stone_button
 - wood_button
@@ -737,6 +779,20 @@ records:
 - record_11
 - record_12
 
+# 1.13
+- music_disc_11
+- music_disc_13
+- music_disc_blocks
+- music_disc_cat
+- music_disc_chirp
+- music_disc_far
+- music_disc_mall
+- music_disc_mellohi
+- music_disc_stal
+- music_disc_strad
+- music_disc_wait
+- music_disc_ward
+
 # Which materials are always completely off-limits.
 # Any spells not on this list can not be copied, cloned, replicated
 # or otherwise built with using a Wand brush.
@@ -747,10 +803,10 @@ records:
 restricted:
 - bedrock
 - barrier
-- command
 - ender_portal
 - mob_spawner
 - ender_portal_frame
+- commands
 
 # Which materials the AnimateSpell can't be cast on
 # This generally means Automata cannot be made out of these materials.
@@ -760,8 +816,7 @@ restricted_animate:
 - mycel
 - glowstone
 - ender_stone
-- lava
-- stationary_lava
+- all_lava
 - wood
 - sandstone
 - stone
@@ -772,6 +827,83 @@ restricted_animate:
 - mob_spawner
 - beacon
 - chest
+- ender_chest
+- dispenser
+- hopper
+- furnace
+- burning_furnace
+- redstone_block
+- sand
+- netherrack
+- quartz_block
+- iron_fence
+- cobble_fence
+- fence
+- nether_fence
+- gravel
+- water
+- air
+- snow
+- glass
+- thin_glass
+- torch
+- fire
+- redstone_wire
+- rails
+- powered_rail
+- detector_rail
+- lever
+- redstone_torch_off
+- redstone_torch_on
+- stone_button
+- portal
+- diode_block_off
+- diode_block_on
+- vine
+- water_lily
+- ender_portal
+- cocoa
+- tripwire_hook
+- tripwire
+- flower_pot
+- carrot
+- potato
+- wood_button
+- restone_comparator_off
+- restone_comparator_on
+- activator_rail
+- double_plant
+- carpet
+- hard_clay
+- diamond_block
+- emerald_block
+- iron_block
+- gold_block
+- shulker_boxes
+- doors
+- stained_glasses
+- stained_glass_panes
+- plants
+- skulls
+
+# 1.13
+
+- wall_torch
+- redstone_torch
+- redstone_wall_torch
+- repeater
+- restone_comparator
+saplings:
+- sapling
+
+# 1.13
+- spurce_sapling
+- acacia_sapling
+- birch_sapling
+- dark_oak_sapling
+- jungle_sapling
+- oak_sapling
+shulker_boxes:
 - black_shulker_box
 - blue_shulker_box
 - brown_shulker_box
@@ -788,233 +920,123 @@ restricted_animate:
 - silver_shulker_box
 - white_shulker_box
 - yellow_shulker_box
-- ender_chest
-- dispenser
-- hopper
-- furnace
-- burning_furnace
-- redstone_block
-- sand
-- netherrack
-- quartz_block
-- iron_fence
-- cobble_fence
-- fence
-- nether_fence
-- gravel
-- water
-- stationary_water
-- air
-- snow
-- wooden_door
-- iron_door_block
-- long_grass
-- dead_bush
-- yellow_flower
-- red_rose
-- wheat
-- brown_mushroom
-- red_mushroom
-- glass
-- thin_glass
-- stained_glass
-- stained_glass_pane
-- double_plant
-- sapling
-- torch
-- fire
-- redstone_wire
-- rails
-- powered_rail
-- detector_rail
-- lever
-- redstone_torch_off
-- redstone_torch_on
-- stone_button
-- sugar_cane_block
-- portal
-- diode_block_off
-- diode_block_on
-- pumpkin_stem
-- melon_stem
-- vine
-- water_lily
-- nether_warts
-- ender_portal
-- cocoa
-- tripwire_hook
-- tripwire
-- flower_pot
-- carrot
-- potato
-- wood_button
+signs:
+- wall_sign
+- sign_post
+- sign
+skulls:
 - skull
-- restone_comparator_off
-- restone_comparator_on
-- activator_rail
-- double_plant
-- carpet
-- hard_clay
-- diamond_block
-- emerald_block
-- iron_block
-- gold_block
-solid: "!air,water,stationary_water,lava,stationary_lava,barrier"
+- skull_item
+
+# 1.13
+- player_head
+- wither_skeleton_skull
+- dragon_head
+- zombie_head
+- skeleton_skull
+- creeper_head
+- player_wall_head
+- wither_skeleton_wall_skull
+- dragon_wall_head
+- zombie_wall_head
+- skeleton_wall_skull
+- creeper_wall_head
+solid: "!air,all_water,all_lava,barrier"
+stained_glass_panes:
+- stained_glass_pane
+
+# 1.13
+- black_stained_glass_pane
+- blue_stained_glass_pane
+- brown_stained_glass_pane
+- cyan_stained_glass_pane
+- gray_stained_glass_pane
+- green_stained_glass_pane
+- light_blue_stained_glass_pane
+- light_gray_stained_glass_pane
+- lime_stained_glass_pane
+- magenta_stained_glass_pane
+- orange_stained_glass_pane
+- pink_stained_glass_pane
+- purple_stained_glass_pane
+- red_stained_glass_pane
+- white_stained_glass_pane
+- yellow_stained_glass_pane
+stained_glasses:
+- stained_glass
+
+# 1.13
+- black_stained_glass
+- blue_stained_glass
+- brown_stained_glass
+- cyan_stained_glass
+- gray_stained_glass
+- green_stained_glass
+- light_blue_stained_glass
+- light_gray_stained_glass
+- lime_stained_glass
+- magenta_stained_glass
+- orange_stained_glass
+- pink_stained_glass
+- purple_stained_glass
+- red_stained_glass
+- white_stained_glass
+- yellow_stained_glass
+stairs:
+- acacia_stairs
+- dark_oak_stairs
+- red_sandstone_stairs
+- quartz_stairs
+- sandstone_stairs
+- wood_stairs
+- cobblestone_stairs
+- brick_stairs
+- smooth_stairs
+- nether_brick_stairs
+- spruce_wood_stairs
+- birch_wood_stairs
+- jungle_wood_stairs
 # What materials can be targeted through by default
 transparent:
-- water
-- stationary_water
-- air
-- snow
-- long_grass
-- dead_bush
-- yellow_flower
-- red_rose
-- wheat
-- brown_mushroom
-- red_mushroom
-- double_plant
-- sapling
-- torch
-- fire
-- redstone_wire
-- rails
-- powered_rail
-- detector_rail
-- lever
-- redstone_torch_off
-- redstone_torch_on
-- stone_button
-- sugar_cane_block
-- portal
-- diode_block_off
-- diode_block_on
-- pumpkin_stem
-- melon_stem
-- vine
-- water_lily
-- nether_warts
-- ender_portal
-- cocoa
-- tripwire_hook
-- tripwire
-- flower_pot
-- carrot
-- potato
-- wood_button
-- skull
-- restone_comparator_off
-- restone_comparator_on
-- activator_rail
-- double_plant
-- carpet
-- sign_post
-- wall_sign
+- all_water
+- transparent_no_water
 
-# This is generally copied from transparent.yml, with the addition of glass
 transparent_and_glass:
+- transparent
 - glass
 - thin_glass
-- stained_glass
-- stained_glass_pane
-- water
-- stationary_water
-- air
-- snow
-- long_grass
-- dead_bush
-- yellow_flower
-- red_rose
-- wheat
-- brown_mushroom
-- red_mushroom
-- double_plant
-- sapling
-- torch
-- fire
-- redstone_wire
-- rails
-- powered_rail
-- detector_rail
-- lever
-- redstone_torch_off
-- redstone_torch_on
-- stone_button
-- sugar_cane_block
-- portal
-- diode_block_off
-- diode_block_on
-- pumpkin_stem
-- melon_stem
-- vine
-- water_lily
-- nether_warts
-- ender_portal
-- cocoa
-- tripwire_hook
-- tripwire
-- flower_pot
-- carrot
-- potato
-- wood_button
-- skull
-- restone_comparator_off
-- restone_comparator_on
-- activator_rail
-- double_plant
-- carpet
-- sign_post
-- wall_sign
-
-# Well, this is ugly!
+- stained_glasses
+- stained_glass_panes
 transparent_no_water:
 - air
 - snow
-- long_grass
-- dead_bush
-- yellow_flower
-- red_rose
-- wheat
-- brown_mushroom
-- red_mushroom
-- double_plant
-- sapling
 - torch
+- wall_torch
 - fire
 - redstone_wire
 - rails
 - powered_rail
 - detector_rail
 - lever
-- redstone_torch_off
-- redstone_torch_on
+- redstone_torch
+- redstone_wall_torch
 - stone_button
-- sugar_cane_block
 - portal
-- diode_block_off
-- diode_block_on
-- pumpkin_stem
-- melon_stem
+- repeater
 - vine
 - water_lily
-- nether_warts
 - ender_portal
-- cocoa
 - tripwire_hook
 - tripwire
 - flower_pot
-- carrot
-- potato
 - wood_button
-- skull
-- restone_comparator_off
-- restone_comparator_on
+- restone_comparator
 - activator_rail
-- double_plant
 - carpet
 - sign_post
 - wall_sign
-
+- skulls
+- plants
 transparent_to_construction:
 - air
 
@@ -1035,11 +1057,12 @@ unlocked_doors:
 - acacia_door
 - dark_oak_door
 
+# 1.13
+- oak_door
+
 unsafe:
-- lava
-- stationary_lava
+- all_lava
 wearable:
-- skull_item
 - gold_helmet
 - chainmail_helmet
 - iron_helmet
@@ -1061,4 +1084,7 @@ wearable:
 - leather_leggings
 - diamond_leggings
 - elytra
+- skulls
+- pumpkin
+- turtle_helmet
 

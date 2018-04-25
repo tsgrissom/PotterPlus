@@ -10,6 +10,13 @@
 #
 # https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/mobs
 #
+boomer:
+  name: "Boomer"
+  type: magma_cube
+  size: 3
+  triggers:
+    spawn:
+      cast: "blast pdy -1 pdx 0 pdz 0 radius 4"
 dark_spider:
   type: cave_spider
   name: Dark Spider
@@ -114,6 +121,36 @@ dummynoai:
   weakness:
     water: 1
   ai: false
+fairy:
+  type: villager
+  name: Fairy
+  health: 100
+  lifetime: 10000
+  mage:
+    effect_color: "random"
+  potion_effects:
+  - type: levitation
+    amplifier: 1
+  triggers:
+    spawn:
+      effects: butterfly
+    death:
+      effects:
+      - particle: smoke_large
+        particle_count: 50
+        particle_data: 1
+        particle_offset_x: 1.2
+        particle_offset_y: 2.5
+        particle_offset_z: 1.2
+      - particle: smoke_large
+        particle_count: 50
+        particle_offset_x: 1.2
+        particle_offset_y: 2.5
+        particle_offset_z: 1.2
+  drops:
+  - glowstone_dust
+    redstone
+    sulphur
 fire_elemental:
   type: blaze
   name: Fire Elemental
@@ -303,5 +340,10 @@ warlock:
         shell: 20
         none: 300
   drops:
-  - gold_nugget@16
+  - diamond: 10
+    emerald: 15
+    gold_nugget@18: 50
+    gold_nugget@16: 100
+    gold_nugget@12: 50
+    gold_nugget@8: 20
   - sp:16
