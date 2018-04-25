@@ -308,6 +308,9 @@ spells:
   alarteascendare:
     name: Alarte Ascendare
     description: "The Flinging Jinx"
+  alarteascendare|2:
+    name: Alarte Ascendare
+    upgrade_description: "&r&8&bull; &eIncreased power."
   tarantallegra:
     name: Tarantallegra
     description: "The Dancing Jinx"

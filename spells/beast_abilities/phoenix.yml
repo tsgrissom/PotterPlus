@@ -50,3 +50,5 @@ phoenix_death:
     effect: rise
     delay: 5000
     type: phoenix
+    undo: 1000
+    undo_speed: 0.5

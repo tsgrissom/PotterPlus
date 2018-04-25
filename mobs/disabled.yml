@@ -6,9 +6,6 @@ dark_spider:
 dark_wizard:
   enabled: false
 
-dummy:
-  enabled: false
-
 dummynoai:
   enabled: false
 
