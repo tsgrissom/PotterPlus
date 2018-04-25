@@ -6,20 +6,31 @@ alarteascendare:
     cast:
       - class: CustomProjectile
         actions:
-          - class: VelocityAction
-          - class: FallProtectionAction
+          - class: Velocity
   effects:
     tick:
       - class: EffectSingle
         location: target
-        particle: redstone
-        color: FFFFFF
+        particle: spell
+        particle_count: 3
+        particle_offset_x: 0.1
+        particle_offset_y: 0.1
+        particle_offset_z: 0.1
   parameters:
     target_type: LivingEntity
     range: 24
-    velocity: 100
+    velocity: 25
     living_entity_speed: 1
-    y_offset: 3
-    cooldown: 20000
+    y_offset: "rand(0.5, 1)"
+    cooldown: 15000
   costs:
     mana: 20
+
+alarteascendare|2:
+  upgrade_required_casts: 75
+  upgrade_required_path: year3
+  parameters:
+    cooldown: 12000
+    range: 32
+    velocity: 50
+    y_offset: "rand(1.5, 1.8)"

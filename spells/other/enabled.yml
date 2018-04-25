@@ -20,3 +20,11 @@ upgrades:
 
 light:
   enabled: true
+
+debugger:
+  enabled: true
+  hidden: true
+
+testdummy:
+  enabled: true
+  hidden: true
