@@ -20,8 +20,8 @@ ashwinder_ambient:
         source_location: feet
         effectlib:
           class: AtomEffect
-          particle_nucleus: smoke
-          particle_orbital: smoke
+          particle_nucleus: smoke_normal
+          particle_orbital: smoke_normal
           iterations: 16
           radius: 0.8
   parameters:
