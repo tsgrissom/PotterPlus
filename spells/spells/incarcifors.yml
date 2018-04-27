@@ -4,6 +4,6 @@ incarcifors:
   category: transfiguration
   cast_on_no_target: false
   parameters:
-    undo: 15000
-    target: other_entity
+    undo: 5000
+    undo_speed: 1
     target_type: LivingEntity

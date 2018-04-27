@@ -1,6 +1,6 @@
 verdimillious:
   inherit: vermillious
-  icon_url: http://textures.minecraft.net/texture/809a9920214f32d0a5e3109c243fdd2a693ab6e984e81ffd01942d8ed3d19fe
+  icon: diamond_axe:173
   effects:
         cast:
         -  class: EffectSingle
