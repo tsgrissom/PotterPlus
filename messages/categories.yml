@@ -31,4 +31,7 @@ categories:
       description: Spells that are only casted by potions.
     beast_ability:
       name: "Beast Ability"
-      description: "Abilties that beasts can utilize"
+      description: "Abilities that beasts can utilize"
+    item_ability:
+      name: "Item Ability"
+      description: "Abilities that items can utilize"

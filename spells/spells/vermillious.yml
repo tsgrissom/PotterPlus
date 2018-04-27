@@ -1,5 +1,4 @@
 vermillious:
-  enabled: false
   worth: 10
   effects:
     cast:
