@@ -4,4 +4,3 @@ music_box:
   cost_reduction: 10
   cooldown_reduction: 10
   has_uses: false
-  uses: 0
