@@ -1,349 +1,361 @@
-#
+# 
 # !! IMPORTANT !!
-#
+# 
 # If you wish to customize this plugin, edit the "mobs.yml" file instead.
-#
+# 
 # DO NOT JUST COPY THIS WHOLE FILE INTO YOUR mobs.yml !!!!
 # If you do this, updating the plugin in the future may not work as expected.
-#
+# 
 # This file is merged from the files in the following folder:
-#
+# 
 # https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/mobs
-#
-boomer:
-  name: "Boomer"
-  type: magma_cube
-  size: 3
-  triggers:
-    spawn:
-      cast: "blast pdy -1 pdx 0 pdz 0 radius 4"
-dark_spider:
-  type: cave_spider
-  name: Dark Spider
-  health: 100
+
+
+dementor:
+  name: Dementor
+  type: wither
+  health: 1000
   default_drops: false
-  interval: 1000
-  triggers:
-    interval:
-      cast:
-        webbing: 100
-        poison|3: 100
-        none: 50
+  cast_interval: 1000
+  cast:
+    dementor: 100
+    petrificustotalus: 20
+    confundus: 30
+    crucio: 10
+    none: 20
   drops:
-  - gold_nugget@8
-  - sp:8
-  potion_effects:
-  - type: speed
-    amplifier: 0
-    
-dark_wizard:
-  name: Dark Wizard
+  - gold_ingot@24
+  - sp:100
+  enabled: false
+deatheater:
+  name: Death Eater
   type: zombie
-  zombie_type: villager
   item: wizard_wand
   chestplate: warlock_chestplate
   leggings: warlock_leggings
   helmet: iron_helmet
   boots: warlock_boots
-  health: 1000
+  health: 200
   default_drops: false
-  interval: 1000
-  triggers:
-    damage1:
-      type: damage
-      min_health: 100
-      cast:
-        push|4: 150
-        push|3: 100
-        none: 50
-    damage2:
-      type: damage
-      max_health: 100
-      cast:
-        missile|4: 150
-        railgun: 100
-        push|4: 70
-        shell: 20
-        none: 20
-    death:
-      cast:
-        neutron: 10
-        fury: 50
-    interval:
-      cast:
-        missile|4: 20
-        railgun: 10
-        poison: 30
-        pull: 100
-        push|4: 150
-        curse: 100
-        blob: 20
-        lava: 10
-        shell: 20
-        torture: 1
-        arrow: 50
-        arrowrain: 20
-        fury: 5
-        chainlightning: 2
-        blink: 10
-        fling: 50
-        blind: 10
-        disarm: 5
-        frost|2: 10
-        gatling: 5
-        homing: 10
-        petrify: 10
-        none: 20
+  cast_interval: 1000
+  cast:
+    stupefy: 100
+    vermillios: 100
+    crucio: 10
+    accio: 20
+    flipendo: 150
+    none: 20
   drops:
   - gold_ingot@24
   - sp:100
   potion_effects:
   - type: speed
     amplifier: 1
-    
-dummy:
-  type: husk
-  name: Dummy
-  health: 100
-  protection:
-    fire: 2
-  weakness:
-    water: 1
-  potion_effects:
-  - type: slow
-    amplifier: 10
-dummynoai:
-  type: husk
-  name: Dummy
-  health: 100
-  protection:
-    fire: 2
-  weakness:
-    water: 1
-  ai: false
-fairy:
-  type: villager
-  name: Fairy
-  health: 100
-  lifetime: 10000
-  mage:
-    effect_color: "random"
-  potion_effects:
-  - type: levitation
-    amplifier: 1
-  triggers:
-    spawn:
-      effects: butterfly
-    death:
-      effects:
-      - particle: smoke_large
-        particle_count: 50
-        particle_data: 1
-        particle_offset_x: 1.2
-        particle_offset_y: 2.5
-        particle_offset_z: 1.2
-      - particle: smoke_large
-        particle_count: 50
-        particle_offset_x: 1.2
-        particle_offset_y: 2.5
-        particle_offset_z: 1.2
-  drops:
-  - glowstone_dust
-    redstone
-    sulphur
-fire_elemental:
-  type: blaze
-  name: Fire Elemental
-  health: 100
+  enabled: false
+acromantula:
+  type: spider
+  name: '&2Acromantula'
+  health: 30
   default_drops: false
-  protection:
-    fire: 2
-  weakness:
-    water: 1
-  interval: 5000
-  triggers:
-    interval:
-      cast:
-        fire: 100
-        flamethrower: 100
-        none: 50
+  cast_interval: 1000
+  cast:
+    webbing: 100
+    poison|3: 100
+    none: 50
   drops:
   - gold_nugget@8
-  - sp:10
-  potion_effects:
-  - type: speed
-    amplifier: 0
-
-killer_bunny:
-  type: rabbit
-  rabbit_type: the_killer_bunny
-  name: Killer Bunny
-  health: 100
-  default_drops: false
-
-  # This will force this mob to target the player who is damaging it.
-  # Normally this behavior is only present for spellcasting mobs.
-  aggro: true
-
-  drops:
-  - gold_nugget@10
-  - sp:10
-
-kingslime:
-  name: "King Slime"
-  type: slime
-  size: 18
-  interval: 3000
-  cast_requires_target: false
-  triggers:
-    interval:
-      cast:
-        none: 100
-        "rubberize pdy -1 pdx 0 pdz 0": 50
-madscientist:
-  name: Mad Scientist
-  type: pig_zombie
-  disguise:
-    type: player
-    name: Mad Scientist
-    skin: NathanWolf
-  item: madscientist_wand
-  chestplate: warlock_chestplate
-  leggings: warlock_leggings
-  helmet: madscientist_helmet
-  boots: warlock_boots
-  health: 5000
-  default_drops: false
-  interval: 1000
-  triggers:
-    interval:
-      cast:
-        missile|4: 200
-        none: 20
-  drops:
-  - gold_ingot@30
-  - sp:200
-  potion_effects:
-  - type: speed
-    amplifier: 1
-mega_spider:
-  type: spider
-  name: Mega Spider
-  health: 200
-  default_drops: false
-  interval: 1000
-  triggers:
-    interval:
-      cast:
-        webbing: 100
-        poison|3: 100
-        none: 50
-  drops:
-  - gold_nugget@10
-  - sp:10
-  potion_effects:
-  - type: increase_damage
-    amplifier: 0
-    
-mutant:
-  type: pig_zombie
-  item: iron_sword
-  chestplate: iron_chestplate
-  leggings: iron_leggings
-  helmet: iron_helmet
-  boots: iron_boots
-  name: Mutant
-  health: 50
-  default_drops: false
-  drops:
-  - gold_nugget@5
-  
-mutant_captain:
-  type: pig_zombie
-  item: iron_sword
-  chestplate: gold_chestplate
-  leggings: gold_leggings
-  helmet: gold_helmet
-  boots: gold_boots
-  name: Mutant Captain
-  health: 100
-  default_drops: false
-  drops:
-  - gold_nugget@10
   - sp:8
   potion_effects:
   - type: speed
-    amplifier: 1
-  entity_attributes:
-    generic_knockback_resistance: 1
-    generic_attack_speed: 5
-    
-mutant_spider:
-  type: cave_spider
-  name: Mutant Spider
-  health: 50
-  drops:
-  - gold_nugget@8
-  - spider_eye@2
-  
-polterghast:
-  type: ghast
-  health: 100
-  name: Polterghast
-  drops:
-  - gold_nugget@10
-  - sp:5
+    amplifier: 0
+  inherit: acromantula_underling
+  triggers:
+    damage:
+      cast:
+        none: 60
+        acromantula_spit: 20
+        acromantula_webbing: 10
+acromantula_queen:
+  inherit: acromantula
+  type: spider
+  name: '&2Queen Acromantula'
+  health: 60
   potion_effects:
-  - type: speed
-    amplifier: 2
-    
-undead_minion:
-  type: skeleton
-  item: iron_sword
-  name: Undead Minion
-  health: 50
-  
-undead_overlord:
-  type: skeleton
-  skeleton_type: wither
-  item: iron_sword
-  name: Undead Overlord
-  health: 150
-  potion_effects:
-  - type: increase_damage
+  - type: slow
     amplifier: 1
-    
-warlock:
-  type: zombie
-  villager_profession: butcher
-  item: warlock_wand
-  cast_requires_item: warlock_wand
-  chestplate: warlock_chestplate
-  leggings: warlock_leggings
-  helmet: chainmail_helmet
-  boots: warlock_boots
-  name: Warlock
-  health: 200
-  default_drops: false
-  protection:
-    fall: 1
-  interval: 1000
   triggers:
     interval:
       cast:
-        missile: 20
-        poison: 30
-        pull: 100
-        curse: 100
-        blob: 20
-        lava: 10
-        shell: 20
-        none: 300
+        none: 60
+        acromantula_summon: 30
+    damage:
+      cast:
+        none: 60
+        acromantula_spit|2: 20
+        acromantula_webbing|2: 10
+acromantula_underling:
+  type: cave_spider
+  name: '&2Acromantula Underling'
+  health: 10
+  default_drops: false
+  interval: 5000
+  potion_effects:
+  - type: speed
+    amplifier: 2
+  triggers:
+    damage:
+      cast:
+        none: 60
+        acromantula_spit: 10
+ashwinder:
+  type: silverfish
+  name: '&4Ashwinder'
+  health: 40
+  default_drops: false
+  potion_effects:
+  - type: fire_resistance
+    amplifier: 255
+  interval: 1000
+  triggers:
+    interval1:
+      type: interval
+      cast:
+        none: 10
+        ashwinder_ambient: 90
+    interval2:
+      type: interval
+      cast:
+        none: 90
+        ashwinder_summon: 5
+        ashwinder_summon|2: 1
+    damage:
+      cast:
+        none: 60
+        ashwinder_burn: 25
+        ashwinder_burn|2: 10
+        ashwinder_burn|3: 5
+augurey:
+  name: '&bAugurey'
+  type: parrot
+  parrot_variant: blue
+  health: 4
+  default_drops: false
+  triggers:
+    death:
+      cast:
+        none: 20
+        augurey_death: 80
+bowtruckle:
+  name: '&aBowtruckle'
+  type: zombie
+  baby: true
+  health: 30
+  interval: 3000
+  default_drops: false
+  triggers:
+    interval:
+      cast:
+        none: 20
+        bowtruckle_wood_throw: 80
+    damage:
+      cast:
+        none: 95
+        bowtruckle_shield: 5
+bundimun:
+  name: '&2Bundimun'
+  type: slime
+  size: 2
+  health: 30
+  default_drops: false
+  weakness:
+    fire: 0.8
+    magic: 0.2
+  triggers:
+    damage:
+      cast:
+        none: 90
+        bundimun_summon: 10
+huge_bundimun:
+  name: '&2Huge Bundimun'
+  type: slime
+  size: 4
+  health: 50
+  default_drops: false
+  interval: 2000
+  weakness:
+    fire: 0.6
+    magic: 0.2
+  triggers:
+    damage:
+      cast:
+        none: 85
+        bundimun_summon: 15
+centaur:
+  name: '&7Centaur'
+  type: horse
+  health: 100
+  default_drops: false
+  aggro: true
+  interval: 2000
+  triggers:
+    interval:
+      cast:
+        none: 20
+        centaur_arrow: 60
+        centaur_heal: 20
+crup_puppy:
+  name: '&cCrup Puppy'
+  type: wolf
+  tamed: true
+  baby: true
+  interact_spell: crup_pet
+  default_drops: false
+crup:
+  name: '&cCrup'
+  type: wolf
+  tamed: true
+  interact_spell: crup_pet
+  default_drops: false
+demiguise:
+  name: '&fDemiguise'
+  type: rabbit
+  health: 50
+  default_drops: false
+  triggers:
+    damage:
+      cast:
+        none: 10
+        demiguise_disappear: 90
+dark_spider:
+  enabled: false
+dark_wizard:
+  enabled: false
+dummynoai:
+  enabled: false
+killer_bunny:
+  enabled: false
+kingslime:
+  enabled: false
+madscientist:
+  enabled: false
+mega_spider:
+  enabled: false
+mutant:
+  enabled: false
+mutant_captain:
+  enabled: false
+mutant_spider:
+  enabled: false
+polterghast:
+  enabled: false
+undead_minion:
+  enabled: false
+undead_overlord:
+  enabled: false
+warlock:
+  enabled: false
+fire_elemental:
+  enabled: false
+erkling:
+  name: '&2Erkling'
+  type: skeleton
+  health: 30
+  default_drops: false
+  helmet: leaves
   drops:
-  - diamond: 10
-    emerald: 15
-    gold_nugget@18: 50
-    gold_nugget@16: 100
-    gold_nugget@12: 50
-    gold_nugget@8: 20
-  - sp:16
+  - erkling_dart_blower
+  interval: 4000
+  potion_effects:
+  - type: slow
+    amplifier: 1
+  triggers:
+    interval:
+      cast:
+        none: 20
+        erkling_dart: 30
+        erkling_poisoned_dart: 15
+        erkling_freezing_dart: 15
+        erkling_flaming_dart: 15
+        erkling_weakening_dart: 15
+erumpent:
+  name: '&7Erumpent'
+  type: polar_bear
+  health: 75
+  default_drops: false
+  interval: 2000
+  drops:
+  - erumpent_horn
+  triggers:
+    interval:
+      cast:
+        none: 75
+        erumpent_attack: 25
+    death:
+      cast:
+        none: 20
+        erumpent_death: 80
+fire_crab:
+  name: '&4Fire Crab'
+  type: spider
+  health: 50
+  default_drops: false
+  potion_effects:
+  - type: fire_resistance
+    amplifier: 255
+  interval: 1000
+  triggers:
+    interval1:
+      type: interval
+      cast:
+        fire_crab_ambient: 100
+    interval2:
+      type: interval
+      cast:
+        none: 60
+        fire_crab_attack: 20
+        fire_crab_alt_attack: 10
+fwooper:
+  name: '&dFwooper'
+  type: parrot
+  health: 4
+  default_drops: false
+  triggers:
+    death:
+      cast:
+        none: 20
+        fwooper_death: 80
+kneazle_kitten:
+  name: '&eKneazle Kitten'
+  type: ocelot
+  tamed: true
+  baby: true
+  interact_spell: kneazle_pet
+kneazle:
+  name: '&eKneazle'
+  type: ocelot
+  tamed: true
+  interact_spell: kneazle_pet
+phoenix:
+  name: '&4Phoenix'
+  type: parrot
+  health: 10
+  default_drops: false
+  potion_effects:
+  - type: fire_resistance
+    amplifier: 255
+  interval: 1000
+  triggers:
+    death:
+      cast:
+        phoenix_death: 100
+wampus:
+  name: '&6Wampus'
+  type: ocelot
+  health: 20
+  default_drops: false
+  aggro: true
+  triggers:
+    interval:
+      cast:
+        none: 20
+        wampus_scratch: 80

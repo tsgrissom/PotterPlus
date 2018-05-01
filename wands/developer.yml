@@ -1,0 +1,9 @@
+developer:
+  inherit: base_wand
+  icon: blaze_rod
+  active_spell: testdummy
+  cost_reduction: 10
+  cooldown_reduction: 10
+  spells:
+    - testdummy
+    - debugger

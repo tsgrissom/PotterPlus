@@ -1,10 +1,9 @@
 # Acromantula
 
 acromantula:
-  type: cave_spider
+  inherit: acromantula_underling
   name: '&2Acromantula'
   health: 30
-  default_drops: false
   triggers:
     damage:
       cast:

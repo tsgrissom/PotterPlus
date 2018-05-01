@@ -1,94 +1,97 @@
-#
+# 
 # !! IMPORTANT !!
-#
+# 
 # If you wish to customize this plugin, edit the "effects.yml" file instead.
-#
+# 
 # DO NOT JUST COPY THIS WHOLE FILE INTO YOUR effects.yml !!!!
 # If you do this, updating the plugin in the future may not work as expected.
-#
+# 
 # This file is merged from the files in the following folder:
-#
+# 
 # https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/effects
-#
+
+
 blockfind:
-  - class: EffectSingle
-    location: target
-    use_block_location: true
-    effectlib:
-      class: CubeEffect
-      iterations: 15
-      particle: redstone
-      color: "00FFAA"
-      edge_length: 1.2
-      enable_rotation: false
-      offset: 0.5,0.5,0.5
-  - class: EffectTrail
-    particle: crit_magic
-    particle_count: 10
-    particle_offset_x: 0.05
-    particle_offset_y: 0.05
-    particle_offset_z: 0.05
+- class: EffectSingle
+  location: target
+  use_block_location: true
+  effectlib:
+    class: CubeEffect
+    iterations: 15
+    particle: redstone
+    color: 00FFAA
+    edge_length: 1.2
+    enable_rotation: false
+    offset: 0.5,0.5,0.5
+- class: EffectTrail
+  particle: crit_magic
+  particle_count: 10
+  particle_offset_x: 0.05
+  particle_offset_y: 0.05
+  particle_offset_z: 0.05
 blockfindfirst:
-  - class: EffectSingle
-    location: target
-    use_block_location: true
-    effectlib:
-      class: CubeEffect
-      iterations: 15
-      particle: redstone
-      color: "FF00FF"
-      edge_length: 1.2
-      enable_rotation: false
-      offset: 0.5,0.5,0.5
-  - class: EffectTrail
-    particle: fireworks_spark
-    particle_count: 20
-    particle_offset_x: 0.1
-    particle_offset_y: 0.1
-    particle_offset_z: 0.1
+- class: EffectSingle
+  location: target
+  use_block_location: true
+  effectlib:
+    class: CubeEffect
+    iterations: 15
+    particle: redstone
+    color: FF00FF
+    edge_length: 1.2
+    enable_rotation: false
+    offset: 0.5,0.5,0.5
+- class: EffectTrail
+  particle: fireworks_spark
+  particle_count: 20
+  particle_offset_x: 0.1
+  particle_offset_y: 0.1
+  particle_offset_z: 0.1
 blockremove:
-  - class: EffectSingle
-    location: target
-    use_block_location: true
-    effectlib:
-      class: CubeEffect
-      iterations: 15
-      particle: redstone
-      color: "FF0000"
-      edge_length: 1.2
-      enable_rotation: false
-      offset: 0.5,0.5,0.5
+- class: EffectSingle
+  location: target
+  use_block_location: true
+  effectlib:
+    class: CubeEffect
+    iterations: 15
+    particle: redstone
+    color: FF0000
+    edge_length: 1.2
+    enable_rotation: false
+    offset: 0.5,0.5,0.5
 blockselect:
-  - class: EffectSingle
-    location: target
-    use_block_location: true
-    effectlib:
-      class: CubeEffect
-      iterations: 15
-      particle: redstone
-      color: "FF00FF"
-      edge_length: 1.2
-      enable_rotation: false
-      offset: 0.5,0.5,0.5
-  - class: EffectTrail
-    particle: fireworks_spark
-    particle_count: 20
-    particle_offset_x: 0.1
-    particle_offset_y: 0.1
-    particle_offset_z: 0.1
+- class: EffectSingle
+  location: target
+  use_block_location: true
+  effectlib:
+    class: CubeEffect
+    iterations: 15
+    particle: redstone
+    color: FF00FF
+    edge_length: 1.2
+    enable_rotation: false
+    offset: 0.5,0.5,0.5
+- class: EffectTrail
+  particle: fireworks_spark
+  particle_count: 20
+  particle_offset_x: 0.1
+  particle_offset_y: 0.1
+  particle_offset_z: 0.1
 butterfly:
-  - source_location: body
-    color_override: color
-    effectlib:
-      class: EquationEffect
-      x_equation: 0
-      y_equation: "(cos(t/57.2958)  * (2.71828^(cos(t/57.2958)) - 2 * cos(4t/57.2958) - (sin(t/(12 * 57.2958)))^5))"
-      z_equation: "(sin(t/57.2958)  * (2.71828^(cos(t/57.2958)) - 2 * cos(4t/57.2958) - (sin(t/(12 * 57.2958)))^5))"
-      particles: 100
-      duration: 10000000
-      relative_offset: -0.5,0,0
-      disappear_with_origin_entity: true
+- source_location: body
+  color_override: color
+  effectlib:
+    class: EquationEffect
+    x_equation: 0
+    y_equation: (cos(t/57.2958)  * (2.71828^(cos(t/57.2958)) - 2 * cos(4t/57.2958)
+      - (sin(t/(12 * 57.2958)))^5))
+    z_equation: (sin(t/57.2958)  * (2.71828^(cos(t/57.2958)) - 2 * cos(4t/57.2958)
+      - (sin(t/(12 * 57.2958)))^5))
+    particles: 100
+    duration: 10000000
+    relative_offset: -0.5,0,0
+    disappear_with_origin_entity: true
 fountain:
- - effectlib:
-     class: Fountain
-     duration: 86400000
+- effectlib:
+    class: Fountain
+    duration: 86400000
