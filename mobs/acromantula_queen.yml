@@ -1,11 +1,10 @@
 # Acromantula Queen
 
 acromantula_queen:
+  inherit: acromantula
   type: spider
   name: '&2Queen Acromantula'
   health: 60
-  default_drops: false
-  interval: 5000
   potion_effects:
     - type: slow
       amplifier: 1

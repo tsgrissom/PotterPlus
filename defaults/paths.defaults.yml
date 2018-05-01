@@ -1,538 +1,236 @@
-#
-# The default path is a base path common to the others
-#
+# 
+# !! IMPORTANT !!
+# 
+# If you wish to customize this plugin, edit the "paths.yml" file instead.
+# 
+# DO NOT JUST COPY THIS WHOLE FILE INTO YOUR paths.yml !!!!
+# If you do this, updating the plugin in the future may not work as expected.
+# 
+# This file is merged from the files in the following folder:
+# 
+# https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/paths
 
 default:
   hidden: true
   upgrade_commands:
-    - broadcast &6@pd &3has advanced to &b$path&3!
+  - broadcast &6@pd &3has advanced to &b$path&3!
   effects:
-      enchant:
-      -  class: EffectSingle
-         sound: entity_player_levelup
-         effectlib:
-           class: SphereEffect
-           iterations: 5
-           period: 2
-           particle: enchantment_table
-           radius: 3
-      upgrade:
-      -  class: EffectSingle
-         sound: entity_player_levelup
-      -  class: EffectRing
-         firework: star
-         radius: 4
-         size: 2
-      -  class: EffectRing
-         firework: ball_large
-         radius: 6
-         size: 3
-
-#
-# !! IMPORTANT !!
-#
-# If you wish to customize this plugin, edit the "paths.yml" file instead.
-#
-# DO NOT JUST COPY THIS WHOLE FILE INTO YOUR paths.yml !!!!
-# If you do this, updating the plugin in the future may not work as expected.
-#
-# This file is merged from the files in the following folder:
-#
-# https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/paths
-#
-apprentice:
-    icon: wood_hoe:3
-    migrate_icon: wood_hoe
-    upgrade: master
-    upgrade_item: master_upgrade
-    inherit: student
-    mana_regeneration: 40
-    mana_max: 200
-    extra_spells:
-      - emp
-      - music
-      - disarm
-      - ghast
-      - glide
-    spells:
-      - breach
-      - disintegrate
-      - hat
-      - sandblast
-      - counterspell
-      - platform
-      - rubberize
-      - wound
-      - harden
-      - sponge
-      - flashbang
-      - gatling
-      - walls
-      - smite
-      - shuriken
-      - sticky
-      - homing
-      - lift
-      - laser
-      - wave
-      - chainlightning
-      - airscooter
-
-archer:
-    inherit: default
-    spell_count: 1
-    spells:
-      - arrow_bomb
-      - arrow_poison
-      - arrow_blink
-      - arrow_light
-      - arrow_fire
-      - arrow_ice
-      - arrow_shock
-architect:
-    icon: wood_hoe:5
-    migrate_icon: gold_pickaxe
-    inherit: engineer
-    # The conduitshop is required for Conduit
-    # This is generally not recommended as a player-obtainable rank, except maybe on creative servers.
-    required_spells:
-      - backup
-    upgrade: conduit
-    upgrade_item: conduit_upgrade
-    mana_regeneration: 60
-    mana_max: 400
-    extra_spells:
-      - projector
-    spells:
-      - absorb
-      - superalter
-      - supershell
-      - superblast
-      - superbox
-      - supercube
-      - superpyramid
-      - superblob
-      - fill
-      - superemp
-      - superdisc
-      - superlaser
-      - superring
-      - superconvert
-      - supercylinder
-      - superdome
-      - volley
-      - floodfill
-      - tunnel
-    material_count:
-      7:  100
-      10:  60
-      12:  30
-      15:  10
-    materials:
-      - copy
-      - map
-      - soul_sand
-      - wood
-      - log
-      - vine
-      - mycel
-      - quartz_block
-      - leaves
-      - ice
-      - packed_ice
-      - obsidian
-      - redstone_block
-      - schematic|rainbow_blocks
-      - schematic|creeper_rug
-      - wool|0
-      - wool|1
-      - wool|2
-      - wool|3
-      - wool|4
-      - wool|5
-      - wool|6
-      - wool|7
-      - wool|8
-      - wool|9
-      - wool|10
-      - wool|11
-      - wool|12
-      - wool|13
-      - wool|14
-      - wool|15
-      - stained_clay|0
-      - stained_clay|1
-      - stained_clay|2
-      - stained_clay|3
-      - stained_clay|4
-      - stained_clay|5
-      - stained_clay|6
-      - stained_clay|7
-      - stained_clay|8
-      - stained_clay|9
-      - stained_clay|10
-      - stained_clay|11
-      - stained_clay|12
-      - stained_clay|13
-      - stained_clay|14
-      - stained_clay|15
-      - stained_glass|0
-      - stained_glass|1
-      - stained_glass|2
-      - stained_glass|3
-      - stained_glass|4
-      - stained_glass|5
-      - stained_glass|6
-      - stained_glass|7
-      - stained_glass|8
-      - stained_glass|9
-      - stained_glass|10
-      - stained_glass|11
-      - stained_glass|12
-      - stained_glass|13
-      - stained_glass|14
-      - stained_glass_pane|15
-      - stained_glass_pane|0
-      - stained_glass_pane|1
-      - stained_glass_pane|2
-      - stained_glass_pane|3
-      - stained_glass_pane|4
-      - stained_glass_pane|5
-      - stained_glass_pane|6
-      - stained_glass_pane|7
-      - stained_glass_pane|8
-      - stained_glass_pane|9
-      - stained_glass_pane|10
-      - stained_glass_pane|11
-      - stained_glass_pane|12
-      - stained_glass_pane|13
-      - stained_glass_pane|14
-      - stained_glass_pane|15
-      - schematic|rainbow_blocks
-      - schematic|lantern
-      - schematic|creeper_rug
-      - schematic|elder_tree
-      - schematic|church
-      - schematic|blacksmith
-      - schematic|garden_house
-      - schematic|compact_house
-      - schematic|small_house
-      - schematic|nathanwolf
-
-
-#
-# "Battle" Wand (sword-wands)
-# Have a separate enchanting path.
-#
-
-#
-# Wand progression
-# beginner -> student -> apprentice -> master
-#
-battle:
-    upgrade: squire
-    upgrade_item: squire_upgrade
-    follows: beginner
-    inherit: default
-    spell_count: 1
-    spells:
-      - missile
-      - arrow
-      - cure
-      - fireball
-      - push
-      - pull
-      - blind
-      - reflect
-      - stun
-      - poison
-      - fire
-      - frost
-
-squire:
-    upgrade: soldier
-    upgrade_item: soldier_upgrade
-    follows: student
-    inherit: battle
-    mana_regeneration: 30
-    mana_max: 150
-    spells:
-      - arrowrain
-      - boom
-      - grenade
-      - heal
-      - lightning
-      - lava
-      - stream
-      - flamethrower
-      - wither
-      - shell
-      - blob
-      - entangle
-      - whip
-      - curse
-
-soldier:
-    upgrade: knight
-    upgrade_item: knight_upgrade
-    inherit: squire
-    follows: apprentice
-    mana_regeneration: 40
-    mana_max: 200
-    spells:
-      - breach
-      - disintegrate
-      - sandblast
-      - counterspell
-      - wound
-      - flashbang
-      - gatling
-      - smite
-      - shuriken
-      - sticky
-      - homing
-      - lift
-      - disarm
-      - laser
-      - wave
-
-knight:
-    inherit: soldier
-    follows: master
-    mana_regeneration: 50
-    mana_max: 250
-    spells:
-      - cluster
-      - bomb
-      - earthquake
-      - icbm
-      - nuke
-      - cage
-      - meteor
-      - kill
-      - torture
-      - petrify
-      - singularity
-      - tornado
-      - tendril
-      - force
-      - railgun
-#
-# Wand progression
-# beginner -> student -> apprentice -> master
-#
-beginner:
-    icon: wood_hoe:1
-    migrate_icon: wood_hoe
-    upgrade: student
-    upgrade_item: student_upgrade
-    inherit: default
-    # For the old randomized enchanting system, a wand will gain 1 spell per enchant
-    spell_count: 1
-    # These are spells that are optional, appear in the spell shop but are not required for progression.
-    extra_spells:
-      - flare
-      - stun
-      - workbench
-    # These spells appear in the spell shop and are required to progress to the next path.
-    spells:
-      - missile
-      - arrow
-      - blast
-      - boon
-      - cloak
-      - collapse
-      - cure
-      - bubble
-      - fireball
-      - torch
-      - push
-      - pull
-      - peek
-      - recall
-      - blind
-      - reflect
-      - poison
-      - fire
-      - frost
-
-
-#
-# Broom Enchanting
-#
-
+    enchant:
+    - class: EffectSingle
+      sound: entity_player_levelup
+      effectlib:
+        class: SphereEffect
+        iterations: 5
+        period: 2
+        particle: enchantment_table
+        radius: 3
+    upgrade:
+    - class: EffectSingle
+      sound: entity_player_levelup
+    - class: EffectRing
+      firework: star
+      radius: 4
+      size: 2
+    - class: EffectRing
+      firework: ball_large
+      radius: 6
+      size: 3
+year1:
+  follows: beginner
+  inherit: default
+  upgrade: year2
+  upgrade_item: year2
+  max_mana: 60
+  max_mana_regeneration: 8
+  mana_regeneration: 1
+  mana_max: 2
+  spells:
+  - araniaexumai
+  - snowball
+  - nox
+  - flipendo
+  - flagrate
+  - wingardium
+  - locomotomortus
+  - bubblehead
+  - lumossolem
+  - felixleporemos
+  - despello
+  - pulvifors
+  - herbifors
+  - scribblifors
+  - ignisdisceditus
+  required_spells:
+  - alohomora
+year2:
+  follows: beginner
+  upgrade: year3
+  upgrade_item: year3
+  inherit: year1
+  max_mana: 90
+  max_mana_regeneration: 12
+  spells:
+  - arresto
+  - arrow
+  - fourpoint
+  - finiteincantatem
+  - obscuro
+  - rictusempra
+  - immobulus
+  - alarteascendare
+  - incendio
+  - colloshoo
+  - evertestatum
+  - brachiabindo
+  - emancipare
+  - revelio
+  - brackiumemendo
+  required_spells:
+  - duro
+year3:
+  follows: student
+  upgrade: year4
+  upgrade_item: year4
+  inherit: year2
+  max_mana: 110
+  max_mana_regeneration: 15
+  spells:
+  - bombarda
+  - bogies
+  - diffindo
+  - expelliarmus
+  - fumos
+  - petrificustotalus
+  - orchideous
+  - vermillious
+  - verdimillious
+  - lumosmaxima
+  - aberto
+  - frigusignatus
+  - flagellos
+  - finestra
+  - waddiwasi
+  - epoximise
+  - sluguluseructo
+  required_spells:
+  - glacius
+year4:
+  follows: student
+  upgrade: year5
+  upgrade_item: year5
+  inherit: year3
+  max_mana: 130
+  max_mana_regeneration: 20
+  spells:
+  - accio
+  - tarantallegra
+  - ascendio
+  - deprimo
+  - periculum
+  - protego
+  - impervius
+  - tripudio
+  - fiantoduri
+  - impedimenta
+  - melofors
+  - depulso
+  - homenumrevelio
+  - arrowmaxima
+  - carperetractum
+  - locomotorwibbly
+  required_spells:
+  - episkey
+year5:
+  follows: apprentice
+  upgrade: year6
+  upgrade_item: year6
+  inherit: year4
+  max_mana: 150
+  max_mana_regeneration: 28
+  spells:
+  - apparate
+  - colorvaria
+  - conjunctivitis
+  - evanesco
+  - stupefy
+  - rennervate
+  - avis
+  - spongify
+  - firestorm
+  - pulsus
+  - cantis
+  - defodio
+  - lapifors
+  - incarcerous
+  - multabasiorum
+  required_spells:
+  - aparecium
+year6:
+  follows: apprentice
+  upgrade: year7
+  upgrade_item: year7
+  inherit: year5
+  max_mana: 170
+  max_mana_regeneration: 34
+  spells:
+  - aguamenti
+  - disillusion
+  - levicorpus
+  - liberacorpus
+  - reducio
+  - engorgio
+  - reducto
+  - sectumsempra
+  - revelio
+  - baubillious
+  - furnunculus
+  - bruchumaculeatos
+  - protegototalus
+  - lacarnum
+  - titillando
+  - flintifors
+  required_spells:
+  - patronus
+year7:
+  follows: master
+  upgrade: graduate
+  upgrade_item: graduate
+  inherit: year6
+  max_mana: 190
+  max_mana_regeneration: 36
+  upgrade_commands:
+  - broadcast §6@pd §3has graduated from their school!
+  spells:
+  - atmos
+  - meteo
+  - piertotum
+  - ventus
+  - vulnera
+  - confringo
+  - spongifymaxima
+  - volo
+  - erecto
+  - expulso
+  - fiendfyre
+  - incarcifors
+  - obliviate
+  - glisseo
+  required_spells:
+  - protegomaxima
+graduate:
+  follows: master
+  inherit: year7
+  max_mana_regeneration: 40
+  max_mana: 200
+  spells:
+  - expelliarmus|5
+  - finiteincantatem|4
+  - reducio|3
+  - episkey|3
+  - ferula|3
+  - arrow|4
+  - bogies|3
+  - lacarnum|3
 broom:
-    hidden: true
-    inherit: default
-conduit:
-    icon: wood_hoe:6
-    migrate_icon: gold_pickaxe
-    inherit: architect
-    spells:
-      - portal
-      - backup
-      - repair
-      - superrepair
-      - paste
-      - anvil
-      - day
-      - night
-      - weather
-      - capture
-      - commit
-    materials:
-      - clone
-      - replicate
-      - lava
-      - water
-      - schematic|rainbow_blocks
-      - schematic|lantern
-      - schematic|creeper_rug
-      - schematic|elder_tree
-      - schematic|church
-      - schematic|blacksmith
-      - schematic|garden_house
-      - schematic|compact_house
-      - schematic|small_house
-      - schematic|nathanwolf
-
-#
-# The move from "master" to engineer requires the player to acquire some basic
-# engineering spells first.
-#
-# In this way, it is up to the server owner whether or not players get access to
-# engineering magic.
-#
-# Similarly, the move to "Architect" requires that the player acquire a few high-level
-# engineering spells first.
-#
-engineer:
-    icon: wood_hoe:5
-    migrate_icon: gold_axe
-    # The architectshop is required to proceed to Architect
-    required_spells:
-      - absorb
-    upgrade: architect
-    upgrade_item: architect_upgrade
-    inherit: master
-    mana_regeneration: 55
-    mana_max: 300
-    spells:
-      - rollback
-      - alter
-      - bridge
-      - toss
-      - convert
-      - recurse
-      - paint
-      - pillar
-      - place
-      - tree
-      - supertorch
-      - brushselect
-    # Engineer wands can gain material brushes, they get some number of them per spell purchase as below
-    material_count:
-      2: 100
-      3: 50
-      4: 20
-      5: 10
-    materials:
-      - erase
-      - stone
-      - dirt
-      - sand
-      - grass
-      - gravel
-      - glass
-      - glowstone
-      - stained_clay
-      - stained_glass
-      - stained_glass_pane
-
-master:
-    icon: wood_hoe:4
-    migrate_icon: gold_axe
-    # These are spells that a player must obtain (outside of the normal spellshop progression) to proceed to the next
-    # path.
-    # This means that the engineer path is intentionally locked, server admins may allow players to progress to Engineer
-    # by giving them access to an engineershop.
-    required_spells:
-      - rollback
-    upgrade: engineer
-    upgrade_item: engineer_upgrade
-    inherit: apprentice
-    mana_regeneration: 50
-    mana_max: 250
-    extra_spells:
-      - mount
-      - cage
-      - silence
-      - tent
-      - tame
-    spells:
-      - fury
-      - blessing
-      - cluster
-      - bomb
-      - invincible
-      - earthquake
-      - icbm
-      - nuke
-      - meteor
-      - pollinate
-      - kill
-      - torture
-      - petrify
-      - singularity
-      - tornado
-      - tendril
-      - force
-      - stash
-      - railgun
-      - levitate
-      - shrink
-      - dragonball
-      - neutron
-
-
-staff:
   hidden: true
-student:
-    icon: wood_hoe:2
-    migrate_icon: wood_hoe
-    upgrade: apprentice
-    upgrade_item: apprentice_upgrade
-    inherit: beginner
-    # Mana will be upgraded when ranking up
-    mana_regeneration: 30
-    mana_max: 150
-    extra_spells:
-      - familiar
-      - monster
-      - tracking
-      - rocket
-      - secure
-      - admission
-      - tag
-      - phase
-      - grow
-    spells:
-      - blink
-      - arrowrain
-      - boom
-      - fling
-      - grenade
-      - heal
-      - lightning
-      - lava
-      - stream
-      - flamethrower
-      - wither
-      - mine
-      - chop
-      - shell
-      - blob
-      - entangle
-      - whip
-      - curse
-
+  inherit: default

@@ -5,6 +5,7 @@ acromantula_underling:
   name: '&2Acromantula Underling'
   health: 10
   default_drops: false
+  interval: 5000
   potion_effects:
     - type: speed
       amplifier: 2

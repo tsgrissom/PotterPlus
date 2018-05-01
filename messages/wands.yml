@@ -27,3 +27,6 @@ wands:
     description: "&7A Class-B tradeable material. Highly explosive."
     spell_instructions: ""
     bound_instructions: ""
+  developer:
+    name: "&3Magic Developer Wand"
+    description: "&9Curated spells to aid in the furthering of magic"
