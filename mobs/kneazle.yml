@@ -8,7 +8,6 @@ kneazle_kitten:
   interact_spell: kneazle_pet
 
 kneazle:
+  inherit: kneazle_kitten
   name: '&eKneazle'
-  type: ocelot
-  tamed: true
-  interact_spell: kneazle_pet
+  baby: false

@@ -10,17 +10,8 @@ ashwinder:
       amplifier: 255
   interval: 1000
   triggers:
-    interval1:
-      type: interval
-      cast:
-        none: 10
-        ashwinder_ambient: 90
-    interval2:
-      type: interval
-      cast:
-        none: 90
-        ashwinder_summon: 5
-        ashwinder_summon|2: 1
+    interval:
+      effects: ashwinder_ambient
     damage:
       cast:
         none: 60

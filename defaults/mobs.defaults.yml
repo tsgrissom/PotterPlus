@@ -117,17 +117,8 @@ ashwinder:
     amplifier: 255
   interval: 1000
   triggers:
-    interval1:
-      type: interval
-      cast:
-        none: 10
-        ashwinder_ambient: 90
-    interval2:
-      type: interval
-      cast:
-        none: 90
-        ashwinder_summon: 5
-        ashwinder_summon|2: 1
+    interval:
+      effects: ashwinder_ambient
     damage:
       cast:
         none: 60
@@ -172,19 +163,17 @@ bundimun:
     magic: 0.2
   triggers:
     damage:
+      effects: bundimun_summon
       cast:
         none: 90
         bundimun_summon: 10
 huge_bundimun:
+  inherit: bundimun
   name: '&2Huge Bundimun'
-  type: slime
   size: 4
   health: 50
-  default_drops: false
-  interval: 2000
   weakness:
     fire: 0.6
-    magic: 0.2
   triggers:
     damage:
       cast:

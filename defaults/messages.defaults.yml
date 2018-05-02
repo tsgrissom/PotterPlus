@@ -7,6 +7,40 @@
 # 
 # https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/messages
 
+costs:
+  sp_amount: $amount CC
+  xp_amount: $amount XP
+  levels_amount: $amount XP Levels
+  mana_amount: $amount Energy
+  mana: Energy
+  xp: XP
+  levels: XP Levels
+  sp: Completion Credits
+  hunger: Energy
+  health: Health
+  health_amount: $amount Health
+  hunger_amount: $amount Energy
+  heroes_mana: $amount Mana
+  currency: Dollar
+  currency_plural: Dollars
+  currency_amount: $$amount
+currency:
+  item_name: '&e$amount &6$type'
+  description: Right-click to deposit
+  limit: a:&eThe limit for &6$type &eis &c$amount
+  deposited: 'a:&aDeposited &2$amount &6$type&a, balance: &2$balance'
+  earned: a:&6+&e$earned
+  tc:
+    amount: $amount TC
+    name: Test Credits
+  ac:
+    amount: $amount AC
+    name: Academic Credits
+sp:
+  name: '&e$amount Completion Credits'
+  description: Will be absorbed by your wand
+  limit: a:&eThe limit for &6Spell Points &eis &c$amount
+  deposited: 'a:&aDeposited &2$amount &6Spell Points&a, balance: &2$balance'
 item:
   duplicated: '&6(&eMagic&6) &7Your item has been duplicated.'
   destroyed: Your item has been destroyed
@@ -94,26 +128,6 @@ worlds:
     name: The Nether
   world_the_end:
     name: The End
-sp:
-  name: '&e$amount Completion Credits'
-  description: Will be absorbed by your wand
-costs:
-  sp_amount: $amount CC
-  xp_amount: $amount XP
-  levels_amount: $amount XP Levels
-  mana_amount: $amount Energy
-  mana: Energy
-  xp: XP
-  levels: XP Levels
-  sp: Completion Credits
-  hunger: Energy
-  health: Health
-  health_amount: $amount Health
-  hunger_amount: $amount Energy
-  heroes_mana: $amount Mana
-  currency: Dollar
-  currency_plural: Dollars
-  currency_amount: $$amount
 cooldown:
   wait_seconds: another $seconds seconds
   wait_minutes: another $minutes minutes
@@ -234,7 +248,7 @@ spell:
   level_description: Level $level
   progress_description: '&6Progress: &b$level&6/&3$max_level'
   quick_cast: '&2Quick Cast'
-  earns: '&2Earns up to &6$earns &eSP'
+  earns: '&2Earns up to &6$earns'
   description_lore: '&b$description'
   level_lore: '&6$level'
   toggle: '&aCast to toggle on and off'

@@ -16899,6 +16899,7 @@ wither:
       - class: AreaOfEffect
         actions:
         - class: PotionEffect
+        - class: Damage
   effects:
     cast:
     - sound: entity_wither_shoot
@@ -16943,6 +16944,7 @@ wither:
     cooldown: 5000
     start: 1
     break_blocks: false
+    damage: 1
   costs:
     mana: 60
   enabled: false
@@ -20564,24 +20566,7 @@ ashwinder_ambient:
     cast:
     - class: Ignite
   effects:
-    cast:
-    - class: EffectSingle
-      source_location: feet
-      sound: entity_blaze_ambient
-      effectlib:
-        class: AtomEffect
-        particle_nucleus: flame
-        particle_orbital: flame
-        iterations: 16
-        radius: 0.3
-    - class: EffectSingle
-      source_location: feet
-      effectlib:
-        class: AtomEffect
-        particle_nucleus: smoke_normal
-        particle_orbital: smoke_normal
-        iterations: 16
-        radius: 0.8
+    cast: ashwinder_ambient
   parameters:
     target: self
     cooldown: 0
@@ -20686,24 +20671,15 @@ bundimun_summon:
   category: beast_ability
   hidden: true
   effects:
-    cast:
-    - class: EffectSingle
-      location: origin
-      material: slime_block
-      effectlib:
-        class: AtomEffect
-        radius: 2
-        particleOrbital: block_crack
-        particleNucleus: block_crack
-        orbitals: 12
-        iterations: 16
+    cast: bundimun_summon
   actions:
     cast:
     - class: SpawnEntity
   parameters:
     entity_types:
       huge_bundimun: 10
-      bundimun: 20
+      bundimun: 60
+      none: 30
     target: self
     cooldown: 0
     amount: 2
