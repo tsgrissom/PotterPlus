@@ -881,6 +881,10 @@ currency:
     worth: 100
     name: Emerald
     name_plural: Emeralds
+
+# Here you can define custom currencies
+# These can be named in the "currency" section of messages.yml, see the potter example configs for details.
+custom_currency: {}
 ### Plugin Integration
 
 # Add Magic NPC trait (/trait magic) to Citizens

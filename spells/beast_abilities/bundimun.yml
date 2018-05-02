@@ -3,24 +3,15 @@ bundimun_summon:
   category: beast_ability
   hidden: true
   effects:
-    cast:
-      - class: EffectSingle
-        location: origin
-        material: slime_block
-        effectlib:
-          class: AtomEffect
-          radius: 2
-          particleOrbital: block_crack
-          particleNucleus: block_crack
-          orbitals: 12
-          iterations: 16
+    cast: bundimun_summon
   actions:
     cast:
       - class: SpawnEntity
   parameters:
     entity_types:
       huge_bundimun: 10
-      bundimun: 20
+      bundimun: 60
+      none: 30
     target: self
     cooldown: 0
     amount: 2

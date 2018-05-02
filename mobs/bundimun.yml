@@ -11,20 +11,18 @@ bundimun:
     magic: 0.2
   triggers:
     damage:
+      effects: bundimun_summon
       cast:
         none: 90
         bundimun_summon: 10
 
 huge_bundimun:
+  inherit: bundimun
   name: '&2Huge Bundimun'
-  type: slime
   size: 4
   health: 50
-  default_drops: false
-  interval: 2000
   weakness:
     fire: 0.6
-    magic: 0.2
   triggers:
     damage:
       cast:
