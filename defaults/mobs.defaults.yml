@@ -200,11 +200,9 @@ crup_puppy:
   interact_spell: crup_pet
   default_drops: false
 crup:
+  inherit: crup_puppy
   name: '&cCrup'
-  type: wolf
-  tamed: true
-  interact_spell: crup_pet
-  default_drops: false
+  baby: false
 demiguise:
   name: '&fDemiguise'
   type: rabbit
@@ -320,10 +318,9 @@ kneazle_kitten:
   baby: true
   interact_spell: kneazle_pet
 kneazle:
+  inherit: kneazle_kitten
   name: '&eKneazle'
-  type: ocelot
-  tamed: true
-  interact_spell: kneazle_pet
+  baby: false
 phoenix:
   name: '&4Phoenix'
   type: parrot

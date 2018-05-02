@@ -1,4 +1,5 @@
 stupefy:
+  inherit: false
   icon: diamond_axe:159
   upgrade_required_path: year5
   upgrade_required_casts: 25
@@ -22,28 +23,24 @@ stupefy:
           iterations: 10
           particle: redstone
           color: 8b0000
-          lengthGrow: 0.1
-          radiusGrow: 0.003
+          lengthGrow: 0.3
+          radiusGrow: 0.005
           updateLocations: false
           updateDirections: false
     tick:
       - particle: redstone
         location: target
+        particle_count: 15
+        particle_offset_x: 0.1
+        particle_offset_y: 0.1
+        particle_offset_z: 0.1
         color: FF0000
-    hit_block:
-      - class: EffectSingle
-        location: target
-        particle: block_crack
-        particle_count: 50
-        particle_offset_x: 0.2
-        particle_offset_y: 1
-        particle_offset_z: 0.2
     hit:
       - class: EffectSingle
         location: target
-        color: FF0000
-        firework: ball
-        fadeColor: 0099ff
+        color: 8b0000
+        firework: burst
+        color2: FF0000
   headshot_parameters:
     player_damage: 3
     entity_damage: 3
@@ -78,18 +75,6 @@ stupefy|2:
 stupefy|3:
   upgrade_required_path: year7
   upgrade_required_casts: 75
-  effects:
-    hit:
-      - class: EffectSingle
-        location: target
-        color: 8b0000
-        firework: ball_large
-        fadeColor: 0099ff
-      - class: EffectSingle
-        location: target
-        color: FF0000
-        firework: ball
-        fadeColor: 0099ff
   parameters:
     range: 48
     player_damage: 3

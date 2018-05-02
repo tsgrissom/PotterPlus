@@ -1,0 +1,44 @@
+fourpoint:
+  inherit: false
+  icon: diamond_axe:189
+  icon_disabled: diamond_hoe:189
+  category: elective
+  worth: 5
+  actions:
+    cast:
+      - class: Delay
+      - class: Orient
+      - class: Delay
+        delay: 250
+      - class: CustomProjectile
+  effects:
+    cast:
+      - sound: fizz
+        location: origin
+        source_location: feet
+        effectlib:
+          class: Sphere
+          particle: spell_mob_ambient
+          radiusIncrease: 0.02
+          color: FFFFFF
+          iterations: "50"
+    projectile:
+      - location: origin
+        effectlib:
+          class: Sphere
+          radius: 0.25
+          particle: spell_mob_ambient
+          color: FFFFFF
+          iterations: 16
+    tick:
+      - location: target
+        particle: spell
+  parameters:
+    target: block
+    delay: 3500
+    yaw: 180
+    pitch: 0
+    range: 24
+    velocity: 25
+  costs:
+    mana: 20
