@@ -37,8 +37,32 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 
 #### Items
 
-* Gillyweed item -> bubblehead charm with uses
-* Beaded handbag -> stash spell
+* Portkey -> teleports to a random warp
+* Beaded handbag -> stash
+* Camera -> Takes pictures via maps
+* Floopowder
+* Dungbombs
+* Bombs
+* Key -> Casts a short range unlocking charm
+* Brooms
+* Invisibility cloak -> Armor which casts an Invisibility spell
+* Deluminator -> Eliminates lights in the area
+* Foe-glass
+* Marauder's Map
+* Remembrall
+* Secrecy senor
+* Quidditch balls -> Based on flashbang spell
+* Godric's Sword
+* Sorting hat
+* Two-way mirrors
+* Whiz-bangs
+* Skiving snackboxes
+* Trick wands
+* Portable swamps
+* Decoy detonators
+* Peruvian instant darkness powder
+* Flying carpet
+* Time turners
 
 #### Mobs
 
