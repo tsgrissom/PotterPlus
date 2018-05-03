@@ -1,0 +1,21 @@
+year3:
+  spells:
+    - bombarda
+    - bogies
+    - diffindo
+    - expelliarmus
+    - fumos
+    - petrificustotalus
+    - orchideous
+    - vermillious
+    - verdimillious
+    - lumosmaxima
+    - aberto
+    - frigusignatus
+    - flagellos
+    - finestra
+    - waddiwasi
+    - epoximise
+    - sluguluseructo
+  required_spells:
+    - glacius

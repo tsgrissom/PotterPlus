@@ -1,6 +1,7 @@
 fumos:
   upgrade_required_path: year4
   upgrade_required_casts: 50
+  worth: 5
   effects:
     cast:
       - class: EffectSingle
@@ -18,7 +19,6 @@ fumos:
       - class: AreaOfEffect
         actions:
           - class: PotionEffect
-  worth: 5
   parameters:
     effect_slow: 1
     effect_damage_resistance: -1

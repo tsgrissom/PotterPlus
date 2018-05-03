@@ -1,9 +1,11 @@
 incendio:
   category: charms
-  worth: 15
+  worth: 10
 rictusempra:
   category: charms
-  worth: 10
+  worth: 5
+flipendo:
+  worth: 5
 nox:
   worth: 5
 immobulus:
@@ -27,7 +29,7 @@ duro:
 accio:
   worth: 10
 locomotomortus:
-  worth: 15
+  worth: 10
 aguamenti:
   worth: 10
   upgrade_required_path: year7
@@ -38,16 +40,18 @@ rennervate:
   worth: 5
 episkey:
   worth: 15
+  category: herbology
 orchideous:
-  worth: 10
+  worth: 5
   parameters:
     undo: 2000
 noxmaxima:
   quick_cast: false
 evanesco:
-  worth: 10
+  worth: 15
 ferula:
   worth: 20
+  category: herbology
 incarcerous:
   worth: 10
   parameters:
@@ -61,18 +65,19 @@ confringo:
 engorgio:
   worth: 15
 confundus:
-  worth: 15
+  worth: 10
 ventus:
-  worth: 20
+  worth: 10
 vulnera:
   worth: 25
+  category: herbology
 disillusion:
-  worth: 20
+  worth: 15
 atmos:
   category: charms
   worth: 30
 spongify:
-  worth: 15
+  worth: 10
 spongifymaxima:
   worth: 25
 sectumsempra:
@@ -80,6 +85,7 @@ sectumsempra:
 reducto:
   worth: 10
 aparecium:
+  worth: 15
   costs:
     mana: 50
 alohomora:
@@ -88,7 +94,7 @@ alohomora:
 arresto:
   worth: 5
 ascendio:
-  worth: 15
+  worth: 10
   parameters:
     cooldown: 10000
 
@@ -122,9 +128,13 @@ conjunctivitis:
   worth: 10
 deprimo:
   worth: 10
+
 erecto:
-  worth: 25
+  worth: 10
   category: transfiguration
+  parameters:
+    undo: 12000
+    undo_speed: 1
 
 fiantoduri:
   category: dada
@@ -134,7 +144,7 @@ imperio:
   worth: 40
   category: dark
 impervius:
-  worth: 15
+  worth: 10
 lumossolem:
   worth: 10
   parameters:
@@ -145,11 +155,11 @@ meteo:
   quick_cast: false
   worth: 30
   category: charms
-periculum:
-  worth: 5
 tripudio:
+  worth: 5
   category: charms
 volo:
+  worth: 5
   category: charms
 wingardium:
   worth: 5

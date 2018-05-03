@@ -3,7 +3,7 @@
 ignisdisceditus:
   icon: diamond_axe:33
   category: charms
-  worth: 15
+  worth: 5
   class: ConstructSpell
   effects:
     cast:

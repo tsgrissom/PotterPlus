@@ -1,13 +1,13 @@
 flight:
   inherit: false
   icon: diamond_axe:134
-  icon_url: http://textures.minecraft.net/texture/a35cfb663dbde27598eebe76b0fdac2593f1d696b3e6b9e044edeb8d48c2e2
   worth: 30
   show_undoable: false
   quick_cast: false
   cancel_effects: true
   category: elective
   upgrade_required_casts: 50
+  cooldown: 12000
   actions:
     cast:
       - class: MountArmorStand
@@ -17,11 +17,11 @@ flight:
         sound: enderdragon_wings
         location: origin
         source_location: eyes
-        color_override: color
         effectlib:
           class: SphereEffect
           particle: redstone
           radius: 1.5
+          radiusIncrease: 0.001
           particles: 500
           color: FFFFFF
     deactivate:
@@ -36,8 +36,9 @@ flight:
     liftoff_duration: 600
     liftoff_thrust: 0.6
     direction_y: 0.5
+    cooldown: 25000
   costs:
-    mana: 50
+    mana: 100
   active_costs:
     mana: 20
 

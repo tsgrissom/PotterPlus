@@ -10,11 +10,11 @@ lumosmaxima:
       - class: EffectSingle
         location: origin
         color: FFFFFF
-        firework: ball_large
+        firework: burst
       - class: EffectSingle
         location: origin
         color: FF0080
-        firework: ball
+        firework: burst
   parameters:
     effect_night_vision: 2
     duration: 60000

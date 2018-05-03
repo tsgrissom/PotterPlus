@@ -1,0 +1,19 @@
+year1:
+  spells:
+    - araniaexumai
+    - snowball
+    - nox
+    - flipendo
+    - flagrate
+    - wingardium
+    - locomotomortus
+    - bubblehead
+    - lumossolem
+    - felixleporemos
+    - despello
+    - pulvifors
+    - herbifors
+    - scribblifors
+    - ignisdisceditus
+  required_spells:
+    - alohomora

@@ -1,6 +1,7 @@
 erumpent_horn:
   inherit: base_wand
   icon: nether_star
+  display_name: '$name'
   lore:
     - '$description'
     - ''

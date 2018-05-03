@@ -1,0 +1,11 @@
+gillyweed_ability:
+  inherit: bubblehead
+  icon: vine
+  category: item_ability
+  hidden: true
+  cooldown: 30000
+  actions:
+    cast:
+      - class: PotionEffect
+  costs:
+    mana: 25

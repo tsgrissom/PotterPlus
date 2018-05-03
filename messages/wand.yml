@@ -84,11 +84,3 @@ wand:
     spell_instructions: "&6(&eMagic&6) &7Swing your &e$wand &7to cast spells. Spells require Energy, shown in the XP bar."
     enchant_instructions: ""
     sp_instructions: "&6(&eMagic&6) &7You have earned some &eCompletion Credits&7! &eCC's &7are displayed above your mana bar, and may be spent at a spell teacher to learn new spells."
-
-cooldown:
-    description: "&7Cooldown: &e$time"
-
-duration:
-    lasts_seconds: "&7Lasts for &e$seconds seconds"
-    lasts_minutes: "&7Lasts for &e$minutes minutes"
-    lasts_hours: "&7Lasts for &e$hours hours"

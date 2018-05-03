@@ -1,0 +1,4 @@
+duration:
+  lasts_seconds: "&7Lasts for &e$seconds seconds"
+  lasts_minutes: "&7Lasts for &e$minutes minutes"
+  lasts_hours: "&7Lasts for &e$hours hours"

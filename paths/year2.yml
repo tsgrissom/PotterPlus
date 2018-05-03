@@ -1,0 +1,19 @@
+year2:
+  spells:
+    - arresto
+    - arrow
+    - fourpoint
+    - finiteincantatem
+    - obscuro
+    - rictusempra
+    - immobulus
+    - alarteascendare
+    - incendio
+    - colloshoo
+    - evertestatum
+    - brachiabindo
+    - emancipare
+    - revelio
+    - brackiumemendo
+  required_spells:
+    - duro

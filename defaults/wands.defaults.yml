@@ -51,6 +51,12 @@ base_bow:
   right_click: none
   swap: cycle_hotbar
   quiet: 1
+testwand:
+  inherit: base_wand
+  icon: wood_hoe:1
+  mana: 500
+  mana_max: 500
+  mana_regeneration: 50
 potterwand:
   inherit: base_wand
   class: wizard
@@ -66,7 +72,7 @@ potterwand:
   hotbar_count: 2
   spells:
   - lumos
-  - aparecium
+  - vermillious
 wandbox:
   icon: wood_step:2
   replace_on_activate: potterwand
@@ -969,6 +975,15 @@ default:
   drop: toggle
   left_click: cast
   swap: cycle_hotbar
+developer:
+  inherit: base_wand
+  icon: blaze_rod
+  active_spell: testdummy
+  cost_reduction: 10
+  cooldown_reduction: 10
+  spells:
+  - testdummy
+  - debugger
 conductors_wand:
   icon: stick
   active_spell: music
@@ -981,18 +996,37 @@ conductors_wand:
   mana: 20
   mana_regeneration: 10
   uses: 5
-developer:
+music_box:
+  inherit: conductors_wand
+  icon: note_block
+  cooldown_reduction: 5
+  has_uses: false
+gillyweed:
   inherit: base_wand
-  icon: blaze_rod
-  active_spell: testdummy
+  icon: vine
+  display_name: $name
+  lore:
+  - $description
+  - ''
+  - '&8Right-click to consume some'
+  - ''
+  - $uses
   cost_reduction: 10
-  cooldown_reduction: 10
+  mana: 50
+  mana_regeneration: 25
+  undroppable: false
+  drop: none
+  swap: none
+  left_click: cast
+  right_click: cast
+  uses: 5
+  active_spell: gillyweed_ability
   spells:
-  - testdummy
-  - debugger
+  - gillyweed_ability
 erkling_dart_blower:
   inherit: base_wand
   icon: stick
+  display_name: $name
   lore:
   - $description
   - ''
@@ -1011,6 +1045,7 @@ erkling_dart_blower:
 erumpent_horn:
   inherit: base_wand
   icon: nether_star
+  display_name: $name
   lore:
   - $description
   - ''
@@ -1022,8 +1057,3 @@ erumpent_horn:
   active_spell: erumpent_attack
   spells:
   - erumpent_attack
-music_box:
-  inherit: conductors_wand
-  icon: note_block
-  cooldown_reduction: 5
-  has_uses: false
