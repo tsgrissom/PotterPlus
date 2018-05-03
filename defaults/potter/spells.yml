@@ -53,7 +53,11 @@ aparecium:
     icon: diamond_axe:71
     icon_disabled: diamond_hoe:71
     category: charms
-    class: ConstructSpell
+    actions:
+        cast:
+        -  class: Sphere
+           actions:
+           -  class: PowerBlock
     worth: 15
     effects:
         cast:
@@ -182,7 +186,6 @@ snowball:
            effectlib:
              class: SmokeEffect
              iterations: 1
-             particles: 15
              particle: snowball
     parameters:
       target: other
@@ -296,11 +299,11 @@ avadamaxima:
            firework: ball_large
         - class: EffectSingle
           location: target
-          particle_override: particleOrbital
+          particle_override: particle_orbital
           effectlib:
              class: AtomEffect
-             particleNucleus: villager_happy
-             particleOrbital: villager_happy
+             particle_nucleus: villager_happy
+             particle_orbital: villager_happy
              iterations: 16
     parameters:
         commands:
@@ -331,14 +334,14 @@ avis:
            sound: chicken_egg_pop
            effectlib:
              class: DnaEffect
-             particleHelix: drip_lava
+             particle_helix: drip_lava
              iterations: 24
         -  class: EffectSingle
            location: target
            effectlib:
              class: AtomEffect
              iterations: 32
-             particleOrbital: water_bubble
+             particle_orbital: spell
     parameters:
         allow_max_range: true
         range: 2
@@ -511,6 +514,7 @@ obscuro:
              particle: smoke_normal
              radius: 0.5
              particles: 20
+
     costs:
         mana: 25
     parameters:
@@ -713,25 +717,11 @@ spongify:
     category: transfiguration
 
 spongifymaxima:
-    icon: diamond_axe:173
-    icon_disabled: diamond_hoe:173
-    icon_url: http://textures.minecraft.net/texture/fced4114232f1aff90c5fbb3535e89c546858b14bae3fea7ecc896b2bd51
+    inherit: rubberize
     category: transfiguration
-    class: RecurseSpell
-    worth: 150
-    cast_on_no_target: true
-    effects:
-        cast:
-        -  class: EffectTrail
-           effect: step_sound
-        -  class: EffectSingle
-           sound: fuse
     parameters:
-        allow_max_range: false
-        range: 16
         size: 8
         check_destructible: false
-        brush: slime_block
         transparent: transparent_to_construction
         undo: 60000
         cooldown: 5000
@@ -851,40 +841,8 @@ floo:
         cooldown: 7000
 
 fiendfyre:
-    icon_url: http://textures.minecraft.net/texture/a9e073da36aaf2c844da428cd4a19dfde32c8cdc2404eed4a135f6095b17c
-    icon: diamond_axe:139
-    icon_disabled: diamond_hoe:139
+    inherit: flamethrower
     category: dark
-    class: IterateSpell
-    pvp_restricted: true
-    worth: 90
-    effects:
-        cast:
-        -  class: EffectSingle
-           sound: ghast_fireball
-           sound_volume: 1
-           effectlib:
-             class: ConeEffect
-             iterations: 16
-             lengthGrow: 0.4
-             particle: lava
-    parameters:
-        target_type: LivingEntity
-        transparent: transparent_to_construction
-        allow_max_range: true
-        range: 40
-        size: 30
-        radius: 1
-        reverse: false
-        increment_data: true
-        require_block: true
-        brush: lava
-        cooldown: 20000
-        undo: 1000
-        target_breakables: 5
-        bypass_backfire: true
-    costs:
-        mana: 180
 
 finiteincantatem:
     inherit: counterspell
@@ -1081,7 +1039,9 @@ fourpoint:
     icon: diamond_axe:189
     icon_disabled: diamond_hoe:189
     category: elective
-    class: OrientSpell
+    actions:
+      cast:
+      - class: Orient
     worth: 20
     effects:
         cast:
@@ -1361,7 +1321,6 @@ levicorpus:
     icon: diamond_axe:227
     icon_disabled: diamond_hoe:227
     category: charms
-    class: GenericSpell
     cast_on_no_target: true
     pvp_restricted: true
     worth: 20
@@ -1504,14 +1463,16 @@ lumossolem:
     icon: diamond_axe:228
     icon_disabled: diamond_hoe:228
     category: charms
-    class: TossSpell
+    actions:
+      cast:
+      - class: ThrowBlock
     worth: 20
     effects:
         cast:
         -  class: EffectSingle
            sound: fire_ignite
+           location: target
            effectlib:
-             location: target
              offset: 0,.5,0
              class: HelixEffect
              iterations: 1
@@ -1539,19 +1500,23 @@ morsmordre:
         - class: CommandAction
     effects:
         cast:
-        -  class: EffectSingle
-           sound: wither_hurt
+        -  sound: wither_hurt
         -  class: EffectTrail
-           particle: flame
-        -  class: EffectRing
-           location: target
-           firework: creeper
-           radius: 12
-           target_offset: 0,16,0
-           color: '00FF00'
-           color2: '88FF88'
+           particle: redstone
+           color: 00FF00
+        -  location: target
+           target_offset: 0,3,0
+           orient: true
+           effectlib:
+             enable_rotation: false
+             class: ColoredImageEffect
+             fileName: https://i.imgur.com/47aVrwT.gif
+             stepX: 1
+             stepY: 1
+             size: 0.2
+             transparency: true
     parameters:
-        target: any
+        target: block
         allow_max_range: true
         range: 16
         cooldown: 60000
@@ -2064,8 +2029,8 @@ amplify:
            location: origin
            effectlib:
              class: AtomEffect
-             particleNucleus: spell_witch
-             particleOrbital: crit_magicical
+             particle_nucleus: spell_witch
+             particle_orbital: crit_magicical
              iterations: 20
     parameters:
         commands:
@@ -2211,24 +2176,12 @@ vermillious|3:
         mana: 70
 
 colorvaria:
-    icon_url: http://textures.minecraft.net/texture/4e693cf3b7bf83248527aacc2714638b55587cde593963d1f861884f5be1638
-    icon: diamond_axe:125
-    icon_disabled: diamond_hoe:125
+    inherit: superalter
     category: transfiguration
-    class: AlterSpell
     worth: 8
-    effects:
-        cast:
-        -  class: EffectSingle
-           sound: level_up
-        -  class: EffectTrail
-           particle: flame
     parameters:
-        target_type: LivingEntity
-        allow_max_range: false
         range: 16
         depth: 8
-        transparent: transparent_to_construction
         undo: 5000
         bypass_build: true
         bypass_backfire: true
@@ -2293,11 +2246,11 @@ vulnera:
         - class: EffectSingle
           sound: level_up
           location: target
-          particle_override: particleOrbital
+          particle_override: particle_orbital
           effectlib:
              class: AtomEffect
-             particleNucleus: heart
-             particleOrbital: crit
+             particle_nucleus: heart
+             particle_orbital: crit
              iterations: 16
         -  class: EffectSingle
            location: target
@@ -2339,11 +2292,11 @@ ferula:
         - class: EffectSingle
           sound: creeper_death
           location: target
-          particle_override: particleOrbital
+          particle_override: particle_orbital
           effectlib:
              class: AtomEffect
-             particleNucleus: enchantment_table
-             particleOrbital: villager_angry
+             particle_nucleus: enchantment_table
+             particle_orbital: villager_angry
              iterations: 60
     parameters:
         target_type: LivingEntity
@@ -2666,11 +2619,11 @@ fiantoduri:
         - class: EffectSingle
           sound: orb_pickup
           location: target
-          particle_override: particleOrbital
+          particle_override: particle_orbital
           effectlib:
              class: AtomEffect
-             particleNucleus: spell_witch
-             particleOrbital: spell_witch
+             particle_nucleus: spell_witch
+             particle_orbital: spell_witch
              iterations: 70
     costs:
         mana: 100
@@ -2896,18 +2849,49 @@ broomshop:
         - item: wand|bluebottle
           cost: 100
 
-appearanceshop:
+potterappearanceshop:
     icon: wood_hoe
-    inherit: buyshop
+    hidden: true
+    actions:
+        cast:
+        -  class: Selector
     parameters:
         auto_close: true
-        confirm: true
         confirm_filler: stained_glass:3
-        require_wand: true
+        show_unavailable: true
+        requirements:
+        - wand: wand
+        unlock_section: potter_wand_appearances
+        apply_to_wand: true
+        cost_type: sp
+        options:
+        - item: skinny_upgrade
+          unlock: skinny
+          confirm: true
+          cost: 2000
+        - item: brown_upgrade
+          unlock: brown
+          confirm: true
+          cost: 2000
+        - item: black_upgrade
+          unlock: black
+          confirm: true
+          cost: 2000
+
+bookshop:
+    icon: book
+    category: npc
+    hidden: true
+    actions:
+        cast:
+        -  class: ItemShop
+    parameters:
+        quiet: true
+        confirm: false
         items:
-        - item: wand|skinny_upgrade
-          cost: 1000
-        - item: wand|brown_upgrade
-          cost: 1000
-        - item: wand|black_upgrade
-          cost: 1000
+        - item: book|charms
+        - item: book|creatures
+        - item: book|herbology
+        - item: book|transfiguration
+        - item: book|elective
+        - item: book|unforgiveable
