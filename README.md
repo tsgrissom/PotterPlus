@@ -2,6 +2,9 @@
 
 Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more information.
 
+[Changelog](https://github.com/grisstyl/BetterPotter/blob/master/changelog.md)
+[License](https://github.com/grisstyl/BetterPotter/blob/master/license.md)
+
 ## TODO
 
 ### General
