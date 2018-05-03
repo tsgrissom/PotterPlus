@@ -1,16 +1,1 @@
-# More wands are contained under /wands/
-
-default:
-  drop: toggle
-  left_click: cast
-  swap: cycle_hotbar
-
-wandbox:
-  icon: wood_step:2
-
-potterwand:
-  hotbar_count: 2
-  spells:
-    - lumos
-    - vermillious
-  active_spell: lumos
+# Wands are contained under /wands/
