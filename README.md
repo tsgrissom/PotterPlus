@@ -15,7 +15,6 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Change upgrade_commands on year up
 * Add .gitattributes
 * Define some automata
-* Move effects.yml effects over to /effects/
 * Consider changing upgrade messages
 * Remove unnecessary parameters from spells
 * Make actions and effects consistent (`class: SphereEffect` -> ` class: Sphere` or `class: VelocityAction` -> `class: Velocity`)

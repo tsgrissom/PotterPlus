@@ -1,0 +1,11 @@
+bundimun_summon:
+  - class: EffectSingle
+    location: origin
+    material: slime_block
+    effectlib:
+      class: AtomEffect
+      radius: 2
+      particleOrbital: block_crack
+      particleNucleus: block_crack
+      orbitals: 12
+      iterations: 16
