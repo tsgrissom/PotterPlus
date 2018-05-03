@@ -18599,7 +18599,7 @@ fourpoint:
     - location: origin
       effectlib:
         class: Sphere
-        radius: 0.25
+        radius: 0.5
         particle: spell_mob_ambient
         color: FFFFFF
         iterations: 16
