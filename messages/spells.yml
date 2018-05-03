@@ -90,6 +90,8 @@ spells:
     description: "The Levitating Charm"
   fourpoint:
     description: "The Compass Charm"
+  fourpoint|2:
+    upgrade_description: "&r&8&bull; &eFaster effect, decreased cooldown."
   flipendo:
     description: "The Pushing Jinx"
   arrow:
