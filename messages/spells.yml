@@ -77,6 +77,10 @@ spells:
     description: "Lessens your downward momentum, cushioning the damage of your fall significantly."
   periculum:
     description: "Conjures and ignites bright-red fireworks where you wish to signal fellow wizards."
+  periculum|2:
+    upgrade_description: "&r&8&bull; &eIncreased size of fireworks."
+  periculum|3:
+    upgrade_description: "&r&8&bull; &eIncreased size of fireworks."
   avis:
     description: "Conjures a number of avian companions temporarily."
   avis|2:
