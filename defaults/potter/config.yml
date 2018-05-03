@@ -17,25 +17,22 @@ default_wand: potterwand
 # Start players off with some Spell Points
 sp_default: 100
 
-# This is a complete wand/spell overhaul
-load_default_spells: true
-disable_default_spells: true
-load_default_wands: false
-load_default_classes: true
-load_default_paths: false
-load_default_crafting: false
+# This is a modifier on the default survival configs
+inherit: survival
+
+# Turn off the survival spells, but allow them to be inherited from
+disable_inherited:
+ - spells
+
+skip_inherited:
+ - wands
+ - paths
+ - crafting
+ - classes
+ - mobs
 
 # Don't allow crafting
 enable_crafting: false
-
-# Don't allow combining
-enable_combining: false
-
-# Disable the enchantment table showing the spell shop or upgrades
-enchant_block: ""
-
-# Wands don't glow because they don't in the movies
-wand_glow: false
 
 # Custom physical economy
 currency:
@@ -43,6 +40,20 @@ currency:
     worth: 1
     name: Galleon
     name_plural: Galleons
-
+    
 # Use the potter RP
-resource_pack: "https://s3-us-west-2.amazonaws.com/elmakers/Magic/Magic-potter-RP-6-4.zip"
+resource_pack: "https://s3-us-west-2.amazonaws.com/elmakers/Magic/Magic-potter-RP-7.zip"
+
+# Default class
+default_mage_class: wizard
+
+# Set up some custom currency
+custom_currency:
+ tc:
+  max: 9999
+  default: 0
+  icon: skull:http://textures.minecraft.net/texture/b11206551e723c356c23b32383abd19e6d7e9e5988f191e7866ae89ed6cb24
+ ac:
+  max: 9999
+  default: 0
+  icon: skull:http://textures.minecraft.net/texture/82d8ccac4d982bf3199761c1c74b9aa18e312ff5ca0a6e51b77a87abad610b

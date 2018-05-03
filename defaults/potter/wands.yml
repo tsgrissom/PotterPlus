@@ -2,52 +2,19 @@
 # Add some Harry Potter themed wand templates
 #
 
-# These are copied from the default configs. We can't reference them or there will be a collision on the "wand"
-# item.
-# This may be fixed in the future by removing "wand" from these configs- please use "potterwand" instead!
-
-base_bound:
-  hidden: true
-  bound: true
-  keep: true
-  invulnerable: true
-  immortal: true
-  track: true
-  undroppable: true
-  indestructible: true
-
-base_wand:
-    hidden: true
-    inherit: base_bound
-    mode: inventory
-    drop: toggle
-    left_click: cast
-    right_click: none
-    swap: cycle_hotbar
-    quiet: 1
-    effect_bubbles: false
-    attributes:
-      GENERIC_ATTACK_SPEED: 10
-    attribute_slot: mainhand
-
 # This was renamed from wand to support mixing configs with defaults
 potterwand:
     inherit: base_wand
+    class: wizard
     icon: wood_hoe:24,wood_hoe:25,wood_hoe:26
     migrate_icons:
       wood_hoe: wood_hoe:24
       gold_axe: wood_hoe:25
       gold_pickaxe: wood_hoe:26
     active_spell: vermillious
-    path: year1
     quiet: 1
-    mana_max: 50
-    mana: 50
-    mana_regeneration: 6
     effect_color: '888888'
     effect_bubbles: false
-    spells:
-     - vermillious
 
 # This will turn into a potterwand when held
 wandbox:
@@ -61,12 +28,6 @@ wandbox:
        firework: star
        radius: 4
        size: 2
-
-
-# This is here for backwards-compatibility
-# Please use wandbox or potterwand instead, this may be removed in the future.
-wand:
-  inherit: randomizedpotterwand
 
 randomizedpotterwand:
   hidden: true
@@ -88,7 +49,6 @@ elder:
     path: graduate
     organize: true
     cost_reduction: 2
-    protection_falling: 2
     quiet: 1
     power: 0
     haste: 0
@@ -125,7 +85,6 @@ unspeakable:
     organize: true
     cost_reduction: 2
     cooldown_reduction: 2
-    protection: 1
     quiet: 0
     power: 0
     haste: 0.1
@@ -148,7 +107,6 @@ slytherinwand:
     organize: true
     cost_reduction: 2
     cooldown_reduction: 2
-    protection: 1
     quiet: 0
     power: 0
     haste: 0
@@ -966,3 +924,126 @@ sorting:
     overrides: warp sortinghat
     spells:
         - recall
+
+# Upgrades taken from default configs
+
+#
+# COLOR UPGRADE ITEMS
+#
+
+whiteeffects:
+    upgrade: true
+    indestructible: false
+    icon: carpet:0
+    effect_color: 'FFFFFF'
+orangeeffects:
+    upgrade: true
+    indestructible: false
+    icon: carpet:1
+    effect_color: 'FFAA00'
+magentaeffects:
+    upgrade: true
+    indestructible: false
+    icon: carpet:2
+    effect_color: 'FF00FF'
+lightblueeffects:
+    upgrade: true
+    indestructible: false
+    icon: carpet:3
+    effect_color: 'ADD8E6'
+yelloweffects:
+    upgrade: true
+    indestructible: false
+    icon: carpet:4
+    effect_color: 'FFFF00'
+greeneffects:
+    upgrade: true
+    indestructible: false
+    icon: carpet:5
+    effect_color: '00FF00'
+pinkeffects:
+    upgrade: true
+    indestructible: false
+    icon: carpet:6
+    effect_color: 'FAAFBE'
+grayeffects:
+    upgrade: true
+    indestructible: false
+    icon: carpet:7
+    effect_color: '808080'
+lightgrayeffects:
+    upgrade: true
+    indestructible: false
+    icon: carpet:8
+    effect_color: 'D0D0D0'
+aquaeffects:
+    upgrade: true
+    indestructible: false
+    icon: carpet:9
+    effect_color: '00FFFF'
+purpleeffects:
+    upgrade: true
+    indestructible: false
+    icon: carpet:10
+    effect_color: '800080'
+blueeffects:
+    upgrade: true
+    indestructible: false
+    icon: carpet:11
+    effect_color: '0000FF'
+browneffects:
+    upgrade: true
+    indestructible: false
+    icon: carpet:12
+    effect_color: '806517'
+darkgreeneffects:
+    upgrade: true
+    indestructible: false
+    icon: carpet:13
+    effect_color: '254117'
+redeffects:
+    upgrade: true
+    indestructible: false
+    icon: carpet:14
+    effect_color: 'FF0000'
+blackeffects:
+    upgrade: true
+    indestructible: false
+    icon: carpet:15
+    effect_color: '010101'
+randomeffects:
+    upgrade: true
+    indestructible: false
+    icon: skull_item:http://textures.minecraft.net/texture/1adaf6e6e387bc18567671bb82e948488bbacff97763ee5985442814989f5d
+    effect_color: 'random'
+bubbleeffects:
+    upgrade: true
+    indestructible: false
+    icon: glass_bottle
+    effect_bubbles: true
+cleareffects:
+    force: true
+    upgrade: true
+    effect_bubbles: false
+    effect_particle: ""
+    icon: barrier
+rainboweffects:
+    upgrade: true
+    indestructible: false
+    icon: magma_cream
+    effect_particle: spell_mob
+    effect_particle_data: 2
+    effect_particle_count: 10
+    effect_particle_radius: 2
+    effect_particle_interval: 500
+    effect_particle_offset: 0.5
+haloeffects:
+    upgrade: true
+    indestructible: false
+    icon: magma_cream
+    effect_particle: redstone
+    effect_particle_count: 6
+    effect_particle_interval: 100
+    effect_particle_data: 0
+    effect_particle_radius: 0.4
+    effect_particle_offset: 0.5

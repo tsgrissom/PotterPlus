@@ -18,10 +18,16 @@ wand:
     mana_regeneration_boost: "&d&oEnergy Regeneration Boost: $amount%"
 
 costs:
-    xp_amount: $amount XP
     mana_amount: $amount Energy
     mana: Energy
-    xp: XP
+
+currency:
+    tc:
+      amount: $amount TC
+      name: Test Credits
+    ac:
+      amount: $amount AC
+      name: Academic Credits
 
 spell:
     undoable: "Counterable"
@@ -163,7 +169,6 @@ spells:
         cast: Bombarda!
     broom:
         name: Broom
-        description: Powers magic brooms
         cast: Your broom springs to life!
         deactivate: Your broom quiets down.
         crash: CRASH!
@@ -232,9 +237,10 @@ spells:
         cast: Duro!
     rennervate:
         name: Rennervate
-        description: The Awakening Charm
-        cast_self: "&7Rennervate!"
-        cast: "&7Rennervate &e$target&7!"
+        description: Wake a stunned person
+        cast_self: Rennervate!
+        cast: Rennervate $target!
+        cast: Rennervate!
     floo:
         name: Fire Protection
         description: Use to avoid fire damage
@@ -564,6 +570,13 @@ spells:
         cast: You exchanged $requires for $item
         insufficient_resources: You must have $requires
         title: "Ollivander"
+    bookshop:
+        name: Spellbook Shop
+        title: "Spell Books"
+        description: Get some spell books
+        cost_lore: "Free!"
+        confirm_title: "Get $item"
+        deducted: "&d&oYou received &r&6$item"
 
 randomized:
    wood:
@@ -623,7 +636,7 @@ wands:
 
     potterwand:
         name: Wand
-        description: $wood with $core
+        description: $wood and $core
 
     wandbox:
         name: Wand Box
