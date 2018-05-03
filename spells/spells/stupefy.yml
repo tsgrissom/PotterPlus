@@ -4,9 +4,7 @@ stupefy:
   upgrade_required_path: year5
   upgrade_required_casts: 25
   category: dada
-  worth: 15
-  earns_sp: 7
-  earns_cooldown: 2000
+  worth: 10
   actions:
     cast:
       - class: CustomProjectile
