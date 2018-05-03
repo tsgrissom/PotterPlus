@@ -3,6 +3,7 @@
 Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more information.
 
 [Changelog](https://github.com/grisstyl/BetterPotter/blob/master/changelog.md)
+
 [License](https://github.com/grisstyl/BetterPotter/blob/master/license.md)
 
 ## TODO
@@ -22,7 +23,6 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Remove unnecessary parameters from spells
 * Make actions and effects consistent (`class: SphereEffect` -> ` class: Sphere` or `class: VelocityAction` -> `class: Velocity`)
 * Add distances to mobs so they are less crazy persistent
-* Update wiki with more stuff, fix folder structure info
 * Implement longapparate based on recall again
 
 ### Known bugs
