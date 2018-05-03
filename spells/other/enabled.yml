@@ -18,9 +18,6 @@ upgrades:
   hidden: true
   category: npc
 
-light:
-  enabled: true
-
 debugger:
   enabled: true
   hidden: true

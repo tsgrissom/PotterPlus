@@ -1,0 +1,20 @@
+year7:
+  spells:
+    - atmos
+    - meteo
+    - piertotum
+    - ventus
+    - vulnera
+    - confringo
+    - spongifymaxima
+    - volo
+    - erecto
+    - expulso
+    - fiendfyre
+    - incarcifors
+    - obliviate
+    - glisseo
+  required_spells:
+    - protegomaxima
+  upgrade_commands:
+    - broadcast §6@pd §3has graduated from their school!

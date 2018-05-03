@@ -1,0 +1,5 @@
+spell:
+  category: "&9$category"
+  required_spell: "&6(&eMagic&6) &7You must learn &6$spell &7to graduate"
+  undoable: "&8Undoable"
+  not_undoable: "&8Not undoable"

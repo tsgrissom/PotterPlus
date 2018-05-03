@@ -1,5 +1,3 @@
-# Corresponds to the Whip-Conjuring Spell
-
 flagellos:
   inherit: whip
   category: dark

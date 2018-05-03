@@ -1,37 +1,34 @@
 categories:
-    specialty:
-        name: Speciality
-        description: Generally not for casting, these often power magic items.
-    staff:
-        name: Staff
-        description: These are generally only for staff.
-    elective:
-        name: Electives
-        description: Various subjects you can choose to take on your own.
-    dada:
-        name: DADA
-        description: Defend yourself against dark magic.
-    charms:
-        name: Charms
-        description: Change the attributes of yourself and other objects.
-    herbology:
-        name: Herbology
-        description: Cultivate plants or use healing magic.
-    dark:
-        name: Dark Arts
-        description: Exploring the darker side of magic.
-    transfiguration:
-        name: Transfiguration
-        description: Spells to transform, switch, vanish, or conjure objects.
-    creatures:
-        name: Magical Creatures
-        description: Spells used to control magical creature.
-    potions:
-      name: Potions
-      description: Spells that are only casted by potions.
-    beast_ability:
-      name: "Beast Ability"
-      description: "Abilities that beasts can utilize"
-    item_ability:
-      name: "Item Ability"
-      description: "Abilities that items can utilize"
+  specialty:
+    name: "Specialty"
+    description: "Generally not for casting, these often power magic items."
+  staff:
+    name: "Staff"
+    description: "These are generally only for staff."
+  elective:
+    name: "Electives"
+    description: "Various subjects you can choose to take on your own."
+  dada:
+    name: "DADA"
+    description: "Defend yourself against dark magic."
+  charms:
+    name: "Charms"
+    description: "Change the attributes of yourself and other objects."
+  herbology:
+    name: "Herbology"
+    description: "Cultivate plants or use healing magic."
+  dark:
+    name: "Dark Arts"
+    description: "Exploring the darker side of magic."
+  transfiguration:
+    name: Transfiguration
+    description: "Spells to transform, switch, vanish, or conjure objects."
+  creatures:
+    name: "Magical Creatures"
+    description: "Spells used to control magical creatures."
+  beast_ability:
+    name: "Beast Ability"
+    description: "Abilities that beasts can utilize"
+  item_ability:
+    name: "Item Ability"
+    description: "Abilities that items can utilize"

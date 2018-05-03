@@ -1,0 +1,20 @@
+year4:
+  spells:
+    - accio
+    - tarantallegra
+    - ascendio
+    - deprimo
+    - periculum
+    - protego
+    - impervius
+    - tripudio
+    - fiantoduri
+    - impedimenta
+    - melofors
+    - depulso
+    - homenumrevelio
+    - arrowmaxima
+    - carperetractum
+    - locomotorwibbly
+  required_spells:
+    - episkey

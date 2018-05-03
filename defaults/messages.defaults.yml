@@ -97,8 +97,8 @@ mage:
   earned_sp: '&e+$amount &7CC earned'
   no_class: You are not trained to use $name
   player_spell_upgraded: $players's &r&6$name &d&ohas been upgraded to &3$level
-  spell_upgraded: Your &r&6$name &d&ospell has been upgraded to &3$level
-  spell_added: You have learned the &r&6$name &d&ospell
+  spell_upgraded: '&6(&eMagic&6) &7Your &6$name &7spell has been upgraded to &6$level'
+  spell_added: '&6(&eMagic&6) &7You have learned the &6$name &7spell!'
   brush_added: You have acquired the &r&7$name &d&obrush
 general:
   no_spells: '&6(&eMagic&6) &cYou don''t know any spells.'
@@ -110,7 +110,7 @@ general:
   locked_chest: '&6(&eMagic&6) &cThat chest is locked, you cannot break it.'
 books:
   default:
-    author: MineStein_
+    author: NathanWolf
     title: $category Spell Book
   all:
     title: The Master Spell Book
@@ -144,7 +144,7 @@ cooldown:
   description_second: One second
   description_moment: A Moment
   description: '&7Cooldown: &e$time'
-  mage_description: '&cExhaustion: &6$time'
+  mage_description: '&7Exhaustion: &e$time'
 warmup:
   description: '&7Warmup: &6$time'
 duration:
@@ -235,14 +235,14 @@ shops:
   property_max: '&r&cYour &6$property &cis maxed out'
   property_min: '&r&cYour &6$property &cmust be greater than $4$value'
 spell:
-  category: '&7&o$category'
+  category: '&9$category'
   brush: Uses Material Brushes
-  undoable: Counterable
-  not_undoable: '&4Not Undoable'
+  undoable: '&8Undoable'
+  not_undoable: '&8Not undoable'
   available_path: Available to $paths
   required_path: Required for $path graduation
   levels_available: 'Max Level: &r&5$levels'
-  required_spell: You must learn &r&4$spell &d&oto graduate
+  required_spell: '&6(&eMagic&6) &7You must learn &6$spell &7to graduate'
   prerequisite_spell_level: '&cYou must know &6Level $level $name'
   prerequisite_spell_progress_level: ' &6(Progress $level/$max_level)'
   level_description: Level $level
@@ -400,7 +400,8 @@ spells:
     cast_player_message: a:You got sucked into a black hole
   arrow:
     name: Arrow
-    description: The Projectile-Conjuring Spell
+    description: A simple, but effective offensive spell which conjures an arrow and
+      thrusts it at the target.
     upgrade_description: Increased damage and accuracy
   arrow_light:
     name: Light Arrow
@@ -1622,7 +1623,7 @@ spells:
     description: |-
       Spend Spell Points to learn new spells.
       When you have learned all the required spells on your current path, you will rank up to the next path!
-    cost_lore: 'Costs: $cost'
+    cost_lore: '&aCosts: $cost'
     no_items: '&6(&eMagic&6) &cThere are no spells for you to buy here.'
     no_path: '&6(&eMagic&6) &cYou may not learn that with that &4$wand&c.'
     no_upgrade: '&6(&eMagic&6) &cThere is nothing more for you to learn here.'
@@ -1931,16 +1932,16 @@ spells:
     description: Make yourself completely invisible to other players.
   accio:
     name: Accio
-    description: The Summoning Charm
+    description: Summons objects and lesser creatures to the caster.
     cast: Accio $target!
     cast_player_message: ''
   aguamenti:
     name: Aguamenti
-    description: The Water-Making Spell
+    description: Conjures a gush of water for drinking use or to cushion a fall.
     cast: Aguamenti!
   alohomora:
     name: Alohomora
-    description: The Unlocking Charm
+    description: Unlocks doors that are not magically protected against such charms.
     cast_finish: ''
   amplify:
     name: Amplify
@@ -1951,28 +1952,35 @@ spells:
     cast_finish: ''
   apparate:
     name: Short-Distance Apparition
-    description: The Apparition Spell
+    description: Causes the witch or wizard to vanish from one location in disapparition
+      and re-appear somewhere desirable in apparation.
     no_target: Can't apparate there
     teleport_failed: Can't apparate there
     teleport: ''
   araniaexumai:
     name: Arania Exumai
-    description: The Arachnid-Repelling Jinx
+    description: Repells arachnids and damages them severely. A must-have when venturing
+      into dangerous forests or spelunking in caves inhabited by acromantula colonies.
     cast: Arania Exumai!
   arresto:
     name: Arresto Momentum
-    description: The Momentum-Stopping Spell
+    description: Lessens your downward momentum, cushioning the damage of your fall
+      significantly.
   ascendio:
     name: Ascendio
-    description: The Propulsion Spell
+    description: A lesser form of propulsion-based flight, this spell propels the
+      wizard high into the air, or whatever direction they choose.
   atmos:
     name: Atmospheric Charm
-    description: The Weather-Changing Spell
+    description: Using incredibly old and powerful magic you can influence the world
+      around you, including controlling the weather for the worse to cause rain and
+      thunder.
     cast: You calm the storm
     area: You stir up a storm
   avadakedavra:
     name: Avada Kedavra
-    description: The Killing Curse
+    description: In a flash of green light, this unblockable curse can end the life
+      of any living creature with great malice.
     usage: Unforgiveable!
     cast: Avada Kedavra!
   avadamaxima:
@@ -1982,7 +1990,7 @@ spells:
     cast: Avada Kedavra $target!
   avis:
     name: Avis
-    description: The Bird-Conjuring Spell
+    description: Conjures a number of avian companions temporarily.
     cast: Avis!
   beat:
     name: Beat
@@ -1990,37 +1998,45 @@ spells:
     cast_player_message: '&d&o$player &r&5beat you down!'
   bogies:
     name: Curse of the Bogies
-    description: The Sickening Curse
+    description: Sickens the target significantly, causing a runny nose, terrible
+      cough, and overall miserable symptoms.
   bombarda:
     name: Bombarda
-    description: The Exploding Spell
+    description: Causes the target to explode, inflicting deadly damage and damaging
+      the surrounding area.
     cast: Bombarda!
   bubblehead:
     name: Bubble-Head Charm
-    description: The Breathing Charm
+    description: Conjures a magical buble of air for a wizard to breathe underwater
+      with.
   colorvaria:
     name: Colorvaria
-    description: The Color-Changing Charm
+    description: Changes the color of objects temporarily.
     cast: Aguamenti!
   colloportus:
     name: Colloportus
-    description: The Locking Charm
+    description: Locks previously unlocked doors, preventing basic unlocking charms
+      from being used against them.
     cast_finish: ''
   confringo:
     name: Confringo
-    description: The Blasting Curse
+    description: Blastes the target or blocks to pieces in order to inflict massive
+      damage or clear obstacles.
     cast: Confringo!
   confundus:
     name: Confundo
-    description: The Confundus Jinx
+    description: Confuses the target, making it difficult to cast spells or sufficiently
+      protect themselves.
     cast: Confundus $target!
   conjunctivitis:
     name: Conjunctivitis
-    description: The Blinding Hex
+    description: Causes severe, painful blindness against targets, making them vulnerable
+      against follow-up attacks.
     cast: Conjunctivitis $target!
   crucio:
     name: Crucio
-    description: The Cruciatus Curse
+    description: This torturous spell induces horrible, writing pain which makes it
+      terribly hard to focus on anything but the pain at hand.
     usage: Unforgiveable!
     cast: Crucio $target!
   dementor:
@@ -2033,7 +2049,9 @@ spells:
     cast: Deluminate!
   meteo:
     name: Meteolojinx Recanto
-    description: The Weather-Clearing Spell
+    description: Using incredibly old and powerful magic you can influence the world
+      around you, including controlling the weather for the better to clear rain and
+      thunder.
     area: Meteolojinx Recanto!
   deletrius:
     name: Deletrius
@@ -2049,18 +2067,20 @@ spells:
     cast: Deprimo Maxima!
   diffindo:
     name: Diffindo
-    description: The Fabric-Severing Charm
+    description: Severs fabric.
     cast: Diffindo!
   disillusion:
     name: Disillusionment Charm
-    description: The Disillusionment Charm
+    description: Creates the illusion of invisibility on the target as a means of
+      concealment or to cause confusion. This spell is often used to create invisibility
+      cloaks.
   duro:
     name: Duro
-    description: The Hardening Charm
+    description: Hardens extremely hot liquids to a stone consistency.
     cast: Duro!
   rennervate:
     name: Rennervate
-    description: The Awakening Spell
+    description: Awakens stunned targets back to their normal state, alleviating confusion.
     cast_self: Rennervate!
     cast: Rennervate!
   floo:
@@ -2072,94 +2092,102 @@ spells:
     cast: Erecto Tent!
   episkey:
     name: Episkey
-    description: The Minor Healing Spell
+    description: Mends the most minor of the target's wounds to increase vitality.
     cast_self: Episkey!
     cast: Episkey $target!
   ferula:
     name: Ferula
-    description: The Bandaging Spell
+    description: Conjures magical bandages in order to heal the target.
     cast_self: ''
     cast: ''
   engorgio:
     name: Engorgio
-    description: The Engorging Charm
+    description: Engorges objects or creatures to collosal sizes.
     cast: Engorgio $target!
   evanesco:
     name: Evanesco
-    description: The Vanishing Spell
+    description: Causes the target to vanish into almost non-being, temporarily.
     cast: Evanesco $target!
   expelliarmus:
     name: Expelliarmus
-    description: The Disarming Spell
+    description: In a flash of red light, this spell disarms the target of their item,
+      wand or otherwise.
     cast: Expelliarmus!
   pulsus:
     name: Pulsus
-    description: Blast your enemies away
+    description: Pushes away a number of nearby targets with great force, damaging
+      them.
     cast: Pulsus!
   rictusempra:
     name: Rictusempra
-    description: The Tickling Charm
+    description: Tickles the target terribly
     cast: Rictusempra!
   expulsion:
     name: Expulsion
     description: Kick your target out of school
     cast: Expelled $target!
   fiantoduri:
-    description: The Protective Charm
+    description: Grants you additional protections against damage of all kinds.
     name: Fianto Duri
     cast: Fianto Duri!
   fiendfyre:
     name: Fiendfyre
-    description: The Fiendfyre Curse
+    description: Conjures an unstoppable mammoth of a flame which will consume anything
+      and everything in its path.
   finiteincantatem:
     name: Finite Incantatem
-    description: The General Counterspell
+    description: A general-purpose counterspell which will undo most of the world-changing
+      effects of previously cast spells.
     usage: ''
     extended_description: The Minister of Magic's Favourite Spell.
     cast: Finite Incantatem &d&o$target &r&6$spell!
     cast_player_message: '&d&o$player &r&5countered your &3&o$spell &r&5cast!'
   firestorm:
     name: Firestorm
-    description: The Incineration Curse
+    description: Incinerates nearby targets by conjuring huge, reaching flames around
+      you.
   flagrate:
     name: Flagrate
-    description: The Fire-Writing Charm
+    description: Writes your name in flames in mid-air.
     cast: Flagrate!
   flipendo:
     name: Flipendo
-    description: The Pushing Jinx
+    description: A basic offensive spell which pushes the target backwards.
     cast: Flipendo $target!
     cast_player_message: ''
   ventus:
     name: Ventus
-    description: The Wind-Blasting Jinx
+    description: Blasts the target with a stream of hot air which propels them backwards.
     cast: Ventus!
   fumos:
     name: Fumos
-    description: The Smoke-Producing Spell
+    description: Produces heavy smoke which fills the target's lungs, slowing them
+      down and obstructing their breathing, and blinding them.
     cast: Fumos!
   flight:
     name: Flight
-    description: The Flight Ability
+    description: Channeling some of the most powerful magic known to wizardkind, you
+      levitate in the air and sail around with no aid from a magical device.
     cast: You feel lighter
     cost_free: You feel heavier
   fourpoint:
     name: The Four Point Spell
-    description: The Compass Charm
+    description: Points you in the direction to go.
     extended_description: Believed to be invented by Hermionie Granger
     cast: Point Me!
   glacius:
     name: Glacius
-    description: The Freezing Charm
+    description: With a jet of icy breeze, snow is conjures and falls from the sky,
+      icing over the ground below it and inflicting cold damage.
     extended_description: Freezes an area
     cast: Glacius $target!
   immobulus:
     name: Immobulus
-    description: The Immobilizing Jinx
+    description: Immoblizes the target temporarily.
     cast: Immobulus $target!
   locomotomortus:
     name: Locomotor Mortus
-    description: The Leg-Locking Curse
+    description: Locks the target's legs to immobilize them temporarily.
     cast: Locomotomortus $target!
   imperiomaxima:
     name: Imperio Maxima
@@ -2169,80 +2197,95 @@ spells:
     cast_player_message: '&d&o$player: &r&5Imperio!'
   imperio:
     name: Imperio
-    description: The Imperius Curse
+    description: This unforgivably dark spell grants you control of where the target
+      goes.
     usage: Unforgiveable!
     cast_player_message: ''
   impervius:
     name: Impervius
-    description: The Water-Repelling Charm
+    description: Causes water to repel away from objects or areas, clearing pathways
+      through water.
     cast: Impervius!
   incendio:
     name: Incendio
-    description: The Fire-Making Spell
+    description: Ignites things on fire for a variety of purposes.
     cast: Incendio!
   incarcerous:
     name: Incarcerous
-    description: The Rope-Binding Jinx
+    description: Binds your target in ropes which they will find difficult to escape
+      from.
     cast: Incarcerous!
   lacarnum:
     name: Lacarnum Inflamari
-    description: The Fireball-Conjuring Curse
+    description: Conjures and propels a fireball which can inflict major damage to
+      both creatures and the surrounding area.
   legilimens:
     name: Legilimens
     description: Peer into your target's soul
   levicorpus:
     name: Levicorpus
-    description: The Levitating Jinx
+    description: Levitates and flips the target upside down, making them incredibly
+      vulnerable to follow-up attacks.
     cast: Levicorpus $target!
   lumos:
     name: Lumos
-    description: The Wand-Lighting Charm
+    description: Lights up the tip of your wand to provide a light source in dark
+      areas.
     cast: Lumos!
   morsmordre:
     name: Morsmordre
-    description: The Dark Mark Spell
+    description: Conjures the symbol of one of Britain's darkest wizards, Lord Voldemort
+      high into the air.
     cast: Morsmordre!
   nox:
     name: Nox
-    description: The Wand-Extinguishing Charm
+    description: Extinguishes your lit wand to conceal yourself back into the darkness.
     area: Nox $target!
   noxmaxima:
     name: Nox Maxima
-    description: The Darkening Charm
+    description: Using incredibly powerful, world-shaping magic you can turn day to
+      night.
     area: Nox Maxima!
   obscuro:
     name: Obscuro
-    description: The Vision-Obscuring Hex
+    description: Obscures the target's vision, making it more easily to evade or escape
+      their jinxes.
     cast: Obscuro $target!
   orchideous:
     name: Orchideous
-    description: The Flowering Charm
+    description: Pollinates the area with flowers.
     removed: Your magical flower turns to dust
   periculum:
     name: Periculum
-    description: The Spark-Producing Charm
+    description: Conjures and ignites bright-red fireworks where you wish to signal
+      fellow wizards.
     cast: Periculum!
   periculux:
     name: Periculux
-    description: The Rainbow-Sparks Charm
+    description: Conjures rainbow-colored fireworks which signal to fellow wizards.
   petrificustotalus:
     name: Petrificus Totalus
-    description: The Body-Binding Spell
+    description: Binds the entire body of the target, preventing any movement for
+      a short while.
     cast: Petrificus Totalus!
   patronus:
     name: Expecto Patronum
-    description: The Patronus Charm
+    description: Conjures concentrated happiness of a wizard from their happiest memory
+      to protect against dark beings such as dementors and lethifolds.
     cast: Expecto Patronum!
   piertotum:
     name: Piertotum Locomotor
-    description: The Armor-Animating Spell
+    description: Animates sets of armor and brings them to your defense as an extra
+      boost in combat.
   protego:
     name: Protego
-    description: The Shield Charm
+    description: Conjures a shield of pure magical energy which can deflect projectiles
+      and shield you from attacks.
     cast: Protego!
   protegomaxima:
     name: Protego Maxima
-    description: The Maximum Shield Charm
+    description: Conjures a spherical shield which will encase a large area and protect
+      you from incoming projectiles and magical attacks.
     usage: Cast twice to construct
     cancel: Protego cancelled
     target_selected: Cast again to build shell
@@ -2250,11 +2293,13 @@ spells:
     cast_finish: Filled $count blocks with $material
   reducio:
     name: Reducio
-    description: The Shrinking Spell
+    description: Causes the target object or creature to shrink quickly, assuming
+      they are not already as small as they can be.
     cast: Reducio $target!
   reducto:
     name: Reducto
-    description: The Vaporizing Curse
+    description: Vaporizes stone into dust-like particles. Can open up access to new
+      areas.
     cast: Reducto!
   reductomaxima:
     name: Reducto Maxima
@@ -2262,11 +2307,12 @@ spells:
     cast: Reducto Maxima!
   revelio:
     name: Revelio
-    description: The Revealing Charm
+    description: Reveals hidden things nearby, such as pathways or objects.
     cast: Revelio!
   salviohexia:
     name: Salvio Hexia
-    description: The Hex-Deflecting Spell
+    description: Provies additional defenses against hexes, curses, and other dark
+      magic.
     usage: ''
     cancel: Salvio Hexia cancelled
     fail: Too large!
@@ -2274,7 +2320,7 @@ spells:
     target_selected: Cast again to preserve area
   reparifarge:
     name: Reparifarge
-    description: The Master Counterspell
+    description: Counter mosts of the world-impacting effects of previously cast spells.
     cast: '&6(&eMagic&6) &7You reverse the &e$spell &7cast.'
     cast_self: '&6(&eMagic&6) &7You reverse your &e$spell &7cast.'
     cost_free: '&6(&eMagic&6) &7You cancel your &e$spell &7cast.'
@@ -2293,11 +2339,13 @@ spells:
     cast_finish: Reparo Maxima!
   sectumsempra:
     name: Sectumsempra
-    description: The Severing Curse
+    description: Seemingly using an invisible sword, this spell will lash out and
+      slash a target to pieces, inflicting massive damage and bleeding.
     cast: Sectumsempra!
   stupefy:
     name: Stupefy
-    description: The Stunning Spell
+    description: In a jet of red light, this spell will inflict damage and stun the
+      target, preventing them from performing other actions for a short time.
     cast: Stupefy $target!
   silencio:
     name: Silencio
@@ -2311,10 +2359,11 @@ spells:
     description: Silence Everyone
   snowball:
     name: Bewitched Snowball
-    description: The Snow-Animating Jinx
+    description: Causes bewitched snowballs to fall from the sky, damaging and slowing
+      the target slightly. Usually nothing more than an annoyance.
   tripudio:
     cast: Tripudio!
-    description: The Hopping Charm
+    description: Gives a boost to the wizard's ability to hop high into the air.
     name: Tripudio
   jail:
     name: Jail
@@ -2324,28 +2373,32 @@ spells:
     description: You're rich!
   volo:
     name: Volo
-    description: The Quickening Charm
+    description: Allows you to run at magically-enhanced speeds to escape enemies
+      or venture into the unknown with increased speed.
     cast: Volo!
   vulnera:
     name: Vulnera Sanentur
-    description: The Major-Healing Spell
+    description: Heals even the most severe wounds. Lacerations, fractures, near-death
+      experiences, you name it!
     cast_self: Vulnera Sanentur!
     cast: Vulnera Sanentur $target!
   vermillious:
     name: Vermillious
-    description: The Burning Sparks Jinx
+    description: Conjures a number of burning red sparks which inflict damage on those
+      they touch.
     cast: Vermillious!
   wingardium:
     name: Wingardium Leviosa
-    description: The Levitating Charm
+    description: Levitates blocks and targets into the air.
     cast: Wingardium Leviosa!
   spongify:
     name: Spongify
-    description: The Softening Charm
+    description: Softens and makes the ground bouncy, prime for cushioning a long
+      fall or created a trampoline.
     cast: Spongify!
   spongifymaxima:
     name: Spongify Maxima
-    description: The Major-Softening Charm
+    description: Softens and makes a large area bouncy.
     cast: Spongify Maxima!
   ollivander:
     cast: '&6(&eMagic&6) &7You exchanged &e$requires &7for &e$item&7.'
@@ -2357,7 +2410,8 @@ spells:
     upgrade_description: '&r&8&bull; &eIncreased light duration.'
   lumosmaxima:
     name: Lumos Maxima
-    description: The Blinding Wand-Lighting Charm
+    description: Blindingly lights up the tip of your wand to provide a long-lasting
+      light source in dark areas.
   lumosmaxima|2:
     upgrade_description: '&r&8&bull; &eIncreased light duration.'
   avis|2:
@@ -2366,6 +2420,8 @@ spells:
     upgrade_description: '&r&8&bull; &eSpawns more adult birds.'
   flagrate|2:
     upgrade_description: '&r&8&bull; &eClearer-written name.'
+  fourpoint|2:
+    upgrade_description: '&r&8&bull; &eFaster effect, decreased cooldown.'
   arrow|2:
     upgrade_description: '&r&8&bull; &eIncreased damage, accuracy and velocity.'
   arrow|3:
@@ -2374,7 +2430,8 @@ spells:
     upgrade_description: '&r&8&bull; &eIncreased damage, accuracy and velocity.'
   arrowmaxima:
     name: Arrow Maxima
-    description: The Arrow-Conjuring Spell
+    description: Conjures a set of powerful, accurate magical arrows to inflict major
+      damage.
   arrowmaxima|2:
     upgrade_description: '&r&8&bull; &eIncreased damage and arrow count. Decreased
       spread.'
@@ -2454,7 +2511,8 @@ spells:
     upgrade_description: '&r&8&bull; &eIncreased radius.'
   aquaeructo:
     name: Aqua Eructo
-    description: The Water-Jet Spell
+    description: Conjures a controllable jet of water which will push back and damage
+      targets.
     cast: ''
   aquaeructo|2:
     upgrade_description: '&r&8&bull; &eIncreased damage.'
@@ -2472,33 +2530,37 @@ spells:
     upgrade_description: '&r&8&bull; &eIncreased range.'
   lapifors:
     name: Lapifors
-    description: The Bunny-Conjuring Spell
+    description: Conjures sets of adorable bunny and rabbits who disappear shortly
+      after.
   lapifors|2:
     upgrade_description: '&r&8&bull; &eSpawns more baby bunnies.'
   lapifors|3:
     upgrade_description: '&r&8&bull; &eSpawns more adult bunnies.'
   lumossolem:
     name: Lumos Solem
-    description: The Light-Projection Charm
+    description: Conjures a well-lit ball of light which can be thrown where desired
+      and will stick there, temporarily lighting up the area.
   verdimillious:
     name: Verdimillious
-    description: The Green Sparks Jinx
+    description: Conjures a flurry of green, burning sparks which will inflict damage
+      on targets.
   verdimillious|2:
     upgrade_description: '&r&8&bull; &eIncreased damage.'
   verdimillious|3:
     upgrade_description: '&r&8&bull; &eIncreased damage.'
   alarteascendare:
     name: Alarte Ascendare
-    description: The Flinging Jinx
+    description: Flings the target high into the air.
   alarteascendare|2:
     name: Alarte Ascendare
     upgrade_description: '&r&8&bull; &eIncreased power.'
   tarantallegra:
     name: Tarantallegra
-    description: The Dancing Jinx
+    description: Forces the target to dance against their will, limiting the amount
+      of actions they can perform temporarily.
   limusexumai:
     name: Limus Exumai
-    description: The Slime-Repelling Jinx
+    description: Repells slimey creatures, inflicting major damage on them.
   limusexumai|2:
     upgrade_description: '&r&8&bull; &eIncreased damage.'
   limusexumai|3:
@@ -2525,12 +2587,13 @@ spells:
     usage: Cast at your feet to shield yourself.
   protegototalus:
     name: Protego Totalus
-    description: The Protective Enchantment
+    description: Protects you and nearby creatures from additional damage of any type.
   protegototalus|2:
     upgrade_description: '&r&8&bull; &eIncreased radius.'
   baubillious:
     name: Baubillious
-    description: The Chain-Lightning Spell
+    description: Causes powerful lightning to zap one target, then to continue jumping
+      between additional targets.
   baubillious|2:
     upgrade_description: '&r&8&bull; &eIncreased damage.'
   baubillious|3:
@@ -2542,23 +2605,22 @@ spells:
     upgrade_description: '&r&9&bull; &eIncreased density and potency.'
   impedimenta:
     name: Impedimenta
-    description: The Impediment Jinx
+    description: Impedes the movement of living creatures to slow them down temporarily.
   impedimenta|2:
     upgrade_description: '&r&8&bull; &eIncreased slowness and duration.'
   impedimenta|3:
     upgrade_description: '&r&8&bull; &eIncreased slowness and duration.'
   aberto:
     name: Aberto
-    description: The Unlocking Charm
-  fergalicious:
-    name: Fergalicious
-    description: You have been Fergie-fied
+    description: Unlocks previously locked doors in order to reach previously inaccessible
+      areas.
   liberacorpus:
     name: Liberacorpus
-    description: The Levitation Counterspell
+    description: Counters levitation hex casts, returning their targets to their normal,
+      right-side-up states.
   colloshoo:
     name: Colloshoo
-    description: The Stickfast Hex
+    description: Quickly sticks the target to the ground with a viscous, green goo.
   colloshoo|2:
     upgrade_description: '&r&8&bull; &eIncreased range, slowness, and duration.'
   colloshoo|3:
@@ -2567,56 +2629,64 @@ spells:
     upgrade_description: '&r&8&bull; &eIncreased range, slowness, and duration.'
   melofors:
     name: Melofors
-    description: The Pumpkin-Head Jinx
+    description: Encases the target's head in a pumpkin, limiting their vision and
+      providing a minor annoyance.
   furnunculus:
     name: Furnunculus
-    description: The Boil-Erupting Hex
+    description: Causes the target to erupt in terrible, painful boils and impeding
+      their ability to see.
   furnunculus|2:
     upgrade_description: '&r&8&bull; &eExpels green pus. Increased range, damage,
       duration, and velocity.'
   obliviatemaxima:
     name: Obliviate Maxima
-    description: The Global Memory-Wiping Spell
+    description: An incredibly powerful spell not intended for misuse, you can wipe
+      everyone's memory of what has previously been said.
   obliviate:
     name: Obliviate
-    description: The Memory-Wiping Spell
+    description: A powerful memory-wiping charm which will erase the target's memory
+      of what has been said previously.
   frigusignatus:
     name: Frigus Ignatus
-    description: The Flame-Freezing Charm
+    description: Freezes flames for you, making you immune and feel them as if they
+      are mere tickles.
   frigusignatus|2:
     upgrade_description: '&r&8&bull; &eIncreased duration.'
   felixleporemos:
     name: Felix Leporemos
-    description: The Cheering Charm
+    description: Makes the target happier temporarily, improving their jumping ability
+      and speed.
   felixleporemos|2:
     upgrade_description: '&r&8&bull; &eIncreased duration.'
   felixleporemos|3:
     upgrade_description: '&r&8&bull; &eIncreased speed, jump, and velocity.'
   cantis:
     name: Cantis
-    description: The Singing Jinx
+    description: Forces the target to begin singing lyrics from various songs.
   bruchumaculeatos:
     name: Bruchum Aculeatos
-    description: The Stinging Hex
+    description: Causes incredibly painful stinging and blisters which often result
+      in an allergic reaction.
   bruchumaculeatos|2:
     upgrade_description: '&r&8&bull; &eIncreased damage.'
   bruchumaculeatos|3:
     upgrade_description: '&r&8&bull; &eIncreased damage.'
   evertestatum:
     name: Everte Statum
-    description: The Body-Hurling Jinx
+    description: Hurls the target backwards, inflicting differing amounts of damage.
   evertestatum|2:
     upgrade_description: '&r&8&bull; &eIncreased push.'
   evertestatum|3:
     upgrade_description: '&r&8&bull; &eIncreased push.'
   depulso:
     name: Depulso
-    description: The Banishing Charm
+    description: Banishes an object or person, sending them flying away.
   depulso|2:
     upgrade_description: '&r&8&bull; &eIncreased push.'
   longapparate:
     name: Long-Distance Apparition
-    description: The Long-Distance Apparition Spell
+    description: Allows you to disappear from your current location and apparate to
+      previously known locations.
     cancel: '&6(&eMagic) &cYour apparate was cancelled!'
     usage: ''
     teleport: ''
@@ -2651,37 +2721,40 @@ spells:
     unlock_warp: '&6(&eMagic) &7You have discovered &e$name &7to apparate to!'
   defodio:
     name: Defodio
-    description: The Gouging Spell
+    description: Gouges stone from structures, providing access to new areas or clearing
+      obstacles.
   defodio|2:
     upgrade_description: '&r&8&bull; &eIncreased radius.'
   defodio|3:
     upgrade_description: '&r&8&bull; &eIncreased radius.'
   expulso:
     name: Expulso
-    description: The Expulso Curse
+    description: A dark spell causing an incredibly powerful and dangerous explosion.
   expulso|2:
     upgrade_description: '&r&8&bull; &eIncreased radius, damage, knockback, and burns.'
   despello:
     name: Despello
-    description: The Babbling Curse
+    description: Causes the target to babble uncontrollably.
   despello|2:
     upgrade_description: '&r&8&bull; &eIncreased speed.'
   salviohexia|2:
     upgrade_description: '&r&8&bull; &eIncreased strength of protective enchantments.'
   flagellos:
     name: Flagellos
-    description: The Whip-Conjuring Hex
+    description: Conjures a tiny, but powerful controllable whip to attack your target
+      viciously with.
   flagellos|2:
     upgrade_description: '&r&8&bull; &eIncreased damage.'
   emancipare:
     name: Emancipare
-    description: The Unbinding Charm
+    description: Unbinds your target from ropes or other traps.
   incarcifors:
     name: Incarcifors
-    description: The Cage-Conjuring Spell
+    description: Conjures a cage to entrap your target in, partially immobilizing
+      them.
   brachiabindo:
     name: Brachiabindo
-    description: The Binding Jinx
+    description: Binds your target in ropes to immobilize them.
   flight|2:
     upgrade_description: '&r&8&bull; &eIncreased speed, height, steer speed, and thrust.
       Decreased liftoff duration.'
@@ -2690,22 +2763,23 @@ spells:
       Decreased liftoff duration.'
   homenumrevelio:
     name: Homenum Revelio
-    description: The Presence-Revealing Charm
+    description: Reveals the presence of nearby creatures.
   percutios:
     name: Percutios
-    description: The Tempest Jinx
+    description: Smites your target with the power of lightning.
   percutios|2:
     upgrade_description: '&r&8&bull; &eIncreased damage.'
   multabasiorum:
     name: Multa Basiorium
-    description: The Cascading Jinx
+    description: A high damage-inflicting spell which cascades from target to target,
+      decimating the enemy with effective precision.
   multabasiorum|2:
     upgrade_description: '&r&8&bull; &eIncreased damage. Now targets up to five creatures.'
   multabasiorum|3:
     upgrade_description: '&r&8&bull; &eIncreased damage. Now targets up to eight creatures.'
   brackiumemendo:
     name: Brackium Emendo
-    description: The Bone-Mending Charm
+    description: Mends bones that are no longer there, supposedly. Effectiveness varies.
     cast_self: ''
     cast: ''
   brackiumemendo|2:
@@ -2714,23 +2788,25 @@ spells:
     upgrade_description: '&r&8&bull; &eIncreased efficacy.'
   carperetractum:
     name: Carpe Retractum
-    description: The Seize and Pull Charm
+    description: Seizes and pulls an object or creature via a conjured, magical lasso.
   carperetractum|2:
     upgrade_description: '&r&8&bull; &eIncreased strength.'
   pulvifors:
     name: Pulvifors
-    description: The Cushioning Charm
+    description: Conjures an invisible cushion to protect yourself from fall damage.
   finestra:
     name: Finestra
-    description: The Glass-Vaporizing Spell
+    description: Vaporizes glass surfaces as if they were struck with a heavy object.
   finestra|2:
     upgrade_description: '&r&8&bull; &eDecreased cooldown, increased radius.'
   waddiwasi:
     name: Waddiwasi
-    description: The Sticky Gum-Conjuring Charm
+    description: Conjures a large quantity of pre-chewed chewing gum to stick the
+      target to a surface.
   titillando:
     name: Titillando
-    description: The Tickling Jinx
+    description: Causes the target great discomfort by tickling them beyond their
+      control, immobilizing and slowing them down.
   titillando|2:
     upgrade_description: '&r&8&bull; &eDecreased cooldown, increased range, efficacy,
       and duration.'
@@ -2738,39 +2814,43 @@ spells:
     upgrade_description: '&r&8&bull; &eDecreased cooldown, increased range and efficacy.'
   glisseo:
     name: Glisseo
-    description: The Stairs to Slide Spell
+    description: Transfigures stairs into a slippery surface.
   glisseo|2:
     upgrade_description: '&r&8&bull; &eIncreased duration and radius, decreased undo
       speed.'
   herbifors:
     name: Herbifors
-    description: The Flower-Head Jinx
+    description: Causes the target to sprout a flower from their head.
   scribblifors:
     name: Scribblifors
-    description: The Stationery-Conjuring Spell
+    description: Conjures stationery to write on. A useful transfiguration spell for
+      classwork.
   locomotorwibbly:
     name: Locomotor Wibbly
-    description: The Jelly-Legs Curse
+    description: Causes the target's legs to become extremely weak crippling and immobilizing
+      them temporarily.
   locomotorwibbly|2:
     upgrade_description: '&r&8&bull; &eIncreased speed and duration.'
   locomotorwibbly|3:
     upgrade_description: '&r&8&bull; &eIncreased efficacy and range.'
   epoximise:
     name: Epoximise
-    description: The Sticking Charm
+    description: Causes the target to be adhesived to the ground temporarily.
   sluguluseructo:
     name: Slugulus Eructo
-    description: The Slug-Vomiting Hex
+    description: Causes the target to vomit slugs uncontrollably.
   sluguluseructo|2:
     upgrade_description: '&r&8&bull; &eMore slugs spawn.'
   sluguluseructo|3:
     upgrade_description: '&r&8&bull; &eMore slugs spawn.'
   flintifors:
     name: Flintifors
-    description: The Fire Striker-Conjuring Spell
+    description: Conjures a flint and steel, a manual fire-igniting tool.
   ignisdisceditus:
     name: Ignis Disceditus
-    description: The Extinguishing Charm
+    description: Extinguishes nearby flames in a gush of cold air.
+  pulsus|2:
+    upgrade_description: '&r&8&bull; &eIncreased power and target count.'
   acromantula_summon:
     name: Summon
     description: Summons more Acromantula
@@ -2862,6 +2942,9 @@ spells:
   reveal:
     name: Reveal
     description: Reveals hidden things
+  gillyweed_ability:
+    name: Gillyweed Ability
+    description: Allows you to breathe underwater temporarily
 wand:
   default_name: Wand
   upgrade_default_description: Will upgrade your wand.
@@ -2907,7 +2990,7 @@ wand:
   mana_regeneration_boosted: '&d&oEnergy Regeneration: $amount &f(&b$mana&f)&d/s'
   mana_boost: '&d&oEnergy Boost: $amount%'
   mana_regeneration_boost: '&d&oEnergy Regeneration Boost: $amount%'
-  sp_multiplier: '&6SP Earn Boost: $percent%'
+  earn_multiplier: '&6$type Earn Boost: $percent%'
   block_chance: '&3Blocking $roman'
   reflect_chance: '&3Reflective $roman'
   cost_reduction: '&3Cost Reduction $roman'
@@ -3063,269 +3146,10 @@ wand:
   protection_explosions: '&3Blast Protection $roman'
   hotbar_added: '&6(&eMagic&6) &7Your &e$wand''s &7hotbar has been upgraded! Press
     F while your &e$wand &7wand is active.'
-automata:
-  awaken: '&c&o$name &r&5has awakened'
-  default_name: Automaton
-  level: Level $roman
-  good:
-    prefixes:
-    - Holy
-    - Light
-    - Shiny
-    - Shimmering
-    - Stalwart
-    - Bright
-    - Savior
-    - Blessed
-    - Magic
-    - Enchanted
-    - Enlightened
-    - Magnificent
-    - Magnamous
-    - Brave
-    - Loyal
-    - Glorious
-    suffixes:
-    - of Holiness
-    - of Honor
-    - of Light
-    - of Lightness
-    - of Protection
-    - of The Sun
-    - of Magic
-    - of The Blessed
-    - of Forgiveness
-    - of Loyalty
-    - of Retribution
-    - of Resilience
-    - of Hope
-    - of Glory
-    - of Absolution
-  evil:
-    prefixes:
-    - Evil
-    - Dark
-    - Slimy
-    - Dreadful
-    - Dread
-    - Cursed
-    - Magic
-    - Enchanted
-    - Harbringer
-    - Nether
-    - Infamous
-    - Nefarious
-    - Distastrous
-    - Eldritch
-    - Disgusting
-    - Retched
-    - Abominable
-    - Horrifying
-    - Calamity
-    - Calamitous
-    - Otherworldly
-    - Deplorable
-    - Apocalyptic
-    - Despicable
-    - Vile
-    - Wretched
-    - Loathsome
-    - Monstrous
-    - Dread
-    suffixes:
-    - of Darkness
-    - of Evil
-    - of the Night
-    - of Death
-    - of Doom
-    - of the Nether
-    - of Magic
-    - of Destruction
-    - of Desolation
-    - of Infamy
-    - of Horror
-    - of the Dark
-    - of the End
-    - of Domination
-    - of the Apocalypse
-    - of Devastation
-    - of the Wilds
-    - of Terror
-    - of Blight
-    - of the Plague
-tags:
-  noduel:
-    name: No Dueling
-    description: Spells that are not allowed in a dueling arena
-  nojail:
-    name: No Jail
-    description: Spells that are not allowed in a jail
-categories:
-  combat:
-    name: Combat Magic
-    description: Basic Attack Spells
-  automata:
-    name: Automata
-    description: Create Life!
-    color: FFA500
-  electrical:
-    name: Electrical
-    description: Mad Science
-    color: '888800'
-  master:
-    name: Master
-    description: All the Really Powerful Stuff
-    color: 00AACC
-  utility:
-    name: Utility
-    description: Utility and movement spells
-  demolition:
-    name: Demolitions
-    description: Highly destructive magic
-    color: FF0000
-  dark:
-    name: Dark Arts
-    description: Exploring the darker side of magic.
-    color: '010101'
-  light:
-    name: Light Magic
-    description: Good Stuff
-    color: DDDDDD
-  engineering:
-    name: Engineering
-    description: Spells for magical building
-    color: 00FFFF
-  elemental:
-    name: Elemental
-    description: Control Nature
-  mining:
-    name: Mining
-    description: Spells to help you mine
-  skills:
-    name: Heroes Skills
-    descriptions: Skills being used from Heroes
-  staff:
-    name: Staff
-    description: These are generally only for staff.
-  specialty:
-    name: Speciality
-    description: Generally not for casting, these often power magic items.
-  music:
-    name: Music
-    description: Used for playing music
-  unforgiveable:
-    name: Unforgiveable Hexes
-    description: Casting these spells is a terrible crime.
-  elective:
-    name: Electives
-    description: Various subjects you can choose to take on your own.
-  dada:
-    name: DADA
-    description: Defend yourself against dark magic.
-  charms:
-    name: Charms
-    description: Change the attributes of yourself and other objects.
-  herbology:
-    name: Herbology
-    description: Cultivate plants or use healing magic.
-  transfiguration:
-    name: Transfiguration
-    description: Spells to transform, switch, vanish, or conjure objects.
-  creatures:
-    name: Magical Creatures
-    description: Spells used to control magical creature.
-  potions:
-    name: Potions
-    description: Spells that are only casted by potions.
-  beast_ability:
-    name: Beast Ability
-    description: Abilities that beasts can utilize
-  item_ability:
-    name: Item Ability
-    description: Abilities that items can utilize
-classes:
-  battle_mage:
-    name: Battle Mage
-    description: A warrior who wields a magic sword
-  mage:
-    name: Mage
-    description: The ultimate spellcaster
-  archer_mage:
-    name: Archer Mage
-    description: Skilled with magic bows
-paths:
-  beginner:
-    name: Beginner
-    description: Just starting out with magic
-  student:
-    name: Student
-    description: Starting to learn the basics
-  apprentice:
-    name: Apprentice
-    description: A good variety of spells
-  master:
-    name: Wizard
-    description: The penultimate wizard
-    required_spell: '&cNothing new to learn for now! &4What mystery lies ahead?'
-  engineer:
-    name: Engineer
-    description: Has engineering spells
-  architect:
-    name: Architect
-    description: Has super-powerful engineering spells
-  conduit:
-    name: Conduit
-    description: Can manifest blocks from pure energy
-  battle:
-    name: Warrior
-    description: Low-level combat spells
-  squire:
-    name: Squire
-    description: Mid-level combat spells
-  soldier:
-    name: Soldier
-    description: High-level combat spells
-  knight:
-    name: Knight
-    description: Master-level combat spells
-  broom:
-    name: Broom
-    description: Flying broom upgrades!
-  blaster:
-    name: Blaster
-    description: Blaster upgrades
-  staff:
-    name: Staff
-    description: Staff-only spells
-  archer:
-    name: Archer
-    description: Archer spells
-  year1:
-    name: First Year
-    description: First years learn a variety of beginning spells, as well as the basics
-      of wand use.
-  year2:
-    name: Second Year
-    description: Spells for second year students.
-  year3:
-    name: Third Year
-    description: Spells for third year students.
-  year4:
-    name: Fourth Year
-    description: Spells for fourth year students.
-  year5:
-    name: Fifth Year
-    description: Spells for fifth year students.
-  year6:
-    name: Sixth Year
-    description: Spells for sixth year students.
-  year7:
-    name: Seventh Year
-    description: Spells for seventh year students.
-  graduate:
-    name: Graduates
-    description: What comes next?
 wands:
+  testwand:
+    name: Test Wand
+    description: An empty wand to use for testing spells.
   default:
     name: Wand
     description: $path Magic Wand
@@ -3333,7 +3157,7 @@ wands:
     name: Wand
     description: $wood with $core
     randomized_lore: What kind will you get?
-    randomized_description: Ugh
+    randomized_description: Wand description broken
   starter:
     name: Starter Wand
     description: A Wand with Limited Potential
@@ -3741,7 +3565,7 @@ wands:
   potterwand:
     name: Wand
     description: $length Inches $flex $wood with $core
-    randomized_description: Ugh
+    randomized_description: Potterwand description broken
   wandbox:
     name: Wand Box
     description: What kind will you get?
@@ -3799,7 +3623,7 @@ wands:
     description: Use this to get sorted into a house!
   ticket:
     name: Wand Ticket
-    description: Take this to a wand shop to get your first wand!
+    description: Visit a wand shop to obtain your wand!
   floopowder:
     name: Floo Powder
     description: Use for 20 seconds of protection
@@ -3901,6 +3725,268 @@ wands:
     description: '&7A Class-B tradeable material. Highly explosive.'
     spell_instructions: ''
     bound_instructions: ''
+  gillyweed:
+    name: '&2Gillyweed'
+    description: '&aGrants you the ability to temporarily breathe underwater'
+automata:
+  awaken: '&c&o$name &r&5has awakened'
+  default_name: Automaton
+  level: Level $roman
+  good:
+    prefixes:
+    - Holy
+    - Light
+    - Shiny
+    - Shimmering
+    - Stalwart
+    - Bright
+    - Savior
+    - Blessed
+    - Magic
+    - Enchanted
+    - Enlightened
+    - Magnificent
+    - Magnamous
+    - Brave
+    - Loyal
+    - Glorious
+    suffixes:
+    - of Holiness
+    - of Honor
+    - of Light
+    - of Lightness
+    - of Protection
+    - of The Sun
+    - of Magic
+    - of The Blessed
+    - of Forgiveness
+    - of Loyalty
+    - of Retribution
+    - of Resilience
+    - of Hope
+    - of Glory
+    - of Absolution
+  evil:
+    prefixes:
+    - Evil
+    - Dark
+    - Slimy
+    - Dreadful
+    - Dread
+    - Cursed
+    - Magic
+    - Enchanted
+    - Harbringer
+    - Nether
+    - Infamous
+    - Nefarious
+    - Distastrous
+    - Eldritch
+    - Disgusting
+    - Retched
+    - Abominable
+    - Horrifying
+    - Calamity
+    - Calamitous
+    - Otherworldly
+    - Deplorable
+    - Apocalyptic
+    - Despicable
+    - Vile
+    - Wretched
+    - Loathsome
+    - Monstrous
+    - Dread
+    suffixes:
+    - of Darkness
+    - of Evil
+    - of the Night
+    - of Death
+    - of Doom
+    - of the Nether
+    - of Magic
+    - of Destruction
+    - of Desolation
+    - of Infamy
+    - of Horror
+    - of the Dark
+    - of the End
+    - of Domination
+    - of the Apocalypse
+    - of Devastation
+    - of the Wilds
+    - of Terror
+    - of Blight
+    - of the Plague
+tags:
+  noduel:
+    name: No Dueling
+    description: Spells that are not allowed in a dueling arena
+  nojail:
+    name: No Jail
+    description: Spells that are not allowed in a jail
+categories:
+  combat:
+    name: Combat Magic
+    description: Basic Attack Spells
+  automata:
+    name: Automata
+    description: Create Life!
+    color: FFA500
+  electrical:
+    name: Electrical
+    description: Mad Science
+    color: '888800'
+  master:
+    name: Master
+    description: All the Really Powerful Stuff
+    color: 00AACC
+  utility:
+    name: Utility
+    description: Utility and movement spells
+  demolition:
+    name: Demolitions
+    description: Highly destructive magic
+    color: FF0000
+  dark:
+    name: Dark Arts
+    description: Exploring the darker side of magic.
+    color: '010101'
+  light:
+    name: Light Magic
+    description: Good Stuff
+    color: DDDDDD
+  engineering:
+    name: Engineering
+    description: Spells for magical building
+    color: 00FFFF
+  elemental:
+    name: Elemental
+    description: Control Nature
+  mining:
+    name: Mining
+    description: Spells to help you mine
+  skills:
+    name: Heroes Skills
+    descriptions: Skills being used from Heroes
+  staff:
+    name: Staff
+    description: These are generally only for staff.
+  specialty:
+    name: Specialty
+    description: Generally not for casting, these often power magic items.
+  music:
+    name: Music
+    description: Used for playing music
+  unforgiveable:
+    name: Unforgiveable Hexes
+    description: Casting these spells is a terrible crime.
+  elective:
+    name: Electives
+    description: Various subjects you can choose to take on your own.
+  dada:
+    name: DADA
+    description: Defend yourself against dark magic.
+  charms:
+    name: Charms
+    description: Change the attributes of yourself and other objects.
+  herbology:
+    name: Herbology
+    description: Cultivate plants or use healing magic.
+  transfiguration:
+    name: Transfiguration
+    description: Spells to transform, switch, vanish, or conjure objects.
+  creatures:
+    name: Magical Creatures
+    description: Spells used to control magical creatures.
+  beast_ability:
+    name: Beast Ability
+    description: Abilities that beasts can utilize
+  item_ability:
+    name: Item Ability
+    description: Abilities that items can utilize
+classes:
+  battle_mage:
+    name: Battle Mage
+    description: A warrior who wields a magic sword
+  mage:
+    name: Mage
+    description: The ultimate spellcaster
+  archer_mage:
+    name: Archer Mage
+    description: Skilled with magic bows
+paths:
+  beginner:
+    name: Beginner
+    description: Just starting out with magic
+  student:
+    name: Student
+    description: Starting to learn the basics
+  apprentice:
+    name: Apprentice
+    description: A good variety of spells
+  master:
+    name: Wizard
+    description: The penultimate wizard
+    required_spell: '&cNothing new to learn for now! &4What mystery lies ahead?'
+  engineer:
+    name: Engineer
+    description: Has engineering spells
+  architect:
+    name: Architect
+    description: Has super-powerful engineering spells
+  conduit:
+    name: Conduit
+    description: Can manifest blocks from pure energy
+  battle:
+    name: Warrior
+    description: Low-level combat spells
+  squire:
+    name: Squire
+    description: Mid-level combat spells
+  soldier:
+    name: Soldier
+    description: High-level combat spells
+  knight:
+    name: Knight
+    description: Master-level combat spells
+  broom:
+    name: Broom
+    description: Flying broom upgrades!
+  blaster:
+    name: Blaster
+    description: Blaster upgrades
+  staff:
+    name: Staff
+    description: Staff-only spells
+  archer:
+    name: Archer
+    description: Archer spells
+  year1:
+    name: First Year
+    description: First years learn a variety of beginning spells, as well as the basics
+      of wand use.
+  year2:
+    name: Second Year
+    description: Spells for second year students.
+  year3:
+    name: Third Year
+    description: Spells for third year students.
+  year4:
+    name: Fourth Year
+    description: Spells for fourth year students.
+  year5:
+    name: Fifth Year
+    description: Spells for fifth year students.
+  year6:
+    name: Sixth Year
+    description: Spells for sixth year students.
+  year7:
+    name: Seventh Year
+    description: Spells for seventh year students.
+  graduate:
+    name: Graduates
+    description: What comes next?
 randomized:
   wood:
   - Acacia

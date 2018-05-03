@@ -1,6 +1,7 @@
 erkling_dart_blower:
   inherit: base_wand
   icon: stick
+  display_name: '$name'
   lore:
     - '$description'
     - ''

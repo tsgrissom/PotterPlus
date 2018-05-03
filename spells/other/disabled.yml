@@ -21,9 +21,6 @@ dementor:
 floo:
   enabled: false
 
-morsmordre:
-  enabled: false
-
 reductomaxima:
   enabled: false
 

@@ -1,0 +1,19 @@
+year5:
+  spells:
+    - apparate
+    - colorvaria
+    - conjunctivitis
+    - evanesco
+    - stupefy
+    - rennervate
+    - avis
+    - spongify
+    - firestorm
+    - pulsus
+    - cantis
+    - defodio
+    - lapifors
+    - incarcerous
+    - multabasiorum
+  required_spells:
+    - aparecium

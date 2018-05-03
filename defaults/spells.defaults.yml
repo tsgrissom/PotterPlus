@@ -2863,7 +2863,7 @@ bookshop:
     - item: book|dark
     - item: book|creatures
     - item: book|elective
-    confirm_filler: stained_glass_pane:3
+    confirm_filler: stained_glass:3
   enabled: true
 boom:
   icon: diamond_axe:35
@@ -3400,7 +3400,7 @@ broom|5:
     cooldown: 8000
   enabled: true
 broomshop:
-  icon: ink_sack:9
+  icon: gold_spade
   category: npc
   hidden: true
   actions:
@@ -3409,16 +3409,18 @@ broomshop:
   parameters:
     quiet: true
     confirm: true
-    confirm_filler: stained_glass_pane:3
+    confirm_filler: stained_glass:3
     items:
     - item: wand|firebolt
-      cost: 5000
+      cost: 10000
     - item: wand|nimbus
-      cost: 3000
-    - item: wand|cleansweep1
+      cost: 5000
+    - item: wand|comet290
       cost: 1000
-    - item: wand|bluebottle
+    - item: wand|cleansweep1
       cost: 500
+    - item: wand|bluebottle
+      cost: 100
   enabled: true
 brushselect:
   icon: diamond_axe:188
@@ -9054,7 +9056,7 @@ light:
     async: false
   costs:
     mana: 200
-  enabled: true
+  enabled: false
 lightning:
   icon: diamond_axe:39
   icon_disabled: diamond_hoe:39
@@ -14024,7 +14026,7 @@ spellshop:
     - class: SpellShop
   parameters:
     quiet: true
-    confirm_filler: stained_glass_pane:5
+    confirm_filler: stained_glass:5
     auto_upgrade: true
     upgrade_levels: 1
     use_sp: true
@@ -17395,7 +17397,7 @@ apparate:
   enabled: true
   worth: 30
   upgrade_required_path: year5
-  upgrade_required_casts: 25
+  upgrade_required_casts: 75
   effects:
     teleport:
     - class: EffectSingle
@@ -17437,7 +17439,7 @@ araniaexumai:
   category: creatures
   pvp_restricted: true
   cast_on_no_target: true
-  worth: 10
+  worth: 5
   actions:
     cast:
     - class: VelocityAction
@@ -17546,7 +17548,7 @@ ascendio:
   inherit: fling
   category: charms
   enabled: true
-  worth: 15
+  worth: 10
   parameters:
     cooldown: 10000
 ascendio|2:
@@ -17834,7 +17836,7 @@ confundus:
   category: dada
   inherit: curse
   enabled: true
-  worth: 15
+  worth: 10
 confundusmaxima:
   name: Confundus Maxima
   description: Silences a target for a Long Period!
@@ -18139,7 +18141,7 @@ disillusion:
   parameters:
     target: self
   enabled: true
-  worth: 20
+  worth: 15
 duro:
   inherit: harden
   category: transfiguration
@@ -18154,7 +18156,7 @@ spongify:
   inherit: rubberize
   category: transfiguration
   enabled: true
-  worth: 15
+  worth: 10
 spongifymaxima:
   inherit: rubberize
   category: transfiguration
@@ -18174,14 +18176,17 @@ spongifymaxima:
 erecto:
   inherit: tent
   enabled: true
-  worth: 25
+  worth: 10
   category: transfiguration
+  parameters:
+    undo: 12000
+    undo_speed: 1
 evanesco:
   icon_url: http://textures.minecraft.net/texture/89f9399aceb3211c3ca1259d5b1bb1f3fb61a4d5626a757ee1a1ccec28a0ae
   icon: diamond_axe:230
   icon_disabled: diamond_hoe:230
   category: transfiguration
-  worth: 10
+  worth: 15
   actions:
     cast:
     - class: PotionEffect
@@ -18247,7 +18252,7 @@ engorgio:
   worth: 15
 episkey:
   inherit: heal
-  category: charms
+  category: herbology
   enabled: true
   worth: 15
 episkey|2:
@@ -18395,7 +18400,7 @@ rictusempra:
   category: charms
   pvp_restricted: true
   cast_on_no_target: true
-  worth: 10
+  worth: 5
   actions:
     cast:
     - class: VelocityAction
@@ -18451,7 +18456,7 @@ ventus:
   category: dada
   inherit: push
   enabled: true
-  worth: 20
+  worth: 10
 flipendo:
   icon: diamond_axe:32
   icon_disabled: diamond_hoe:32
@@ -18459,7 +18464,7 @@ flipendo:
   category: dada
   pvp_restricted: true
   cast_on_no_target: true
-  worth: 15
+  worth: 5
   actions:
     cast:
     - class: VelocityAction
@@ -18532,13 +18537,13 @@ flipendo|3:
 flight:
   inherit: false
   icon: diamond_axe:134
-  icon_url: http://textures.minecraft.net/texture/a35cfb663dbde27598eebe76b0fdac2593f1d696b3e6b9e044edeb8d48c2e2
   worth: 30
   show_undoable: false
   quick_cast: false
   cancel_effects: true
   category: elective
   upgrade_required_casts: 50
+  cooldown: 12000
   actions:
     cast:
     - class: MountArmorStand
@@ -18548,11 +18553,11 @@ flight:
       sound: enderdragon_wings
       location: origin
       source_location: eyes
-      color_override: color
       effectlib:
         class: SphereEffect
         particle: redstone
         radius: 1.5
+        radiusIncrease: 0.001
         particles: 500
         color: FFFFFF
     deactivate:
@@ -18567,8 +18572,9 @@ flight:
     liftoff_duration: 600
     liftoff_thrust: 0.6
     direction_y: 0.5
+    cooldown: 25000
   costs:
-    mana: 50
+    mana: 100
   active_costs:
     mana: 20
 fourpoint:
@@ -18605,8 +18611,6 @@ fourpoint:
         particle: spell_mob_ambient
         color: FFFFFF
         iterations: 16
-        updateDirections: true
-        updateLocations: true
     tick:
     - location: target
       particle: spell
@@ -18619,6 +18623,7 @@ fourpoint:
     velocity: 10
     iterations: 50
     radius: 0.5
+    cooldown: 8000
   costs:
     mana: 20
 fumos:
@@ -18627,6 +18632,7 @@ fumos:
   enabled: true
   upgrade_required_path: year4
   upgrade_required_casts: 50
+  worth: 5
   effects:
     cast:
     - class: EffectSingle
@@ -18644,7 +18650,6 @@ fumos:
     - class: AreaOfEffect
       actions:
       - class: PotionEffect
-  worth: 5
   parameters:
     effect_slow: 1
     effect_damage_resistance: -1
@@ -18777,7 +18782,7 @@ locomotomortus:
   category: dada
   pvp_restricted: true
   cast_on_no_target: true
-  worth: 15
+  worth: 10
   actions:
     cast:
     - class: PotionEffectAction
@@ -18861,7 +18866,7 @@ incendio:
   category: charms
   inherit: fire
   enabled: true
-  worth: 15
+  worth: 10
 incendio|2:
   inherit: fire|2
   enabled: true
@@ -19140,12 +19145,12 @@ morsmordre:
     - broadcast @pd cast &aMorsmordre!
   costs:
     mana: 55
-  enabled: false
+  enabled: true
 orchideous:
   category: herbology
   inherit: pollinate
   enabled: true
-  worth: 10
+  worth: 5
   parameters:
     undo: 2000
 periculum:
@@ -19153,6 +19158,19 @@ periculum:
   category: charms
   enabled: true
   worth: 5
+  upgrade_required_path: year5
+  upgrade_required_casts: 75
+  actions:
+    cast:
+    - class: Firework
+  effects:
+    cast:
+    - sound: entity_firework_launch
+  parameters:
+    use_wand_color: false
+    firework: burst
+    color: ad2237
+    color2: adadad
 periculux:
   icon_url: http://textures.minecraft.net/texture/aa7e54c1c7634bdf1118db91da9e12b6b4d17f7fb7b7d5b0d06d554feb737bf
   icon: diamond_axe:191
@@ -19896,7 +19914,7 @@ vulnera:
   icon_url: http://textures.minecraft.net/texture/6b7da98ef45cf45185d21d61f5fa3d5966a3ee52273620a6e4dfd54cf99dbc
   icon: diamond_axe:44
   icon_disabled: diamond_hoe:44
-  category: charms
+  category: herbology
   cast_on_no_target: true
   worth: 25
   pvp_restricted: false
@@ -19943,7 +19961,7 @@ ferula:
   icon_url: http://textures.minecraft.net/texture/bc8e7e971bbac56883fe9bfe1b38c5f568ece6cbe09ca59d85f6dab4688d14
   icon: diamond_axe:46
   icon_disabled: diamond_hoe:46
-  category: charms
+  category: herbology
   cast_on_no_target: true
   worth: 20
   pvp_restricted: false
@@ -20103,18 +20121,32 @@ pulsus:
   worth: 15
   actions:
     cast:
-    - class: VelocityAction
-    - class: DamageAction
+    - class: AreaOfEffect
+      actions:
+      - class: Velocity
+      - class: Damage
   effects:
     cast:
     - class: EffectSingle
       sound: fizz
+      source_location: feet
       effectlib:
-        class: FountainEffect
-        particle: spell
-        iterations: 2
-        particlesStrand: 10
-        particlesSpout: 30
+        class: Sphere
+        particle: crit
+        radius: 0.5
+        radiusIncrease: 0.2
+        iterations: 60
+        offset: 0,-0.5,0
+    - class: EffectSingle
+      source_location: feet
+      effectlib:
+        class: Atom
+        particleNucleus: spell_mob_ambient
+        particleOrbital: spell_mob_ambient
+        colorNucleus: FFFFFF
+        colorOrbital: FFFFFF
+        radius: 3
+        iterations: 10
   parameters:
     fov: 4
     target_type: Entity
@@ -20125,9 +20157,15 @@ pulsus:
     damage: 0.5
     cooldown: 7000
     bypass_backfire: true
+    target_count: 4
+    target_self: false
+    radius: 8
+    y_radius: 6
   costs:
     mana: 70
   enabled: true
+  upgrade_required_path: year7
+  upgrade_required_casts: 75
 confringo:
   icon_url: http://textures.minecraft.net/texture/e511624fac75f03cf2f3a56d5fe4582d6e74fc9f5e1e1160af1941ee144928
   icon: diamond_axe:153
@@ -20246,7 +20284,7 @@ tripudio:
   icon_url: http://textures.minecraft.net/texture/58c573cefdc8cc1b8c894340cb54ab343523ec2ffa0afc7536968391ae1e7
   icon: diamond_axe:11
   icon_disabled: diamond_hoe:11
-  worth: 10
+  worth: 5
   actions:
     cast:
     - class: PotionEffectAction
@@ -20281,7 +20319,7 @@ volo:
   icon: diamond_axe:11
   icon_disabled: diamond_hoe:11
   category: charms
-  worth: 10
+  worth: 5
   actions:
     cast:
     - class: PotionEffectAction
@@ -20672,7 +20710,7 @@ bowtruckle_wood_throw:
     cooldown: 0
 bowtruckle_shield:
   inherit: protego|3
-  hidden: true2
+  hidden: true
   parameters:
     cooldown: 0
     brush: log
@@ -21079,6 +21117,17 @@ wampus_scratch:
     velocity: 30
     effect_wither: 2
     duration: 2000
+gillyweed_ability:
+  inherit: bubblehead
+  icon: vine
+  category: item_ability
+  hidden: true
+  cooldown: 30000
+  actions:
+    cast:
+    - class: PotionEffect
+  costs:
+    mana: 25
 reveal:
   class: FillSpell
   category: specialty
@@ -21089,18 +21138,6 @@ reveal:
     check_destructible: false
     brush: erase
     undo: 5000
-fountain:
-  hidden: true
-  category: specialty
-  effects:
-    cast:
-    - class: EffectSingle
-      location: target
-      target_offset: 0,2,0
-      effectlib:
-        class: FountainEffect
-  parameters:
-    target: self
 aquaeructo:
   category: charms
   worth: 15
@@ -21166,23 +21203,23 @@ alarteascendare|2:
 apparate|2:
   inherit: blink|2
   upgrade_required_path: year5
-  upgrade_required_casts: 50
+  upgrade_required_casts: 100
 apparate|3:
   inherit: blink|3
   upgrade_required_path: year6
-  upgrade_required_casts: 75
+  upgrade_required_casts: 125
   actions:
     alternate_up: []
 apparate|4:
   inherit: blink|4
   upgrade_required_path: year6
-  upgrade_required_casts: 100
+  upgrade_required_casts: 150
   actions:
     alternate_down: []
 apparate|5:
   inherit: blink|5
   upgrade_required_path: year7
-  upgrade_required_casts: 125
+  upgrade_required_casts: 200
   parameters:
     allow_passthrough: false
     passthrough_range: 0
@@ -21275,7 +21312,7 @@ brackiumemendo:
   inherit: ferula
   worth: 10
   icon_url: http://textures.minecraft.net/texture/964590674dbaf76126bd87694bfe97575be8de19aac4a8d9aa5579f8f01ed1
-  category: charms
+  category: herbology
   actions:
     cast:
     - class: Repeat
@@ -21801,6 +21838,9 @@ fourpoint|2:
     delay: 1750
     radius: 0.75
     iterations: 25
+    cooldown: 5000
+  costs:
+    mana: 25
 fumos|2:
   upgrade_required_path: year5
   upgrade_required_casts: 75
@@ -22244,11 +22284,11 @@ lumosmaxima:
     - class: EffectSingle
       location: origin
       color: FFFFFF
-      firework: ball_large
+      firework: burst
     - class: EffectSingle
       location: origin
       color: FF0080
-      firework: ball
+      firework: burst
   parameters:
     effect_night_vision: 2
     duration: 60000
@@ -22538,61 +22578,6 @@ felixleporemos|3:
     effect_speed: 2
     effect_jump: 2
     velocity: 200
-fergalicious:
-  hidden: true
-  category: specialty
-  icon: wooden_hoe
-  effects:
-    projectile:
-    - class: EffectSingle
-      effectlib:
-        class: SphereEffect
-        particle: redstone
-        color: FFFFFF
-        iterations: 1000
-        radius: 0.2
-    - class: EffectSingle
-      effectlib:
-        class: SphereEffect
-        particle: redstone
-        color: D3D3D3
-        iterations: 1000
-        radius: 0.2
-    - class: EffectSingle
-      effectlib:
-        class: SphereEffect
-        particle: redstone
-        color: FF69B4
-        iterations: 1000
-        radius: 0.2
-  actions:
-    cast:
-    - class: CustomProjectile
-      actions:
-      - class: Velocity
-      - class: Damage
-      - class: Delay
-      - class: Message
-        message: '&dI''m the F to the E'
-      - class: Delay
-      - class: Message
-        message: '&eR G the I the E'
-      - class: Delay
-      - class: Message
-        message: '&band can''t no other lady put it down like me'
-  parameters:
-    range: 24
-    player_damage: 1
-    entity_damage: 1
-    living_entity_speed: 3
-    push: 3
-    message_type: title
-    cooldown: 6000
-    delay: 1500
-    target: other
-    target_type: Player
-  costs:
-    mana: 30
 flagellos:
   inherit: whip
   category: dark
@@ -22652,7 +22637,7 @@ frigusignatus|2:
 ignisdisceditus:
   icon: diamond_axe:33
   category: charms
-  worth: 15
+  worth: 5
   class: ConstructSpell
   effects:
     cast:
@@ -22804,7 +22789,7 @@ obliviatemaxima:
     target_all_worlds: true
     target_type: Player
     effect_confusion: 1
-    duration: 1000
+    duration: 8000
 percutios:
   inherit: smite
   category: dark
@@ -22931,6 +22916,14 @@ patronus|3:
         rows: 10
   parameters:
     type: chicken
+periculum|2:
+  upgrade_required_path: year6
+  upgrade_required_casts: 150
+  parameters:
+    firework: ball
+periculum|3:
+  parameters:
+    firework: ball_large
 protego|4:
   upgrade_required_path: year7
   upgrade_required_casts: 100
@@ -23015,6 +23008,11 @@ protegototalus|2:
     y_radius: 6
     duration: 15000
     target_count: 20
+pulsus|2:
+  parameters:
+    target_count: 8
+    radius: 12
+    y_radius: 8
 pulvifors:
   inherit: arresto
   worth: 5

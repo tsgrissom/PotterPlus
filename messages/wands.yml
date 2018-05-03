@@ -1,21 +1,21 @@
 wands:
   wand:
-    name: Wand
-    description: $wood with $core
-    randomized_description: Ugh
+    name: "Wand"
+    description: "$wood with $core"
+    randomized_description: "Wand description broken"
   potterwand:
-    name: Wand
-    description: $length Inches $flex $wood with $core
-    randomized_description: Ugh
+    name: "Wand"
+    description: "$length Inches $flex $wood with $core"
+    randomized_description: "Potterwand description broken"
   conductors_wand:
-    name: Conductor's Wand
-    description: Play some music!
+    name: "Conductor's Wand"
+    description: "Play some music!"
   ticket:
-    name: Wand Ticket
-    description: Take this to a wand shop to get your first wand!
+    name: "Wand Ticket"
+    description: "Visit a wand shop to obtain your wand!"
   music_box:
-    name: Music Box
-    description: Play some music!
+    name: "Music Box"
+    description: "Play some music!"
   erkling_dart_blower:
     name: "&2Erkling Dart Blower"
     description: "&aA dart blower stolen from an erkling"
@@ -30,3 +30,6 @@ wands:
   developer:
     name: "&3Magic Developer Wand"
     description: "&9Curated spells to aid in the furthering of magic"
+  gillyweed:
+    name: "&2Gillyweed"
+    description: "&aGrants you the ability to temporarily breathe underwater"

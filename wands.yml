@@ -12,5 +12,5 @@ potterwand:
   hotbar_count: 2
   spells:
     - lumos
-    - aparecium
+    - vermillious
   active_spell: lumos

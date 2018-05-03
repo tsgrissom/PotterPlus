@@ -1,0 +1,25 @@
+periculum:
+  worth: 5
+  upgrade_required_path: year5
+  upgrade_required_casts: 75
+  actions:
+    cast:
+      - class: Firework
+  effects:
+    cast:
+      - sound: entity_firework_launch
+  parameters:
+    use_wand_color: false
+    firework: burst
+    color: ad2237
+    color2: adadad
+
+periculum|2:
+  upgrade_required_path: year6
+  upgrade_required_casts: 150
+  parameters:
+    firework: ball
+
+periculum|3:
+  parameters:
+    firework: ball_large
