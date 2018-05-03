@@ -1,0 +1,61 @@
+portkey:
+  enabled: false
+
+camera:
+  enabled: false
+
+floopowder:
+  enabled: false
+
+dungbombs:
+  enabled: false
+
+bombs:
+  enabled: false
+
+handbag:
+  enabled: false
+
+key:
+  enabled: false
+
+# Brooms
+
+thestral:
+  enabled: false
+
+minister:
+  enabled: false
+
+unspeakabroom:
+  enabled: false
+
+headmaster:
+  enabled: false
+
+firebolt:
+  enabled: false
+
+crudfirebolt:
+  enabled: false
+
+nimbus:
+  enabled: false
+
+crudnimbus:
+  enabled: false
+
+comet290:
+  enabled: false
+
+cleansweep1:
+  enabled: false
+
+bluebottle:
+  enabled: false
+
+crudbroom:
+  enabled: false
+
+beater:
+  enabled: false
