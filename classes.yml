@@ -1,1 +1,3 @@
-# No classes in this configuration
+wizard:
+  spells:
+    - lumos
