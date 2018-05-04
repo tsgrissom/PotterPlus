@@ -37,10 +37,10 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 
 #### Items
 
-* Portkey -> teleports to a random warp
-* Beaded handbag -> stash
+* Portkey -> Teleports to a random warp
+* Beaded handbag -> Stash items in enderchest
 * Camera -> Takes pictures via maps
-* Floopowder
+* Floopowder ->
 * Dungbombs
 * Bombs
 * Key -> Casts a short range unlocking charm
@@ -49,19 +49,19 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Deluminator -> Eliminates lights in the area
 * Foe-glass
 * Marauder's Map
-* Remembrall
-* Secrecy senor
-* Quidditch balls -> Based on flashbang spell
-* Godric's Sword
+* Remembrall -> Flashes pink and red glass and tells you if you have any lost wands
+* Secrecy sensor
+* Quidditch balls -> Based on flashbang spell, bounces around with more speed
+* Godric Gryffindor's Sword -> An iron sword imbued with powerful magic such as expelliarmus
 * Sorting hat
 * Two-way mirrors
-* Whiz-bangs
-* Skiving snackboxes
-* Trick wands
-* Portable swamps
-* Decoy detonators
-* Peruvian instant darkness powder
-* Flying carpet
+* Whiz-bangs -> Crazy fireworks, come in Basic Blaze Box of Deflagration Deluxe
+* Skiving snackboxes -> A box of snacks which cause illness
+* Trick wands -> A wand which can cast feeble regular or joke spells
+* Portable swamps -> Creates a temporary swamp where cast (schematic?)
+* Decoy detonators -> Sends a hopper projectile which explodes to create a distraction
+* Peruvian instant darkness powder -> Covers the surrounding area in darkness powder
+* Flying carpet -> Casts modified air scooter with random color carpet mount
 * Time turners
 
 #### Mobs
