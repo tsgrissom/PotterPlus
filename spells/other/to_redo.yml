@@ -108,22 +108,6 @@ aquaeructo|2:
 
 aquaeructo|3:
   inherit: stream|3
-
-avis:
-  upgrade_required_casts: 25
-  upgrade_required_path: year5
-  worth: 5
-
-avis|2:
-  upgrade_required_casts: 50
-  upgrade_required_path: year6
-  parameters:
-    count: 5
-
-avis|3:
-  parameters:
-    count: 10
-    baby: false
 conjunctivitis:
   worth: 10
 deprimo:
