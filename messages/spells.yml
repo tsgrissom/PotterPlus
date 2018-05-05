@@ -287,11 +287,11 @@ spells:
   disillusion:
     description: "Creates the illusion of invisibility on the target as a means of concealment or to cause confusion. This spell is often used to create invisibility cloaks."
   meteo:
-    description: "Using incredibly old and powerful magic you can influence the world around you, including controlling the weather for the better to clear rain and thunder."
+    description: "Control the weather to precisely calm storms."
   vulnera:
     description: "Heals even the most severe wounds. Lacerations, fractures, near-death experiences, you name it!"
   atmos:
-    description: "Using incredibly old and powerful magic you can influence the world around you, including controlling the weather for the worse to cause rain and thunder."
+    description: "Control the weathet to cause a storm."
   piertotum:
     description: "Animates sets of armor and brings them to your defense as an extra boost in combat."
   lapifors:
