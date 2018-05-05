@@ -18116,6 +18116,7 @@ crucio:
         colorOrbital: 19070B
         iterations: 16
         radius: 5
+    tick: []
     projectile:
     - location: origin
       effectlib:
