@@ -2,6 +2,7 @@
 
 Changes are organized here for record-keeping purposes. Most recent changes are at the top.
 
+* 5/5/18 - Nerfed and overhauled Avada Kedavra
 * 5/5/18 - Buffed and fixed Gillyweed messages
 * 5/5/18 - Fixed Expelliarmus colors
 * 5/5/18 - Fixed passthrough for Expelliarmus and made `hit_entity` apply on hitting anything
