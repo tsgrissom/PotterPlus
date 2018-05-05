@@ -1,26 +1,35 @@
 lumos:
-  inherit: false
   icon: diamond_axe:228
   icon_disabled: diamond_hoe:228
   category: charms
-  icon_url: http://textures.minecraft.net/texture/4abfe52d50f710f4103bc650b5e972d49832ea419841d9fa24e16ce617c716
   worth: 10
+  effects:
+    cast:
+      - firework: burst
+        color: FFFFFF
+        color2: ffe766
   parameters:
     target: self
-    cooldown: 15000
+    duration: 10000
+    cooldown: 10000
   costs:
-    mana: 20
+    mana: 25
 
 lumos|2:
   upgrade_required_path: year2
-  upgrade_required_casts: 50
-  costs:
-    mana: 35
+  upgrade_required_casts: 75
   parameters:
-    undo: 30000
+    duration: 20000
+    cooldown: 20000
 
 lumos|3:
-  costs:
-    mana: 40
+  upgrade_required_path: year3
+  upgrade_required_casts: 150
   parameters:
-    undo: 40000
+    duration: 30000
+    cooldown: 30000
+
+lumos|4:
+  parameters:
+    duration: 60000
+    cooldown: 60000

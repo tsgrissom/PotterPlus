@@ -1,12 +1,10 @@
 lumosmaxima:
+  inherit: lumos
   upgrade_required_path: year5
   upgrade_required_casts: 50
-  inherit: lumos
-  costs:
-    mana: 50
-  worth: 15
+  worth: 10
   effects:
-    cast_self:
+    cast:
       - class: EffectSingle
         location: origin
         color: FFFFFF
@@ -16,13 +14,14 @@ lumosmaxima:
         color: FF0080
         firework: burst
   parameters:
-    effect_night_vision: 2
-    duration: 60000
-    cooldown: 60000
-
-lumosmaxima|2:
-  costs:
-    mana: 60
-  parameters:
+    potion_effects:
+      night_vision: 2
     duration: 90000
     cooldown: 90000
+  costs:
+    mana: 50
+
+lumosmaxima|2:
+  parameters:
+    duration: 120000
+    cooldown: 120000
