@@ -2584,16 +2584,16 @@ spells:
   deprimo|3:
     upgrade_description: '&r&8&bull; &eIncreased radius.'
   protego|2:
-    upgrade_description: '&r&8&bull; &eDecreased cooldown. Increased duration, reflection
-      chance, and size.'
+    upgrade_description: '&r&8&bull; &eDecreased cooldown. Increased chance to reflect
+      spells and size.'
   protego|3:
-    upgrade_description: '&r&8&bull; &eDecreased cooldown. Increased duration, reflection
-      chance, and size.'
+    upgrade_description: '&r&8&bull; &eDecreased cooldown. Increased duration, chance
+      to reflect spells, and size.'
   protego|4:
-    upgrade_description: '&r&8&bull; &eDecreased cooldown. Increased duration, reflection
-      chance, and size.'
+    upgrade_description: '&r&8&bull; &eDecreased cooldown. Increased chance to reflect
+      spells and size.'
   protego|5:
-    upgrade_description: '&r&8&bull; &eIncreased size and duration. Guaranteed to
+    upgrade_description: '&r&8&bull; &eIncreased duration and size. Guaranteed to
       reflect spells.'
   protegomaxima|2:
     upgrade_description: '&r&8&bull; &eDecreased cooldown. Increased duration, reflection
