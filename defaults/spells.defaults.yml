@@ -16135,7 +16135,7 @@ tweakshop:
     - wand|loud
     - wand|quiet
     - wand|silent
-  enabled: true
+  enabled: false
 upgrades:
   icon: diamond_axe:187
   icon_disabled: diamond_hoe:187
@@ -21279,15 +21279,7 @@ gillyweed_ability:
   costs:
     mana: 25
 reveal:
-  class: FillSpell
-  category: specialty
-  hidden: true
-  parameters:
-    target: select
-    max_dimension: 64
-    check_destructible: false
-    brush: erase
-    undo: 5000
+  enabled: true
 aquaeructo:
   category: charms
   worth: 15

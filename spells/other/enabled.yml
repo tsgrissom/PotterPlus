@@ -1,8 +1,5 @@
 # Enabled
 
-tweakshop:
-  enabled: true
-
 camera:
   enabled: true
   hidden: true
@@ -25,3 +22,6 @@ debugger:
 testdummy:
   enabled: true
   hidden: true
+
+reveal:
+  enabled: true
