@@ -1,17 +1,13 @@
 lapifors:
-  upgrade_required_casts: 25
-  upgrade_required_path: year5
   inherit: avis
+  effects:
+    undo_entity: undo_entity
   parameters:
     type: rabbit
+    name: "&dConjured Rabbit"
 
 lapifors|2:
-  upgrade_required_casts: 50
-  upgrade_required_path: year6
-  parameters:
-    count: 5
+  inherit: avis|2
 
 lapifors|3:
-  parameters:
-    count: 10
-    baby: false
+  inherit: avis|3

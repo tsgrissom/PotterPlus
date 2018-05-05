@@ -5628,6 +5628,15 @@ familiar:
           class: AtomEffect
           particle_nucleus: drip_water
           particle_orbital: drip_water
+    undo_entity:
+    - location: target
+      effectlib:
+        class: Smoke
+        duration: 1000
+        particle_count: 20
+        particle_offset_x: 0.5
+        particle_offset_y: 0.5
+        particle_offset_z: 0.5
   parameters:
     entity_types:
       chicken: 30
@@ -5691,6 +5700,15 @@ farm:
           class: AtomEffect
           particle_nucleus: drip_water
           particle_orbital: drip_water
+    undo_entity:
+    - location: target
+      effectlib:
+        class: Smoke
+        duration: 500
+        particle_count: 10
+        particle_offset_x: 0.5
+        particle_offset_y: 0.5
+        particle_offset_z: 0.5
   parameters:
     target_type: LivingEntity
     allow_max_range: false
@@ -7379,6 +7397,15 @@ ghast:
         particle: drip_lava
         radius: 2
         particles: 20
+    undo_entity:
+    - location: target
+      effectlib:
+        class: Smoke
+        duration: 1000
+        particle_count: 40
+        particle_offset_x: 1.5
+        particle_offset_y: 1.5
+        particle_offset_z: 1.5
   parameters:
     target: block
     type: ghast
@@ -9889,6 +9916,15 @@ mob:
           class: AtomEffect
           particle_nucleus: drip_lava
           particle_orbital: drip_lava
+    undo_entity:
+    - location: target
+      effectlib:
+        class: Smoke
+        duration: 500
+        particle_count: 10
+        particle_offset_x: 0.5
+        particle_offset_y: 0.5
+        particle_offset_z: 0.5
   parameters:
     entity_types:
       zombie: 100
@@ -9969,6 +10005,15 @@ monster:
           class: AtomEffect
           particle_nucleus: drip_lava
           particle_orbital: drip_lava
+    undo_entity:
+    - location: target
+      effectlib:
+        class: Smoke
+        duration: 1000
+        particle_count: 20
+        particle_offset_x: 0.5
+        particle_offset_y: 0.5
+        particle_offset_z: 0.5
   parameters:
     target_type: LivingEntity
     allow_max_range: false
@@ -17780,40 +17825,36 @@ avadamaxima:
     mana: 300
   enabled: false
 avis:
-  icon_url: http://textures.minecraft.net/texture/8dd5ea25877fc4f2973e9ae746e77326b9b9dd735ca811cba3bdfb4e47108970
+  inherit: false
   icon: diamond_axe:226
   icon_disabled: diamond_hoe:226
   category: creatures
-  class: FamiliarSpell
   worth: 5
+  upgrade_required_casts: 75
+  upgrade_required_path: year5
+  actions:
+    cast:
+    - class: Repeat
+      actions:
+      - class: Spread
+        actions:
+        - class: SpawnEntity
   effects:
     cast:
-    - class: EffectSingle
-      sound: chicken_egg_pop
-      effectlib:
-        class: DnaEffect
-        particle_helix: drip_lava
-        iterations: 24
-    - class: EffectSingle
-      location: target
-      effectlib:
-        class: AtomEffect
-        iterations: 32
-        particle_orbital: spell
+    - sound: chicken_egg_pop
+    undo_entity: undo_entity
   parameters:
-    allow_max_range: true
-    range: 2
-    cooldown: 10000
+    cooldown: 12000
     type: chicken
-    baby: true
-    count: 3
-    reason: custom
-    undo: 5000
+    target: self
+    undo: 8000
+    allow_max_range: false
+    range: 24
+    repeat: 6
+    radius: 6
+    name: '&dConjured Bird'
   costs:
-    mana: 15
-  enabled: true
-  upgrade_required_casts: 25
-  upgrade_required_path: year5
+    mana: 10
 beat:
   hidden: true
   icon: stick
@@ -21255,15 +21296,6 @@ aquaeructo|2:
   inherit: stream|2
 aquaeructo|3:
   inherit: stream|3
-avis|2:
-  upgrade_required_casts: 50
-  upgrade_required_path: year6
-  parameters:
-    count: 5
-avis|3:
-  parameters:
-    count: 10
-    baby: false
 aberto:
   inherit: alohomora
   effects:
@@ -21374,6 +21406,15 @@ arrowmaxima|3:
 arrowmaxima|4:
   parameters:
     fire: true
+avis|2:
+  upgrade_required_casts: 125
+  upgrade_required_path: year6
+  parameters:
+    repeat: 8
+avis|3:
+  parameters:
+    repeat: 10
+    baby: false
 baubillious:
   inherit: chainlightning
   worth: 20
@@ -22277,20 +22318,16 @@ incarcifors:
     undo_speed: 1
     target_type: LivingEntity
 lapifors:
-  upgrade_required_casts: 25
-  upgrade_required_path: year5
   inherit: avis
+  effects:
+    undo_entity: undo_entity
   parameters:
     type: rabbit
+    name: '&dConjured Rabbit'
 lapifors|2:
-  upgrade_required_casts: 50
-  upgrade_required_path: year6
-  parameters:
-    count: 5
+  inherit: avis|2
 lapifors|3:
-  parameters:
-    count: 10
-    baby: false
+  inherit: avis|3
 liberacorpus:
   category: charms
   icon: diamond_axe:136
