@@ -32,6 +32,7 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Obliviate maxima doesn't work, obliviate does
 * Some spells give errors on load and don't appear, can't seem to see what's wrong with them (flagellos, multabasorium, incarcifors, baubillious)
 * Wingardium leviosa doesn't actually lift blocks like it used to
+* Crucio has weird particles (from inheritance, I guess)
 
 ### Other ideas
 
