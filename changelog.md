@@ -2,6 +2,7 @@
 
 Changes are organized here for record-keeping purposes. Most recent changes are at the top.
 
+* 5/5/18 - Overhauled `frigusignatus`, the Flame-Freezing Charm particles and buffed it
 * 5/5/18 - Fixed Crucio particles from Magic update
 * 5/5/18 - Nerfed and overhauled Avada Kedavra
 * 5/5/18 - Buffed and fixed Gillyweed messages

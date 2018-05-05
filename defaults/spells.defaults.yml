@@ -22266,34 +22266,50 @@ fourpoint|2:
     mana: 25
 frigusignatus:
   category: charms
-  icon_url: http://textures.minecraft.net/texture/a9e073da36aaf2c844da428cd4a19dfde32c8cdc2404eed4a135f6095b17c
   icon: diamond_axe:139
   upgrade_required_casts: 25
   upgrade_required_path: year4
   worth: 5
-  costs:
-    mana: 30
   actions:
     cast:
     - class: PotionEffect
   effects:
     cast:
     - class: EffectSingle
-      sound: magic.zap_crack
-      firework: ball
-      color: 58ebd9
-      fadeColor: FFFFFF
+      location: origin
+      source_location: feet
+      effectlib:
+        class: AnimatedBall
+        particle: spell_mob_ambient
+        color: d47f1c
+        iterations: 24
+    - class: EffectSingle
+      location: origin
+      source_location: feet
+      effectlib:
+        class: Smoke
+        particle: redstone
+        color: 58ebd9
+        iterations: 100
+    - class: EffectSingle
+      location: origin
+      source_location: feet
+      effectlib:
+        class: Smoke
+        particle: redstone
+        color: FFFFFF
+        iterations: 100
   parameters:
     effect_fire_resistance: 1
-    duration: 5000
+    duration: 10000
     cooldown: 12000
     target: self
-frigusignatus|2:
   costs:
-    mana: 35
+    mana: 25
+frigusignatus|2:
   parameters:
-    duration: 8000
-    coolown: 15000
+    duration: 20000
+    coolown: 22000
 fumos|2:
   upgrade_required_path: year5
   upgrade_required_casts: 75
