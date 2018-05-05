@@ -22289,7 +22289,7 @@ frigusignatus:
       effectlib:
         class: Smoke
         particle: redstone
-        color: 58ebd9
+        color: 95d5e0
         iterations: 100
     - class: EffectSingle
       location: origin
@@ -22299,6 +22299,12 @@ frigusignatus:
         particle: redstone
         color: FFFFFF
         iterations: 100
+    - class: EffectSingle
+      location: origin
+      source_location: feet
+      effectlib:
+        class: Smoke
+        iterations: 16
   parameters:
     effect_fire_resistance: 1
     duration: 10000
