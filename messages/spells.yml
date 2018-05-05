@@ -68,6 +68,8 @@ spells:
     upgrade_description: "&r&8&bull; &eIncreased light duration."
   lumos|3:
     upgrade_description: "&r&8&bull; &eIncreased light duration."
+  lumos|4:
+    upgrade_description: "&r&8&bull; &eIncreased light duration."
   lumosmaxima:
     name: Lumos Maxima
     description: "Blindingly lights up the tip of your wand to provide a long-lasting light source in dark areas."
@@ -302,6 +304,10 @@ spells:
   lumossolem:
     name: Lumos Solem
     description: "Conjures a well-lit ball of light which can be thrown where desired and will stick there, temporarily lighting up the area."
+  lumossolem|2:
+    upgrade_description: "&r&8&bull; &eIncreased duration."
+  lumossolem|3:
+    upgrade_description: "&r&8&bull; &eIncreased duration."
   verdimillious:
     name: Verdimillious
     description: "Conjures a flurry of green, burning sparks which will inflict damage on targets."

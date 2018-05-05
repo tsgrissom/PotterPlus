@@ -19226,18 +19226,22 @@ lumos:
     effect_night_vision: 5
     remove_effects:
     - blindness
-    cooldown: 15000
+    cooldown: 10000
   enabled: true
 lumos|2:
   parameters:
-    duration: 15000
+    duration: 20000
+    cooldown: 20000
   enabled: true
   upgrade_required_path: year2
-  upgrade_required_casts: 50
+  upgrade_required_casts: 75
 lumos|3:
   parameters:
     duration: 30000
+    cooldown: 30000
   enabled: true
+  upgrade_required_path: year3
+  upgrade_required_casts: 150
 lumossolem:
   icon_url: http://textures.minecraft.net/texture/4abfe52d50f710f4103bc650b5e972d49832ea419841d9fa24e16ce617c716
   icon: diamond_axe:228
@@ -19265,10 +19269,12 @@ lumossolem:
   parameters:
     speed: 1
     brush: glowstone
-    undo: 30000
+    undo: 3000
   costs:
-    mana: 50
+    mana: 30
   enabled: true
+  upgrade_required_path: year2
+  upgrade_required_casts: 50
 morsmordre:
   icon_url: http://textures.minecraft.net/texture/1eed1e4d70522ccd538b75ded4baa680e3dfe55426c560ff7b521be5cdf614f
   icon: diamond_axe:52
@@ -22760,6 +22766,10 @@ locomotorwibbly|3:
   parameters:
     effect_slow: 2
     range: 32
+lumos|4:
+  parameters:
+    duration: 60000
+    cooldown: 60000
 lumosmaxima:
   inherit: lumos
   upgrade_required_path: year5
@@ -22778,14 +22788,22 @@ lumosmaxima:
   parameters:
     potion_effects:
       night_vision: 2
-    duration: 60000
-    cooldown: 60000
+    duration: 90000
+    cooldown: 90000
   costs:
     mana: 50
 lumosmaxima|2:
   parameters:
-    duration: 90000
-    cooldown: 90000
+    duration: 120000
+    cooldown: 120000
+lumossolem|2:
+  upgrade_required_path: year3
+  upgrade_required_casts: 75
+  parameters:
+    undo: 8000
+lumossolem|3:
+  parameters:
+    undo: 12000
 melofors:
   icon: diamond_axe:145
   category: transfiguration
