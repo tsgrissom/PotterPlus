@@ -18362,6 +18362,12 @@ expelliarmus:
   category: dada
   enabled: true
   worth: 15
+  effects:
+    hit:
+    - class: EffectSingle
+      location: target
+      color: DF0101
+      firework: star
 expelliarmus|2:
   parameters:
     fizzle_chance: 0.4

@@ -1,0 +1,8 @@
+expelliarmus:
+  worth: 15
+  effects:
+    hit:
+      - class: EffectSingle
+        location: target
+        color: DF0101
+        firework: star
