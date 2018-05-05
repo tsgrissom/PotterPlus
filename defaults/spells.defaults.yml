@@ -21496,10 +21496,120 @@ brackiumemendo|3:
   parameters:
     amount: 5
     delay: 250
+bruchumaculeatos:
+  category: dark
+  icon: diamond_axe:151
+  icon_url: http://textures.minecraft.net/texture/c7142a19d8c84389da74b69641542b8b2fafbed8f7515d1d36c63c96bd749
+  worth: 20
+  upgrade_required_path: year6
+  upgrade_required_casts: 25
+  costs:
+    mana: 60
+  actions:
+    cast:
+    - class: CustomProjectile
+      actions:
+      - class: Repeat
+        actions:
+        - class: Delay
+        - class: Damage
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.zap
+      location: origin
+      effectlib:
+        class: ConeEffect
+        iterations: 10
+        particle: fireworks_spark
+        lengthGrow: 0.1
+        radiusGrow: 0.01
+        updateLocations: false
+        updateDirections: false
+    tick:
+    - location: target
+      particle: redstone
+      color: FFFFFF
+      particle_count: 5
+      particle_offset_x: 0.1
+      particle_offset_y: 0.1
+      particle_offset_z: 0.1
+    hit:
+    - location: target
+      firework: ball
+      color: FFFFFF
+    hit_entity:
+    - location: target
+      effectlib:
+        class: BleedEffect
+  parameters:
+    target: other
+    target_type: LivingEntity
+    player_damage: 2
+    entity_damage: 2
+    hitbox: true
+    repeat: 4
+    delay: 500
+    range: 12
+    cooldown: 15000
+    velocity: 125
+bruchumaculeatos|2:
+  upgrade_required_casts: 50
+  upgrade_required_path: year7
+  parameters:
+    player_damage: 3
+    entity_damage: 3
+    repeat: 6
+    delay: 250
+bruchumaculeatos|3:
+  parameters:
+    player_damage: 4
+    entity_damage: 4
 bubblehead|2:
   parameters:
     duration: 60000
     undo: 60000
+cantis:
+  category: charms
+  icon_url: http://textures.minecraft.net/texture/ad7e09a7af7af5acc286e6a4dd3c2f69b55ace33b7838ca899545570e946ee
+  icon: diamond_axe:8
+  worth: 5
+  costs:
+    mana: 15
+  actions:
+    cast:
+    - class: CustomProjectile
+      actions:
+      - class: Random
+        actions:
+        - class: Message
+          message: '&dMaking my way downtown'
+          sub_message: '&5walking fast'
+        - class: Message
+          message: '&aI''m the F to the E'
+          sub_message: '&bR, G, the I the E'
+  effects:
+    tick:
+    - location: target
+      particle: note
+      particle_count: 5
+      particle_offset_x: 0.2
+      particle_offset_y: 0.2
+      particle_offset_z: 0.2
+    hit:
+    - location: target
+      firework: star
+      color: 35adc2
+      fadeColor: FFFFFF
+  parameters:
+    range: 12
+    velocity: 25
+    hitbox: true
+    message_type: title
+    message_target: true
+    target: other
+    target_type: LivingEntity
+    cooldown: 20000
 carperetractum:
   icon: diamond_axe:198
   worth: 10
@@ -21691,6 +21801,53 @@ depulso|2:
   parameters:
     item_speed: 0.2
     entity_speed: 0.5
+despello:
+  icon_url: http://textures.minecraft.net/texture/ad7e09a7af7af5acc286e6a4dd3c2f69b55ace33b7838ca899545570e946ee
+  icon: diamond_axe:8
+  category: charms
+  worth: 5
+  upgrade_required_path: year2
+  upgrade_required_casts: 25
+  actions:
+    cast:
+    - class: CustomProjectile
+      actions:
+      - class: Chat
+  effects:
+    tick:
+    - particle: fireworks_spark
+      location: target
+    hit:
+    - firework: burst
+      location: target
+      color: FFFFFF
+      fadeColor: cfd223
+  parameters:
+    range: 12
+    velocity: 75
+    hitbox: true
+    target: other
+    target_type: Player
+    randomized_messages:
+    - blablablabla
+    - fwufheuf
+    - It's a FISH!
+    - BlubBlubBlubBlub
+    - HueHueHue
+    - LaLaLa
+    - TutTutTut
+    - TyTyTy
+    - Floooop
+    - Tinky-Winky
+    - Laa-Laa
+    - Dipsy
+    - Po
+    - Sun Baby
+    - Noo-noo
+    - Yo soy loco
+despello|2:
+  parameters:
+    velocity: 100
 emancipare:
   icon: diamond_axe:177
   icon_url: http://textures.minecraft.net/texture/b2545861d5871f75caa3b378ec44655bcb3d6cabe697b27303dbdaa8b5b5
@@ -21855,6 +22012,72 @@ expulso|2:
     entity_damage: 8
     size: 3
     undo: 2000
+felixleporemos:
+  category: charms
+  icon_url: http://textures.minecraft.net/texture/bc8e7e971bbac56883fe9bfe1b38c5f568ece6cbe09ca59d85f6dab4688d14
+  icon: diamond_axe:46
+  upgrade_required_casts: 25
+  upgrade_required_path: year2
+  worth: 5
+  costs:
+    mana: 15
+  actions:
+    cast:
+    - class: CustomProjectile
+      actions:
+      - class: PotionEffect
+  effects:
+    cast:
+    - location: origin
+      sound: magic.shimmer
+    tick:
+    - location: target
+      particle: spell_mob
+      color: d9d237
+      particle_count: 20
+      particle_offset_x: 0.1
+      particle_offset_y: 0.1
+      particle_offset_z: 0.1
+    - location: target
+      particle: villager_happy
+      particle_count: 10
+      particle_offset_x: 0.1
+      particle_offset_y: 0.1
+      particle_offset_z: 0.1
+    hit_entity:
+    - location: target
+      sound: entity_player_levelup
+      sound_volume: 0.5
+    hit:
+    - location: target
+      firework: ball
+      color: d9d237
+      fadeColor: FFFFFF
+  parameters:
+    cooldown: 12000
+    target: other
+    target_type: LivingEntity
+    hitbox: true
+    effect_speed: 1
+    effect_jump: 1
+    duration: 3000
+    velocity: 125
+    range: 12
+felixleporemos|2:
+  upgrade_required_casts: 50
+  upgrade_required_path: year3
+  costs:
+    mana: 20
+  parameters:
+    cooldown: 14000
+    duration: 5000
+felixleporemos|3:
+  costs:
+    mana: 25
+  parameters:
+    effect_speed: 2
+    effect_jump: 2
+    velocity: 200
 fiendfyre|2:
   actions:
     cast:
@@ -21919,6 +22142,32 @@ firestorm|2:
     duration: 12000
     push: 2
     damage: 3
+flagellos:
+  inherit: whip
+  category: dark
+  upgrade_required_path: year4
+  upgrade_required_casts: 50
+  worth: 15
+  effects:
+    hit:
+    - class: EffectSingle
+      sound: magic.zap_crack
+      sound_volume: 0.3
+      location: target
+      particle: explosion_normal
+    hit_entity:
+    - class: EffectSingle
+      location: target
+      effectlib:
+        class: BleedEffect
+        height: 0.5
+  parameters:
+    player_damage: 5
+    entity_damage: 5
+flagellos|2:
+  parameters:
+    player_damage: 8
+    entity_damage: 8
 flagrate|2:
   effects:
     cast:
@@ -21989,6 +22238,36 @@ fourpoint|2:
     cooldown: 5000
   costs:
     mana: 25
+frigusignatus:
+  category: charms
+  icon_url: http://textures.minecraft.net/texture/a9e073da36aaf2c844da428cd4a19dfde32c8cdc2404eed4a135f6095b17c
+  icon: diamond_axe:139
+  upgrade_required_casts: 25
+  upgrade_required_path: year4
+  worth: 5
+  costs:
+    mana: 30
+  actions:
+    cast:
+    - class: PotionEffect
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.zap_crack
+      firework: ball
+      color: 58ebd9
+      fadeColor: FFFFFF
+  parameters:
+    effect_fire_resistance: 1
+    duration: 5000
+    cooldown: 12000
+    target: self
+frigusignatus|2:
+  costs:
+    mana: 35
+  parameters:
+    duration: 8000
+    coolown: 15000
 fumos|2:
   upgrade_required_path: year5
   upgrade_required_casts: 75
@@ -22229,6 +22508,36 @@ homenumrevelio:
     target: self
     target_type: Player
     cooldown: 24000
+ignisdisceditus:
+  icon: diamond_axe:33
+  category: charms
+  worth: 5
+  class: ConstructSpell
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: block_fire_extinguish
+      location: origin
+      effectlib:
+        class: ConeEffect
+        iterations: 10
+        particle: cloud
+        lengthGrow: 0.1
+        radiusGrow: 0.03
+        updateLocations: false
+        updateDirections: false
+  costs:
+    mana: 20
+  parameters:
+    allow_max_range: false
+    range: 32
+    check_destructible: true
+    destructible: fire
+    brush: erase
+    radius: 2
+    transparent: transparent_to_construction
+    undo: 5000
+    cooldown: 20000
 impedimenta:
   icon: diamond_axe:163
   category: dada
@@ -22361,6 +22670,38 @@ liberacorpus:
     force: true
     target: self
     cooldown: 8000
+limusexumai:
+  inherit: araniaexumai
+  icon_url: http://textures.minecraft.net/texture/d8532e9a6994e828df3a7236a7b3686194eba57dae3eb10789d98915cbb3336
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: ghast_fireball
+      sound_volume: 1
+      sound_pitch: 3
+      effectlib:
+        class: ConeEffect
+        iterations: 10
+        lengthGrow: 0.15
+        particle: spell_mob
+        color: 98fb98
+    - class: EffectSingle
+      effectlib:
+        class: ConeEffect
+        iterations: 10
+        lengthGrow: 0.15
+        particle: spell_mob
+        color: FFFFFF
+  parameters:
+    target_type: Slime
+limusexumai|2:
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
+  parameters:
+    damage: 15
+limusexumai|3:
+  parameters:
+    damage: 20
 locomotorwibbly:
   icon: diamond_axe:145
   category: dada
@@ -22499,347 +22840,6 @@ melofors:
     undo: 6000
   costs:
     mana: 24
-bruchumaculeatos:
-  category: dark
-  icon: diamond_axe:151
-  icon_url: http://textures.minecraft.net/texture/c7142a19d8c84389da74b69641542b8b2fafbed8f7515d1d36c63c96bd749
-  worth: 20
-  upgrade_required_path: year6
-  upgrade_required_casts: 25
-  costs:
-    mana: 60
-  actions:
-    cast:
-    - class: CustomProjectile
-      actions:
-      - class: Repeat
-        actions:
-        - class: Delay
-        - class: Damage
-  effects:
-    cast:
-    - class: EffectSingle
-      sound: magic.zap
-      location: origin
-      effectlib:
-        class: ConeEffect
-        iterations: 10
-        particle: fireworks_spark
-        lengthGrow: 0.1
-        radiusGrow: 0.01
-        updateLocations: false
-        updateDirections: false
-    tick:
-    - location: target
-      particle: redstone
-      color: FFFFFF
-      particle_count: 5
-      particle_offset_x: 0.1
-      particle_offset_y: 0.1
-      particle_offset_z: 0.1
-    hit:
-    - location: target
-      firework: ball
-      color: FFFFFF
-    hit_entity:
-    - location: target
-      effectlib:
-        class: BleedEffect
-  parameters:
-    target: other
-    target_type: LivingEntity
-    player_damage: 2
-    entity_damage: 2
-    hitbox: true
-    repeat: 4
-    delay: 500
-    range: 12
-    cooldown: 15000
-    velocity: 125
-bruchumaculeatos|2:
-  upgrade_required_casts: 50
-  upgrade_required_path: year7
-  parameters:
-    player_damage: 3
-    entity_damage: 3
-    repeat: 6
-    delay: 250
-bruchumaculeatos|3:
-  parameters:
-    player_damage: 4
-    entity_damage: 4
-cantis:
-  category: charms
-  icon_url: http://textures.minecraft.net/texture/ad7e09a7af7af5acc286e6a4dd3c2f69b55ace33b7838ca899545570e946ee
-  icon: diamond_axe:8
-  worth: 5
-  costs:
-    mana: 15
-  actions:
-    cast:
-    - class: CustomProjectile
-      actions:
-      - class: Random
-        actions:
-        - class: Message
-          message: '&dMaking my way downtown'
-          sub_message: '&5walking fast'
-        - class: Message
-          message: '&aI''m the F to the E'
-          sub_message: '&bR, G, the I the E'
-  effects:
-    tick:
-    - location: target
-      particle: note
-      particle_count: 5
-      particle_offset_x: 0.2
-      particle_offset_y: 0.2
-      particle_offset_z: 0.2
-    hit:
-    - location: target
-      firework: star
-      color: 35adc2
-      fadeColor: FFFFFF
-  parameters:
-    range: 12
-    velocity: 25
-    hitbox: true
-    message_type: title
-    message_target: true
-    target: other
-    target_type: LivingEntity
-    cooldown: 20000
-despello:
-  icon_url: http://textures.minecraft.net/texture/ad7e09a7af7af5acc286e6a4dd3c2f69b55ace33b7838ca899545570e946ee
-  icon: diamond_axe:8
-  category: charms
-  worth: 5
-  upgrade_required_path: year2
-  upgrade_required_casts: 25
-  actions:
-    cast:
-    - class: CustomProjectile
-      actions:
-      - class: Chat
-  effects:
-    tick:
-    - particle: fireworks_spark
-      location: target
-    hit:
-    - firework: burst
-      location: target
-      color: FFFFFF
-      fadeColor: cfd223
-  parameters:
-    range: 12
-    velocity: 75
-    hitbox: true
-    target: other
-    target_type: Player
-    randomized_messages:
-    - blablablabla
-    - fwufheuf
-    - It's a FISH!
-    - BlubBlubBlubBlub
-    - HueHueHue
-    - LaLaLa
-    - TutTutTut
-    - TyTyTy
-    - Floooop
-    - Tinky-Winky
-    - Laa-Laa
-    - Dipsy
-    - Po
-    - Sun Baby
-    - Noo-noo
-    - Yo soy loco
-despello|2:
-  parameters:
-    velocity: 100
-felixleporemos:
-  category: charms
-  icon_url: http://textures.minecraft.net/texture/bc8e7e971bbac56883fe9bfe1b38c5f568ece6cbe09ca59d85f6dab4688d14
-  icon: diamond_axe:46
-  upgrade_required_casts: 25
-  upgrade_required_path: year2
-  worth: 5
-  costs:
-    mana: 15
-  actions:
-    cast:
-    - class: CustomProjectile
-      actions:
-      - class: PotionEffect
-  effects:
-    cast:
-    - location: origin
-      sound: magic.shimmer
-    tick:
-    - location: target
-      particle: spell_mob
-      color: d9d237
-      particle_count: 20
-      particle_offset_x: 0.1
-      particle_offset_y: 0.1
-      particle_offset_z: 0.1
-    - location: target
-      particle: villager_happy
-      particle_count: 10
-      particle_offset_x: 0.1
-      particle_offset_y: 0.1
-      particle_offset_z: 0.1
-    hit_entity:
-    - location: target
-      sound: entity_player_levelup
-      sound_volume: 0.5
-    hit:
-    - location: target
-      firework: ball
-      color: d9d237
-      fadeColor: FFFFFF
-  parameters:
-    cooldown: 12000
-    target: other
-    target_type: LivingEntity
-    hitbox: true
-    effect_speed: 1
-    effect_jump: 1
-    duration: 3000
-    velocity: 125
-    range: 12
-felixleporemos|2:
-  upgrade_required_casts: 50
-  upgrade_required_path: year3
-  costs:
-    mana: 20
-  parameters:
-    cooldown: 14000
-    duration: 5000
-felixleporemos|3:
-  costs:
-    mana: 25
-  parameters:
-    effect_speed: 2
-    effect_jump: 2
-    velocity: 200
-flagellos:
-  inherit: whip
-  category: dark
-  upgrade_required_path: year4
-  upgrade_required_casts: 50
-  worth: 15
-  effects:
-    hit:
-    - class: EffectSingle
-      sound: magic.zap_crack
-      sound_volume: 0.3
-      location: target
-      particle: explosion_normal
-    hit_entity:
-    - class: EffectSingle
-      location: target
-      effectlib:
-        class: BleedEffect
-        height: 0.5
-  parameters:
-    player_damage: 5
-    entity_damage: 5
-flagellos|2:
-  parameters:
-    player_damage: 8
-    entity_damage: 8
-frigusignatus:
-  category: charms
-  icon_url: http://textures.minecraft.net/texture/a9e073da36aaf2c844da428cd4a19dfde32c8cdc2404eed4a135f6095b17c
-  icon: diamond_axe:139
-  upgrade_required_casts: 25
-  upgrade_required_path: year4
-  worth: 5
-  costs:
-    mana: 30
-  actions:
-    cast:
-    - class: PotionEffect
-  effects:
-    cast:
-    - class: EffectSingle
-      sound: magic.zap_crack
-      firework: ball
-      color: 58ebd9
-      fadeColor: FFFFFF
-  parameters:
-    effect_fire_resistance: 1
-    duration: 5000
-    cooldown: 12000
-    target: self
-frigusignatus|2:
-  costs:
-    mana: 35
-  parameters:
-    duration: 8000
-    coolown: 15000
-ignisdisceditus:
-  icon: diamond_axe:33
-  category: charms
-  worth: 5
-  class: ConstructSpell
-  effects:
-    cast:
-    - class: EffectSingle
-      sound: block_fire_extinguish
-      location: origin
-      effectlib:
-        class: ConeEffect
-        iterations: 10
-        particle: cloud
-        lengthGrow: 0.1
-        radiusGrow: 0.03
-        updateLocations: false
-        updateDirections: false
-  costs:
-    mana: 20
-  parameters:
-    allow_max_range: false
-    range: 32
-    check_destructible: true
-    destructible: fire
-    brush: erase
-    radius: 2
-    transparent: transparent_to_construction
-    undo: 5000
-    cooldown: 20000
-limusexumai:
-  inherit: araniaexumai
-  icon_url: http://textures.minecraft.net/texture/d8532e9a6994e828df3a7236a7b3686194eba57dae3eb10789d98915cbb3336
-  effects:
-    cast:
-    - class: EffectSingle
-      sound: ghast_fireball
-      sound_volume: 1
-      sound_pitch: 3
-      effectlib:
-        class: ConeEffect
-        iterations: 10
-        lengthGrow: 0.15
-        particle: spell_mob
-        color: 98fb98
-    - class: EffectSingle
-      effectlib:
-        class: ConeEffect
-        iterations: 10
-        lengthGrow: 0.15
-        particle: spell_mob
-        color: FFFFFF
-  parameters:
-    target_type: Slime
-limusexumai|2:
-  upgrade_required_path: year3
-  upgrade_required_casts: 50
-  parameters:
-    damage: 15
-limusexumai|3:
-  parameters:
-    damage: 20
 multabasiorum:
   inherit: baubillious
   icon: diamond_axe:161
@@ -22905,52 +22905,6 @@ multabasiorum|3:
   parameters:
     damage: 7
     target_count: 5
-obliviatemaxima:
-  category: staff
-  icon_url: http://textures.minecraft.net/texture/89f9399aceb3211c3ca1259d5b1bb1f3fb61a4d5626a757ee1a1ccec28a0ae
-  icon: diamond_axe:230
-  worth: 30
-  costs:
-    mana: 75
-  actions:
-    cast:
-    - class: AllEntities
-      actions:
-      - class: PotionEffect
-      - class: ClearChat
-  effects:
-    cast:
-    - class: EffectSingle
-      sound: magic.zap
-      effectlib:
-        offset: 0,4,0
-        class: HelixEffect
-        iterations: 1
-        particle: redstone
-        color: FFFFFF
-  parameters:
-    cooldown: 20000
-    target_all_worlds: true
-    target_type: Player
-    effect_confusion: 1
-    duration: 8000
-percutios:
-  inherit: smite
-  category: dark
-  worth: 25
-  actions:
-    cast:
-    - class: Lightning
-      ignore_result: true
-    - class: AreaOfEffect
-      actions:
-      - class: Damage
-      - class: Ignite
-  parameters:
-    damage: 2
-percutios|2:
-  parameters:
-    damage: 4
 obliviate:
   category: charms
   icon_url: http://textures.minecraft.net/texture/89f9399aceb3211c3ca1259d5b1bb1f3fb61a4d5626a757ee1a1ccec28a0ae
@@ -22985,6 +22939,35 @@ obliviate:
     target: other
     target_type: Player
     duration: 1000
+obliviatemaxima:
+  category: staff
+  icon_url: http://textures.minecraft.net/texture/89f9399aceb3211c3ca1259d5b1bb1f3fb61a4d5626a757ee1a1ccec28a0ae
+  icon: diamond_axe:230
+  worth: 30
+  costs:
+    mana: 75
+  actions:
+    cast:
+    - class: AllEntities
+      actions:
+      - class: PotionEffect
+      - class: ClearChat
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.zap
+      effectlib:
+        offset: 0,4,0
+        class: HelixEffect
+        iterations: 1
+        particle: redstone
+        color: FFFFFF
+  parameters:
+    cooldown: 20000
+    target_all_worlds: true
+    target_type: Player
+    effect_confusion: 1
+    duration: 8000
 obscuro|2:
   effects:
     cast:
@@ -23060,6 +23043,23 @@ patronus|3:
         rows: 10
   parameters:
     type: chicken
+percutios:
+  inherit: smite
+  category: dark
+  worth: 25
+  actions:
+    cast:
+    - class: Lightning
+      ignore_result: true
+    - class: AreaOfEffect
+      actions:
+      - class: Damage
+      - class: Ignite
+  parameters:
+    damage: 2
+percutios|2:
+  parameters:
+    damage: 4
 periculum|2:
   upgrade_required_path: year6
   upgrade_required_casts: 150
