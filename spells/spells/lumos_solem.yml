@@ -1,0 +1,19 @@
+lumossolem:
+  upgrade_required_path: year2
+  upgrade_required_casts: 50
+  worth: 10
+  parameters:
+    brush: glowstone
+    undo: 3000
+  costs:
+    mana: 30
+
+lumossolem|2:
+  upgrade_required_path: year3
+  upgrade_required_casts: 75
+  parameters:
+    undo: 8000
+
+lumossolem|3:
+  parameters:
+    undo: 12000

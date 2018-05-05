@@ -129,12 +129,6 @@ imperio:
   category: dark
 impervius:
   worth: 10
-lumossolem:
-  worth: 10
-  parameters:
-    brush: glowstone
-  costs:
-    mana: 50
 meteo:
   quick_cast: false
   worth: 30
