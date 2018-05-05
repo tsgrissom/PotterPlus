@@ -3,9 +3,12 @@ gillyweed_ability:
   icon: vine
   category: item_ability
   hidden: true
-  cooldown: 30000
   actions:
     cast:
       - class: PotionEffect
+  parameters:
+    target: self
+    cooldown: 300000
+    duration: 300000
   costs:
     mana: 25
