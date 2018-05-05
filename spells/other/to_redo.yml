@@ -13,8 +13,6 @@ immobulus:
 bogies:
   category: dark
   worth: 15
-expelliarmus:
-  worth: 15
 finiteincantatem:
   worth: 20
   alias: finite

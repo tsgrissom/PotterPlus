@@ -1980,9 +1980,7 @@ spells:
       wizard high into the air, or whatever direction they choose.
   atmos:
     name: Atmospheric Charm
-    description: Using incredibly old and powerful magic you can influence the world
-      around you, including controlling the weather for the worse to cause rain and
-      thunder.
+    description: Control the weathet to cause a storm.
     cast: You calm the storm
     area: You stir up a storm
   avadakedavra:
@@ -2057,9 +2055,7 @@ spells:
     cast: Deluminate!
   meteo:
     name: Meteolojinx Recanto
-    description: Using incredibly old and powerful magic you can influence the world
-      around you, including controlling the weather for the better to clear rain and
-      thunder.
+    description: Control the weather to precisely calm storms.
     area: Meteolojinx Recanto!
   deletrius:
     name: Deletrius
