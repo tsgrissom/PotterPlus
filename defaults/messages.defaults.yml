@@ -1360,6 +1360,14 @@ spells:
     description: Raises a pillar up
     cast: You create a pillar of $material
     no_target: Can't pillar any further
+  raise:
+    name: Raise
+    description: Raises the ground up to form a nice slope
+    cast: You raise up the ground
+  flatten:
+    name: Flatten
+    description: Lower the ground to flatten it to the lowest point in the area
+    cast: You flatten the hills
   place:
     name: Place
     description: Place a block at your target
@@ -2414,6 +2422,10 @@ spells:
       light source in dark areas.
   lumosmaxima|2:
     upgrade_description: '&r&8&bull; &eIncreased light duration.'
+  periculum|2:
+    upgrade_description: '&r&8&bull; &eIncreased size of fireworks.'
+  periculum|3:
+    upgrade_description: '&r&8&bull; &eIncreased size of fireworks.'
   avis|2:
     upgrade_description: '&r&8&bull; &eSpawns more baby birds.'
   avis|3:

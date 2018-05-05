@@ -72,7 +72,6 @@ potterwand:
   hotbar_count: 2
   spells:
   - lumos
-  - vermillious
 wandbox:
   icon: wood_step:2
   replace_on_activate: potterwand
@@ -150,6 +149,7 @@ unspeakable:
   active_spell: ascendio
   hidden: true
   overrides: patronus.type sheep, patronus.variant blue
+  enabled: false
 slytherinwand:
   inherit: base_wand
   migrate_icon: gold_axe
@@ -170,6 +170,7 @@ slytherinwand:
   effect_bubbles: false
   active_spell: ascendio
   hidden: true
+  enabled: false
 crudwand:
   inherit: base_wand
   bound: false
@@ -182,6 +183,7 @@ crudwand:
   mana_regeneration: 5
   uses: 20
   effect_color: '440044'
+  enabled: false
 video:
   inherit: base_wand
   active_spell: superfly
@@ -194,6 +196,7 @@ video:
   effect_color: '440044'
   spells:
   - superfly
+  enabled: false
 flappy:
   inherit: base_wand
   icon: feather
@@ -210,6 +213,7 @@ flappy:
   active_spell: ascendio
   spells:
   - ascendio
+  enabled: false
 squib:
   inherit: base_wand
   icon: stick
@@ -228,6 +232,7 @@ squib:
   - reducto
   - deprimo
   - duro
+  enabled: false
 portkey:
   mode: cast
   active_spell: recall
@@ -241,6 +246,7 @@ portkey:
   overrides: allow_marker false
   spells:
   - recall
+  enabled: false
 camera:
   mode: cast
   active_spell: camera
@@ -253,6 +259,7 @@ camera:
   effect_color: '888888'
   spells:
   - camera
+  enabled: false
 floopowder:
   mode: cast
   quiet: 2
@@ -264,6 +271,7 @@ floopowder:
   uses: 8
   spells:
   - floo
+  enabled: false
 dungbombs:
   mode: cast
   quiet: 2
@@ -275,6 +283,7 @@ dungbombs:
   uses: 12
   spells:
   - dungbomb
+  enabled: false
 bombs:
   mode: cast
   quiet: 2
@@ -286,6 +295,7 @@ bombs:
   uses: 16
   spells:
   - bombtastic
+  enabled: false
 handbag:
   mode: cast
   quiet: 2
@@ -296,6 +306,7 @@ handbag:
   effect_color: FFFF00
   spells:
   - stash
+  enabled: false
 key:
   mode: cast
   quiet: 2
@@ -309,6 +320,7 @@ key:
   cost_reduction: 2
   spells:
   - alohomora
+  enabled: false
 deluminator:
   mode: cast
   quiet: 2
@@ -334,6 +346,7 @@ thestral:
   overrides: mount_variant skeleton_horse stash_item false
   spells:
   - broom
+  enabled: false
 minister:
   mode: cast
   path: broom
@@ -348,6 +361,7 @@ minister:
     0.5, broom.effect_confusion 0
   spells:
   - broom
+  enabled: false
 unspeakabroom:
   mode: cast
   path: broom
@@ -362,6 +376,7 @@ unspeakabroom:
     0.3, broom.effect_confusion 0
   spells:
   - broom
+  enabled: false
 headmaster:
   mode: cast
   path: broom
@@ -376,6 +391,7 @@ headmaster:
     0.3, broom.effect_confusion 0
   spells:
   - broom
+  enabled: false
 firebolt:
   mode: cast
   path: broom
@@ -390,6 +406,7 @@ firebolt:
     0.25
   spells:
   - broom
+  enabled: false
 crudfirebolt:
   mode: cast
   active_spell: broom
@@ -404,6 +421,7 @@ crudfirebolt:
     0.25
   spells:
   - broom
+  enabled: false
 nimbus:
   mode: cast
   path: broom
@@ -418,6 +436,7 @@ nimbus:
     0.4
   spells:
   - broom
+  enabled: false
 crudnimbus:
   mode: cast
   active_spell: broom
@@ -432,6 +451,7 @@ crudnimbus:
     0.4
   spells:
   - broom
+  enabled: false
 comet290:
   mode: cast
   path: broom
@@ -446,6 +466,7 @@ comet290:
     1
   spells:
   - broom
+  enabled: false
 cleansweep1:
   mode: cast
   path: broom
@@ -459,6 +480,7 @@ cleansweep1:
     12, broom.steer_speed 0, broom.slow_steer_speed 0.8
   spells:
   - broom
+  enabled: false
 bluebottle:
   mode: cast
   path: broom
@@ -472,6 +494,7 @@ bluebottle:
     8, broom.steer_speed 0.2, broom.slow_ticks 5, broom.slow_steer_speed 0.1
   spells:
   - broom
+  enabled: false
 crudbroom:
   mode: cast
   path: broom
@@ -486,6 +509,7 @@ crudbroom:
     8, broom.steer_speed 0.2, broom.slow_ticks 5, broom.slow_steer_speed 0.1
   spells:
   - broom
+  enabled: false
 beater:
   path: beater
   active_spell: beat
@@ -498,10 +522,11 @@ beater:
   effect_color: FF0000
   spells:
   - beat
+  enabled: false
 patronus_wolf:
   icon: nether_star
   upgrade: true
-  overrides: patronus.type wolf,patronus.sound wolf_howl,patronus.name Wolfie
+  overrides: patronus.type wolf,patronus.sound wolf_howl
 patronus_horse:
   icon: nether_star
   upgrade: true
@@ -860,11 +885,13 @@ whiteeffects:
   indestructible: false
   icon: carpet:0
   effect_color: FFFFFF
+  enabled: false
 orangeeffects:
   upgrade: true
   indestructible: false
   icon: carpet:1
   effect_color: FFAA00
+  enabled: false
 magentaeffects:
   upgrade: true
   indestructible: false
@@ -880,11 +907,13 @@ yelloweffects:
   indestructible: false
   icon: carpet:4
   effect_color: FFFF00
+  enabled: false
 greeneffects:
   upgrade: true
   indestructible: false
   icon: carpet:5
   effect_color: 00FF00
+  enabled: false
 pinkeffects:
   upgrade: true
   indestructible: false
@@ -905,16 +934,19 @@ aquaeffects:
   indestructible: false
   icon: carpet:9
   effect_color: 00FFFF
+  enabled: false
 purpleeffects:
   upgrade: true
   indestructible: false
   icon: carpet:10
   effect_color: '800080'
+  enabled: false
 blueeffects:
   upgrade: true
   indestructible: false
   icon: carpet:11
   effect_color: 0000FF
+  enabled: false
 browneffects:
   upgrade: true
   indestructible: false
@@ -930,11 +962,13 @@ redeffects:
   indestructible: false
   icon: carpet:14
   effect_color: FF0000
+  enabled: false
 blackeffects:
   upgrade: true
   indestructible: false
   icon: carpet:15
   effect_color: '010101'
+  enabled: false
 randomeffects:
   upgrade: true
   indestructible: false
@@ -961,6 +995,7 @@ rainboweffects:
   effect_particle_radius: 2
   effect_particle_interval: 500
   effect_particle_offset: 0.5
+  enabled: false
 haloeffects:
   upgrade: true
   indestructible: false
@@ -971,19 +1006,6 @@ haloeffects:
   effect_particle_data: 0
   effect_particle_radius: 0.4
   effect_particle_offset: 0.5
-default:
-  drop: toggle
-  left_click: cast
-  swap: cycle_hotbar
-developer:
-  inherit: base_wand
-  icon: blaze_rod
-  active_spell: testdummy
-  cost_reduction: 10
-  cooldown_reduction: 10
-  spells:
-  - testdummy
-  - debugger
 conductors_wand:
   icon: stick
   active_spell: music
@@ -1057,3 +1079,16 @@ erumpent_horn:
   active_spell: erumpent_attack
   spells:
   - erumpent_attack
+default:
+  drop: toggle
+  left_click: cast
+  swap: cycle_hotbar
+developer:
+  inherit: base_wand
+  icon: blaze_rod
+  active_spell: testdummy
+  cost_reduction: 10
+  cooldown_reduction: 10
+  spells:
+  - testdummy
+  - debugger

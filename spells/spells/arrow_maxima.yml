@@ -7,12 +7,10 @@ arrowmaxima:
       - class: Repeat
         actions:
           - class: Projectile
-          - class: Delay
   parameters:
     damage: 1
     repeat: 3
     spread: 2
-    delay: 100
 
 arrowmaxima|2:
   upgrade_required_path: year6
