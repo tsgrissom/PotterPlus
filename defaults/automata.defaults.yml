@@ -42,16 +42,13 @@ spawner:
       dark_spider: 20
       mega_spider: 30
 acromantula_spawner:
+  inherit: spawner
   name: Acromantula Spawner
   description: An acromantula spawner
   interval: 3000
   spawn:
-    player_range: 32
-    min_players: 1
-    limit_range: 32
     vertical_range: 24
     limit: 6
-    probability: 1
     radius: 64
     vertical_radius: 24
     mobs:

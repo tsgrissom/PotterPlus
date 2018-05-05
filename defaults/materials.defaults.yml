@@ -428,6 +428,31 @@ doors:
 - iron_door_block
 - unlocked_doors
 - iron_door
+earth:
+- stone
+- grass
+- dirt
+- cobblestone
+- mossy_cobblestone
+- clay
+- hard_clay
+- stained_clay
+- sand
+- gravel
+- netherrack
+- ender_stone
+- mycel
+- soul_sand
+- sandstone
+- gold_ore
+- iron_ore
+- coal_ore
+- lapis_ore
+- diamond_ore
+- redstone_ore
+- glowing_redstone_ore
+- emerald_ore
+- quartz_ore
 enchantable:
 - wood_sword
 - iron_sword
