@@ -2,6 +2,7 @@
 
 Changes are organized here for record-keeping purposes. Most recent changes are at the top.
 
+* 5/4/18 - Removed `not_canon` folder
 * 5/4/18 - Moved Avis and Lapifors to action system and used new `undo_entity` effects
 * 5/4/18 - Updated Periculum colors to be lore-accurate, added EffectRing to periculum|3
 * 5/4/18 - Fixed base wands starting with Vermillious due to classes.
