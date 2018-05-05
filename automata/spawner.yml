@@ -1,7 +1,3 @@
-spawner:
-  spawn:
-    mobs: []
-
 acromantula_spawner:
   name: "Acromantula Spawner"
   description: "An acromantula spawner"

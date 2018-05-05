@@ -33,3 +33,5 @@ wands:
   gillyweed:
     name: "&2Gillyweed"
     description: "&aGrants you the ability to temporarily breathe underwater"
+    spell_instructions: ""
+    bound_instructions: ""
