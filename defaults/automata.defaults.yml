@@ -36,7 +36,11 @@ spawner:
     probability: 1
     radius: 16
     vertical_radius: 0
-    mobs: []
+    mobs:
+      warlock: 100
+      dark_wizard: 5
+      dark_spider: 20
+      mega_spider: 30
 acromantula_spawner:
   name: Acromantula Spawner
   description: An acromantula spawner

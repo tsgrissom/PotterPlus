@@ -17764,13 +17764,20 @@ avadakedavra:
     - class: EffectSingle
       effectlib:
         class: SphereEffect
-        particle: redstone
+        particle: spell_mob
         color: 00FF00
         iterations: 1000
         radius: 0.6
+    tick:
+    - location: target
+      particle: smoke_large
+      particle_count: 2
+      particle_offset_x: 0.2
+      particle_offset_y: 0.2
+      particle_offset_z: 0.2
   parameters:
-    velocity: 50
-    delay: 500
+    velocity: 20
+    delay: 1000
 avadamaxima:
   icon: diamond_axe:170
   icon_disabled: diamond_hoe:170
@@ -17974,7 +17981,7 @@ bombarda|2:
   enabled: true
 bubblehead:
   inherit: gills
-  category: transfiguration
+  category: charms
   enabled: true
   worth: 5
   upgrade_required_path: year2
@@ -21295,10 +21302,13 @@ gillyweed_ability:
   icon: vine
   category: item_ability
   hidden: true
-  cooldown: 30000
   actions:
     cast:
     - class: PotionEffect
+  parameters:
+    target: self
+    cooldown: 300000
+    duration: 300000
   costs:
     mana: 25
 reveal:
