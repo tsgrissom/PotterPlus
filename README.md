@@ -25,6 +25,7 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Add distances to mobs so they are less crazy persistent
 * Implement longapparate based on recall again
 * Add optional dark upgrade for flight
+* Fix custom projectile spells mid-flight redirection when turning
 
 ### Known bugs
 

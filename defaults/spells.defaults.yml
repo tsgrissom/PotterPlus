@@ -19447,15 +19447,16 @@ protego:
   enabled: true
   worth: 15
   upgrade_required_path: year4
-  upgrade_required_casts: 25
+  upgrade_required_casts: 75
   parameters:
     brushcolor: false
     cooldown: 8000
     undo: 500
     reflect_chance: 0.2
+    radius: 1
 protego|2:
   parameters:
-    radius: 2
+    radius: 1.5
     undo: 800
     reflect_chance: 0.4
     cooldown: 6000
@@ -19464,10 +19465,10 @@ protego|2:
     mana: 30
   enabled: true
   upgrade_required_path: year5
-  upgrade_required_casts: 50
+  upgrade_required_casts: 125
 protego|3:
   parameters:
-    radius: 3
+    radius: 2
     undo: 1000
     cooldown: 4000
     reflect_chance: 0.6
@@ -19476,7 +19477,7 @@ protego|3:
     mana: 50
   enabled: true
   upgrade_required_path: year6
-  upgrade_required_casts: 75
+  upgrade_required_casts: 175
 protegomaxima:
   icon: diamond_axe:22
   icon_disabled: diamond_hoe:22
@@ -22299,12 +22300,6 @@ frigusignatus:
         particle: redstone
         color: FFFFFF
         iterations: 100
-    - class: EffectSingle
-      location: origin
-      source_location: feet
-      effectlib:
-        class: Smoke
-        iterations: 16
   parameters:
     effect_fire_resistance: 1
     duration: 10000
@@ -23137,17 +23132,17 @@ periculum|3:
       size: 6
 protego|4:
   upgrade_required_path: year7
-  upgrade_required_casts: 100
+  upgrade_required_casts: 250
   parameters:
     cooldown: 2000
     undo: 1500
     reflect_chance: 0.8
-    radius: 4
+    radius: 2.5
 protego|5:
   parameters:
     undo: 2000
     reflect_chance: 1
-    radius: 5
+    radius: 3
 protegomaxima|2:
   actions:
     alternate_down:

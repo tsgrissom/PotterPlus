@@ -1,42 +1,41 @@
 protego:
   worth: 15
   upgrade_required_path: year4
-  upgrade_required_casts: 25
+  upgrade_required_casts: 75
   parameters:
     brushcolor: false
     cooldown: 8000
-    undo: 500
+    undo: 1500
     reflect_chance: 0.2
+    radius: 1
 
 protego|2:
   upgrade_required_path: year5
-  upgrade_required_casts: 50
+  upgrade_required_casts: 125
   parameters:
     cooldown: 6000
-    undo: 800
     reflect_chance: 0.4
-    radius: 2
+    radius: 1.5
 
 protego|3:
   upgrade_required_path: year6
-  upgrade_required_casts: 75
+  upgrade_required_casts: 175
   parameters:
-    cooldown: 4000
-    undo: 1000
+    cooldown: 5000
+    undo: 2500
     reflect_chance: 0.6
-    radius: 3
+    radius: 2
 
 protego|4:
   upgrade_required_path: year7
-  upgrade_required_casts: 100
+  upgrade_required_casts: 250
   parameters:
-    cooldown: 2000
-    undo: 1500
+    cooldown: 3000
     reflect_chance: 0.8
-    radius: 4
+    radius: 2.5
 
 protego|5:
   parameters:
-    undo: 2000
+    undo: 3000
     reflect_chance: 1
-    radius: 5
+    radius: 3
