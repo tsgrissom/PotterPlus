@@ -2,6 +2,8 @@
 
 Changes are organized here for record-keeping purposes. Most recent changes are at the top.
 
+* 5/6/18 - Converted all spells spells that used long-form class references to use short-hands. (ex. `AtomEffect` -> `Atom` or `CustomProjectileAction` -> `CustomProjectile`)
+
 * 5/5/18 - Converted all `PotionEffectAction` spells to not use aggregate format
 * 5/5/18 - Re-balanced and nerfed Protego
 * 5/5/18 - Overhauled `frigusignatus`, the Flame-Freezing Charm particles and buffed it

@@ -22,7 +22,6 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Consider changing path upgrade messages
 * Test out multi-line spell upgrade messages
 * Remove unnecessary parameters from spells
-* Make actions and effects consistent (`class: SphereEffect` -> ` class: Sphere` or `class: VelocityAction` -> `class: Velocity`)
 * Add distances to mobs so they are less crazy persistent
 * Implement `longapparate` based on recall again
 * Add optional dark upgrade for `flight`
