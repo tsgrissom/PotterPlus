@@ -12,28 +12,33 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 
 * Make sure every spell has sounds
 * Overhaul messages to be more stylistically neutral
-* Finish spells in to_redo.yml
+* Finish spells in `to_redo.yml`
 * Overhaul spells with attributes
 * Add brooms again
 * Convert to use custom currency system
-* Change upgrade_commands on year up
-* Add .gitattributes
-* Define some automata
-* Consider changing upgrade messages
+* Change `upgrade_commands` on year up
+* Add `.gitattributes`
+* Set up automata spawners for other creatures
+* Consider changing path upgrade messages
+* Test out multi-line spell upgrade messages
 * Remove unnecessary parameters from spells
 * Make actions and effects consistent (`class: SphereEffect` -> ` class: Sphere` or `class: VelocityAction` -> `class: Velocity`)
+* Remove aggregates from spells that use `PotionEffectAction`
 * Add distances to mobs so they are less crazy persistent
-* Implement longapparate based on recall again
-* Add optional dark upgrade for flight
+* Implement `longapparate` based on recall again
+* Add optional dark upgrade for `flight`
 * Fix custom projectile spells mid-flight redirection when turning
+* Add tags (`noduel`, stuff like that)
+* Add `pvp_restricted` flags
+* Check if `enchanting.yml` is even a thing anymore
 
 ### Known bugs
 
 #### Spells
 
-* Obliviate maxima doesn't work, obliviate does
-* Some spells give errors on load and don't appear, can't seem to see what's wrong with them (flagellos, multabasorium, incarcifors, baubillious)
-* Wingardium leviosa doesn't actually lift blocks like it used to
+* Obliviate Maxima doesn't work, Obliviate does
+* Some spells give errors on load and don't appear, can't seem to see what's wrong with them (`flagellos`, `multabasorium`, `incarcifors`, `baubillious`)
+* Wingardium Leviosa doesn't actually lift blocks like it used to
 
 ### Other ideas
 
@@ -42,7 +47,7 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Portkey -> Teleports to a random warp
 * Beaded handbag -> Stash items in enderchest
 * Camera -> Takes pictures via maps
-* Floopowder ->
+* Floopowder
 * Dungbombs
 * Bombs
 * Key -> Casts a short range unlocking charm
@@ -54,8 +59,8 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Remembrall -> Flashes pink and red glass and tells you if you have any lost wands
 * Secrecy sensor
 * Quidditch balls -> Based on flashbang spell, bounces around with more speed
-* Godric Gryffindor's Sword -> An iron sword imbued with powerful magic such as expelliarmus
-* Sorting hat
+* Godric Gryffindor's Sword -> An iron sword imbued with magic such as expelliarmus
+* Sorting hate
 * Two-way mirrors
 * Whiz-bangs -> Crazy fireworks, come in Basic Blaze Box of Deflagration Deluxe
 * Skiving snackboxes -> A box of snacks which cause illness
@@ -64,13 +69,15 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Decoy detonators -> Sends a hopper projectile which explodes to create a distraction
 * Peruvian instant darkness powder -> Covers the surrounding area in darkness powder
 * Flying carpet -> Casts modified air scooter with random color carpet mount
-* Time turners
+* Time turner
+* Potions? Might want to just handle the effects and let them pick a third-party to cast
 
 #### Mobs
 
-* Snatcher
-* Deatheater
-* Dementor
-* Lethifold
-* Thestral
-* Owl
+* Snatcher -> A less-powerful deatheather
+* Deatheater -> Geared-out zombie with slowness that can cast a number of spells
+* Dementor -> A wither who can drain you, slowing you down with a wither effect
+* Thestral -> Skeletal horse,
+* Owl -> Bats, maybe drops random things like papers?
+* House-Elf -> Baby villagers with light magic
+* Goblink -> Another baby villager
