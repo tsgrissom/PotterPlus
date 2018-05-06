@@ -60,8 +60,9 @@ impedimenta:
     target: other
     target_breakables: 1
     duration: 3000
-    effect_slow: 1.5
-    effect_jump: -20
+    potion_effects:
+      slowness: 1.5
+      jump: -20
     cooldown: 7000
   costs:
     mana: 30
@@ -70,12 +71,14 @@ impedimenta|2:
   upgrade_required_casts: 50
   upgrade_required_path: year5
   parameters:
-    effect_slow: 2
+    potion_effects:
+      slowness: 2
     duration: 7000
     cooldown: 12000
 
 impedimenta|3:
   parameters:
-    effect_slow: 3
+    potion_effects:
+      slowness: 3
     duration: 10000
     cooldown: 15000

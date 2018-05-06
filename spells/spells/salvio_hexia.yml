@@ -28,8 +28,9 @@ salviohexia:
       duration: 5000
       cooldown: 15000
       transparent: transparent_to_construction
-      effect_damage_resistance: 300
-      effect_slow: 1
+      potion_effects:
+        damage_resistance: 300
+        slowness: 1
   costs:
       mana: 90
 

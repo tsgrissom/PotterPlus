@@ -46,9 +46,10 @@ titillando:
     range: 16
     hitbox: true
     cooldown: 15000
-    effect_confusion: 6
-    effect_slow: 1
-    effect_weakness: 2
+    potion_effects:
+      confusion: 6
+      slowness: 1
+      weakness: 2
     duration: 3000
     velocity: 50
 
@@ -58,14 +59,16 @@ titillando|2:
   parameters:
     range: 24
     cooldown: 12000
-    effect_confusion: 8
-    effect_slow: 2
-    effect_weakness: 3
+    potion_effects:
+      confusion: 8
+      slowness: 2
+      weakness: 3
     duration: 5000
 
 titillando|3:
   parameters:
     range: 32
-    effect_confusion: 10
-    effect_slow: 3
-    effect_weakness: 4
+    potion_effects:
+      confusion: 10
+      slowness: 3
+      weakness: 4

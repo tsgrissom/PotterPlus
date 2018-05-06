@@ -53,7 +53,8 @@ stupefy:
     target_breakables: 1
     cooldown: 4000
     reorient: false
-    effect_confusion: 120,2
+    potion_effects:
+      confusion: 2
     duration: 2000
   costs:
     mana: 15

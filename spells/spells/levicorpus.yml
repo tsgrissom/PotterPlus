@@ -47,7 +47,8 @@ levicorpus:
     undo_movement: true
     hitbox: true
     repeat: 4
-    effect_levitation: 4
+    potion_effects:
+      levitation: 4
   costs:
     mana: 40
 
@@ -57,10 +58,12 @@ levicorpus|2:
   upgrade_required_path: year7
   parameters:
     repeat: 8
-    effect_levitation: 5
+    potion_effects:
+      levitation: 5
 
 levicorpus|3:
   inherit: false
   parameters:
     repeat: 12
-    effect_levitation: 6
+    potion_effects:
+      levitation: 6

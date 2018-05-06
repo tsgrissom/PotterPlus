@@ -22,7 +22,8 @@ erumpent_ambient:
       - class: PotionEffect
   parameters:
     target: self
-    effect_glowing: 1
+    potion_effects:
+      glowing: 1
     duration: 1500
 
 erumpent_attack:
