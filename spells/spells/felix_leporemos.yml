@@ -46,8 +46,9 @@ felixleporemos:
     target: other
     target_type: LivingEntity
     hitbox: true
-    effect_speed: 1
-    effect_jump: 1
+    potion_effects:
+      speed: 1
+      jump: 1
     duration: 3000
     velocity: 125
     range: 12
@@ -65,6 +66,7 @@ felixleporemos|3:
   costs:
     mana: 25
   parameters:
-    effect_speed: 2
-    effect_jump: 2
+    potion_effects:
+      speed: 2
+      jump: 2
     velocity: 200

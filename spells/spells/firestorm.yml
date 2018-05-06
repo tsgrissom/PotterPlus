@@ -45,7 +45,8 @@ firestorm:
     cooldown: 16000
     undo: 6000
     duration: 10000
-    effect_fire_resistance: 1
+    potion_effects:
+      fire_resistance: 1
     push: 1
     damage: 2
     bypass_backfire: true

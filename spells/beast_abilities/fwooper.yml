@@ -30,7 +30,8 @@ fwooper_death:
     target_source: false
     message_type: title
     message_target: true
-    effect_slow: 3
-    effect_confusion: 5
+    potion_effects:
+      slowness: 3
+      confusion: 5
     duration: 20000
     message: "&dThe Fwooper's death cry is hindering"

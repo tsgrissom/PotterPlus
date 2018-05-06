@@ -16,13 +16,15 @@ demiguise_disappear:
       - class: AreaOfEffect
         actions:
           - class: PotionEffect
-            effect_blindness: 2
-            effect_confusion: 2
+            potion_effects:
+              blindness: 2
+              confusion: 2
   parameters:
     cooldown: 0
     undo: 5000
     duration: 5000
     radius: 6
     y_radius: 3
-    effect_invisibility: 1
+    potion_effects:
+      invisibility: 1
     target: self

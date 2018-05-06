@@ -30,7 +30,8 @@ homenumrevelio:
     y_radius: 25
     target_count: 24
     target_source: false
-    effect_glowing: 2
+    potion_effects:
+      glowing: 2
     duration: 24000
     target: self
     target_type: Player

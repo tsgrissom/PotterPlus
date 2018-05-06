@@ -31,5 +31,6 @@ wampus_scratch:
     range: 6
     hitbox: true
     velocity: 30
-    effect_wither: 2
+    potion_effects:
+      wither: 2
     duration: 2000

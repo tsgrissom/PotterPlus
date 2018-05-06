@@ -27,5 +27,6 @@ obliviatemaxima:
     cooldown: 20000
     target_all_worlds: true
     target_type: Player
-    effect_confusion: 1
+    potion_effects:
+      confusion: 1
     duration: 8000

@@ -37,8 +37,9 @@ locomotorwibbly:
     target: other
     target_type: Damageable
     range: 24
-    effect_slow: 2
-    effect_confusion: 2
+    potion_effects:
+      slowness: 2
+      confusion: 2
     duration: 8000
     cooldown: 10000
   costs:
@@ -53,5 +54,6 @@ locomotorwibbly|2:
 
 locomotorwibbly|3:
   parameters:
-    effect_slow: 2
+    potion_effects:
+      slowness: 2
     range: 32
