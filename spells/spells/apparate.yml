@@ -10,7 +10,7 @@ apparate:
         location: target
         source_location: eyes
         effectlib:
-          class: AtomEffect
+          class: Atom
           particleNucleus: redstone
           particleOrbital: spell_mob
           colorNucleus: FFFFFF
@@ -23,7 +23,7 @@ apparate:
         location: origin
         source_location: eyes
         effectlib:
-          class: AtomEffect
+          class: Atom
           updateLocations: false
           particleNucleus: redstone
           particleOrbital: spell_mob
@@ -33,7 +33,7 @@ apparate:
           offset: 0,-1,0
       - class: EffectSingle
         effectlib:
-          class: LineEffect
+          class: Line
           particle: redstone
           color: FFFFFF
           updateLocations: false

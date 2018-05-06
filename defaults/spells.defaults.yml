@@ -1,13 +1,13 @@
-#
+# 
 # !! IMPORTANT !!
-#
+# 
 # If you wish to customize this plugin, edit the "spells.yml" file instead.
-#
+# 
 # DO NOT JUST COPY THIS WHOLE FILE INTO YOUR spells.yml !!!!
 # If you do this, updating the plugin in the future may not work as expected.
-#
+# 
 # This file is merged from the files in the following folder:
-#
+# 
 # https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/spells
 
 default:
@@ -17561,7 +17561,7 @@ apparate:
       location: target
       source_location: eyes
       effectlib:
-        class: AtomEffect
+        class: Atom
         particleNucleus: redstone
         particleOrbital: spell_mob
         colorNucleus: FFFFFF
@@ -17574,7 +17574,7 @@ apparate:
       location: origin
       source_location: eyes
       effectlib:
-        class: AtomEffect
+        class: Atom
         updateLocations: false
         particleNucleus: redstone
         particleOrbital: spell_mob
@@ -17584,7 +17584,7 @@ apparate:
         offset: 0,-1,0
     - class: EffectSingle
       effectlib:
-        class: LineEffect
+        class: Line
         particle: redstone
         color: FFFFFF
         updateLocations: false
@@ -17607,14 +17607,14 @@ araniaexumai:
       sound_volume: 1
       sound_pitch: 3
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 10
         lengthGrow: 0.15
         particle: spell_mob
         color: 58FAD0
     - class: EffectSingle
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 10
         lengthGrow: 0.15
         particle: spell_mob
@@ -17765,7 +17765,7 @@ avadakedavra:
     projectile:
     - class: EffectSingle
       effectlib:
-        class: SphereEffect
+        class: Sphere
         particle: spell_mob
         color: 00FF00
         iterations: 1000
@@ -18066,7 +18066,7 @@ obscuro:
     - class: EffectSingle
       sound: burp
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 15
         particle: spell_mob
         lengthGrow: 0.3
@@ -18078,7 +18078,7 @@ obscuro:
       location: target
       use_wand_location: false
       effectlib:
-        class: SphereEffect
+        class: Sphere
         iterations: 30
         period: 4
         particle: smoke_large
@@ -18092,10 +18092,12 @@ obscuro:
     target_breakables: 0
     target: other
     duration: 5000
-    effect_blindness: 2
+    effect_blindness: 1
     cooldown: 10000
     hitbox: true
-    effect_confusion: 2
+    potion_effects:
+      blindness: 2
+      confusion: 2
   enabled: true
   upgrade_required_path: year3
   upgrade_required_casts: 50
@@ -18111,7 +18113,7 @@ crucio:
       sound_volume: 1
       location: origin
       effectlib:
-        class: AtomEffect
+        class: Atom
         particleNucleus: spell_mob
         colorNucleus: 19070B
         particleOrbital: redstone
@@ -18122,7 +18124,7 @@ crucio:
     projectile:
     - location: origin
       effectlib:
-        class: SphereEffect
+        class: Sphere
         iterations: 15
         particle: redstone
         color: 19070B
@@ -18547,7 +18549,7 @@ flagrate:
       location: target
       target_offset: 0,3,0
       effectlib:
-        class: TextEffect
+        class: Text
         text: $target
         iterations: 3
         particle: lava
@@ -18720,7 +18722,7 @@ flight:
       location: origin
       source_location: eyes
       effectlib:
-        class: SphereEffect
+        class: Sphere
         particle: redstone
         radius: 1.5
         radiusIncrease: 0.001
@@ -18805,7 +18807,7 @@ fumos:
       sound: block_fire_extinguish
       location: target
       effectlib:
-        class: SphereEffect
+        class: Sphere
         iterations: 140
         period: 0.1
         particle: smoke_large
@@ -18817,8 +18819,9 @@ fumos:
       actions:
       - class: PotionEffect
   parameters:
-    effect_slow: 1
-    effect_damage_resistance: -1
+    potion_effects:
+      slowness: 1
+      damage_resistance: -1
     duration: 5000
     radius: 2
     y_radius: 2
@@ -19064,7 +19067,7 @@ lacarnum:
       location: both
     - class: EffectSingle
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 15
         particle: lava
         lengthGrow: 0.4
@@ -19136,7 +19139,7 @@ legilimens:
       use_wand_location: true
       source_location: eyes
       effectlib:
-        class: AtomEffect
+        class: Atom
         particleNucleus: redstone
         particleOrbital: redstone
         colorNucleus: 0
@@ -19167,7 +19170,7 @@ levicorpus:
       sound_volume: 1
       location: origin
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 15
         particle: redstone
         color: 8258FA
@@ -19200,7 +19203,8 @@ levicorpus:
     undo_movement: true
     hitbox: true
     repeat: 4
-    effect_levitation: 4
+    potion_effects:
+      levitation: 4
   costs:
     mana: 40
 levicorpus|2:
@@ -19209,12 +19213,14 @@ levicorpus|2:
   upgrade_required_path: year7
   parameters:
     repeat: 8
-    effect_levitation: 5
+    potion_effects:
+      levitation: 5
 levicorpus|3:
   inherit: false
   parameters:
     repeat: 12
-    effect_levitation: 6
+    potion_effects:
+      levitation: 6
 lumos:
   icon: diamond_axe:228
   icon_disabled: diamond_hoe:228
@@ -19603,7 +19609,7 @@ salviohexia:
       sound: block_fire_extinguish
       location: target
       effectlib:
-        class: SphereEffect
+        class: Sphere
         iterations: 70
         period: 0.1
         particle: smoke_normal
@@ -19614,8 +19620,9 @@ salviohexia:
     duration: 5000
     cooldown: 15000
     transparent: transparent_to_construction
-    effect_damage_resistance: 300
-    effect_slow: 1
+    potion_effects:
+      damage_resistance: 300
+      slowness: 1
   costs:
     mana: 90
 reparifarge:
@@ -19881,7 +19888,7 @@ stupefy:
       sound: magic.zap
       location: origin
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 10
         particle: redstone
         color: 8b0000
@@ -19917,7 +19924,8 @@ stupefy:
     target_breakables: 1
     cooldown: 4000
     reorient: false
-    effect_confusion: 120,2
+    potion_effects:
+      confusion: 2
     duration: 2000
   costs:
     mana: 15
@@ -19969,7 +19977,7 @@ vermillious:
       sound_volume: 1
       location: origin
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 15
         particle: redstone
         color: c64343
@@ -20195,7 +20203,7 @@ wingardium:
       sound: magic.zap_up
       sound_pitch: 2
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 8
         particles: 2
         particle: spell
@@ -20204,7 +20212,7 @@ wingardium:
       location: target
       use_wand_location: false
       effectlib:
-        class: SphereEffect
+        class: Sphere
         iterations: 48
         period: 2
         particle: spell
@@ -20212,7 +20220,7 @@ wingardium:
     - class: EffectSingle
       location: target
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 8
         particle: spell
         autoOrient: false
@@ -20222,7 +20230,7 @@ wingardium:
       sound: entity_enderdragon_flap
       sound_pitch: 2
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 8
         particles: 2
         particle: spell
@@ -20251,7 +20259,7 @@ revelio:
       use_wand_location: false
       effectlib:
         offset: 0,2,0
-        class: SphereEffect
+        class: Sphere
         iterations: 1
         particle: spell_instant
         particles: 100
@@ -20440,7 +20448,7 @@ firestorm:
       use_wand_location: false
       effectlib:
         offset: 0,1,0
-        class: HelixEffect
+        class: Helix
         iterations: 1
         particle: lava
         radius: 5
@@ -20454,7 +20462,8 @@ firestorm:
     cooldown: 16000
     undo: 6000
     duration: 10000
-    effect_fire_resistance: 1
+    potion_effects:
+      fire_resistance: 1
     push: 1
     damage: 2
     bypass_backfire: true
@@ -20696,7 +20705,7 @@ patronus:
     - class: EffectSingle
       location: origin
       effectlib:
-        class: SphereEffect
+        class: Sphere
         particle: redstone
         color: FFFFFF
         radius: 0.4
@@ -20756,7 +20765,7 @@ acromantula_summon:
       sound: entity_spider_ambient
       material: web
       effectlib:
-        class: SphereEffect
+        class: Sphere
         radius: 2
         radiusIncrease: 0.2
         particle: block_crack
@@ -20836,7 +20845,7 @@ augurey_death:
       location: origin
       sound: entity_parrot_death
       effectlib:
-        class: SphereEffect
+        class: Sphere
         radius: 1
         radiusIncrease: 0.2
         particle: water_wake
@@ -20845,7 +20854,7 @@ augurey_death:
       source_location: feet
       location: origin
       effectlib:
-        class: AtomEffect
+        class: Atom
         radius: 0.5
         particleOrbital: spell_mob
         particleNucleus: spell
@@ -20929,7 +20938,7 @@ centaur_arrow:
       location: origin
       source_location: feet
       effectlib:
-        class: AnimatedBallEffect
+        class: AnimatedBall
         particle: fireworks_spark
         iterations: 16
     hit: []
@@ -20957,7 +20966,7 @@ crup_pet:
       location: origin
       source_location: feet
       effectlib:
-        class: HeartEffect
+        class: Heart
         particle: redstone
         color: c10f0f
         yFactor: 2
@@ -20967,7 +20976,7 @@ crup_pet:
       location: origin
       source_location: feet
       effectlib:
-        class: HeartEffect
+        class: Heart
         particle: heart
         particles: 25
         offset: 0,1,0
@@ -20986,7 +20995,7 @@ demiguise_disappear:
       location: origin
       source_location: feet
       effectlib:
-        class: SmokeEffect
+        class: Smoke
         iterations: 16
   actions:
     cast:
@@ -20994,15 +21003,17 @@ demiguise_disappear:
     - class: AreaOfEffect
       actions:
       - class: PotionEffect
-        effect_blindness: 2
-        effect_confusion: 2
+        potion_effects:
+          blindness: 2
+          confusion: 2
   parameters:
     cooldown: 0
     undo: 5000
     duration: 5000
     radius: 6
     y_radius: 3
-    effect_invisibility: 1
+    potion_effects:
+      invisibility: 1
     target: self
 erkling_dart:
   inherit: arrow
@@ -21031,19 +21042,22 @@ erkling_poisoned_dart:
   inherit: erkling_dart
   icon: diamond_axe:245
   parameters:
-    effect_poison: 1
+    potion_effects:
+      poison: 1
     color: '259046'
 erkling_freezing_dart:
   inherit: erkling_dart
   icon: diamond_axe:243
   parameters:
-    effect_slowness: 2
+    potion_effects:
+      slowness: 2
     color: 4ad3d7
 erkling_weakening_dart:
   inherit: erkling_dart
   icon: diamond_axe:247
   parameters:
-    effect_weakness: 2
+    potion_effects:
+      weakness: 2
     color: '440018'
 erkling_flaming_dart:
   inherit: erkling_dart
@@ -21074,7 +21088,8 @@ erumpent_ambient:
     - class: PotionEffect
   parameters:
     target: self
-    effect_glowing: 1
+    potion_effects:
+      glowing: 1
     duration: 1500
 erumpent_attack:
   inherit: bombarda
@@ -21095,7 +21110,7 @@ erumpent_attack:
       location: origin
       source_location: feet
       effectlib:
-        class: AnimatedBallEffect
+        class: AnimatedBall
         particle: spell_mob
         color: dba929
         size: 2
@@ -21160,7 +21175,7 @@ fwooper_death:
       location: origin
       sound: entity_parrot_death
       effectlib:
-        class: SphereEffect
+        class: Sphere
         radius: 1
         radiusIncrease: 0.2
         particle: spell_mob
@@ -21175,8 +21190,9 @@ fwooper_death:
     target_source: false
     message_type: title
     message_target: true
-    effect_slow: 3
-    effect_confusion: 5
+    potion_effects:
+      slowness: 3
+      confusion: 5
     duration: 20000
     message: '&dThe Fwooper''s death cry is hindering'
 kneazle_pet:
@@ -21192,7 +21208,7 @@ kneazle_pet:
       location: origin
       source_location: feet
       effectlib:
-        class: HeartEffect
+        class: Heart
         particle: redstone
         color: c10f0f
         yFactor: 2
@@ -21203,7 +21219,7 @@ kneazle_pet:
       location: origin
       source_location: feet
       effectlib:
-        class: HeartEffect
+        class: Heart
         particle: heart
         particles: 25
         enable_rotation: true
@@ -21291,7 +21307,7 @@ wampus_scratch:
       sound: entity_irongolem_death
       sound_volume: 1
       effectlib:
-        class: BleedEffect
+        class: Bleed
         duration: 2000
         disappear_with_origin_entity: true
   parameters:
@@ -21299,7 +21315,8 @@ wampus_scratch:
     range: 6
     hitbox: true
     velocity: 30
-    effect_wither: 2
+    potion_effects:
+      wither: 2
     duration: 2000
 gillyweed_ability:
   inherit: bubblehead
@@ -21453,7 +21470,7 @@ baubillious:
     projectile:
     - class: EffectSingle
       effectlib:
-        class: LineEffect
+        class: Line
         isZigZag: true
         zigZags: 2
         zigZagOffset: 0,0.05,0
@@ -21502,7 +21519,7 @@ brackiumemendo:
       sound: creeper_death
       location: target
       effectlib:
-        class: AtomEffect
+        class: Atom
         particleNucleus: item_crack
         material: bone
         particleOrbital: item_crack
@@ -21548,7 +21565,7 @@ bruchumaculeatos:
       sound: magic.zap
       location: origin
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 10
         particle: fireworks_spark
         lengthGrow: 0.1
@@ -21570,7 +21587,7 @@ bruchumaculeatos:
     hit_entity:
     - location: target
       effectlib:
-        class: BleedEffect
+        class: Bleed
   parameters:
     target: other
     target_type: LivingEntity
@@ -21685,7 +21702,7 @@ carperetractum:
     - class: EffectSingle
       location: target
       effectlib:
-        class: AtomEffect
+        class: Atom
         particleOrbital: spell_mob_ambient
         particleNucleus: spell_mob_ambient
         colorOrbital: e3892c
@@ -21730,7 +21747,7 @@ colloshoo:
     - location: target
       target_offset: 0,-3,0
       effectlib:
-        class: SphereEffect
+        class: Sphere
         particle: slime
         radius: 2.5
         duration: $duration
@@ -21744,8 +21761,9 @@ colloshoo:
   parameters:
     range: 12
     hitbox: true
-    effect_slow: 1
-    effect_jump: -20
+    potion_effects:
+      slowness: 1
+      jump: -20
     duration: 6000
     cooldown: 12000
 colloshoo|2:
@@ -21753,19 +21771,22 @@ colloshoo|2:
   upgrade_required_path: year4
   parameters:
     range: 24
-    effect_slow: 2
+    potion_effects:
+      slowness: 2
     duration: 7000
     cooldown: 12000
 colloshoo|3:
   upgrade_required_casts: 75
   upgrade_required_path: year5
   parameters:
-    effect_slow: 3
+    potion_effects:
+      slowness: 3
     duration: 8000
     cooldown: 13000
 colloshoo|4:
   parameters:
-    effect_slow: 4
+    potion_effects:
+      slowness: 4
     duration: 9000
     cooldown: 14000
 defodio:
@@ -21815,7 +21836,7 @@ depulso:
       sound_pitch: -0.1
       location: origin
       effectlib:
-        class: DnaEffect
+        class: Dna
         particlesBase: 0
         particlesHelix: 7
         particleHelix: spell
@@ -21934,7 +21955,7 @@ evertestatum:
       sound: magic.zap
       location: origin
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 10
         particle: fireworks_spark
         lengthGrow: 0.1
@@ -21994,7 +22015,7 @@ expulso:
     - class: EffectSingle
       location: target
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 10
         particle: redstone
         color: 22659c
@@ -22087,8 +22108,9 @@ felixleporemos:
     target: other
     target_type: LivingEntity
     hitbox: true
-    effect_speed: 1
-    effect_jump: 1
+    potion_effects:
+      speed: 1
+      jump: 1
     duration: 3000
     velocity: 125
     range: 12
@@ -22104,8 +22126,9 @@ felixleporemos|3:
   costs:
     mana: 25
   parameters:
-    effect_speed: 2
-    effect_jump: 2
+    potion_effects:
+      speed: 2
+      jump: 2
     velocity: 200
 fiendfyre|2:
   actions:
@@ -22188,7 +22211,7 @@ flagellos:
     - class: EffectSingle
       location: target
       effectlib:
-        class: BleedEffect
+        class: Bleed
         height: 0.5
   parameters:
     player_damage: 5
@@ -22204,7 +22227,7 @@ flagrate|2:
       location: target
       target_offset: 0,30
       effectlib:
-        class: TextEffect
+        class: Text
         text: $target
         iterations: 3
         particle: redstone
@@ -22213,7 +22236,7 @@ flagrate|2:
       location: target
       target_offset: 0,30
       effectlib:
-        class: TextEffect
+        class: Text
         text: $target
         iterations: 3
         particle: spell_mob
@@ -22222,7 +22245,7 @@ flagrate|2:
       location: target
       target_offset: 0,30
       effectlib:
-        class: TextEffect
+        class: Text
         text: $target
         iterations: 3
         particle: spell_mob
@@ -22253,7 +22276,7 @@ flintifors:
       location: origin
       use_wand_location: false
       effectlib:
-        class: AnimatedBallEffect
+        class: AnimatedBall
         particle: flame
         iterations: 16
   parameters:
@@ -22303,7 +22326,8 @@ frigusignatus:
         color: FFFFFF
         iterations: 100
   parameters:
-    effect_fire_resistance: 1
+    potion_effects:
+      fire_resistance: 1
     duration: 10000
     cooldown: 12000
     target: self
@@ -22322,14 +22346,15 @@ fumos|2:
       sound: block_fire_extinguish
       location: target
       effectlib:
-        class: SphereEffect
+        class: Sphere
         iterations: 140
         period: 0.1
         particle: explosion_normal
         radius: 3
         particles: 20
   parameters:
-    effect_slow: 2
+    potion_effects:
+      slowness: 2
     radius: 3
     y_radius: 3
     target_count: 10
@@ -22342,15 +22367,16 @@ fumos|3:
       sound: block_fire_extinguish
       location: target
       effectlib:
-        class: SphereEffect
+        class: Sphere
         iterations: 140
         period: 0.1
         particle: explosion_normal
         radius: 5
         particles: 50
   parameters:
-    effect_slow: 3
-    effect_blindness: 3
+    potion_effects:
+      slowness: 3
+      blindness: 3
     radius: 5
     y_radius: 5
     target_count: 15
@@ -22390,12 +22416,12 @@ furnunculus:
     - class: EffectSingle
       location: target
       effectlib:
-        class: BleedEffect
+        class: Bleed
         duration: $duration
     - class: EffectSingle
       location: target
       effectlib:
-        class: BleedEffect
+        class: Bleed
         color: 255
         duration: $duration
         hurt: false
@@ -22483,7 +22509,7 @@ herbifors:
       sound: magic.zap
       location: origin
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 10
         particle: item_crack
         material: bone
@@ -22538,7 +22564,7 @@ homenumrevelio:
       target_offset: 0,10,0
       use_wand_location: false
       effectlib:
-        class: SphereEffect
+        class: Sphere
         particle: crit_magic
         radius: 1.5
         radiusIncrease: 0.08
@@ -22548,7 +22574,8 @@ homenumrevelio:
     y_radius: 25
     target_count: 24
     target_source: false
-    effect_glowing: 2
+    potion_effects:
+      glowing: 2
     duration: 24000
     target: self
     target_type: Player
@@ -22564,7 +22591,7 @@ ignisdisceditus:
       sound: block_fire_extinguish
       location: origin
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 10
         particle: cloud
         lengthGrow: 0.1
@@ -22600,7 +22627,7 @@ impedimenta:
       sound: magic.zap_crack
       location: origin
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 10
         particle: redstone
         color: 831b90
@@ -22645,8 +22672,9 @@ impedimenta:
     target: other
     target_breakables: 1
     duration: 3000
-    effect_slow: 1.5
-    effect_jump: -20
+    potion_effects:
+      slowness: 1.5
+      jump: -20
     cooldown: 7000
   costs:
     mana: 30
@@ -22654,12 +22682,14 @@ impedimenta|2:
   upgrade_required_casts: 50
   upgrade_required_path: year5
   parameters:
-    effect_slow: 2
+    potion_effects:
+      slowness: 2
     duration: 7000
     cooldown: 12000
 impedimenta|3:
   parameters:
-    effect_slow: 3
+    potion_effects:
+      slowness: 3
     duration: 10000
     cooldown: 15000
 incarcifors:
@@ -22693,7 +22723,7 @@ liberacorpus:
       use_wand_location: false
       source_location: feet
       effectlib:
-        class: WarpEffect
+        class: Warp
         particle: redstone
         color: 8A2BE2
         duration: 5000
@@ -22725,14 +22755,14 @@ limusexumai:
       sound_volume: 1
       sound_pitch: 3
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 10
         lengthGrow: 0.15
         particle: spell_mob
         color: 98fb98
     - class: EffectSingle
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 10
         lengthGrow: 0.15
         particle: spell_mob
@@ -22759,7 +22789,7 @@ locomotorwibbly:
       sound: magic.zap
       location: origin
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 10
         particle: redstone
         color: d59323
@@ -22786,8 +22816,9 @@ locomotorwibbly:
     target: other
     target_type: Damageable
     range: 24
-    effect_slow: 2
-    effect_confusion: 2
+    potion_effects:
+      slowness: 2
+      confusion: 2
     duration: 8000
     cooldown: 10000
   costs:
@@ -22800,7 +22831,8 @@ locomotorwibbly|2:
     velocity: 100
 locomotorwibbly|3:
   parameters:
-    effect_slow: 2
+    potion_effects:
+      slowness: 2
     range: 32
 lumos|4:
   parameters:
@@ -22931,7 +22963,7 @@ multabasiorum:
     projectile:
     - class: EffectSingle
       effectlib:
-        class: LineEffect
+        class: Line
         isZigZag: true
         zigZags: 2
         zigZagOffset: 0,0.05,0
@@ -22944,7 +22976,7 @@ multabasiorum:
     - class: EffectSingle
       location: target
       effectlib:
-        class: ExplodeEffect
+        class: Explode
   parameters:
     damage: 3
     size: 0.5
@@ -23014,7 +23046,7 @@ obliviatemaxima:
       sound: magic.zap
       effectlib:
         offset: 0,4,0
-        class: HelixEffect
+        class: Helix
         iterations: 1
         particle: redstone
         color: FFFFFF
@@ -23022,7 +23054,8 @@ obliviatemaxima:
     cooldown: 20000
     target_all_worlds: true
     target_type: Player
-    effect_confusion: 1
+    potion_effects:
+      confusion: 1
     duration: 8000
 obscuro|2:
   effects:
@@ -23030,7 +23063,7 @@ obscuro|2:
     - class: EffectSingle
       sound: burp
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 15
         particle: spell_mob
         lengthGrow: 0.3
@@ -23042,7 +23075,7 @@ obscuro|2:
       location: target
       use_wand_location: false
       effectlib:
-        class: SphereEffect
+        class: Sphere
         iterations: 100
         period: 4
         particle: smoke_large
@@ -23069,7 +23102,7 @@ patronus|3:
     - class: EffectSingle
       location: target
       effectlib:
-        class: BigBangEffect
+        class: BigBang
         explosions: 1
         sound_volume: 1
         sound_pitch: 0.8
@@ -23081,7 +23114,7 @@ patronus|3:
     - class: EffectSingle
       location: target
       effectlib:
-        class: CubeEffect
+        class: Cube
         particle: enchantment_table
         iterations: 5
         period: 2
@@ -23089,7 +23122,7 @@ patronus|3:
     - class: EffectSingle
       location: source
       effectlib:
-        class: WaveEffect
+        class: Wave
         particle: redstone
         color: FFFFFF
         cloudParticle: firework_spark
@@ -23177,7 +23210,7 @@ protegototalus:
       sound: magic.zap_crack
       location: target
       effectlib:
-        class: SphereEffect
+        class: Sphere
         iterations: 70
         period: 0.1
         particle: water_wake
@@ -23187,8 +23220,9 @@ protegototalus:
     radius: 3
     y_radius: 3
     cooldown: 20000
-    effect_damage_resistance: 300
-    effect_fire_resistance: 1
+    potion_effects:
+      damage_resistance: 255
+      fire_resistance: 1
     duration: 10000
     target_count: 10
     target_source: true
@@ -23204,7 +23238,7 @@ protegototalus|2:
       sound: magic.zap_crack
       location: target
       effectlib:
-        class: SphereEffect
+        class: Sphere
         iterations: 70
         period: 0.1
         particle: water_wake
@@ -23230,14 +23264,14 @@ pulvifors:
       sound: horse_saddle
       sound_volume: 1
       effectlib:
-        class: ShieldEffect
+        class: Shield
         iterations: 10
         particle: water_wake
     - class: EffectSingle
       sound: horse_saddle
       sound_volume: 1
       effectlib:
-        class: ShieldEffect
+        class: Shield
         iterations: 10
         particle: smoke_normal
     land:
@@ -23253,7 +23287,7 @@ salviohexia|2:
       sound: block_fire_extinguish
       location: target
       effectlib:
-        class: SphereEffect
+        class: Sphere
         iterations: 70
         period: 0.1
         particle: smoke_normal
@@ -23273,7 +23307,7 @@ scribblifors:
       location: origin
       use_wand_location: false
       effectlib:
-        class: AnimatedBallEffect
+        class: AnimatedBall
         particle: enchantment_table
         iterations: 16
   actions:
@@ -23294,7 +23328,6 @@ sluguluseructo:
   upgrade_required_casts: 75
   actions:
     cast:
-    - class: Debugger
     - class: CustomProjectile
       actions:
       - class: Repeat
@@ -23308,14 +23341,14 @@ sluguluseructo:
       location: target
       requires_entity_target: true
       effectlib:
-        class: WarpEffect
+        class: Warp
         particle: slime
         iterations: 1
     - class: EffectSingle
       location: target
       requires_entity_target: true
       effectlib:
-        class: SphereEffect
+        class: Sphere
         iterations: 60
         period: 0.1
         particle: slime
@@ -23328,7 +23361,8 @@ sluguluseructo:
     count: 2
     target: other_entity
     target_type: Player
-    effect_poison: 2
+    potion_effects:
+      poison: 2
     duration: 1000
     cast_on_no_target: false
     range: 24
@@ -23340,7 +23374,8 @@ sluguluseructo|2:
   parameters:
     count: 4
 sluguluseructo|3:
-  parameters: 6
+  parameters:
+    count: 6
 stupefy|4:
   parameters:
     player_damage: 4
@@ -23362,7 +23397,7 @@ tarantallegra:
     projectile:
     - class: EffectSingle
       effectlib:
-        class: SphereEffect
+        class: Sphere
         particle: redstone
         color: 380B61
         iterations: 1000
@@ -23386,7 +23421,8 @@ tarantallegra:
     reorient: true
     velocity: 50
     hitbox: true
-    effect_jump: -20
+    potion_effects:
+      jump: -20
     duration: 8000
     cooldown: 16000
     direction: 0,1,0
@@ -23410,7 +23446,7 @@ titillando:
       sound: magic.zap
       location: origin
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 10
         particle: spell_mob
         color: b343e0
@@ -23441,9 +23477,10 @@ titillando:
     range: 16
     hitbox: true
     cooldown: 15000
-    effect_confusion: 6
-    effect_slow: 1
-    effect_weakness: 2
+    potion_effects:
+      confusion: 6
+      slowness: 1
+      weakness: 2
     duration: 3000
     velocity: 50
 titillando|2:
@@ -23452,16 +23489,18 @@ titillando|2:
   parameters:
     range: 24
     cooldown: 12000
-    effect_confusion: 8
-    effect_slow: 2
-    effect_weakness: 3
+    potion_effects:
+      confusion: 8
+      slowness: 2
+      weakness: 3
     duration: 5000
 titillando|3:
   parameters:
     range: 32
-    effect_confusion: 10
-    effect_slow: 3
-    effect_weakness: 4
+    potion_effects:
+      confusion: 10
+      slowness: 3
+      weakness: 4
 verdimillious:
   inherit: vermillious
   icon: diamond_axe:173
@@ -23475,7 +23514,7 @@ verdimillious:
       sound_volume: 0.5
       location: origin
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 15
         particle: redstone
         color: 088A08
@@ -23494,7 +23533,7 @@ verdimillious:
       sound_volume: 0.5
       location: origin
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 15
         particle: redstone
         color: 088A08
@@ -23511,7 +23550,7 @@ verdimillious:
       location: origin
       entity_effect: hurt
       effectlib:
-        class: ConeEffect
+        class: Cone
         iterations: 15
         particle: redstone
         color: 088A08
@@ -23538,7 +23577,7 @@ waddiwasi:
     - location: target
       target_offset: 0,-3,0
       effectlib:
-        class: SphereEffect
+        class: Sphere
         particle: block_crack
         material: purpur_block
         radius: 2.5

@@ -17,7 +17,7 @@ stupefy:
         sound: magic.zap
         location: origin
         effectlib:
-          class: ConeEffect
+          class: Cone
           iterations: 10
           particle: redstone
           color: 8b0000

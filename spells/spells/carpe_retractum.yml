@@ -44,7 +44,7 @@ carperetractum:
       - class: EffectSingle
         location: target
         effectlib:
-          class: AtomEffect
+          class: Atom
           particleOrbital: spell_mob_ambient
           particleNucleus: spell_mob_ambient
           colorOrbital: e3892c

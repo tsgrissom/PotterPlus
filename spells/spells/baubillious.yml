@@ -7,7 +7,7 @@ baubillious:
     projectile:
         - class: EffectSingle
           effectlib:
-             class: LineEffect
+             class: Line
              isZigZag: true
              zigZags: 2
              zigZagOffset: 0,0.05,0

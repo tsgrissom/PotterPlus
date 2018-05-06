@@ -8,7 +8,7 @@ demiguise_disappear:
         location: origin
         source_location: feet
         effectlib:
-          class: SmokeEffect
+          class: Smoke
           iterations: 16
   actions:
     cast:

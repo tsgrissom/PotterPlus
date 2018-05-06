@@ -25,7 +25,7 @@ expulso:
     -  class: EffectSingle
        location: target
        effectlib:
-         class: ConeEffect
+         class: Cone
          iterations: 10
          particle: redstone
          color: 22659c

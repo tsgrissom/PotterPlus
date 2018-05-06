@@ -35,7 +35,7 @@ multabasiorum:
     projectile:
         - class: EffectSingle
           effectlib:
-             class: LineEffect
+             class: Line
              isZigZag: true
              zigZags: 2
              zigZagOffset: 0,0.05,0
@@ -48,7 +48,7 @@ multabasiorum:
       - class: EffectSingle
         location: target
         effectlib:
-          class: ExplodeEffect
+          class: Explode
   parameters:
     damage: 3
     size: 0.5

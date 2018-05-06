@@ -10,7 +10,7 @@ obscuro:
       -  class: EffectSingle
          sound: burp
          effectlib:
-           class: ConeEffect
+           class: Cone
            iterations: 15
            particle: spell_mob
            lengthGrow: 0.3
@@ -22,7 +22,7 @@ obscuro:
          location: target
          use_wand_location: false
          effectlib:
-           class: SphereEffect
+           class: Sphere
            iterations: 30
            period: 4
            particle: smoke_large
@@ -41,7 +41,7 @@ obscuro|2:
       -  class: EffectSingle
          sound: burp
          effectlib:
-           class: ConeEffect
+           class: Cone
            iterations: 15
            particle: spell_mob
            lengthGrow: 0.3
@@ -53,7 +53,7 @@ obscuro|2:
          location: target
          use_wand_location: false
          effectlib:
-           class: SphereEffect
+           class: Sphere
            iterations: 100
            period: 4
            particle: smoke_large

@@ -8,14 +8,14 @@ pulvifors:
        sound: horse_saddle
        sound_volume: 1
        effectlib:
-         class: ShieldEffect
+         class: Shield
          iterations: 10
          particle: water_wake
     -  class: EffectSingle
        sound: horse_saddle
        sound_volume: 1
        effectlib:
-         class: ShieldEffect
+         class: Shield
          iterations: 10
          particle: smoke_normal
     land:

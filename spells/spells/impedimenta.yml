@@ -15,7 +15,7 @@ impedimenta:
         sound: magic.zap_crack
         location: origin
         effectlib:
-          class: ConeEffect
+          class: Cone
           iterations: 10
           particle: redstone
           color: 831b90

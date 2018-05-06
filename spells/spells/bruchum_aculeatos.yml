@@ -23,7 +23,7 @@ bruchumaculeatos:
         sound: magic.zap
         location: origin
         effectlib:
-          class: ConeEffect
+          class: Cone
           iterations: 10
           particle: fireworks_spark
           lengthGrow: 0.1
@@ -45,7 +45,7 @@ bruchumaculeatos:
     hit_entity:
       - location: target
         effectlib:
-          class: BleedEffect
+          class: Bleed
   parameters:
     target: other
     target_type: LivingEntity

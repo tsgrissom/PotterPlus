@@ -23,7 +23,7 @@ wampus_scratch:
         sound: entity_irongolem_death
         sound_volume: 1
         effectlib:
-          class: BleedEffect
+          class: Bleed
           duration: 2000
           disappear_with_origin_entity: true
   parameters:

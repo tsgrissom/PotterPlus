@@ -20,7 +20,7 @@ protegototalus:
         sound: magic.zap_crack
         location: target
         effectlib:
-          class: SphereEffect
+          class: Sphere
           iterations: 70
           period: 0.1
           particle: water_wake
@@ -49,7 +49,7 @@ protegototalus|2:
         sound: magic.zap_crack
         location: target
         effectlib:
-          class: SphereEffect
+          class: Sphere
           iterations: 70
           period: 0.1
           particle: water_wake

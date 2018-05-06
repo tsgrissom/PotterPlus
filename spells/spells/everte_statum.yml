@@ -17,7 +17,7 @@ evertestatum:
         sound: magic.zap
         location: origin
         effectlib:
-          class: ConeEffect
+          class: Cone
           iterations: 10
           particle: fireworks_spark
           lengthGrow: 0.1

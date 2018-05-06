@@ -16,7 +16,7 @@ waddiwasi:
       - location: target
         target_offset: 0,-3,0
         effectlib:
-          class: SphereEffect
+          class: Sphere
           particle: block_crack
           material: purpur_block
           radius: 2.5

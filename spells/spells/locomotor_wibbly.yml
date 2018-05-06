@@ -10,7 +10,7 @@ locomotorwibbly:
         sound: magic.zap
         location: origin
         effectlib:
-          class: ConeEffect
+          class: Cone
           iterations: 10
           particle: redstone
           color: d59323

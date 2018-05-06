@@ -15,7 +15,7 @@ titillando:
         sound: magic.zap
         location: origin
         effectlib:
-          class: ConeEffect
+          class: Cone
           iterations: 10
           particle: spell_mob
           color: b343e0

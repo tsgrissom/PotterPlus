@@ -6,7 +6,6 @@ sluguluseructo:
   upgrade_required_casts: 75
   actions:
     cast:
-      - class: Debugger
       - class: CustomProjectile
         actions:
           - class: Repeat
@@ -20,14 +19,14 @@ sluguluseructo:
          location: target
          requires_entity_target: true
          effectlib:
-           class: WarpEffect
+           class: Warp
            particle: slime
            iterations: 1
       -  class: EffectSingle
          location: target
          requires_entity_target: true
          effectlib:
-           class: SphereEffect
+           class: Sphere
            iterations: 60
            period: .1
            particle: slime

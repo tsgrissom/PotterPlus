@@ -20,7 +20,7 @@ homenumrevelio:
         target_offset: 0,10,0
         use_wand_location: false
         effectlib:
-          class: SphereEffect
+          class: Sphere
           particle: crit_magic
           radius: 1.5
           radiusIncrease: 0.08

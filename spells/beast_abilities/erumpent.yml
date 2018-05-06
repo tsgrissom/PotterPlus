@@ -45,7 +45,7 @@ erumpent_attack:
         location: origin
         source_location: feet
         effectlib:
-          class: AnimatedBallEffect
+          class: AnimatedBall
           particle: spell_mob
           color: dba929
           size: 2

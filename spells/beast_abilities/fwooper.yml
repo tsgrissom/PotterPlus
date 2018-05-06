@@ -15,7 +15,7 @@ fwooper_death:
         location: origin
         sound: entity_parrot_death
         effectlib:
-          class: SphereEffect
+          class: Sphere
           radius: 1
           radiusIncrease: 0.2
           particle: spell_mob

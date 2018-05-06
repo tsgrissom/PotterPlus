@@ -10,7 +10,7 @@ acromantula_summon:
         sound: entity_spider_ambient
         material: web
         effectlib:
-          class: SphereEffect
+          class: Sphere
           radius: 2
           radiusIncrease: 0.2
           particle: block_crack

@@ -25,7 +25,7 @@ lacarnum:
          location: both
       -  class: EffectSingle
          effectlib:
-           class: ConeEffect
+           class: Cone
            iterations: 15
            particle: lava
            lengthGrow: 0.4

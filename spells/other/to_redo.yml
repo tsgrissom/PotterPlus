@@ -146,7 +146,7 @@ wingardium:
        sound: magic.zap_up
        sound_pitch: 2
        effectlib:
-         class: ConeEffect
+         class: Cone
          iterations: 8
          particles: 2
          particle: spell
@@ -155,7 +155,7 @@ wingardium:
        location: target
        use_wand_location: false
        effectlib:
-         class: SphereEffect
+         class: Sphere
          iterations: 48
          period: 2
          particle: spell
@@ -163,7 +163,7 @@ wingardium:
     -  class: EffectSingle
        location: target
        effectlib:
-         class: ConeEffect
+         class: Cone
          iterations: 8
          particle: spell
          autoOrient: false
@@ -173,7 +173,7 @@ wingardium:
        sound: entity_enderdragon_flap
        sound_pitch: 2
        effectlib:
-         class: ConeEffect
+         class: Cone
          iterations: 8
          particles: 2
          particle: spell
