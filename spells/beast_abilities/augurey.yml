@@ -16,7 +16,7 @@ augurey_death:
         location: origin
         sound: entity_parrot_death
         effectlib:
-          class: SphereEffect
+          class: Sphere
           radius: 1
           radiusIncrease: 0.2
           particle: water_wake
@@ -25,7 +25,7 @@ augurey_death:
         source_location: feet
         location: origin
         effectlib:
-          class: AtomEffect
+          class: Atom
           radius: 0.5
           particleOrbital: spell_mob
           particleNucleus: spell

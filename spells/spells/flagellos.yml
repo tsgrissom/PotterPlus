@@ -15,7 +15,7 @@ flagellos:
       - class: EffectSingle
         location: target
         effectlib:
-          class: BleedEffect
+          class: Bleed
           height: 0.5
   parameters:
     player_damage: 5

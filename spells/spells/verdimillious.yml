@@ -11,7 +11,7 @@ verdimillious:
            sound_volume: .5
            location: origin
            effectlib:
-             class: ConeEffect
+             class: Cone
              iterations: 15
              particle: redstone
              color: 088A08
@@ -30,7 +30,7 @@ verdimillious:
            sound_volume: .5
            location: origin
            effectlib:
-             class: ConeEffect
+             class: Cone
              iterations: 15
              particle: redstone
              color: 088A08
@@ -47,7 +47,7 @@ verdimillious:
            location: origin
            entity_effect: hurt
            effectlib:
-             class: ConeEffect
+             class: Cone
              iterations: 15
              particle: redstone
              color: 088A08

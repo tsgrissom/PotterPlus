@@ -9,7 +9,7 @@ liberacorpus:
         use_wand_location: false
         source_location: feet
         effectlib:
-          class: WarpEffect
+          class: Warp
           particle: redstone
           color: 8A2BE2
           duration: 5000

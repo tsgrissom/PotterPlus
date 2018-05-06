@@ -9,7 +9,7 @@ scribblifors:
         location: origin
         use_wand_location: false
         effectlib:
-          class: AnimatedBallEffect
+          class: AnimatedBall
           particle: enchantment_table
           iterations: 16
   actions:

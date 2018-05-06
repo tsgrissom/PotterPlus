@@ -16,7 +16,7 @@ colloshoo:
       - location: target
         target_offset: 0,-3,0
         effectlib:
-          class: SphereEffect
+          class: Sphere
           particle: slime
           radius: 2.5
           duration: $duration

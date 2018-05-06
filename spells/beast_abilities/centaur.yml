@@ -11,7 +11,7 @@ centaur_arrow:
         location: origin
         source_location: feet
         effectlib:
-          class: AnimatedBallEffect
+          class: AnimatedBall
           particle: fireworks_spark
           iterations: 16
     hit: []

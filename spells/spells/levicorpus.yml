@@ -14,7 +14,7 @@ levicorpus:
         sound_volume: 1
         location: origin
         effectlib:
-          class: ConeEffect
+          class: Cone
           iterations: 15
           particle: redstone
           color: 8258FA

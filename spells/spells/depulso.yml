@@ -12,7 +12,7 @@ depulso:
         sound_pitch: -0.1
         location: origin
         effectlib:
-          class: DnaEffect
+          class: Dna
           particlesBase: 0
           particlesHelix: 7
           particleHelix: spell

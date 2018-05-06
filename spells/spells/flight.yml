@@ -18,7 +18,7 @@ flight:
         location: origin
         source_location: eyes
         effectlib:
-          class: SphereEffect
+          class: Sphere
           particle: redstone
           radius: 1.5
           radiusIncrease: 0.001

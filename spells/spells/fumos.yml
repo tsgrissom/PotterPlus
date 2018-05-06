@@ -8,7 +8,7 @@ fumos:
         sound: block_fire_extinguish
         location: target
         effectlib:
-          class: SphereEffect
+          class: Sphere
           iterations: 140
           period: .1
           particle: smoke_large
@@ -39,7 +39,7 @@ fumos|2:
         sound: block_fire_extinguish
         location: target
         effectlib:
-          class: SphereEffect
+          class: Sphere
           iterations: 140
           period: .1
           particle: explosion_normal
@@ -61,7 +61,7 @@ fumos|3:
         sound: block_fire_extinguish
         location: target
         effectlib:
-          class: SphereEffect
+          class: Sphere
           iterations: 140
           period: .1
           particle: explosion_normal

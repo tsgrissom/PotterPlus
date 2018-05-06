@@ -30,7 +30,7 @@ legilimens:
         use_wand_location: true
         source_location: eyes
         effectlib:
-          class: AtomEffect
+          class: Atom
           particleNucleus: redstone
           particleOrbital: redstone
           colorNucleus: 000000

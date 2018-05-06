@@ -11,7 +11,7 @@ ignisdisceditus:
         sound: block_fire_extinguish
         location: origin
         effectlib:
-          class: ConeEffect
+          class: Cone
           iterations: 10
           particle: cloud
           lengthGrow: 0.1

@@ -19,7 +19,7 @@ revelio:
         use_wand_location: false
         effectlib:
           offset: 0,2,0
-          class: SphereEffect
+          class: Sphere
           iterations: 1
           particle: spell_instant
           particles: 100

@@ -14,7 +14,7 @@ avadakedavra:
     projectile:
       - class: EffectSingle
         effectlib:
-          class: SphereEffect
+          class: Sphere
           particle: spell_mob
           color: 00FF00
           iterations: 1000

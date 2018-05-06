@@ -8,7 +8,7 @@ herbifors:
         sound: magic.zap
         location: origin
         effectlib:
-          class: ConeEffect
+          class: Cone
           iterations: 10
           particle: item_crack
           material: bone

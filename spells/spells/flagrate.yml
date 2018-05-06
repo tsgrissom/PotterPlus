@@ -7,7 +7,7 @@ flagrate:
         location: target
         target_offset: 0,3,0
         effectlib:
-          class: TextEffect
+          class: Text
           text: $target
           iterations: 3
           particle: lava
@@ -19,7 +19,7 @@ flagrate|2:
         location: target
         target_offset: 0,30
         effectlib:
-          class: TextEffect
+          class: Text
           text: $target
           iterations: 3
           particle: redstone
@@ -28,7 +28,7 @@ flagrate|2:
         location: target
         target_offset: 0,30
         effectlib:
-          class: TextEffect
+          class: Text
           text: $target
           iterations: 3
           particle: spell_mob
@@ -37,7 +37,7 @@ flagrate|2:
         location: target
         target_offset: 0,30
         effectlib:
-          class: TextEffect
+          class: Text
           text: $target
           iterations: 3
           particle: spell_mob

@@ -31,7 +31,7 @@ firestorm:
         use_wand_location: false
         effectlib:
           offset: 0,1,0
-          class: HelixEffect
+          class: Helix
           iterations: 1
           particle: lava
           radius: 5

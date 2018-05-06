@@ -17,7 +17,7 @@ salviohexia:
         sound: block_fire_extinguish
         location: target
         effectlib:
-          class: SphereEffect
+          class: Sphere
           iterations: 70
           period: .1
           particle: smoke_normal
@@ -41,7 +41,7 @@ salviohexia|2:
         sound: block_fire_extinguish
         location: target
         effectlib:
-          class: SphereEffect
+          class: Sphere
           iterations: 70
           period: .1
           particle: smoke_normal

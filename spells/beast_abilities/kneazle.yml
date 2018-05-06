@@ -11,7 +11,7 @@ kneazle_pet:
         location: origin
         source_location: feet
         effectlib:
-          class: HeartEffect
+          class: Heart
           particle: redstone
           color: c10f0f
           yFactor: 2
@@ -22,7 +22,7 @@ kneazle_pet:
         location: origin
         source_location: feet
         effectlib:
-          class: HeartEffect
+          class: Heart
           particle: heart
           particles: 25
           enable_rotation: true

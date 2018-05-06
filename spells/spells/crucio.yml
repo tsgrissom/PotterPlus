@@ -8,7 +8,7 @@ crucio:
         sound_volume: 1
         location: origin
         effectlib:
-          class: AtomEffect
+          class: Atom
           particleNucleus: spell_mob
           colorNucleus: "19070B"
           particleOrbital: redstone
@@ -19,7 +19,7 @@ crucio:
     projectile:
       - location: origin
         effectlib:
-          class: SphereEffect
+          class: Sphere
           iterations: 15
           particle: redstone
           color: "19070B"

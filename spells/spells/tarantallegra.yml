@@ -11,7 +11,7 @@ tarantallegra:
     projectile:
       - class: EffectSingle
         effectlib:
-          class: SphereEffect
+          class: Sphere
           particle: redstone
           color: 380B61
           iterations: 1000

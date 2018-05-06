@@ -15,7 +15,7 @@ brackiumemendo:
         sound: creeper_death
         location: target
         effectlib:
-           class: AtomEffect
+           class: Atom
            particleNucleus: item_crack
            material: bone
            particleOrbital: item_crack

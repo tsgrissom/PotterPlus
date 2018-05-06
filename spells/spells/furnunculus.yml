@@ -32,12 +32,12 @@ furnunculus:
       - class: EffectSingle
         location: target
         effectlib:
-          class: BleedEffect
+          class: Bleed
           duration: $duration
       - class: EffectSingle
         location: target
         effectlib:
-          class: BleedEffect
+          class: Bleed
           color: 255
           duration: $duration
           hurt: false

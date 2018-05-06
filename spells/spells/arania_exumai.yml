@@ -9,14 +9,14 @@ araniaexumai:
         sound_volume: 1
         sound_pitch: 3
         effectlib:
-          class: ConeEffect
+          class: Cone
           iterations: 10
           lengthGrow: 0.15
           particle: spell_mob
           color: 58FAD0
       - class: EffectSingle
         effectlib:
-          class: ConeEffect
+          class: Cone
           iterations: 10
           lengthGrow: 0.15
           particle: spell_mob
