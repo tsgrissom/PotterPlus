@@ -12,7 +12,7 @@ bookshop:
   parameters:
     quiet: true
     confirm: true
-    confirm_filler: stained_glass:3
+    confirm_filler: stained_glass:5
     items:
       - item: book|dada
       - item: book|charms
@@ -21,3 +21,15 @@ bookshop:
       - item: book|dark
       - item: book|creatures
       - item: book|elective
+
+appearanceshop:
+  parameters:
+    cost_type: none
+
+effectshop:
+  parameters:
+    cost_type: none
+
+colorshop:
+  parameters:
+    cost_type: none
