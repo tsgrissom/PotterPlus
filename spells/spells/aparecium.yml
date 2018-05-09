@@ -1,0 +1,45 @@
+aparecium:
+  upgrade_required_path: 5
+  upgrade_required_casts: 25
+  worth: 10
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.patronus
+      - class: EffectTrail
+        particle: spell_mob
+        color: 5caeb4
+        particle_data: 1
+        particle_count: 3
+      - class: EffectRing
+        particle: spell_mob
+        color: 5caeb4
+        particle_count: 2
+        location: target
+    backfire:
+      - class: EffectSingle
+        sound: shoot_arrow
+        sound_volume: 5.0
+        location: origin
+        entity_effect: hurt
+        firework: burst
+        color: 5caeb4
+  parameters:
+    backfire_chance: 0.6
+  costs:
+    mana: 50
+
+aparecium|2:
+  upgrade_required_path: 6
+  upgrade_required_casts: 50
+  parameters:
+    backfire_chance: 0.4
+
+aparecium|3:
+  upgrade_required_path: 7
+  upgrade_required_casts: 100
+  parameters:
+    backfire_chance: 0.2
+
+aparecium|4:
+  backfire_chance: 0

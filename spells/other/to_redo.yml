@@ -82,10 +82,6 @@ sectumsempra:
   worth: 20
 reducto:
   worth: 10
-aparecium:
-  worth: 15
-  costs:
-    mana: 50
 alohomora:
   worth: 5
 

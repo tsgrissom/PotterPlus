@@ -36,6 +36,7 @@ spells:
     insufficient: "&6(&eMagic&6) &cThis costs &4$cost&c."
     deducted: "&6(&eMagic&6) &7You bought &e$item &7for &e$cost&7."
     cost_lore: '&aCosts: $cost'
+    selected: '&6(&eMagic&6) &7You learned &e$item &7for &e$cost'
   ollivander:
     cast: "&6(&eMagic&6) &7You exchanged &e$requires &7for &e$item&7."
     insufficient_resources: "&6(&eMagic&6) &cYou must have &4$requires&c."
@@ -653,6 +654,16 @@ spells:
     description: "Pushes away a number of nearby targets with great force, damaging them."
   pulsus|2:
     upgrade_description: "&r&8&bull; &eIncreased power and target count."
+  aparecium:
+    name: "Aparecium"
+    description: "Causes hidden things to appear. Can be used to access new areas."
+  aparecium|2:
+    upgrade_description: "&r&8&bull; &eDecreased backfire chance."
+  aparecium|3:
+    upgrade_description: "&r&8&bull; &eDecreased backfire chance."
+  aparecium|4:
+    upgrade_description: "&r&8&bull; &eDecreased backfire chance."
+
   acromantula_summon:
     name: "Summon"
     description: "Summons more Acromantula"

@@ -1644,7 +1644,7 @@ spells:
     no_path_end: '&6(&eMagic&6) &cYou must be ready to advance from &4$path&c!'
     no_wand: '&6(&eMagic&6) &cYou must be holding a wand!'
     confirm_title: Learn $item
-    selected: '&d&oYou learned &r&6$item &r&d&ofor &r&a$cost'
+    selected: '&6(&eMagic&6) &7You learned &e$item &7for &e$cost'
     fail: ''
     insufficient: '&6(&eMagic&6) &cThis costs &4$cost&c.'
     deducted: '&6(&eMagic&6) &7You bought &e$item &7for &e$cost&7.'
@@ -1961,7 +1961,7 @@ spells:
     description: Un-mute the target player
   aparecium:
     name: Aparecium
-    description: Reveals concealed objects and paths
+    description: Causes hidden things to appear. Can be used to access new areas.
     cast_finish: ''
   apparate:
     name: Short-Distance Apparition
@@ -2870,6 +2870,12 @@ spells:
     description: Extinguishes nearby flames in a gush of cold air.
   pulsus|2:
     upgrade_description: '&r&8&bull; &eIncreased power and target count.'
+  aparecium|2:
+    upgrade_description: '&r&8&bull; &eDecreased backfire chance.'
+  aparecium|3:
+    upgrade_description: '&r&8&bull; &eDecreased backfire chance.'
+  aparecium|4:
+    upgrade_description: '&r&8&bull; &eDecreased backfire chance.'
   acromantula_summon:
     name: Summon
     description: Summons more Acromantula

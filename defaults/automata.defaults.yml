@@ -1,15 +1,15 @@
-#
+# 
 # !! IMPORTANT !!
-#
+# 
 # If you wish to customize this plugin, edit the "automata.yml" file instead.
-#
+# 
 # DO NOT JUST COPY THIS WHOLE FILE INTO YOUR automata.yml !!!!
 # If you do this, updating the plugin in the future may not work as expected.
-#
+# 
 # This file is merged from the files in the following folder:
-#
+# 
 # https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/automata
-#
+# 
 # This controls behavior of spawners, persistent effects and other "automatic blocks".
 
 
@@ -18,12 +18,10 @@ flare:
   interval: 5000
   cast:
     spells: flare pdx 0 pdz 0 pdy 1 quiet true
-  enabled: false
 fountain:
   name: Fountain
   description: A water fountain
   effects: fountain
-  enabled: false
 spawner:
   name: Magic Mob Spawner
   description: A simple mob spawner, can be customized via the "mobs" parameter, among
@@ -52,6 +50,14 @@ acromantula_spawner:
       acromantula_underling: 60
       acromantula: 35
       acromantula_queen: 15
+ashwinder_spawner:
+  inherit: base_spawner
+  interval: 8000
+  spawn:
+    limit: 1
+    probability: 0.2
+    mobs:
+      ashwinder: 100
 base_spawner:
   inherit: spawner
   name: Spawner

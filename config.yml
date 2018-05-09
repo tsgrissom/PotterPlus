@@ -1,7 +1,13 @@
+# Loads in base potter configs
+
 example: potter
+
+# Configures SP to be less intrusive for CC system
 
 sp_earn_enabled: false
 sp_display: none
 sp_default: 0
 
-mana_display: bar
+# Removes default automata because they aren't necessary
+
+disable_default_automata: false
