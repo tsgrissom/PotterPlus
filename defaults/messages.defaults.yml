@@ -205,8 +205,10 @@ shops:
   confirm_title: Purchase $item
   unlock_confirm_title: Unlock $item
   deducted: '&6(&eMagic&6) &7You bought &e$item &7for &e$cost&7.'
+  selected: '&d&oYou bought &r&6$item &r&d&ofor &r&a$cost'
+  sold: '&d&oYou sold &r&6$item &r&d&ofor &r&a$earn'
   unlocked: '&d&oYou unlocked &r&6$item &r&d&ofor &r&a$cost'
-  selected: '&d&oYou bought &r&6$item'
+  selected_free: '&d&oYou chose &r&6$item'
   not_applicable: '&6(&eMagic&6) &cYou can''t buy &4$item&c!'
   cast_fail: '&6(&eMagic&6) &cSorry, please try again!'
   no_items: '&6(&eMagic&6) &cThere is nothing for you to buy!'
@@ -224,8 +226,11 @@ shops:
   unlock_class: $class
   nothing: Nothing
   cost_lore: '&6Costs: &e$cost'
+  earn_lore: '&6Earns: &e$earn'
+  earn_heading: ''
   cost_heading: ''
   unlock_cost_lore: '&6Unlock Cost: &e$cost'
+  locked: '&cLocked, &eUnlock in Donation Shop'
   required_cost_lore: '&cCosts: &4$cost'
   required_unlock_cost_lore: '&cUnlock Cost: &4$cost'
   has_class: You already have class $class
@@ -234,6 +239,7 @@ shops:
   property_requirement: '&r&cRequires: &6$property &cof $4$value'
   property_max: '&r&cYour &6$property &cis maxed out'
   property_min: '&r&cYour &6$property &cmust be greater than $4$value'
+  item_amount: $name x$amount
 spell:
   category: '&9$category'
   brush: Uses Material Brushes
@@ -1631,17 +1637,18 @@ spells:
     description: |-
       Spend Spell Points to learn new spells.
       When you have learned all the required spells on your current path, you will rank up to the next path!
-    cost_lore: '&aCosts: $cost'
     no_items: '&6(&eMagic&6) &cThere are no spells for you to buy here.'
     no_path: '&6(&eMagic&6) &cYou may not learn that with that &4$wand&c.'
     no_upgrade: '&6(&eMagic&6) &cThere is nothing more for you to learn here.'
     no_required_path: '&6(&eMagic&6) &cYou must be at least &4$path&c!'
     no_path_end: '&6(&eMagic&6) &cYou must be ready to advance from &4$path&c!'
     no_wand: '&6(&eMagic&6) &cYou must be holding a wand!'
-    insufficient: '&6(&eMagic&6) &cThis costs &4$cost&c.'
     confirm_title: Learn $item
-    deducted: '&6(&eMagic&6) &7You bought &e$item &7for &e$cost&7.'
+    selected: '&d&oYou learned &r&6$item &r&d&ofor &r&a$cost'
     fail: ''
+    insufficient: '&6(&eMagic&6) &cThis costs &4$cost&c.'
+    deducted: '&6(&eMagic&6) &7You bought &e$item &7for &e$cost&7.'
+    cost_lore: '&aCosts: $cost'
   engineershop:
     name: Engineer Shop
     title: Rollback ($balance&0)
@@ -1764,15 +1771,13 @@ spells:
     name: Sell Shop
     title: Sell ($balance&0)
     description: Sell Sell Sell!
-    cost_lore: Earn $cost
     insufficient: '&cRequires &4$cost'
     confirm_title: Sell $item
-    deducted: '&d&oYou sold &r&6$item &r&d&ofor &r&a$cost'
+    deducted: '&d&oYou sold &r&6$item &r&d&ofor &r&a$earn'
   automatashop:
     name: Automata Shop
     title: Sell Automata Hearts
     description: Sell Automata Hearts
-    cost_lore: 'Earns: $cost'
     no_items: There is nothing to sell here!
     insufficient: Requires $cost
     confirm_title: Sell $item
@@ -3524,40 +3529,40 @@ wands:
       spells to your hotbar to cast them.'
   appearance_beginner:
     name: Beginner Wand Appearance
-    description: Will change the appearance of your wand
+    description: A good starter wand
   appearance_student:
     name: Student Wand Appearance
-    description: Will change the appearance of your wand
+    description: Its magic is starting to grow
   appearance_apprentice:
     name: Apprentice Wand Appearance
-    description: Will change the appearance of your wand
+    description: It has transformed!
   appearance_master:
     name: Wizard Wand Appearance
-    description: Will change the appearance of your wand
+    description: A powerful magical instrument
   appearance_engineer:
     name: Engineer Wand Appearance
-    description: Will change the appearance of your wand
+    description: A powerful staff imbued with ancient magic
   appearance_architect:
     name: Architect Wand Appearance
-    description: Will change the appearance of your wand
+    description: A powerful staff used for massive constructions
   appearance_conduit:
     name: Conduit Wand Appearance
-    description: Will change the appearance of your wand
+    description: A staff used by wizards of ages past
   appearance_magicka:
     name: Magicka Wand Appearance
-    description: Will change the appearance of your wand
+    description: A large staff with a crescent moon holding powerful magical energy
   appearance_moon:
     name: Moon Wand Appearance
-    description: Will change the appearance of your wand
+    description: A wand that may have been used by an ancient sailor
   appearance_spire:
     name: Spire Wand Appearance
-    description: Will change the appearance of your wand
+    description: A wizard tower you can hold in your hand
   appearance_claw:
     name: Claw Wand Appearance
-    description: Will change the appearance of your wand
+    description: A menacingly dark claw holding powerful magical orbs
   appearance_orb:
     name: Orb Wand Appearance
-    description: Will change the appearance of your wand
+    description: A wand lovingly imbued with a powerful orb
   uberwand:
     name: Überwand
     description: The Ultimate Wand

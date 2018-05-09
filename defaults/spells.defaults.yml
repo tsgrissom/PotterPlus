@@ -1213,7 +1213,7 @@ appearanceshop:
     - wand: wand
     unlock_section: wand_appearances
     apply_to_wand: true
-    cost_type: sp
+    cost_type: none
     options:
     - item: none
     - item: appearance_beginner
@@ -1231,9 +1231,14 @@ appearanceshop:
     - item: appearance_engineer
       requirements:
       - path: engineer
+    - item: appearance_architect
+      requirements:
+      - path: architect
     - item: appearance_conduit
       requirements:
       - path: conduit
+    - item: none
+    - item: none
     - item: none
     - item: appearance_moon
       unlock: moon
@@ -1255,21 +1260,26 @@ appearanceshop:
       unlock: orb
       confirm: true
       cost: 8000
-  enabled: false
+  enabled: true
 architectshop:
   icon: gold_axe
   category: npc
   hidden: true
   actions:
     cast:
-    - class: SpellShop
+    - class: Shop
+    - class: UpgradePath
   parameters:
-    quiet: true
-    path_end: engineer
-    auto_upgrade: true
-    use_sp: true
+    requirements:
+    - path_end: engineer
+    apply_to_caster: true
     confirm_filler: stained_glass:9
+    confirm: true
     spells:
+    - none
+    - none
+    - none
+    - none
     - absorb
   enabled: false
 arrow:
@@ -2093,13 +2103,8 @@ automatashop:
   icon: command
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: sellshop
   parameters:
-    quiet: true
-    auto_close: false
-    sell: true
     items:
       wand|snakeheart: 300
       wand|hunterheart: 500
@@ -2215,15 +2220,8 @@ deposits:
   icon: emerald
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: sellshop
   parameters:
-    sell: true
-    quiet: true
-    confirm: false
-    use_items: false
-    auto_close: false
     items:
     - gold_nugget
     - gold_ingot
@@ -2244,14 +2242,8 @@ withdrawals:
   icon: emerald
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
-    quiet: true
-    confirm: false
-    use_items: false
-    auto_close: false
     items:
     - gold_nugget
     - gold_ingot
@@ -2272,14 +2264,9 @@ ledgershop:
   icon: paper
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
-    quiet: true
     confirm: true
-    use_items: false
-    confirm_filler: stained_glass_pane
     items:
       wand|ledger: 2
   enabled: false
@@ -2849,12 +2836,8 @@ bookshop:
   icon: book
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
-    quiet: true
-    confirm: true
     items:
     - item: book|dada
     - item: book|charms
@@ -2863,8 +2846,13 @@ bookshop:
     - item: book|dark
     - item: book|creatures
     - item: book|elective
-    confirm_filler: stained_glass:3
+    quiet: true
+    confirm: true
+    confirm_filler: stained_glass:5
   enabled: true
+  actions:
+    cast:
+    - class: ItemShop
 boom:
   icon: diamond_axe:35
   icon_disabled: diamond_hoe:35
@@ -3403,24 +3391,15 @@ broomshop:
   icon: gold_spade
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: potterbroomshop
   parameters:
-    quiet: true
+    auto_close: true
     confirm: true
-    confirm_filler: stained_glass:3
     items:
-    - item: wand|firebolt
-      cost: 10000
-    - item: wand|nimbus
-      cost: 5000
-    - item: wand|comet290
-      cost: 1000
-    - item: wand|cleansweep1
-      cost: 500
-    - item: wand|bluebottle
+    - item: wand|crackedbroomstick
       cost: 100
+    - item: wand|broomstick
+      cost: 4000
   enabled: true
 brushselect:
   icon: diamond_axe:188
@@ -3505,12 +3484,11 @@ buyshop:
   hidden: true
   actions:
     cast:
-    - class: ItemShop
+    - class: Shop
   parameters:
-    quiet: true
     confirm: false
     auto_close: false
-    use_items: false
+    confirm_filler: stained_glass_pane
   enabled: false
 cage:
   icon: diamond_axe:157
@@ -4043,8 +4021,9 @@ colorshop:
     confirm: true
     requirements:
     - holding_wand: true
-    cost_type: sp
+    cost_type: none
     unlock_section: wand_colors
+    show_unavailable: true
     apply_to_wand: true
     options:
     - item: redeffects
@@ -4091,7 +4070,7 @@ colorshop:
       unlock: lightgray
     - item: browneffects
       cost: 200
-      unlock: grown
+      unlock: brown
     - item: darkgreeneffects
       cost: 200
       unlock: darkgreen
@@ -4156,14 +4135,19 @@ conduitshop:
   hidden: true
   actions:
     cast:
-    - class: SpellShop
+    - class: Shop
+    - class: UpgradePath
   parameters:
-    quiet: true
-    path_end: architect
-    auto_upgrade: true
-    use_sp: true
+    requirements:
+    - path_end: architect
+    apply_to_caster: true
     confirm_filler: stained_glass:9
+    confirm: true
     spells:
+    - none
+    - none
+    - none
+    - none
     - backup
   enabled: false
 controlsmenu:
@@ -5332,7 +5316,8 @@ effectshop:
     - holding_wand: true
     unlock_section: wand_effects
     apply_to_wand: true
-    cost_type: sp
+    show_unavailable: true
+    cost_type: none
     options:
     - item: bubbleeffects
       unlock: bubble
@@ -5350,19 +5335,14 @@ effectshop:
     - item: none
     - item: cleareffects
       selected: You removed all particle effects from your wand
-  enabled: false
+  enabled: true
 emeraldshop:
   icon: emerald
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
-    quiet: true
-    confirm: true
-    use_xp: true
-    confirm_filler: stained_glass:5
+    cost_type: xp
     items:
       emerald: 500
   enabled: false
@@ -5444,14 +5424,19 @@ engineershop:
   hidden: true
   actions:
     cast:
-    - class: SpellShop
+    - class: Shop
+    - class: UpgradePath
   parameters:
-    quiet: true
-    path_end: master
-    auto_upgrade: true
-    use_sp: true
+    requirements:
+    - path_end: master
+    apply_to_caster: true
     confirm_filler: stained_glass:2
+    confirm: true
     spells:
+    - none
+    - none
+    - none
+    - none
     - rollback
   enabled: false
 entangle:
@@ -6056,25 +6041,25 @@ flashbang:
           - class: PlaySound
             sound: magic.ringing
             volume: 0.7
-            range: 0
+            radius: 0
           - class: Delay
             delay: 700
         - class: PlaySound
           sound: magic.ringing
           volume: 0.5
-          range: 0
+          radius: 0
         - class: Delay
           delay: 700
         - class: PlaySound
           sound: magic.ringing
           volume: 0.2
-          range: 0
+          radius: 0
         - class: Delay
           delay: 700
         - class: PlaySound
           sound: magic.ringing
           volume: 0.1
-          range: 0
+          radius: 0
   effects:
     cast:
     - class: EffectSingle
@@ -8449,13 +8434,9 @@ itemshop:
   icon: carrot
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
-    quiet: true
     confirm: true
-    confirm_filler: stained_glass:3
     items:
     - item: carrot_item@64
       cost: 100
@@ -9392,13 +9373,10 @@ magicitemshop:
   icon: ender_portal_frame
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
-    quiet: true
     confirm: true
-    confirm_filler: stained_glass:3
+    auto_close: true
     items:
     - item: wand|ocarina
       cost: 100
@@ -12874,12 +12852,11 @@ sellshop:
   hidden: true
   actions:
     cast:
-    - class: ItemShop
+    - class: Shop
   parameters:
-    quiet: true
     confirm: false
     auto_close: false
-    use_items: false
+    confirm_filler: stained_glass_pane
     sell: true
   enabled: false
 shell:
@@ -13447,14 +13424,9 @@ potionshop:
   icon: potion
   category: shop
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
-    quiet: true
     confirm: true
-    confirm_filler: stained_glass:3
-    use_items: false
     items:
     - potion_splash_swiftness_long
   enabled: false
@@ -13524,9 +13496,6 @@ appraiser:
   icon: emerald
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
   parameters:
     scale: 0.9
     items:
@@ -14179,13 +14148,15 @@ spellshop:
   hidden: true
   actions:
     cast:
-    - class: SpellShop
+    - class: Shop
+    - class: UpgradePath
   parameters:
-    quiet: true
+    show_path_spells: true
+    show_extra_spells: true
+    apply_to_caster: true
+    confirm: true
+    auto_close: true
     confirm_filler: stained_glass:5
-    auto_upgrade: true
-    upgrade_levels: 1
-    use_sp: true
   enabled: true
 sphere:
   icon: diamond_axe:127
@@ -15591,15 +15562,11 @@ testspellshop:
   icon: iron_hoe
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: SpellShop
+  inherit: spellshop
   parameters:
-    quiet: true
     confirm: false
     auto_close: false
-    auto_upgrade: true
-    use_sp: true
+    scale: 0
   enabled: false
 throwsword:
   icon: diamond_sword
@@ -15931,13 +15898,18 @@ tpshop:
   hidden: true
   actions:
     cast:
-    - class: SpellShop
+    - class: Selector
   parameters:
     quiet: true
     confirm_filler: stained_glass:5
-    cast_spells: true
-    spells:
-      randomtp: 1
+    confirm: true
+    options:
+    - item: none
+    - item: none
+    - item: none
+    - item: none
+    - cast_spell: randomtp
+      cost: 1
   enabled: false
 tracking:
   icon: diamond_axe:189
@@ -16108,13 +16080,11 @@ tweakshop:
   icon_url: http://textures.minecraft.net/texture/f6d6ac2ee323f6497c6e2663a7e56ed9523567b68d18a17f8f39736b06ac3cd
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
-    quiet: true
-    confirm: false
-    require_wand: true
+    requirements:
+    - holding_wand: true
+    apply_to_wand: true
     items:
     - wand|inventorymode
     - wand|chestmode
@@ -16155,14 +16125,14 @@ upgradeshop:
   icon: gold_axe
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
     quiet: true
     confirm_filler: stained_glass:2
     confirm: true
-    require_wand: true
+    requirements:
+    - holding_wand: true
+    apply_to_wand: true
     items:
     - item: wand|antihunger
       cost: 2000
@@ -16717,13 +16687,10 @@ wandshop:
   icon: wooden_hoe
   category: npc
   hidden: true
-  actions:
-    cast:
-    - class: ItemShop
+  inherit: buyshop
   parameters:
-    quiet: true
     confirm: true
-    confirm_filler: stained_glass:3
+    auto_close: true
     items:
     - item: wand|default
       cost: 3000
@@ -17864,6 +17831,7 @@ avis:
     name: '&dConjured Bird'
   costs:
     mana: 10
+  enabled: true
 beat:
   hidden: true
   icon: stick
@@ -17973,6 +17941,7 @@ bombarda:
     undo: 3000
     undo_speed: 0.5
     fire: false
+  enabled: true
 bombarda|2:
   parameters:
     range: 64
@@ -18518,6 +18487,7 @@ fiendfyre:
     use_target_location: false
     duration: 15000
     undo: 5000
+  enabled: true
 finiteincantatem:
   inherit: counterspell
   category: dada
@@ -18745,6 +18715,7 @@ flight:
     mana: 100
   active_costs:
     mana: 20
+  enabled: true
 fourpoint:
   inherit: false
   icon: diamond_axe:189
@@ -18794,6 +18765,7 @@ fourpoint:
     cooldown: 8000
   costs:
     mana: 20
+  enabled: true
 fumos:
   inherit: invincible
   category: dada
@@ -19154,6 +19126,7 @@ legilimens:
     command: invsee @tn
     op: true
     console: false
+  enabled: true
 levicorpus:
   inherit: false
   worth: 15
@@ -19207,6 +19180,7 @@ levicorpus:
       levitation: 4
   costs:
     mana: 40
+  enabled: true
 levicorpus|2:
   inherit: false
   upgrade_required_casts: 50
@@ -19215,12 +19189,14 @@ levicorpus|2:
     repeat: 8
     potion_effects:
       levitation: 5
+  enabled: true
 levicorpus|3:
   inherit: false
   parameters:
     repeat: 12
     potion_effects:
       levitation: 6
+  enabled: true
 lumos:
   icon: diamond_axe:228
   icon_disabled: diamond_hoe:228
@@ -19625,6 +19601,7 @@ salviohexia:
       slowness: 1
   costs:
     mana: 90
+  enabled: true
 reparifarge:
   inherit: rollback
   category: staff
@@ -19929,6 +19906,7 @@ stupefy:
     duration: 2000
   costs:
     mana: 15
+  enabled: true
 stupefy|2:
   parameters:
     damage: 3
@@ -20274,6 +20252,7 @@ revelio:
     cooldown: 12000
     remove_effects:
     - invisibility
+  enabled: true
 deluminate:
   hidden: true
   icon: diamond_axe:85
@@ -20473,6 +20452,7 @@ firestorm:
     delay: 100
     target_source: false
     target_count: 12
+  enabled: true
 tripudio:
   icon_url: http://textures.minecraft.net/texture/58c573cefdc8cc1b8c894340cb54ab343523ec2ffa0afc7536968391ae1e7
   icon: diamond_axe:11
@@ -20665,11 +20645,10 @@ ollivander:
   parameters:
     put_in_hand: false
     auto_close: true
-    worth_item: ticket
-    use_items: true
     items:
     - item: wand:wandbox
-      cost: 1
+      costs:
+        ticket: 1
     loud: true
   enabled: true
 ticketshop:
@@ -20724,6 +20703,27 @@ patronus:
     damage: 300
     hitbox_size: 3
     hitbox: true
+  enabled: true
+potterbroomshop:
+  icon: gold_spade
+  category: npc
+  hidden: true
+  inherit: buyshop
+  parameters:
+    confirm: true
+    auto_close: true
+    items:
+    - item: wand|firebolt
+      cost: 10000
+    - item: wand|nimbus
+      cost: 5000
+    - item: wand|comet290
+      cost: 1000
+    - item: wand|cleansweep1
+      cost: 500
+    - item: wand|bluebottle
+      cost: 100
+  enabled: true
 potterappearanceshop:
   icon: wood_hoe
   hidden: true
@@ -20779,15 +20779,18 @@ acromantula_summon:
     target: self
     cooldown: 0
     amount: 2
+  enabled: true
 acromantula_spit:
   inherit: bogies
   hidden: true
   parameters:
     range: 24
     cooldown: 0
+  enabled: true
 acromantula_spit|2:
   parameters:
     effect_confusion: 2
+  enabled: true
 acromantula_webbing:
   inherit: webbing
   hidden: true
@@ -20797,9 +20800,11 @@ acromantula_webbing:
     radius: 0.5
     undo_speed: 1
     cooldown: 0
+  enabled: true
 acromantula_webbing|2:
   parameters:
     radius: 1
+  enabled: true
 ashwinder_ambient:
   icon: fire
   category: beast_ability
@@ -20812,6 +20817,7 @@ ashwinder_ambient:
   parameters:
     target: self
     cooldown: 0
+  enabled: true
 ashwinder_summon:
   inherit: ashwinder_ambient
   actions:
@@ -20821,12 +20827,15 @@ ashwinder_summon:
     type: ashwinder
     target: self
     amount: 2
+  enabled: true
 ashwinder_summon|2:
   parameters:
     amount: 3
+  enabled: true
 ashwinder_burn:
   inherit: incendio
   hidden: true
+  enabled: true
 augurey_death:
   icon: water
   category: beast_ability
@@ -20864,6 +20873,7 @@ augurey_death:
     cooldown: 0
     delay: 30000
     target: self
+  enabled: true
 bowtruckle_tree:
   inherit: forest
   icon: log
@@ -20873,6 +20883,7 @@ bowtruckle_tree:
     undo: 12000
     target: self
     cooldown: 0
+  enabled: true
 bowtruckle_wood_throw:
   icon: log
   category: beast_ability
@@ -20901,6 +20912,7 @@ bowtruckle_wood_throw:
     velocity: 50
     target: other
     cooldown: 0
+  enabled: true
 bowtruckle_shield:
   inherit: protego|3
   hidden: true
@@ -20908,6 +20920,7 @@ bowtruckle_shield:
     cooldown: 0
     brush: log
     undo: 3000
+  enabled: true
 bundimun_summon:
   icon: slime_block
   category: beast_ability
@@ -20925,6 +20938,7 @@ bundimun_summon:
     target: self
     cooldown: 0
     amount: 2
+  enabled: true
 centaur_arrow:
   inherit: arrow|5
   hidden: true
@@ -20947,12 +20961,14 @@ centaur_arrow:
     delay: 1000
     damage: 5
     spread: 2
+  enabled: true
 centaur_heal:
   inherit: episkey
   hidden: true
   parameters:
     cooldown: 0
     target: self
+  enabled: true
 crup_pet:
   icon: bone
   category: beast_ability
@@ -20985,6 +21001,7 @@ crup_pet:
     message: '&eThe crup is happy'
     message_type: title
     cooldown: 10000
+  enabled: true
 demiguise_disappear:
   icon: glass
   category: beast_ability
@@ -21015,6 +21032,7 @@ demiguise_disappear:
     potion_effects:
       invisibility: 1
     target: self
+  enabled: true
 erkling_dart:
   inherit: arrow
   icon: diamond_axe:242
@@ -21038,6 +21056,7 @@ erkling_dart:
     cooldown: 12000
   costs:
     mana: 5
+  enabled: true
 erkling_poisoned_dart:
   inherit: erkling_dart
   icon: diamond_axe:245
@@ -21045,6 +21064,7 @@ erkling_poisoned_dart:
     potion_effects:
       poison: 1
     color: '259046'
+  enabled: true
 erkling_freezing_dart:
   inherit: erkling_dart
   icon: diamond_axe:243
@@ -21052,6 +21072,7 @@ erkling_freezing_dart:
     potion_effects:
       slowness: 2
     color: 4ad3d7
+  enabled: true
 erkling_weakening_dart:
   inherit: erkling_dart
   icon: diamond_axe:247
@@ -21059,12 +21080,14 @@ erkling_weakening_dart:
     potion_effects:
       weakness: 2
     color: '440018'
+  enabled: true
 erkling_flaming_dart:
   inherit: erkling_dart
   icon: diamond_axe:246
   parameters:
     color: e28811
     fire: true
+  enabled: true
 erumpent_death:
   icon: tnt
   category: beast_ability
@@ -21079,6 +21102,7 @@ erumpent_death:
     fire: true
     undo: 3000
     undo_speed: 1
+  enabled: true
 erumpent_ambient:
   icon: tnt
   category: beast_ability
@@ -21091,6 +21115,7 @@ erumpent_ambient:
     potion_effects:
       glowing: 1
     duration: 1500
+  enabled: true
 erumpent_attack:
   inherit: bombarda
   icon: tnt
@@ -21142,6 +21167,7 @@ erumpent_attack:
       particle: explosion_huge
   parameters:
     delay: 1500
+  enabled: true
 fire_crab_ambient:
   icon: fire
   category: beast_ability
@@ -21152,12 +21178,15 @@ fire_crab_ambient:
   parameters:
     target: self
     cooldown: 0
+  enabled: true
 fire_crab_attack:
   inherit: incendio
   hidden: true
+  enabled: true
 fire_crab_alt_attack:
   inherit: firestorm
   hidden: true
+  enabled: true
 fwooper_death:
   icon: feather
   category: beast_ability
@@ -21195,6 +21224,7 @@ fwooper_death:
       confusion: 5
     duration: 20000
     message: '&dThe Fwooper''s death cry is hindering'
+  enabled: true
 kneazle_pet:
   icon: bone
   category: beast_ability
@@ -21229,6 +21259,7 @@ kneazle_pet:
     message: '&eThe kneazle purrs...'
     message_type: title
     cooldown: 10000
+  enabled: true
 phoenix_ambient:
   icon: fire
   category: beast_ability
@@ -21239,6 +21270,7 @@ phoenix_ambient:
   parameters:
     target: self
     cooldown: 0
+  enabled: true
 phoenix_death:
   icon: fire
   category: beast_ability
@@ -21282,6 +21314,7 @@ phoenix_death:
     type: phoenix
     undo: 1000
     undo_speed: 0.5
+  enabled: true
 wampus_scratch:
   icon: fish
   category: beast_ability
@@ -21318,6 +21351,7 @@ wampus_scratch:
     potion_effects:
       wither: 2
     duration: 2000
+  enabled: true
 gillyweed_ability:
   inherit: bubblehead
   icon: vine
@@ -21332,16 +21366,20 @@ gillyweed_ability:
     duration: 300000
   costs:
     mana: 25
+  enabled: true
 reveal:
   enabled: true
 aquaeructo:
   category: charms
   worth: 15
   inherit: stream
+  enabled: true
 aquaeructo|2:
   inherit: stream|2
+  enabled: true
 aquaeructo|3:
   inherit: stream|3
+  enabled: true
 aberto:
   inherit: alohomora
   effects:
@@ -21352,6 +21390,7 @@ aberto:
       particle: spell_mob
       color: FFFFFF
       particle_count: 5
+  enabled: true
 alarteascendare:
   icon: diamond_axe:150
   category: charms
@@ -21379,6 +21418,7 @@ alarteascendare:
     cooldown: 15000
   costs:
     mana: 20
+  enabled: true
 alarteascendare|2:
   upgrade_required_casts: 75
   upgrade_required_path: year3
@@ -21387,22 +21427,26 @@ alarteascendare|2:
     range: 32
     velocity: 50
     y_offset: rand(1.5, 1.8)
+  enabled: true
 apparate|2:
   inherit: blink|2
   upgrade_required_path: year5
   upgrade_required_casts: 100
+  enabled: true
 apparate|3:
   inherit: blink|3
   upgrade_required_path: year6
   upgrade_required_casts: 125
   actions:
     alternate_up: []
+  enabled: true
 apparate|4:
   inherit: blink|4
   upgrade_required_path: year6
   upgrade_required_casts: 150
   actions:
     alternate_down: []
+  enabled: true
 apparate|5:
   inherit: blink|5
   upgrade_required_path: year7
@@ -21410,17 +21454,21 @@ apparate|5:
   parameters:
     allow_passthrough: false
     passthrough_range: 0
+  enabled: true
 apparate|6:
   parameters:
     range: 64
+  enabled: true
 araniaexumai|2:
   upgrade_required_path: year3
   upgrade_required_casts: 50
   parameters:
     damage: 15
+  enabled: true
 araniaexumai|3:
   parameters:
     damage: 20
+  enabled: true
 arrowmaxima:
   inherit: arrow
   upgrade_required_path: year5
@@ -21434,6 +21482,7 @@ arrowmaxima:
     damage: 1
     repeat: 3
     spread: 2
+  enabled: true
 arrowmaxima|2:
   upgrade_required_path: year6
   upgrade_required_casts: 50
@@ -21441,6 +21490,7 @@ arrowmaxima|2:
     damage: 2
     repeat: 6
     spread: 1
+  enabled: true
 arrowmaxima|3:
   upgrade_required_path: year7
   upgrade_required_casts: 75
@@ -21449,18 +21499,22 @@ arrowmaxima|3:
     repeat: 8
     spread: 0
     delay: 50
+  enabled: true
 arrowmaxima|4:
   parameters:
     fire: true
+  enabled: true
 avis|2:
   upgrade_required_casts: 125
   upgrade_required_path: year6
   parameters:
     repeat: 8
+  enabled: true
 avis|3:
   parameters:
     repeat: 10
     baby: false
+  enabled: true
 baubillious:
   inherit: chainlightning
   worth: 20
@@ -21479,17 +21533,20 @@ baubillious:
         particle: firework_spark
         color: FFFFFF
         duration: 2000
+  enabled: true
 baubillious|2:
   upgrade_required_path: year7
   upgrade_required_casts: 50
   parameters:
     player_damage: 3
     entity_damage: 3.5
+  enabled: true
 baubillious|3:
   parameters:
     player_damage: 4.5
     entity_damage: 5
     repeat: 8
+  enabled: true
 brachiabindo:
   inherit: incarcerous
   effects:
@@ -21502,6 +21559,7 @@ brachiabindo:
   parameters:
     brush: birch_fence
     undo: 2000
+  enabled: true
 brackiumemendo:
   inherit: ferula
   worth: 10
@@ -21529,6 +21587,7 @@ brackiumemendo:
     count: 3
     amount: 3
     delay: 1000
+  enabled: true
 brackiumemendo|2:
   upgrade_required_path: year3
   upgrade_required_casts: 75
@@ -21536,12 +21595,14 @@ brackiumemendo|2:
     count: 5
     amount: 4
     delay: 500
+  enabled: true
 brackiumemendo|3:
   upgrade_required_path: year4
   upgrade_required_casts: 100
   parameters:
     amount: 5
     delay: 250
+  enabled: true
 bruchumaculeatos:
   category: dark
   icon: diamond_axe:151
@@ -21599,6 +21660,7 @@ bruchumaculeatos:
     range: 12
     cooldown: 15000
     velocity: 125
+  enabled: true
 bruchumaculeatos|2:
   upgrade_required_casts: 50
   upgrade_required_path: year7
@@ -21607,14 +21669,17 @@ bruchumaculeatos|2:
     entity_damage: 3
     repeat: 6
     delay: 250
+  enabled: true
 bruchumaculeatos|3:
   parameters:
     player_damage: 4
     entity_damage: 4
+  enabled: true
 bubblehead|2:
   parameters:
     duration: 60000
     undo: 60000
+  enabled: true
 cantis:
   category: charms
   icon_url: http://textures.minecraft.net/texture/ad7e09a7af7af5acc286e6a4dd3c2f69b55ace33b7838ca899545570e946ee
@@ -21656,6 +21721,7 @@ cantis:
     target: other
     target_type: LivingEntity
     cooldown: 20000
+  enabled: true
 carperetractum:
   icon: diamond_axe:198
   worth: 10
@@ -21721,6 +21787,7 @@ carperetractum:
     gravity: 0.05
   costs:
     mana: 10
+  enabled: true
 carperetractum|2:
   parameters:
     push: -1
@@ -21729,6 +21796,7 @@ carperetractum|2:
     delay: 750
     velocity: 75
     gravity: 0.02
+  enabled: true
 colloshoo:
   category: dada
   icon: diamond_axe:180
@@ -21766,6 +21834,7 @@ colloshoo:
       jump: -20
     duration: 6000
     cooldown: 12000
+  enabled: true
 colloshoo|2:
   upgrade_required_casts: 50
   upgrade_required_path: year4
@@ -21775,6 +21844,7 @@ colloshoo|2:
       slowness: 2
     duration: 7000
     cooldown: 12000
+  enabled: true
 colloshoo|3:
   upgrade_required_casts: 75
   upgrade_required_path: year5
@@ -21783,12 +21853,14 @@ colloshoo|3:
       slowness: 3
     duration: 8000
     cooldown: 13000
+  enabled: true
 colloshoo|4:
   parameters:
     potion_effects:
       slowness: 4
     duration: 9000
     cooldown: 14000
+  enabled: true
 defodio:
   icon: diamond_axe:108
   category: charms
@@ -21814,14 +21886,17 @@ defodio:
     undo: 5000
     undo_speed: 0.2
     cooldown: 20000
+  enabled: true
 defodio|2:
   upgrade_required_casts: 125
   upgrade_required_path: year6
   parameters:
     radius: 3
+  enabled: true
 defodio|3:
   parameters:
     radius: 4
+  enabled: true
 depulso:
   inherit: ventus
   category: charms
@@ -21847,10 +21922,12 @@ depulso:
     iterate: []
   parameters:
     repeat: 1
+  enabled: true
 depulso|2:
   parameters:
     item_speed: 0.2
     entity_speed: 0.5
+  enabled: true
 despello:
   icon_url: http://textures.minecraft.net/texture/ad7e09a7af7af5acc286e6a4dd3c2f69b55ace33b7838ca899545570e946ee
   icon: diamond_axe:8
@@ -21895,9 +21972,11 @@ despello:
     - Sun Baby
     - Noo-noo
     - Yo soy loco
+  enabled: true
 despello|2:
   parameters:
     velocity: 100
+  enabled: true
 emancipare:
   icon: diamond_axe:177
   icon_url: http://textures.minecraft.net/texture/b2545861d5871f75caa3b378ec44655bcb3d6cabe697b27303dbdaa8b5b5
@@ -21922,6 +22001,7 @@ emancipare:
     target: other
     range: 12
     cooldown: 5000
+  enabled: true
 epoximise:
   inherit: colloshoo
   icon: diamond_axe:180
@@ -21936,6 +22016,7 @@ epoximise:
       particle_offset_x: 0.5
       particle_offset_z: 0.5
       particle_offset_y: 0
+  enabled: true
 evertestatum:
   icon: diamond_axe:151
   icon_url: http://textures.minecraft.net/texture/c7142a19d8c84389da74b69641542b8b2fafbed8f7515d1d36c63c96bd749
@@ -21979,15 +22060,18 @@ evertestatum:
     velocity: 150
   costs:
     mana: 25
+  enabled: true
 evertestatum|2:
   upgrade_required_path: year4
   upgrade_required_casts: 50
   parameters:
     living_entity_speed: 6
+  enabled: true
 evertestatum|3:
   parameters:
     living_entity_speed: 8
     push: 2
+  enabled: true
 expulso:
   icon: diamond_axe:161
   icon_url: http://textures.minecraft.net/texture/436cb244bd2a9c1734f2db6517a973a91b1773f02ca4b481af5f24d17bb1496
@@ -22054,6 +22138,7 @@ expulso:
     player_damage: 6
     entity_damage: 6
     velocity: 75
+  enabled: true
 expulso|2:
   parameters:
     fire: true
@@ -22062,6 +22147,7 @@ expulso|2:
     entity_damage: 8
     size: 3
     undo: 2000
+  enabled: true
 felixleporemos:
   category: charms
   icon_url: http://textures.minecraft.net/texture/bc8e7e971bbac56883fe9bfe1b38c5f568ece6cbe09ca59d85f6dab4688d14
@@ -22114,6 +22200,7 @@ felixleporemos:
     duration: 3000
     velocity: 125
     range: 12
+  enabled: true
 felixleporemos|2:
   upgrade_required_casts: 50
   upgrade_required_path: year3
@@ -22122,6 +22209,7 @@ felixleporemos|2:
   parameters:
     cooldown: 14000
     duration: 5000
+  enabled: true
 felixleporemos|3:
   costs:
     mana: 25
@@ -22130,6 +22218,7 @@ felixleporemos|3:
       speed: 2
       jump: 2
     velocity: 200
+  enabled: true
 fiendfyre|2:
   actions:
     cast:
@@ -22154,6 +22243,7 @@ fiendfyre|2:
     damage: 40
     undo: 7000
     velocity: 40
+  enabled: true
 finestra:
   icon: diamond_axe:108
   category: charms
@@ -22181,10 +22271,12 @@ finestra:
     undo: 5000
     undo_speed: 0.2
     cooldown: 20000
+  enabled: true
 finestra|2:
   parameters:
     radius: 3
     cooldown: 10000
+  enabled: true
 firestorm|2:
   parameters:
     radius: 3
@@ -22194,6 +22286,7 @@ firestorm|2:
     duration: 12000
     push: 2
     damage: 3
+  enabled: true
 flagellos:
   inherit: whip
   category: dark
@@ -22216,10 +22309,12 @@ flagellos:
   parameters:
     player_damage: 5
     entity_damage: 5
+  enabled: true
 flagellos|2:
   parameters:
     player_damage: 8
     entity_damage: 8
+  enabled: true
 flagrate|2:
   effects:
     cast:
@@ -22250,6 +22345,7 @@ flagrate|2:
         iterations: 3
         particle: spell_mob
         color: E2222C
+  enabled: true
 flight|2:
   upgrade_required_casts: 75
   parameters:
@@ -22258,6 +22354,7 @@ flight|2:
     steer_speed: 0.8
     liftoff_duration: 500
     liftoff_thrust: 0.8
+  enabled: true
 flight|3:
   upgrade_required_casts: 100
   parameters:
@@ -22266,6 +22363,7 @@ flight|3:
     steer_speed: 1
     liftoff_duration: 400
     liftoff_thrust: 1
+  enabled: true
 flintifors:
   inherit: scribblifors
   icon: diamond_axe:178
@@ -22282,6 +22380,7 @@ flintifors:
   parameters:
     item: flint_and_steel
     name: '&dConjured Flint and Steel'
+  enabled: true
 fourpoint|2:
   parameters:
     delay: 1750
@@ -22290,6 +22389,7 @@ fourpoint|2:
     cooldown: 5000
   costs:
     mana: 25
+  enabled: true
 frigusignatus:
   category: charms
   icon: diamond_axe:139
@@ -22333,10 +22433,12 @@ frigusignatus:
     target: self
   costs:
     mana: 25
+  enabled: true
 frigusignatus|2:
   parameters:
     duration: 20000
     coolown: 22000
+  enabled: true
 fumos|2:
   upgrade_required_path: year5
   upgrade_required_casts: 75
@@ -22360,6 +22462,7 @@ fumos|2:
     target_count: 10
     duration: 7000
     cooldown: 12000
+  enabled: true
 fumos|3:
   effects:
     cast:
@@ -22382,6 +22485,7 @@ fumos|3:
     target_count: 15
     duration: 9000
     cooldown: 14000
+  enabled: true
 furnunculus:
   category: dark
   icon: diamond_axe:159
@@ -22437,6 +22541,7 @@ furnunculus:
     velocity: 100
   costs:
     mana: 75
+  enabled: true
 furnunculus|2:
   effects:
     tick:
@@ -22467,6 +22572,7 @@ furnunculus|2:
     duration: 10000
     cooldown: 20000
     velocity: 150
+  enabled: true
 glisseo:
   icon: diamond_axe:37
   category: transfiguration
@@ -22494,11 +22600,13 @@ glisseo:
     undo: 5000
     undo_speed: 0.2
     cooldown: 20000
+  enabled: true
 glisseo|2:
   parameters:
     undo: 7000
     undo_speed: 0.1
     radius: 3
+  enabled: true
 herbifors:
   icon: diamond_axe:41
   category: herbology
@@ -22542,6 +22650,7 @@ herbifors:
     cooldown: 12000
   costs:
     mana: 10
+  enabled: true
 homenumrevelio:
   icon: diamond_axe:74
   icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
@@ -22580,6 +22689,7 @@ homenumrevelio:
     target: self
     target_type: Player
     cooldown: 24000
+  enabled: true
 ignisdisceditus:
   icon: diamond_axe:33
   category: charms
@@ -22610,6 +22720,7 @@ ignisdisceditus:
     transparent: transparent_to_construction
     undo: 5000
     cooldown: 20000
+  enabled: true
 impedimenta:
   icon: diamond_axe:163
   category: dada
@@ -22678,6 +22789,7 @@ impedimenta:
     cooldown: 7000
   costs:
     mana: 30
+  enabled: true
 impedimenta|2:
   upgrade_required_casts: 50
   upgrade_required_path: year5
@@ -22686,12 +22798,14 @@ impedimenta|2:
       slowness: 2
     duration: 7000
     cooldown: 12000
+  enabled: true
 impedimenta|3:
   parameters:
     potion_effects:
       slowness: 3
     duration: 10000
     cooldown: 15000
+  enabled: true
 incarcifors:
   inherit: cage
   worth: 25
@@ -22701,6 +22815,7 @@ incarcifors:
     undo: 5000
     undo_speed: 1
     target_type: LivingEntity
+  enabled: true
 lapifors:
   inherit: avis
   effects:
@@ -22708,10 +22823,13 @@ lapifors:
   parameters:
     type: rabbit
     name: '&dConjured Rabbit'
+  enabled: true
 lapifors|2:
   inherit: avis|2
+  enabled: true
 lapifors|3:
   inherit: avis|3
+  enabled: true
 liberacorpus:
   category: charms
   icon: diamond_axe:136
@@ -22745,6 +22863,7 @@ liberacorpus:
     force: true
     target: self
     cooldown: 8000
+  enabled: true
 limusexumai:
   inherit: araniaexumai
   icon_url: http://textures.minecraft.net/texture/d8532e9a6994e828df3a7236a7b3686194eba57dae3eb10789d98915cbb3336
@@ -22769,14 +22888,17 @@ limusexumai:
         color: FFFFFF
   parameters:
     target_type: Slime
+  enabled: true
 limusexumai|2:
   upgrade_required_path: year3
   upgrade_required_casts: 50
   parameters:
     damage: 15
+  enabled: true
 limusexumai|3:
   parameters:
     damage: 20
+  enabled: true
 locomotorwibbly:
   icon: diamond_axe:145
   category: dada
@@ -22823,21 +22945,25 @@ locomotorwibbly:
     cooldown: 10000
   costs:
     mana: 20
+  enabled: true
 locomotorwibbly|2:
   upgrade_required_casts: 125
   upgrade_required_path: year6
   parameters:
     duration: 10000
     velocity: 100
+  enabled: true
 locomotorwibbly|3:
   parameters:
     potion_effects:
       slowness: 2
     range: 32
+  enabled: true
 lumos|4:
   parameters:
     duration: 60000
     cooldown: 60000
+  enabled: true
 lumosmaxima:
   inherit: lumos
   upgrade_required_path: year5
@@ -22860,18 +22986,22 @@ lumosmaxima:
     cooldown: 90000
   costs:
     mana: 50
+  enabled: true
 lumosmaxima|2:
   parameters:
     duration: 120000
     cooldown: 120000
+  enabled: true
 lumossolem|2:
   upgrade_required_path: year3
   upgrade_required_casts: 75
   parameters:
     undo: 8000
+  enabled: true
 lumossolem|3:
   parameters:
     undo: 12000
+  enabled: true
 melofors:
   icon: diamond_axe:145
   category: transfiguration
@@ -22928,6 +23058,7 @@ melofors:
     undo: 6000
   costs:
     mana: 24
+  enabled: true
 multabasiorum:
   inherit: baubillious
   icon: diamond_axe:161
@@ -22983,16 +23114,19 @@ multabasiorum:
     break_blocks: false
     fire: false
     cooldown: 15000
+  enabled: true
 multabasiorum|2:
   upgrade_required_path: year6
   upgrade_required_casts: 75
   parameters:
     damage: 5
     target_count: 5
+  enabled: true
 multabasiorum|3:
   parameters:
     damage: 7
     target_count: 5
+  enabled: true
 obliviate:
   category: charms
   icon_url: http://textures.minecraft.net/texture/89f9399aceb3211c3ca1259d5b1bb1f3fb61a4d5626a757ee1a1ccec28a0ae
@@ -23027,6 +23161,7 @@ obliviate:
     target: other
     target_type: Player
     duration: 1000
+  enabled: true
 obliviatemaxima:
   category: staff
   icon_url: http://textures.minecraft.net/texture/89f9399aceb3211c3ca1259d5b1bb1f3fb61a4d5626a757ee1a1ccec28a0ae
@@ -23057,6 +23192,7 @@ obliviatemaxima:
     potion_effects:
       confusion: 1
     duration: 8000
+  enabled: true
 obscuro|2:
   effects:
     cast:
@@ -23083,9 +23219,11 @@ obscuro|2:
         particles: 600
   parameters:
     duration: 10000
+  enabled: true
 patronus|2:
   parameters:
     track_speed: 1
+  enabled: true
 patronus|3:
   actions:
     cast:
@@ -23132,6 +23270,7 @@ patronus|3:
         rows: 10
   parameters:
     type: chicken
+  enabled: true
 percutios:
   inherit: smite
   category: dark
@@ -23146,14 +23285,17 @@ percutios:
       - class: Ignite
   parameters:
     damage: 2
+  enabled: true
 percutios|2:
   parameters:
     damage: 4
+  enabled: true
 periculum|2:
   upgrade_required_path: year6
   upgrade_required_casts: 150
   parameters:
     firework: ball
+  enabled: true
 periculum|3:
   effects:
     cast:
@@ -23165,6 +23307,7 @@ periculum|3:
       radius: 8
       target_offset: 0,4,0
       size: 6
+  enabled: true
 protego|4:
   upgrade_required_path: year7
   upgrade_required_casts: 250
@@ -23172,11 +23315,13 @@ protego|4:
     cooldown: 3000
     reflect_chance: 0.8
     radius: 2.5
+  enabled: true
 protego|5:
   parameters:
     undo: 3000
     reflect_chance: 1
     radius: 3
+  enabled: true
 protegomaxima|2:
   actions:
     alternate_down:
@@ -23188,6 +23333,7 @@ protegomaxima|2:
     cooldown: 15000
     undo: 4000
     reflect_chance: 1
+  enabled: true
 protegototalus:
   icon: diamond_axe:74
   icon_url: http://textures.minecraft.net/texture/9330f3a837c4a358fa62f2b684c5c4c2dadf799c0fe9be8f4a4aecace62a
@@ -23231,6 +23377,7 @@ protegototalus:
     message: '&bProtego Totalus!'
     message_type: title
     message_target: true
+  enabled: true
 protegototalus|2:
   effects:
     cast:
@@ -23249,11 +23396,13 @@ protegototalus|2:
     y_radius: 6
     duration: 15000
     target_count: 20
+  enabled: true
 pulsus|2:
   parameters:
     target_count: 8
     radius: 12
     y_radius: 8
+  enabled: true
 pulvifors:
   inherit: arresto
   worth: 5
@@ -23280,6 +23429,7 @@ pulvifors:
       period: 2
   parameters:
     protection_count: 1
+  enabled: true
 salviohexia|2:
   effects:
     cast:
@@ -23296,6 +23446,7 @@ salviohexia|2:
   parameters:
     duration: 8000
     cooldown: 18000
+  enabled: true
 scribblifors:
   icon: diamond_axe:118
   category: transfiguration
@@ -23320,6 +23471,7 @@ scribblifors:
     name: '&dConjured Book and Quill'
     target: self
     delay: 1000
+  enabled: true
 sluguluseructo:
   inherit: bogies
   worth: 15
@@ -23368,14 +23520,17 @@ sluguluseructo:
     range: 24
   costs:
     mana: 20
+  enabled: true
 sluguluseructo|2:
   upgrade_required_casts: 125
   upgrade_required_path: year4
   parameters:
     count: 4
+  enabled: true
 sluguluseructo|3:
   parameters:
     count: 6
+  enabled: true
 stupefy|4:
   parameters:
     player_damage: 4
@@ -23384,6 +23539,7 @@ stupefy|4:
   headshot_parameters:
     player_damage: 6
     entity_damage: 6
+  enabled: true
 tarantallegra:
   icon: diamond_axe:163
   worth: 10
@@ -23429,6 +23585,7 @@ tarantallegra:
     speed: 0.5
   costs:
     mana: 20
+  enabled: true
 titillando:
   icon: diamond_axe:163
   category: dada
@@ -23483,6 +23640,7 @@ titillando:
       weakness: 2
     duration: 3000
     velocity: 50
+  enabled: true
 titillando|2:
   upgrade_required_path: year7
   upgrade_required_casts: 125
@@ -23494,6 +23652,7 @@ titillando|2:
       slowness: 2
       weakness: 3
     duration: 5000
+  enabled: true
 titillando|3:
   parameters:
     range: 32
@@ -23501,6 +23660,7 @@ titillando|3:
       confusion: 10
       slowness: 3
       weakness: 4
+  enabled: true
 verdimillious:
   inherit: vermillious
   icon: diamond_axe:173
@@ -23555,10 +23715,13 @@ verdimillious:
         particle: redstone
         color: 088A08
         lengthGrow: 0.3
+  enabled: true
 verdimillious|2:
   inherit: vermillious|2
+  enabled: true
 verdimillious|3:
   inherit: vermillious|3
+  enabled: true
 waddiwasi:
   inherit: colloshoo
   icon: diamond_axe:133
@@ -23582,3 +23745,4 @@ waddiwasi:
         material: purpur_block
         radius: 2.5
         duration: $duration
+  enabled: true
