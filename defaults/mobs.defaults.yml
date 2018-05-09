@@ -267,9 +267,9 @@ erkling:
 erumpent:
   name: '&7Erumpent'
   type: polar_bear
-  health: 75
+  health: 80
   default_drops: false
-  interval: 2000
+  interval: 3000
   drops:
   - erumpent_horn
   triggers:

@@ -30,6 +30,7 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Add `pvp_restricted` flags
 * Check if `enchanting.yml` is even a thing anymore
 * Add stuff for post-graduation (more classes, paths, and exclusive spells)
+* Make mobs more aggressive as they get damaged with `min_damage` flags, etc.
 
 ### Known bugs
 
