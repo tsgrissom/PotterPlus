@@ -4,6 +4,7 @@ erumpent_spawner:
   description: "An erumpent spawner"
   interval: 20000
   spawn:
+    limit: 2
+    probability: 0.6
     mobs:
-      erumpent: 60
-      none: 40
+      erumpent: 100
