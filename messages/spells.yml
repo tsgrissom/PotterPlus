@@ -148,7 +148,7 @@ spells:
   rennervate:
     description: "Awakens stunned targets back to their normal state, alleviating confusion."
   bubblehead:
-    description: "Conjures a magical buble of air for a wizard to breathe underwater with."
+    description: "Conjures a magical bubble of air for a wizard to breathe underwater with."
   bubblehead|2:
     upgrade_description: "Increased duration."
   orchideous:
