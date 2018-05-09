@@ -38,7 +38,7 @@ spells:
     cost_lore: '&aCosts: $cost'
     selected: '&6(&eMagic&6) &7You learned &e$item &7for &e$cost'
   ollivander:
-    cast: "&6(&eMagic&6) &7You exchanged &e$requires &7for &e$item&7."
+    cast: ""
     insufficient_resources: "&6(&eMagic&6) &cYou must have &4$requires&c."
     title: "Wand Shop"
   broom:
@@ -66,65 +66,65 @@ spells:
   lumos:
     description: "Lights up the tip of your wand to provide a light source in dark areas."
   lumos|2:
-    upgrade_description: "&r&8&bull; &eIncreased light duration."
+    upgrade_description: "Increased light duration."
   lumos|3:
-    upgrade_description: "&r&8&bull; &eIncreased light duration."
+    upgrade_description: "Increased light duration."
   lumos|4:
-    upgrade_description: "&r&8&bull; &eIncreased light duration."
+    upgrade_description: "Increased light duration."
   lumosmaxima:
     name: Lumos Maxima
     description: "Blindingly lights up the tip of your wand to provide a long-lasting light source in dark areas."
   lumosmaxima|2:
-    upgrade_description: "&r&8&bull; &eIncreased light duration."
+    upgrade_description: "Increased light duration."
   arresto:
     description: "Lessens your downward momentum, cushioning the damage of your fall significantly."
   periculum:
     description: "Conjures and ignites bright-red fireworks where you wish to signal fellow wizards."
   periculum|2:
-    upgrade_description: "&r&8&bull; &eIncreased size of fireworks."
+    upgrade_description: "Increased size of fireworks."
   periculum|3:
-    upgrade_description: "&r&8&bull; &eIncreased size of fireworks."
+    upgrade_description: "Increased size of fireworks."
   avis:
     description: "Conjures a number of avian companions temporarily."
   avis|2:
-    upgrade_description: "&r&8&bull; &eSpawns more baby birds."
+    upgrade_description: "Spawns more baby birds."
   avis|3:
-    upgrade_description: "&r&8&bull; &eSpawns more adult birds."
+    upgrade_description: "Spawns more adult birds."
   flagrate:
     description: "Writes your name in flames in mid-air."
   flagrate|2:
-    upgrade_description: "&r&8&bull; &eClearer-written name."
+    upgrade_description: "Clearer-written name."
   wingardium:
     description: "Levitates blocks and targets into the air."
   fourpoint:
     description: "Points you in the direction to go."
   fourpoint|2:
-    upgrade_description: "&r&8&bull; &eFaster effect, decreased cooldown."
+    upgrade_description: "Faster effect, decreased cooldown."
   flipendo:
     description: "A basic offensive spell which pushes the target backwards."
   arrow:
     description: "A simple, but effective offensive spell which conjures an arrow and thrusts it at the target."
   arrow|2:
-    upgrade_description: "&r&8&bull; &eIncreased damage, accuracy and velocity."
+    upgrade_description: "Increased damage, accuracy and velocity."
   arrow|3:
-    upgrade_description: "&r&8&bull; &eIncreased damage, accuracy and velocity."
+    upgrade_description: "Increased damage, accuracy and velocity."
   arrow|4:
-    upgrade_description: "&r&8&bull; &eIncreased damage, accuracy and velocity."
+    upgrade_description: "Increased damage, accuracy and velocity."
   arrowmaxima:
     name: "Arrow Maxima"
     description: "Conjures a set of powerful, accurate magical arrows to inflict major damage."
   arrowmaxima|2:
-    upgrade_description: "&r&8&bull; &eIncreased damage and arrow count. Decreased spread."
+    upgrade_description: "Increased damage and arrow count. Decreased spread."
   arrowmaxima|3:
-    upgrade_description: "&r&8&bull; &eIncreased damage and arrow count. Decreased spread and delay."
+    upgrade_description: "Increased damage and arrow count. Decreased spread and delay."
   arrowmaxima|4:
-    upgrade_description: "&r&8&bull; &eArrows are ignited."
+    upgrade_description: "Arrows are ignited."
   incendio:
     description: "Ignites things on fire for a variety of purposes."
   incendio|2:
-    upgrade_description: "&r&8&bull; &eIncreased size and duration."
+    upgrade_description: "Increased size and duration."
   incendio|3:
-    upgrade_description: "&r&8&bull; &eIncreased size and duration."
+    upgrade_description: "Increased size and duration."
   conjunctivitis:
     description: "Causes severe, painful blindness against targets, making them vulnerable against follow-up attacks."
   alohomora:
@@ -132,17 +132,17 @@ spells:
   fumos:
     description: "Produces heavy smoke which fills the target's lungs, slowing them down and obstructing their breathing, and blinding them."
   fumos|2:
-    upgrade_description: "&r&8&bull; &eIncreased radius and effect."
+    upgrade_description: "Increased radius and effect."
   fumos|3:
-    upgrade_description: "&r&8&bull; &eIncreased radius, effect, and blinding."
+    upgrade_description: "Increased radius, effect, and blinding."
   nox:
     description: "Extinguishes your lit wand to conceal yourself back into the darkness."
   araniaexumai:
     description: "Repells arachnids and damages them severely. A must-have when venturing into dangerous forests or spelunking in caves inhabited by acromantula colonies."
   araniaexumai|2:
-    upgrade_description: "&r&8&bull; &eIncreased damage."
+    upgrade_description: "Increased damage."
   araniaexumai|3:
-    upgrade_description: "&r&8&bull; &eIncreased damage."
+    upgrade_description: "Increased damage."
   immobulus:
     description: "Immoblizes the target temporarily."
   rictusempra:
@@ -151,38 +151,38 @@ spells:
   bogies:
     description: "Sickens the target significantly, causing a runny nose, terrible cough, and overall miserable symptoms."
   bogies|2:
-    upgrade_description: "&r&8&bull; &eIncreased range, duration, and potency."
+    upgrade_description: "Increased range, duration, and potency."
   bogies|3:
-    upgrade_description: "&r&8&bull; &eIncreased range, duration, and potency."
+    upgrade_description: "Increased range, duration, and potency."
   expelliarmus:
     description: "In a flash of red light, this spell disarms the target of their item, wand or otherwise."
   expelliarmus|2:
-    upgrade_description: "&r&8&bull; &eLess chance of fizzling or backfiring."
+    upgrade_description: "Less chance of fizzling or backfiring."
   expelliarmus|3:
-    upgrade_description: "&r&8&bull; &eLess chance of fizzling or backfiring."
+    upgrade_description: "Less chance of fizzling or backfiring."
   expelliarmus|4:
-    upgrade_description: "&r&8&bull; &eLess chance of fizzling or backfiring."
+    upgrade_description: "Less chance of fizzling or backfiring."
   expelliarmus|5:
-    upgrade_description: "&r&8&bull; &eNo chance of fizzling or backfiring."
+    upgrade_description: "No chance of fizzling or backfiring."
   finiteincantatem:
     description: "A general-purpose counterspell which will undo most of the world-changing effects of previously cast spells."
     usage: ""
   finiteincantatem|2:
-    upgrade_description: "&r&8&bull; &eLess chance of fizzling."
+    upgrade_description: "Less chance of fizzling."
   finiteincantatem|3:
-    upgrade_description: "&r&8&bull; &eLess chance of fizzling."
+    upgrade_description: "Less chance of fizzling."
   finiteincantatem|4:
-    upgrade_description: "&r&8&bull; &eNo chance of fizzling."
+    upgrade_description: "No chance of fizzling."
   glacius:
     description: "With a jet of icy breeze, snow is conjures and falls from the sky, icing over the ground below it and inflicting cold damage."
   glacius|2:
-    upgrade_description: "&r&8&bull; &eIncreased damage, size, range, and potency."
+    upgrade_description: "Increased damage, size, range, and potency."
   glacius|3:
-    upgrade_description: "&r&8&bull; &eIncreased damage, size, range, and potency. Now freezes lava."
+    upgrade_description: "Increased damage, size, range, and potency. Now freezes lava."
   duro:
     description: "Hardens extremely hot liquids to a stone consistency."
   duro|2:
-    upgrade_description: "&r&8&bull; &eIncreased size, duration, and strength."
+    upgrade_description: "Increased size, duration, and strength."
   colorvaria:
     description: "Changes the color of objects temporarily."
   diffindo:
@@ -192,19 +192,19 @@ spells:
   patronus:
     description: "Conjures concentrated happiness of a wizard from their happiest memory to protect against dark beings such as dementors and lethifolds."
   patronus|2:
-    upgrade_description: "&r&8&bull; &eIncreased speed."
+    upgrade_description: "Increased speed."
   patronus|3:
-    upgrade_description: "&r&8&bull; &eYour Patronus becomes corporeal."
+    upgrade_description: "Your Patronus becomes corporeal."
   bombarda:
     description: "Causes the target to explode, inflicting deadly damage and damaging the surrounding area."
   bombarda|2:
-    upgrade_description: "&r&8&bull; &eIncreased size and range."
+    upgrade_description: "Increased size and range."
   rennervate:
     description: "Awakens stunned targets back to their normal state, alleviating confusion."
   bubblehead:
     description: "Conjures a magical buble of air for a wizard to breathe underwater with."
   bubblehead|2:
-    upgrade_description: "&r&8&bull; &eIncreased duration."
+    upgrade_description: "Increased duration."
   orchideous:
     description: "Pollinates the area with flowers."
   accio:
@@ -212,20 +212,20 @@ spells:
   aguamenti:
     description: "Conjures a gush of water for drinking use or to cushion a fall."
   aguamenti|2:
-    upgrade_description: "&r&8&bull; &eIncreased radius and range."
+    upgrade_description: "Increased radius and range."
   locomotomortus:
     name: "Locomotor Mortus"
     description: "Locks the target's legs to immobilize them temporarily."
   episkey:
     description: "Mends the most minor of the target's wounds to increase vitality."
   episkey|2:
-    upgrade_description: "&r&8&bull; &eIncreased healing."
+    upgrade_description: "Increased healing."
   episkey|3:
-    upgrade_description: "&r&8&bull; &eIncreased healing."
+    upgrade_description: "Increased healing."
   ascendio:
     description: "A lesser form of propulsion-based flight, this spell propels the wizard high into the air, or whatever direction they choose."
   ascendio|2:
-    upgrade_description: "&r&8&bull; &eIncreased power."
+    upgrade_description: "Increased power."
   evanesco:
     description: "Causes the target to vanish into almost non-being, temporarily."
   reducio:
@@ -235,23 +235,23 @@ spells:
   levicorpus:
     description: "Levitates and flips the target upside down, making them incredibly vulnerable to follow-up attacks."
   levicorpus|2:
-    upgrade_description: "&r&8&bull; &eIncreased levitation speed and bumps."
+    upgrade_description: "Increased levitation speed and bumps."
   levicorpus|3:
-    upgrade_description: "&r&8&bull; &eIncreased levitation speed and bumps."
+    upgrade_description: "Increased levitation speed and bumps."
   stupefy:
     description: "In a jet of red light, this spell will inflict damage and stun the target, preventing them from performing other actions for a short time."
   stupefy|2:
-    upgrade_description: "&r&8&bull; &eIncreased damage and stun duration."
+    upgrade_description: "Increased damage and stun duration."
   stupefy|3:
-    upgrade_description: "&r&8&bull; &eIncreased range, damage, and stun duration."
+    upgrade_description: "Increased range, damage, and stun duration."
   stupefy|4:
-    upgrade_description: "&r&8&bull; &eIncreased damage and stun duration."
+    upgrade_description: "Increased damage and stun duration."
   lacarnum:
     description: "Conjures and propels a fireball which can inflict major damage to both creatures and the surrounding area."
   lacarnum|2:
-    upgrade_description: "&r&8&bull; &eIncreased radius, duration, and accuracy."
+    upgrade_description: "Increased radius, duration, and accuracy."
   lacarnum|3:
-    upgrade_description: "&r&8&bull; &eIncreased radius, duration, size, and accuracy."
+    upgrade_description: "Increased radius, duration, size, and accuracy."
   petrificustotalus:
     description: "Binds the entire body of the target, preventing any movement for a short while."
   ferula:
@@ -261,28 +261,28 @@ spells:
   reducto:
     description: "Vaporizes stone into dust-like particles. Can open up access to new areas."
   reducto|2:
-    upgrade_description: "&r&8&bull; &eIncreased radius."
+    upgrade_description: "Increased radius."
   aquaeructo:
     name: Aqua Eructo
     description: "Conjures a controllable jet of water which will push back and damage targets."
     cast: ""
   aquaeructo|2:
-    upgrade_description: "&r&8&bull; &eIncreased damage."
+    upgrade_description: "Increased damage."
   aquaeructo|3:
-    upgrade_description: "&r&8&bull; &eIncreased damage."
+    upgrade_description: "Increased damage."
   apparate:
     name: "Short-Distance Apparition"
     description: "Causes the witch or wizard to vanish from one location in disapparition and re-appear somewhere desirable in apparation."
   apparate|2:
-    upgrade_description: "&r&8&bull; &eIncreased range."
+    upgrade_description: "Increased range."
   apparate|3:
-    upgrade_description: "&r&8&bull; &eIncreased range."
+    upgrade_description: "Increased range."
   apparate|4:
-    upgrade_description: "&r&8&bull; &eIncreased range."
+    upgrade_description: "Increased range."
   apparate|5:
-    upgrade_description: "&r&8&bull; &eIncreased range."
+    upgrade_description: "Increased range."
   apparate|6:
-    upgrade_description: "&r&8&bull; &eIncreased range."
+    upgrade_description: "Increased range."
   ventus:
     description: "Blasts the target with a stream of hot air which propels them backwards."
   disillusion:
@@ -299,23 +299,23 @@ spells:
     name: Lapifors
     description: "Conjures sets of adorable bunny and rabbits who disappear shortly after."
   lapifors|2:
-    upgrade_description: "&r&8&bull; &eSpawns more baby bunnies."
+    upgrade_description: "Spawns more baby bunnies."
   lapifors|3:
-    upgrade_description: "&r&8&bull; &eSpawns more adult bunnies."
+    upgrade_description: "Spawns more adult bunnies."
   lumossolem:
     name: Lumos Solem
     description: "Conjures a well-lit ball of light which can be thrown where desired and will stick there, temporarily lighting up the area."
   lumossolem|2:
-    upgrade_description: "&r&8&bull; &eIncreased duration."
+    upgrade_description: "Increased duration."
   lumossolem|3:
-    upgrade_description: "&r&8&bull; &eIncreased duration."
+    upgrade_description: "Increased duration."
   verdimillious:
     name: Verdimillious
     description: "Conjures a flurry of green, burning sparks which will inflict damage on targets."
   verdimillious|2:
-    upgrade_description: "&r&8&bull; &eIncreased damage."
+    upgrade_description: "Increased damage."
   verdimillious|3:
-    upgrade_description: "&r&8&bull; &eIncreased damage."
+    upgrade_description: "Increased damage."
   sectumsempra:
     name: Sectumsempra
     description: "Seemingly using an invisible sword, this spell will lash out and slash a target to pieces, inflicting massive damage and bleeding."
@@ -324,7 +324,7 @@ spells:
     description: "Flings the target high into the air."
   alarteascendare|2:
     name: Alarte Ascendare
-    upgrade_description: "&r&8&bull; &eIncreased power."
+    upgrade_description: "Increased power."
   tarantallegra:
     name: Tarantallegra
     description: "Forces the target to dance against their will, limiting the amount of actions they can perform temporarily."
@@ -332,45 +332,45 @@ spells:
     name: Limus Exumai
     description: "Repells slimey creatures, inflicting major damage on them."
   limusexumai|2:
-    upgrade_description: "&r&8&bull; &eIncreased damage."
+    upgrade_description: "Increased damage."
   limusexumai|3:
-    upgrade_description: "&r&8&bull; &eIncreased damage."
+    upgrade_description: "Increased damage."
   deprimo:
     description: "The Collapsing Spell"
   deprimo|2:
-    upgrade_description: "&r&8&bull; &eIncreased radius."
+    upgrade_description: "Increased radius."
   deprimo|3:
-    upgrade_description: "&r&8&bull; &eIncreased radius."
+    upgrade_description: "Increased radius."
   protego:
     description: "Conjures a shield of pure magical energy which can deflect projectiles and shield you from attacks."
   protego|2:
-    upgrade_description: "&r&8&bull; &eDecreased cooldown. Increased chance to reflect spells and size."
+    upgrade_description: "Decreased cooldown. Increased chance to reflect spells and size."
   protego|3:
-    upgrade_description: "&r&8&bull; &eDecreased cooldown. Increased duration, chance to reflect spells, and size."
+    upgrade_description: "Decreased cooldown. Increased duration, chance to reflect spells, and size."
   protego|4:
-    upgrade_description: "&r&8&bull; &eDecreased cooldown. Increased chance to reflect spells and size."
+    upgrade_description: "Decreased cooldown. Increased chance to reflect spells and size."
   protego|5:
-    upgrade_description: "&r&8&bull; &eIncreased duration and size. Guaranteed to reflect spells."
+    upgrade_description: "Increased duration and size. Guaranteed to reflect spells."
   protegomaxima:
     name: Protego Maxima
     description: "Conjures a spherical shield which will encase a large area and protect you from incoming projectiles and magical attacks."
   protegomaxima|2:
-    upgrade_description: "&r&8&bull; &eDecreased cooldown. Increased duration, reflection chance, and size."
+    upgrade_description: "Decreased cooldown. Increased duration, reflection chance, and size."
     usage: "Cast at your feet to shield yourself."
   protegototalus:
     name: Protego Totalus
     description: "Protects you and nearby creatures from additional damage of any type."
   protegototalus|2:
-    upgrade_description: "&r&8&bull; &eIncreased radius."
+    upgrade_description: "Increased radius."
   impervius:
     description: "Causes water to repel away from objects or areas, clearing pathways through water."
   baubillious:
     name: Baubillious
     description: "Causes powerful lightning to zap one target, then to continue jumping between additional targets."
   baubillious|2:
-    upgrade_description: "&r&8&bull; &eIncreased damage."
+    upgrade_description: "Increased damage."
   baubillious|3:
-    upgrade_description: "&r&8&bull; &eIncreased damage and lightning chains."
+    upgrade_description: "Increased damage and lightning chains."
   crucio:
     description: "This torturous spell induces horrible, writing pain which makes it terribly hard to focus on anything but the pain at hand."
   morsmordre:
@@ -378,7 +378,7 @@ spells:
   firestorm:
     description: "Incinerates nearby targets by conjuring huge, reaching flames around you."
   firestorm|2:
-    upgrade_description: "&r&8&bull; &eIncreased damage, power, radius, and duration. No chance of fizzling."
+    upgrade_description: "Increased damage, power, radius, and duration. No chance of fizzling."
   tripudio:
     description: "Gives a boost to the wizard's ability to hop high into the air."
   confundus:
@@ -422,9 +422,9 @@ spells:
     name: Impedimenta
     description: "Impedes the movement of living creatures to slow them down temporarily."
   impedimenta|2:
-    upgrade_description: "&r&8&bull; &eIncreased slowness and duration."
+    upgrade_description: "Increased slowness and duration."
   impedimenta|3:
-    upgrade_description: "&r&8&bull; &eIncreased slowness and duration."
+    upgrade_description: "Increased slowness and duration."
   aberto:
     name: Aberto
     description: "Unlocks previously locked doors in order to reach previously inaccessible areas."
@@ -437,11 +437,11 @@ spells:
     name: "Colloshoo"
     description: "Quickly sticks the target to the ground with a viscous, green goo."
   colloshoo|2:
-    upgrade_description: "&r&8&bull; &eIncreased range, slowness, and duration."
+    upgrade_description: "Increased range, slowness, and duration."
   colloshoo|3:
-    upgrade_description: "&r&8&bull; &eIncreased range, slowness, and duration."
+    upgrade_description: "Increased range, slowness, and duration."
   colloshoo|4:
-    upgrade_description: "&r&8&bull; &eIncreased range, slowness, and duration."
+    upgrade_description: "Increased range, slowness, and duration."
   melofors:
     name: "Melofors"
     description: "Encases the target's head in a pumpkin, limiting their vision and providing a minor annoyance."
@@ -449,7 +449,7 @@ spells:
     name: "Furnunculus"
     description: "Causes the target to erupt in terrible, painful boils and impeding their ability to see."
   furnunculus|2:
-    upgrade_description: "&r&8&bull; &eExpels green pus. Increased range, damage, duration, and velocity."
+    upgrade_description: "Expels green pus. Increased range, damage, duration, and velocity."
   obliviatemaxima:
     name: "Obliviate Maxima"
     description: "An incredibly powerful spell not intended for misuse, you can wipe everyone's memory of what has previously been said."
@@ -460,14 +460,14 @@ spells:
     name: "Frigus Ignatus"
     description: "Freezes flames for you, making you immune and feel them as if they are mere tickles."
   frigusignatus|2:
-    upgrade_description: "&r&8&bull; &eIncreased duration."
+    upgrade_description: "Increased duration."
   felixleporemos:
     name: "Felix Leporemos"
     description: "Makes the target happier temporarily, improving their jumping ability and speed."
   felixleporemos|2:
-    upgrade_description: "&r&8&bull; &eIncreased duration."
+    upgrade_description: "Increased duration."
   felixleporemos|3:
-    upgrade_description: "&r&8&bull; &eIncreased speed, jump, and velocity."
+    upgrade_description: "Increased speed, jump, and velocity."
   cantis:
     name: "Cantis"
     description: "Forces the target to begin singing lyrics from various songs."
@@ -475,21 +475,21 @@ spells:
     name: "Bruchum Aculeatos"
     description: "Causes incredibly painful stinging and blisters which often result in an allergic reaction."
   bruchumaculeatos|2:
-    upgrade_description: "&r&8&bull; &eIncreased damage."
+    upgrade_description: "Increased damage."
   bruchumaculeatos|3:
-    upgrade_description: "&r&8&bull; &eIncreased damage."
+    upgrade_description: "Increased damage."
   evertestatum:
     name: "Everte Statum"
     description: "Hurls the target backwards, inflicting differing amounts of damage."
   evertestatum|2:
-    upgrade_description: "&r&8&bull; &eIncreased push."
+    upgrade_description: "Increased push."
   evertestatum|3:
-    upgrade_description: "&r&8&bull; &eIncreased push."
+    upgrade_description: "Increased push."
   depulso:
     name: "Depulso"
     description: "Banishes an object or person, sending them flying away."
   depulso|2:
-    upgrade_description: "&r&8&bull; &eIncreased push."
+    upgrade_description: "Increased push."
   longapparate:
     name: "Long-Distance Apparition"
     description: "Allows you to disappear from your current location and apparate to previously known locations."
@@ -528,30 +528,30 @@ spells:
     name: "Defodio"
     description: "Gouges stone from structures, providing access to new areas or clearing obstacles."
   defodio|2:
-    upgrade_description: "&r&8&bull; &eIncreased radius."
+    upgrade_description: "Increased radius."
   defodio|3:
-    upgrade_description: "&r&8&bull; &eIncreased radius."
+    upgrade_description: "Increased radius."
   expulso:
     name: Expulso
     description: "A dark spell causing an incredibly powerful and dangerous explosion."
   expulso|2:
-    upgrade_description: "&r&8&bull; &eIncreased radius, damage, knockback, and burns."
+    upgrade_description: "Increased radius, damage, knockback, and burns."
   despello:
     name: "Despello"
     description: "Causes the target to babble uncontrollably."
   despello|2:
-    upgrade_description: "&r&8&bull; &eIncreased speed."
+    upgrade_description: "Increased speed."
   salviohexia:
     name: "Salvio Hexia"
     description: "Provies additional defenses against hexes, curses, and other dark magic."
     usage: ""
   salviohexia|2:
-    upgrade_description: "&r&8&bull; &eIncreased strength of protective enchantments."
+    upgrade_description: "Increased strength of protective enchantments."
   flagellos:
     name: "Flagellos"
     description: "Conjures a tiny, but powerful controllable whip to attack your target viciously with."
   flagellos|2:
-    upgrade_description: "&r&8&bull; &eIncreased damage."
+    upgrade_description: "Increased damage."
   emancipare:
     name: "Emancipare"
     description: "Unbinds your target from ropes or other traps."
@@ -565,9 +565,9 @@ spells:
     name: "Flight"
     description: "Channeling some of the most powerful magic known to wizardkind, you levitate in the air and sail around with no aid from a magical device."
   flight|2:
-    upgrade_description: "&r&8&bull; &eIncreased speed, height, steer speed, and thrust. Decreased liftoff duration."
+    upgrade_description: "Increased speed, height, steer speed, and thrust. Decreased liftoff duration."
   flight|3:
-    upgrade_description: "&r&8&bull; &eIncreased speed, height, steer speed, and thrust. Decreased liftoff duration."
+    upgrade_description: "Increased speed, height, steer speed, and thrust. Decreased liftoff duration."
   homenumrevelio:
     name: "Homenum Revelio"
     description: "Reveals the presence of nearby creatures."
@@ -575,28 +575,28 @@ spells:
     name: "Percutios"
     description: "Smites your target with the power of lightning."
   percutios|2:
-    upgrade_description: "&r&8&bull; &eIncreased damage."
+    upgrade_description: "Increased damage."
   multabasiorum:
     name: Multa Basiorium
     description: "A high damage-inflicting spell which cascades from target to target, decimating the enemy with effective precision."
   multabasiorum|2:
-    upgrade_description: "&r&8&bull; &eIncreased damage. Now targets up to five creatures."
+    upgrade_description: "Increased damage. Now targets up to five creatures."
   multabasiorum|3:
-    upgrade_description: "&r&8&bull; &eIncreased damage. Now targets up to eight creatures."
+    upgrade_description: "Increased damage. Now targets up to eight creatures."
   brackiumemendo:
     name: Brackium Emendo
     description: "Mends bones that are no longer there, supposedly. Effectiveness varies."
     cast_self: ""
     cast: ""
   brackiumemendo|2:
-    upgrade_description: "&r&8&bull; &eIncreased efficacy."
+    upgrade_description: "Increased efficacy."
   brackiumemendo|3:
-    upgrade_description: "&r&8&bull; &eIncreased efficacy."
+    upgrade_description: "Increased efficacy."
   carperetractum:
     name: Carpe Retractum
     description: "Seizes and pulls an object or creature via a conjured, magical lasso."
   carperetractum|2:
-    upgrade_description: "&r&8&bull; &eIncreased strength."
+    upgrade_description: "Increased strength."
   pulvifors:
     name: Pulvifors
     description: "Conjures an invisible cushion to protect yourself from fall damage."
@@ -604,7 +604,7 @@ spells:
     name: Finestra
     description: "Vaporizes glass surfaces as if they were struck with a heavy object."
   finestra|2:
-    upgrade_description: "&r&8&bull; &eDecreased cooldown, increased radius."
+    upgrade_description: "Decreased cooldown, increased radius."
   waddiwasi:
     name: Waddiwasi
     description: "Conjures a large quantity of pre-chewed chewing gum to stick the target to a surface."
@@ -612,14 +612,14 @@ spells:
     name: Titillando
     description: "Causes the target great discomfort by tickling them beyond their control, immobilizing and slowing them down."
   titillando|2:
-    upgrade_description: "&r&8&bull; &eDecreased cooldown, increased range, efficacy, and duration."
+    upgrade_description: "Decreased cooldown, increased range, efficacy, and duration."
   titillando|3:
-    upgrade_description: "&r&8&bull; &eDecreased cooldown, increased range and efficacy."
+    upgrade_description: "Decreased cooldown, increased range and efficacy."
   glisseo:
     name: Glisseo
     description: "Transfigures stairs into a slippery surface."
   glisseo|2:
-    upgrade_description: "&r&8&bull; &eIncreased duration and radius, decreased undo speed."
+    upgrade_description: "Increased duration and radius, decreased undo speed."
   herbifors:
     name: Herbifors
     description: "Causes the target to sprout a flower from their head."
@@ -630,9 +630,9 @@ spells:
     name: Locomotor Wibbly
     description: "Causes the target's legs to become extremely weak crippling and immobilizing them temporarily."
   locomotorwibbly|2:
-    upgrade_description: "&r&8&bull; &eIncreased speed and duration."
+    upgrade_description: "Increased speed and duration."
   locomotorwibbly|3:
-    upgrade_description: "&r&8&bull; &eIncreased efficacy and range."
+    upgrade_description: "Increased efficacy and range."
   epoximise:
     name: Epoximise
     description: "Causes the target to be adhesived to the ground temporarily."
@@ -640,9 +640,9 @@ spells:
     name: Slugulus Eructo
     description: "Causes the target to vomit slugs uncontrollably."
   sluguluseructo|2:
-    upgrade_description: "&r&8&bull; &eMore slugs spawn."
+    upgrade_description: "More slugs spawn."
   sluguluseructo|3:
-    upgrade_description: "&r&8&bull; &eMore slugs spawn."
+    upgrade_description: "More slugs spawn."
   flintifors:
     name: Flintifors
     description: "Conjures a flint and steel, a manual fire-igniting tool."
@@ -653,16 +653,16 @@ spells:
     name: "Pulsus"
     description: "Pushes away a number of nearby targets with great force, damaging them."
   pulsus|2:
-    upgrade_description: "&r&8&bull; &eIncreased power and target count."
+    upgrade_description: "Increased power and target count."
   aparecium:
     name: "Aparecium"
     description: "Causes hidden things to appear. Can be used to access new areas."
   aparecium|2:
-    upgrade_description: "&r&8&bull; &eDecreased backfire chance."
+    upgrade_description: "Decreased backfire chance."
   aparecium|3:
-    upgrade_description: "&r&8&bull; &eDecreased backfire chance."
+    upgrade_description: "Decreased backfire chance."
   aparecium|4:
-    upgrade_description: "&r&8&bull; &eDecreased backfire chance."
+    upgrade_description: "Decreased backfire chance."
 
   acromantula_summon:
     name: "Summon"
