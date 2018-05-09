@@ -1,4 +1,0 @@
-mage:
-  earned_sp: "&e+$amount &7CC earned"
-  spell_upgraded: "&6(&eMagic&6) &7Your &6$name &7spell has been upgraded to &6$level"
-  spell_added: "&6(&eMagic&6) &7You have learned the &6$name &7spell!"

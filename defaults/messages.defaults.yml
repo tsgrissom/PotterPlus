@@ -8,14 +8,14 @@
 # https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/messages
 
 costs:
-  sp_amount: $amount CC
+  sp_amount: $amount SP
   xp_amount: $amount XP
   levels_amount: $amount XP Levels
   mana_amount: $amount Energy
   mana: Energy
   xp: XP
   levels: XP Levels
-  sp: Completion Credits
+  sp: Spell Points
   hunger: Energy
   health: Health
   health_amount: $amount Health
@@ -37,52 +37,47 @@ currency:
     amount: $amount AC
     name: Academic Credits
 sp:
-  name: '&e$amount Completion Credits'
+  name: '&e$amount &6Spell Points'
   description: Will be absorbed by your wand
   limit: a:&eThe limit for &6Spell Points &eis &c$amount
   deposited: 'a:&aDeposited &2$amount &6Spell Points&a, balance: &2$balance'
 item:
-  duplicated: '&6(&eMagic&6) &7Your item has been duplicated.'
+  duplicated: Your item has been duplicated
   destroyed: Your item has been destroyed
   cleaned: Your item has been cleaned of all Magic data
-  no_item: '&6(&eMagic&6) &cYou must be holding an item!'
-  renamed: '&6(&eMagic&6) &7Your item has been renamed.'
-  rename_clear: '&6(&eMagic&6) &7Removed the custom name from your item.'
-  flag_added: '&6(&eMagic&6) &7Added the &e$flag &7flag to your item.'
-  flag_removed: '&6(&eMagic&6) &7Removed the &e$flag &7flag from your item.'
-  no_flags: '&6(&eMagic&6) &cThat item has no flags.'
-  no_flag: '&6(&eMagic&6) &cThat item does not have the &4$flag &cflag.'
-  lore_added: '&6(&eMagic&6) &7Added lore: &e$lore'
-  lore_removed: '&6(&eMagic&6) &7Removed lore: &e$lore'
-  no_lore: '&6(&eMagic&6) &cThat item has no lore.'
-  not_unbreakable: '&6(&eMagic&6) &cThat item is not unbreakable.'
-  already_unbreakable: '&6(&eMagic&6) &cThat item is already unbreakable.'
-  add_unbreakable: '&6(&eMagic&6) &7That item is now unbreakable.'
-  remove_unbreakable: '&6(&eMagic&6) &7That item is no longer unbreakable.'
-  not_unplaceable: '&6(&eMagic&6) &cThat item is not unplaceable.'
-  already_unplaceable: '&6(&eMagic&6) &cThat item is already unplaceable.'
-  add_unplaceable: '&6(&eMagic&6) &7That item is now unplaceable.'
-  remove_unplaceable: '&6(&eMagic&6) &7That item is no longer unplaceable.'
-  no_enchants: '&6(&eMagic&6) &cThis item has no enchantments.'
-  no_enchant: '&6(&eMagic&6) &cThat item does not have the &4$enchant &cenchant.'
-  enchant_removed: '&6(&eMagic&6) &7Removed the &e$enchant &7enchant from your item.'
-  enchant_added: '&6(&eMagic&6) &7Added the &e$enchant &7enchant to your item.'
-  enchant_not_added: '&6(&eMagic&6) &cDid not add the &4enchant &cenchant to your
-    item.'
-  enchant_unsafe: '&6(&eMagic&6) &cYou don''t have permission to use unsafe enchantments.'
-  no_attribute: '&6(&eMagic&6) &cThat item does not have the &4$attribute &cattribute.'
-  attribute_removed: '&6(&eMagic&6) &7Removed the &e$attribute &7attribute from your
-    item.'
-  attribute_added: '&6(&eMagic&6) &7Set the &e$attribute &7attribute on your item
-    to &e$value &7for &e$slot&7.'
-  attribute_not_added: '&6(&eMagic&6) &cCould not set the &4$attrbite &cattribute
-    on your item.'
-  skull: '&6(&eMagic&6) &7Your book has been turned into a skull!'
-  skull_no_book: '&6(&eMagic&6) &cYou must be holding a written book with skull data
-    in it.'
-  skull_invalid_book: '&6(&eMagic&6) &cThat book does not have skull data in it! Paste
-    in just the text in ''Textures.Value'', it is a long string of random characters
-    normally ending in =='
+  no_item: You must be holding an item!
+  renamed: Your item has been renamed
+  rename_clear: Removed the custom name from your item
+  flag_added: Added the $flag flag to your item
+  flag_removed: Removed the $flag flag from your item
+  no_flags: That item has no flags
+  no_flag: That item does not have the $flag flag
+  lore_added: 'Added lore: $lore'
+  lore_removed: 'Removed lore: $lore'
+  no_lore: That item has no lore
+  not_unbreakable: That item is not unbreakable
+  already_unbreakable: That item is already unbreakable
+  add_unbreakable: That item is now unbreakable
+  remove_unbreakable: That item is no longer unbreakable
+  not_unplaceable: That item is not unplaceable
+  already_unplaceable: That item is already unplaceable
+  add_unplaceable: That item is now unplaceable
+  remove_unplaceable: That item is no longer unplaceable
+  no_enchants: This item has no enchantments
+  no_enchant: That item does not have the $enchant enchantment
+  enchant_removed: Removed the $enchant enchantment from your item
+  enchant_added: Added the $enchant enchantment to your item
+  enchant_not_added: Did not add the $enchant enchantment to your item
+  enchant_unsafe: You do not have permission to add unsafe enchantments
+  no_attribute: That item does not have the $attribute attribute
+  attribute_removed: Removed the $attribute attribute from your item
+  attribute_added: Set the $attribute attribute on your item to $value for $slot ($operation)
+  attribute_not_added: Could not set the $attribute attribute on your item
+  skull: Your book has been turned into a skull
+  skull_no_book: You must hold a written book with skull data in it
+  skull_invalid_book: That book does not have skull data in it! Paste in just the
+    text in 'Textures.Value', it is a long string of random characters normally ending
+    in ==
 mage:
   removed_property: Removed property $name
   no_property: Mage has no property $name
@@ -94,20 +89,18 @@ mage:
   spells_not_levelled: Did not level up any of your spells
   reconfigured: Mage reconfigured
   not_reconfigured: Mage not reconfigured
-  earned_sp: '&e+$amount &7CC earned'
+  earned_sp: a:&6+&e$amount &6SP
   no_class: You are not trained to use $name
   player_spell_upgraded: $players's &r&6$name &d&ohas been upgraded to &3$level
-  spell_upgraded: '&6(&eMagic&6) &7Your &6$name &7spell has been upgraded to &6$level'
-  spell_added: '&6(&eMagic&6) &7You have learned the &6$name &7spell!'
+  spell_upgraded: Your &r&6$name &d&ospell has been upgraded to &3$level
+  spell_added: You have learned the &r&6$name &d&ospell
   brush_added: You have acquired the &r&7$name &d&obrush
 general:
-  no_spells: '&6(&eMagic&6) &cYou don''t know any spells.'
-  no_spells_in_category: '&6(&eMagic&6) &cYou don''t know any spells in the &4$category
-    &ccategory.'
-  spell_list_page: '&6(&eMagic&6) &7You know &e$count &7spells [page &e$page &7of
-    &e$pages&7]'
-  spell_list: '&6(&eMagic&6) &7You know &e$count &7spells.'
-  locked_chest: '&6(&eMagic&6) &cThat chest is locked, you cannot break it.'
+  no_spells: You don't know any spells
+  no_spells_in_category: You don't know any spells in the $category category
+  spell_list_page: You know $count spells [page $page of $pages]
+  spell_list: You know $count spells
+  locked_chest: That chest is locked, you cannot break it.
 books:
   default:
     author: NathanWolf
@@ -143,14 +136,14 @@ cooldown:
   description_hour: One hour
   description_second: One second
   description_moment: A Moment
-  description: '&7Cooldown: &e$time'
-  mage_description: '&7Exhaustion: &e$time'
+  description: '&eCooldown: &6$time'
+  mage_description: '&cExhaustion: &6$time'
 warmup:
   description: '&7Warmup: &6$time'
 duration:
-  lasts_seconds: '&7Lasts for &e$seconds seconds'
-  lasts_minutes: '&7Lasts for &e$minutes minutes'
-  lasts_hours: '&7Lasts for &e$hours hours'
+  lasts_seconds: Lasts for $seconds seconds
+  lasts_minutes: Lasts for $minutes minutes
+  lasts_hours: Lasts for $hours hours
   lasts_second: Lasts for $seconds second
   lasts_minute: Lasts for $minutes minute
   lasts_hour: Lasts for $hours hour
@@ -194,27 +187,27 @@ requirements:
   no_path_exact: '&cYou must be at $path!'
   no_path_end: Y&cou must be ready to advance from $path!
 shops:
-  no_wand: '&6(&eMagic&6) &cYou must be holding a wand!'
-  no_template: '&6(&eMagic&6) &cYou may not learn with that &4$wand&c!'
-  no_path: '&6(&eMagic&6) &cYou may not learn with that &4$wand&c!'
+  no_wand: '&cYou must be holding a wand!'
+  no_template: '&cYou may not learn with that $wand&c.'
+  no_path: '&cYou may not learn here.'
   no_class: '&cYou must be a $class'
-  no_required_path: '&6(&eMagic&6) &cYou must be at least &4$path&c!'
-  no_path_exact: '&6(&eMagic&6) &cYou must be at &4$path&c!'
-  no_path_end: '&6(&eMagic&6) &cYou must be ready to advance from &4$path&c!'
-  insufficient: '&6(&eMagic&6) &cThat costs &4$cost&c!'
-  confirm_title: Purchase $item
+  no_required_path: '&cYou must be at least $path!'
+  no_path_exact: '&cYou must be at $path!'
+  no_path_end: '&cYou must be ready to advance from $path!'
+  insufficient: '&cCosts $cost'
+  confirm_title: Buy $item
   unlock_confirm_title: Unlock $item
-  deducted: '&6(&eMagic&6) &7You bought &e$item &7for &e$cost&7.'
+  deducted: '&d&oYou bought &r&6$item &r&d&ofor &r&a$cost'
   selected: '&d&oYou bought &r&6$item &r&d&ofor &r&a$cost'
   sold: '&d&oYou sold &r&6$item &r&d&ofor &r&a$earn'
   unlocked: '&d&oYou unlocked &r&6$item &r&d&ofor &r&a$cost'
   selected_free: '&d&oYou chose &r&6$item'
-  not_applicable: '&6(&eMagic&6) &cYou can''t buy &4$item&c!'
-  cast_fail: '&6(&eMagic&6) &cSorry, please try again!'
-  no_items: '&6(&eMagic&6) &cThere is nothing for you to buy!'
-  title: Shop ($balance)
+  not_applicable: You already have $item
+  cast_fail: '&cSorry, please try again!'
+  no_items: There is nothing for you to buy here
+  title: Shop ($balance&0)
   extra_spell: '&aNot Required'
-  no_upgrade: '&6(&eMagic&6) &cThere is nothing more for you to learn'
+  no_upgrade: There is nothing more for you to learn here.
   upgrade_name_change: '&r&4Upgrades: &r$name'
   level_requirement: '&r&cRequires: &6$path'
   tags_requirement: '&r&cRequires: &6$tags'
@@ -241,14 +234,14 @@ shops:
   property_min: '&r&cYour &6$property &cmust be greater than $4$value'
   item_amount: $name x$amount
 spell:
-  category: '&9$category'
+  category: '&7&o$category'
   brush: Uses Material Brushes
-  undoable: '&8Undoable'
-  not_undoable: '&8Not undoable'
+  undoable: Counterable
+  not_undoable: '&4Not Undoable'
   available_path: Available to $paths
   required_path: Required for $path graduation
   levels_available: 'Max Level: &r&5$levels'
-  required_spell: '&6(&eMagic&6) &7You must learn &6$spell &7to graduate'
+  required_spell: You must learn &r&4$spell &d&oto graduate
   prerequisite_spell_level: '&cYou must know &6Level $level $name'
   prerequisite_spell_progress_level: ' &6(Progress $level/$max_level)'
   level_description: Level $level
@@ -258,27 +251,26 @@ spell:
   description_lore: '&b$description'
   level_lore: '&6$level'
   toggle: '&aCast to toggle on and off'
-  upgrade_description_prefix: '&8&bull; &e'
+  upgrade_description_prefix: '&r&b&bull; &6'
 spells:
   default:
-    fizzle: '&6(&eMagic&6) &cYour spell fizzled!'
-    backfire: '&6(&eMagic&6) &cYour spell backfired!'
-    fail: '&6(&eMagic&6) &cYour spell failed!'
-    insufficient_permission: '&6(&eMagic&6) &cYou don''t have permission to cast that
-      here.'
-    cast_player_message: '&6(&eMagic&6) &e$player &7cast &e$spell &7on you!'
-    indirect_player_message: '&6(&eMagic&6) &e$player &7cast &e$spell &7on you!'
-    insufficient_resources: '&6(&eMagic&6) &cYou don''t have enough &4$cost&c.'
-    cooldown: '&6(&eMagic&6) &cYou must wait &4$time&c.'
-    cancelled: '&6(&eMagic&6) &cYour spell was cancelled!'
-    entity_required: '&6(&eMagic&6) &cAn entity is required for this spell.'
-    living_entity_required: '&6(&eMagic&6) &cA living entity is required for this
-      spell.'
-    player_required: '&6(&eMagic&6) &cA player is required for this spell.'
-    location_required: '&6(&eMagic&6) &cA location is required for this spell.'
-    world_required: '&6(&eMagic&6) &cA world is required for this spell.'
-    invalid_world: '&6(&eMagic&6) &cThe specified world is not valid.'
+    fizzle: Your spell fizzled!
+    backfire: Your spell backfired!
+    fail: Something went wrong!
+    insufficient_permission: You don't have permission to use that here.
+    cast_player_message: a:&d&o$player &r&5cast &3&o$spell &r&5on you!
+    indirect_player_message: a:&d&o$player &r&5cast &3&o$spell &r&5on you!
+    insufficient_resources: Not enough $cost
+    cooldown: You must wait $time.
+    cancelled: Your spell was cancelled!
+    entity_required: An entity is required.
+    living_entity_required: A living entity is required.
+    player_required: A player is required.
+    location_required: A location is required.
+    world_required: A world is required.
+    invalid_world: The specified world is not valid.
     cast_finish: ''
+    usage: ''
   admission:
     name: Admission
     description: Opens the target door
@@ -326,10 +318,10 @@ spells:
     upgrade_description: Now confuses as well
   broom:
     name: Broom
-    cast: '&6(&eMagic&6) &7Your broom springs to life.'
-    deactivate: '&6(&eMagic&6) &7Your broom quiets down.'
-    crash: '&6(&eMagic&6) &cYour broom crashes! You are stunned...'
-    fail: '&6(&eMagic&6) &cNot enough room to take off...'
+    cast: Your broom springs to life!
+    deactivate: Your broom quiets down.
+    crash: CRASH!
+    fail: Not enough room to take off!
     cursed: You are too stunned to fly!
     upgrade_description: Increased duration, speed and handling
   superbroom:
@@ -1586,7 +1578,7 @@ spells:
   upgrades:
     name: Check Spell Progress
     description: Shows progress in upgrading your current spells
-    fail: '&6(&eMagic&6) &cYou must be holding a wand!'
+    fail: You must be holding a wand!
     upgrade_name_change: '&r&4Upgrades: &r$name'
     level_requirement: '&r&cRequires: &6$path'
     cast_requirement: '&r&cCasts: &6$current&f/&e$required'
@@ -1597,7 +1589,7 @@ spells:
     name: Brush Selector
     descriptions: Chooses your active brush
     usage: Brushes are used by engineering spells
-    fail: '&6(&eMagic&6) &cYou must be holding a wand!'
+    fail: You must be holding a wand!
   tracking:
     name: Tracking Sense
     description: Find nearby life
@@ -1609,7 +1601,7 @@ spells:
   enchantwand:
     name: Upgrade Wand
     description: Add levels to your wand
-    no_wand: '&6(&eMagic&6) &cYou must be holding a wand!'
+    no_wand: You must be holding a wand!
     fail: ''
   addspell:
     name: Add Spell
@@ -1617,7 +1609,7 @@ spells:
     no_upgrade: You may not learn with that $wand.
     no_path: You must be at least $path!
     no_path_end: You must be ready to advance from $path!
-    no_wand: '&6(&eMagic&6) &cYou must be holding a wand!'
+    no_wand: You must be holding a wand!
     no_target: You already know that spell
     fail: ''
   giveitem:
@@ -1629,7 +1621,7 @@ spells:
   fillwand:
     name: Fill Wand
     description: Fill up your wand with all spells
-    no_wand: '&6(&eMagic&6) &cYou must be holding a wand!'
+    no_wand: You must be holding a wand!
     fail: ''
   spellshop:
     name: Learn Spells
@@ -1637,18 +1629,15 @@ spells:
     description: |-
       Spend Spell Points to learn new spells.
       When you have learned all the required spells on your current path, you will rank up to the next path!
-    no_items: '&6(&eMagic&6) &cThere are no spells for you to buy here.'
-    no_path: '&6(&eMagic&6) &cYou may not learn that with that &4$wand&c.'
-    no_upgrade: '&6(&eMagic&6) &cThere is nothing more for you to learn here.'
-    no_required_path: '&6(&eMagic&6) &cYou must be at least &4$path&c!'
-    no_path_end: '&6(&eMagic&6) &cYou must be ready to advance from &4$path&c!'
-    no_wand: '&6(&eMagic&6) &cYou must be holding a wand!'
+    no_items: There are no spells for you to buy here
+    no_path: You may not learn here.
+    no_upgrade: There is nothing more for you here.
+    no_required_path: You must be at least $path!
+    no_path_end: You must be ready to advance from $path!
+    no_wand: You must be holding a wand!
     confirm_title: Learn $item
-    selected: '&6(&eMagic&6) &7You learned &e$item &7for &e$cost'
+    selected: '&d&oYou learned &r&6$item &r&d&ofor &r&a$cost'
     fail: ''
-    insufficient: '&6(&eMagic&6) &cThis costs &4$cost&c.'
-    deducted: '&6(&eMagic&6) &7You bought &e$item &7for &e$cost&7.'
-    cost_lore: '&aCosts: $cost'
   engineershop:
     name: Engineer Shop
     title: Rollback ($balance&0)
@@ -1671,17 +1660,17 @@ spells:
     name: Spellbook Shop
     title: Spell Books
     description: Get some spell books
-    cost_lore: '&7Cost: &eNone'
+    cost_lore: Free!
     confirm_title: Get $item
-    deducted: '&6(&eMagic&6) &7You received $item'
+    deducted: '&d&oYou received &r&6$item'
   tweakshop:
     name: Wand Tweak Shop
     title: Wand Tweaks
     description: Tweak Your Wand
-    cost_lore: '&7Cost: &eNone'
-    not_applicable: '&6(&eMagic&6) &cYour wand already has &4$item&c!'
+    cost_lore: Free!
+    not_applicable: Your wand already has $item
     confirm_title: Get $item
-    deducted: '&6(&eMagic&6) &7You received &e$item&7!'
+    deducted: '&d&oYou received &r&6$item'
   progressmenu:
     name: Magic Progress
     title: Magic Progress
@@ -2147,7 +2136,7 @@ spells:
     name: Finite Incantatem
     description: A general-purpose counterspell which will undo most of the world-changing
       effects of previously cast spells.
-    usage: ''
+    usage: Only works on recently cast spells
     extended_description: The Minister of Magic's Favourite Spell.
     cast: Finite Incantatem &d&o$target &r&6$spell!
     cast_player_message: '&d&o$player &r&5countered your &3&o$spell &r&5cast!'
@@ -2322,7 +2311,7 @@ spells:
     name: Salvio Hexia
     description: Provies additional defenses against hexes, curses, and other dark
       magic.
-    usage: ''
+    usage: Cast twice to preserve an area
     cancel: Salvio Hexia cancelled
     fail: Too large!
     cast_finish: Preserved $count blocks
@@ -2330,10 +2319,10 @@ spells:
   reparifarge:
     name: Reparifarge
     description: Counter mosts of the world-impacting effects of previously cast spells.
-    cast: '&6(&eMagic&6) &7You reverse the &e$spell &7cast.'
-    cast_self: '&6(&eMagic&6) &7You reverse your &e$spell &7cast.'
-    cost_free: '&6(&eMagic&6) &7You cancel your &e$spell &7cast.'
-    fail: '&6(&eMagic&6) &cNothing to reverse.'
+    cast: '&9You reverse the &7$spell &9cast.'
+    cast_self: '&9You reverse your &7$spell &9cast.'
+    cost_free: '&9You cancel your &7$spell &9cast.'
+    fail: '&cNothing to reverse.'
   reparo:
     name: Reparo
     description: Repairs an area preserved with Salvio Hexia
@@ -2411,7 +2400,7 @@ spells:
     cast: Spongify Maxima!
   ollivander:
     cast: ''
-    insufficient_resources: '&6(&eMagic&6) &cYou must have &4$requires&c.'
+    insufficient_resources: You must have $requires
     title: Wand Shop
   lumos|2:
     upgrade_description: Increased light duration.
@@ -2617,7 +2606,7 @@ spells:
     upgrade_description: Increased damage, power, radius, and duration. No chance
       of fizzling.
   obscuro|2:
-    upgrade_description: '&r&9&bull; &eIncreased density and potency.'
+    upgrade_description: '&r&9&bull; &7Increased density and potency.'
   impedimenta:
     name: Impedimenta
     description: Impedes the movement of living creatures to slow them down temporarily.
@@ -2702,38 +2691,37 @@ spells:
     name: Long-Distance Apparition
     description: Allows you to disappear from your current location and apparate to
       previously known locations.
-    cancel: '&6(&eMagic) &cYour apparate was cancelled!'
-    usage: ''
+    cancel: '&6(&7Magic) &cYour apparate was cancelled!'
     teleport: ''
-    teleport_failed: '&6(&eMagic) &cYour apparate failed!'
-    cast_death: '&6(&eMagic) &7Returning you to your last death location.'
-    cast_spawn: '&6(&eMagic) &7Returning you to spawn.'
-    cast_home: '&6(&eMagic) &7Returning you home.'
-    cast_wand: '&6(&eMagic) &7Returning you to your lost wand.'
-    cast_warp: '&6(&eMagic) &7Warping you to &e$name&7.'
-    cast_field: '&6(&eMagic) &7Warping you to a protected area.'
-    cast_friend: '&6(&eMagic) &7Warping you to &ename&7.'
-    no_target_death: '&6(&eMagic) &cNo recorded death location.'
-    no_target_wand: '&6(&eMagic) &cNo recorded lost wands.'
-    no_target_home: '&6(&eMagic) &cNo home set.'
-    no_target_warp: '&6(&eMagic) &cInvalid warp &4$name'
-    no_target_spawn: '&6(&eMagic) &cCan''t apparate to spawn.'
-    no_target_fields: '&6(&eMagic) &cYou have no fields.'
-    no_target_friend: '&6(&eMagic) &cInvalid friend &4$name'
-    title_death: '&eLast Death'
-    description_death: '&7Your last death location.'
-    title_friend: '&e$name'
+    teleport_failed: '&6(&7Magic) &cYour apparate failed!'
+    cast_death: '&6(&7Magic) &9Returning you to your last death location.'
+    cast_spawn: '&6(&7Magic) &9Returning you to spawn.'
+    cast_home: '&6(&7Magic) &9Returning you home.'
+    cast_wand: '&6(&7Magic) &9Returning you to your lost wand.'
+    cast_warp: '&6(&7Magic) &9Warping you to &7$name&9.'
+    cast_field: '&6(&7Magic) &9Warping you to a protected area.'
+    cast_friend: '&6(&7Magic) &9Warping you to &7name&9.'
+    no_target_death: '&6(&7Magic) &cNo recorded death location.'
+    no_target_wand: '&6(&7Magic) &cNo recorded lost wands.'
+    no_target_home: '&6(&7Magic) &cNo home set.'
+    no_target_warp: '&6(&7Magic) &cInvalid warp &4$name'
+    no_target_spawn: '&6(&7Magic) &cCan''t apparate to spawn.'
+    no_target_fields: '&6(&7Magic) &cYou have no fields.'
+    no_target_friend: '&6(&7Magic) &cInvalid friend &4$name'
+    title_death: '&7Last Death'
+    description_death: '&9Your last death location.'
+    title_friend: '&7$name'
     title_warp: '&r$name'
-    title_spawn: '&eSpawn'
-    description_spawn: '&7The current world''s spawn location.'
-    title_home: '&eHome'
-    description_home: '&7Your home.'
-    title_wand: '&eLost Wand'
-    description_wand: '&7A wand you''ve dropped on the ground.'
-    cross_world_disallowed: '&6(&eMagic) &cYou are not allowed to apparate to another
+    title_spawn: '&7Spawn'
+    description_spawn: '&9The current world''s spawn location.'
+    title_home: '&7Home'
+    description_home: '&9Your home.'
+    title_wand: '&7Lost Wand'
+    description_wand: '&9A wand you''ve dropped on the ground.'
+    cross_world_disallowed: '&6(&7Magic) &cYou are not allowed to apparate to another
       world.'
     title: Choose Destination
-    unlock_warp: '&6(&eMagic) &7You have discovered &e$name &7to apparate to!'
+    unlock_warp: '&6(&7Magic) &9You have discovered &7$name &9to apparate to!'
   defodio:
     name: Defodio
     description: Gouges stone from structures, providing access to new areas or clearing
@@ -2951,7 +2939,7 @@ spells:
       hinderance
   phoenix_ambient:
     name: Phoenix Ambient
-    description: Unused
+    description: Ambient effects for phoenixes.
   phoenix_death:
     name: Phoenix Death
     description: From the ashes, reborn.
@@ -2997,25 +2985,25 @@ wand:
   enchantment_level_4: IV
   enchantment_level_5: V
   enchantment_level_max: X
-  spell_count: '&7Knows &e$count spells'
-  material_count: '&7Has &e$count materials'
-  upgrade_spell_count: '&7Adds &e$count spells'
-  upgrade_material_count: '&7Adds &e$count materials'
-  mana_max: '&7Energy: &e$amount'
-  mana_amount: '&7Energy: &e$amount'
+  spell_count: Knows $count Spells
+  material_count: Has $count Materials
+  upgrade_spell_count: Adds $count Spells
+  upgrade_material_count: Adds $count Materials
+  mana_max: 'Energy: $amount'
+  mana_amount: 'Energy: &e$amount'
   mana_amount_boosted: '&d&oEnergy: $amount &f(&b$mana&f)'
-  mana_regeneration: '&7Energy Regeneration: &e$amount/s'
+  mana_regeneration: 'Energy Regeneration: &e$amount/s'
   mana_per_damage: '&4&oEnergy Rage: $amount/HP'
   mana_regeneration_boosted: '&d&oEnergy Regeneration: $amount &f(&b$mana&f)&d/s'
   mana_boost: '&d&oEnergy Boost: $amount%'
   mana_regeneration_boost: '&d&oEnergy Regeneration Boost: $amount%'
   earn_multiplier: '&6$type Earn Boost: $percent%'
-  block_chance: '&3Blocking $roman'
-  reflect_chance: '&3Reflective $roman'
-  cost_reduction: '&3Cost Reduction $roman'
-  consume_reduction: '&3Manifestation'
-  cooldown_reduction: '&3Cooldown Reduction $roman'
-  power: '&3Power $roman'
+  block_chance: '&bBlocking $roman'
+  reflect_chance: '&bReflective $roman'
+  cost_reduction: '&6Cost Reduction $roman'
+  consume_reduction: '&6Manifestation'
+  cooldown_reduction: '&6Cooldown Reduction $roman'
+  power: '&6Power $roman'
   attributes: '&d$attribute $value'
   property_stack: +$property
   property_stack_negative: '&c$property'
@@ -3023,7 +3011,15 @@ wand:
   property_value_negative: '&c$property'
   item_attributes:
     GENERIC_ATTACK_DAMAGE: Attack Damage
-  protection: '&3Protection $roman'
+  protection:
+    overall: '&2Protection $roman'
+    physical: '&2Physical Protection $roman'
+    projectile: '&2Projectile Protection $roman'
+    fall: '&2Fall Protection $roman'
+    fire: '&2Fire Protection $roman'
+    explosion: '&2Blast Protection $roman'
+    magic: '&2Magical Protection $roman'
+    unknown: '&2$type Protection $roman'
   strength:
     overall: '&2Damage $roman'
     physical: '&2Physical Damage $roman'
@@ -3042,80 +3038,80 @@ wand:
     explosion: '&2Blast Weakness $roman'
     magic: '&2Magical Weakness $roman'
     unknown: '&2$type Weakness $roman'
-  potion_effect: '&3$effect $roman'
+  potion_effect: '&b$effect $roman'
   super_powered: '&3Superpowered'
   super_protected: '&3Invulnerability'
-  spell_aura: '&7Aura: &e$spell'
-  costs_description: '&7Consumes &e$description'
-  active_costs_description: '&7Consumes &e$description &7per second'
-  range_description: '&7Range: &e$range meters'
-  owner_description: '&3&o$name''s Wand'
+  spell_aura: '&bAura: &6$spell'
+  costs_description: Consumes $description
+  active_costs_description: Consumes $description Per Second
+  range_description: '&9Range: &6$range &9meters'
+  owner_description: '&2&o$name''s Wand'
   bound_description: '&3&oBound to $name'
-  unmodifiable: '&6(&eMagic&6) &cThat wand cannot be modified.'
-  player_unmodifiable: '&6(&eMagic&6) &4$name''s &cwand cannot be modified!'
-  bound_to_other: '&6(&eMagic&6) &cThat wand is not bound to you!'
-  bound: '&6(&eMagic&6) &7That wand is bound to &e$name&7.'
-  spell_added: '&6(&eMagic&6) &7The &e$name &7spell has been added to your &e$wand&7.'
-  brush_added: '&6(&eMagic&6) &7The &e$name &7brush has been added to your &e$wand&7.'
+  unmodifiable: That wand can not be modified
+  player_unmodifiable: $name's wand can not be modified
+  bound_to_other: That wand is not bound to you
+  bound: That wand is bound to $name
+  spell_added: You have learned the &r&6$name &d&ospell!
+  brush_added: You have learned the &r&7$name &d&obrush
   player_spell_upgraded: $players's &r&6$name &d&ohas been upgraded to &3$level
-  spell_upgraded: '&6(&eMagic&6) &e$name &7has been upgraded to &e$level &7.'
-  spell_override_upgraded: '&6(&eMagic&6) &e$name &7has been upgraded.'
-  upgraded_property: '&6(&eMagic&6) &7Your wand has been upgraded to &e$name&7.'
+  spell_upgraded: '&r&6$name &d&ohas been upgraded to &3$level'
+  spell_override_upgraded: '&r&6$name &d&ohas been upgraded'
+  upgraded_property: '&r&dYou have been upgraded to &r&b$name'
   spell_progression: '&r&6$name &d&ohas progressed to &3$level&d&o/&3$max_level'
-  mana_added: '&6(&eMagic&6) &7Your &e$wand &7now has &e$value &7energy.'
+  mana_added: '&r&dYou now have $value mana'
   hotbar_count: $amount hotbars
-  player_upgraded: '&6(&eMagic&6) &e$name''s &7wand upgraded.'
-  player_not_upgraded: '&6(&eMagic&6) &4$name''s &cwand not upgraded.'
+  player_upgraded: $name's wand upgraded
+  player_not_upgraded: $name's wand not upgraded
   player_spells_levelled: Levelled up $count of $name's spells
   player_spells_not_levelled: Did not level up any of $name's spells
   spells_levelled: Levelled up $count of your spells
   spells_not_levelled: Did not level up any of your spells
-  no_wand: '&6(&eMagic&6) &cYou must be holding a wand.'
-  player_no_wand: '&6(&eMagic&6) &4$name &cis not holding a wand.'
-  no_item: '&6(&eMagic&6) &cYou are not holding an item.'
-  player_no_item: '&6(&eMagic&6) &4$name &cis not holding an item.'
-  reorganized: '&6(&eMagic&6) &e$wand &7reorganized.'
-  player_reorganized: '&6(&eMagic&6) &e$name''s &7wand reorganized.'
-  alphabetized: '&6(&eMagic&6) &e$wand &7alphabetized.'
-  player_alphabetized: '&6(&eMagic&6) &e$name''s &7wand alphabetized.'
-  already_enchanted: '&6(&eMagic&6) &cThat '
-  enchanted: '&6(&eMagic&6) &7Your &e$item &7has been enchanted.'
-  player_enchanted: '&6(&eMagic&6) &e$name''s &7item has been enchanted.'
-  unenchanted: '&6(&eMagic&6) &7Your wand has been unenchanted.'
-  player_unenchanted: '&6(&eMagic&6) &e$name''s &7wand has been unenchanted.'
-  no_path: '&6(&eMagic&6) &cYour &4$wand &ccannot be enchanted.'
-  max_enchanted: '&6(&eMagic&6) &cYour &4$wand &ccannot be enchanted any further.'
-  level_up: '&6(&eMagic&6) &7Your &e$wand &7has been upgraded to &e$path&7.'
-  duplicated: '&6(&eMagic&6) &7Your wand has been duplicated.'
-  player_duplicated: '&6(&eMagic&6) &e$name''s &7wand has been duplicated.'
-  restored: '&6(&eMagic&6) &7Your wands have been restored.'
-  player_restored: '&6(&eMagic&6) &e$name''s &7wands have been restored.'
-  not_restored: '&6(&eMagic&6) &7You have no missing wands on record.'
-  player_not_restored: '&6(&eMagic&6) &e$name''s &7wand has no missing wands on record.'
-  setbound: '&6(&eMagic&6) &7Your wand has been bound.'
-  player_setbound: '&6(&eMagic&6) &e$name''s &7wand has been bound.'
-  unbound: '&6(&eMagic&6) &7Your wand has been unbound.'
-  player_unbound: '&6(&eMagic&6) &e$name''s &7wand has been unbound.'
-  unboundall: '&6(&eMagic&6) &7All of your bound wands have been forgotten.'
-  player_unboundall: '&6(&eMagic&6) &7All of &e$name''s &7bound wands have been forgotten.
-    Their inentory was not cleared!'
+  no_wand: You must be holding a wand
+  player_no_wand: $name is not holding a wand
+  no_item: You must be holding an item
+  player_no_item: $name is not holding an item
+  reorganized: $wand &breorganized
+  player_reorganized: $name's wand reorganized
+  alphabetized: $wand &balphabetized
+  player_alphabetized: $name's wand alphabetized
+  already_enchanted: That $item is already a wand
+  enchanted: Your $item has been turned into a wand
+  player_enchanted: $name's $item has been turned into a wand
+  unenchanted: Your wand has been turned into a normal item
+  player_unenchanted: $name's wand has been turned into a normal item
+  no_path: You must be holding your wand
+  max_enchanted: '&r&4Your $wand &4can not be enchanted any further'
+  level_up: '&3You have graduated to &b$path&3!'
+  duplicated: Your wand has been duplicated
+  player_duplicated: $name's wand has been duplicated
+  restored: Your wands have been restored
+  player_restored: $name's wands have been restored
+  not_restored: You have no missing wands on record
+  player_not_restored: $name's wand has no missing wands on record
+  setbound: Your wand has been bound
+  player_setbound: $name's wand has been bound
+  unbound: Your wand has been unbound
+  player_unbound: $name's wand has been unbound
+  unboundall: All of your bound wands have been forgotten
+  player_unboundall: All of $name's bound wands have been forgotten. Their inventory
+    was not cleared!
   notunbound: You do not have a bound $wand wand
   player_notunbound: Player $name does not have a bound $wand wand
-  unlocked: '&6(&eMagic&6) &7Your wand has been unlocked.'
-  player_unlocked: '&6(&eMagic&6) &e$name''s &7wand has been unlocked.'
+  unlocked: Your wand has been unlocked
+  player_unlocked: $name's wand has been unlocked
   unknown_template: Unknown wand name $name
-  reconfigured: '&6(&eMagic&6) &7Wand reconfigured.'
+  reconfigured: Wand reconfigured
   not_reconfigured: Wand not reconfigured
   removed_property: Removed property $name
   no_property: Wand has no property $name
-  player_reconfigured: '&6(&eMagic&6) &e$name''s &7wand has been reconfigured.'
+  player_reconfigured: $name's wand reconfigured
   player_not_reconfigured: $name's wand not reconfigured
-  filled: '&6(&eMagic&6) &7Your &e$wand &7now contains all of your spells.'
-  player_filled: '&6(&eMagic&6) &e$name''s &7wand filled.'
-  renamed: '&6(&eMagic&6) &7Your wand has been renamed.'
-  player_renamed: '&6(&eMagic&6) &e$name''s &7wand renamed.'
+  filled: '&bYour $wand &bnow contains all of your spells'
+  player_filled: $name's wand filled
+  renamed: Your wand has been renamed
+  player_renamed: $name's wand renamed
   self_destruct: The ancient artifact crumbles in your hands
-  no_permission: '&6(&eMagic&6) &cYou may not use that wand here!'
+  no_permission: '&r&4You may not use that $wand &r&4here.'
   single_spell: Wand of $spell
   fully_enchanted: '&cYou have nothing more to learn here.'
   need_more_levels: '&cYou need at least &4$levels &clevels to take an exam.'
@@ -3128,27 +3124,27 @@ wand:
   path_lore: ''
   hotbar_count_usage: '&ePress $cycle_hotbar while your $wand &eis active to cycle
     hotbars'
-  inventory_instructions: '&6(&eMagic&6) &7Your &e$wand &7now has more than one spell.
-    Use the drop (Q) button to toggle the spell inventory. Select spells using the
-    hotbar buttons.'
+  inventory_instructions: '&r&eYour $wand &enow has more than one spell. Press $toggle
+    to open/close the spell inventory. Use the hotbar buttons to select a spell.'
   chest_instructions: '&r&eYour $wand &enow has more than one spell. Press $toggle
     to open/close the spell inventory, click a spell to cast.'
   skills_instructions: '&r&eYour $wand &enow has more than one spell. Press $toggle
     to open/close the spell inventory, drag a spell to the hotbar to cast.'
   cycle_instructions: '&r&eYour $wand &enow has more than one spell. Press $cycle
     to cycle between spells.'
-  page_instructions: '&6(&eMagic&6) &7Your &e$wand &7now has more than one page of
-    spells. Click outside of the spell inventory to swap pages.'
-  bound_instructions: '&6(&eMagic&6) &7Your &e$wand &7is bound to you, and is undroppable.'
-  spell_instructions: '&6(&eMagic&6) &7Swing your &e$wand &7to cast spells. Spells
-    require Energy, shown in the XP bar.'
-  enchant_instructions: ''
+  page_instructions: '&r&eYour $wand &enow has more than one page of spells. Click
+    outside the spell inventory to change pages.'
+  bound_instructions: '&r&3Your $wand &3is bound to you, and is undroppable.'
+  spell_instructions: '&r&bSwing your $wand &bto cast &r&6$spell&d&o. Spells require
+    mana, shown in the XP bar.'
+  enchant_instructions: '&r&bUpgrade your $wand &bat an enchanting table to add spells
+    and abilities.'
   brush_instructions: '&r&eMaterial brushes have been added to your $wand&e. Shift+$toggle
     to select a brush.'
-  sp_instructions: '&6(&eMagic&6) &7You have earned some &eCompletion Credits&7! &eCC''s
-    &7are displayed above your mana bar, and may be spent at a spell teacher to learn
-    new spells.'
-  hotbar_changed: a:&7Switched hotbars
+  sp_instructions: '&r&6You have earned some Spell Points! SP''s are displayed above
+    your mana bar, and may be spent at an enchanting table to learn new spells. Repeat
+    casts earn fewer SP''s, try mixing it up once you have more spells!'
+  hotbar_changed: ''
   spell_activated: $spell
   upgrade_prefix: '&6'
   single_use_prefix: '&4'
@@ -3158,13 +3154,6 @@ wand:
   unmodifiable_prefix: '&6'
   spell_prefix: '&6'
   brush_prefix: '&7'
-  protection_physical: '&3Physical Protection $roman'
-  protection_projectile: '&3Projectile Protection $roman'
-  protection_falling: '&3Fall Protection $roman'
-  protection_fire: '&3Fire Protection $roman'
-  protection_explosions: '&3Blast Protection $roman'
-  hotbar_added: '&6(&eMagic&6) &7Your &e$wand''s &7hotbar has been upgraded! Press
-    F while your &e$wand &7wand is active.'
 wands:
   testwand:
     name: Test Wand

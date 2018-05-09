@@ -1,66 +1,13 @@
 spells:
   default:
-    fizzle: "&6(&eMagic&6) &cYour spell fizzled!"
-    backfire: "&6(&eMagic&6) &cYour spell backfired!"
-    fail: "&6(&eMagic&6) &cYour spell failed!"
-    insufficient_permission: "&6(&eMagic&6) &cYou don't have permission to cast that here."
-    cast_player_message: "&6(&eMagic&6) &e$player &7cast &e$spell &7on you!"
-    indirect_player_message: "&6(&eMagic&6) &e$player &7cast &e$spell &7on you!"
-    insufficient_resources: "&6(&eMagic&6) &cYou don't have enough &4$cost&c."
-    cooldown: "&6(&eMagic&6) &cYou must wait &4$time&c."
-    cancelled: "&6(&eMagic&6) &cYour spell was cancelled!"
-    entity_required: "&6(&eMagic&6) &cAn entity is required for this spell."
-    living_entity_required: "&6(&eMagic&6) &cA living entity is required for this spell."
-    player_required: "&6(&eMagic&6) &cA player is required for this spell."
-    location_required: "&6(&eMagic&6) &cA location is required for this spell."
-    world_required: "&6(&eMagic&6) &cA world is required for this spell."
-    invalid_world: "&6(&eMagic&6) &cThe specified world is not valid."
-    cast_finish: ""
-  upgrades:
-    fail: "&6(&eMagic&6) &cYou must be holding a wand!"
-  brushselect:
-    fail: "&6(&eMagic&6) &cYou must be holding a wand!"
-  enchantwand:
-    no_wand: "&6(&eMagic&6) &cYou must be holding a wand!"
-  addspell:
-    no_wand: "&6(&eMagic&6) &cYou must be holding a wand!"
-  fillwand:
-    no_wand: "&6(&eMagic&6) &cYou must be holding a wand!"
-  spellshop:
-    no_wand: "&6(&eMagic&6) &cYou must be holding a wand!"
-    no_items: "&6(&eMagic&6) &cThere are no spells for you to buy here."
-    no_path: "&6(&eMagic&6) &cYou may not learn that with that &4$wand&c."
-    no_upgrade: "&6(&eMagic&6) &cThere is nothing more for you to learn here."
-    no_required_path: "&6(&eMagic&6) &cYou must be at least &4$path&c!"
-    no_path_end: "&6(&eMagic&6) &cYou must be ready to advance from &4$path&c!"
-    insufficient: "&6(&eMagic&6) &cThis costs &4$cost&c."
-    deducted: "&6(&eMagic&6) &7You bought &e$item &7for &e$cost&7."
-    cost_lore: '&aCosts: $cost'
-    selected: '&6(&eMagic&6) &7You learned &e$item &7for &e$cost'
+    usage: ""
   ollivander:
     cast: ""
-    insufficient_resources: "&6(&eMagic&6) &cYou must have &4$requires&c."
     title: "Wand Shop"
-  broom:
-    cast: "&6(&eMagic&6) &7Your broom springs to life."
-    deactivate: "&6(&eMagic&6) &7Your broom quiets down."
-    crash: "&6(&eMagic&6) &cYour broom crashes! You are stunned..."
-    fail: "&6(&eMagic&6) &cNot enough room to take off..."
   bookshop:
-    name: Spellbook Shop
+    name: "Spellbook Shop"
     title: "Spell Books"
-    description: Get some spell books
-    cost_lore: "&7Cost: &eNone"
-    confirm_title: "Get $item"
-    deducted: "&6(&eMagic&6) &7You received $item"
-  tweakshop:
-    name: Wand Tweak Shop
-    title: "Wand Tweaks"
-    description: Tweak Your Wand
-    cost_lore: "&7Cost: &eNone"
-    not_applicable: "&6(&eMagic&6) &cYour wand already has &4$item&c!"
-    confirm_title: "Get $item"
-    deducted: "&6(&eMagic&6) &7You received &e$item&7!"
+    description: "Get some spell books"
   vermillious:
     description: "Conjures a number of burning red sparks which inflict damage on those they touch."
   lumos:
@@ -166,7 +113,6 @@ spells:
     upgrade_description: "No chance of fizzling or backfiring."
   finiteincantatem:
     description: "A general-purpose counterspell which will undo most of the world-changing effects of previously cast spells."
-    usage: ""
   finiteincantatem|2:
     upgrade_description: "Less chance of fizzling."
   finiteincantatem|3:
@@ -395,7 +341,7 @@ spells:
   obscuro:
     description: "Obscures the target's vision, making it more easily to evade or escape their jinxes."
   obscuro|2:
-    upgrade_description: "&r&9&bull; &eIncreased density and potency."
+    upgrade_description: "&r&9&bull; &7Increased density and potency."
   periculux:
     description: "Conjures rainbow-colored fireworks which signal to fellow wizards."
   volo:
@@ -410,10 +356,10 @@ spells:
     description: "In a flash of green light, this unblockable curse can end the life of any living creature with great malice."
   reparifarge:
     description: "Counter mosts of the world-impacting effects of previously cast spells."
-    cast: "&6(&eMagic&6) &7You reverse the &e$spell &7cast."
-    cast_self: "&6(&eMagic&6) &7You reverse your &e$spell &7cast."
-    cost_free: "&6(&eMagic&6) &7You cancel your &e$spell &7cast."
-    fail: "&6(&eMagic&6) &cNothing to reverse."
+    cast: "&9You reverse the &7$spell &9cast."
+    cast_self: "&9You reverse your &7$spell &9cast."
+    cost_free: "&9You cancel your &7$spell &9cast."
+    fail: "&cNothing to reverse."
   noxmaxima:
     description: "Using incredibly powerful, world-shaping magic you can turn day to night."
   engorgio:
@@ -493,37 +439,36 @@ spells:
   longapparate:
     name: "Long-Distance Apparition"
     description: "Allows you to disappear from your current location and apparate to previously known locations."
-    cancel: "&6(&eMagic) &cYour apparate was cancelled!"
-    usage: ""
+    cancel: "&6(&7Magic) &cYour apparate was cancelled!"
     teleport: ""
-    teleport_failed: "&6(&eMagic) &cYour apparate failed!"
-    cast_death: "&6(&eMagic) &7Returning you to your last death location."
-    cast_spawn: "&6(&eMagic) &7Returning you to spawn."
-    cast_home: "&6(&eMagic) &7Returning you home."
-    cast_wand: "&6(&eMagic) &7Returning you to your lost wand."
-    cast_warp: "&6(&eMagic) &7Warping you to &e$name&7."
-    cast_field: "&6(&eMagic) &7Warping you to a protected area."
-    cast_friend: "&6(&eMagic) &7Warping you to &ename&7."
-    no_target_death: "&6(&eMagic) &cNo recorded death location."
-    no_target_wand: "&6(&eMagic) &cNo recorded lost wands."
-    no_target_home: "&6(&eMagic) &cNo home set."
-    no_target_warp: "&6(&eMagic) &cInvalid warp &4$name"
-    no_target_spawn: "&6(&eMagic) &cCan't apparate to spawn."
-    no_target_fields: "&6(&eMagic) &cYou have no fields."
-    no_target_friend: "&6(&eMagic) &cInvalid friend &4$name"
-    title_death: "&eLast Death"
-    description_death: "&7Your last death location."
-    title_friend: "&e$name"
+    teleport_failed: "&6(&7Magic) &cYour apparate failed!"
+    cast_death: "&6(&7Magic) &9Returning you to your last death location."
+    cast_spawn: "&6(&7Magic) &9Returning you to spawn."
+    cast_home: "&6(&7Magic) &9Returning you home."
+    cast_wand: "&6(&7Magic) &9Returning you to your lost wand."
+    cast_warp: "&6(&7Magic) &9Warping you to &7$name&9."
+    cast_field: "&6(&7Magic) &9Warping you to a protected area."
+    cast_friend: "&6(&7Magic) &9Warping you to &7name&9."
+    no_target_death: "&6(&7Magic) &cNo recorded death location."
+    no_target_wand: "&6(&7Magic) &cNo recorded lost wands."
+    no_target_home: "&6(&7Magic) &cNo home set."
+    no_target_warp: "&6(&7Magic) &cInvalid warp &4$name"
+    no_target_spawn: "&6(&7Magic) &cCan't apparate to spawn."
+    no_target_fields: "&6(&7Magic) &cYou have no fields."
+    no_target_friend: "&6(&7Magic) &cInvalid friend &4$name"
+    title_death: "&7Last Death"
+    description_death: "&9Your last death location."
+    title_friend: "&7$name"
     title_warp: "&r$name"
-    title_spawn: "&eSpawn"
-    description_spawn: "&7The current world's spawn location."
-    title_home: "&eHome"
-    description_home: "&7Your home."
-    title_wand: "&eLost Wand"
-    description_wand: "&7A wand you've dropped on the ground."
-    cross_world_disallowed: "&6(&eMagic) &cYou are not allowed to apparate to another world."
+    title_spawn: "&7Spawn"
+    description_spawn: "&9The current world's spawn location."
+    title_home: "&7Home"
+    description_home: "&9Your home."
+    title_wand: "&7Lost Wand"
+    description_wand: "&9A wand you've dropped on the ground."
+    cross_world_disallowed: "&6(&7Magic) &cYou are not allowed to apparate to another world."
     title: Choose Destination
-    unlock_warp: "&6(&eMagic) &7You have discovered &e$name &7to apparate to!"
+    unlock_warp: "&6(&7Magic) &9You have discovered &7$name &9to apparate to!"
   defodio:
     name: "Defodio"
     description: "Gouges stone from structures, providing access to new areas or clearing obstacles."
@@ -544,7 +489,6 @@ spells:
   salviohexia:
     name: "Salvio Hexia"
     description: "Provies additional defenses against hexes, curses, and other dark magic."
-    usage: ""
   salviohexia|2:
     upgrade_description: "Increased strength of protective enchantments."
   flagellos:
@@ -744,7 +688,7 @@ spells:
     description: "Sounds off every noise it ever heard, causing mass confusion and hinderance"
   phoenix_ambient:
     name: "Phoenix Ambient"
-    description: "Unused"
+    description: "Ambient effects for phoenixes."
   phoenix_death:
     name: "Phoenix Death"
     description: "From the ashes, reborn."

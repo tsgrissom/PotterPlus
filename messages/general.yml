@@ -1,6 +1,0 @@
-general:
-    no_spells: "&6(&eMagic&6) &cYou don't know any spells."
-    no_spells_in_category: "&6(&eMagic&6) &cYou don't know any spells in the &4$category &ccategory."
-    spell_list_page: "&6(&eMagic&6) &7You know &e$count &7spells [page &e$page &7of &e$pages&7]"
-    spell_list: "&6(&eMagic&6) &7You know &e$count &7spells."
-    locked_chest: "&6(&eMagic&6) &cThat chest is locked, you cannot break it."

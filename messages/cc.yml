@@ -1,6 +1,0 @@
-sp:
-  name: "&e$amount Completion Credits"
-
-costs:
-  sp_amount: "$amount CC"
-  sp: "Completion Credits"
