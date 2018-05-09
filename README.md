@@ -29,6 +29,7 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Add tags (`noduel`, stuff like that)
 * Add `pvp_restricted` flags
 * Check if `enchanting.yml` is even a thing anymore
+* Add stuff for post-graduation (more classes, paths, and exclusive spells)
 
 ### Known bugs
 

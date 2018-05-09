@@ -1,13 +1,8 @@
 acromantula_spawner:
-  inherit: spawner
+  inherit: base_spawner
   name: "Acromantula Spawner"
   description: "An acromantula spawner"
-  interval: 3000
   spawn:
-    vertical_range: 24
-    limit: 6
-    radius: 64
-    vertical_radius: 24
     mobs:
       acromantula_underling: 60
       acromantula: 35

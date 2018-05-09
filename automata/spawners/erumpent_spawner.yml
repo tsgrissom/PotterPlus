@@ -1,0 +1,9 @@
+erumpent_spawner:
+  inherit: base_spawner
+  name: "Erumpent Spawner"
+  description: "An erumpent spawner"
+  interval: 20000
+  spawn:
+    mobs:
+      erumpent: 60
+      none: 40
