@@ -22484,26 +22484,7 @@ flagrate|2:
         class: Text
         text: $target
         iterations: 3
-        particle: redstone
-        color: E25822
-    - class: EffectSingle
-      location: target
-      target_offset: 0,30
-      effectlib:
-        class: Text
-        text: $target
-        iterations: 3
-        particle: spell_mob
-        color: E2B822
-    - class: EffectSingle
-      location: target
-      target_offset: 0,30
-      effectlib:
-        class: Text
-        text: $target
-        iterations: 3
-        particle: spell_mob
-        color: E2222C
+        particle: flame
   enabled: true
 flight|2:
   upgrade_required_casts: 75
