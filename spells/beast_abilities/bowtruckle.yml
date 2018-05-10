@@ -33,9 +33,14 @@ bowtruckle_wood_throw:
   parameters:
     allow_max_range: false
     range: 24
-    velocity: 50
+    velocity: 25
     target: other
     cooldown: 0
+    damage: 3
+
+bowtruckle_wood_throw|2:
+  parameters:
+    damage: 5
 
 bowtruckle_shield:
   inherit: protego|3
@@ -44,3 +49,7 @@ bowtruckle_shield:
     cooldown: 0
     brush: log
     undo: 3000
+
+bowtruckle_shield|2:
+  parameters:
+    radius: 2.5
