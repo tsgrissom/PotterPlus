@@ -24,9 +24,9 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Add tags (`noduel`, stuff like that)
 * Add `pvp_restricted` flags
 * Check if `enchanting.yml` is even a thing anymore
-* Add stuff for post-graduation (more classes, paths, and exclusive spells)
 * Make mobs more aggressive as they get damaged with `min_damage` flags, etc.
 * Change upgrade messages.
+* Implement Nathan's post-grad ideas
 
 ### Known bugs
 
@@ -34,6 +34,7 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 
 * Obliviate Maxima doesn't work, Obliviate does
 * `upgrades` is broken for me locally but not for Nathan
+* Effects are lost from `avis` -> `lapifors`, `effects/mobs/undo_effects` current workaround
 
 ### Other ideas
 
