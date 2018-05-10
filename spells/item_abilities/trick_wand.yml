@@ -19,4 +19,5 @@ trick_wand_ability:
           - class: Command
             command: "castp @tn incarcifors target self undo_speed 0"
   parameters:
+    target: self
     console: true

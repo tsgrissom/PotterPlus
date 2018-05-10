@@ -1287,7 +1287,7 @@ arrow:
   icon_disabled: diamond_hoe:57
   icon_url: http://textures.minecraft.net/texture/ea96e1b8c4d458f8f5443fa66eb376981f7b2ec385386db67faf3f1589094
   category: dada
-  worth: 10 ac ac
+  worth: 10 ac
   earns_sp: 8
   upgrade_required_path: beginner
   upgrade_required_casts: 40
@@ -17514,7 +17514,7 @@ aparecium:
     - class: Sphere
       actions:
       - class: PowerBlock
-  worth: 10 ac ac
+  worth: 10 ac
   effects:
     cast:
     - class: EffectSingle
@@ -17559,7 +17559,7 @@ apparate:
   inherit: blink
   category: elective
   enabled: true
-  worth: 30 ac ac
+  worth: 30 ac
   upgrade_required_path: year5
   upgrade_required_casts: 75
   effects:
@@ -17603,7 +17603,7 @@ araniaexumai:
   category: creatures
   pvp_restricted: true
   cast_on_no_target: true
-  worth: 5 ac ac
+  worth: 5 ac
   actions:
     cast:
     - class: VelocityAction
@@ -17759,7 +17759,8 @@ avadakedavra:
   inherit: kill
   category: dark
   enabled: true
-  worth: 50 ac ac
+  worth: 50 ac
+  pvp_restricted: true
   actions:
     cast:
     - class: Delay
@@ -17846,7 +17847,7 @@ avis:
   icon: diamond_axe:226
   icon_disabled: diamond_hoe:226
   category: creatures
-  worth: 5 ac ac
+  worth: 5 ac
   upgrade_required_casts: 75
   upgrade_required_path: year5
   actions:
@@ -18116,6 +18117,7 @@ crucio:
   category: dark
   enabled: true
   worth: 30 ac
+  pvp_restricted: true
   effects:
     cast:
     - class: EffectSingle
@@ -18384,6 +18386,7 @@ expelliarmus:
   category: dada
   enabled: true
   worth: 15 ac
+  pvp_restricted: true
   effects:
     hit:
     - class: EffectSingle
@@ -18474,7 +18477,7 @@ fiendfyre:
   icon_url: http://textures.minecraft.net/texture/a9e073da36aaf2c844da428cd4a19dfde32c8cdc2404eed4a135f6095b17c
   icon: diamond_axe:139
   icon_disabled: diamond_hoe:139
-  worth: 35 ac
+  worth: 25 ac
   pvp_restricted: true
   upgrade_required_path: year7
   upgrade_required_casts: 50
@@ -19473,6 +19476,7 @@ protego:
   worth: 15 ac
   upgrade_required_path: year4
   upgrade_required_casts: 75
+  pvp_restricted: true
   parameters:
     brushcolor: false
     cooldown: 8000
@@ -19538,6 +19542,7 @@ protegomaxima:
   enabled: true
   icon_url: http://textures.minecraft.net/texture/9330f3a837c4a358fa62f2b684c5c4c2dadf799c0fe9be8f4a4aecace62a
   upgrade_required_casts: 50
+  pvp_restricted: true
 reducio:
   inherit: shrink
   category: transfiguration
@@ -19894,6 +19899,7 @@ stupefy:
   upgrade_required_casts: 25
   category: dada
   worth: 10 ac
+  pvp_restricted: true
   actions:
     cast:
     - class: CustomProjectile
@@ -19925,57 +19931,43 @@ stupefy:
     hit:
     - class: EffectSingle
       location: target
-      color: 8b0000
       firework: burst
+      color: 8b0000
       color2: FF0000
-  headshot_parameters:
-    player_damage: 3
-    entity_damage: 3
   parameters:
     allow_max_range: true
     velocity: 100
     hitbox: true
     range: 24
     target_type: LivingEntity
-    player_damage: 1
-    entity_damage: 1
+    damage: 1
     target_breakables: 1
     cooldown: 4000
     reorient: false
     potion_effects:
       confusion: 2
-    duration: 2000
+    duration: 5000
   costs:
     mana: 15
   enabled: true
 stupefy|2:
   parameters:
-    damage: 3
-    duration: 4000
+    damage: 1
+    duration: 7000
     target_breakables: 1
     cooldown: 2000
-    player_damage: 2
-    entity_damage: 2
   enabled: true
   upgrade_required_path: year6
   upgrade_required_casts: 50
-  headshot_parameters:
-    player_damage: 4
-    entity_damage: 4
 stupefy|3:
   parameters:
-    damage: 3.5
-    duration: 6000
+    damage: 1
+    duration: 9000
     target_breakables: 2
     range: 48
-    player_damage: 3
-    entity_damage: 3
   enabled: true
   upgrade_required_path: year7
   upgrade_required_casts: 75
-  headshot_parameters:
-    player_damage: 5
-    entity_damage: 5
 vermillious:
   icon_url: http://textures.minecraft.net/texture/73b6fd4699e7c8c4ce3024b7882b38ff47f1a249fb8be67992707ec2b8d59c
   icon: diamond_axe:159
@@ -20950,9 +20942,14 @@ bowtruckle_wood_throw:
   parameters:
     allow_max_range: false
     range: 24
-    velocity: 50
+    velocity: 25
     target: other
     cooldown: 0
+    damage: 3
+  enabled: true
+bowtruckle_wood_throw|2:
+  parameters:
+    damage: 5
   enabled: true
 bowtruckle_shield:
   inherit: protego|3
@@ -20961,6 +20958,10 @@ bowtruckle_shield:
     cooldown: 0
     brush: log
     undo: 3000
+  enabled: true
+bowtruckle_shield|2:
+  parameters:
+    radius: 2.5
   enabled: true
 bundimun_summon:
   icon: slime_block
@@ -21441,6 +21442,30 @@ portable_swamp_ability:
     undo: 12000
     cooldown: 15000
   enabled: true
+trick_wand_ability:
+  icon: stick
+  hidden: true
+  category: item_ability
+  actions:
+    cast:
+    - class: Random
+      actions:
+      - class: Command
+        command: castp @tn stupefy damage 0.5 duration 0 velocity 10
+      - class: Command
+        command: castp @tn alarteascendare y_offset 0.25 target self
+      - class: Command
+        command: castp @tn arrow damage 0.5 spread 2
+      - class: Command
+        command: castp @tn expelliarmus target self keep_in_inventory false
+      - class: Command
+        command: castp @tn herbifors target self undo 2000
+      - class: Command
+        command: castp @tn incarcifors target self undo_speed 0
+  parameters:
+    target: self
+    console: true
+  enabled: true
 reveal:
   enabled: true
 aquaeructo:
@@ -21485,7 +21510,7 @@ aberto:
 alarteascendare:
   icon: diamond_axe:150
   category: charms
-  worth: 10 ac ac
+  worth: 10 ac
   actions:
     cast:
     - class: CustomProjectile
@@ -21584,6 +21609,7 @@ arrowmaxima:
   inherit: arrow
   upgrade_required_path: year5
   upgrade_required_casts: 25
+  pvp_restricted: true
   actions:
     cast:
     - class: Repeat
@@ -21628,9 +21654,10 @@ avis|3:
   enabled: true
 baubillious:
   inherit: chainlightning
-  worth: 20 ac ac
+  worth: 20 ac
   upgrade_required_path: year6
   upgrade_required_casts: 25
+  pvp_restricted: true
   effects:
     projectile:
     - class: EffectSingle
@@ -21721,6 +21748,7 @@ bruchumaculeatos:
   worth: 20 ac
   upgrade_required_path: year6
   upgrade_required_casts: 25
+  pvp_restricted: true
   costs:
     mana: 60
   actions:
@@ -21914,6 +21942,7 @@ colloshoo:
   worth: 10 ac
   upgrade_required_casts: 25
   upgrade_required_path: year3
+  pvp_restricted: true
   effects:
     tick:
     - location: target
@@ -22013,6 +22042,7 @@ depulso:
   category: charms
   upgrade_required_path: year5
   upgrade_required_casts: 25
+  pvp_restricted: true
   worth: 10 ac
   effects:
     cast:
@@ -22118,6 +22148,7 @@ epoximise:
   icon: diamond_axe:180
   worth: 10 ac
   category: transfiguration
+  pvp_restricted: true
   effects:
     tick:
     - location: target
@@ -22265,7 +22296,7 @@ felixleporemos:
   icon: diamond_axe:46
   upgrade_required_casts: 25
   upgrade_required_path: year2
-  worth: 5 ac ac
+  worth: 5 ac
   costs:
     mana: 15
   actions:
@@ -22404,6 +22435,7 @@ flagellos:
   upgrade_required_path: year4
   upgrade_required_casts: 75
   worth: 15 ac
+  pvp_restricted: true
   effects:
     tick:
     - location: target
@@ -22617,6 +22649,7 @@ furnunculus:
   upgrade_required_path: year7
   upgrade_required_casts: 25
   worth: 15 ac
+  pvp_restricted: true
   actions:
     cast:
     - class: CustomProjectile
@@ -22852,6 +22885,7 @@ impedimenta:
   upgrade_required_path: year4
   upgrade_required_casts: 25
   worth: 20 ac
+  pvp_restricted: true
   actions:
     cast:
     - class: CustomProjectile
@@ -23030,6 +23064,7 @@ locomotorwibbly:
   worth: 10 ac
   upgrade_required_casts: 75
   upgrade_required_path: year5
+  pvp_restricted: true
   effects:
     cast:
     - class: EffectSingle
@@ -23192,6 +23227,7 @@ multabasiorum:
   worth: 20 ac
   upgrade_required_path: year5
   upgrade_required_casts: 50
+  pvp_restricted: true
   actions:
     cast:
     - class: CustomProjectile
@@ -23400,6 +23436,7 @@ percutios:
   inherit: smite
   category: dark
   worth: 25 ac
+  pvp_restricted: true
   actions:
     cast:
     - class: Lightning
@@ -23603,6 +23640,7 @@ sluguluseructo:
   category: dark
   upgrade_required_path: year3
   upgrade_required_casts: 75
+  pvp_restricted: true
   actions:
     cast:
     - class: CustomProjectile
@@ -23658,12 +23696,8 @@ sluguluseructo|3:
   enabled: true
 stupefy|4:
   parameters:
-    player_damage: 4
-    entity_damage: 4
-    duration: 8000
-  headshot_parameters:
-    player_damage: 6
-    entity_damage: 6
+    damage: 1
+    duration: 10000
   enabled: true
 tarantallegra:
   icon: diamond_axe:163
@@ -23789,6 +23823,7 @@ titillando|3:
 verdimillious:
   inherit: vermillious
   icon: diamond_axe:173
+  pvp_restricted: true
   effects:
     cast:
     - class: EffectSingle
@@ -23852,6 +23887,7 @@ waddiwasi:
   icon: diamond_axe:133
   worth: 10 ac
   category: charms
+  pvp_restricted: true
   effects:
     tick:
     - location: target

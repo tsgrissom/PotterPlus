@@ -75,7 +75,8 @@ bowtruckle_spawner:
     limit: 0.6
     probability: 0.8
     mobs:
-      bowtruckle: 100
+      bowtruckle: 90
+      overgrown_bowtruckle: 10
 centaur_spawner:
   inherit: base_spawner
   interval: 20000

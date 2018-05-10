@@ -271,6 +271,8 @@ spells:
     invalid_world: The specified world is not valid.
     cast_finish: ''
     usage: ''
+    cast: ''
+    cast_self: ''
   admission:
     name: Admission
     description: Opens the target door
@@ -2096,8 +2098,8 @@ spells:
   ferula:
     name: Ferula
     description: Conjures magical bandages in order to heal the target.
-    cast_self: ''
-    cast: ''
+    cast_self: Ferula!
+    cast: Ferula $target!
   engorgio:
     name: Engorgio
     description: Engorges objects or creatures to collosal sizes.
@@ -2319,10 +2321,10 @@ spells:
   reparifarge:
     name: Reparifarge
     description: Counter mosts of the world-impacting effects of previously cast spells.
-    cast: '&9You reverse the &7$spell &9cast.'
-    cast_self: '&9You reverse your &7$spell &9cast.'
-    cost_free: '&9You cancel your &7$spell &9cast.'
-    fail: '&cNothing to reverse.'
+    cast: '&5Your reverse your &6$spell cast'
+    cast_self: '&5You reverse your &6$spell &5cast'
+    cost_free: '&5You cancel your &6$spell &5cast'
+    fail: Nothing to reverse
   reparo:
     name: Reparo
     description: Repairs an area preserved with Salvio Hexia
@@ -2399,7 +2401,7 @@ spells:
     description: Softens and makes a large area bouncy.
     cast: Spongify Maxima!
   ollivander:
-    cast: ''
+    cast: You exchanged $requires for $item
     insufficient_resources: You must have $requires
     title: Wand Shop
   lumos|2:
@@ -2441,7 +2443,7 @@ spells:
   arrowmaxima|3:
     upgrade_description: Increased damage and arrow count. Decreased spread and delay.
   arrowmaxima|4:
-    upgrade_description: Arrows are ignited.
+    upgrade_description: Arrows are ignited, inflicting additional flame damage.
   incendio|2:
     upgrade_description: Increased size and duration.
   incendio|3:
@@ -2514,7 +2516,6 @@ spells:
     name: Aqua Eructo
     description: Conjures a controllable jet of water which will push back and damage
       targets.
-    cast: ''
   aquaeructo|2:
     upgrade_description: Increased damage.
   aquaeructo|3:
@@ -2783,8 +2784,6 @@ spells:
   brackiumemendo:
     name: Brackium Emendo
     description: Mends bones that are no longer there, supposedly. Effectiveness varies.
-    cast_self: ''
-    cast: ''
   brackiumemendo|2:
     upgrade_description: Increased efficacy.
   brackiumemendo|3:
@@ -2835,7 +2834,7 @@ spells:
   locomotorwibbly|3:
     upgrade_description: Increased efficacy and range.
   epoximise:
-    name: Epoximise
+    name: Expoximise
     description: Causes the target to be adhesived to the ground temporarily.
   sluguluseructo:
     name: Slugulus Eructo
@@ -2961,6 +2960,9 @@ spells:
   skeleton_key_ability:
     name: Skeleton Key Ability
     description: Unlocks any door
+  trick_wand_ability:
+    name: Trick Wand Ability
+    description: Casts some trick spells
 wand:
   default_name: Wand
   upgrade_default_description: Will upgrade your wand.
@@ -3757,6 +3759,11 @@ wands:
   skeletonkey:
     name: '&7Skeleton Key'
     description: '&8Unlocks all doors for a limited time'
+    spell_instructions: ''
+    bound_instructions: ''
+  trickwand:
+    name: '&eTrick Wand'
+    description: '&6Casts some trick spells'
     spell_instructions: ''
     bound_instructions: ''
 automata:
