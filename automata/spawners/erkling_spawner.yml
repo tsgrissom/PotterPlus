@@ -1,0 +1,8 @@
+erkling_spawner:
+  inherit: base_spawner
+  interval: 16000
+  spawn:
+    limit: 3
+    probability: 0.5
+    mobs:
+      erkling: 100
