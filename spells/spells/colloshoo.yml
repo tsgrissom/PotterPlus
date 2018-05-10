@@ -1,7 +1,7 @@
 colloshoo:
   category: dada
   icon: diamond_axe:180
-  worth: 10
+  worth: 10 ac
   upgrade_required_casts: 25
   upgrade_required_path: year3
   effects:

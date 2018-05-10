@@ -1,5 +1,5 @@
 vermillious:
-  worth: 10
+  worth: 10 ac
   effects:
     cast:
       - class: EffectSingle

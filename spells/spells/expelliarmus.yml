@@ -1,5 +1,5 @@
 expelliarmus:
-  worth: 15
+  worth: 15 ac
   effects:
     hit:
       - class: EffectSingle

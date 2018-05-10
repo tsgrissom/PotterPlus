@@ -1,7 +1,7 @@
 flight:
   inherit: false
   icon: diamond_axe:134
-  worth: 30
+  worth: 30 ac
   show_undoable: false
   quick_cast: false
   cancel_effects: true

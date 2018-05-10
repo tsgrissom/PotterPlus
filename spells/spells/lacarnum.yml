@@ -4,7 +4,7 @@ lacarnum:
   icon_disabled: diamond_hoe:153
   category: charms
   pvp_restricted: true
-  worth: 20
+  worth: 20 ac
   upgrade_required_path: year6
   upgrade_required_casts: 50
   actions:

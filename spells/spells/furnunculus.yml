@@ -3,7 +3,7 @@ furnunculus:
   icon: diamond_axe:159
   upgrade_required_path: year7
   upgrade_required_casts: 25
-  worth: 15
+  worth: 15 ac
   actions:
     cast:
       - class: CustomProjectile

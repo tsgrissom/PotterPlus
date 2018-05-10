@@ -1,6 +1,6 @@
 incarcifors:
   inherit: cage
-  worth: 25
+  worth: 25 ac
   category: transfiguration
   cast_on_no_target: false
   parameters:

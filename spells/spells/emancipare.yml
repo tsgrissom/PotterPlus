@@ -2,7 +2,7 @@ emancipare:
   icon: diamond_axe:177
   icon_url: http://textures.minecraft.net/texture/b2545861d5871f75caa3b378ec44655bcb3d6cabe697b27303dbdaa8b5b5
   category: charms
-  worth: 10
+  worth: 10 ac
   costs:
     mana: 20
   actions:

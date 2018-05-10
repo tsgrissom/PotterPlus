@@ -2,6 +2,14 @@
 
 Changes are organized here for record-keeping purposes. Most recent changes are at the top.
 
+* 5/9/18 - Converted to use custom currency system
+* 5/9/18 - Removed all custom messages in preparation for overhaul
+* 5/9/18 - Revamped Aparecium
+* 5/9/18 - Added Ashwinder spawners
+* 5/9/18 - Restructured spawner automata
+* 5/9/18 - Added Erumpent spawners
+* 5/9/18 - Buffed Erumpent
+
 * 5/6/18 - Converted all spells spells that used long-form class references to use short-hands. (ex. `AtomEffect` -> `Atom` or `CustomProjectileAction` -> `CustomProjectile`)
 
 * 5/5/18 - Converted all `PotionEffectAction` spells to not use aggregate format

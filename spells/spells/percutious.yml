@@ -3,7 +3,7 @@
 percutios:
   inherit: smite
   category: dark
-  worth: 25
+  worth: 25 ac
   actions:
     cast:
       - class: Lightning

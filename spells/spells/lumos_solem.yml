@@ -1,7 +1,7 @@
 lumossolem:
   upgrade_required_path: year2
   upgrade_required_casts: 50
-  worth: 10
+  worth: 10 ac
   parameters:
     brush: glowstone
     undo: 3000

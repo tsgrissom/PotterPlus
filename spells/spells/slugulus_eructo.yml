@@ -1,6 +1,6 @@
 sluguluseructo:
   inherit: bogies
-  worth: 15
+  worth: 15 ac
   category: dark
   upgrade_required_path: year3
   upgrade_required_casts: 75

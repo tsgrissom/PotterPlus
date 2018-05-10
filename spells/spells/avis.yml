@@ -3,7 +3,7 @@ avis:
   icon: diamond_axe:226
   icon_disabled: diamond_hoe:226
   category: creatures
-  worth: 5
+  worth: 5 ac ac
   upgrade_required_casts: 75
   upgrade_required_path: year5
   actions:

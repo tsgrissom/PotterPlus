@@ -1,5 +1,5 @@
 periculum:
-  worth: 5
+  worth: 5 ac
   upgrade_required_path: year5
   upgrade_required_casts: 75
   actions:

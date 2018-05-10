@@ -3,7 +3,7 @@ flagellos:
   category: dark
   upgrade_required_path: year4
   upgrade_required_casts: 50
-  worth: 15
+  worth: 15 ac
   effects:
     hit:
       - class: EffectSingle

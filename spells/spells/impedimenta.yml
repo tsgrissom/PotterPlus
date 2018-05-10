@@ -3,7 +3,7 @@ impedimenta:
   category: dada
   upgrade_required_path: year4
   upgrade_required_casts: 25
-  worth: 20
+  worth: 20 ac
   actions:
     cast:
       - class: CustomProjectile

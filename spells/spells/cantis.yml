@@ -4,7 +4,7 @@ cantis:
   category: charms
   icon_url: http://textures.minecraft.net/texture/ad7e09a7af7af5acc286e6a4dd3c2f69b55ace33b7838ca899545570e946ee
   icon: diamond_axe:8
-  worth: 5
+  worth: 5 ac
   costs:
     mana: 15
   actions:

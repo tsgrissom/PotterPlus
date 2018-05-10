@@ -1,100 +1,100 @@
 incendio:
   category: charms
-  worth: 10
+  worth: 10 ac ac
 rictusempra:
   category: charms
-  worth: 5
+  worth: 5 ac ac
 flipendo:
-  worth: 5
+  worth: 5 ac ac
 nox:
-  worth: 5
+  worth: 5 ac ac
 immobulus:
-  worth: 10
+  worth: 10 ac ac
 bogies:
   category: dark
-  worth: 15
+  worth: 15 ac ac
 finiteincantatem:
-  worth: 20
+  worth: 20 ac ac
   alias: finite
 snowball:
-  worth: 10
+  worth: 10 ac ac
 colorvaria:
-  worth: 5
+  worth: 5 ac ac
 diffindo:
-  worth: 5
+  worth: 5 ac ac
 duro:
-  worth: 5
+  worth: 5 ac ac
 accio:
-  worth: 10
+  worth: 10 ac ac
 locomotomortus:
-  worth: 10
+  worth: 10 ac ac
 aguamenti:
-  worth: 10
+  worth: 10 ac ac
   upgrade_required_path: year7
   upgrade_required_casts: 25
 aguamenti|2:
   inherit: bubble|2
 rennervate:
-  worth: 5
+  worth: 5 ac ac
 episkey:
-  worth: 15
+  worth: 15 ac ac
   category: herbology
 orchideous:
-  worth: 5
+  worth: 5 ac ac
   parameters:
     undo: 2000
 noxmaxima:
   quick_cast: false
 evanesco:
-  worth: 15
+  worth: 15 ac ac
 ferula:
-  worth: 20
+  worth: 20 ac ac
   category: herbology
 incarcerous:
-  worth: 10
+  worth: 10 ac ac
   parameters:
     brush: fence
 petrificustotalus:
-  worth: 20
+  worth: 20 ac ac
 reducio:
-  worth: 10
+  worth: 10 ac ac
 confringo:
-  worth: 25
+  worth: 25 ac ac
 engorgio:
-  worth: 15
+  worth: 15 ac ac
 confundus:
-  worth: 10
+  worth: 10 ac ac
 ventus:
-  worth: 10
+  worth: 10 ac ac
 vulnera:
-  worth: 25
+  worth: 25 ac ac
   category: herbology
 disillusion:
-  worth: 15
+  worth: 15 ac ac
 atmos:
   category: charms
-  worth: 30
+  worth: 30 ac ac
 spongify:
-  worth: 10
+  worth: 10 ac ac
 spongifymaxima:
-  worth: 25
+  worth: 25 ac ac
 sectumsempra:
-  worth: 20
+  worth: 20 ac ac
 reducto:
-  worth: 10
+  worth: 10 ac ac
 alohomora:
-  worth: 5
+  worth: 5 ac ac
 
 arresto:
-  worth: 5
+  worth: 5 ac ac
 ascendio:
-  worth: 10
+  worth: 10 ac ac
   parameters:
     cooldown: 10000
 
 aquaeructo:
   category: charms
-  worth: 15
+  worth: 15 ac ac
   inherit: stream
 
 aquaeructo|2:
@@ -103,12 +103,12 @@ aquaeructo|2:
 aquaeructo|3:
   inherit: stream|3
 conjunctivitis:
-  worth: 10
+  worth: 10 ac ac
 deprimo:
-  worth: 10
+  worth: 10 ac ac
 
 erecto:
-  worth: 10
+  worth: 10 ac ac
   category: transfiguration
   parameters:
     undo: 12000
@@ -117,24 +117,24 @@ erecto:
 fiantoduri:
   category: dada
 fourpoint:
-  worth: 5
+  worth: 5 ac ac
 imperio:
-  worth: 40
+  worth: 40 ac ac
   category: dark
 impervius:
-  worth: 10
+  worth: 10 ac ac
 meteo:
   quick_cast: false
-  worth: 30
+  worth: 30 ac ac
   category: charms
 tripudio:
-  worth: 5
+  worth: 5 ac ac
   category: charms
 volo:
-  worth: 5
+  worth: 5 ac ac
   category: charms
 wingardium:
-  worth: 5
+  worth: 5 ac ac
   effects:
     cast:
     -  class: EffectSingle

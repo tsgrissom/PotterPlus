@@ -26,7 +26,7 @@ colloportus:
     icon_disabled: diamond_hoe:183
     category: staff
     class: ConstructSpell
-    worth: 50
+    worth: 50 ac
     cast_on_no_target: true
     effects:
         cast:
@@ -58,7 +58,7 @@ aparecium:
         -  class: Sphere
            actions:
            -  class: PowerBlock
-    worth: 15
+    worth: 15 ac
     effects:
         cast:
         -  class: EffectSingle
@@ -97,7 +97,7 @@ araniaexumai:
     category: creatures
     pvp_restricted: true
     cast_on_no_target: true
-    worth: 15
+    worth: 15 ac
     actions:
         cast:
         -  class: VelocityAction
@@ -146,7 +146,7 @@ snowball:
     icon_disabled: diamond_hoe:59
     category: charms
     pvp_restricted: true
-    worth: 5
+    worth: 5 ac
     actions:
         cast:
         -  class: ChangeContext
@@ -218,7 +218,7 @@ arresto:
     icon: diamond_axe:226
     icon_disabled: diamond_hoe:226
     category: charms
-    worth: 20
+    worth: 20 ac
     pvp_restricted: false
     actions:
         cast:
@@ -274,7 +274,7 @@ avadamaxima:
     icon_url: http://textures.minecraft.net/texture/71a235c48123b487e864fa21016e223ad4070c6d977b0a519f7dd743d39e47c
     category: staff
     pvp_restricted: true
-    worth: 1000
+    worth: 1000 ac
     cast_on_no_target: true
     hidden: true
     actions:
@@ -327,7 +327,7 @@ avis:
     icon_disabled: diamond_hoe:226
     category: creatures
     class: FamiliarSpell
-    worth: 20
+    worth: 20 ac
     effects:
         cast:
         -  class: EffectSingle
@@ -360,7 +360,7 @@ beat:
     category: specialty
     pvp_restricted: true
     cast_on_no_target: true
-    worth: 10
+    worth: 10 ac
     actions:
         cast:
         -  class: PotionEffectAction
@@ -436,7 +436,7 @@ confundusmaxima:
     category: dada
     pvp_restricted: true
     cast_on_no_target: true
-    worth: 10
+    worth: 10 ac
     actions:
         cast:
         -  class: PotionEffectAction
@@ -488,7 +488,7 @@ obscuro:
     category: dada
     pvp_restricted: true
     cast_on_no_target: true
-    worth: 10
+    worth: 10 ac
     actions:
         cast:
         -  class: PotionEffectAction
@@ -578,7 +578,7 @@ deletrius:
     icon_disabled: diamond_hoe:118
     category: staff
     class: CommitSpell
-    worth: 150
+    worth: 150 ac
     effects:
         cast:
         -  class: EffectSingle
@@ -609,7 +609,7 @@ deprimomaxima:
     class: ConstructSpell
     cast_on_no_target: true
     hidden: true
-    worth: 80
+    worth: 80 ac
     effects:
         cast:
         -  class: EffectSingle
@@ -648,7 +648,7 @@ diffindo:
     category: transfiguration
     class: ConstructSpell
     cast_on_no_target: true
-    worth: 80
+    worth: 80 ac
     effects:
         cast:
         -  class: EffectSingle
@@ -739,7 +739,7 @@ evanesco:
     icon: diamond_axe:230
     icon_disabled: diamond_hoe:230
     category: transfiguration
-    worth: 30
+    worth: 30 ac
     actions:
         cast:
         -  class: PotionEffect
@@ -819,7 +819,7 @@ floo:
     icon: diamond_axe:22
     icon_disabled: diamond_hoe:22
     category: specialty
-    worth: 30
+    worth: 30 ac
     actions:
         cast:
         -  class: PotionEffectAction
@@ -865,7 +865,7 @@ flagrate:
     icon: diamond_axe:29
     icon_disabled: diamond_hoe:29
     category: charms
-    worth: 20
+    worth: 20 ac
     earns_sp: 1
     effects:
         cast:
@@ -896,7 +896,7 @@ rictusempra:
     category: dada
     pvp_restricted: true
     cast_on_no_target: true
-    worth: 15
+    worth: 15 ac
     actions:
         cast:
         -  class: VelocityAction
@@ -959,7 +959,7 @@ flipendo:
     category: dada
     pvp_restricted: true
     cast_on_no_target: true
-    worth: 15
+    worth: 15 ac
     actions:
         cast:
         - class: VelocityAction
@@ -987,7 +987,7 @@ flipendo:
         mana: 40
 
 flipendo|2:
-    worth: 30
+    worth: 30 ac
     actions:
         cast:
         - class: DamageAction
@@ -1018,7 +1018,7 @@ flipendo|2:
         mana: 70
 
 flipendo|3:
-    worth: 50
+    worth: 50 ac
     parameters:
         range: 32
         item_speed: 3
@@ -1042,7 +1042,7 @@ fourpoint:
     actions:
       cast:
       - class: Orient
-    worth: 20
+    worth: 20 ac
     effects:
         cast:
         -  class: EffectSingle
@@ -1063,7 +1063,7 @@ glacius:
     category: transfiguration
 
 glacius|2:
-    worth: 80
+    worth: 80 ac
     effects:
         cast:
         -  class: EffectSingle
@@ -1098,7 +1098,7 @@ glacius|2:
         mana: 90
 
 glacius|3:
-    worth: 120
+    worth: 120 ac
     parameters:
         radius: 3
         player_damage: 2.5
@@ -1117,7 +1117,7 @@ immobulus:
     category: dada
     pvp_restricted: true
     cast_on_no_target: true
-    worth: 30
+    worth: 30 ac
     actions:
         cast:
         -  class: PotionEffectAction
@@ -1181,7 +1181,7 @@ locomotomortus:
     category: dada
     pvp_restricted: true
     cast_on_no_target: true
-    worth: 30
+    worth: 30 ac
     actions:
         cast:
         -  class: PotionEffectAction
@@ -1235,7 +1235,7 @@ impervius:
     icon_disabled: diamond_hoe:186
     category: transfiguration
     class: ConstructSpell
-    worth: 30
+    worth: 30 ac
     cast_on_no_target: true
     effects:
         cast:
@@ -1271,7 +1271,7 @@ lacarnum:
     icon_disabled: diamond_hoe:153
     category: charms
     pvp_restricted: true
-    worth: 35
+    worth: 35 ac
     actions:
         cast:
         -  class: IgniteAction
@@ -1323,7 +1323,7 @@ levicorpus:
     category: charms
     cast_on_no_target: true
     pvp_restricted: true
-    worth: 20
+    worth: 20 ac
     effects:
         cast:
         -  class: EffectSingle
@@ -1414,7 +1414,7 @@ lumos:
     icon_disabled: diamond_hoe:228
     category: charms
     icon_url: http://textures.minecraft.net/texture/4abfe52d50f710f4103bc650b5e972d49832ea419841d9fa24e16ce617c716
-    worth: 10
+    worth: 10 ac
     actions:
         cast:
         -  class: AreaOfEffectAction
@@ -1466,7 +1466,7 @@ lumossolem:
     actions:
       cast:
       - class: ThrowBlock
-    worth: 20
+    worth: 20 ac
     effects:
         cast:
         -  class: EffectSingle
@@ -1494,7 +1494,7 @@ morsmordre:
     icon: diamond_axe:52
     icon_disabled: diamond_hoe:52
     category: dark
-    worth: 20
+    worth: 20 ac
     actions:
         cast:
         - class: CommandAction
@@ -1544,7 +1544,7 @@ periculux:
     actions:
         cast:
         -  class: Firework
-    worth: 2
+    worth: 2 ac
     effects:
         cast:
         -  class: EffectSingle
@@ -1596,7 +1596,7 @@ webbing:
     class: ConstructSpell
     pvp_restricted: true
     cast_on_no_target: true
-    worth: 50
+    worth: 50 ac
     effects:
         cast:
         -  class: EffectSingle
@@ -1643,7 +1643,7 @@ piertotum:
     icon_disabled: diamond_hoe:53
     category: master
     class: FamiliarSpell
-    worth: 250
+    worth: 250 ac
     effects:
         cast:
         -  class: EffectSingle
@@ -1704,7 +1704,7 @@ protegomaxima:
     icon_disabled: diamond_hoe:22
     category: dada
     class: ConstructSpell
-    worth: 100
+    worth: 100 ac
     effects:
         cast:
         -  class: EffectSingle
@@ -1764,7 +1764,7 @@ reductomaxima:
     category: staff
     class: ConstructSpell
     hidden: true
-    worth: 12
+    worth: 12 ac
     cast_on_no_target: true
     effects:
         cast:
@@ -1804,7 +1804,7 @@ salviohexia:
     category: staff
     hidden: true
     class: ConstructSpell
-    worth: 2000
+    worth: 2000 ac
     effects:
         cast:
         -  class: EffectSingle
@@ -1838,7 +1838,7 @@ reparo:
     category: staff
     hidden: true
     class: ConstructSpell
-    worth: 100
+    worth: 100 ac
     effects:
         cast:
         -  class: EffectSingle
@@ -1869,7 +1869,7 @@ reparomaxima:
     category: staff
     class: ConstructSpell
     hidden: true
-    worth: 500
+    worth: 500 ac
     effects:
         cast:
         -  class: EffectSingle
@@ -1902,7 +1902,7 @@ silencio:
     icon_disabled: diamond_hoe:8
     category: staff
     hidden: true
-    worth: 500
+    worth: 500 ac
     actions:
         cast:
         -  class: CommandAction
@@ -1941,7 +1941,7 @@ silenciomaxima:
     icon_disabled: diamond_hoe:8
     category: staff
     hidden: true
-    worth: 500
+    worth: 500 ac
     actions:
         cast:
         -  class: CommandAction
@@ -1980,7 +1980,7 @@ silenciototalus:
     icon_disabled: diamond_hoe:8
     category: staff
     hidden: true
-    worth: 500
+    worth: 500 ac
     actions:
         cast:
         -  class: AllEntitiesAction
@@ -2016,7 +2016,7 @@ amplify:
     icon_disabled: diamond_hoe:8
     category: staff
     hidden: true
-    worth: 500
+    worth: 500 ac
     actions:
         cast:
         -  class: CommandAction
@@ -2044,7 +2044,7 @@ expulsion:
     icon_disabled: diamond_hoe:170
     category: staff
     hidden: true
-    worth: 500
+    worth: 500 ac
     actions:
         cast:
         -  class: CommandAction
@@ -2093,7 +2093,7 @@ vermillious:
     icon_disabled: diamond_hoe:159
     category: charms
     pvp_restricted: true
-    worth: 40
+    worth: 40 ac
     actions:
         cast:
         - class: DamageAction
@@ -2178,7 +2178,7 @@ vermillious|3:
 colorvaria:
     inherit: superalter
     category: transfiguration
-    worth: 8
+    worth: 8 ac
     parameters:
         range: 16
         depth: 8
@@ -2201,7 +2201,7 @@ nox:
     icon_disabled: diamond_hoe:166
     category: charms
     cast_on_no_target: true
-    worth: 20
+    worth: 20 ac
     actions:
         cast:
         -  class: PotionEffectAction
@@ -2235,7 +2235,7 @@ vulnera:
     icon_disabled: diamond_hoe:44
     category: charms
     cast_on_no_target: true
-    worth: 50
+    worth: 50 ac
     pvp_restricted: false
     actions:
         cast:
@@ -2282,7 +2282,7 @@ ferula:
     icon_disabled: diamond_hoe:46
     category: charms
     cast_on_no_target: true
-    worth: 50
+    worth: 50 ac
     pvp_restricted: false
     actions:
         cast:
@@ -2334,7 +2334,7 @@ revelio:
     icon: diamond_axe:72
     icon_disabled: diamond_hoe:72
     category: staff
-    worth: 20
+    worth: 20 ac
     cast_on_no_target: true
     actions:
         cast:
@@ -2367,7 +2367,7 @@ deluminate:
     icon_disabled: diamond_hoe:85
     category: specialty
     class: ConstructSpell
-    worth: 100
+    worth: 100 ac
     cast_on_no_target: true
     pvp_restricted: false
     effects:
@@ -2397,7 +2397,7 @@ pulsus:
     category: dada
     pvp_restricted: true
     cast_on_no_target: true
-    worth: 15
+    worth: 15 ac
     actions:
         cast:
         -  class: VelocityAction
@@ -2431,7 +2431,7 @@ confringo:
     icon_disabled: diamond_hoe:153
     category: dark
     pvp_restricted: true
-    worth: 35
+    worth: 35 ac
     actions:
         cast:
         -  class: ProjectileAction
@@ -2489,7 +2489,7 @@ firestorm:
     icon: diamond_axe:144
     icon_disabled: diamond_hoe:144
     category: dark
-    worth: 35
+    worth: 35 ac
     pvp_restricted: true
     actions:
         cast:
@@ -2535,7 +2535,7 @@ tripudio:
     icon_url: http://textures.minecraft.net/texture/58c573cefdc8cc1b8c894340cb54ab343523ec2ffa0afc7536968391ae1e7
     icon: diamond_axe:11
     icon_disabled: diamond_hoe:11
-    worth: 10
+    worth: 10 ac
     actions:
         cast:
         -  class: PotionEffectAction
@@ -2569,7 +2569,7 @@ volo:
     icon: diamond_axe:11
     icon_disabled: diamond_hoe:11
     category: light
-    worth: 10
+    worth: 10 ac
     actions:
         cast:
         -  class: PotionEffectAction
@@ -2603,7 +2603,7 @@ fiantoduri:
     icon: diamond_axe:11
     icon_disabled: diamond_hoe:11
     category: light
-    worth: 10
+    worth: 10 ac
     actions:
         cast:
         -  class: PotionEffectAction
@@ -2645,7 +2645,7 @@ bombtastic:
     category: specialty
     pvp_restricted: true
     hidden: true
-    worth: 25
+    worth: 25 ac
     actions:
         cast:
         -  class: TNTAction
@@ -2682,7 +2682,7 @@ dungbomb:
     category: specialty
     pvp_restricted: true
     hidden: true
-    worth: 25
+    worth: 25 ac
     actions:
         cast:
         -  class: TNTAction
@@ -2763,7 +2763,7 @@ patronus:
     icon: diamond_axe:131
     icon_disabled: diamond_hoe:131
     category: charms
-    worth: 200
+    worth: 200 ac
     actions:
       cast:
       - class: PlaySound

@@ -1,6 +1,6 @@
 carperetractum:
   icon: diamond_axe:198
-  worth: 10
+  worth: 10 ac
   upgrade_required_casts: 75
   upgrade_required_path: year5
   category: charms

@@ -1,6 +1,6 @@
 crucio:
   category: dark
-  worth: 30
+  worth: 30 ac
   effects:
     cast:
       - class: EffectSingle

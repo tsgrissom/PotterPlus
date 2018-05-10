@@ -1,6 +1,6 @@
 flagrate:
   upgrade_required_casts: 25
-  worth: 5
+  worth: 5 ac
   effects:
     cast:
       - class: EffectSingle

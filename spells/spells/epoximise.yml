@@ -1,7 +1,7 @@
 epoximise:
   inherit: colloshoo
   icon: diamond_axe:180
-  worth: 10
+  worth: 10 ac
   category: transfiguration
   effects:
     tick:

@@ -2,7 +2,7 @@ lumosmaxima:
   inherit: lumos
   upgrade_required_path: year5
   upgrade_required_casts: 50
-  worth: 10
+  worth: 10 ac
   effects:
     cast:
       - class: EffectSingle

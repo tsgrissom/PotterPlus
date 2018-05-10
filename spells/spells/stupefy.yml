@@ -4,7 +4,7 @@ stupefy:
   upgrade_required_path: year5
   upgrade_required_casts: 25
   category: dada
-  worth: 10
+  worth: 10 ac
   actions:
     cast:
       - class: CustomProjectile

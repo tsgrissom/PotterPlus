@@ -1,6 +1,7 @@
 spellshop:
   parameters:
     confirm_filler: stained_glass:5
+    cost_type: ac
 
 bookshop:
   icon: book

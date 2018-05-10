@@ -1,6 +1,6 @@
 pulvifors:
   inherit: arresto
-  worth: 5
+  worth: 5 ac
   category: charms
   effects:
     cast:

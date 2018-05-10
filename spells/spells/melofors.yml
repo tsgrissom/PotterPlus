@@ -1,7 +1,7 @@
 melofors:
   icon: diamond_axe:145
   category: transfiguration
-  worth: 10
+  worth: 10 ac
   actions:
     cast:
       - class: CustomProjectile

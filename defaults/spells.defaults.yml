@@ -1287,7 +1287,7 @@ arrow:
   icon_disabled: diamond_hoe:57
   icon_url: http://textures.minecraft.net/texture/ea96e1b8c4d458f8f5443fa66eb376981f7b2ec385386db67faf3f1589094
   category: dada
-  worth: 10
+  worth: 10 ac ac
   earns_sp: 8
   upgrade_required_path: beginner
   upgrade_required_casts: 40
@@ -14157,6 +14157,7 @@ spellshop:
     confirm: true
     auto_close: true
     confirm_filler: stained_glass:5
+    cost_type: ac
   enabled: true
 sphere:
   icon: diamond_axe:127
@@ -17432,12 +17433,12 @@ accio:
   category: charms
   inherit: pull
   enabled: true
-  worth: 10
+  worth: 10 ac ac
 aguamenti:
   category: charms
   inherit: bubble
   enabled: true
-  worth: 10
+  worth: 10 ac ac
   upgrade_required_path: year7
   upgrade_required_casts: 25
 aguamenti|2:
@@ -17447,7 +17448,7 @@ alohomora:
   inherit: admission
   category: transfiguration
   enabled: true
-  worth: 5
+  worth: 5 ac ac
 colloportus:
   icon_url: http://textures.minecraft.net/texture/dea4155d3f45e95c71b441d1a233586dd2efd99e0d85a286e41dea2a5231ab7
   icon: diamond_axe:183
@@ -17486,7 +17487,7 @@ aparecium:
     - class: Sphere
       actions:
       - class: PowerBlock
-  worth: 10
+  worth: 10 ac ac
   effects:
     cast:
     - class: EffectSingle
@@ -17531,7 +17532,7 @@ apparate:
   inherit: blink
   category: elective
   enabled: true
-  worth: 30
+  worth: 30 ac ac
   upgrade_required_path: year5
   upgrade_required_casts: 75
   effects:
@@ -17575,7 +17576,7 @@ araniaexumai:
   category: creatures
   pvp_restricted: true
   cast_on_no_target: true
-  worth: 5
+  worth: 5 ac ac
   actions:
     cast:
     - class: VelocityAction
@@ -17620,7 +17621,7 @@ snowball:
   icon_disabled: diamond_hoe:59
   category: charms
   pvp_restricted: true
-  worth: 10
+  worth: 10 ac ac
   actions:
     cast:
     - class: ChangeContext
@@ -17684,7 +17685,7 @@ ascendio:
   inherit: fling
   category: charms
   enabled: true
-  worth: 10
+  worth: 10 ac ac
   parameters:
     cooldown: 10000
 ascendio|2:
@@ -17695,7 +17696,7 @@ arresto:
   icon: diamond_axe:226
   icon_disabled: diamond_hoe:226
   category: charms
-  worth: 5
+  worth: 5 ac ac
   pvp_restricted: false
   actions:
     cast:
@@ -17726,12 +17727,12 @@ atmos:
   inherit: weather
   category: charms
   enabled: true
-  worth: 30
+  worth: 30 ac ac
 avadakedavra:
   inherit: kill
   category: dark
   enabled: true
-  worth: 50
+  worth: 50 ac ac
   actions:
     cast:
     - class: Delay
@@ -17818,7 +17819,7 @@ avis:
   icon: diamond_axe:226
   icon_disabled: diamond_hoe:226
   category: creatures
-  worth: 5
+  worth: 5 ac ac
   upgrade_required_casts: 75
   upgrade_required_path: year5
   actions:
@@ -17886,7 +17887,7 @@ bogies:
   inherit: poison
   category: dark
   enabled: true
-  worth: 15
+  worth: 15 ac ac
 bogies|2:
   parameters:
     range: 16
@@ -17905,7 +17906,7 @@ bombarda:
   icon_url: http://textures.minecraft.net/texture/70df3afc6a6035b189f83d2cfc84ff9ffe33750273247d1e41acb5a805f54
   category: dark
   pvp_restricted: true
-  worth: 20
+  worth: 20 ac
   upgrade_required_path: year4
   upgrade_required_casts: 50
   costs:
@@ -17967,7 +17968,7 @@ bubblehead:
   inherit: gills
   category: charms
   enabled: true
-  worth: 5
+  worth: 5 ac
   upgrade_required_path: year2
   upgrade_required_casts: 25
   parameters:
@@ -17977,7 +17978,7 @@ confundus:
   category: dada
   inherit: curse
   enabled: true
-  worth: 10
+  worth: 10 ac ac
 confundusmaxima:
   name: Confundus Maxima
   description: Silences a target for a Long Period!
@@ -18027,7 +18028,7 @@ conjunctivitis:
   inherit: blind
   category: dada
   enabled: true
-  worth: 10
+  worth: 10 ac ac
 conjunctivitis|2:
   parameters:
     duration: 4000
@@ -18039,7 +18040,7 @@ obscuro:
   category: dada
   pvp_restricted: true
   cast_on_no_target: true
-  worth: 10
+  worth: 10 ac
   actions:
     cast:
     - class: PotionEffect
@@ -18087,7 +18088,7 @@ crucio:
   inherit: torture
   category: dark
   enabled: true
-  worth: 30
+  worth: 30 ac
   effects:
     cast:
     - class: EffectSingle
@@ -18176,7 +18177,7 @@ deprimo:
   inherit: collapse
   category: transfiguration
   enabled: true
-  worth: 10
+  worth: 10 ac ac
 deprimo|2:
   radius: 3
   enabled: true
@@ -18230,7 +18231,7 @@ diffindo:
   category: transfiguration
   class: ConstructSpell
   cast_on_no_target: true
-  worth: 5
+  worth: 5 ac ac
   effects:
     cast:
     - class: EffectSingle
@@ -18285,14 +18286,14 @@ disillusion:
   parameters:
     target: self
   enabled: true
-  worth: 15
+  worth: 15 ac ac
 duro:
   inherit: harden
   category: transfiguration
   parameters:
     destructible: hardenable
   enabled: true
-  worth: 5
+  worth: 5 ac ac
 duro|2:
   inherit: harden|2
   enabled: true
@@ -18300,7 +18301,7 @@ spongify:
   inherit: rubberize
   category: transfiguration
   enabled: true
-  worth: 10
+  worth: 10 ac ac
 spongifymaxima:
   inherit: rubberize
   category: transfiguration
@@ -18316,11 +18317,11 @@ spongifymaxima:
   costs:
     mana: 200
   enabled: true
-  worth: 25
+  worth: 25 ac ac
 erecto:
   inherit: tent
   enabled: true
-  worth: 10
+  worth: 10 ac ac
   category: transfiguration
   parameters:
     undo: 12000
@@ -18330,7 +18331,7 @@ evanesco:
   icon: diamond_axe:230
   icon_disabled: diamond_hoe:230
   category: transfiguration
-  worth: 15
+  worth: 15 ac ac
   actions:
     cast:
     - class: PotionEffect
@@ -18355,7 +18356,7 @@ expelliarmus:
   inherit: disarm
   category: dada
   enabled: true
-  worth: 15
+  worth: 15 ac
   effects:
     hit:
     - class: EffectSingle
@@ -18394,17 +18395,17 @@ rennervate:
   inherit: cure
   category: charms
   enabled: true
-  worth: 5
+  worth: 5 ac ac
 engorgio:
   inherit: grow
   category: transfiguration
   enabled: true
-  worth: 15
+  worth: 15 ac ac
 episkey:
   inherit: heal
   category: herbology
   enabled: true
-  worth: 15
+  worth: 15 ac ac
 episkey|2:
   parameters:
     heal: 4
@@ -18446,7 +18447,7 @@ fiendfyre:
   icon_url: http://textures.minecraft.net/texture/a9e073da36aaf2c844da428cd4a19dfde32c8cdc2404eed4a135f6095b17c
   icon: diamond_axe:139
   icon_disabled: diamond_hoe:139
-  worth: 35
+  worth: 35 ac
   pvp_restricted: true
   upgrade_required_path: year7
   upgrade_required_casts: 50
@@ -18505,7 +18506,7 @@ finiteincantatem:
   inherit: counterspell
   category: dada
   enabled: true
-  worth: 20
+  worth: 20 ac ac
   alias: finite
 finiteincantatem|2:
   parameters:
@@ -18524,7 +18525,7 @@ flagrate:
   icon: diamond_axe:29
   icon_disabled: diamond_hoe:29
   category: charms
-  worth: 5
+  worth: 5 ac
   earns_sp: 1
   effects:
     cast:
@@ -18551,7 +18552,7 @@ rictusempra:
   category: charms
   pvp_restricted: true
   cast_on_no_target: true
-  worth: 5
+  worth: 5 ac ac
   actions:
     cast:
     - class: VelocityAction
@@ -18607,7 +18608,7 @@ ventus:
   category: dada
   inherit: push
   enabled: true
-  worth: 10
+  worth: 10 ac ac
 flipendo:
   icon: diamond_axe:32
   icon_disabled: diamond_hoe:32
@@ -18615,7 +18616,7 @@ flipendo:
   category: dada
   pvp_restricted: true
   cast_on_no_target: true
-  worth: 5
+  worth: 5 ac ac
   actions:
     cast:
     - class: VelocityAction
@@ -18688,7 +18689,7 @@ flipendo|3:
 flight:
   inherit: false
   icon: diamond_axe:134
-  worth: 30
+  worth: 30 ac
   show_undoable: false
   quick_cast: false
   cancel_effects: true
@@ -18734,7 +18735,7 @@ fourpoint:
   icon: diamond_axe:189
   icon_disabled: diamond_hoe:189
   category: elective
-  worth: 5
+  worth: 5 ac
   upgrade_required_path: 3
   upgrade_required_casts: 25
   actions:
@@ -18785,7 +18786,7 @@ fumos:
   enabled: true
   upgrade_required_path: year4
   upgrade_required_casts: 50
-  worth: 5
+  worth: 5 ac
   effects:
     cast:
     - class: EffectSingle
@@ -18872,7 +18873,7 @@ immobulus:
   category: dada
   pvp_restricted: true
   cast_on_no_target: true
-  worth: 10
+  worth: 10 ac ac
   actions:
     cast:
     - class: PotionEffectAction
@@ -18936,7 +18937,7 @@ locomotomortus:
   category: dada
   pvp_restricted: true
   cast_on_no_target: true
-  worth: 10
+  worth: 10 ac ac
   actions:
     cast:
     - class: PotionEffectAction
@@ -18980,21 +18981,21 @@ incarcerous:
   inherit: entangle
   category: dark
   enabled: true
-  worth: 10
+  worth: 10 ac ac
   parameters:
     brush: fence
 imperio:
   inherit: force
   category: dark
   enabled: true
-  worth: 40
+  worth: 40 ac ac
 impervius:
   icon_url: http://textures.minecraft.net/texture/5aacdf52fae9b3c03bf0ab4b705a44ceddb9a9df57bda0b863d0b7bc84c27e
   icon: diamond_axe:186
   icon_disabled: diamond_hoe:186
   category: transfiguration
   class: ConstructSpell
-  worth: 15
+  worth: 15 ac
   cast_on_no_target: true
   effects:
     cast:
@@ -19020,7 +19021,7 @@ incendio:
   category: charms
   inherit: fire
   enabled: true
-  worth: 10
+  worth: 10 ac ac
 incendio|2:
   inherit: fire|2
   enabled: true
@@ -19033,7 +19034,7 @@ lacarnum:
   icon_disabled: diamond_hoe:153
   category: charms
   pvp_restricted: true
-  worth: 20
+  worth: 20 ac
   actions:
     cast:
     - class: Projectile
@@ -19098,7 +19099,7 @@ legilimens:
   icon_url: http://textures.minecraft.net/texture/3bc9de58822a3f7c6c23e212cf954fc728a6b2e45c54a89b4af5e453d39b1
   category: elective
   cast_on_no_target: true
-  worth: 15
+  worth: 15 ac
   costs:
     mana: 45
   actions:
@@ -19142,7 +19143,7 @@ legilimens:
   enabled: true
 levicorpus:
   inherit: false
-  worth: 15
+  worth: 15 ac
   icon_url: http://textures.minecraft.net/texture/3f6c497d587c1398ae29cb648a9707fbe974a651cf88c6a2296442db4f6fa5c
   icon: diamond_axe:227
   category: dada
@@ -19215,7 +19216,7 @@ lumos:
   icon_disabled: diamond_hoe:228
   category: charms
   icon_url: http://textures.minecraft.net/texture/4abfe52d50f710f4103bc650b5e972d49832ea419841d9fa24e16ce617c716
-  worth: 10
+  worth: 10 ac
   actions:
     cast:
     - class: AreaOfEffectAction
@@ -19261,7 +19262,7 @@ lumossolem:
   actions:
     cast:
     - class: ThrowBlock
-  worth: 10
+  worth: 10 ac
   effects:
     cast:
     - class: EffectSingle
@@ -19328,14 +19329,14 @@ orchideous:
   category: herbology
   inherit: pollinate
   enabled: true
-  worth: 5
+  worth: 5 ac ac
   parameters:
     undo: 2000
 periculum:
   inherit: flare
   category: charms
   enabled: true
-  worth: 5
+  worth: 5 ac
   upgrade_required_path: year5
   upgrade_required_casts: 75
   actions:
@@ -19401,14 +19402,14 @@ petrificustotalus:
   inherit: petrify
   category: dada
   enabled: true
-  worth: 20
+  worth: 20 ac ac
 piertotum:
   icon_url: http://textures.minecraft.net/texture/b47685bb689895deea831ce92bc339d1b1d63b7782f98f252abc09447fbcf8f
   icon: diamond_axe:53
   icon_disabled: diamond_hoe:53
   category: transfiguration
   class: FamiliarSpell
-  worth: 25
+  worth: 25 ac
   effects:
     cast:
     - class: EffectSingle
@@ -19442,7 +19443,7 @@ protego:
   category: dada
   inherit: reflect
   enabled: true
-  worth: 15
+  worth: 15 ac
   upgrade_required_path: year4
   upgrade_required_casts: 75
   parameters:
@@ -19514,7 +19515,7 @@ reducio:
   inherit: shrink
   category: transfiguration
   enabled: true
-  worth: 10
+  worth: 10 ac ac
 reducio|2:
   parameters:
     player_damage: 2
@@ -19531,7 +19532,7 @@ reducto:
   inherit: blast
   category: charms
   enabled: true
-  worth: 10
+  worth: 10 ac ac
 reducto|2:
   parameters:
     radius: 2
@@ -19585,7 +19586,7 @@ salviohexia:
   icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
   category: dada
   tags: noduel
-  worth: 10
+  worth: 10 ac
   hidden: false
   upgrade_required_path: year7
   upgrade_required_casts: 50
@@ -19683,7 +19684,7 @@ sectumsempra:
   inherit: wound
   category: dark
   enabled: true
-  worth: 20
+  worth: 20 ac ac
 silencio:
   icon_url: http://textures.minecraft.net/texture/ad7e09a7af7af5acc286e6a4dd3c2f69b55ace33b7838ca899545570e946ee
   icon: diamond_axe:8
@@ -19865,7 +19866,7 @@ stupefy:
   upgrade_required_path: year5
   upgrade_required_casts: 25
   category: dada
-  worth: 10
+  worth: 10 ac
   actions:
     cast:
     - class: CustomProjectile
@@ -19954,7 +19955,7 @@ vermillious:
   icon_disabled: diamond_hoe:159
   category: charms
   pvp_restricted: true
-  worth: 10
+  worth: 10 ac
   actions:
     cast:
     - class: DamageAction
@@ -20039,7 +20040,7 @@ vermillious|3:
 colorvaria:
   inherit: superalter
   category: transfiguration
-  worth: 5
+  worth: 5 ac ac
   parameters:
     range: 16
     depth: 8
@@ -20057,14 +20058,14 @@ meteo:
   inherit: day
   enabled: true
   quick_cast: false
-  worth: 30
+  worth: 30 ac ac
 nox:
   icon_url: http://textures.minecraft.net/texture/ac60643368ba49652b36989878bf296e25d5b3d7526f283ef8cd7470a7a51e8
   icon: diamond_axe:166
   icon_disabled: diamond_hoe:166
   category: charms
   cast_on_no_target: true
-  worth: 5
+  worth: 5 ac ac
   actions:
     cast:
     - class: PotionEffectAction
@@ -20099,7 +20100,7 @@ vulnera:
   icon_disabled: diamond_hoe:44
   category: herbology
   cast_on_no_target: true
-  worth: 25
+  worth: 25 ac ac
   pvp_restricted: false
   actions:
     cast:
@@ -20146,7 +20147,7 @@ ferula:
   icon_disabled: diamond_hoe:46
   category: herbology
   cast_on_no_target: true
-  worth: 20
+  worth: 20 ac ac
   pvp_restricted: false
   actions:
     cast:
@@ -20186,7 +20187,7 @@ wingardium:
   inherit: lift
   category: charms
   enabled: true
-  worth: 5
+  worth: 5 ac ac
   effects:
     cast:
     - class: EffectSingle
@@ -20234,7 +20235,7 @@ revelio:
   icon: diamond_axe:74
   icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
   category: charms
-  worth: 10
+  worth: 10 ac
   costs:
     mana: 20
   actions:
@@ -20356,7 +20357,7 @@ confringo:
   icon_disabled: diamond_hoe:153
   category: dark
   pvp_restricted: true
-  worth: 25
+  worth: 25 ac ac
   actions:
     cast:
     - class: ProjectileAction
@@ -20414,7 +20415,7 @@ firestorm:
   icon_disabled: diamond_hoe:144
   category: dark
   pvp_restricted: true
-  worth: 20
+  worth: 20 ac
   upgrade_required_casts: 50
   upgrade_required_path: year6
   actions:
@@ -20470,7 +20471,7 @@ tripudio:
   icon_url: http://textures.minecraft.net/texture/58c573cefdc8cc1b8c894340cb54ab343523ec2ffa0afc7536968391ae1e7
   icon: diamond_axe:11
   icon_disabled: diamond_hoe:11
-  worth: 5
+  worth: 5 ac ac
   actions:
     cast:
     - class: PotionEffectAction
@@ -20505,7 +20506,7 @@ volo:
   icon: diamond_axe:11
   icon_disabled: diamond_hoe:11
   category: charms
-  worth: 5
+  worth: 5 ac ac
   actions:
     cast:
     - class: PotionEffectAction
@@ -20684,7 +20685,7 @@ patronus:
   icon: diamond_axe:131
   icon_disabled: diamond_hoe:131
   category: charms
-  worth: 15
+  worth: 15 ac
   costs:
     mana: 50
   actions:
@@ -21384,7 +21385,7 @@ reveal:
   enabled: true
 aquaeructo:
   category: charms
-  worth: 15
+  worth: 15 ac ac
   inherit: stream
   enabled: true
 aquaeructo|2:
@@ -21407,7 +21408,7 @@ aberto:
 alarteascendare:
   icon: diamond_axe:150
   category: charms
-  worth: 10
+  worth: 10 ac ac
   actions:
     cast:
     - class: CustomProjectile
@@ -21545,7 +21546,7 @@ avis|3:
   enabled: true
 baubillious:
   inherit: chainlightning
-  worth: 20
+  worth: 20 ac ac
   upgrade_required_path: year6
   upgrade_required_casts: 25
   effects:
@@ -21590,7 +21591,7 @@ brachiabindo:
   enabled: true
 brackiumemendo:
   inherit: ferula
-  worth: 10
+  worth: 10 ac
   icon_url: http://textures.minecraft.net/texture/964590674dbaf76126bd87694bfe97575be8de19aac4a8d9aa5579f8f01ed1
   category: herbology
   actions:
@@ -21635,7 +21636,7 @@ bruchumaculeatos:
   category: dark
   icon: diamond_axe:151
   icon_url: http://textures.minecraft.net/texture/c7142a19d8c84389da74b69641542b8b2fafbed8f7515d1d36c63c96bd749
-  worth: 20
+  worth: 20 ac
   upgrade_required_path: year6
   upgrade_required_casts: 25
   costs:
@@ -21712,7 +21713,7 @@ cantis:
   category: charms
   icon_url: http://textures.minecraft.net/texture/ad7e09a7af7af5acc286e6a4dd3c2f69b55ace33b7838ca899545570e946ee
   icon: diamond_axe:8
-  worth: 5
+  worth: 5 ac
   costs:
     mana: 15
   actions:
@@ -21752,7 +21753,7 @@ cantis:
   enabled: true
 carperetractum:
   icon: diamond_axe:198
-  worth: 10
+  worth: 10 ac
   upgrade_required_casts: 75
   upgrade_required_path: year5
   category: charms
@@ -21828,7 +21829,7 @@ carperetractum|2:
 colloshoo:
   category: dada
   icon: diamond_axe:180
-  worth: 10
+  worth: 10 ac
   upgrade_required_casts: 25
   upgrade_required_path: year3
   effects:
@@ -21892,7 +21893,7 @@ colloshoo|4:
 defodio:
   icon: diamond_axe:108
   category: charms
-  worth: 15
+  worth: 15 ac
   class: ConstructSpell
   upgrade_required_casts: 75
   upgrade_required_path: year5
@@ -21930,7 +21931,7 @@ depulso:
   category: charms
   upgrade_required_path: year5
   upgrade_required_casts: 25
-  worth: 10
+  worth: 10 ac
   effects:
     cast:
     - class: EffectSingle
@@ -21960,7 +21961,7 @@ despello:
   icon_url: http://textures.minecraft.net/texture/ad7e09a7af7af5acc286e6a4dd3c2f69b55ace33b7838ca899545570e946ee
   icon: diamond_axe:8
   category: charms
-  worth: 5
+  worth: 5 ac
   upgrade_required_path: year2
   upgrade_required_casts: 25
   actions:
@@ -22009,7 +22010,7 @@ emancipare:
   icon: diamond_axe:177
   icon_url: http://textures.minecraft.net/texture/b2545861d5871f75caa3b378ec44655bcb3d6cabe697b27303dbdaa8b5b5
   category: charms
-  worth: 10
+  worth: 10 ac
   costs:
     mana: 20
   actions:
@@ -22033,7 +22034,7 @@ emancipare:
 epoximise:
   inherit: colloshoo
   icon: diamond_axe:180
-  worth: 10
+  worth: 10 ac
   category: transfiguration
   effects:
     tick:
@@ -22050,7 +22051,7 @@ evertestatum:
   icon_url: http://textures.minecraft.net/texture/c7142a19d8c84389da74b69641542b8b2fafbed8f7515d1d36c63c96bd749
   category: dada
   pvp_restricted: true
-  worth: 10
+  worth: 10 ac
   upgrade_required_path: year3
   upgrade_required_casts: 25
   actions:
@@ -22104,7 +22105,7 @@ expulso:
   icon: diamond_axe:161
   icon_url: http://textures.minecraft.net/texture/436cb244bd2a9c1734f2db6517a973a91b1773f02ca4b481af5f24d17bb1496
   category: dark
-  worth: 20
+  worth: 20 ac
   pvp_restricted: true
   upgrade_required_path: year7
   upgrade_required_casts: 50
@@ -22182,7 +22183,7 @@ felixleporemos:
   icon: diamond_axe:46
   upgrade_required_casts: 25
   upgrade_required_path: year2
-  worth: 5
+  worth: 5 ac ac
   costs:
     mana: 15
   actions:
@@ -22275,7 +22276,7 @@ fiendfyre|2:
 finestra:
   icon: diamond_axe:108
   category: charms
-  worth: 15
+  worth: 15 ac
   class: ConstructSpell
   upgrade_required_casts: 75
   upgrade_required_path: year5
@@ -22320,7 +22321,7 @@ flagellos:
   category: dark
   upgrade_required_path: year4
   upgrade_required_casts: 50
-  worth: 15
+  worth: 15 ac
   effects:
     hit:
     - class: EffectSingle
@@ -22423,7 +22424,7 @@ frigusignatus:
   icon: diamond_axe:139
   upgrade_required_casts: 25
   upgrade_required_path: year4
-  worth: 5
+  worth: 5 ac
   actions:
     cast:
     - class: PotionEffect
@@ -22519,7 +22520,7 @@ furnunculus:
   icon: diamond_axe:159
   upgrade_required_path: year7
   upgrade_required_casts: 25
-  worth: 15
+  worth: 15 ac
   actions:
     cast:
     - class: CustomProjectile
@@ -22604,7 +22605,7 @@ furnunculus|2:
 glisseo:
   icon: diamond_axe:37
   category: transfiguration
-  worth: 20
+  worth: 20 ac
   class: ConstructSpell
   upgrade_required_path: year7
   upgrade_required_casts: 100
@@ -22638,7 +22639,7 @@ glisseo|2:
 herbifors:
   icon: diamond_axe:41
   category: herbology
-  worth: 5
+  worth: 5 ac
   effects:
     cast:
     - class: EffectSingle
@@ -22683,7 +22684,7 @@ homenumrevelio:
   icon: diamond_axe:74
   icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
   category: charms
-  worth: 10
+  worth: 10 ac
   costs:
     mana: 40
   actions:
@@ -22721,7 +22722,7 @@ homenumrevelio:
 ignisdisceditus:
   icon: diamond_axe:33
   category: charms
-  worth: 5
+  worth: 5 ac
   class: ConstructSpell
   effects:
     cast:
@@ -22754,7 +22755,7 @@ impedimenta:
   category: dada
   upgrade_required_path: year4
   upgrade_required_casts: 25
-  worth: 20
+  worth: 20 ac
   actions:
     cast:
     - class: CustomProjectile
@@ -22836,7 +22837,7 @@ impedimenta|3:
   enabled: true
 incarcifors:
   inherit: cage
-  worth: 25
+  worth: 25 ac
   category: transfiguration
   cast_on_no_target: false
   parameters:
@@ -22861,7 +22862,7 @@ lapifors|3:
 liberacorpus:
   category: charms
   icon: diamond_axe:136
-  worth: 10
+  worth: 10 ac
   effects:
     cast:
     - class: EffectSingle
@@ -22930,7 +22931,7 @@ limusexumai|3:
 locomotorwibbly:
   icon: diamond_axe:145
   category: dada
-  worth: 10
+  worth: 10 ac
   upgrade_required_casts: 75
   upgrade_required_path: year5
   effects:
@@ -22996,7 +22997,7 @@ lumosmaxima:
   inherit: lumos
   upgrade_required_path: year5
   upgrade_required_casts: 50
-  worth: 10
+  worth: 10 ac
   effects:
     cast:
     - class: EffectSingle
@@ -23033,7 +23034,7 @@ lumossolem|3:
 melofors:
   icon: diamond_axe:145
   category: transfiguration
-  worth: 10
+  worth: 10 ac
   actions:
     cast:
     - class: CustomProjectile
@@ -23092,7 +23093,7 @@ multabasiorum:
   icon: diamond_axe:161
   icon_url: http://textures.minecraft.net/texture/436cb244bd2a9c1734f2db6517a973a91b1773f02ca4b481af5f24d17bb1496
   category: dada
-  worth: 20
+  worth: 20 ac
   upgrade_required_path: year5
   upgrade_required_casts: 50
   actions:
@@ -23159,7 +23160,7 @@ obliviate:
   category: charms
   icon_url: http://textures.minecraft.net/texture/89f9399aceb3211c3ca1259d5b1bb1f3fb61a4d5626a757ee1a1ccec28a0ae
   icon: diamond_axe:230
-  worth: 25
+  worth: 25 ac
   costs:
     mana: 40
   actions:
@@ -23194,7 +23195,7 @@ obliviatemaxima:
   category: staff
   icon_url: http://textures.minecraft.net/texture/89f9399aceb3211c3ca1259d5b1bb1f3fb61a4d5626a757ee1a1ccec28a0ae
   icon: diamond_axe:230
-  worth: 30
+  worth: 30 ac
   costs:
     mana: 75
   actions:
@@ -23302,7 +23303,7 @@ patronus|3:
 percutios:
   inherit: smite
   category: dark
-  worth: 25
+  worth: 25 ac
   actions:
     cast:
     - class: Lightning
@@ -23367,7 +23368,7 @@ protegototalus:
   icon_url: http://textures.minecraft.net/texture/9330f3a837c4a358fa62f2b684c5c4c2dadf799c0fe9be8f4a4aecace62a
   category: dada
   tags: noduel
-  worth: 20
+  worth: 20 ac
   upgrade_required_path: year6
   upgrade_required_casts: 50
   costs:
@@ -23433,7 +23434,7 @@ pulsus|2:
   enabled: true
 pulvifors:
   inherit: arresto
-  worth: 5
+  worth: 5 ac
   category: charms
   effects:
     cast:
@@ -23478,7 +23479,7 @@ salviohexia|2:
 scribblifors:
   icon: diamond_axe:118
   category: transfiguration
-  worth: 5
+  worth: 5 ac
   effects:
     cast:
     - class: EffectSingle
@@ -23502,7 +23503,7 @@ scribblifors:
   enabled: true
 sluguluseructo:
   inherit: bogies
-  worth: 15
+  worth: 15 ac
   category: dark
   upgrade_required_path: year3
   upgrade_required_casts: 75
@@ -23570,7 +23571,7 @@ stupefy|4:
   enabled: true
 tarantallegra:
   icon: diamond_axe:163
-  worth: 10
+  worth: 10 ac
   category: charms
   effects:
     hit_entity:
@@ -23617,7 +23618,7 @@ tarantallegra:
 titillando:
   icon: diamond_axe:163
   category: dada
-  worth: 10
+  worth: 10 ac
   upgrade_required_path: year6
   upgrade_required_casts: 75
   actions:
@@ -23753,7 +23754,7 @@ verdimillious|3:
 waddiwasi:
   inherit: colloshoo
   icon: diamond_axe:133
-  worth: 10
+  worth: 10 ac
   category: charms
   effects:
     tick:

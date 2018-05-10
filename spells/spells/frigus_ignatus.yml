@@ -5,7 +5,7 @@ frigusignatus:
   icon: diamond_axe:139
   upgrade_required_casts: 25
   upgrade_required_path: year4
-  worth: 5
+  worth: 5 ac
   actions:
     cast:
       - class: PotionEffect

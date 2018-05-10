@@ -4,7 +4,7 @@ legilimens:
   icon_url: http://textures.minecraft.net/texture/3bc9de58822a3f7c6c23e212cf954fc728a6b2e45c54a89b4af5e453d39b1
   category: elective
   cast_on_no_target: true
-  worth: 15
+  worth: 15 ac
   costs:
     mana: 45
   actions:

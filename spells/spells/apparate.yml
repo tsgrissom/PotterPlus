@@ -1,5 +1,5 @@
 apparate:
-  worth: 30
+  worth: 30 ac ac
   inherit: blink
   upgrade_required_path: year5
   upgrade_required_casts: 75

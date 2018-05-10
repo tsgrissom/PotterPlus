@@ -1,7 +1,7 @@
 liberacorpus:
   category: charms
   icon: diamond_axe:136
-  worth: 10
+  worth: 10 ac
   effects:
     cast:
       - class: EffectSingle

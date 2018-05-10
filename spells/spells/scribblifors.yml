@@ -1,7 +1,7 @@
 scribblifors:
   icon: diamond_axe:118
   category: transfiguration
-  worth: 5
+  worth: 5 ac
   effects:
     cast:
       - class: EffectSingle

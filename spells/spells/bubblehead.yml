@@ -1,5 +1,5 @@
 bubblehead:
-  worth: 5
+  worth: 5 ac
   category: charms
   upgrade_required_path: year2
   upgrade_required_casts: 25

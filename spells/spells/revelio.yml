@@ -3,7 +3,7 @@ revelio:
   icon: diamond_axe:74
   icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
   category: charms
-  worth: 10
+  worth: 10 ac
   costs:
     mana: 20
   actions:

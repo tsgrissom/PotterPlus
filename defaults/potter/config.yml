@@ -37,7 +37,7 @@ enable_crafting: false
 # Custom physical economy
 currency:
   emerald:
-    worth: 1
+    worth: 1 ac
     name: Galleon
     name_plural: Galleons
     

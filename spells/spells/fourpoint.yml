@@ -3,7 +3,7 @@ fourpoint:
   icon: diamond_axe:189
   icon_disabled: diamond_hoe:189
   category: elective
-  worth: 5
+  worth: 5 ac
   upgrade_required_path: 3
   upgrade_required_casts: 25
   actions:

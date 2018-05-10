@@ -4,7 +4,7 @@ patronus:
   icon: diamond_axe:131
   icon_disabled: diamond_hoe:131
   category: charms
-  worth: 15
+  worth: 15 ac
   costs:
     mana: 50
   actions:

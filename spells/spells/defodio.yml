@@ -1,7 +1,7 @@
 defodio:
   icon: diamond_axe:108
   category: charms
-  worth: 15
+  worth: 15 ac
   class: ConstructSpell
   upgrade_required_casts: 75
   upgrade_required_path: year5

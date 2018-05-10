@@ -1,7 +1,7 @@
 herbifors:
   icon: diamond_axe:41
   category: herbology
-  worth: 5
+  worth: 5 ac
   effects:
     cast:
       - class: EffectSingle

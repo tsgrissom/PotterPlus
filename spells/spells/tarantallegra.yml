@@ -1,6 +1,6 @@
 tarantallegra:
   icon: diamond_axe:163
-  worth: 10
+  worth: 10 ac
   category: charms
   effects:
     hit_entity:

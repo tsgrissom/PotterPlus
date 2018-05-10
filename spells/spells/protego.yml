@@ -1,5 +1,5 @@
 protego:
-  worth: 15
+  worth: 15 ac
   upgrade_required_path: year4
   upgrade_required_casts: 75
   parameters:
