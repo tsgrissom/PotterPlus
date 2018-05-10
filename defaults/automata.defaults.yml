@@ -68,6 +68,30 @@ base_spawner:
     limit: 6
     radius: 64
     vertical_radius: 24
+bowtruckle_spawner:
+  inherit: base_spawner
+  interval: 3000
+  spawn:
+    limit: 0.6
+    probability: 0.8
+    mobs:
+      bowtruckle: 100
+centaur_spawner:
+  inherit: base_spawner
+  interval: 20000
+  spawn:
+    limit: 2
+    probability: 0.4
+    mobs:
+      centaur: 100
+erkling_spawner:
+  inherit: base_spawner
+  interval: 16000
+  spawn:
+    limit: 3
+    probability: 0.5
+    mobs:
+      erkling: 100
 erumpent_spawner:
   inherit: base_spawner
   name: Erumpent Spawner

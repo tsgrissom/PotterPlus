@@ -43,7 +43,6 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Floopowder
 * Dungbombs
 * Bombs
-* Key -> Casts a short range unlocking charm
 * Brooms
 * Invisibility cloak -> Armor which casts an Invisibility spell
 * Deluminator -> Eliminates lights in the area

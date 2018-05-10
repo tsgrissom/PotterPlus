@@ -21408,6 +21408,20 @@ gillyweed_ability:
   costs:
     mana: 25
   enabled: true
+key_ability:
+  inherit: alohomora
+  icon: shears
+  parameters:
+    cooldown: 1000
+    range: 4
+  enabled: true
+skeleton_key_ability:
+  inherit: alohomora|2
+  icon: shears
+  parameters:
+    cooldown: 500
+    range: 6
+  enabled: true
 portable_swamp_ability:
   inherit: incarcifors
   icon: water_lily

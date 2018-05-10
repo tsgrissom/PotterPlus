@@ -310,17 +310,29 @@ handbag:
 key:
   mode: cast
   quiet: 2
-  active_spell: alohomora
+  active_spell: key_ability
   icon: shears
   indestructible: false
   locked: true
   effect_color: FFFFFF
-  uses: 1
+  uses: 5
   overrides: range 5
   cost_reduction: 2
   spells:
-  - alohomora
-  enabled: false
+  - key_ability
+  inherit: base_wand
+  display_name: $name
+  lore:
+  - $description
+  - ''
+  - $uses
+  mana: 50
+  mana_regeneration: 25
+  undroppable: false
+  drop: none
+  swap: none
+  left_click: cast
+  right_click: cast
 deluminator:
   mode: cast
   quiet: 2
@@ -885,13 +897,11 @@ whiteeffects:
   indestructible: false
   icon: carpet:0
   effect_color: FFFFFF
-  enabled: false
 orangeeffects:
   upgrade: true
   indestructible: false
   icon: carpet:1
   effect_color: FFAA00
-  enabled: false
 magentaeffects:
   upgrade: true
   indestructible: false
@@ -907,13 +917,11 @@ yelloweffects:
   indestructible: false
   icon: carpet:4
   effect_color: FFFF00
-  enabled: false
 greeneffects:
   upgrade: true
   indestructible: false
   icon: carpet:5
   effect_color: 00FF00
-  enabled: false
 pinkeffects:
   upgrade: true
   indestructible: false
@@ -934,19 +942,16 @@ aquaeffects:
   indestructible: false
   icon: carpet:9
   effect_color: 00FFFF
-  enabled: false
 purpleeffects:
   upgrade: true
   indestructible: false
   icon: carpet:10
   effect_color: '800080'
-  enabled: false
 blueeffects:
   upgrade: true
   indestructible: false
   icon: carpet:11
   effect_color: 0000FF
-  enabled: false
 browneffects:
   upgrade: true
   indestructible: false
@@ -962,13 +967,11 @@ redeffects:
   indestructible: false
   icon: carpet:14
   effect_color: FF0000
-  enabled: false
 blackeffects:
   upgrade: true
   indestructible: false
   icon: carpet:15
   effect_color: '010101'
-  enabled: false
 randomeffects:
   upgrade: true
   indestructible: false
@@ -1040,6 +1043,12 @@ gillyweed:
   active_spell: gillyweed_ability
   spells:
   - gillyweed_ability
+skeletonkey:
+  inherit: key
+  uses: 3
+  active_spell: skeleton_key_ability
+  spells:
+  - skeleton_key_ability
 music_box:
   inherit: conductors_wand
   icon: note_block

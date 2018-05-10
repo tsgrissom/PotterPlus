@@ -16,9 +16,6 @@ bombs:
 handbag:
   enabled: false
 
-key:
-  enabled: false
-
 # Brooms
 
 thestral:

@@ -40,3 +40,13 @@ wands:
     description: "&aDeploys a portable swamp wherever you are"
     spell_instructions: ""
     bound_instructions: ""
+  key:
+    name: "&7Key"
+    description: "&8Unlocks most doors for a limited time"
+    spell_instructions: ""
+    bound_instructions: ""
+  skeletonkey:
+    name: "&7Skeleton Key"
+    description: "&8Unlocks all doors for a limited time"
+    spell_instructions: ""
+    bound_instructions: ""

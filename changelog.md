@@ -2,6 +2,7 @@
 
 Changes are organized here for record-keeping purposes. Most recent changes are at the top.
 
+* 5/9/18 - Added Key and Skeleton Key items
 * 5/9/18 - Added spawners for Erklings, Bowtruckles, and Centaurs
 * 5/9/18 - Added AC drops to some Magic Mobs
 * 5/9/18 - Re-worked Flagellos

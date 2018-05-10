@@ -1,0 +1,24 @@
+# Wands
+
+unspeakable:
+  enabled: false
+
+slytherinwand:
+  enabled: false
+
+crudwand:
+  enabled: false
+
+video:
+  enabled: false
+
+flappy:
+  enabled: false
+
+squib:
+  enabled: false
+
+# Effects
+
+rainboweffects:
+  enabled: false

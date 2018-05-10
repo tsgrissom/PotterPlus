@@ -2955,6 +2955,12 @@ spells:
   portable_swamp_ability:
     name: Portable Swamp Ability
     description: Creates a portable swamp
+  key_ability:
+    name: Key Ability
+    description: Unlocks some doors
+  skeleton_key_ability:
+    name: Skeleton Key Ability
+    description: Unlocks any door
 wand:
   default_name: Wand
   upgrade_default_description: Will upgrade your wand.
@@ -3690,8 +3696,10 @@ wands:
     name: Beaded Handbag
     description: It's quite large on the inside
   key:
-    name: Key
-    description: Used to unlock a door
+    name: '&7Key'
+    description: '&8Unlocks most doors for a limited time'
+    spell_instructions: ''
+    bound_instructions: ''
   deluminator:
     name: Deluminator
     description: Snuff out all light in the area
@@ -3744,6 +3752,11 @@ wands:
   portableswamp:
     name: '&2Portable Swamp'
     description: '&aDeploys a portable swamp wherever you are'
+    spell_instructions: ''
+    bound_instructions: ''
+  skeletonkey:
+    name: '&7Skeleton Key'
+    description: '&8Unlocks all doors for a limited time'
     spell_instructions: ''
     bound_instructions: ''
 automata:

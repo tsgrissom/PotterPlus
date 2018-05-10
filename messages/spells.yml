@@ -705,3 +705,9 @@ spells:
   portable_swamp_ability:
     name: "Portable Swamp Ability"
     description: "Creates a portable swamp"
+  key_ability:
+    name: "Key Ability"
+    description: "Unlocks some doors"
+  skeleton_key_ability:
+    name: "Skeleton Key Ability"
+    description: "Unlocks any door"

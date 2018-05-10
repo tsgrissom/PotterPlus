@@ -1,0 +1,6 @@
+skeletonkey:
+  inherit: key
+  uses: 3
+  active_spell: skeleton_key_ability
+  spells:
+    - skeleton_key_ability

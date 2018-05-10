@@ -1,0 +1,19 @@
+key:
+  inherit: base_wand
+  icon: shears
+  display_name: "$name"
+  lore:
+    - '$description'
+    - ''
+    - '$uses'
+  mana: 50
+  mana_regeneration: 25
+  undroppable: false
+  drop: none
+  swap: none
+  left_click: cast
+  right_click: none
+  uses: 5
+  active_spell: key_ability
+  spells:
+    - key_ability

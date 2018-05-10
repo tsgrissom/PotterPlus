@@ -1,0 +1,6 @@
+skeleton_key_ability:
+  inherit: alohomora|2
+  icon: shears
+  parameters:
+    cooldown: 500
+    range: 6
