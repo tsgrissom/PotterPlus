@@ -2,6 +2,8 @@
 
 Changes are organized here for record-keeping purposes. Most recent changes are at the top.
 
+* 5/9/18 - Re-worked Flagellos
+* 5/9/18 - Re-worked Alohomora and Aberto
 * 5/9/18 - Added Portable Swamps
 * 5/9/18 - Converted to use custom currency system
 * 5/9/18 - Removed all custom messages in preparation for overhaul

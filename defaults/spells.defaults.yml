@@ -22388,15 +22388,29 @@ flagellos:
   inherit: whip
   category: dark
   upgrade_required_path: year4
-  upgrade_required_casts: 50
+  upgrade_required_casts: 75
   worth: 15 ac
   effects:
+    tick:
+    - location: target
+      particle: spell_instant
+      particle_count: 4
+      particle_offset_x: 0.05
+      particle_offset_y: 0.05
+      particle_offset_z: 0.05
+    - location: target
+      particle: redstone
+      color: '000000'
+      particle_count: 4
+      particle_offset_x: 0.05
+      particle_offset_y: 0.05
+      particle_offset_z: 0.05
     hit:
     - class: EffectSingle
       sound: magic.zap_crack
       sound_volume: 0.3
       location: target
-      particle: explosion_normal
+      particle: explosion_large
     hit_entity:
     - class: EffectSingle
       location: target

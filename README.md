@@ -29,14 +29,13 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Check if `enchanting.yml` is even a thing anymore
 * Add stuff for post-graduation (more classes, paths, and exclusive spells)
 * Make mobs more aggressive as they get damaged with `min_damage` flags, etc.
+* Make mobs not drop SP items
 
 ### Known bugs
 
 #### Spells
 
 * Obliviate Maxima doesn't work, Obliviate does
-* Some spells give errors on load and don't appear, can't seem to see what's wrong with them (`flagellos`, `multabasorium`, `incarcifors`, `baubillious`)
-* Wingardium Leviosa doesn't actually lift blocks like it used to
 
 ### Other ideas
 
