@@ -17,4 +17,5 @@ year7:
   required_spells:
     - protegomaxima
   upgrade_commands:
-    - broadcast §6@pd §3has graduated from their school!
+    - 'title @pn title {"text":"&6Graduated from school"}'
+    - 'title @pn subtitle {"text":"&eWhat lies ahead?"}'

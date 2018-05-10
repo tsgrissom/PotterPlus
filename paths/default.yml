@@ -1,0 +1,14 @@
+default:
+  effects:
+    upgrade:
+      - class: EffectSingle
+        effectlib:
+          class: Sphere
+          particle: enchantment_table
+          radius: 2
+          radiusIncrease: 0.1
+          iterations: 100
+    enchant: []
+  upgrade_commands:
+    - 'title @pn title {"text":"&dGraduated to $path"}'
+    - 'title @pn subtitle {"text":"&5New spells are available!"}'
