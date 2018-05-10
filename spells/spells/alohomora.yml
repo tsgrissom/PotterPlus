@@ -1,10 +1,13 @@
-aberto:
-  inherit: alohomora|2
+alohomora:
+  worth: 5 ac
+  category: charms
+  upgrade_required_path: year2
+  upgrade_required_casts: 50
   effects:
     cast:
       - sound: magic.shimmer
       - class: EffectTrail
-        particle: spell
+        particle: crit
         color: false
         particle_data: 2
         particle_count: 20
@@ -18,10 +21,15 @@ aberto:
     no_target:
       - sound: magic.shimmer
       - class: EffectTrail
-        particle: spell
+        particle: crit
         color: false
         particle_data: 2
         particle_count: 10
         particle_offset_x: 0.2
         particle_offset_y: 0.2
         particle_offset_z: 0.2
+
+alohomora|2:
+  parameters:
+    range: 32
+    destructible: doors

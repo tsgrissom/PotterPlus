@@ -17433,12 +17433,12 @@ accio:
   category: charms
   inherit: pull
   enabled: true
-  worth: 10 ac ac
+  worth: 10 ac
 aguamenti:
   category: charms
   inherit: bubble
   enabled: true
-  worth: 10 ac ac
+  worth: 10 ac
   upgrade_required_path: year7
   upgrade_required_casts: 25
 aguamenti|2:
@@ -17446,9 +17446,36 @@ aguamenti|2:
   enabled: true
 alohomora:
   inherit: admission
-  category: transfiguration
+  category: charms
   enabled: true
-  worth: 5 ac ac
+  worth: 5 ac
+  upgrade_required_path: year2
+  upgrade_required_casts: 50
+  effects:
+    cast:
+    - sound: magic.shimmer
+    - class: EffectTrail
+      particle: crit
+      color: false
+      particle_data: 2
+      particle_count: 20
+      particle_offset_x: 0.2
+      particle_offset_y: 0.2
+      particle_offset_z: 0.2
+    - class: EffectSingle
+      location: target
+      sound: magic.bonk
+      sound_volume: 0.5
+    no_target:
+    - sound: magic.shimmer
+    - class: EffectTrail
+      particle: crit
+      color: false
+      particle_data: 2
+      particle_count: 10
+      particle_offset_x: 0.2
+      particle_offset_y: 0.2
+      particle_offset_z: 0.2
 colloportus:
   icon_url: http://textures.minecraft.net/texture/dea4155d3f45e95c71b441d1a233586dd2efd99e0d85a286e41dea2a5231ab7
   icon: diamond_axe:183
@@ -17621,7 +17648,7 @@ snowball:
   icon_disabled: diamond_hoe:59
   category: charms
   pvp_restricted: true
-  worth: 10 ac ac
+  worth: 10 ac
   actions:
     cast:
     - class: ChangeContext
@@ -17685,7 +17712,7 @@ ascendio:
   inherit: fling
   category: charms
   enabled: true
-  worth: 10 ac ac
+  worth: 10 ac
   parameters:
     cooldown: 10000
 ascendio|2:
@@ -17696,7 +17723,7 @@ arresto:
   icon: diamond_axe:226
   icon_disabled: diamond_hoe:226
   category: charms
-  worth: 5 ac ac
+  worth: 5 ac
   pvp_restricted: false
   actions:
     cast:
@@ -17727,7 +17754,7 @@ atmos:
   inherit: weather
   category: charms
   enabled: true
-  worth: 30 ac ac
+  worth: 30 ac
 avadakedavra:
   inherit: kill
   category: dark
@@ -17887,7 +17914,7 @@ bogies:
   inherit: poison
   category: dark
   enabled: true
-  worth: 15 ac ac
+  worth: 15 ac
 bogies|2:
   parameters:
     range: 16
@@ -17978,7 +18005,7 @@ confundus:
   category: dada
   inherit: curse
   enabled: true
-  worth: 10 ac ac
+  worth: 10 ac
 confundusmaxima:
   name: Confundus Maxima
   description: Silences a target for a Long Period!
@@ -18028,7 +18055,7 @@ conjunctivitis:
   inherit: blind
   category: dada
   enabled: true
-  worth: 10 ac ac
+  worth: 10 ac
 conjunctivitis|2:
   parameters:
     duration: 4000
@@ -18177,7 +18204,7 @@ deprimo:
   inherit: collapse
   category: transfiguration
   enabled: true
-  worth: 10 ac ac
+  worth: 10 ac
 deprimo|2:
   radius: 3
   enabled: true
@@ -18231,7 +18258,7 @@ diffindo:
   category: transfiguration
   class: ConstructSpell
   cast_on_no_target: true
-  worth: 5 ac ac
+  worth: 5 ac
   effects:
     cast:
     - class: EffectSingle
@@ -18286,14 +18313,14 @@ disillusion:
   parameters:
     target: self
   enabled: true
-  worth: 15 ac ac
+  worth: 15 ac
 duro:
   inherit: harden
   category: transfiguration
   parameters:
     destructible: hardenable
   enabled: true
-  worth: 5 ac ac
+  worth: 5 ac
 duro|2:
   inherit: harden|2
   enabled: true
@@ -18301,7 +18328,7 @@ spongify:
   inherit: rubberize
   category: transfiguration
   enabled: true
-  worth: 10 ac ac
+  worth: 10 ac
 spongifymaxima:
   inherit: rubberize
   category: transfiguration
@@ -18317,11 +18344,11 @@ spongifymaxima:
   costs:
     mana: 200
   enabled: true
-  worth: 25 ac ac
+  worth: 25 ac
 erecto:
   inherit: tent
   enabled: true
-  worth: 10 ac ac
+  worth: 10 ac
   category: transfiguration
   parameters:
     undo: 12000
@@ -18331,7 +18358,7 @@ evanesco:
   icon: diamond_axe:230
   icon_disabled: diamond_hoe:230
   category: transfiguration
-  worth: 15 ac ac
+  worth: 15 ac
   actions:
     cast:
     - class: PotionEffect
@@ -18395,17 +18422,17 @@ rennervate:
   inherit: cure
   category: charms
   enabled: true
-  worth: 5 ac ac
+  worth: 5 ac
 engorgio:
   inherit: grow
   category: transfiguration
   enabled: true
-  worth: 15 ac ac
+  worth: 15 ac
 episkey:
   inherit: heal
   category: herbology
   enabled: true
-  worth: 15 ac ac
+  worth: 15 ac
 episkey|2:
   parameters:
     heal: 4
@@ -18506,7 +18533,7 @@ finiteincantatem:
   inherit: counterspell
   category: dada
   enabled: true
-  worth: 20 ac ac
+  worth: 20 ac
   alias: finite
 finiteincantatem|2:
   parameters:
@@ -18552,7 +18579,7 @@ rictusempra:
   category: charms
   pvp_restricted: true
   cast_on_no_target: true
-  worth: 5 ac ac
+  worth: 5 ac
   actions:
     cast:
     - class: VelocityAction
@@ -18608,7 +18635,7 @@ ventus:
   category: dada
   inherit: push
   enabled: true
-  worth: 10 ac ac
+  worth: 10 ac
 flipendo:
   icon: diamond_axe:32
   icon_disabled: diamond_hoe:32
@@ -18616,7 +18643,7 @@ flipendo:
   category: dada
   pvp_restricted: true
   cast_on_no_target: true
-  worth: 5 ac ac
+  worth: 5 ac
   actions:
     cast:
     - class: VelocityAction
@@ -18873,7 +18900,7 @@ immobulus:
   category: dada
   pvp_restricted: true
   cast_on_no_target: true
-  worth: 10 ac ac
+  worth: 10 ac
   actions:
     cast:
     - class: PotionEffectAction
@@ -18937,7 +18964,7 @@ locomotomortus:
   category: dada
   pvp_restricted: true
   cast_on_no_target: true
-  worth: 10 ac ac
+  worth: 10 ac
   actions:
     cast:
     - class: PotionEffectAction
@@ -18981,14 +19008,14 @@ incarcerous:
   inherit: entangle
   category: dark
   enabled: true
-  worth: 10 ac ac
+  worth: 10 ac
   parameters:
     brush: fence
 imperio:
   inherit: force
   category: dark
   enabled: true
-  worth: 40 ac ac
+  worth: 40 ac
 impervius:
   icon_url: http://textures.minecraft.net/texture/5aacdf52fae9b3c03bf0ab4b705a44ceddb9a9df57bda0b863d0b7bc84c27e
   icon: diamond_axe:186
@@ -19021,7 +19048,7 @@ incendio:
   category: charms
   inherit: fire
   enabled: true
-  worth: 10 ac ac
+  worth: 10 ac
 incendio|2:
   inherit: fire|2
   enabled: true
@@ -19329,7 +19356,7 @@ orchideous:
   category: herbology
   inherit: pollinate
   enabled: true
-  worth: 5 ac ac
+  worth: 5 ac
   parameters:
     undo: 2000
 periculum:
@@ -19402,7 +19429,7 @@ petrificustotalus:
   inherit: petrify
   category: dada
   enabled: true
-  worth: 20 ac ac
+  worth: 20 ac
 piertotum:
   icon_url: http://textures.minecraft.net/texture/b47685bb689895deea831ce92bc339d1b1d63b7782f98f252abc09447fbcf8f
   icon: diamond_axe:53
@@ -19515,7 +19542,7 @@ reducio:
   inherit: shrink
   category: transfiguration
   enabled: true
-  worth: 10 ac ac
+  worth: 10 ac
 reducio|2:
   parameters:
     player_damage: 2
@@ -19532,7 +19559,7 @@ reducto:
   inherit: blast
   category: charms
   enabled: true
-  worth: 10 ac ac
+  worth: 10 ac
 reducto|2:
   parameters:
     radius: 2
@@ -19684,7 +19711,7 @@ sectumsempra:
   inherit: wound
   category: dark
   enabled: true
-  worth: 20 ac ac
+  worth: 20 ac
 silencio:
   icon_url: http://textures.minecraft.net/texture/ad7e09a7af7af5acc286e6a4dd3c2f69b55ace33b7838ca899545570e946ee
   icon: diamond_axe:8
@@ -20040,7 +20067,7 @@ vermillious|3:
 colorvaria:
   inherit: superalter
   category: transfiguration
-  worth: 5 ac ac
+  worth: 5 ac
   parameters:
     range: 16
     depth: 8
@@ -20058,14 +20085,14 @@ meteo:
   inherit: day
   enabled: true
   quick_cast: false
-  worth: 30 ac ac
+  worth: 30 ac
 nox:
   icon_url: http://textures.minecraft.net/texture/ac60643368ba49652b36989878bf296e25d5b3d7526f283ef8cd7470a7a51e8
   icon: diamond_axe:166
   icon_disabled: diamond_hoe:166
   category: charms
   cast_on_no_target: true
-  worth: 5 ac ac
+  worth: 5 ac
   actions:
     cast:
     - class: PotionEffectAction
@@ -20100,7 +20127,7 @@ vulnera:
   icon_disabled: diamond_hoe:44
   category: herbology
   cast_on_no_target: true
-  worth: 25 ac ac
+  worth: 25 ac
   pvp_restricted: false
   actions:
     cast:
@@ -20147,7 +20174,7 @@ ferula:
   icon_disabled: diamond_hoe:46
   category: herbology
   cast_on_no_target: true
-  worth: 20 ac ac
+  worth: 20 ac
   pvp_restricted: false
   actions:
     cast:
@@ -20187,7 +20214,7 @@ wingardium:
   inherit: lift
   category: charms
   enabled: true
-  worth: 5 ac ac
+  worth: 5 ac
   effects:
     cast:
     - class: EffectSingle
@@ -20357,7 +20384,7 @@ confringo:
   icon_disabled: diamond_hoe:153
   category: dark
   pvp_restricted: true
-  worth: 25 ac ac
+  worth: 25 ac
   actions:
     cast:
     - class: ProjectileAction
@@ -20471,7 +20498,7 @@ tripudio:
   icon_url: http://textures.minecraft.net/texture/58c573cefdc8cc1b8c894340cb54ab343523ec2ffa0afc7536968391ae1e7
   icon: diamond_axe:11
   icon_disabled: diamond_hoe:11
-  worth: 5 ac ac
+  worth: 5 ac
   actions:
     cast:
     - class: PotionEffectAction
@@ -20506,7 +20533,7 @@ volo:
   icon: diamond_axe:11
   icon_disabled: diamond_hoe:11
   category: charms
-  worth: 5 ac ac
+  worth: 5 ac
   actions:
     cast:
     - class: PotionEffectAction
@@ -21404,7 +21431,7 @@ reveal:
   enabled: true
 aquaeructo:
   category: charms
-  worth: 15 ac ac
+  worth: 15 ac
   inherit: stream
   enabled: true
 aquaeructo|2:
@@ -21414,15 +21441,32 @@ aquaeructo|3:
   inherit: stream|3
   enabled: true
 aberto:
-  inherit: alohomora
+  inherit: alohomora|2
   effects:
     cast:
-    - class: EffectSingle
-      sound: magic.shimmer
+    - sound: magic.shimmer
     - class: EffectTrail
-      particle: spell_mob
-      color: FFFFFF
-      particle_count: 5
+      particle: spell
+      color: false
+      particle_data: 2
+      particle_count: 20
+      particle_offset_x: 0.2
+      particle_offset_y: 0.2
+      particle_offset_z: 0.2
+    - class: EffectSingle
+      location: target
+      sound: magic.bonk
+      sound_volume: 0.5
+    no_target:
+    - sound: magic.shimmer
+    - class: EffectTrail
+      particle: spell
+      color: false
+      particle_data: 2
+      particle_count: 10
+      particle_offset_x: 0.2
+      particle_offset_y: 0.2
+      particle_offset_z: 0.2
   enabled: true
 alarteascendare:
   icon: diamond_axe:150
@@ -21460,6 +21504,11 @@ alarteascendare|2:
     range: 32
     velocity: 50
     y_offset: rand(1.5, 1.8)
+  enabled: true
+alohomora|2:
+  parameters:
+    range: 32
+    destructible: doors
   enabled: true
 aparecium|2:
   upgrade_required_path: 6
@@ -23215,8 +23264,6 @@ obliviatemaxima:
   icon_url: http://textures.minecraft.net/texture/89f9399aceb3211c3ca1259d5b1bb1f3fb61a4d5626a757ee1a1ccec28a0ae
   icon: diamond_axe:230
   worth: 30 ac
-  costs:
-    mana: 75
   actions:
     cast:
     - class: AllEntities
@@ -23240,6 +23287,8 @@ obliviatemaxima:
     potion_effects:
       confusion: 1
     duration: 8000
+  costs:
+    mana: 75
   enabled: true
 obscuro|2:
   effects:
