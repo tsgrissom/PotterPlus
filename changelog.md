@@ -1,47 +1,62 @@
 # Changelog
 
-Changes are organized here for record-keeping purposes. Most recent changes are at the top.
+Changes are organized here for record-keeping purposes. Changes are organized from top to bottom by order of most to least recent.
+
+There is a relatively up-to-date and accurate roadmap and list of upcoming changes in the document [here](https://github.com/grisstyl/BetterPotter/blob/master/README.md).
 
 This is not an absolute record of *ever* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
-* 5/10/18 - Fix Conductor's Wand inheritance
-* 5/10/18 - Added Trick Wands
-* 5/10/18 - Added Overgrown Bowtruckle
+### 5/10/18
 
-* 5/9/18 - Added Key and Skeleton Key items
-* 5/9/18 - Added spawners for Erklings, Bowtruckles, and Centaurs
-* 5/9/18 - Added AC drops to some Magic Mobs
-* 5/9/18 - Re-worked Flagellos
-* 5/9/18 - Re-worked Alohomora and Aberto
-* 5/9/18 - Added Portable Swamps
-* 5/9/18 - Converted to use custom currency system
-* 5/9/18 - Removed all custom messages in preparation for overhaul
-* 5/9/18 - Revamped Aparecium
-* 5/9/18 - Added Ashwinder spawners
-* 5/9/18 - Restructured spawner automata
-* 5/9/18 - Added Erumpent spawners
-* 5/9/18 - Buffed Erumpent
+* PVP restricted spells that should be PVP restricted
+* Fix Conductor's Wand inheritance
+* Added Trick Wands
+* Added Overgrown Bowtruckle
 
-* 5/6/18 - Converted all spells spells that used long-form class references to use short-hands. (ex. `AtomEffect` -> `Atom` or `CustomProjectileAction` -> `CustomProjectile`)
+### 5/9/18
 
-* 5/5/18 - Converted all `PotionEffectAction` spells to not use aggregate format
-* 5/5/18 - Re-balanced and nerfed Protego
-* 5/5/18 - Overhauled `frigusignatus`, the Flame-Freezing Charm particles and buffed it
-* 5/5/18 - Fixed Crucio particles from Magic update
-* 5/5/18 - Nerfed and overhauled Avada Kedavra
-* 5/5/18 - Buffed and fixed Gillyweed messages
-* 5/5/18 - Fixed Expelliarmus colors
-* 5/5/18 - Fixed passthrough for Expelliarmus and made `hit_entity` apply on hitting anything
-* 5/5/18 - Changed Atmos and Meteolojinx Recanto messages to be less verbose
-* 5/5/18 - Re-worked Lumos, Lumos Maxima, and Lumos Solem
-* 5/5/18 - Added spawner automata
+* Added Key and Skeleton Key items
+* Added spawners for Erklings, Bowtruckles, and Centaurs
+* Added AC drops to some Magic Mobs
+* Re-worked Flagellos
+* Re-worked Alohomora and Aberto
+* Added Portable Swamps
+* Converted to use custom currency system
+* Removed all custom messages in preparation for overhaul
+* Revamped Aparecium
+* Added Ashwinder spawners
+* Restructured spawner automata
+* Added Erumpent spawners
+* Buffed Erumpent
 
-* 5/4/18 - Removed `not_canon` folder
-* 5/4/18 - Moved Avis and Lapifors to action system and used new `undo_entity` effects
-* 5/4/18 - Updated Periculum colors to be lore-accurate, added EffectRing to periculum|3
-* 5/4/18 - Fixed base wands starting with Vermillious due to classes
+### 5/6/18
 
-* 5/3/18 - Added license.md
-* 5/3/18 - Shifted material lists from `materials.yml` to use `/materials/`
-* 5/3/18 - Re-organized the `/wands/` folder to negate the need for a `wands.yml` file
-* 5/3/18 - Disabled a bunch of wands that are unnecessary for this configuration and created a list of those to overhaul (`/wands/to_redo.yml`)
+* Converted all spells spells that used long-form class references to use short-hands. (ex. `AtomEffect` -> `Atom` or `CustomProjectileAction` -> `CustomProjectile`)
+
+### 5/5/18
+
+* Converted all `PotionEffectAction` spells to not use aggregate format
+* Re-balanced and nerfed Protego
+* Overhauled `frigusignatus`, the Flame-Freezing Charm particles and buffed it
+* Fixed Crucio particles from Magic update
+* Nerfed and overhauled Avada Kedavra
+* Buffed and fixed Gillyweed messages
+* Fixed Expelliarmus colors
+* Fixed passthrough for Expelliarmus and made `hit_entity` apply on hitting anything
+* Changed Atmos and Meteolojinx Recanto messages to be less verbose
+* Re-worked Lumos, Lumos Maxima, and Lumos Solem
+* Added spawner automata
+
+### 5/4/18
+
+* Removed `not_canon` folder
+* Moved Avis and Lapifors to action system and used new `undo_entity` effects
+* Updated Periculum colors to be lore-accurate, added EffectRing to periculum|3
+* Fixed base wands starting with Vermillious due to classes
+
+### 5/3/18
+
+* Added license.md
+* Shifted material lists from `materials.yml` to use `/materials/`
+* Re-organized the `/wands/` folder to negate the need for a `wands.yml` file
+* Disabled a bunch of wands that are unnecessary for this configuration and created a list of those to overhaul (`/wands/to_redo.yml`)
