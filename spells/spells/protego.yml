@@ -2,6 +2,7 @@ protego:
   worth: 15 ac
   upgrade_required_path: year4
   upgrade_required_casts: 75
+  pvp_restricted: true
   parameters:
     brushcolor: false
     cooldown: 8000

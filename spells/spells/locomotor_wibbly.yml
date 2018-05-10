@@ -4,6 +4,7 @@ locomotorwibbly:
   worth: 10 ac
   upgrade_required_casts: 75
   upgrade_required_path: year5
+  pvp_restricted: true
   effects:
     cast:
       - class: EffectSingle

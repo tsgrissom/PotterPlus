@@ -1,5 +1,5 @@
 arrow:
-  worth: 10 ac ac
+  worth: 10 ac
   effects:
     hit:
       - class: EffectSingle

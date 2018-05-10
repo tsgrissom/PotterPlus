@@ -1,6 +1,7 @@
 crucio:
   category: dark
   worth: 30 ac
+  pvp_restricted: true
   effects:
     cast:
       - class: EffectSingle

@@ -4,6 +4,7 @@ furnunculus:
   upgrade_required_path: year7
   upgrade_required_casts: 25
   worth: 15 ac
+  pvp_restricted: true
   actions:
     cast:
       - class: CustomProjectile

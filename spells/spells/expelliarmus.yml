@@ -1,5 +1,6 @@
 expelliarmus:
   worth: 15 ac
+  pvp_restricted: true
   effects:
     hit:
       - class: EffectSingle

@@ -1,6 +1,7 @@
 verdimillious:
   inherit: vermillious
   icon: diamond_axe:173
+  pvp_restricted: true
   effects:
         cast:
         -  class: EffectSingle

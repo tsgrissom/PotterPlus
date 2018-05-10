@@ -4,6 +4,7 @@ percutios:
   inherit: smite
   category: dark
   worth: 25 ac
+  pvp_restricted: true
   actions:
     cast:
       - class: Lightning

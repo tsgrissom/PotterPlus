@@ -1,6 +1,7 @@
 pulsus:
   upgrade_required_path: year7
   upgrade_required_casts: 75
+  pvp_restricted: true
   actions:
     cast:
       - class: AreaOfEffect

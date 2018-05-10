@@ -5,6 +5,7 @@ stupefy:
   upgrade_required_casts: 25
   category: dada
   worth: 10 ac
+  pvp_restricted: true
   actions:
     cast:
       - class: CustomProjectile

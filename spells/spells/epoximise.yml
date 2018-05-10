@@ -3,6 +3,7 @@ epoximise:
   icon: diamond_axe:180
   worth: 10 ac
   category: transfiguration
+  pvp_restricted: true
   effects:
     tick:
       - location: target

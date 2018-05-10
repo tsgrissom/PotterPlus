@@ -4,6 +4,7 @@ sluguluseructo:
   category: dark
   upgrade_required_path: year3
   upgrade_required_casts: 75
+  pvp_restricted: true
   actions:
     cast:
       - class: CustomProjectile

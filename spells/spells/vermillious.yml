@@ -1,5 +1,6 @@
 vermillious:
   worth: 10 ac
+  pvp_restricted: true
   effects:
     cast:
       - class: EffectSingle

@@ -1,6 +1,7 @@
 avadakedavra:
   category: dark
-  worth: 50 ac ac
+  worth: 50 ac
+  pvp_restricted: true
   actions:
     cast:
       - class: Delay

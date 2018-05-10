@@ -4,6 +4,7 @@ flagellos:
   upgrade_required_path: year4
   upgrade_required_casts: 75
   worth: 15 ac
+  pvp_restricted: true
   effects:
     tick:
       - location: target

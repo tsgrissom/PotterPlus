@@ -4,6 +4,7 @@ impedimenta:
   upgrade_required_path: year4
   upgrade_required_casts: 25
   worth: 20 ac
+  pvp_restricted: true
   actions:
     cast:
       - class: CustomProjectile

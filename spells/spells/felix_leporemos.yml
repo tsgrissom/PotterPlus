@@ -6,7 +6,7 @@ felixleporemos:
   icon: diamond_axe:46
   upgrade_required_casts: 25
   upgrade_required_path: year2
-  worth: 5 ac ac
+  worth: 5 ac
   costs:
     mana: 15
   actions:

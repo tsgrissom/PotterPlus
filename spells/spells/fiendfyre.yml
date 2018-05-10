@@ -3,7 +3,7 @@ fiendfyre:
   icon_url: http://textures.minecraft.net/texture/a9e073da36aaf2c844da428cd4a19dfde32c8cdc2404eed4a135f6095b17c
   icon: diamond_axe:139
   icon_disabled: diamond_hoe:139
-  worth: 35 ac
+  worth: 25 ac
   pvp_restricted: true
   upgrade_required_path: year7
   upgrade_required_casts: 50
