@@ -63,8 +63,7 @@ acromantula:
     poison|3: 100
     none: 50
   drops:
-  - gold_nugget@8
-  - sp:8
+  - ac:5
   potion_effects:
   - type: speed
     amplifier: 0
@@ -80,6 +79,8 @@ acromantula_queen:
   type: spider
   name: '&2Queen Acromantula'
   health: 60
+  drops:
+  - ac:10
   potion_effects:
   - type: slow
     amplifier: 1
@@ -99,6 +100,8 @@ acromantula_underling:
   health: 10
   default_drops: false
   interval: 5000
+  drops:
+  - ac:5
   potion_effects:
   - type: speed
     amplifier: 2
@@ -116,6 +119,8 @@ ashwinder:
   - type: fire_resistance
     amplifier: 255
   interval: 1000
+  drops:
+  - ac:5
   triggers:
     interval:
       effects: ashwinder_ambient
@@ -143,6 +148,8 @@ bowtruckle:
   health: 30
   interval: 3000
   default_drops: false
+  drops:
+  - ac:5
   triggers:
     interval:
       cast:
@@ -158,6 +165,8 @@ bundimun:
   size: 2
   health: 30
   default_drops: false
+  drops:
+  - ac:5
   weakness:
     fire: 0.8
     magic: 0.2
@@ -172,6 +181,8 @@ huge_bundimun:
   name: '&2Huge Bundimun'
   size: 4
   health: 50
+  drops:
+  - ac:10
   weakness:
     fire: 0.6
   triggers:
@@ -182,10 +193,12 @@ huge_bundimun:
 centaur:
   name: '&7Centaur'
   type: horse
-  health: 100
+  health: 80
   default_drops: false
   aggro: true
   interval: 2000
+  drops:
+  - ac:15
   triggers:
     interval:
       cast:
@@ -251,6 +264,7 @@ erkling:
   helmet: leaves
   drops:
   - erkling_dart_blower
+  - ac:10
   interval: 4000
   potion_effects:
   - type: slow
@@ -267,11 +281,15 @@ erkling:
 erumpent:
   name: '&7Erumpent'
   type: polar_bear
-  health: 80
+  health: 100
   default_drops: false
   interval: 3000
+  potion_effects:
+  - type: speed
+    amplifier: 1
   drops:
   - erumpent_horn
+  - ac:15
   triggers:
     interval:
       cast:
@@ -286,6 +304,8 @@ fire_crab:
   type: spider
   health: 50
   default_drops: false
+  drops:
+  - ac:5
   potion_effects:
   - type: fire_resistance
     amplifier: 255
@@ -340,6 +360,8 @@ wampus:
   health: 20
   default_drops: false
   aggro: true
+  drops:
+  - ac:5
   triggers:
     interval:
       cast:

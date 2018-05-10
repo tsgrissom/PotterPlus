@@ -6,6 +6,8 @@ wampus:
   health: 20
   default_drops: false
   aggro: true
+  drops:
+    - ac:5
   triggers:
     interval:
       cast:

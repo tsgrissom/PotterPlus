@@ -3,10 +3,12 @@
 centaur:
   name: '&7Centaur'
   type: horse
-  health: 100
+  health: 80
   default_drops: false
   aggro: true
   interval: 2000
+  drops:
+    - ac:15
   triggers:
     interval:
       cast:

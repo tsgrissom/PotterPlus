@@ -8,6 +8,7 @@ erkling:
   helmet: leaves
   drops:
     - erkling_dart_blower
+    - ac:10
   interval: 4000
   potion_effects:
     - type: slow

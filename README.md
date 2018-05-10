@@ -76,4 +76,4 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Thestral -> Skeletal horse,
 * Owl -> Bats, maybe drops random things like papers?
 * House-Elf -> Baby villagers with light magic
-* Goblink -> Another baby villager
+* Goblin -> Another baby villager

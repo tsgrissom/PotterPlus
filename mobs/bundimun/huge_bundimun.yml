@@ -1,0 +1,14 @@
+huge_bundimun:
+  inherit: bundimun
+  name: '&2Huge Bundimun'
+  size: 4
+  health: 50
+  drops:
+    - ac:10
+  weakness:
+    fire: 0.6
+  triggers:
+    damage:
+      cast:
+        none: 85
+        bundimun_summon: 15

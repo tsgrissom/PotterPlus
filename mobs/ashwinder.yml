@@ -9,6 +9,8 @@ ashwinder:
     - type: fire_resistance
       amplifier: 255
   interval: 1000
+  drops:
+    - ac:5
   triggers:
     interval:
       effects: ashwinder_ambient
