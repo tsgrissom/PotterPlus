@@ -14,7 +14,7 @@ default:
   hidden: true
   upgrade_commands:
   - title @pn title {"text":"&dGraduated to $path"}
-  - title @pn subtitle {"text":"&5New spells are available"}
+  - title @pn subtitle {"text":"&5New spells are available!"}
   effects:
     enchant: []
     upgrade:
@@ -24,6 +24,7 @@ default:
         particle: enchantment_table
         radius: 2
         radiusIncrease: 0.1
+        iterations: 100
 year1:
   follows: beginner
   inherit: default

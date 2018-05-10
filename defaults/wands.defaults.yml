@@ -1018,11 +1018,6 @@ conductors_wand:
   mana: 20
   mana_regeneration: 10
   uses: 5
-music_box:
-  inherit: conductors_wand
-  icon: note_block
-  cooldown_reduction: 5
-  has_uses: false
 gillyweed:
   inherit: base_wand
   icon: vine
@@ -1045,6 +1040,31 @@ gillyweed:
   active_spell: gillyweed_ability
   spells:
   - gillyweed_ability
+music_box:
+  inherit: conductors_wand
+  icon: note_block
+  cooldown_reduction: 5
+  has_uses: false
+portableswamp:
+  inherit: base_wand
+  icon: grass
+  display_name: $name
+  lore:
+  - $description
+  - ''
+  - '&cSingle-use'
+  cost_reduction: 10
+  mana: 50
+  mana_regeneration: 25
+  undroppable: false
+  drop: none
+  swap: none
+  left_click: cast
+  right_click: none
+  uses: 1
+  active_spell: portable_swamp_ability
+  spells:
+  - portable_swamp_ability
 erkling_dart_blower:
   inherit: base_wand
   icon: stick

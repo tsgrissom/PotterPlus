@@ -2858,6 +2858,9 @@ spells:
     upgrade_description: Decreased backfire chance.
   aparecium|4:
     upgrade_description: Decreased backfire chance.
+  reveal:
+    name: Reveal
+    description: Reveals hidden things
   acromantula_summon:
     name: Summon
     description: Summons more Acromantula
@@ -2946,12 +2949,12 @@ spells:
   wampus_scratch:
     name: Wampus Scratch
     description: Deadly, magical claw scratches leave you bleeding
-  reveal:
-    name: Reveal
-    description: Reveals hidden things
   gillyweed_ability:
     name: Gillyweed Ability
     description: Allows you to breathe underwater temporarily
+  portable_swamp_ability:
+    name: Portable Swamp Ability
+    description: Creates a portable swamp
 wand:
   default_name: Wand
   upgrade_default_description: Will upgrade your wand.
@@ -3736,6 +3739,11 @@ wands:
   gillyweed:
     name: '&2Gillyweed'
     description: '&aGrants you the ability to temporarily breathe underwater'
+    spell_instructions: ''
+    bound_instructions: ''
+  portableswamp:
+    name: '&2Portable Swamp'
+    description: '&aDeploys a portable swamp wherever you are'
     spell_instructions: ''
     bound_instructions: ''
 automata:

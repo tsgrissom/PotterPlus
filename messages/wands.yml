@@ -35,3 +35,8 @@ wands:
     description: "&aGrants you the ability to temporarily breathe underwater"
     spell_instructions: ""
     bound_instructions: ""
+  portableswamp:
+    name: "&2Portable Swamp"
+    description: "&aDeploys a portable swamp wherever you are"
+    spell_instructions: ""
+    bound_instructions: ""

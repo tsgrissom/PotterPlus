@@ -21381,6 +21381,25 @@ gillyweed_ability:
   costs:
     mana: 25
   enabled: true
+portable_swamp_ability:
+  inherit: incarcifors
+  icon: water_lily
+  category: item_ability
+  hidden: true
+  cast_on_no_target: true
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: block_grass_break
+    - class: EffectTrail
+      effect: step_sound
+      material: grass
+  parameters:
+    brush: schematic|portable_swamp
+    check_destructible: false
+    undo: 12000
+    cooldown: 15000
+  enabled: true
 reveal:
   enabled: true
 aquaeructo:
