@@ -14,10 +14,7 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Finish spells in `to_redo.yml`
 * Overhaul spells with attributes
 * Add brooms again
-* Change `upgrade_commands` on year up
 * Add `.gitattributes`
-* Set up automata spawners for other creatures
-* Consider changing path upgrade messages
 * Test out multi-line spell upgrade messages
 * Remove unnecessary parameters from spells
 * Add distances to mobs so they are less crazy persistent
@@ -29,7 +26,6 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Check if `enchanting.yml` is even a thing anymore
 * Add stuff for post-graduation (more classes, paths, and exclusive spells)
 * Make mobs more aggressive as they get damaged with `min_damage` flags, etc.
-* Make mobs not drop SP items
 
 ### Known bugs
 
