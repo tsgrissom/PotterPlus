@@ -1,8 +1,9 @@
 spells:
   default:
     usage: ""
-  ollivander:
     cast: ""
+    cast_self: ""
+  ollivander:
     title: "Wand Shop"
   bookshop:
     name: "Spellbook Shop"
@@ -19,7 +20,7 @@ spells:
   lumos|4:
     upgrade_description: "Increased light duration."
   lumosmaxima:
-    name: Lumos Maxima
+    name: "Lumos Maxima"
     description: "Blindingly lights up the tip of your wand to provide a long-lasting light source in dark areas."
   lumosmaxima|2:
     upgrade_description: "Increased light duration."
@@ -65,7 +66,7 @@ spells:
   arrowmaxima|3:
     upgrade_description: "Increased damage and arrow count. Decreased spread and delay."
   arrowmaxima|4:
-    upgrade_description: "Arrows are ignited."
+    upgrade_description: "Arrows are ignited, inflicting additional flame damage."
   incendio:
     description: "Ignites things on fire for a variety of purposes."
   incendio|2:
@@ -93,7 +94,7 @@ spells:
   immobulus:
     description: "Immoblizes the target temporarily."
   rictusempra:
-    name: Rictusempra
+    name: "Rictusempra"
     description: "Tickles the target terribly"
   bogies:
     description: "Sickens the target significantly, causing a runny nose, terrible cough, and overall miserable symptoms."
@@ -202,16 +203,13 @@ spells:
     description: "Binds the entire body of the target, preventing any movement for a short while."
   ferula:
     description: "Conjures magical bandages in order to heal the target."
-    cast_self: ""
-    cast: ""
   reducto:
     description: "Vaporizes stone into dust-like particles. Can open up access to new areas."
   reducto|2:
     upgrade_description: "Increased radius."
   aquaeructo:
-    name: Aqua Eructo
+    name: "Aqua Eructo"
     description: "Conjures a controllable jet of water which will push back and damage targets."
-    cast: ""
   aquaeructo|2:
     upgrade_description: "Increased damage."
   aquaeructo|3:
@@ -356,10 +354,6 @@ spells:
     description: "In a flash of green light, this unblockable curse can end the life of any living creature with great malice."
   reparifarge:
     description: "Counter mosts of the world-impacting effects of previously cast spells."
-    cast: "&9You reverse the &7$spell &9cast."
-    cast_self: "&9You reverse your &7$spell &9cast."
-    cost_free: "&9You cancel your &7$spell &9cast."
-    fail: "&cNothing to reverse."
   noxmaxima:
     description: "Using incredibly powerful, world-shaping magic you can turn day to night."
   engorgio:
@@ -477,7 +471,7 @@ spells:
   defodio|3:
     upgrade_description: "Increased radius."
   expulso:
-    name: Expulso
+    name: "Expulso"
     description: "A dark spell causing an incredibly powerful and dangerous explosion."
   expulso|2:
     upgrade_description: "Increased radius, damage, knockback, and burns."
@@ -521,77 +515,75 @@ spells:
   percutios|2:
     upgrade_description: "Increased damage."
   multabasiorum:
-    name: Multa Basiorium
+    name: "Multa Basiorium"
     description: "A high damage-inflicting spell which cascades from target to target, decimating the enemy with effective precision."
   multabasiorum|2:
     upgrade_description: "Increased damage. Now targets up to five creatures."
   multabasiorum|3:
     upgrade_description: "Increased damage. Now targets up to eight creatures."
   brackiumemendo:
-    name: Brackium Emendo
+    name: "Brackium Emendo"
     description: "Mends bones that are no longer there, supposedly. Effectiveness varies."
-    cast_self: ""
-    cast: ""
   brackiumemendo|2:
     upgrade_description: "Increased efficacy."
   brackiumemendo|3:
     upgrade_description: "Increased efficacy."
   carperetractum:
-    name: Carpe Retractum
+    name: "Carpe Retractum"
     description: "Seizes and pulls an object or creature via a conjured, magical lasso."
   carperetractum|2:
     upgrade_description: "Increased strength."
   pulvifors:
-    name: Pulvifors
+    name: "Pulvifors"
     description: "Conjures an invisible cushion to protect yourself from fall damage."
   finestra:
-    name: Finestra
+    name: "Finestra"
     description: "Vaporizes glass surfaces as if they were struck with a heavy object."
   finestra|2:
     upgrade_description: "Decreased cooldown, increased radius."
   waddiwasi:
-    name: Waddiwasi
+    name: "Waddiwasi"
     description: "Conjures a large quantity of pre-chewed chewing gum to stick the target to a surface."
   titillando:
-    name: Titillando
+    name: "Titillando"
     description: "Causes the target great discomfort by tickling them beyond their control, immobilizing and slowing them down."
   titillando|2:
     upgrade_description: "Decreased cooldown, increased range, efficacy, and duration."
   titillando|3:
     upgrade_description: "Decreased cooldown, increased range and efficacy."
   glisseo:
-    name: Glisseo
+    name: "Glisseo"
     description: "Transfigures stairs into a slippery surface."
   glisseo|2:
     upgrade_description: "Increased duration and radius, decreased undo speed."
   herbifors:
-    name: Herbifors
+    name: "Herbifors"
     description: "Causes the target to sprout a flower from their head."
   scribblifors:
-    name: Scribblifors
+    name: "Scribblifors"
     description: "Conjures stationery to write on. A useful transfiguration spell for classwork."
   locomotorwibbly:
-    name: Locomotor Wibbly
+    name: "Locomotor Wibbly"
     description: "Causes the target's legs to become extremely weak crippling and immobilizing them temporarily."
   locomotorwibbly|2:
     upgrade_description: "Increased speed and duration."
   locomotorwibbly|3:
     upgrade_description: "Increased efficacy and range."
   epoximise:
-    name: Epoximise
+    name: "Expoximise"
     description: "Causes the target to be adhesived to the ground temporarily."
   sluguluseructo:
-    name: Slugulus Eructo
+    name: "Slugulus Eructo"
     description: "Causes the target to vomit slugs uncontrollably."
   sluguluseructo|2:
     upgrade_description: "More slugs spawn."
   sluguluseructo|3:
     upgrade_description: "More slugs spawn."
   flintifors:
-    name: Flintifors
+    name: "Flintifors"
     description: "Conjures a flint and steel, a manual fire-igniting tool."
   ignisdisceditus:
-    name: Ignis Disceditus
+    name: "Ignis Disceditus"
     description: "Extinguishes nearby flames in a gush of cold air."
   pulsus:
     name: "Pulsus"

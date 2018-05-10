@@ -62,7 +62,6 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Two-way mirrors
 * Whiz-bangs -> Crazy fireworks, come in Basic Blaze Box of Deflagration Deluxe
 * Skiving snackboxes -> A box of snacks which cause illness
-* Trick wands -> A wand which can cast feeble regular or joke spells
 * Decoy detonators -> Sends a hopper projectile which explodes to create a distraction
 * Peruvian instant darkness powder -> Covers the surrounding area in darkness powder
 * Flying carpet -> Casts modified air scooter with random color carpet mount

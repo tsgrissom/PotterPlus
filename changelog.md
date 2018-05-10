@@ -2,6 +2,12 @@
 
 Changes are organized here for record-keeping purposes. Most recent changes are at the top.
 
+This is not an absolute record of *ever* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
+
+* 5/10/18 - Fix Conductor's Wand inheritance
+* 5/10/18 - Added Trick Wands
+* 5/10/18 - Added Overgrown Bowtruckle
+
 * 5/9/18 - Added Key and Skeleton Key items
 * 5/9/18 - Added spawners for Erklings, Bowtruckles, and Centaurs
 * 5/9/18 - Added AC drops to some Magic Mobs
