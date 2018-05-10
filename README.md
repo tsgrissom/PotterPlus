@@ -11,11 +11,9 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 ### General
 
 * Make sure every spell has sounds
-* Overhaul messages to be more stylistically neutral
 * Finish spells in `to_redo.yml`
 * Overhaul spells with attributes
 * Add brooms again
-* Convert to use custom currency system
 * Change `upgrade_commands` on year up
 * Add `.gitattributes`
 * Set up automata spawners for other creatures
