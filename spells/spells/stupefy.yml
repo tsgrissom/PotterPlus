@@ -36,26 +36,22 @@ stupefy:
     hit:
       - class: EffectSingle
         location: target
-        color: 8b0000
         firework: burst
+        color: 8b0000
         color2: FF0000
-  headshot_parameters:
-    player_damage: 3
-    entity_damage: 3
   parameters:
     allow_max_range: true
     velocity: 100
     hitbox: true
     range: 24
     target_type: LivingEntity
-    player_damage: 1
-    entity_damage: 1
+    damage: 1
     target_breakables: 1
     cooldown: 4000
     reorient: false
     potion_effects:
       confusion: 2
-    duration: 2000
+    duration: 5000
   costs:
     mana: 15
 
@@ -64,30 +60,18 @@ stupefy|2:
   upgrade_required_casts: 50
   parameters:
     cooldown: 2000
-    player_damage: 2
-    entity_damage: 2
-    duration: 4000
-  headshot_parameters:
-    player_damage: 4
-    entity_damage: 4
+    damage: 1
+    duration: 7000
 
 stupefy|3:
   upgrade_required_path: year7
   upgrade_required_casts: 75
   parameters:
     range: 48
-    player_damage: 3
-    entity_damage: 3
-    duration: 6000
-  headshot_parameters:
-    player_damage: 5
-    entity_damage: 5
+    damage: 1
+    duration: 9000
 
 stupefy|4:
   parameters:
-    player_damage: 4
-    entity_damage: 4
-    duration: 8000
-  headshot_parameters:
-    player_damage: 6
-    entity_damage: 6
+    damage: 1
+    duration: 10000

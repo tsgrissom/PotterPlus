@@ -1,4 +1,5 @@
 conductors_wand:
+  inherit: base_wand
   icon: stick
   active_spell: music
   spells:

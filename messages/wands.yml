@@ -50,3 +50,8 @@ wands:
     description: "&8Unlocks all doors for a limited time"
     spell_instructions: ""
     bound_instructions: ""
+  trickwand:
+    name: "&eTrick Wand"
+    description: "&6Casts some trick spells"
+    spell_instructions: ""
+    bound_instructions: ""

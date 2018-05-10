@@ -27,6 +27,9 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Make mobs more aggressive as they get damaged with `min_damage` flags, etc.
 * Change upgrade messages.
 * Implement Nathan's post-grad ideas
+* Convert concatenated names of wands and spells to use underscores
+* Add more shops like a joke shop for fun items, book store, etc.
+* Test Trick Wands
 
 ### Known bugs
 

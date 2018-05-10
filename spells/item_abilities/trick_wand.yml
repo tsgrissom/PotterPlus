@@ -1,0 +1,22 @@
+trick_wand_ability:
+  icon: stick
+  hidden: true
+  category: item_ability
+  actions:
+    cast:
+      - class: Random
+        actions:
+          - class: Command
+            command: "castp @tn stupefy damage 0.5 duration 0 velocity 10"
+          - class: Command
+            command: "castp @tn alarteascendare y_offset 0.25 target self"
+          - class: Command
+            command: "castp @tn arrow damage 0.5 spread 2"
+          - class: Command
+            command: "castp @tn expelliarmus target self keep_in_inventory false"
+          - class: Command
+            command: "castp @tn herbifors target self undo 2000"
+          - class: Command
+            command: "castp @tn incarcifors target self undo_speed 0"
+  parameters:
+    console: true

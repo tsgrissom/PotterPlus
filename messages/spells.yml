@@ -711,3 +711,6 @@ spells:
   skeleton_key_ability:
     name: "Skeleton Key Ability"
     description: "Unlocks any door"
+  trick_wand_ability:
+    name: "Trick Wand Ability"
+    description: "Casts some trick spells"
