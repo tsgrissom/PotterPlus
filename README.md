@@ -26,12 +26,14 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Check if `enchanting.yml` is even a thing anymore
 * Add stuff for post-graduation (more classes, paths, and exclusive spells)
 * Make mobs more aggressive as they get damaged with `min_damage` flags, etc.
+* Change upgrade messages.
 
 ### Known bugs
 
 #### Spells
 
 * Obliviate Maxima doesn't work, Obliviate does
+* `upgrades` is broken for me locally but not for Nathan
 
 ### Other ideas
 
