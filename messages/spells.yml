@@ -153,6 +153,8 @@ spells:
     description: "Conjures a magical bubble of air for a wizard to breathe underwater with."
   bubblehead|2:
     upgrade_description: "Increased duration."
+  bubblehead|3:
+    upgrade_description: "Increased duration."
   orchideous:
     description: "Pollinates the area with flowers."
   accio:
