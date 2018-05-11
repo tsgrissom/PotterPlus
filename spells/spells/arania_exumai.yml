@@ -1,7 +1,7 @@
 araniaexumai:
   worth: 5 ac
   upgrade_required_path: year2
-  upgrade_required_casts: 25
+  upgrade_required_casts: 50
   effects:
     cast:
       - class: EffectSingle
@@ -21,13 +21,15 @@ araniaexumai:
           lengthGrow: 0.15
           particle: spell_mob
           color: FFFFFF
+  parameters:
+    damage: 5
 
 araniaexumai|2:
   upgrade_required_path: year3
-  upgrade_required_casts: 50
+  upgrade_required_casts: 100
   parameters:
-    damage: 15
+    damage: 10
 
 araniaexumai|3:
   parameters:
-    damage: 20
+    damage: 15
