@@ -3,6 +3,7 @@ lumos:
   icon_disabled: diamond_hoe:228
   category: charms
   worth: 10 ac
+  upgrade_required_casts: 75
   effects:
     cast:
       - firework: burst
@@ -17,14 +18,14 @@ lumos:
 
 lumos|2:
   upgrade_required_path: year2
-  upgrade_required_casts: 75
+  upgrade_required_casts: 150
   parameters:
     duration: 20000
     cooldown: 20000
 
 lumos|3:
   upgrade_required_path: year3
-  upgrade_required_casts: 150
+  upgrade_required_casts: 200
   parameters:
     duration: 30000
     cooldown: 30000
