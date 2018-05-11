@@ -8,6 +8,7 @@ This is not an absolute record of *ever* change that happens, just ones that are
 
 ### 5/10/18
 
+* Changed `flagrate|2` to be more visible
 * PVP restricted spells that should be PVP restricted
 * Fix Conductor's Wand inheritance
 * Added Trick Wands

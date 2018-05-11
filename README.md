@@ -30,7 +30,6 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Convert concatenated names of wands and spells to use underscores
 * Add more shops like a joke shop for fun items, book store, etc.
 * Make firestorm place fire trail while moving instead of at the end
-* Test Trick Wands
 
 ### Known bugs
 

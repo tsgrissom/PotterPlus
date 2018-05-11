@@ -6,20 +6,43 @@ trick_wand_ability:
     cast:
       - class: Random
         actions:
-          - class: Command
-            command: "castp @tn stupefy damage 0.5 duration 0 velocity 10"
-          - class: Command
-            command: "castp @tn arrow damage 0.5 spread 2"
-          - class: Command
-            command: "castp @tn expelliarmus target self keep_in_inventory false"
-          - class: Command
-            command: "castp @tn herbifors target self undo 5000"
-          - class: Command
-            command: "castp @tn colloshoo target self"
-          - class: Command
-            command: "castp @tn melofors target self undo 8000"
-          - class: Command
-            command: "castp @tn waddiwasi target self"
+          - class: Cast
+            spell: stupefy
+            spell_parameters:
+              damage: 0.5
+              duration: 0
+              velocity: 10
+          - class: Cast
+            spell: arrow
+            spell_parameters:
+              damage: 0.5
+              spread: 2
+          - class: Cast
+            spell: expelliarmus
+            spell_parameters:
+              backfire_chance: 0.7
+              keep_in_inventory: false
+          - class: Cast
+            spell: herbifors
+            spell_parameters:
+              target: self
+              undo: 5000
+          - class: Cast
+            spell: colloshoo
+            spell_parameters:
+              target: self
+          - class: Cast
+            spell: melofors
+            spell_parameters:
+              target: self
+              undo: 8000
+          - class: Cast
+            spell: waddiwasi
+            spell_parameters:
+              target: self
   parameters:
     target: self
     console: true
+    cost_free: true
+    cooldown_free: true
+    cooldown: 5000
