@@ -2854,6 +2854,10 @@ spells:
   ignisdisceditus:
     name: Ignis Disceditus
     description: Extinguishes nearby flames in a gush of cold air.
+  ignisdisceditus|2:
+    upgrade_description: Increased range and size. Decreased cooldown.
+  ignisdisceditus|3:
+    upgrade_description: Increased range, size, and duration.
   pulsus|2:
     upgrade_description: Increased power and target count.
   aparecium|2:

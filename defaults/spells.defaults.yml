@@ -22878,6 +22878,8 @@ ignisdisceditus:
   category: charms
   worth: 5 ac
   class: ConstructSpell
+  upgrade_required_casts: 25
+  upgrade_required_path: year2
   effects:
     cast:
     - class: EffectSingle
@@ -22891,18 +22893,32 @@ ignisdisceditus:
         radiusGrow: 0.03
         updateLocations: false
         updateDirections: false
-  costs:
-    mana: 20
   parameters:
     allow_max_range: false
-    range: 32
+    range: 16
     check_destructible: true
     destructible: fire
     brush: erase
     radius: 2
     transparent: transparent_to_construction
     undo: 5000
-    cooldown: 20000
+    cooldown: 12000
+  costs:
+    mana: 20
+  enabled: true
+ignisdisceditus|2:
+  upgrade_required_casts: 50
+  upgrade_required_path: year3
+  parameters:
+    range: 24
+    radius: 2.5
+    cooldown: 10000
+  enabled: true
+ignisdisceditus|3:
+  parameters:
+    range: 32
+    radius: 3
+    undo: 8000
   enabled: true
 impedimenta:
   icon: diamond_axe:163

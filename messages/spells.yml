@@ -586,6 +586,10 @@ spells:
   ignisdisceditus:
     name: "Ignis Disceditus"
     description: "Extinguishes nearby flames in a gush of cold air."
+  ignisdisceditus|2:
+    upgrade_description: "Increased range and size. Decreased cooldown."
+  ignisdisceditus|3:
+    upgrade_description: "Increased range, size, and duration."
   pulsus:
     name: "Pulsus"
     description: "Pushes away a number of nearby targets with great force, damaging them."

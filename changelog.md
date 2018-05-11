@@ -8,6 +8,7 @@ This is not an absolute record of *ever* change that happens, just ones that are
 
 ### 5/11/18
 
+* Added Ignis Disceditus leveling
 * Added Bewitched Snowball leveling
 * Fixed Lumos leveling
 
