@@ -1,4 +1,4 @@
-default:
+base_wand:
   drop: toggle
   left_click: cast
   swap: cycle_hotbar
