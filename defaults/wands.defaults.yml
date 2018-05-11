@@ -23,7 +23,7 @@ base_wand:
   hidden: true
   inherit: base_bound
   mode: inventory
-  drop: cycle_hotbar
+  drop: toggle
   left_click: cast
   right_click: toggle
   swap: cycle_hotbar
@@ -1129,10 +1129,6 @@ erumpent_horn:
   active_spell: erumpent_attack
   spells:
   - erumpent_attack
-default:
-  drop: toggle
-  left_click: cast
-  swap: cycle_hotbar
 developer:
   inherit: base_wand
   icon: blaze_rod

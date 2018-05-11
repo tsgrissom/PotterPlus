@@ -14,15 +14,15 @@ costs:
   mana_amount: $amount Energy
   mana: Energy
   xp: XP
-  levels: XP Levels
+  levels: Levels
   sp: Spell Points
   hunger: Energy
   health: Health
   health_amount: $amount Health
   hunger_amount: $amount Energy
   heroes_mana: $amount Mana
-  currency: Dollar
-  currency_plural: Dollars
+  currency_singular: Dollar
+  currency: Dollars
   currency_amount: $$amount
 currency:
   item_name: '&e$amount &6$type'
@@ -1934,6 +1934,12 @@ spells:
   vanish:
     name: Vanish
     description: Make yourself completely invisible to other players.
+  ledger:
+    name: Ledger
+    title: Ledger
+    header: '&2&lBalances'
+    currency_prefix: '&7&l'
+    value_prefix: '&0'
   accio:
     name: Accio
     description: Summons objects and lesser creatures to the caster.
@@ -2361,6 +2367,7 @@ spells:
     name: Bewitched Snowball
     description: Causes bewitched snowballs to fall from the sky, damaging and slowing
       the target slightly. Usually nothing more than an annoyance.
+    upgrade_description: Increased damage and decreased cooldown.
   tripudio:
     cast: Tripudio!
     description: Gives a boost to the wizard's ability to hop high into the air.
@@ -3153,6 +3160,9 @@ wand:
   sp_instructions: '&r&6You have earned some Spell Points! SP''s are displayed above
     your mana bar, and may be spent at an enchanting table to learn new spells. Repeat
     casts earn fewer SP''s, try mixing it up once you have more spells!'
+  earn_instructions: '&r&6You have earned some $currency! This is displayed above
+    your mana bar, and may be spent at an enchanting table to learn new spells. Repeat
+    casts earn less, try mixing it up once you have more spells!'
   hotbar_changed: ''
   spell_activated: $spell
   upgrade_prefix: '&6'

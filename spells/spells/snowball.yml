@@ -1,0 +1,16 @@
+snowball:
+  worth: 10 ac
+  upgrade_required_casts: 25
+  parameters:
+    damage: 0.5
+
+snowball|2:
+  upgrade_required_casts: 50
+  parameters:
+    damage: 1
+    cooldown: 8000
+
+snowball|3:
+  parameters:
+    damage: 1.5
+    cooldown: 5000

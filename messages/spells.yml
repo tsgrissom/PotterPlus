@@ -136,6 +136,7 @@ spells:
     description: "Severs fabric."
   snowball:
     description: "Causes bewitched snowballs to fall from the sky, damaging and slowing the target slightly. Usually nothing more than an annoyance."
+    upgrade_description: "Increased damage and decreased cooldown."
   patronus:
     description: "Conjures concentrated happiness of a wizard from their happiest memory to protect against dark beings such as dementors and lethifolds."
   patronus|2:

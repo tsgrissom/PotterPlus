@@ -2267,6 +2267,7 @@ ledgershop:
   inherit: buyshop
   parameters:
     confirm: true
+    auto_close: true
     items:
       wand|ledger: 2
   enabled: false
@@ -8784,10 +8785,12 @@ ledger:
   show_undoable: false
   actions:
     cast:
-    - class: Command
+    - class: Ledger
   parameters:
-    op: true
-    command: bal
+    ignore_currencies:
+    - hunger
+    - health
+    - mana
   enabled: false
 levitate:
   icon: diamond_axe:150
@@ -17717,11 +17720,12 @@ snowball:
     allow_max_range: true
     spread: 20
     effect_slow: 120,1
-    damage: 0.25
+    damage: 0.5
     cooldown: 10000
   costs:
     mana: 40
   enabled: true
+  upgrade_required_casts: 25
 ascendio:
   inherit: fling
   category: charms
@@ -19284,20 +19288,21 @@ lumos:
     - blindness
     cooldown: 10000
   enabled: true
+  upgrade_required_casts: 75
 lumos|2:
   parameters:
     duration: 20000
     cooldown: 20000
   enabled: true
   upgrade_required_path: year2
-  upgrade_required_casts: 75
+  upgrade_required_casts: 150
 lumos|3:
   parameters:
     duration: 30000
     cooldown: 30000
   enabled: true
   upgrade_required_path: year3
-  upgrade_required_casts: 150
+  upgrade_required_casts: 200
 lumossolem:
   icon_url: http://textures.minecraft.net/texture/4abfe52d50f710f4103bc650b5e972d49832ea419841d9fa24e16ce617c716
   icon: diamond_axe:228
@@ -23713,6 +23718,17 @@ sluguluseructo|2:
 sluguluseructo|3:
   parameters:
     count: 6
+  enabled: true
+snowball|2:
+  upgrade_required_casts: 50
+  parameters:
+    damage: 1
+    cooldown: 8000
+  enabled: true
+snowball|3:
+  parameters:
+    damage: 1.5
+    cooldown: 5000
   enabled: true
 stupefy|4:
   parameters:

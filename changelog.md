@@ -6,6 +6,11 @@ There is a relatively up-to-date and accurate roadmap and list of upcoming chang
 
 This is not an absolute record of *ever* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 5/11/18
+
+* Added Bewitched Snowball leveling
+* Fixed Lumos leveling
+
 ### 5/10/18
 
 * Changed `flagrate|2` to be more visible
