@@ -1,11 +1,11 @@
 wand:
   default_name: Wand
-  spell_count: '&9Knows &7$count &9spells'
-  mana_max: '&9Energy&8: &7$amount'
-  mana_amount: '&9Energy&8: &7$amount'
+  spell_count: '&6Knows &7$count spells'
+  mana_max: '&2Energy&8: &7$amount'
+  mana_amount: '&2Energy&8: &7$amount'
   mana_regeneration: '&9Energy Regeneration&8: &7$amount&8/&7s'
   range_description: '&6Range&8: &7$range meters'
   owner_description: '&7$name''s &9wand'
-  bound_description: '&9Bound to &7$name'
+  bound_description: '&cBound to &7$name'
   costs_description: "&9Consumes &7$description"
   active_costs_description: "&9Consumes &7$description &9per second"

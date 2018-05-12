@@ -3181,12 +3181,12 @@ wand:
   enchantment_level_4: IV
   enchantment_level_5: V
   enchantment_level_max: X
-  spell_count: '&9Knows &7$count &9spells'
+  spell_count: '&6Knows &7$count spells'
   material_count: Has $count Materials
   upgrade_spell_count: Adds $count Spells
   upgrade_material_count: Adds $count Materials
-  mana_max: '&9Energy&8: &7$amount'
-  mana_amount: '&9Energy&8: &7$amount'
+  mana_max: '&2Energy&8: &7$amount'
+  mana_amount: '&2Energy&8: &7$amount'
   mana_amount_boosted: '&d&oEnergy: $amount &f(&b$mana&f)'
   mana_regeneration: '&9Energy Regeneration&8: &7$amount&8/&7s'
   mana_per_damage: '&4&oEnergy Rage: $amount/HP'
@@ -3242,7 +3242,7 @@ wand:
   active_costs_description: '&9Consumes &7$description &9per second'
   range_description: '&6Range&8: &7$range meters'
   owner_description: '&7$name''s &9wand'
-  bound_description: '&9Bound to &7$name'
+  bound_description: '&cBound to &7$name'
   unmodifiable: That wand can not be modified
   player_unmodifiable: $name's wand can not be modified
   bound_to_other: That wand is not bound to you

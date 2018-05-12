@@ -290,7 +290,7 @@ spells:
   limusexumai|3:
     upgrade_description: "Increased damage."
   deprimo:
-    description: "The Collapsing Spell"
+    description: "Collapses the ground the target's feet."
   deprimo|2:
     upgrade_description: "Increased radius."
   deprimo|3:
