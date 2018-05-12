@@ -1,2 +1,20 @@
 spell:
-  upgrade_description_prefix: '&r&8&bull; &7'
+  upgrade_description_prefix: "&r&8&bull; &7"
+  category: "&8Category: &7$category"
+  undoable: "&8Counterable"
+  not_undoable: "&8Not Undoable"
+  level_description: "&8Level $level"
+  description_lore: "&3$description"
+  level_lore: "&9$level"
+
+cooldown:
+  description: '&9Cooldown&8: &7$time'
+  mage_description: '&9Exhaustion&8: &7$time'
+
+duration:
+  lasts_seconds: "&9Lasts for &7$seconds &9seconds"
+  lasts_minutes: "&9Lasts for &7$minutes &9minutes"
+  lasts_hours: "&9Lasts for &7$hours &9hours"
+  lasts_second: "&9Lasts for &7$seconds &9second"
+  lasts_minute: "&9Lasts for &7$minutes &9minute"
+  lasts_hour: "&9Lasts for &7$hours &9hour"

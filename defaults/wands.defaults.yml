@@ -1036,7 +1036,7 @@ gillyweed:
   undroppable: false
   drop: none
   swap: none
-  left_click: cast
+  left_click: none
   right_click: cast
   uses: 5
   active_spell: gillyweed_ability
@@ -1082,8 +1082,8 @@ peruvianpowder:
   undroppable: false
   drop: none
   swap: none
-  left_click: cast
-  right_click: none
+  left_click: none
+  right_click: cast
   uses: 8
   active_spell: peruvian_powder_ability
   spells:
@@ -1103,7 +1103,7 @@ portableswamp:
   drop: none
   swap: none
   left_click: cast
-  right_click: none
+  right_click: cast
   uses: 1
   active_spell: portable_swamp_ability
   spells:

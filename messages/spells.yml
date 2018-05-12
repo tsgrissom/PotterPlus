@@ -9,6 +9,9 @@ spells:
     name: "Spellbook Shop"
     title: "Spell Books"
     description: "Get some spell books"
+  upgrades:
+    level_requirement: '&r&9Requires&8: &7$path'
+    cast_requirement: '&r&9Casts&8: &7$current&8/&7$required'
   vermillious:
     description: "Conjures a number of burning red sparks which inflict damage on those they touch."
   lumos:
