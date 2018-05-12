@@ -31,7 +31,7 @@ colloshoo:
   parameters:
     range: 12
     hitbox: true
-    potion_effects:
+    add_effects:
       slowness: 1
       jump: -20
     duration: 6000
@@ -42,7 +42,7 @@ colloshoo|2:
   upgrade_required_path: year4
   parameters:
     range: 24
-    potion_effects:
+    add_effects:
       slowness: 2
     duration: 7000
     cooldown: 12000
@@ -51,14 +51,14 @@ colloshoo|3:
   upgrade_required_casts: 75
   upgrade_required_path: year5
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 3
     duration: 8000
     cooldown: 13000
 
 colloshoo|4:
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 4
     duration: 9000
     cooldown: 14000

@@ -26,7 +26,7 @@ erkling_poisoned_dart:
   inherit: erkling_dart
   icon: diamond_axe:245
   parameters:
-    potion_effects:
+    add_effects:
       poison: 1
     color: "259046"
 
@@ -34,7 +34,7 @@ erkling_freezing_dart:
   inherit: erkling_dart
   icon: diamond_axe:243
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 2
     color: "4ad3d7"
 
@@ -42,7 +42,7 @@ erkling_weakening_dart:
   inherit: erkling_dart
   icon: diamond_axe:247
   parameters:
-    potion_effects:
+    add_effects:
       weakness: 2
     color: "440018"
 

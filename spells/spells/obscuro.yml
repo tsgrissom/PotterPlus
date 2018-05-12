@@ -31,7 +31,7 @@ obscuro:
   parameters:
     target_type: Player
     duration: 5000
-    potion_effects:
+    add_effects:
       blindness: 2
       confusion: 2
 

@@ -14,7 +14,7 @@ lumosmaxima:
         color: FF0080
         firework: burst
   parameters:
-    potion_effects:
+    add_effects:
       night_vision: 2
     duration: 90000
     cooldown: 90000

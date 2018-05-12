@@ -36,7 +36,7 @@ frigusignatus:
           color: FFFFFF
           iterations: 100
   parameters:
-    potion_effects:
+    add_effects:
       fire_resistance: 1
     duration: 10000
     cooldown: 12000

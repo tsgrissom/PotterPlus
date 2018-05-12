@@ -40,7 +40,7 @@ sluguluseructo:
     count: 2
     target: other_entity
     target_type: Player
-    potion_effects:
+    add_effects:
       poison: 2
     duration: 1000
     cast_on_no_target: false

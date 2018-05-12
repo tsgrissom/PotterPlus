@@ -34,7 +34,7 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 
 #### Spells
 
-* Aggregate PotionEffectAction format is broken. Once Nathan fixes, convert `effect_...` to `potion_effects` section
+*No spell bugs being tracked at the moment*
 
 ### Other ideas
 

@@ -27,5 +27,6 @@ peruvian_powder_ability:
     duration: 8000
     effect_blindness: 2
     slowness: 2
-    effect_blindess: 2
-    effect_slow: 2
+    add_effects:
+      blindess: 2
+      slow: 2

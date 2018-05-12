@@ -18152,7 +18152,7 @@ obscuro:
     effect_blindness: 1
     cooldown: 10000
     hitbox: true
-    potion_effects:
+    add_effects:
       blindness: 2
       confusion: 2
   enabled: true
@@ -18881,7 +18881,7 @@ fumos:
       actions:
       - class: PotionEffect
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 1
       damage_resistance: -1
     duration: 5000
@@ -19266,7 +19266,7 @@ levicorpus:
     undo_movement: true
     hitbox: true
     repeat: 4
-    potion_effects:
+    add_effects:
       levitation: 4
   costs:
     mana: 40
@@ -19277,14 +19277,14 @@ levicorpus|2:
   upgrade_required_path: year7
   parameters:
     repeat: 8
-    potion_effects:
+    add_effects:
       levitation: 5
   enabled: true
 levicorpus|3:
   inherit: false
   parameters:
     repeat: 12
-    potion_effects:
+    add_effects:
       levitation: 6
   enabled: true
 lumos:
@@ -19689,7 +19689,7 @@ salviohexia:
     duration: 5000
     cooldown: 15000
     transparent: transparent_to_construction
-    potion_effects:
+    add_effects:
       damage_resistance: 300
       slowness: 1
   costs:
@@ -19991,7 +19991,7 @@ stupefy:
     target_breakables: 1
     cooldown: 4000
     reorient: false
-    potion_effects:
+    add_effects:
       confusion: 2
     duration: 5000
   costs:
@@ -20521,7 +20521,7 @@ firestorm:
     cooldown: 16000
     undo: 6000
     duration: 10000
-    potion_effects:
+    add_effects:
       fire_resistance: 1
     push: 1
     damage: 2
@@ -21109,7 +21109,7 @@ demiguise_disappear:
     - class: AreaOfEffect
       actions:
       - class: PotionEffect
-        potion_effects:
+        add_effects:
           blindness: 2
           confusion: 2
   parameters:
@@ -21118,7 +21118,7 @@ demiguise_disappear:
     duration: 5000
     radius: 6
     y_radius: 3
-    potion_effects:
+    add_effects:
       invisibility: 1
     target: self
   enabled: true
@@ -21150,7 +21150,7 @@ erkling_poisoned_dart:
   inherit: erkling_dart
   icon: diamond_axe:245
   parameters:
-    potion_effects:
+    add_effects:
       poison: 1
     color: '259046'
   enabled: true
@@ -21158,7 +21158,7 @@ erkling_freezing_dart:
   inherit: erkling_dart
   icon: diamond_axe:243
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 2
     color: 4ad3d7
   enabled: true
@@ -21166,7 +21166,7 @@ erkling_weakening_dart:
   inherit: erkling_dart
   icon: diamond_axe:247
   parameters:
-    potion_effects:
+    add_effects:
       weakness: 2
     color: '440018'
   enabled: true
@@ -21201,7 +21201,7 @@ erumpent_ambient:
     - class: PotionEffect
   parameters:
     target: self
-    potion_effects:
+    add_effects:
       glowing: 1
     duration: 1500
   enabled: true
@@ -21308,7 +21308,7 @@ fwooper_death:
     target_source: false
     message_type: title
     message_target: true
-    potion_effects:
+    add_effects:
       slowness: 3
       confusion: 5
     duration: 20000
@@ -21437,7 +21437,7 @@ wampus_scratch:
     range: 6
     hitbox: true
     velocity: 30
-    potion_effects:
+    add_effects:
       wither: 2
     duration: 2000
   enabled: true
@@ -21537,8 +21537,9 @@ peruvian_powder_ability:
     duration: 8000
     effect_blindness: 2
     slowness: 2
-    effect_blindess: 2
-    effect_slow: 2
+    add_effects:
+      blindess: 2
+      slow: 2
   enabled: true
 portable_swamp_ability:
   inherit: incarcifors
@@ -22137,7 +22138,7 @@ colloshoo:
   parameters:
     range: 12
     hitbox: true
-    potion_effects:
+    add_effects:
       slowness: 1
       jump: -20
     duration: 6000
@@ -22148,7 +22149,7 @@ colloshoo|2:
   upgrade_required_path: year4
   parameters:
     range: 24
-    potion_effects:
+    add_effects:
       slowness: 2
     duration: 7000
     cooldown: 12000
@@ -22157,14 +22158,14 @@ colloshoo|3:
   upgrade_required_casts: 75
   upgrade_required_path: year5
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 3
     duration: 8000
     cooldown: 13000
   enabled: true
 colloshoo|4:
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 4
     duration: 9000
     cooldown: 14000
@@ -22504,7 +22505,7 @@ felixleporemos:
     target: other
     target_type: LivingEntity
     hitbox: true
-    potion_effects:
+    add_effects:
       speed: 1
       jump: 1
     duration: 3000
@@ -22524,7 +22525,7 @@ felixleporemos|3:
   costs:
     mana: 25
   parameters:
-    potion_effects:
+    add_effects:
       speed: 2
       jump: 2
     velocity: 200
@@ -22738,7 +22739,7 @@ frigusignatus:
         color: FFFFFF
         iterations: 100
   parameters:
-    potion_effects:
+    add_effects:
       fire_resistance: 1
     duration: 10000
     cooldown: 12000
@@ -22767,7 +22768,7 @@ fumos|2:
         radius: 3
         particles: 20
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 2
     radius: 3
     y_radius: 3
@@ -22789,7 +22790,7 @@ fumos|3:
         radius: 5
         particles: 50
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 3
       blindness: 3
     radius: 5
@@ -22996,7 +22997,7 @@ homenumrevelio:
     y_radius: 25
     target_count: 24
     target_source: false
-    potion_effects:
+    add_effects:
       glowing: 2
     duration: 24000
     target: self
@@ -23113,7 +23114,7 @@ impedimenta:
     target: other
     target_breakables: 1
     duration: 3000
-    potion_effects:
+    add_effects:
       slowness: 1.5
       jump: -20
     cooldown: 7000
@@ -23124,14 +23125,14 @@ impedimenta|2:
   upgrade_required_casts: 50
   upgrade_required_path: year5
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 2
     duration: 7000
     cooldown: 12000
   enabled: true
 impedimenta|3:
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 3
     duration: 10000
     cooldown: 15000
@@ -23267,7 +23268,7 @@ locomotorwibbly:
     target: other
     target_type: Damageable
     range: 24
-    potion_effects:
+    add_effects:
       slowness: 2
       confusion: 2
     duration: 8000
@@ -23284,7 +23285,7 @@ locomotorwibbly|2:
   enabled: true
 locomotorwibbly|3:
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 2
     range: 32
   enabled: true
@@ -23309,7 +23310,7 @@ lumosmaxima:
       color: FF0080
       firework: burst
   parameters:
-    potion_effects:
+    add_effects:
       night_vision: 2
     duration: 90000
     cooldown: 90000
@@ -23517,7 +23518,7 @@ obliviatemaxima:
     cooldown: 20000
     target_all_worlds: true
     target_type: Player
-    potion_effects:
+    add_effects:
       confusion: 2
     duration: 8000
   costs:
@@ -23697,7 +23698,7 @@ protegototalus:
     radius: 3
     y_radius: 3
     cooldown: 20000
-    potion_effects:
+    add_effects:
       damage_resistance: 255
       fire_resistance: 1
     duration: 10000
@@ -23855,7 +23856,7 @@ sluguluseructo:
     count: 2
     target: other_entity
     target_type: Player
-    potion_effects:
+    add_effects:
       poison: 2
     duration: 1000
     cast_on_no_target: false
@@ -23926,7 +23927,7 @@ tarantallegra:
     reorient: true
     velocity: 50
     hitbox: true
-    potion_effects:
+    add_effects:
       jump: -20
     duration: 8000
     cooldown: 16000
@@ -23983,7 +23984,7 @@ titillando:
     range: 16
     hitbox: true
     cooldown: 15000
-    potion_effects:
+    add_effects:
       confusion: 6
       slowness: 1
       weakness: 2
@@ -23996,7 +23997,7 @@ titillando|2:
   parameters:
     range: 24
     cooldown: 12000
-    potion_effects:
+    add_effects:
       confusion: 8
       slowness: 2
       weakness: 3
@@ -24005,7 +24006,7 @@ titillando|2:
 titillando|3:
   parameters:
     range: 32
-    potion_effects:
+    add_effects:
       confusion: 10
       slowness: 3
       weakness: 4
