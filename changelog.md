@@ -8,6 +8,8 @@ This is not an absolute record of *ever* change that happens, just ones that are
 
 ### 5/11/18
 
+* Buffed and added leveling to Scribblifors and Flintifors
+* Converted all upgrade messages to new multi-line format
 * Re-worked Bubblehead Charm with leveling and nerf
 * Added Ignis Disceditus leveling
 * Added Bewitched Snowball leveling

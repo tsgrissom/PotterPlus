@@ -2,6 +2,7 @@ scribblifors:
   icon: diamond_axe:118
   category: transfiguration
   worth: 5 ac
+  upgrade_required_casts: 25
   effects:
     cast:
       - class: EffectSingle
@@ -17,8 +18,17 @@ scribblifors:
       - class: Delay
       - class: GiveItem
   parameters:
-    cooldown: 30000
+    cooldown: 15000
     item: book_and_quill
     name: "&dConjured Book and Quill"
     target: self
     delay: 1000
+
+scribblifors|2:
+  upgrade_required_casts: 50
+  parameters:
+    cooldown: 10000
+
+scribblifors|3:
+  parameters:
+    cooldown: 5000

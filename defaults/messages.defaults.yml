@@ -2972,6 +2972,10 @@ spells:
     name: Scribblifors
     description: Conjures stationery to write on. A useful transfiguration spell for
       classwork.
+  scribblifors|2:
+    upgrade_description: Decreased cooldown.
+  scribblifors|3:
+    upgrade_description: Decreased cooldown.
   locomotorwibbly:
     name: Locomotor Wibbly
     description: Causes the target's legs to become extremely weak crippling and immobilizing
@@ -2997,6 +3001,10 @@ spells:
   flintifors:
     name: Flintifors
     description: Conjures a flint and steel, a manual fire-igniting tool.
+  flintifors|2:
+    upgrade_description: Decreased cooldown.
+  flintifors|3:
+    upgrade_description: Decreased cooldown.
   ignisdisceditus:
     name: Ignis Disceditus
     description: Extinguishes nearby flames in a gush of cold air.

@@ -22582,6 +22582,12 @@ flintifors:
     item: flint_and_steel
     name: '&dConjured Flint and Steel'
   enabled: true
+flintifors|2:
+  inherit: scribblifors|2
+  enabled: true
+flintifors|3:
+  inherit: scribblifors|3
+  enabled: true
 fourpoint|2:
   parameters:
     delay: 1750
@@ -23673,6 +23679,7 @@ scribblifors:
   icon: diamond_axe:118
   category: transfiguration
   worth: 5 ac
+  upgrade_required_casts: 25
   effects:
     cast:
     - class: EffectSingle
@@ -23688,11 +23695,20 @@ scribblifors:
     - class: Delay
     - class: GiveItem
   parameters:
-    cooldown: 30000
+    cooldown: 15000
     item: book_and_quill
     name: '&dConjured Book and Quill'
     target: self
     delay: 1000
+  enabled: true
+scribblifors|2:
+  upgrade_required_casts: 50
+  parameters:
+    cooldown: 10000
+  enabled: true
+scribblifors|3:
+  parameters:
+    cooldown: 5000
   enabled: true
 sluguluseructo:
   inherit: bogies
