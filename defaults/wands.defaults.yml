@@ -358,7 +358,6 @@ thestral:
   overrides: mount_variant skeleton_horse stash_item false
   spells:
   - broom
-  enabled: false
 minister:
   mode: cast
   path: broom
@@ -373,7 +372,6 @@ minister:
     0.5, broom.effect_confusion 0
   spells:
   - broom
-  enabled: false
 unspeakabroom:
   mode: cast
   path: broom
@@ -388,7 +386,6 @@ unspeakabroom:
     0.3, broom.effect_confusion 0
   spells:
   - broom
-  enabled: false
 headmaster:
   mode: cast
   path: broom
@@ -403,7 +400,6 @@ headmaster:
     0.3, broom.effect_confusion 0
   spells:
   - broom
-  enabled: false
 firebolt:
   mode: cast
   path: broom
@@ -418,7 +414,6 @@ firebolt:
     0.25
   spells:
   - broom
-  enabled: false
 crudfirebolt:
   mode: cast
   active_spell: broom
@@ -433,7 +428,6 @@ crudfirebolt:
     0.25
   spells:
   - broom
-  enabled: false
 nimbus:
   mode: cast
   path: broom
@@ -448,7 +442,6 @@ nimbus:
     0.4
   spells:
   - broom
-  enabled: false
 crudnimbus:
   mode: cast
   active_spell: broom
@@ -463,7 +456,6 @@ crudnimbus:
     0.4
   spells:
   - broom
-  enabled: false
 comet290:
   mode: cast
   path: broom
@@ -478,7 +470,6 @@ comet290:
     1
   spells:
   - broom
-  enabled: false
 cleansweep1:
   mode: cast
   path: broom
@@ -492,7 +483,6 @@ cleansweep1:
     12, broom.steer_speed 0, broom.slow_steer_speed 0.8
   spells:
   - broom
-  enabled: false
 bluebottle:
   mode: cast
   path: broom
@@ -506,7 +496,6 @@ bluebottle:
     8, broom.steer_speed 0.2, broom.slow_ticks 5, broom.slow_steer_speed 0.1
   spells:
   - broom
-  enabled: false
 crudbroom:
   mode: cast
   path: broom
@@ -521,7 +510,6 @@ crudbroom:
     8, broom.steer_speed 0.2, broom.slow_ticks 5, broom.slow_steer_speed 0.1
   spells:
   - broom
-  enabled: false
 beater:
   path: beater
   active_spell: beat
@@ -534,7 +522,6 @@ beater:
   effect_color: FF0000
   spells:
   - beat
-  enabled: false
 patronus_wolf:
   icon: nether_star
   upgrade: true
