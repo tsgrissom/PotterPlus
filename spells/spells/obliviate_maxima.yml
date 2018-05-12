@@ -2,7 +2,6 @@
 
 obliviatemaxima:
   category: staff
-  icon_url: http://textures.minecraft.net/texture/89f9399aceb3211c3ca1259d5b1bb1f3fb61a4d5626a757ee1a1ccec28a0ae
   icon: diamond_axe:230
   worth: 30 ac
   actions:
@@ -22,11 +21,12 @@ obliviatemaxima:
           particle: redstone
           color: FFFFFF
   parameters:
+    target: self
     cooldown: 20000
     target_all_worlds: true
     target_type: Player
     potion_effects:
-      confusion: 1
+      confusion: 2
     duration: 8000
   costs:
     mana: 75

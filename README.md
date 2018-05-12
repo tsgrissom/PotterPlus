@@ -30,7 +30,7 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 
 #### Spells
 
-* Obliviate Maxima doesn't work, Obliviate does
+**No spell bugs are being tracked at the moment**
 
 ### Other ideas
 
