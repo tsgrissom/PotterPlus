@@ -78,10 +78,6 @@ reducto:
 
 arresto:
   worth: 5 ac
-ascendio:
-  worth: 10 ac
-  parameters:
-    cooldown: 10000
 
 aquaeructo:
   category: charms

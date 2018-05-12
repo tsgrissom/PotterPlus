@@ -17750,11 +17750,17 @@ ascendio:
   category: charms
   enabled: true
   worth: 10 ac
+  upgrade_required_casts: 25
   parameters:
     cooldown: 10000
+    min_speed: 0.8
+    max_speed: 1.0
 ascendio|2:
   inherit: fling|2
   enabled: true
+  parameters:
+    min_speed: 1.0
+    max_speed: 1.2
 arresto:
   icon_url: http://textures.minecraft.net/texture/4a23ccd51565d2e246675c86aef11b5412662c15ecc2e9f3ef425adc91d1
   icon: diamond_axe:226
@@ -20299,8 +20305,7 @@ wingardium:
     target_type: LivingEntity
 revelio:
   inherit: false
-  icon: diamond_axe:74
-  icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
+  icon: diamond_axe:107
   category: charms
   worth: 10 ac
   costs:
@@ -21802,6 +21807,26 @@ arrowmaxima|3:
 arrowmaxima|4:
   parameters:
     fire: true
+  enabled: true
+ascendio|3:
+  parameters:
+    min_speed: 1.2
+    max_speed: 1.4
+  enabled: true
+ascendio|4:
+  parameters:
+    min_speed: 1.4
+    max_speed: 1.6
+  enabled: true
+ascendio|5:
+  parameters:
+    min_speed: 1.6
+    max_speed: 1.8
+  enabled: true
+ascendio|6:
+  parameters:
+    min_speed: 1.8
+    max_speed: 2.0
   enabled: true
 avis|2:
   upgrade_required_casts: 125

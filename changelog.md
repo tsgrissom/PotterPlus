@@ -8,6 +8,7 @@ This is not an absolute record of *ever* change that happens, just ones that are
 
 ### 5/12/18
 
+* Re-worked Ascendio
 * Overhauled spell and wand looks
 * Fixed broken potion effects
 * Added Godric Gryffindor's Sword
