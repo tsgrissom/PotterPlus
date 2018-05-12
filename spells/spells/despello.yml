@@ -27,6 +27,7 @@ despello:
     hitbox: true
     target: other
     target_type: Player
+    cooldown: 8000
     randomized_messages:
       - "blablablabla"
       - "fwufheuf"
@@ -44,6 +45,8 @@ despello:
       - "Sun Baby"
       - "Noo-noo"
       - "Yo soy loco"
+  costs:
+    mana: 25
 
 despello|2:
   parameters:
