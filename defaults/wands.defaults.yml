@@ -1042,6 +1042,22 @@ gillyweed:
   active_spell: gillyweed_ability
   spells:
   - gillyweed_ability
+godricssword:
+  inherit: base_wand
+  icon: iron_sword
+  display_name: $name
+  lore:
+  - $description
+  mana: 125
+  mana_regeneration: 125
+  cost_reduction: 10
+  drop: none
+  swap: none
+  left_click: none
+  right_click: cast
+  active_spell: godrics_sword_ability
+  spells:
+  - godrics_sword_ability
 skeletonkey:
   inherit: key
   uses: 3

@@ -730,3 +730,6 @@ spells:
   peruvian_powder_ability:
     name: "Peruvian Powder Ability"
     description: "Blanket the area in darkness"
+  godrics_sword_ability:
+    name: "Godric's Sword Ability"
+    description: "Disarm your target"

@@ -3148,6 +3148,9 @@ spells:
   peruvian_powder_ability:
     name: Peruvian Powder Ability
     description: Blanket the area in darkness
+  godrics_sword_ability:
+    name: Godric's Sword Ability
+    description: Disarm your target
 wand:
   default_name: Wand
   upgrade_default_description: Will upgrade your wand.
@@ -3958,6 +3961,11 @@ wands:
   peruvianpowder:
     name: '&8Peruvian Instant Darkness Powder'
     description: '&7Blanket an area in darkness'
+    spell_instructions: ''
+    bound_instructions: ''
+  godricssword:
+    name: '&4Sword of Godric Gryffindor'
+    description: '&6A sword imbued with magic, previously owned by a Hogwarts founder'
     spell_instructions: ''
     bound_instructions: ''
 automata:
