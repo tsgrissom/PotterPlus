@@ -1053,6 +1053,25 @@ music_box:
   icon: note_block
   cooldown_reduction: 5
   has_uses: false
+peruvianpowder:
+  inherit: base_wand
+  icon: sulphur
+  display_name: $name
+  lore:
+  - $description
+  - ''
+  - $uses
+  mana: 50
+  mana_regeneration: 25
+  undroppable: false
+  drop: none
+  swap: none
+  left_click: cast
+  right_click: none
+  uses: 8
+  active_spell: peruvian_powder_ability
+  spells:
+  - peruvian_powder_ability
 portableswamp:
   inherit: base_wand
   icon: grass

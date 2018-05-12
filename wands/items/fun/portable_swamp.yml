@@ -3,9 +3,9 @@ portableswamp:
   icon: grass
   display_name: "$name"
   lore:
-    - '$description'
-    - ''
-    - '&cSingle-use'
+    - "$description"
+    - ""
+    - "&cSingle-use"
   cost_reduction: 10
   mana: 50
   mana_regeneration: 25

@@ -6,6 +6,10 @@ There is a relatively up-to-date and accurate roadmap and list of upcoming chang
 
 This is not an absolute record of *ever* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 5/12/18
+
+* Added Peruvian Instant Darkness Powder
+
 ### 5/11/18
 
 * Added back Firebolt and Nimbus brooms

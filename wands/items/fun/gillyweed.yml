@@ -3,11 +3,11 @@ gillyweed:
   icon: vine
   display_name: "$name"
   lore:
-    - '$description'
-    - ''
-    - '&8Right-click to consume some'
-    - ''
-    - '$uses'
+    - "$description"
+    - ""
+    - "&8Right-click to consume some"
+    - ""
+    - "$uses"
   cost_reduction: 10
   mana: 50
   mana_regeneration: 25

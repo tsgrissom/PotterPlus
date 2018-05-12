@@ -1,12 +1,11 @@
-trickwand:
+peruvianpowder:
   inherit: base_wand
-  icon: wood_hoe:24,wood_hoe:25,wood_hoe:26
+  icon: sulphur
   display_name: "$name"
   lore:
     - "$description"
     - ""
     - "$uses"
-  cost_reduction: 10
   mana: 50
   mana_regeneration: 25
   undroppable: false
@@ -14,7 +13,7 @@ trickwand:
   swap: none
   left_click: cast
   right_click: none
-  uses: 5
-  active_spell: trick_wand_ability
+  uses: 8
+  active_spell: peruvian_powder_ability
   spells:
-    - trick_wand_ability
+    - peruvian_powder_ability

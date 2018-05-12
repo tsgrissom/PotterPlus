@@ -25,12 +25,14 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Implement Nathan's post-grad ideas
 * Add more shops like a joke shop for fun items, book store, etc.
 * Make firestorm place fire trail while moving instead of at the end
+* Investigate `mode: cast` for fun wands
+* Use some sort of template to simplify wand making
 
 ### Known bugs
 
 #### Spells
 
-**No spell bugs are being tracked at the moment**
+* Aggregate PotionEffectAction format is broken. Once Nathan fixes, convert `effect_...` to `potion_effects` section
 
 ### Other ideas
 
@@ -56,7 +58,6 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Whiz-bangs -> Crazy fireworks, come in Basic Blaze Box of Deflagration Deluxe
 * Skiving snackboxes -> A box of snacks which cause illness
 * Decoy detonators -> Sends a hopper projectile which explodes to create a distraction
-* Peruvian instant darkness powder -> Covers the surrounding area in darkness powder
 * Flying carpet -> Casts modified air scooter with random color carpet mount
 * Time turner
 * Potions? Might want to just handle the effects and let them pick a third-party to cast
