@@ -164,7 +164,11 @@ spells:
   aguamenti:
     description: "Conjures a gush of water for drinking use or to cushion a fall."
   aguamenti|2:
-    upgrade_description: "Increased radius.\nIncreased range."
+    upgrade_description: "Increased size.\nIncreased range.\nIncreased duration."
+  aguamenti|3:
+    upgrade_description: "Increased size.\nIncreased duration.\nIncreased range."
+  aguamenti|4:
+    upgrade_description: "Increased size.\nIncreased duration.\nIncreased range."
   locomotomortus:
     name: "Locomotor Mortus"
     description: "Locks the target's legs to immobilize them temporarily."
