@@ -2554,7 +2554,18 @@ spells:
     upgrade_description: Increased duration.
   aguamenti|2:
     upgrade_description: |-
-      Increased radius.
+      Increased size.
+      Increased range.
+      Increased duration.
+  aguamenti|3:
+    upgrade_description: |-
+      Increased size.
+      Increased duration.
+      Increased range.
+  aguamenti|4:
+    upgrade_description: |-
+      Increased size.
+      Increased duration.
       Increased range.
   episkey|2:
     upgrade_description: Increased healing.
