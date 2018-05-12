@@ -19090,6 +19090,7 @@ impervius:
     transparent: transparent_to_construction
     undo: 10000
     select_self: false
+    cooldown: 12000
   costs:
     mana: 65
   enabled: true
@@ -22270,20 +22271,18 @@ despello:
     randomized_messages:
     - blablablabla
     - fwufheuf
-    - It's a FISH!
     - BlubBlubBlubBlub
     - HueHueHue
     - LaLaLa
     - TutTutTut
     - TyTyTy
     - Floooop
-    - Tinky-Winky
     - Laa-Laa
     - Dipsy
     - Po
-    - Sun Baby
     - Noo-noo
-    - Yo soy loco
+  costs:
+    mana: 25
   enabled: true
 despello|2:
   parameters:

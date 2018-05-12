@@ -1,8 +1,4 @@
 spells:
-  default:
-    usage: ""
-    cast: ""
-    cast_self: ""
   ollivander:
     title: "Wand Shop"
   bookshop:
@@ -324,7 +320,7 @@ spells:
     description: "Causes water to repel away from objects or areas, clearing pathways through water."
   baubillious:
     name: Baubillious
-    description: "Causes powerful lightning to zap one target, then to continue jumping between additional targets."
+    description: "Causes powerful lightning to zap one target, then to continue jumping between additional nearby targets."
   baubillious|2:
     upgrade_description: "Increased damage."
   baubillious|3:
@@ -344,6 +340,7 @@ spells:
     description: "Confuses the target, making it difficult to cast spells or sufficiently protect themselves."
   imperio:
     description: "This unforgivably dark spell grants you control of where the target goes."
+    usage: "Cast once to select your target, cast again to hurl your target in a direction."
   fiantoduri:
     description: "Grants you additional protections against damage of all kinds."
   fiendfyre:
@@ -366,6 +363,7 @@ spells:
     description: "Softens and makes a large area bouncy."
   avadakedavra:
     description: "In a flash of green light, this unblockable curse can end the life of any living creature with great malice."
+    usage: ""
   reparifarge:
     description: "Counter mosts of the world-impacting effects of previously cast spells."
   noxmaxima:
@@ -515,7 +513,7 @@ spells:
     description: "Binds your target in ropes to immobilize them."
   flight:
     name: "Flight"
-    description: "Channeling some of the most powerful magic known to wizardkind, you levitate in the air and sail around with no aid from a magical device."
+    description: "Channeling some of the most powerful magic known to wizardkind, you levitate in the air and sail around without aid from a magical device."
   flight|2:
     upgrade_description: "Increased speed.\nIncreased steer speed.\nIncreased thrust.\nDecreased liftoff duration."
   flight|3:

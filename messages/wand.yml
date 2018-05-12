@@ -4,7 +4,7 @@ wand:
   mana_max: '&9Energy&8: &7$amount'
   mana_amount: '&9Energy&8: &7$amount'
   mana_regeneration: '&9Energy Regeneration&8: &7$amount&8/&7s'
-  range_description: '&9Range: &7$range &9meters'
+  range_description: '&6Range&8: &7$range meters'
   owner_description: '&7$name''s &9wand'
   bound_description: '&9Bound to &7$name'
   costs_description: "&9Consumes &7$description"

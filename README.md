@@ -28,7 +28,8 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Investigate `mode: cast` for fun wands
 * Use some sort of template to simplify wand making
 * Devise some better Graduate spells
-* Investigate GitHub releases
+* Decide on the fate of `/defaults/`
+* Replace all fake warmup spells with a real warmup
 
 ### Known bugs
 

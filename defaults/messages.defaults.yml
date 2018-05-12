@@ -136,17 +136,17 @@ cooldown:
   description_hour: One hour
   description_second: One second
   description_moment: A Moment
-  description: '&9Cooldown&8: &7$time'
-  mage_description: '&9Exhaustion&8: &7$time'
+  description: '&5Cooldown&8: &7$time'
+  mage_description: '&eExhaustion for &7$time'
 warmup:
   description: '&7Warmup: &6$time'
 duration:
-  lasts_seconds: '&9Lasts for &7$seconds &9seconds'
-  lasts_minutes: '&9Lasts for &7$minutes &9minutes'
-  lasts_hours: '&9Lasts for &7$hours &9hours'
-  lasts_second: '&9Lasts for &7$seconds &9second'
-  lasts_minute: '&9Lasts for &7$minutes &9minute'
-  lasts_hour: '&9Lasts for &7$hours &9hour'
+  lasts_seconds: '&2Lasts for &7$seconds seconds'
+  lasts_minutes: '&2Lasts for &7$minutes minutes'
+  lasts_hours: '&2Lasts for &7$hours hours'
+  lasts_second: '&2Lasts for &7$seconds second'
+  lasts_minute: '&2Lasts for &7$minutes minute'
+  lasts_hour: '&2Lasts for &7$hours hour'
 skills:
   inventory_title: Skills
   inventory_title_heroes: $class Skills ($page/$pages)
@@ -234,10 +234,10 @@ shops:
   property_min: '&r&cYour &6$property &cmust be greater than $4$value'
   item_amount: $name x$amount
 spell:
-  category: '&8Category: &7$category'
+  category: '&cCategory&8: &7$category'
   brush: Uses Material Brushes
-  undoable: '&8Counterable'
-  not_undoable: '&8Not Undoable'
+  undoable: ''
+  not_undoable: ''
   available_path: Available to $paths
   required_path: Required for $path graduation
   levels_available: 'Max Level: &r&5$levels'
@@ -270,9 +270,6 @@ spells:
     world_required: A world is required.
     invalid_world: The specified world is not valid.
     cast_finish: ''
-    usage: ''
-    cast: ''
-    cast_self: ''
   admission:
     name: Admission
     description: Opens the target door
@@ -1989,7 +1986,7 @@ spells:
     name: Avada Kedavra
     description: In a flash of green light, this unblockable curse can end the life
       of any living creature with great malice.
-    usage: Unforgiveable!
+    usage: ''
     cast: Avada Kedavra!
   avadamaxima:
     name: Avada Kedavra Maxima
@@ -2173,7 +2170,7 @@ spells:
   flight:
     name: Flight
     description: Channeling some of the most powerful magic known to wizardkind, you
-      levitate in the air and sail around with no aid from a magical device.
+      levitate in the air and sail around without aid from a magical device.
     cast: You feel lighter
     cost_free: You feel heavier
   fourpoint:
@@ -2205,7 +2202,7 @@ spells:
     name: Imperio
     description: This unforgivably dark spell grants you control of where the target
       goes.
-    usage: Unforgiveable!
+    usage: Cast once to select your target, cast again to hurl your target in a direction.
     cast_player_message: ''
   impervius:
     name: Impervius
@@ -2706,7 +2703,7 @@ spells:
   baubillious:
     name: Baubillious
     description: Causes powerful lightning to zap one target, then to continue jumping
-      between additional targets.
+      between additional nearby targets.
   baubillious|2:
     upgrade_description: Increased damage.
   baubillious|3:
@@ -3243,7 +3240,7 @@ wand:
   spell_aura: '&bAura: &6$spell'
   costs_description: '&9Consumes &7$description'
   active_costs_description: '&9Consumes &7$description &9per second'
-  range_description: '&9Range: &7$range &9meters'
+  range_description: '&6Range&8: &7$range meters'
   owner_description: '&7$name''s &9wand'
   bound_description: '&9Bound to &7$name'
   unmodifiable: That wand can not be modified

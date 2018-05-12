@@ -1,2 +1,4 @@
 impervius:
   worth: 15 ac
+  parameters:
+    cooldown: 12000
