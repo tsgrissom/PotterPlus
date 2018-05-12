@@ -3,3 +3,4 @@ currency:
   description: "&8Right-click to deposit"
   limit: "t:&4$type &cfull!"
   deposited: "t:&a&l+ &9$amount $type"
+  earned: "t:&a&l+ &9$amount $type"

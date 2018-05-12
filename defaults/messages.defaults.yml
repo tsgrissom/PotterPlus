@@ -29,7 +29,7 @@ currency:
   description: '&8Right-click to deposit'
   limit: t:&4$type &cfull!
   deposited: t:&a&l+ &9$amount $type
-  earned: a:&6+&e$earned
+  earned: t:&a&l+ &9$amount $type
   tc:
     amount: $amount TC
     name: Test Credits
@@ -92,8 +92,8 @@ mage:
   earned_sp: a:&6+&e$amount &6SP
   no_class: You are not trained to use $name
   player_spell_upgraded: $players's &r&6$name &d&ohas been upgraded to &3$level
-  spell_upgraded: Your &r&6$name &d&ospell has been upgraded to &3$level
-  spell_added: You have learned the &r&6$name &d&ospell
+  spell_upgraded: t:&7$spell &9upgraded to &7$level
+  spell_added: t:&6$name &9learned!
   brush_added: You have acquired the &r&7$name &d&obrush
 general:
   no_spells: You don't know any spells
@@ -111,7 +111,7 @@ material:
   wildcard: ' (Any Type)'
 economy:
   missing: '&cMy shop is closed, sorry!'
-  insufficient: 'Costs: &6$cost'
+  insufficient: '&cCosts&8: &7$cost'
   deducted: 'Deducted: &6$cost'
   requires: You must have a $cost
 worlds:
@@ -194,7 +194,7 @@ shops:
   no_required_path: '&cYou must be at least $path!'
   no_path_exact: '&cYou must be at $path!'
   no_path_end: '&cYou must be ready to advance from $path!'
-  insufficient: '&cCosts $cost'
+  insufficient: '&cCosts&8: &7$cost'
   confirm_title: Buy $item
   unlock_confirm_title: Unlock $item
   deducted: '&d&oYou bought &r&6$item &r&d&ofor &r&a$cost'
@@ -218,13 +218,13 @@ shops:
   cast_spell: $spell
   unlock_class: $class
   nothing: Nothing
-  cost_lore: '&6Costs: &e$cost'
+  cost_lore: '&aCosts&8: &7$cost'
   earn_lore: '&6Earns: &e$earn'
   earn_heading: ''
   cost_heading: ''
   unlock_cost_lore: '&6Unlock Cost: &e$cost'
   locked: '&cLocked, &eUnlock in Donation Shop'
-  required_cost_lore: '&cCosts: &4$cost'
+  required_cost_lore: '&cCosts&8: &7$cost'
   required_unlock_cost_lore: '&cUnlock Cost: &4$cost'
   has_class: You already have class $class
   at_limit: You are at your limit of $limit
@@ -1638,7 +1638,7 @@ spells:
     no_path_end: You must be ready to advance from $path!
     no_wand: You must be holding a wand!
     confirm_title: Learn $item
-    selected: '&d&oYou learned &r&6$item &r&d&ofor &r&a$cost'
+    selected: t:&7$item &9learned!
     fail: ''
   engineershop:
     name: Engineer Shop
