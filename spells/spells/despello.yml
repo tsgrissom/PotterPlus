@@ -31,20 +31,16 @@ despello:
     randomized_messages:
       - "blablablabla"
       - "fwufheuf"
-      - "It's a FISH!"
       - "BlubBlubBlubBlub"
       - "HueHueHue"
       - "LaLaLa"
       - "TutTutTut"
       - "TyTyTy"
       - "Floooop"
-      - "Tinky-Winky"
       - "Laa-Laa"
       - "Dipsy"
       - "Po"
-      - "Sun Baby"
       - "Noo-noo"
-      - "Yo soy loco"
   costs:
     mana: 25
 
