@@ -138,7 +138,6 @@ year5:
   max_mana: 150
   max_mana_regeneration: 28
   spells:
-  - apparate
   - colorvaria
   - conjunctivitis
   - evanesco
@@ -153,6 +152,7 @@ year5:
   - lapifors
   - incarcerous
   - multabasiorum
+  - reducto
   required_spells:
   - aparecium
 year6:
@@ -163,13 +163,13 @@ year6:
   max_mana: 170
   max_mana_regeneration: 34
   spells:
+  - apparate
   - aguamenti
   - disillusion
   - levicorpus
   - liberacorpus
   - reducio
   - engorgio
-  - reducto
   - sectumsempra
   - revelio
   - baubillious

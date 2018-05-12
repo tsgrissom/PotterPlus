@@ -2,11 +2,9 @@
 
 example: potter
 
-# Configures SP to be less intrusive for CC system
+# Disables the SP system in favor of AC
 
-sp_earn_enabled: false
-sp_display: none
-sp_default: 0
+sp_enabled: false
 
 # Removes default automata because they aren't necessary
 
