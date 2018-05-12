@@ -27,6 +27,7 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Make firestorm place fire trail while moving instead of at the end
 * Investigate `mode: cast` for fun wands
 * Use some sort of template to simplify wand making
+* Devise some better Graduate spells
 
 ### Known bugs
 
