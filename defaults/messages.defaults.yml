@@ -3134,6 +3134,9 @@ spells:
   trick_wand_ability:
     name: Trick Wand Ability
     description: Casts some trick spells
+  peruvian_powder_ability:
+    name: Peruvian Powder Ability
+    description: Blanket the area in darkness
 wand:
   default_name: Wand
   upgrade_default_description: Will upgrade your wand.
