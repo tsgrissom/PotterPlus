@@ -1,7 +1,7 @@
 shops:
-  cost_lore: '&aCosts&8: &7$cost'
-  insufficient: '&cCosts&8: &7$cost'
-  required_cost_lore: '&cCosts&8: &7$cost'
+  cost_lore: "&aCosts&8: &7$cost"
+  insufficient: "&cCosts&8: &7$cost"
+  required_cost_lore: "&cCosts&8: &7$cost"
 
 economy:
-  insufficient: '&cCosts&8: &7$cost'
+  insufficient: "&cCosts&8: &7$cost"

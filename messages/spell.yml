@@ -8,8 +8,9 @@ spell:
   level_lore: "&9$level"
 
 cooldown:
-  description: '&5Cooldown&8: &7$time'
-  mage_description: '&eExhaustion for &7$time'
+  description: "&5Cooldown&8: &7$time"
+  mage_description: "&eExhaustion for &7$time"
+  description_moment: "A moment"
 
 duration:
   lasts_seconds: "&2Lasts for &7$seconds seconds"

@@ -135,7 +135,7 @@ cooldown:
   description_minute: One minute
   description_hour: One hour
   description_second: One second
-  description_moment: A Moment
+  description_moment: A moment
   description: '&5Cooldown&8: &7$time'
   mage_description: '&eExhaustion for &7$time'
 warmup:
@@ -2062,7 +2062,7 @@ spells:
     cast: Deletrius!
   deprimo:
     name: Deprimo
-    description: The Collapsing Spell
+    description: Collapses the ground the target's feet.
     cast: Deprimo!
   deprimomaxima:
     name: Deprimo Maxima
