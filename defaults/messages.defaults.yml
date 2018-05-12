@@ -26,9 +26,9 @@ costs:
   currency_amount: $$amount
 currency:
   item_name: '&e$amount &6$type'
-  description: Right-click to deposit
-  limit: a:&eThe limit for &6$type &eis &c$amount
-  deposited: 'a:&aDeposited &2$amount &6$type&a, balance: &2$balance'
+  description: '&8Right-click to deposit'
+  limit: t:&4$type &cfull!
+  deposited: t:&a&l+ &9$amount $type
   earned: a:&6+&e$earned
   tc:
     amount: $amount TC
@@ -137,7 +137,7 @@ cooldown:
   description_second: One second
   description_moment: A Moment
   description: '&9Cooldown&8: &7$time'
-  mage_description: '&cExhaustion: &6$time'
+  mage_description: '&9Exhaustion&8: &7$time'
 warmup:
   description: '&7Warmup: &6$time'
 duration:
