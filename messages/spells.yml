@@ -183,6 +183,14 @@ spells:
     description: "A lesser form of propulsion-based flight, this spell propels the wizard high into the air, or whatever direction they choose."
   ascendio|2:
     upgrade_description: "Increased power."
+  ascendio|3:
+    upgrade_description: "Increased power.\nDecreased cooldown."
+  ascendio|4:
+    upgrade_description: "Increased power."
+  ascendio|5:
+    upgrade_description: "Increased power.\nDecreased cooldown."
+  ascendio|6:
+    upgrade_description: "Increased power."
   evanesco:
     description: "Causes the target to vanish into almost non-being, temporarily."
   reducio:
