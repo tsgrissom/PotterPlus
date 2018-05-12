@@ -13,21 +13,16 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Make sure every spell has sounds
 * Finish spells in `to_redo.yml`
 * Overhaul spells with attributes
-* Add brooms again
 * Add `.gitattributes`
-* Test out multi-line spell upgrade messages
 * Remove unnecessary parameters from spells
 * Add distances to mobs so they are less crazy persistent
 * Implement `longapparate` based on recall again
 * Add optional dark upgrade for `flight`
 * Fix custom projectile spells mid-flight redirection when turning
 * Add tags (`noduel`, stuff like that)
-* Add `pvp_restricted` flags
-* Check if `enchanting.yml` is even a thing anymore
 * Make mobs more aggressive as they get damaged with `min_damage` flags, etc.
 * Change upgrade messages.
 * Implement Nathan's post-grad ideas
-* Convert concatenated names of wands and spells to use underscores
 * Add more shops like a joke shop for fun items, book store, etc.
 * Make firestorm place fire trail while moving instead of at the end
 

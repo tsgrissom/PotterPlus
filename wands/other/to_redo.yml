@@ -33,9 +33,6 @@ headmaster:
 crudfirebolt:
   enabled: false
 
-nimbus:
-  enabled: false
-
 crudnimbus:
   enabled: false
 
