@@ -11,8 +11,8 @@ peruvianpowder:
   undroppable: false
   drop: none
   swap: none
-  left_click: cast
-  right_click: none
+  left_click: none
+  right_click: cast
   uses: 8
   active_spell: peruvian_powder_ability
   spells:

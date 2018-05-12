@@ -14,7 +14,7 @@ gillyweed:
   undroppable: false
   drop: none
   swap: none
-  left_click: cast
+  left_click: none
   right_click: cast
   uses: 5
   active_spell: gillyweed_ability

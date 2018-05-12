@@ -13,7 +13,7 @@ portableswamp:
   drop: none
   swap: none
   left_click: cast
-  right_click: none
+  right_click: cast
   uses: 1
   active_spell: portable_swamp_ability
   spells:
