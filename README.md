@@ -54,7 +54,6 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Remembrall -> Flashes pink and red glass and tells you if you have any lost wands
 * Secrecy sensor
 * Quidditch balls -> Based on flashbang spell, bounces around with more speed
-* Godric Gryffindor's Sword -> An iron sword imbued with magic such as expelliarmus
 * Sorting hate
 * Two-way mirrors
 * Whiz-bangs -> Crazy fireworks, come in Basic Blaze Box of Deflagration Deluxe
