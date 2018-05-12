@@ -17884,7 +17884,7 @@ avis:
     cooldown: 12000
     type: chicken
     target: self
-    undo: 8000
+    undo: 1000
     allow_max_range: false
     range: 24
     repeat: 6
@@ -23043,8 +23043,6 @@ incarcifors:
   enabled: true
 lapifors:
   inherit: avis
-  effects:
-    undo_entity: undo_entity
   parameters:
     type: rabbit
     name: '&dConjured Rabbit'

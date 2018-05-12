@@ -31,8 +31,6 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 #### Spells
 
 * Obliviate Maxima doesn't work, Obliviate does
-* `upgrades` is broken for me locally but not for Nathan
-* Effects are lost from `avis` -> `lapifors`, `effects/mobs/undo_effects` current workaround
 
 ### Other ideas
 
