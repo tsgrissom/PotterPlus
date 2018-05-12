@@ -2278,7 +2278,8 @@ spells:
     name: Expecto Patronum
     description: Conjures concentrated happiness of a wizard from their happiest memory
       to protect against dark beings such as dementors and lethifolds.
-    cast: Expecto Patronum!
+    cast: ''
+    usage: ''
   piertotum:
     name: Piertotum Locomotor
     description: Animates sets of armor and brings them to your defense as an extra
@@ -2367,7 +2368,9 @@ spells:
     name: Bewitched Snowball
     description: Causes bewitched snowballs to fall from the sky, damaging and slowing
       the target slightly. Usually nothing more than an annoyance.
-    upgrade_description: Increased damage and decreased cooldown.
+    upgrade_description: |-
+      Increased damage.
+      Decreased cooldown.
   tripudio:
     cast: Tripudio!
     description: Gives a boost to the wizard's ability to hop high into the air.
@@ -2410,91 +2413,149 @@ spells:
   ollivander:
     title: Wand Shop
   lumos|2:
-    upgrade_description: Increased light duration.
+    upgrade_description: Increased duration.
   lumos|3:
-    upgrade_description: Increased light duration.
+    upgrade_description: Increased duration.
   lumos|4:
-    upgrade_description: Increased light duration.
+    upgrade_description: Increased duration.
   lumosmaxima:
     name: Lumos Maxima
     description: Blindingly lights up the tip of your wand to provide a long-lasting
       light source in dark areas.
   lumosmaxima|2:
-    upgrade_description: Increased light duration.
+    upgrade_description: Increased duration.
   periculum|2:
-    upgrade_description: Increased size of fireworks.
+    upgrade_description: Increased size of firework.
   periculum|3:
-    upgrade_description: Increased size of fireworks.
+    upgrade_description: Increased size of firework.
   avis|2:
-    upgrade_description: Spawns more baby birds.
+    upgrade_description: Increased spawning rate.
   avis|3:
-    upgrade_description: Spawns more adult birds.
+    upgrade_description: Spawns adult birds.
   flagrate|2:
-    upgrade_description: Clearer-written name.
+    upgrade_description: Increased clearness of text.
   fourpoint|2:
-    upgrade_description: Faster effect, decreased cooldown.
+    upgrade_description: |-
+      Decreased wait time.
+      Decreased cooldown.
   arrow|2:
-    upgrade_description: Increased damage, accuracy and velocity.
+    upgrade_description: |-
+      Increased damage.
+      Increased accuracy.
+      Increased speed.
   arrow|3:
-    upgrade_description: Increased damage, accuracy and velocity.
+    upgrade_description: |-
+      Increased damage.
+      Increased accuracy.
+      Increased speed.
   arrow|4:
-    upgrade_description: Increased damage, accuracy and velocity.
+    upgrade_description: |-
+      Increased damage.
+      Increased accuracy.
+      Increased speed.
   arrowmaxima:
     name: Arrow Maxima
     description: Conjures a set of powerful, accurate magical arrows to inflict major
       damage.
   arrowmaxima|2:
-    upgrade_description: Increased damage and arrow count. Decreased spread.
+    upgrade_description: |-
+      Increased damage.
+      Increased arrow count.
+      Decreased projectile spread.
   arrowmaxima|3:
-    upgrade_description: Increased damage and arrow count. Decreased spread and delay.
+    upgrade_description: |-
+      Increased damage.
+      Increased arrow count.
+      Decreased projectile spread.
+      Decreased delay.
   arrowmaxima|4:
-    upgrade_description: Arrows are ignited, inflicting additional flame damage.
+    upgrade_description: Arrows are now ignited.
   incendio|2:
-    upgrade_description: Increased size and duration.
+    upgrade_description: |-
+      Increased size.
+      Increased duration.
   incendio|3:
-    upgrade_description: Increased size and duration.
+    upgrade_description: |-
+      Increased size.
+      Increased duration.
   fumos|2:
-    upgrade_description: Increased radius and effect.
+    upgrade_description: |-
+      Increased radius.
+      Increased effect.
   fumos|3:
-    upgrade_description: Increased radius, effect, and blinding.
+    upgrade_description: |-
+      Increased radius.
+      Increased effect.
   araniaexumai|2:
     upgrade_description: Increased damage.
   araniaexumai|3:
     upgrade_description: Increased damage.
   bogies|2:
-    upgrade_description: Increased range, duration, and potency.
+    upgrade_description: |-
+      Increased range.
+      Increased duration.
+      Increased potency.
   bogies|3:
-    upgrade_description: Increased range, duration, and potency.
+    upgrade_description: |-
+      Increased range.
+      Increased duration.
+      Increased potency.
   expelliarmus|2:
-    upgrade_description: Less chance of fizzling or backfiring.
+    upgrade_description: |-
+      Decreased chance of fizzling.
+      Decreased chance of backfiring.
   expelliarmus|3:
-    upgrade_description: Less chance of fizzling or backfiring.
+    upgrade_description: |-
+      Decreased chance of fizzling.
+      Decreased chance of backfiring.
   expelliarmus|4:
-    upgrade_description: Less chance of fizzling or backfiring.
+    upgrade_description: |-
+      Decreased chance of fizzling.
+      Decreased chance of backfiring.
   expelliarmus|5:
-    upgrade_description: No chance of fizzling or backfiring.
+    upgrade_description: |-
+      No chance of fizzling.
+      No chance of backfiring.
   finiteincantatem|2:
-    upgrade_description: Less chance of fizzling.
+    upgrade_description: Decreased chance of fizzling.
   finiteincantatem|3:
-    upgrade_description: Less chance of fizzling.
+    upgrade_description: Decreased chance of fizzling.
   finiteincantatem|4:
     upgrade_description: No chance of fizzling.
   glacius|2:
-    upgrade_description: Increased damage, size, range, and potency.
+    upgrade_description: |-
+      Increased damage.
+      Increased size.
+      Increased range.
+      Increased potency.
   glacius|3:
-    upgrade_description: Increased damage, size, range, and potency. Now freezes lava.
+    upgrade_description: |-
+      Increased damage.
+      Increased size.
+      Increased range.
+      Increased potency.
+      Freezes lava.
   duro|2:
-    upgrade_description: Increased size, duration, and strength.
+    upgrade_description: |-
+      Increased size.
+      Increased duration.
+      Increased strength.
   patronus|2:
     upgrade_description: Increased speed.
   patronus|3:
-    upgrade_description: Your Patronus becomes corporeal.
+    upgrade_description: Corporeal patronus.
   bombarda|2:
-    upgrade_description: Increased size and range.
+    upgrade_description: |-
+      Increased size.
+      Increased range.
   bubblehead|2:
     upgrade_description: Increased duration.
+  bubblehead|3:
+    upgrade_description: Increased duration.
   aguamenti|2:
-    upgrade_description: Increased radius and range.
+    upgrade_description: |-
+      Increased radius.
+      Increased range.
   episkey|2:
     upgrade_description: Increased healing.
   episkey|3:
@@ -2502,19 +2563,37 @@ spells:
   ascendio|2:
     upgrade_description: Increased power.
   levicorpus|2:
-    upgrade_description: Increased levitation speed and bumps.
+    upgrade_description: |-
+      Increased levitation speed.
+      Increased disoreintation.
   levicorpus|3:
-    upgrade_description: Increased levitation speed and bumps.
+    upgrade_description: |-
+      Increased levitation speed.
+      Increased disorientation.
   stupefy|2:
-    upgrade_description: Increased damage and stun duration.
+    upgrade_description: |-
+      Increased damage.
+      Increased duration.
   stupefy|3:
-    upgrade_description: Increased range, damage, and stun duration.
+    upgrade_description: |-
+      Increased range.
+      Increased damage.
+      Increased duration.
   stupefy|4:
-    upgrade_description: Increased damage and stun duration.
+    upgrade_description: |-
+      Increased damage.
+      Increased duration.
   lacarnum|2:
-    upgrade_description: Increased radius, duration, and accuracy.
+    upgrade_description: |-
+      Increased radius.
+      Increased duration.
+      Increased accuracy.
   lacarnum|3:
-    upgrade_description: Increased radius, duration, size, and accuracy.
+    upgrade_description: |-
+      Increased radius.
+      Increased duration.
+      Increased size.
+      Increased accuracy.
   reducto|2:
     upgrade_description: Increased radius.
   aquaeructo:
@@ -2540,9 +2619,9 @@ spells:
     description: Conjures sets of adorable bunny and rabbits who disappear shortly
       after.
   lapifors|2:
-    upgrade_description: Spawns more baby bunnies.
+    upgrade_description: Increased spawning rate.
   lapifors|3:
-    upgrade_description: Spawns more adult bunnies.
+    upgrade_description: Spawns adult bunnies.
   lumossolem:
     name: Lumos Solem
     description: Conjures a well-lit ball of light which can be thrown where desired
@@ -2581,19 +2660,32 @@ spells:
   deprimo|3:
     upgrade_description: Increased radius.
   protego|2:
-    upgrade_description: Decreased cooldown. Increased chance to reflect spells and
-      size.
+    upgrade_description: |-
+      Decreased cooldown.
+      Increased chance to reflect spells.
+      Increased size.
   protego|3:
-    upgrade_description: Decreased cooldown. Increased duration, chance to reflect
-      spells, and size.
+    upgrade_description: |-
+      Decreased cooldown.
+      Increased duration.
+      Increased chance to reflect spells.
+      Increased size.
   protego|4:
-    upgrade_description: Decreased cooldown. Increased chance to reflect spells and
-      size.
+    upgrade_description: |-
+      Decreased cooldown.
+      Increased chance to reflect spells.
+      Increased size.
   protego|5:
-    upgrade_description: Increased duration and size. Guaranteed to reflect spells.
+    upgrade_description: |-
+      Increased duration.
+      Increased size.
+      Guaranteed to reflect spells.
   protegomaxima|2:
-    upgrade_description: Decreased cooldown. Increased duration, reflection chance,
-      and size.
+    upgrade_description: |-
+      Decreased cooldown.
+      Increased duration.
+      Increased reflection chance.
+      Increased size.
     usage: Cast at your feet to shield yourself.
   protegototalus:
     name: Protego Totalus
@@ -2607,19 +2699,27 @@ spells:
   baubillious|2:
     upgrade_description: Increased damage.
   baubillious|3:
-    upgrade_description: Increased damage and lightning chains.
+    upgrade_description: |-
+      Increased damage.
+      Increased chains.
   firestorm|2:
     upgrade_description: Increased damage, power, radius, and duration. No chance
       of fizzling.
   obscuro|2:
-    upgrade_description: '&r&9&bull; &7Increased density and potency.'
+    upgrade_description: |-
+      Increased density.
+      Increased potency.
   impedimenta:
     name: Impedimenta
     description: Impedes the movement of living creatures to slow them down temporarily.
   impedimenta|2:
-    upgrade_description: Increased slowness and duration.
+    upgrade_description: |-
+      Increased slowness.
+      Increased duration.
   impedimenta|3:
-    upgrade_description: Increased slowness and duration.
+    upgrade_description: |-
+      Increased slowness.
+      Increased duration.
   aberto:
     name: Aberto
     description: Unlocks previously locked doors in order to reach previously inaccessible
@@ -2632,11 +2732,20 @@ spells:
     name: Colloshoo
     description: Quickly sticks the target to the ground with a viscous, green goo.
   colloshoo|2:
-    upgrade_description: Increased range, slowness, and duration.
+    upgrade_description: |-
+      Increased range.
+      Increased slowness.
+      Increased duration.
   colloshoo|3:
-    upgrade_description: Increased range, slowness, and duration.
+    upgrade_description: |-
+      Increased range.
+      Increased slowness.
+      Increased duration.
   colloshoo|4:
-    upgrade_description: Increased range, slowness, and duration.
+    upgrade_description: |-
+      Increased range.
+      Increased slowness.
+      Increased duration.
   melofors:
     name: Melofors
     description: Encases the target's head in a pumpkin, limiting their vision and
@@ -2646,8 +2755,12 @@ spells:
     description: Causes the target to erupt in terrible, painful boils and impeding
       their ability to see.
   furnunculus|2:
-    upgrade_description: Expels green pus. Increased range, damage, duration, and
-      velocity.
+    upgrade_description: |-
+      Expels green pus.
+      Increased range.
+      Increased damage.
+      Increased duration.
+      Increased velocity.
   obliviatemaxima:
     name: Obliviate Maxima
     description: An incredibly powerful spell not intended for misuse, you can wipe
@@ -2669,7 +2782,10 @@ spells:
   felixleporemos|2:
     upgrade_description: Increased duration.
   felixleporemos|3:
-    upgrade_description: Increased speed, jump, and velocity.
+    upgrade_description: |-
+      Increased speed.
+      Increased jump.
+      Increased velocity.
   cantis:
     name: Cantis
     description: Forces the target to begin singing lyrics from various songs.
@@ -2740,14 +2856,18 @@ spells:
     name: Expulso
     description: A dark spell causing an incredibly powerful and dangerous explosion.
   expulso|2:
-    upgrade_description: Increased radius, damage, knockback, and burns.
+    upgrade_description: |-
+      Increased radius.
+      Increased damage.
+      Increased knockback.
+      Increased burns.
   despello:
     name: Despello
     description: Causes the target to babble uncontrollably.
   despello|2:
     upgrade_description: Increased speed.
   salviohexia|2:
-    upgrade_description: Increased strength of protective enchantments.
+    upgrade_description: Increased strength.
   flagellos:
     name: Flagellos
     description: Conjures a tiny, but powerful controllable whip to attack your target
@@ -2765,11 +2885,17 @@ spells:
     name: Brachiabindo
     description: Binds your target in ropes to immobilize them.
   flight|2:
-    upgrade_description: Increased speed, height, steer speed, and thrust. Decreased
-      liftoff duration.
+    upgrade_description: |-
+      Increased speed.
+      Increased steer speed.
+      Increased thrust.
+      Decreased liftoff duration.
   flight|3:
-    upgrade_description: Increased speed, height, steer speed, and thrust. Decreased
-      liftoff duration.
+    upgrade_description: |-
+      Increased speed.
+      Increased steer speed.
+      Increased thrust.
+      Decreased liftoff duration.
   homenumrevelio:
     name: Homenum Revelio
     description: Reveals the presence of nearby creatures.
@@ -2783,9 +2909,13 @@ spells:
     description: A high damage-inflicting spell which cascades from target to target,
       decimating the enemy with effective precision.
   multabasiorum|2:
-    upgrade_description: Increased damage. Now targets up to five creatures.
+    upgrade_description: |-
+      Increased damage.
+      Increased target count.
   multabasiorum|3:
-    upgrade_description: Increased damage. Now targets up to eight creatures.
+    upgrade_description: |-
+      Increased damage.
+      Increased target count.
   brackiumemendo:
     name: Brackium Emendo
     description: Mends bones that are no longer there, supposedly. Effectiveness varies.
@@ -2805,7 +2935,9 @@ spells:
     name: Finestra
     description: Vaporizes glass surfaces as if they were struck with a heavy object.
   finestra|2:
-    upgrade_description: Decreased cooldown, increased radius.
+    upgrade_description: |-
+      Decreased cooldown.
+      Increased radius.
   waddiwasi:
     name: Waddiwasi
     description: Conjures a large quantity of pre-chewed chewing gum to stick the
@@ -2815,14 +2947,24 @@ spells:
     description: Causes the target great discomfort by tickling them beyond their
       control, immobilizing and slowing them down.
   titillando|2:
-    upgrade_description: Decreased cooldown, increased range, efficacy, and duration.
+    upgrade_description: |-
+      Decreased cooldown.
+      Increased range.
+      Increased efficacy.
+      Increased duration.
   titillando|3:
-    upgrade_description: Decreased cooldown, increased range and efficacy.
+    upgrade_description: |-
+      Decreased cooldown.
+      Increased range.
+      Increased efficacy.
   glisseo:
     name: Glisseo
     description: Transfigures stairs into a slippery surface.
   glisseo|2:
-    upgrade_description: Increased duration and radius, decreased undo speed.
+    upgrade_description: |-
+      Increased duration.
+      Increased radius.
+      Decreased undo speed.
   herbifors:
     name: Herbifors
     description: Causes the target to sprout a flower from their head.
@@ -2835,19 +2977,23 @@ spells:
     description: Causes the target's legs to become extremely weak crippling and immobilizing
       them temporarily.
   locomotorwibbly|2:
-    upgrade_description: Increased speed and duration.
+    upgrade_description: |-
+      Increased speed.
+      Increased duration.
   locomotorwibbly|3:
-    upgrade_description: Increased efficacy and range.
+    upgrade_description: |-
+      Increased efficacy.
+      Increased range.
   epoximise:
-    name: Expoximise
+    name: Epoximise
     description: Causes the target to be adhesived to the ground temporarily.
   sluguluseructo:
     name: Slugulus Eructo
     description: Causes the target to vomit slugs uncontrollably.
   sluguluseructo|2:
-    upgrade_description: More slugs spawn.
+    upgrade_description: Increased amount.
   sluguluseructo|3:
-    upgrade_description: More slugs spawn.
+    upgrade_description: Increased amount.
   flintifors:
     name: Flintifors
     description: Conjures a flint and steel, a manual fire-igniting tool.
@@ -2855,11 +3001,19 @@ spells:
     name: Ignis Disceditus
     description: Extinguishes nearby flames in a gush of cold air.
   ignisdisceditus|2:
-    upgrade_description: Increased range and size. Decreased cooldown.
+    upgrade_description: |-
+      Increased range.
+      Increased size.
+      Decreased cooldown.
   ignisdisceditus|3:
-    upgrade_description: Increased range, size, and duration.
+    upgrade_description: |-
+      Increased range.
+      Increased size.
+      Increased duration.
   pulsus|2:
-    upgrade_description: Increased power and target count.
+    upgrade_description: |-
+      Increased power.
+      Increased target count.
   aparecium|2:
     upgrade_description: Decreased backfire chance.
   aparecium|3:

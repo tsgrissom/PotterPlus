@@ -6166,6 +6166,7 @@ flatten:
     range: 32
     radius: 16
     vertical_range: 32
+    volume_type: reverse_spiral
     faces:
     - down
     - north
@@ -18022,22 +18023,13 @@ bubblehead:
     - class: Delay
     - class: PotionEffect
     - class: Hat
-  effects:
-    cast:
-    - class: EffectSingle
-      sound: block_water_ambient
-      location: origin
-      source_location: eyes
-      effectlib:
-        class: SphereEffect
-        iterations: 10
-        period: 4
-        particle: drip_water
-        radius: 0.5
   parameters:
     brushcolor: false
     brush: stained_glass:3
     delay: 4000
+    cooldown: 10000
+    duration: 15000
+    undo: 15000
 confundus:
   category: dada
   inherit: curse
@@ -21877,7 +21869,16 @@ bruchumaculeatos|3:
     entity_damage: 4
   enabled: true
 bubblehead|2:
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
   parameters:
+    cooldown: 25000
+    duration: 30000
+    undo: 30000
+  enabled: true
+bubblehead|3:
+  parameters:
+    cooldown: 55000
     duration: 60000
     undo: 60000
   enabled: true
