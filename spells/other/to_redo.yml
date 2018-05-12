@@ -111,6 +111,7 @@ erecto:
     undo_speed: 1
 
 fiantoduri:
+  worth: 10 ac
   category: dada
 fourpoint:
   worth: 5 ac

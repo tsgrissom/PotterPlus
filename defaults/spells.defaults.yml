@@ -20588,7 +20588,7 @@ fiantoduri:
   icon: diamond_axe:11
   icon_disabled: diamond_hoe:11
   category: dada
-  worth: 10
+  worth: 10 ac
   actions:
     cast:
     - class: PotionEffectAction
