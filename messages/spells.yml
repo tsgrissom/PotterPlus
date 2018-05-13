@@ -85,7 +85,7 @@ spells:
   incendio|3:
     upgrade_description: "Increased size.\nIncreased duration."
   conjunctivitis:
-    description: "Causes severe, painful blindness against targets, making them vulnerable against follow-up attacks."
+    description: "Causes severe blindness against the target, making them vulnerable against follow-up attacks."
   alohomora:
     description: "Unlocks doors that are not magically protected against such charms."
   fumos:
@@ -606,6 +606,12 @@ spells:
   epoximise:
     name: "Epoximise"
     description: "Causes the target to be adhesived to the ground temporarily."
+  epoximise|2:
+    upgrade_description: "Increased range.\nIncreased slowness.\nIncreased duration."
+  epoximise|3:
+    upgrade_description: "Increased range.\nIncreased slowness.\nIncreased duration."
+  epoximise|4:
+    upgrade_description: "Increased range.\nIncreased slowness.\nIncreased duration."
   sluguluseructo:
     name: "Slugulus Eructo"
     description: "Causes the target to vomit slugs uncontrollably."

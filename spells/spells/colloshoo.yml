@@ -5,6 +5,11 @@ colloshoo:
   upgrade_required_casts: 25
   upgrade_required_path: year3
   pvp_restricted: true
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: PotionEffect
   effects:
     tick:
       - location: target
@@ -21,13 +26,6 @@ colloshoo:
           particle: slime
           radius: 2.5
           duration: $duration
-  actions:
-    cast:
-      - class: CustomProjectile
-        actions:
-          - class: PotionEffect
-  costs:
-    mana: 40
   parameters:
     range: 12
     hitbox: true
@@ -35,7 +33,9 @@ colloshoo:
       slowness: 1
       jump: -20
     duration: 6000
-    cooldown: 12000
+    cooldown: 9000
+  costs:
+    mana: 40
 
 colloshoo|2:
   upgrade_required_casts: 50
@@ -44,8 +44,9 @@ colloshoo|2:
     range: 24
     add_effects:
       slowness: 2
-    duration: 7000
-    cooldown: 12000
+      jump: -20
+    duration: 8000
+    cooldown: 11000
 
 colloshoo|3:
   upgrade_required_casts: 75
@@ -53,12 +54,14 @@ colloshoo|3:
   parameters:
     add_effects:
       slowness: 3
-    duration: 8000
+      jump: -20
+    duration: 10000
     cooldown: 13000
 
 colloshoo|4:
   parameters:
     add_effects:
       slowness: 4
-    duration: 9000
-    cooldown: 14000
+      jump: -20
+    duration: 12000
+    cooldown: 15000

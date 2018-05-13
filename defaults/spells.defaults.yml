@@ -22177,6 +22177,11 @@ colloshoo:
   upgrade_required_casts: 25
   upgrade_required_path: year3
   pvp_restricted: true
+  actions:
+    cast:
+    - class: CustomProjectile
+      actions:
+      - class: PotionEffect
   effects:
     tick:
     - location: target
@@ -22193,13 +22198,6 @@ colloshoo:
         particle: slime
         radius: 2.5
         duration: $duration
-  actions:
-    cast:
-    - class: CustomProjectile
-      actions:
-      - class: PotionEffect
-  costs:
-    mana: 40
   parameters:
     range: 12
     hitbox: true
@@ -22207,7 +22205,9 @@ colloshoo:
       slowness: 1
       jump: -20
     duration: 6000
-    cooldown: 12000
+    cooldown: 9000
+  costs:
+    mana: 40
   enabled: true
 colloshoo|2:
   upgrade_required_casts: 50
@@ -22216,8 +22216,9 @@ colloshoo|2:
     range: 24
     add_effects:
       slowness: 2
-    duration: 7000
-    cooldown: 12000
+      jump: -20
+    duration: 8000
+    cooldown: 11000
   enabled: true
 colloshoo|3:
   upgrade_required_casts: 75
@@ -22225,15 +22226,17 @@ colloshoo|3:
   parameters:
     add_effects:
       slowness: 3
-    duration: 8000
+      jump: -20
+    duration: 10000
     cooldown: 13000
   enabled: true
 colloshoo|4:
   parameters:
     add_effects:
       slowness: 4
-    duration: 9000
-    cooldown: 14000
+      jump: -20
+    duration: 12000
+    cooldown: 15000
   enabled: true
 defodio:
   icon: diamond_axe:108
@@ -22387,10 +22390,28 @@ epoximise:
     - location: target
       particle: block_crack
       material: web
-      particle_count: 4
+      particle_count: 12
       particle_offset_x: 0.5
       particle_offset_z: 0.5
       particle_offset_y: 0
+    hit_entity:
+    - location: target
+      target_offset: 0,-3,0
+      effectlib:
+        class: Sphere
+        particle: block_crack
+        material: web
+        radius: 2.5
+        duration: $duration
+  enabled: true
+epoximise|2:
+  inherit: colloshoo|2
+  enabled: true
+epoximise|3:
+  inherit: colloshoo|3
+  enabled: true
+epoximise|4:
+  inherit: colloshoo|4
   enabled: true
 evertestatum:
   icon: diamond_axe:151
@@ -23382,9 +23403,23 @@ lumosmaxima:
     mana: 50
   enabled: true
 lumosmaxima|2:
+  upgrade_required_path: year6
+  upgrade_required_casts: 75
   parameters:
     duration: 120000
     cooldown: 120000
+  enabled: true
+lumosmaxima|3:
+  upgrade_required_path: year7
+  upgrade_required_casts: 125
+  parameters:
+    duration: 180000
+    cooldown: 180000
+  enabled: true
+lumosmaxima|4:
+  parameters:
+    duration: 240000
+    cooldown: 240000
   enabled: true
 lumossolem|2:
   upgrade_required_path: year3

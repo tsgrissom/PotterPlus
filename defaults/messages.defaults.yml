@@ -2035,7 +2035,7 @@ spells:
     cast: Confundus $target!
   conjunctivitis:
     name: Conjunctivitis
-    description: Causes severe, painful blindness against targets, making them vulnerable
+    description: Causes severe blindness against the target, making them vulnerable
       against follow-up attacks.
     cast: Conjunctivitis $target!
   crucio:
@@ -2431,6 +2431,10 @@ spells:
     description: Blindingly lights up the tip of your wand to provide a long-lasting
       light source in dark areas.
   lumosmaxima|2:
+    upgrade_description: Increased duration.
+  lumosmaxima|3:
+    upgrade_description: Increased duration.
+  lumosmaxima|4:
     upgrade_description: Increased duration.
   periculum|2:
     upgrade_description: Increased size of firework.
