@@ -17750,6 +17750,7 @@ ascendio:
   category: charms
   enabled: true
   worth: 10 ac
+  upgrade_required_path: year3
   upgrade_required_casts: 25
   parameters:
     cooldown: 10000
@@ -17758,6 +17759,8 @@ ascendio:
 ascendio|2:
   inherit: fling|2
   enabled: true
+  upgrade_required_path: year4
+  upgrade_required_casts: 50
   parameters:
     min_speed: 1.0
     max_speed: 1.2
@@ -20084,32 +20087,39 @@ vermillious:
         color: 610B0B
         lengthGrow: 0.3
   parameters:
-    range: 48
+    range: 8
     hitbox: true
     target_type: LivingEntity
-    damage: 2.5
+    damage: 1
     cooldown: 3000
     target_breakables: 0
     bypass_backfire: false
   costs:
     mana: 30
   enabled: true
+  upgrade_required_path: year4
+  upgrade_required_casts: 50
 vermillious|2:
   parameters:
-    range: 24
-    damage: 3
+    range: 16
+    damage: 1.5
     target_breakables: 0
   costs:
     mana: 50
   enabled: true
+  upgrade_required_path: year5
+  upgrade_required_casts: 75
 vermillious|3:
   parameters:
-    range: 35
-    damage: 3.5
+    range: 24
+    damage: 2
     target_breakables: 0
+    cooldown: 2000
   costs:
     mana: 70
   enabled: true
+  upgrade_required_path: year6
+  upgrade_required_casts: 125
 colorvaria:
   inherit: superalter
   category: transfiguration
@@ -21809,21 +21819,31 @@ arrowmaxima|4:
     fire: true
   enabled: true
 ascendio|3:
+  upgrade_required_path: year5
+  upgrade_required_casts: 75
   parameters:
+    cooldown: 8000
     min_speed: 1.2
     max_speed: 1.4
   enabled: true
 ascendio|4:
+  upgrade_required_path: year6
+  upgrade_required_casts: 125
   parameters:
     min_speed: 1.4
     max_speed: 1.6
   enabled: true
 ascendio|5:
+  upgrade_required_path: year7
+  upgrade_required_casts: 150
   parameters:
+    cooldown: 6000
     min_speed: 1.6
     max_speed: 1.8
   enabled: true
 ascendio|6:
+  upgrade_required_path: graduates
+  upgrade_required_casts: 200
   parameters:
     min_speed: 1.8
     max_speed: 2.0
@@ -24098,6 +24118,10 @@ verdimillious|2:
   enabled: true
 verdimillious|3:
   inherit: vermillious|3
+  enabled: true
+vermillious|4:
+  parameters:
+    damage: 3
   enabled: true
 waddiwasi:
   inherit: colloshoo

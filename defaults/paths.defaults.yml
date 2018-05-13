@@ -62,6 +62,7 @@ year2:
   spells:
   - arresto
   - arrow
+  - ascendio
   - fourpoint
   - finiteincantatem
   - obscuro
@@ -114,7 +115,6 @@ year4:
   spells:
   - accio
   - tarantallegra
-  - ascendio
   - deprimo
   - periculum
   - protego

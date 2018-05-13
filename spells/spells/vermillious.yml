@@ -1,6 +1,8 @@
 vermillious:
   worth: 10 ac
   pvp_restricted: true
+  upgrade_required_path: year4
+  upgrade_required_casts: 50
   effects:
     cast:
       - class: EffectSingle
@@ -21,3 +23,25 @@ vermillious:
         color: c64343
         color2: c64343
         firework: ball
+  parameters:
+    range: 8
+    damage: 1
+
+vermillious|2:
+  upgrade_required_path: year5
+  upgrade_required_casts: 75
+  parameters:
+    range: 16
+    damage: 1.5
+
+vermillious|3:
+  upgrade_required_path: year6
+  upgrade_required_casts: 125
+  parameters:
+    range: 24
+    cooldown: 2000
+    damage: 2
+
+vermillious|4:
+  parameters:
+    damage: 3

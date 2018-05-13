@@ -2409,6 +2409,17 @@ spells:
     cast: Spongify Maxima!
   ollivander:
     title: Wand Shop
+  vermillious|2:
+    upgrade_description: |-
+      Increased damage.
+      Increased range.
+  vermillious|3:
+    upgrade_description: |-
+      Increased damage.
+      Increased range.
+      Decreased cooldown.
+  vermillious|4:
+    upgrade_description: Increased damage.
   lumos|2:
     upgrade_description: Increased duration.
   lumos|3:
@@ -2569,6 +2580,18 @@ spells:
   episkey|3:
     upgrade_description: Increased healing.
   ascendio|2:
+    upgrade_description: Increased power.
+  ascendio|3:
+    upgrade_description: |-
+      Increased power.
+      Decreased cooldown.
+  ascendio|4:
+    upgrade_description: Increased power.
+  ascendio|5:
+    upgrade_description: |-
+      Increased power.
+      Decreased cooldown.
+  ascendio|6:
     upgrade_description: Increased power.
   levicorpus|2:
     upgrade_description: |-

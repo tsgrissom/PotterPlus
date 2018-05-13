@@ -12,6 +12,12 @@ spells:
     selected: 't:&7$item &9learned!'
   vermillious:
     description: "Conjures a number of burning red sparks which inflict damage on those they touch."
+  vermillious|2:
+    upgrade_description: "Increased damage.\nIncreased range."
+  vermillious|3:
+    upgrade_description: "Increased damage.\nIncreased range.\nDecreased cooldown."
+  vermillious|4:
+    upgrade_description: "Increased damage."
   lumos:
     description: "Lights up the tip of your wand to provide a light source in dark areas."
   lumos|2:
