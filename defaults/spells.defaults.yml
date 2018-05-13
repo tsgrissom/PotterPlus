@@ -19702,7 +19702,6 @@ salviohexia:
   tags: noduel
   worth: 10 ac
   hidden: false
-  upgrade_required_path: year7
   upgrade_required_casts: 50
   actions:
     cast:
@@ -19713,19 +19712,17 @@ salviohexia:
       sound: block_fire_extinguish
       location: target
       effectlib:
-        class: Sphere
-        iterations: 70
-        period: 0.1
+        class: Shield
         particle: smoke_normal
-        radius: 2
+        sphere: true
         particles: 20
+        duration: $duration
   parameters:
     target: self
     duration: 5000
-    cooldown: 15000
-    transparent: transparent_to_construction
+    cooldown: 20000
     add_effects:
-      damage_resistance: 300
+      damage_resistance: 255
       slowness: 1
   costs:
     mana: 90
@@ -22450,7 +22447,7 @@ expulso:
   upgrade_required_path: year7
   upgrade_required_casts: 50
   costs:
-    mana: 75
+    mana: 150
   actions:
     cast:
     - class: CustomProjectile
@@ -22493,10 +22490,11 @@ expulso:
       color: 22659c
       location: self
   parameters:
-    break_blocks: false
-    fire: false
+    break_blocks: true
+    undo: 2000
+    undo_speed: 0.1
     size: 2
-    range: 24
+    range: 12
     hitbox: true
     reorient: false
     target: other
@@ -22504,18 +22502,23 @@ expulso:
     cooldown: 15000
     push: 1
     living_entity_speed: 0.3
-    player_damage: 6
-    entity_damage: 6
-    velocity: 75
+    damage: 6
+    velocity: 25
   enabled: true
 expulso|2:
+  upgrade_required_path: graduates
+  upgrade_required_casts: 75
+  parameters:
+    velocity: 50
+    damage: 6
+    undo: 4000
+  enabled: true
+expulso|3:
   parameters:
     fire: true
-    velocity: 100
-    player_damage: 8
-    entity_damage: 8
+    velocity: 75
     size: 3
-    undo: 2000
+    undo: 5000
   enabled: true
 felixleporemos:
   category: charms
@@ -23928,21 +23931,21 @@ rictusempra|4:
     damage: 2
   enabled: true
 salviohexia|2:
-  effects:
-    cast:
-    - class: EffectSingle
-      sound: block_fire_extinguish
-      location: target
-      effectlib:
-        class: Sphere
-        iterations: 70
-        period: 0.1
-        particle: smoke_normal
-        radius: 2
-        particles: 20
+  upgrade_required_path: year7
+  upgrade_required_casts: 75
   parameters:
     duration: 8000
-    cooldown: 18000
+  enabled: true
+salviohexia|3:
+  upgrade_required_path: graduates
+  upgrade_required_casts: 125
+  parameters:
+    duration: 10000
+  enabled: true
+salviohexia|4:
+  parameters:
+    duration: 15000
+    cooldown: 25000
   enabled: true
 scribblifors:
   icon: diamond_axe:118

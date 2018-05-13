@@ -2322,6 +2322,7 @@ spells:
     fail: Too large!
     cast_finish: Preserved $count blocks
     target_selected: Cast again to preserve area
+    cast: ''
   reparifarge:
     name: Reparifarge
     description: Counter mosts of the world-impacting effects of previously cast spells.
@@ -2915,17 +2916,26 @@ spells:
     description: A dark spell causing an incredibly powerful and dangerous explosion.
   expulso|2:
     upgrade_description: |-
-      Increased radius.
+      Increased speed.
       Increased damage.
-      Increased knockback.
-      Increased burns.
+      Increased duration.
+  expulso|3:
+    upgrade_description: |-
+      Explosion now burns.
+      Increased size.
+      Increased speed.
+      Increased duration.
   despello:
     name: Despello
     description: Causes the target to babble uncontrollably.
   despello|2:
     upgrade_description: Increased speed.
   salviohexia|2:
-    upgrade_description: Increased strength.
+    upgrade_description: Increased duration.
+  salviohexia|3:
+    upgrade_description: Increased duration.
+  salviohexia|4:
+    upgrade_description: Increased duration.
   flagellos:
     name: Flagellos
     description: Conjures a tiny, but powerful controllable whip to attack your target

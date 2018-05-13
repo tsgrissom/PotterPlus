@@ -8,6 +8,7 @@ This is not an absolute record of *ever* change that happens, just ones that are
 
 ### 5/13/18
 
+* Overhauled Salvio Hexia with new levels and stats.
 * Nerfed Expulso and spread it out across more levels.
 
 ### 5/12/18

@@ -527,8 +527,13 @@ spells:
   salviohexia:
     name: "Salvio Hexia"
     description: "Provies additional defenses against hexes, curses, and other dark magic."
+    cast: ""
   salviohexia|2:
-    upgrade_description: "Increased strength."
+    upgrade_description: "Increased duration."
+  salviohexia|3:
+    upgrade_description: "Increased duration."
+  salviohexia|4:
+    upgrade_description: "Increased duration."
   flagellos:
     name: "Flagellos"
     description: "Conjures a tiny, but powerful controllable whip to attack your target viciously with."
