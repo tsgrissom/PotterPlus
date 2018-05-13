@@ -222,7 +222,7 @@ spells:
   levicorpus:
     description: "Levitates and flips the target upside down, making them incredibly vulnerable to follow-up attacks."
   levicorpus|2:
-    upgrade_description: "Increased levitation speed.\nIncreased disoreintation."
+    upgrade_description: "Increased levitation speed.\nIncreased disorientation."
   levicorpus|3:
     upgrade_description: "Increased levitation speed.\nIncreased disorientation."
   stupefy:
@@ -574,7 +574,9 @@ spells:
     name: "Carpe Retractum"
     description: "Seizes and pulls an object or creature via a conjured, magical lasso."
   carperetractum|2:
-    upgrade_description: "Increased strength."
+    upgrade_description: "Increased strength.\nIncreased speed.\nDecreased gravity.\nDecreased delay."
+  carperetractum|3:
+    upgrade_description: "Increased strength.\nDecreased gravity.\nDecreased delay."
   pulvifors:
     name: "Pulvifors"
     description: "Conjures an invisible cushion to protect yourself from fall damage."

@@ -2502,6 +2502,16 @@ spells:
     upgrade_description: Increased damage.
   araniaexumai|3:
     upgrade_description: Increased damage.
+  immobulus|2:
+    upgrade_description: |-
+      Increased range.
+      Increased duration.
+  immobulus|3:
+    upgrade_description: Increased duration.
+  immobulus|4:
+    upgrade_description: |-
+      Increased range.
+      Increased duration.
   rictusempra|2:
     upgrade_description: |-
       Increased damage.
@@ -2613,7 +2623,7 @@ spells:
   levicorpus|2:
     upgrade_description: |-
       Increased levitation speed.
-      Increased disoreintation.
+      Increased disorientation.
   levicorpus|3:
     upgrade_description: |-
       Increased levitation speed.
@@ -2975,7 +2985,16 @@ spells:
     name: Carpe Retractum
     description: Seizes and pulls an object or creature via a conjured, magical lasso.
   carperetractum|2:
-    upgrade_description: Increased strength.
+    upgrade_description: |-
+      Increased strength.
+      Increased speed.
+      Decreased gravity.
+      Decreased delay.
+  carperetractum|3:
+    upgrade_description: |-
+      Increased strength.
+      Decreased gravity.
+      Decreased delay.
   pulvifors:
     name: Pulvifors
     description: Conjures an invisible cushion to protect yourself from fall damage.

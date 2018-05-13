@@ -18708,7 +18708,7 @@ rictusempra:
     mana: 40
   enabled: true
   upgrade_required_path: year3
-  upgrade_required_cast: 50
+  upgrade_required_casts: 50
 ventus:
   category: dada
   inherit: push
@@ -19023,7 +19023,7 @@ immobulus:
   costs:
     mana: 50
   parameters:
-    range: 48
+    range: 12
     target_type: LivingEntity
     target_breakables: 1
     target: other
@@ -19031,9 +19031,14 @@ immobulus:
     protection_count: 1000
     effect_slow: 20
     effect_jump: -20
-    cooldown: 10000
+    cooldown: 8000
     hitbox: true
+    add_effects:
+      slowness: 20
+      jump: -20
   enabled: true
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
 locomotomortus:
   icon_url: http://textures.minecraft.net/texture/2e67b7afcdb3bfe70cb33d1e384f11f8dc81f3dc9677cc64cb51ba0eb8f3f
   alias: locomoto
@@ -22058,7 +22063,7 @@ cantis:
 carperetractum:
   icon: diamond_axe:198
   worth: 10 ac
-  upgrade_required_casts: 75
+  upgrade_required_casts: 25
   upgrade_required_path: year5
   category: charms
   actions:
@@ -22076,7 +22081,7 @@ carperetractum:
         particle: spell_mob_ambient
         color: e3892c
         period: 1
-        iterations: 30
+        duration: $delay
     tick:
     - class: EffectSingle
       particle: spell_mob
@@ -22116,19 +22121,27 @@ carperetractum:
     duration: 10000
     cooldown: 2000
     delay: 1000
-    velocity: 50
+    velocity: 25
     gravity: 0.05
   costs:
     mana: 10
   enabled: true
 carperetractum|2:
+  upgrade_required_path: year6
+  upgrade_required_casts: 50
   parameters:
     push: -1
     speed: 3
     cooldown: 1500
     delay: 750
-    velocity: 75
-    gravity: 0.02
+    velocity: 50
+    gravity: 0.03
+  enabled: true
+carperetractum|3:
+  parameters:
+    cooldown: 1000
+    delay: 500
+    gravity: 0.01
   enabled: true
 colloshoo:
   category: dada
@@ -23108,6 +23121,26 @@ ignisdisceditus|3:
     radius: 3
     undo: 8000
   enabled: true
+immobulus|2:
+  upgrade_required_path: year4
+  upgrade_required_casts: 75
+  parameters:
+    range: 24
+    duration: 6000
+  enabled: true
+immobulus|3:
+  upgrade_required_path: year5
+  upgrade_required_casts: 100
+  parameters:
+    duration: 8000
+    cooldown: 10000
+  enabled: true
+immobulus|4:
+  parameters:
+    range: 32
+    duration: 10000
+    cooldown: 12000
+  enabled: true
 impedimenta:
   icon: diamond_axe:163
   category: dada
@@ -23835,7 +23868,7 @@ pulvifors:
   enabled: true
 rictusempra|2:
   upgrade_required_path: year4
-  upgrade_required_cast: 75
+  upgrade_required_casts: 75
   parameters:
     range: 24
     living_entity_speed: 1.0
@@ -23843,7 +23876,7 @@ rictusempra|2:
   enabled: true
 rictusempra|3:
   upgrade_required_path: year5
-  upgrade_required_cast: 100
+  upgrade_required_casts: 100
   parameters:
     living_entity_speed: 1.5
     damage: 1.5
