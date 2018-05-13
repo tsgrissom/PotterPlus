@@ -555,7 +555,9 @@ spells:
     name: "Percutios"
     description: "Smites your target with the power of lightning."
   percutios|2:
-    upgrade_description: "Increased damage."
+    upgrade_description: "Increased damage.\nIncreased range.\nIncreased burn duration."
+  percutios|3:
+    upgrade_description: "Increased damage.\nIncreased range."
   multabasiorum:
     name: "Multa Basiorium"
     description: "A high damage-inflicting spell which cascades from target to target, decimating the enemy with effective precision."

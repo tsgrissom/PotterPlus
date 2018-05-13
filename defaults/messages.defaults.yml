@@ -2961,7 +2961,14 @@ spells:
     name: Percutios
     description: Smites your target with the power of lightning.
   percutios|2:
-    upgrade_description: Increased damage.
+    upgrade_description: |-
+      Increased damage.
+      Increased range.
+      Increased burn duration.
+  percutios|3:
+    upgrade_description: |-
+      Increased damage.
+      Increased range.
   multabasiorum:
     name: Multa Basiorium
     description: A high damage-inflicting spell which cascades from target to target,
