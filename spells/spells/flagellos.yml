@@ -33,10 +33,27 @@ flagellos:
           class: Bleed
           height: 0.5
   parameters:
-    player_damage: 5
-    entity_damage: 5
+    damage: 1.5
 
 flagellos|2:
+  upgrade_required_path: year5
+  upgrade_required_casts: 125
   parameters:
-    player_damage: 8
-    entity_damage: 8
+    damage: 3
+    track_speed: 0.5
+    target_self_timeout: 3000
+    velocity: 15
+
+flagellos|3:
+  upgrade_required_path: year6
+  upgrade_required_casts: 150
+  parameters:
+    damage: 5
+    target_self_timeout: 5000
+
+flagellos|4:
+  parameters:
+    damage: 6
+    velocity: 20
+    track_speed: 0.75
+    target_self_timeout: 6000

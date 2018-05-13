@@ -2941,7 +2941,19 @@ spells:
     description: Conjures a tiny, but powerful controllable whip to attack your target
       viciously with.
   flagellos|2:
-    upgrade_description: Increased damage.
+    upgrade_description: |-
+      Increased damage.
+      Increased speed.
+      Increased duration.
+  flagellos|3:
+    upgrade_description: |-
+      Increased damage.
+      Increased duration.
+  flagellos|4:
+    upgrade_description: |-
+      Increased damage.
+      Increased speed.
+      Increased duration.
   emancipare:
     name: Emancipare
     description: Unbinds your target from ropes or other traps.
