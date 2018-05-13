@@ -574,6 +574,12 @@ spells:
   waddiwasi:
     name: "Waddiwasi"
     description: "Conjures a large quantity of pre-chewed chewing gum to stick the target to a surface."
+  waddiwasi|2:
+    upgrade_description: "Increased range.\nIncreased slowness.\nIncreased duration."
+  waddiwasi|3:
+    upgrade_description: "Increased range.\nIncreased slowness.\nIncreased duration."
+  waddiwasi|4:
+    upgrade_description: "Increased range.\nIncreased slowness.\nIncreased duration."
   titillando:
     name: "Titillando"
     description: "Causes the target great discomfort by tickling them beyond their control, immobilizing and slowing them down."

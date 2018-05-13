@@ -22,3 +22,12 @@ waddiwasi:
           material: purpur_block
           radius: 2.5
           duration: $duration
+
+waddiwasi|2:
+  inherit: colloshoo|2
+
+waddiwasi|3:
+  inherit: colloshoo|3
+
+waddiwasi|4:
+  inherit: colloshoo|4
