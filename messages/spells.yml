@@ -595,6 +595,10 @@ spells:
   herbifors:
     name: "Herbifors"
     description: "Causes the target to sprout a flower from their head."
+  herbifors|2:
+    upgrade_description: "Increased duration.\nIncreased range."
+  herbifors|3:
+    upgrade_description: "Increased duration.\nIncreased range."
   scribblifors:
     name: "Scribblifors"
     description: "Conjures stationery to write on. A useful transfiguration spell for classwork."

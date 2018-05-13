@@ -2,6 +2,7 @@ herbifors:
   icon: diamond_axe:41
   category: herbology
   worth: 5 ac
+  upgrade_required_casts: 50
   effects:
     cast:
       - class: EffectSingle
@@ -32,12 +33,23 @@ herbifors:
         actions:
           - class: Hat
   parameters:
-    material: double_plant:1
+    material: double_plant:1,yellow_flower,red_flower,red_flower:1,red_flower:2,red_flower:3,red_flower:4,red_flower:5,red_flower:6,red_flower:7,red_flower:8
     target: other
     target_type: Player
-    range: 12
+    range: 8
     hitbox: true
     undo: 5000
     cooldown: 12000
   costs:
-    mana: 10
+    mana: 30
+
+herbifors|2:
+  upgrade_required_casts: 75
+  parameters:
+    undo: 8000
+    range: 16
+
+herbifors|3:
+  parameters:
+    undo: 10000
+    range: 24

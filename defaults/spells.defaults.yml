@@ -23040,10 +23040,10 @@ herbifors:
       actions:
       - class: Hat
   parameters:
-    material: double_plant:1
-    target: other
+    material: double_plant:1,yellow_flower,red_flower,red_flower:1,red_flower:2,red_flower:3,red_flower:4,red_flower:5,red_flower:6,red_flower:7,red_flower:8
+    target: self
     target_type: Player
-    range: 12
+    range: 8
     hitbox: true
     undo: 5000
     cooldown: 12000
@@ -24200,4 +24200,13 @@ waddiwasi:
         material: purpur_block
         radius: 2.5
         duration: $duration
+  enabled: true
+waddiwasi|2:
+  inherit: colloshoo|2
+  enabled: true
+waddiwasi|3:
+  inherit: colloshoo|3
+  enabled: true
+waddiwasi|4:
+  inherit: colloshoo|4
   enabled: true
