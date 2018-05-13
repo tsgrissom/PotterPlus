@@ -551,6 +551,12 @@ spells:
   homenumrevelio:
     name: "Homenum Revelio"
     description: "Reveals the presence of nearby creatures."
+  homenumrevelio|2:
+    upgrade_description: "Increased radius.\nIncreased target count.\nIncreased duration."
+  homenumrevelio|3:
+    upgrade_description: "Increased radius.\nIncreased target count.\nIncreased duration."
+  homenumrevelio|4:
+    upgrade_description: "Increased radius.\nIncreased target count.\nIncreased duration."
   percutios:
     name: "Percutios"
     description: "Smites your target with the power of lightning."

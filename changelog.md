@@ -8,6 +8,7 @@ This is not an absolute record of *ever* change that happens, just ones that are
 
 ### 5/12/18
 
+* Buffed Percutios and split it into more levels.
 * Updated Carpe Retractum with new level and balance.
 * Re-worked Immobulus leveling.
 * Re-worked Rictusempra leveling
