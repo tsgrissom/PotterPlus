@@ -8,6 +8,7 @@ This is not an absolute record of *ever* change that happens, just ones that are
 
 ### 5/12/18
 
+* Re-worked Immobulus leveling.
 * Re-worked Rictusempra leveling
 * Re-worked Herbifors leveling
 * Re-worked Herbifors leveling
