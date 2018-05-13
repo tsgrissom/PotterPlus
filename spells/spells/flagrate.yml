@@ -1,8 +1,11 @@
 flagrate:
   upgrade_required_casts: 25
   worth: 5 ac
-  effects:
+  actions:
     cast:
+      - class: PlayEffects
+  effects:
+    name:
       - class: EffectSingle
         location: target
         target_offset: 0,3,0
@@ -11,10 +14,12 @@ flagrate:
           text: $target
           iterations: 3
           particle: lava
+  parameters:
+    effect: name
 
 flagrate|2:
   effects:
-    cast:
+    name:
       - class: EffectSingle
         location: target
         target_offset: 0,30

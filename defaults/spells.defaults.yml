@@ -18615,6 +18615,20 @@ flagrate:
   effects:
     cast:
     - class: EffectSingle
+      sound: fizz
+    - class: EffectTrail
+      particle: redstone
+    - class: EffectSingle
+      location: target
+      target_offset: 0,3,0
+      color_override: color
+      effectlib:
+        class: TextEffect
+        text: $target
+        iterations: 2
+        particle: redstone
+    name:
+    - class: EffectSingle
       location: target
       target_offset: 0,3,0
       effectlib:
@@ -18626,10 +18640,14 @@ flagrate:
     allow_max_range: true
     range: 8
     cooldown: 30000
+    effect: name
   costs:
     mana: 5
   enabled: true
   upgrade_required_casts: 25
+  actions:
+    cast:
+    - class: PlayEffects
 rictusempra:
   icon_url: http://textures.minecraft.net/texture/5374b64589d779ac4bf7293ba44dba5630a649a02877a39f4c05e94911ff96a
   icon: diamond_axe:226
@@ -22689,7 +22707,7 @@ flagellos|2:
   enabled: true
 flagrate|2:
   effects:
-    cast:
+    name:
     - class: EffectSingle
       location: target
       target_offset: 0,30
