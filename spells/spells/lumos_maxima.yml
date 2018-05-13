@@ -22,6 +22,20 @@ lumosmaxima:
     mana: 50
 
 lumosmaxima|2:
+  upgrade_required_path: year6
+  upgrade_required_casts: 75
   parameters:
     duration: 120000
     cooldown: 120000
+
+lumosmaxima|3:
+  upgrade_required_path: year7
+  upgrade_required_casts: 125
+  parameters:
+    duration: 180000
+    cooldown: 180000
+
+lumosmaxima|4:
+  parameters:
+    duration: 240000
+    cooldown: 240000

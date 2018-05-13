@@ -31,6 +31,10 @@ spells:
     description: "Blindingly lights up the tip of your wand to provide a long-lasting light source in dark areas."
   lumosmaxima|2:
     upgrade_description: "Increased duration."
+  lumosmaxima|3:
+    upgrade_description: "Increased duration."
+  lumosmaxima|4:
+    upgrade_description: "Increased duration."
   arresto:
     description: "Lessens your downward momentum, cushioning the damage of your fall significantly."
   periculum:
