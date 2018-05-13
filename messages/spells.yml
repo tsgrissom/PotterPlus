@@ -106,7 +106,13 @@ spells:
     description: "Immoblizes the target temporarily."
   rictusempra:
     name: "Rictusempra"
-    description: "Tickles the target terribly"
+    description: "Tickles the target terribly, throwing them backwards."
+  rictusempra|2:
+    upgrade_description: "Increased damage.\nIncreased range.\nIncreased power."
+  rictusempra|3:
+    upgrade_description: "Increased damage.\nIncreased power."
+  rictusempra|4:
+    upgrade_description: "Increased damage.\nIncreased range."
   bogies:
     description: "Sickens the target significantly, causing a runny nose, terrible cough, and overall miserable symptoms."
   bogies|2:

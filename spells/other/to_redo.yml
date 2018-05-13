@@ -1,9 +1,7 @@
 incendio:
   category: charms
   worth: 10 ac
-rictusempra:
-  category: charms
-  worth: 5 ac
+
 flipendo:
   worth: 5 ac
 nox:
@@ -123,45 +121,3 @@ volo:
   category: charms
 wingardium:
   worth: 5 ac
-  effects:
-    cast:
-    -  class: EffectSingle
-       location: origin
-       sound: magic.zap_up
-       sound_pitch: 2
-       effectlib:
-         class: Cone
-         iterations: 8
-         particles: 2
-         particle: spell
-         lengthGrow: 0.4
-    -  class: EffectSingle
-       location: target
-       use_wand_location: false
-       effectlib:
-         class: Sphere
-         iterations: 48
-         period: 2
-         particle: spell
-         radius: 1
-    -  class: EffectSingle
-       location: target
-       effectlib:
-         class: Cone
-         iterations: 8
-         particle: spell
-         autoOrient: false
-    no_target:
-    -  class: EffectSingle
-       location: origin
-       sound: entity_enderdragon_flap
-       sound_pitch: 2
-       effectlib:
-         class: Cone
-         iterations: 8
-         particles: 2
-         particle: spell
-         lengthGrow: 0.4
-  parameters:
-    target: other_entity
-    target_type: LivingEntity

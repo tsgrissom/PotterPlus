@@ -18652,7 +18652,7 @@ rictusempra:
   icon_url: http://textures.minecraft.net/texture/5374b64589d779ac4bf7293ba44dba5630a649a02877a39f4c05e94911ff96a
   icon: diamond_axe:226
   icon_disabled: diamond_hoe:226
-  category: charms
+  category: dada
   pvp_restricted: true
   cast_on_no_target: true
   worth: 5 ac
@@ -18692,21 +18692,23 @@ rictusempra:
       color: 5882FA
       firework: ball
   parameters:
-    range: 35
+    range: 12
     fov: 0.12
     hitbox: true
     target_type: LivingEntity
     allow_max_range: false
     item_speed: 2
-    living_entity_speed: 5
+    living_entity_speed: 0.5
     push: 1
-    cooldown: 2500
-    damage: 1.5
+    cooldown: 5000
+    damage: 0.5
     target_breakables: 0
     bypass_backfire: false
   costs:
     mana: 40
   enabled: true
+  upgrade_required_path: year3
+  upgrade_required_cast: 50
 ventus:
   category: dada
   inherit: push
@@ -20289,48 +20291,6 @@ wingardium:
   category: charms
   enabled: true
   worth: 5 ac
-  effects:
-    cast:
-    - class: EffectSingle
-      location: origin
-      sound: magic.zap_up
-      sound_pitch: 2
-      effectlib:
-        class: Cone
-        iterations: 8
-        particles: 2
-        particle: spell
-        lengthGrow: 0.4
-    - class: EffectSingle
-      location: target
-      use_wand_location: false
-      effectlib:
-        class: Sphere
-        iterations: 48
-        period: 2
-        particle: spell
-        radius: 1
-    - class: EffectSingle
-      location: target
-      effectlib:
-        class: Cone
-        iterations: 8
-        particle: spell
-        autoOrient: false
-    no_target:
-    - class: EffectSingle
-      location: origin
-      sound: entity_enderdragon_flap
-      sound_pitch: 2
-      effectlib:
-        class: Cone
-        iterations: 8
-        particles: 2
-        particle: spell
-        lengthGrow: 0.4
-  parameters:
-    target: other_entity
-    target_type: LivingEntity
 revelio:
   inherit: false
   icon: diamond_axe:107
@@ -23010,6 +22970,7 @@ herbifors:
   icon: diamond_axe:41
   category: herbology
   worth: 5 ac
+  upgrade_required_casts: 50
   effects:
     cast:
     - class: EffectSingle
@@ -23041,14 +23002,25 @@ herbifors:
       - class: Hat
   parameters:
     material: double_plant:1,yellow_flower,red_flower,red_flower:1,red_flower:2,red_flower:3,red_flower:4,red_flower:5,red_flower:6,red_flower:7,red_flower:8
-    target: self
+    target: other
     target_type: Player
     range: 8
     hitbox: true
     undo: 5000
     cooldown: 12000
   costs:
-    mana: 10
+    mana: 30
+  enabled: true
+herbifors|2:
+  upgrade_required_casts: 75
+  parameters:
+    undo: 8000
+    range: 16
+  enabled: true
+herbifors|3:
+  parameters:
+    undo: 10000
+    range: 24
   enabled: true
 homenumrevelio:
   icon: diamond_axe:74
@@ -23860,6 +23832,26 @@ pulvifors:
       period: 2
   parameters:
     protection_count: 1
+  enabled: true
+rictusempra|2:
+  upgrade_required_path: year4
+  upgrade_required_cast: 75
+  parameters:
+    range: 24
+    living_entity_speed: 1.0
+    damage: 1.0
+  enabled: true
+rictusempra|3:
+  upgrade_required_path: year5
+  upgrade_required_cast: 100
+  parameters:
+    living_entity_speed: 1.5
+    damage: 1.5
+  enabled: true
+rictusempra|4:
+  parameters:
+    range: 32
+    damage: 2
   enabled: true
 salviohexia|2:
   effects:

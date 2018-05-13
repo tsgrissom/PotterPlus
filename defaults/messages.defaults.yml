@@ -2123,7 +2123,7 @@ spells:
     cast: Pulsus!
   rictusempra:
     name: Rictusempra
-    description: Tickles the target terribly
+    description: Tickles the target terribly, throwing them backwards.
     cast: Rictusempra!
   expulsion:
     name: Expulsion
@@ -2502,6 +2502,19 @@ spells:
     upgrade_description: Increased damage.
   araniaexumai|3:
     upgrade_description: Increased damage.
+  rictusempra|2:
+    upgrade_description: |-
+      Increased damage.
+      Increased range.
+      Increased power.
+  rictusempra|3:
+    upgrade_description: |-
+      Increased damage.
+      Increased power.
+  rictusempra|4:
+    upgrade_description: |-
+      Increased damage.
+      Increased range.
   bogies|2:
     upgrade_description: |-
       Increased range.
@@ -3018,6 +3031,14 @@ spells:
   herbifors:
     name: Herbifors
     description: Causes the target to sprout a flower from their head.
+  herbifors|2:
+    upgrade_description: |-
+      Increased duration.
+      Increased range.
+  herbifors|3:
+    upgrade_description: |-
+      Increased duration.
+      Increased range.
   scribblifors:
     name: Scribblifors
     description: Conjures stationery to write on. A useful transfiguration spell for
