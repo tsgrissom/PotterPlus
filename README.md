@@ -6,6 +6,8 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 
 [License](https://github.com/grisstyl/BetterPotter/blob/master/license.md)
 
+[Issue Tracker](https://github.com/grisstyl/BetterPotter/issues)
+
 ## TODO
 
 ### General
@@ -32,16 +34,6 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Replace all fake warmup spells with a real warmup
 * Follow up with Nathan on Flagrate progression
 * Add Riddikulus
-
-### Known bugs
-
-#### Spells
-
-*No spell bugs being tracked at the moment*
-
-#### Mobs
-
-* Erkling darts cast by Erklings appear to fire from the player at the Erkling, does this happen elsewhere with other mobs?
 
 ### Other ideas
 

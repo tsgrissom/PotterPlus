@@ -516,7 +516,9 @@ spells:
     name: "Expulso"
     description: "A dark spell causing an incredibly powerful and dangerous explosion."
   expulso|2:
-    upgrade_description: "Increased radius.\nIncreased damage.\nIncreased knockback.\nIncreased burns."
+    upgrade_description: "Increased speed.\nIncreased damage.\nIncreased duration."
+  expulso|3:
+    upgrade_description: "Explosion now burns.\nIncreased size.\nIncreased speed.\nIncreased duration."
   despello:
     name: "Despello"
     description: "Causes the target to babble uncontrollably."

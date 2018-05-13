@@ -6,11 +6,16 @@ There is a relatively up-to-date and accurate roadmap and list of upcoming chang
 
 This is not an absolute record of *ever* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 5/13/18
+
+* Nerfed Expulso and spread it out across more levels.
+
 ### 5/12/18
 
-* Buffed Percutios and split it into more levels.
-* Updated Carpe Retractum with new level and balance.
-* Re-worked Immobulus leveling.
+* Buffed Homenum Revelio across multiple levels
+* Buffed Percutios and split it into more levels
+* Updated Carpe Retractum with new level and balance
+* Re-worked Immobulus leveling
 * Re-worked Rictusempra leveling
 * Re-worked Herbifors leveling
 * Re-worked Herbifors leveling
