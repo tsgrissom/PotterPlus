@@ -8,6 +8,14 @@ This is not an absolute record of *ever* change that happens, just ones that are
 
 ### 5/12/18
 
+* Re-worked Rictusempra leveling
+* Re-worked Herbifors leveling
+* Re-worked Herbifors leveling
+* Re-worked Waddiwasi leveling
+* Re-worked Epoximise leveling
+* Re-worked Lumos Maxima leveling
+* Fixed progression on Flagrate
+* Re-worked Vermillious leveling
 * Re-worked Ascendio
 * Overhauled spell and wand looks
 * Fixed broken potion effects

@@ -2,7 +2,7 @@ rictusempra:
   category: dada
   worth: 5 ac
   upgrade_required_path: year3
-  upgrade_required_cast: 50
+  upgrade_required_casts: 50
   parameters:
     range: 12
     living_entity_speed: 0.5
@@ -11,7 +11,7 @@ rictusempra:
 
 rictusempra|2:
   upgrade_required_path: year4
-  upgrade_required_cast: 75
+  upgrade_required_casts: 75
   parameters:
     range: 24
     living_entity_speed: 1.0
@@ -19,7 +19,7 @@ rictusempra|2:
 
 rictusempra|3:
   upgrade_required_path: year5
-  upgrade_required_cast: 100
+  upgrade_required_casts: 100
   parameters:
     living_entity_speed: 1.5
     damage: 1.5

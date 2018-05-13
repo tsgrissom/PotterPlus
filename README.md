@@ -31,6 +31,7 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Decide on the fate of `/defaults/`
 * Replace all fake warmup spells with a real warmup
 * Follow up with Nathan on Flagrate progression
+* Add Riddikulus
 
 ### Known bugs
 

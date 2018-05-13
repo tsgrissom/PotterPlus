@@ -104,6 +104,12 @@ spells:
     upgrade_description: "Increased damage."
   immobulus:
     description: "Immoblizes the target temporarily."
+  immobulus|2:
+    upgrade_description: "Increased range.\nIncreased duration."
+  immobulus|3:
+    upgrade_description: "Increased duration."
+  immobulus|4:
+    upgrade_description: "Increased range.\nIncreased duration."
   rictusempra:
     name: "Rictusempra"
     description: "Tickles the target terribly, throwing them backwards."
