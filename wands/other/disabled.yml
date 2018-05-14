@@ -18,6 +18,31 @@ flappy:
 squib:
   enabled: false
 
+# Items
+
+bombs:
+  enabled: false
+
+floopowder:
+  enabled: false
+
+# Brooms
+
+beater:
+  enabled: false
+
+thestral:
+  enabled: false
+
+minister:
+  enabled: false
+
+unspeakabroom:
+  enabled: false
+
+headmaster:
+  enabled: false
+
 # Effects
 
 rainboweffects:

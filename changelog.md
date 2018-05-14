@@ -4,7 +4,9 @@ Changes are organized here for record-keeping purposes. Changes are organized fr
 
 There is a relatively up-to-date and accurate roadmap and list of upcoming changes in the document [here](https://github.com/grisstyl/BetterPotter/blob/master/README.md).
 
-This is not an absolute record of *ever* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
+There is a list of current, known issues [here](https://github.com/grisstyl/BetterPotter/issues).
+
+This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
 ### 5/13/18
 
