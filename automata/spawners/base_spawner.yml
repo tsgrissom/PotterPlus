@@ -1,5 +1,4 @@
 base_spawner:
-  inherit: spawner
   name: "Spawner"
   description: "A basic spawner for BetterPotter mobs"
   interval: 3000
