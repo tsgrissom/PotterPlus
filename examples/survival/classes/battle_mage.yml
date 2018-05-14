@@ -1,0 +1,11 @@
+battle_mage:
+  parent: caster
+  locked: false
+  path: battle
+  spells:
+    - missile
+    - arrow
+    - curse
+    - fire
+    - push
+

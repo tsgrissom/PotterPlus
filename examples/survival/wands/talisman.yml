@@ -1,0 +1,10 @@
+talisman:
+  icon: wood_hoe:30
+  indestructible: true
+  mana_max_boost: 0.3
+  mana_regeneration_boost: 0.2
+  earn_multiplier: 1.5
+  color: random
+  effect_bubbles: true
+  keep: true
+  locked: true

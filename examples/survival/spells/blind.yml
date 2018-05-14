@@ -1,0 +1,66 @@
+blind:
+    icon: diamond_axe:166
+    icon_disabled: diamond_hoe:166
+    icon_url: http://textures.minecraft.net/texture/c7a8e7c9d3375135e39aa6d57b4e60539cf8f6efc5b58c83a13caf40561560
+    example_thumbnail: https://thumbs.gfycat.com/YoungBoilingAfricancivet-size_restricted.gif
+    example_link: https://thumbs.gfycat.com/YoungBoilingAfricancivet
+    category: combat
+    worth: 70
+    earns_sp: 6
+    actions:
+        cast:
+        - class: CustomProjectile
+          actions:
+          - class: PotionEffect
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: magic.zap
+           effectlib:
+             class: ConeEffect
+             iterations: 15
+             particle: smoke_normal
+             lengthGrow: 0.05
+             radiusGrow: 0.002
+             particle_count: 4
+             particle_offset_x: 0.2
+             particle_offset_y: 0.2
+             particle_offset_z: 0.2
+        tick:
+        - location: target
+          particle: smoke_normal
+          particle_count: 20
+          particle_offset_x: 0.1
+          particle_offset_y: 0.1
+          particle_offset_z: 0.1
+        hit:
+        -  class: EffectSingle
+           location: target
+           use_hit_location: false
+           requires_entity_target: true
+           sound: magic.shimmer
+           effectlib:
+             class: Modified
+             effect:
+               class: SphereEffect
+               particle: smoke_normal
+               particle_count: 5
+             duration: $duration
+             parameters:
+               particles: "select(t - 10, t * 5, 50, select(t - i + 10, 50, 50, abs(t - i) * 5))"
+               radius: "select(t - 10, (10 - t) * 0.3 + 0.5, 0.5, select(t - i + 10, 0.5, 0.5, (t - i + 10) * 0.3 + 0.5))"
+    headshot_parameters:
+      duration_multiplier: 3
+    parameters:
+        velocity: 120
+        range: 32
+        target_type: LivingEntity
+        target_breakables: 0
+        target: other
+        duration: 2000
+        cooldown: 10000
+        effect_blindness: 5
+        hitbox: true
+    costs:
+        mana: 45
+

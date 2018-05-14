@@ -1,0 +1,13 @@
+sellshop:
+    icon: sulphur
+    category: shop
+    hidden: true
+    actions:
+        cast:
+        - class: Shop
+    parameters:
+        confirm: false
+        auto_close: false
+        confirm_filler: stained_glass_pane
+        sell: true
+

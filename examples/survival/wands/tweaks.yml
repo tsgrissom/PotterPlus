@@ -1,0 +1,100 @@
+quickcast_enable:
+    icon: diamond_axe:206
+    upgrade: true
+    force: true
+    quick_cast: true
+quickcast_disable:
+    icon: diamond_axe:207
+    upgrade: true
+    force: true
+    quick_cast: disable
+quickcast_manual:
+    icon: diamond_axe:208
+    upgrade: true
+    force: true
+    quick_cast: manual
+quickcast_normal:
+    icon: diamond_axe:209
+    upgrade: true
+    force: true
+    quick_cast: normal
+
+mode_drop:
+    icon: diamond_axe:210
+    upgrade: true
+    force: true
+    drop: toggle
+    right_click: none
+    left_click: cast
+    swap: cycle_hotbar
+    quick_cast: false
+mode_rightclick:
+    icon: diamond_axe:211
+    upgrade: true
+    force: true
+    drop: cycle_hotbar
+    right_click: toggle
+    left_click: cast
+    swap: none
+    quick_cast: false
+mode_sword:
+    icon: diamond_axe:212
+    upgrade: true
+    force: true
+    drop: toggle
+    right_click: none
+    left_click: none
+    swap: cycle_hotbar
+    quick_cast: true
+mode_swap:
+    icon: diamond_axe:213
+    upgrade: true
+    force: true
+    drop: cycle_hotbar
+    right_click: none
+    left_click: cast
+    swap: toggle
+    quick_cast: false
+
+chestmode:
+    icon: diamond_axe:205
+    upgrade: true
+    indestructible: false
+    mode: chest
+inventorymode:
+    icon: diamond_axe:214
+    upgrade: true
+    indestructible: false
+    mode: inventory
+cyclemode:
+    icon: diamond_axe:215
+    upgrade: true
+    indestructible: false
+    mode: cycle
+
+organizer:
+    icon: diamond_axe:216
+    upgrade: true
+    indestructible: false
+    organize: true
+alphabetizer:
+    icon: diamond_axe:217
+    upgrade: true
+    indestructible: false
+    alphabetize: true
+    
+loud:
+    icon: diamond_axe:218
+    upgrade: true
+    indestructible: false
+    quiet: 0
+quiet:
+    icon: diamond_axe:219
+    upgrade: true
+    indestructible: false
+    quiet: 1
+silent:
+    icon: diamond_axe:220
+    upgrade: true
+    indestructible: false
+    quiet: 2

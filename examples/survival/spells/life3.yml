@@ -1,0 +1,35 @@
+life3:
+    icon: diamond_axe:21
+    icon_disabled: diamond_hoe:21
+    icon_url: http://textures.minecraft.net/texture/7ee091dbd831daca4385f481d3a0c5bf6513e47db9a0926e567e10997cfd6ce2
+    category: electrical
+    hidden: true
+    class: ConstructSpell
+    worth: 15000
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: ambient_cave
+        -  class: EffectTrail
+           particle: block_crack
+    parameters:
+        allow_max_range: true
+        check_destructible: false
+        range: 32
+        radius: 32
+        max_dimension: 64
+        orient_dimension_min: 0
+        type: sphere
+        cooldown: 120000
+        brush: schematic|life3
+        transparent: transparent_to_construction
+        commands:
+          life_wiki: msg @p See http://en.wikipedia.org/wiki/Conway%27s_life for more info!
+          life_simulate: cast simulate3 bu true radius 16 yradius 16 ty ~-14 tz ~-38 oby 16 obz 38 obcx -1 obcy 16 obcz 38 olcx 1 olcy 16 olcz 38 concurrent true
+          life_clear: castp @p box odmax 10 odmin 1 brush erase cd false tx ~2 ty ~-17 tz ~-68 radius 64 md 300 thickness 0 cooldown 10000 consume false
+          life_border: castp @p box odmax 2 odmin 2 tx ~3 ty ~-20 tz ~-68 radius 65 md 300 cd 60000 brush copy obx -3 oby 18 obz 68 consume false
+          life_board: castp @p box odmax 1 odmin 3 tx ~2 ty ~-20 tz ~-68 radius 64 md 300 thickness 0 cd 60000 brush copy obx -2 oby 18 obz 68 consume false
+          life_line: castp @p fill tx ~-16 ty ~-14 tz ~-32 t2x ~32 brush copy cd 10000 obx -15 oby 16 obz 36 consume false
+    costs:
+        mana: 1500
+

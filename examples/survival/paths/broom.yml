@@ -1,0 +1,8 @@
+
+#
+# Broom Enchanting
+#
+
+broom:
+    hidden: true
+    inherit: default

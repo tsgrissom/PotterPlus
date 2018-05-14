@@ -1,0 +1,127 @@
+hunter:
+    hidden: true
+    icon: diamond_axe:17
+    icon_disabled: diamond_hoe:17
+    icon_url: http://textures.minecraft.net/texture/744e11fddeff88dd749ae5ff8fe80f46b9f659817d43d673e4af3759d59ae0
+    category: automata
+    class: AnimateSpell
+    worth: 6000
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: entity_endermen_scream
+        -  class: EffectTrail
+           particle: block_crack
+        tick:
+        - sound: entity_endermen_scream
+        hurt:
+        - sound: entity_endermen_hurt,0.3,2
+    levels:
+        1: 100
+        3: 40
+        5: 10
+    move: 2,2,2
+    radius: 5,6,7
+    yradius: 5,6,7
+    max_blocks: 200,300,400
+    min_blocks: 20,25,30
+    birth_range: 3,4,5
+    live_range: 3,4,5
+    delay: 1200,800,500
+    drop_xp: 50,75,100
+    spell_parameters: "loud true transparent air,$birth range 32"
+    death_cast:
+        "hunter_death speed 0^1 destructible $birth": 500,300,50
+        "hunter_death speed 0^5 destructible $birth": 300,200,100
+        "hunter_death speed 1^0 destructible $birth": 250,200,150
+        "hunter_death speed 1^5 destructible $birth": 100,100,200
+    cast:
+        "shrink": 30,40,50
+        "pull": 100,120,150
+        "curse": 20,50,70
+        "blind": 60,40,10
+        "poison": 40,50,30
+        "blob brush stained_glass:15 radius 2 undo 5000 indestructible $birth": 20,40,50
+        "shell brush stained_glass:15 radius 3 undo 7000 indestructible $birth": 30,20,10
+        "homing|2": 20,50,150
+        "missile|2": 100,150,200
+        "petrify": 50,100,150
+        "none": 100,75,25
+    parameters:
+        allow_max_range: false
+        transparent: transparent_to_construction
+        check_destructible: false
+        range: 32
+        cooldown: 10000
+        name: Hunter
+        target_min_range: 1
+        target_max_range: 128
+        target_mode: hunt
+        targets: player
+        live_rules: 5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26
+        birth_rules: 5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26
+        concurrent: true
+        drops:
+        - hunterheart
+        - sp:50
+        restricted: restricted_animate
+        message_type: evil
+        undo: 5000
+        command_block_allowed: false
+        materials:
+        - stained_clay
+        - stained_clay:1
+        - stained_clay:2
+        - stained_clay:3
+        - stained_clay:4
+        - stained_clay:5
+        - stained_clay:6
+        - stained_clay:7
+        - stained_clay:8
+        - stained_clay:9
+        - stained_clay:10
+        - stained_clay:11
+        - stained_clay:12
+        - stained_clay:13
+        - stained_clay:14
+        - clay
+        - packed_ice
+        - red_sandstone
+        - red_sandstone:1
+        - red_sandstone:2
+    costs:
+        xp: 200
+        sp: 100
+
+hunter_death:
+    name: Hunter Death
+    hidden: true
+    actions:
+        cast:
+        - class: Sphere
+          actions:
+          - class: ModifyBlock
+    effects:
+        cast:
+        -  class: EffectSingle
+           target_offset: 0,0.5,0
+           location: target
+           color: FACC2E
+           firework: burst
+           particle: explosion_large
+           sound: entity_endermen_death,0.3,2
+    parameters:
+        speed: 0.9
+        direction: 0,0.8,0
+        falling: true
+        brush: air
+        radius: 7
+        undo: 15000
+        undo_speed: 0.5
+        target: self
+        check_destructible: true
+
+birth_hunter:
+  inherit: hunter
+  parameters:
+    seed_radius: 2

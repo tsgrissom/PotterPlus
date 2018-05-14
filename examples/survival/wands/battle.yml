@@ -1,0 +1,6 @@
+#
+# A starter battle wand
+#
+battle:
+  hidden: true
+  migrate_to: magicsword

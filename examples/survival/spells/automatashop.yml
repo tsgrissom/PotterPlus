@@ -1,0 +1,13 @@
+automatashop:
+    icon: command
+    category: npc
+    hidden: true
+    inherit: sellshop
+    parameters:
+        items:
+          wand|snakeheart: 300
+          wand|hunterheart: 500
+          wand|wormheart: 1500
+          wand|virusheart: 3000
+          wand|defenderheart: 100
+

@@ -1,0 +1,13 @@
+ledger:
+    icon: paper
+    category: specialty
+    hidden: true
+    show_undoable: false
+    actions:
+        cast:
+        - class: Ledger
+    parameters:
+      ignore_currencies:
+      - hunger
+      - health
+      - mana

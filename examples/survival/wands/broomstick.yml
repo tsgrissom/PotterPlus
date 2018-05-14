@@ -1,0 +1,15 @@
+broomstick:
+    class: broomrider
+    path: broom
+    mode: cast
+    keep: true
+    locked: true
+    locked_allow_upgrades: true
+    indestructible: true
+    active_spell: broom
+    migrate_icon: gold_spade
+    icon: wood_hoe:11
+    effect_color: '880088'
+    spells:
+        - broom
+

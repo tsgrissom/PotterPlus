@@ -1,0 +1,112 @@
+snake:
+    hidden: true
+    icon: diamond_axe:16
+    icon_disabled: diamond_hoe:16
+    icon_url: http://textures.minecraft.net/texture/744e11fddeff88dd749ae5ff8fe80f46b9f659817d43d673e4af3759d59ae0
+    category: automata
+    class: AnimateSpell
+    worth: 8000
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: entity_slime_attack
+        -  class: EffectTrail
+           particle: block_crack
+        tick:
+        - sound: entity_slime_attack
+        hurt:
+        - sound: entity_slime_hurt,0.3,2
+    levels:
+        1: 100
+        3: 40
+        5: 10
+    move: 4,5,6
+    radius: 1,1,1
+    yradius: 1,1,1
+    max_blocks: 600,700,1000
+    min_blocks: 50,75,100
+    delay: 500,300,250
+    drop_xp: 20,40,50
+    spell_parameters: "loud true transparent air,$birth range 48"
+    death_cast:
+        "snake_death destructible $birth": 100,100,100
+    cast:
+        "curse": 80,90,100
+        "blind": 60,100,150
+        "shrink": 30,50,70
+        "push": 20,40,60
+        "fury": 30,50,70
+        "torture|2": 10,20,40
+        "homing|3": 20,30,50
+        "missile|3": 100,150,250
+        "petrify|2": 30,50,70
+        "railgun indestructible $birth": 20,40,80
+        "none": 20,10,5
+    parameters:
+        allow_max_range: false
+        transparent: transparent_to_construction
+        check_destructible: false
+        range: 32
+        cooldown: 60000
+        name: Snake
+        target_min_range: 3
+        target_max_range: 128
+        target_mode: hunt
+        targets: any
+        live_rules: 5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26
+        birth_rules: 5,6,7,8,9
+        concurrent: false
+        drops:
+        - snakeheart
+        - sp:50
+        move: 4
+        restricted: restricted_animate
+        message_type: evil
+        undo: 8000
+        undo_speed: 10
+        command_block_allowed: false
+        materials:
+        - melon_block
+    costs:
+        xp: 100
+        sp: 100
+
+snake_death:
+    name: Snake Death
+    hidden: true
+    actions:
+        cast:
+        - class: Sphere
+          actions:
+           - class: Recurse
+             actions:
+             - class: ModifyBlock
+    effects:
+        hit:
+        -  class: EffectSingle
+           location: target
+           target_offset: 0,0.5,0
+           sound: entity_slime_death
+           color: FACC2E
+           firework: burst
+           effectlib:
+             class: HelixEffect
+             iterations: 1
+             radius: $radius
+             particle: falling_dust
+    parameters:
+        target: self
+        check_destructible: true
+        speed: -0.2
+        undo_speed: 5
+        brush: air
+        falling: true
+        radius: 3
+        undo: 10000
+        undo_speed: 1
+        depth: 64
+
+birth_snake:
+  inherit: snake
+  parameters:
+    seed_radius: 2

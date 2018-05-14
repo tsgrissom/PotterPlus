@@ -1,0 +1,18 @@
+#
+# A spellcasting sword
+#
+magicsword:
+    inherit: base_sword
+    class: battle_mage
+    icon: gold_sword:8
+    migrate_icon: gold_sword
+    effect_color: '11FF11'
+    hide_flags: 62
+    active_spell: missile
+    limit_spells_to_path: true
+    limit_brushes_to_path: true
+    protection:
+      physical: 0.4
+    item_attributes:
+      GENERIC_ATTACK_DAMAGE: 6
+

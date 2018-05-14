@@ -1,0 +1,22 @@
+wandshop:
+    icon: wooden_hoe
+    category: npc
+    hidden: true
+    inherit: buyshop
+    parameters:
+        confirm: true
+        auto_close: true
+        items:
+        - item: wand|default
+          cost: 3000
+        - item: wand|spellbook
+          cost: 3000
+        - item: wand|talisman
+          cost: 5000
+        - item: wand|mastersword
+          cost: 8000
+        - item: wand|magicsword
+          cost: 9000
+        - item: wand|magicbow
+          cost: 2500
+

@@ -1,0 +1,53 @@
+invincible:
+    icon: diamond_axe:74
+    icon_disabled: diamond_hoe:74
+    icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
+    category: master
+    tags: noduel
+    worth: 500
+    actions:
+        cast:
+        -  class: PotionEffect
+    effects:
+        cast:
+        - class: EffectSingle
+          sound: block_fire_extinguish
+          location: target
+          effectlib:
+             class: Modified
+             duration: $duration
+             parameters:
+              size: "sin(t/20) + 0.2"
+             effect:
+               class: AnimatedBall
+               iterations: 70
+               particle: redstone
+               color: "FFD700"
+               particles: 60
+               y_offset: -0.5
+               y_factor: 1
+        - location: target
+          effectlib:
+             class: Modified
+             duration: $duration
+             parameters:
+              size: "cos(t/20) + 0.2"
+             effect:
+               class: AnimatedBall
+               iterations: 70
+               particle: redstone
+               color: "C0C0C0"
+               particles: 60
+               y_offset: -0.5
+               y_factor: 1
+    parameters:
+        target: self
+        duration: 5000
+        cooldown: 30000
+        cooldown_mage: 6000
+        transparent: transparent_to_construction
+        effect_damage_resistance: 300
+        effect_slow: 1
+    costs:
+        mana: 90
+

@@ -1,0 +1,206 @@
+wandbuffshop:
+  icon: diamond_axe:234
+  icon_disabled: diamond_hoe:234
+  icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
+  category: npc
+  hidden: true
+  actions:
+      cast:
+      -  class: Selector
+  parameters:
+    confirm: true
+    confirm_filler: stained_glass:13
+    show_unavailable: true
+    cost_type: sp
+    requirements:
+    - holding_wand: true
+    options:
+    - placeholder: true
+    - placeholder: true
+    - cast_spell: add_protection
+      cost: 1000
+      cost_modifiers:
+        - scale: "1 + 9 * (x ^ 3)"
+          type: wand
+          property: protection.overall
+      requirements:
+        - wand_properties:
+          - property: protection.overall
+            max: 1
+    - cast_spell: add_physical_protection
+      cost: 200
+      cost_modifiers:
+        - scale: "1 + 15 * (x ^ 3)"
+          type: wand
+          property: protection.physical
+      requirements:
+        - wand_properties:
+          - property: protection.physical
+            max: 1
+    - cast_spell: add_fall_protection
+      cost: 300
+      cost_modifiers:
+        - scale: "1 + 15 * (x ^ 3)"
+          type: wand
+          property: protection.fall
+      requirements:
+        - wand_properties:
+          - property: protection.fall
+            max: 1
+    - cast_spell: add_fire_protection
+      cost: 500
+      cost_modifiers:
+        - scale: "1 + 15 * (x ^ 3)"
+          type: wand
+          property: protection.fire
+      requirements:
+        - wand_properties:
+          - property: protection.fire
+            max: 1
+    - cast_spell: add_sharpness
+      cost: 1000
+      cost_modifiers:
+        - scale: "1 + 9 * ((x / 5) ^ 3)"
+          type: wand
+          property: enchantments.DAMAGE_ALL
+      requirements:
+        - wands: magicsword,mastersword
+        - wand_properties:
+          - property: enchantments.DAMAGE_ALL
+            max: 5
+
+add_protection:
+  icon: diamond_axe:234
+  icon_disabled: diamond_hoe:234
+  icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
+  hidden: true
+  actions:
+    cast:
+    - class: ModifyProperties
+  parameters:
+    bypass_undo: true
+    target: self
+    modify_target: "wand"
+    modify:
+    - property: "protection.overall"
+      value: "x + 0.2"
+      max: 1
+
+add_explosion_protection:
+  icon: diamond_axe:235
+  icon_disabled: diamond_hoe:235
+  icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
+  hidden: true
+  actions:
+    cast:
+    - class: ModifyProperties
+  parameters:
+    bypass_undo: true
+    target: self
+    modify_target: "wand"
+    modify:
+    - property: "protection.explosion"
+      value: "x + 0.2"
+      max: 1
+
+add_fall_protection:
+  icon: diamond_axe:236
+  icon_disabled: diamond_hoe:236
+  icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
+  hidden: true
+  actions:
+    cast:
+    - class: ModifyProperties
+  parameters:
+    bypass_undo: true
+    target: self
+    modify_target: "wand"
+    modify:
+    - property: "protection.fall"
+      value: "x + 0.2"
+      max: 1
+
+add_fire_protection:
+  icon: diamond_axe:237
+  icon_disabled: diamond_hoe:237
+  icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
+  hidden: true
+  actions:
+    cast:
+    - class: ModifyProperties
+  parameters:
+    bypass_undo: true
+    target: self
+    modify_target: "wand"
+    modify:
+    - property: "protection.fire"
+      value: "x + 0.2"
+      max: 1
+
+add_physical_protection:
+  icon: diamond_axe:238
+  icon_disabled: diamond_hoe:238
+  icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
+  hidden: true
+  actions:
+    cast:
+    - class: ModifyProperties
+  parameters:
+    bypass_undo: true
+    target: self
+    modify_target: "wand"
+    modify:
+    - property: "protection.physical"
+      value: "x + 0.2"
+      max: 1
+
+add_projectile_protection:
+  icon: diamond_axe:239
+  icon_disabled: diamond_hoe:239
+  icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
+  hidden: true
+  actions:
+    cast:
+    - class: ModifyProperties
+  parameters:
+    bypass_undo: true
+    target: self
+    modify_target: "wand"
+    modify:
+    - property: "protection.projectile"
+      value: "x + 0.2"
+      max: 1
+
+add_damage:
+  icon: diamond_axe:178
+  icon_disabled: diamond_hoe:178
+  icon_url: http://textures.minecraft.net/texture/df4396a2bc47bc4dd545fc787a3ad8a0a75b8783cb5d81482c2016fab9cd2a
+  hidden: true
+  actions:
+    cast:
+    - class: ModifyProperties
+  parameters:
+    bypass_undo: true
+    target: self
+    modify_target: "wand"
+    modify:
+    - property: "item_attributes.GENERIC_ATTACK_DAMAGE"
+      value: "x + 1"
+      max: 10
+
+add_sharpness:
+  icon: diamond_axe:240
+  icon_disabled: diamond_hoe:240
+  icon_url: http://textures.minecraft.net/texture/df4396a2bc47bc4dd545fc787a3ad8a0a75b8783cb5d81482c2016fab9cd2a
+  hidden: true
+  actions:
+    cast:
+    - class: ModifyProperties
+  parameters:
+    bypass_undo: true
+    target: self
+    modify_target: "wand"
+    modify:
+    - property: "enchantments.DAMAGE_ALL"
+      value: "x + 1"
+      max: 5

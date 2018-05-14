@@ -1,0 +1,18 @@
+bookshop:
+    icon: book
+    category: npc
+    hidden: true
+    inherit: buyshop
+    parameters:
+        items:
+        - item: book|combat
+        - item: book|master
+        - item: book|utility
+        - item: book|demolition
+        - item: book|dark
+        - item: book|light
+        - item: book|engineering
+        - item: book|elemental
+        - item: book|mining
+        - item: book|electrical
+

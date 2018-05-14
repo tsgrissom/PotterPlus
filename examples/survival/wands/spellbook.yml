@@ -1,0 +1,18 @@
+spellbook:
+    mode: skills
+    icon: wood_hoe:31
+    indestructible: true
+    right_click: toggle
+    undroppable: true
+    keep: true
+    bound: true
+    class: mage
+    skills:
+      # Set this to false if you want skills to be held and right-clicked to cast
+      # quick_cast: false
+
+      # Don't lose skill items on death (they will disappear otherwise, they are never dropped)
+      keep: true
+
+      # Make skill items undroppable
+      # undroppable: true

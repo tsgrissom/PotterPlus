@@ -1,0 +1,11 @@
+#
+# This creates a basic starter wand, and is the default wand given with the "/wand" command.
+# 
+wand:
+    inherit: base_wand
+    class: mage
+    icon: wood_hoe:1
+    migrate_icon: wood_hoe
+    effect_color: random
+    active_spell: missile
+

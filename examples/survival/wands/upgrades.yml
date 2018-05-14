@@ -1,0 +1,24 @@
+hotbar1:
+    icon: diamond_axe:221
+    upgrade: true
+    hotbar_count: 1
+    force: true
+hotbar2:
+    icon: diamond_axe:222
+    upgrade: true
+    indestructible: false
+    hotbar_count: 2
+hotbar3:
+    icon: diamond_axe:223
+    upgrade: true
+    indestructible: false
+    hotbar_count: 3
+undroppable:
+    icon: diamond_axe:224
+    upgrade: true
+    indestructible: false
+    undroppable: true
+antihunger:
+    icon: diamond_axe:225
+    upgrade: true
+    potion_effects: saturation

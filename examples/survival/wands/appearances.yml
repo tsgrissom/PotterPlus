@@ -1,0 +1,59 @@
+appearance_beginner:
+    upgrade: true
+    icon: wood_hoe:1
+    upgrade_icon: wood_hoe:1
+
+appearance_student:
+    upgrade: true
+    icon: wood_hoe:2
+    upgrade_icon: wood_hoe:2
+
+appearance_apprentice:
+    upgrade: true
+    icon: wood_hoe:3
+    upgrade_icon: wood_hoe:3
+
+appearance_master:
+    upgrade: true
+    icon: wood_hoe:4
+    upgrade_icon: wood_hoe:4
+
+appearance_engineer:
+    upgrade: true
+    icon: wood_hoe:5
+    upgrade_icon: wood_hoe:5
+
+appearance_architect:
+    upgrade: true
+    icon: wood_hoe:39
+    upgrade_icon: wood_hoe:39
+
+appearance_conduit:
+    upgrade: true
+    icon: wood_hoe:6
+    upgrade_icon: wood_hoe:6
+
+appearance_magicka:
+    upgrade: true
+    icon: wood_hoe:9
+    upgrade_icon: wood_hoe:9
+
+appearance_moon:
+    upgrade: true
+    icon: wood_hoe:10
+    upgrade_icon: wood_hoe:10
+
+appearance_spire:
+    upgrade: true
+    icon: wood_hoe:35
+    upgrade_icon: wood_hoe:35
+
+appearance_claw:
+    upgrade: true
+    icon: wood_hoe:36
+    upgrade_icon: wood_hoe:36
+
+appearance_orb:
+    upgrade: true
+    icon: wood_hoe:37
+    upgrade_icon: wood_hoe:37

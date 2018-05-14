@@ -1,0 +1,10 @@
+emeraldshop:
+    icon: emerald
+    category: npc
+    hidden: true
+    inherit: buyshop
+    parameters:
+        cost_type: xp
+        items:
+          emerald: 500
+

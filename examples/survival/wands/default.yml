@@ -1,0 +1,6 @@
+# This is here to migrate old wands to the new template
+default:
+  migrate_to: wand
+
+
+
