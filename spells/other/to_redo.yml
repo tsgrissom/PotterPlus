@@ -1,23 +1,18 @@
 incendio:
   category: charms
   worth: 10 ac
-rictusempra:
-  category: charms
-  worth: 5 ac
+
 flipendo:
   worth: 5 ac
 nox:
   worth: 5 ac
-immobulus:
-  worth: 10 ac
+
 bogies:
   category: dark
   worth: 15 ac
 finiteincantatem:
   worth: 20 ac
   alias: finite
-snowball:
-  worth: 10 ac
 colorvaria:
   worth: 5 ac
 diffindo:
@@ -28,12 +23,7 @@ accio:
   worth: 10 ac
 locomotomortus:
   worth: 10 ac
-aguamenti:
-  worth: 10 ac
-  upgrade_required_path: year7
-  upgrade_required_casts: 25
-aguamenti|2:
-  inherit: bubble|2
+
 rennervate:
   worth: 5 ac
 episkey:
@@ -85,10 +75,6 @@ reducto:
 
 arresto:
   worth: 5 ac
-ascendio:
-  worth: 10 ac
-  parameters:
-    cooldown: 10000
 
 aquaeructo:
   category: charms
@@ -113,6 +99,7 @@ erecto:
     undo_speed: 1
 
 fiantoduri:
+  worth: 10 ac
   category: dada
 fourpoint:
   worth: 5 ac
@@ -133,45 +120,3 @@ volo:
   category: charms
 wingardium:
   worth: 5 ac
-  effects:
-    cast:
-    -  class: EffectSingle
-       location: origin
-       sound: magic.zap_up
-       sound_pitch: 2
-       effectlib:
-         class: Cone
-         iterations: 8
-         particles: 2
-         particle: spell
-         lengthGrow: 0.4
-    -  class: EffectSingle
-       location: target
-       use_wand_location: false
-       effectlib:
-         class: Sphere
-         iterations: 48
-         period: 2
-         particle: spell
-         radius: 1
-    -  class: EffectSingle
-       location: target
-       effectlib:
-         class: Cone
-         iterations: 8
-         particle: spell
-         autoOrient: false
-    no_target:
-    -  class: EffectSingle
-       location: origin
-       sound: entity_enderdragon_flap
-       sound_pitch: 2
-       effectlib:
-         class: Cone
-         iterations: 8
-         particles: 2
-         particle: spell
-         lengthGrow: 0.4
-  parameters:
-    target: other_entity
-    target_type: LivingEntity

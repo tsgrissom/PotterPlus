@@ -2267,6 +2267,7 @@ ledgershop:
   inherit: buyshop
   parameters:
     confirm: true
+    auto_close: true
     items:
       wand|ledger: 2
   enabled: false
@@ -6165,6 +6166,7 @@ flatten:
     range: 32
     radius: 16
     vertical_range: 32
+    volume_type: reverse_spiral
     faces:
     - down
     - north
@@ -8784,10 +8786,12 @@ ledger:
   show_undoable: false
   actions:
     cast:
-    - class: Command
+    - class: Ledger
   parameters:
-    op: true
-    command: bal
+    ignore_currencies:
+    - hunger
+    - health
+    - mana
   enabled: false
 levitate:
   icon: diamond_axe:150
@@ -17453,11 +17457,29 @@ aguamenti:
   inherit: bubble
   enabled: true
   worth: 10 ac
-  upgrade_required_path: year7
-  upgrade_required_casts: 25
+  upgrade_required_casts: 50
+  effects:
+    hit:
+    - class: EffectSingle
+      location: target
+      effectlib:
+        class: Shield
+        particle: water_splash
+        radius: $radius
+        particles: 50
+        particle_count: 20
+        particle_offset_x: 0.4
+        particle_offset_y: 0.4
+        particle_offset_z: 0.2
+        duration: $undo
+  parameters:
+    range: 6
 aguamenti|2:
   inherit: bubble|2
   enabled: true
+  upgrade_required_casts: 75
+  parameters:
+    range: 12
 alohomora:
   inherit: admission
   category: charms
@@ -17717,21 +17739,31 @@ snowball:
     allow_max_range: true
     spread: 20
     effect_slow: 120,1
-    damage: 0.25
+    damage: 0.5
     cooldown: 10000
   costs:
     mana: 40
   enabled: true
+  upgrade_required_casts: 25
 ascendio:
   inherit: fling
   category: charms
   enabled: true
   worth: 10 ac
+  upgrade_required_path: year3
+  upgrade_required_casts: 25
   parameters:
     cooldown: 10000
+    min_speed: 0.8
+    max_speed: 1.0
 ascendio|2:
   inherit: fling|2
   enabled: true
+  upgrade_required_path: year4
+  upgrade_required_casts: 50
+  parameters:
+    min_speed: 1.0
+    max_speed: 1.2
 arresto:
   icon_url: http://textures.minecraft.net/texture/4a23ccd51565d2e246675c86aef11b5412662c15ecc2e9f3ef425adc91d1
   icon: diamond_axe:226
@@ -18013,9 +18045,18 @@ bubblehead:
   worth: 5 ac
   upgrade_required_path: year2
   upgrade_required_casts: 25
+  actions:
+    cast:
+    - class: Delay
+    - class: PotionEffect
+    - class: Hat
   parameters:
     brushcolor: false
-    brush: ice
+    brush: stained_glass:3
+    delay: 4000
+    cooldown: 10000
+    duration: 15000
+    undo: 15000
 confundus:
   category: dada
   inherit: curse
@@ -18120,7 +18161,7 @@ obscuro:
     effect_blindness: 1
     cooldown: 10000
     hitbox: true
-    potion_effects:
+    add_effects:
       blindness: 2
       confusion: 2
   enabled: true
@@ -18574,6 +18615,20 @@ flagrate:
   effects:
     cast:
     - class: EffectSingle
+      sound: fizz
+    - class: EffectTrail
+      particle: redstone
+    - class: EffectSingle
+      location: target
+      target_offset: 0,3,0
+      color_override: color
+      effectlib:
+        class: TextEffect
+        text: $target
+        iterations: 2
+        particle: redstone
+    name:
+    - class: EffectSingle
       location: target
       target_offset: 0,3,0
       effectlib:
@@ -18585,15 +18640,19 @@ flagrate:
     allow_max_range: true
     range: 8
     cooldown: 30000
+    effect: name
   costs:
     mana: 5
   enabled: true
   upgrade_required_casts: 25
+  actions:
+    cast:
+    - class: PlayEffects
 rictusempra:
   icon_url: http://textures.minecraft.net/texture/5374b64589d779ac4bf7293ba44dba5630a649a02877a39f4c05e94911ff96a
   icon: diamond_axe:226
   icon_disabled: diamond_hoe:226
-  category: charms
+  category: dada
   pvp_restricted: true
   cast_on_no_target: true
   worth: 5 ac
@@ -18633,21 +18692,23 @@ rictusempra:
       color: 5882FA
       firework: ball
   parameters:
-    range: 35
+    range: 12
     fov: 0.12
     hitbox: true
     target_type: LivingEntity
     allow_max_range: false
     item_speed: 2
-    living_entity_speed: 5
+    living_entity_speed: 0.5
     push: 1
-    cooldown: 2500
-    damage: 1.5
+    cooldown: 5000
+    damage: 0.5
     target_breakables: 0
     bypass_backfire: false
   costs:
     mana: 40
   enabled: true
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
 ventus:
   category: dada
   inherit: push
@@ -18849,7 +18910,7 @@ fumos:
       actions:
       - class: PotionEffect
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 1
       damage_resistance: -1
     duration: 5000
@@ -18962,7 +19023,7 @@ immobulus:
   costs:
     mana: 50
   parameters:
-    range: 48
+    range: 12
     target_type: LivingEntity
     target_breakables: 1
     target: other
@@ -18970,9 +19031,14 @@ immobulus:
     protection_count: 1000
     effect_slow: 20
     effect_jump: -20
-    cooldown: 10000
+    cooldown: 8000
     hitbox: true
+    add_effects:
+      slowness: 20
+      jump: -20
   enabled: true
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
 locomotomortus:
   icon_url: http://textures.minecraft.net/texture/2e67b7afcdb3bfe70cb33d1e384f11f8dc81f3dc9677cc64cb51ba0eb8f3f
   alias: locomoto
@@ -19058,6 +19124,7 @@ impervius:
     transparent: transparent_to_construction
     undo: 10000
     select_self: false
+    cooldown: 12000
   costs:
     mana: 65
   enabled: true
@@ -19234,7 +19301,7 @@ levicorpus:
     undo_movement: true
     hitbox: true
     repeat: 4
-    potion_effects:
+    add_effects:
       levitation: 4
   costs:
     mana: 40
@@ -19245,14 +19312,14 @@ levicorpus|2:
   upgrade_required_path: year7
   parameters:
     repeat: 8
-    potion_effects:
+    add_effects:
       levitation: 5
   enabled: true
 levicorpus|3:
   inherit: false
   parameters:
     repeat: 12
-    potion_effects:
+    add_effects:
       levitation: 6
   enabled: true
 lumos:
@@ -19284,20 +19351,21 @@ lumos:
     - blindness
     cooldown: 10000
   enabled: true
+  upgrade_required_casts: 75
 lumos|2:
   parameters:
     duration: 20000
     cooldown: 20000
   enabled: true
   upgrade_required_path: year2
-  upgrade_required_casts: 75
+  upgrade_required_casts: 150
 lumos|3:
   parameters:
     duration: 30000
     cooldown: 30000
   enabled: true
   upgrade_required_path: year3
-  upgrade_required_casts: 150
+  upgrade_required_casts: 200
 lumossolem:
   icon_url: http://textures.minecraft.net/texture/4abfe52d50f710f4103bc650b5e972d49832ea419841d9fa24e16ce617c716
   icon: diamond_axe:228
@@ -19634,7 +19702,6 @@ salviohexia:
   tags: noduel
   worth: 10 ac
   hidden: false
-  upgrade_required_path: year7
   upgrade_required_casts: 50
   actions:
     cast:
@@ -19645,19 +19712,17 @@ salviohexia:
       sound: block_fire_extinguish
       location: target
       effectlib:
-        class: Sphere
-        iterations: 70
-        period: 0.1
+        class: Shield
         particle: smoke_normal
-        radius: 2
+        sphere: true
         particles: 20
+        duration: $duration
   parameters:
     target: self
     duration: 5000
-    cooldown: 15000
-    transparent: transparent_to_construction
-    potion_effects:
-      damage_resistance: 300
+    cooldown: 20000
+    add_effects:
+      damage_resistance: 255
       slowness: 1
   costs:
     mana: 90
@@ -19958,7 +20023,7 @@ stupefy:
     target_breakables: 1
     cooldown: 4000
     reorient: false
-    potion_effects:
+    add_effects:
       confusion: 2
     duration: 5000
   costs:
@@ -20044,32 +20109,39 @@ vermillious:
         color: 610B0B
         lengthGrow: 0.3
   parameters:
-    range: 48
+    range: 8
     hitbox: true
     target_type: LivingEntity
-    damage: 2.5
+    damage: 1
     cooldown: 3000
     target_breakables: 0
     bypass_backfire: false
   costs:
     mana: 30
   enabled: true
+  upgrade_required_path: year4
+  upgrade_required_casts: 50
 vermillious|2:
   parameters:
-    range: 24
-    damage: 3
+    range: 16
+    damage: 1.5
     target_breakables: 0
   costs:
     mana: 50
   enabled: true
+  upgrade_required_path: year5
+  upgrade_required_casts: 75
 vermillious|3:
   parameters:
-    range: 35
-    damage: 3.5
+    range: 24
+    damage: 2
     target_breakables: 0
+    cooldown: 2000
   costs:
     mana: 70
   enabled: true
+  upgrade_required_path: year6
+  upgrade_required_casts: 125
 colorvaria:
   inherit: superalter
   category: transfiguration
@@ -20221,52 +20293,9 @@ wingardium:
   category: charms
   enabled: true
   worth: 5 ac
-  effects:
-    cast:
-    - class: EffectSingle
-      location: origin
-      sound: magic.zap_up
-      sound_pitch: 2
-      effectlib:
-        class: Cone
-        iterations: 8
-        particles: 2
-        particle: spell
-        lengthGrow: 0.4
-    - class: EffectSingle
-      location: target
-      use_wand_location: false
-      effectlib:
-        class: Sphere
-        iterations: 48
-        period: 2
-        particle: spell
-        radius: 1
-    - class: EffectSingle
-      location: target
-      effectlib:
-        class: Cone
-        iterations: 8
-        particle: spell
-        autoOrient: false
-    no_target:
-    - class: EffectSingle
-      location: origin
-      sound: entity_enderdragon_flap
-      sound_pitch: 2
-      effectlib:
-        class: Cone
-        iterations: 8
-        particles: 2
-        particle: spell
-        lengthGrow: 0.4
-  parameters:
-    target: other_entity
-    target_type: LivingEntity
 revelio:
   inherit: false
-  icon: diamond_axe:74
-  icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
+  icon: diamond_axe:107
   category: charms
   worth: 10 ac
   costs:
@@ -20488,7 +20517,7 @@ firestorm:
     cooldown: 16000
     undo: 6000
     duration: 10000
-    potion_effects:
+    add_effects:
       fire_resistance: 1
     push: 1
     damage: 2
@@ -20573,7 +20602,7 @@ fiantoduri:
   icon: diamond_axe:11
   icon_disabled: diamond_hoe:11
   category: dada
-  worth: 10
+  worth: 10 ac
   actions:
     cast:
     - class: PotionEffectAction
@@ -21076,7 +21105,7 @@ demiguise_disappear:
     - class: AreaOfEffect
       actions:
       - class: PotionEffect
-        potion_effects:
+        add_effects:
           blindness: 2
           confusion: 2
   parameters:
@@ -21085,7 +21114,7 @@ demiguise_disappear:
     duration: 5000
     radius: 6
     y_radius: 3
-    potion_effects:
+    add_effects:
       invisibility: 1
     target: self
   enabled: true
@@ -21117,7 +21146,7 @@ erkling_poisoned_dart:
   inherit: erkling_dart
   icon: diamond_axe:245
   parameters:
-    potion_effects:
+    add_effects:
       poison: 1
     color: '259046'
   enabled: true
@@ -21125,7 +21154,7 @@ erkling_freezing_dart:
   inherit: erkling_dart
   icon: diamond_axe:243
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 2
     color: 4ad3d7
   enabled: true
@@ -21133,7 +21162,7 @@ erkling_weakening_dart:
   inherit: erkling_dart
   icon: diamond_axe:247
   parameters:
-    potion_effects:
+    add_effects:
       weakness: 2
     color: '440018'
   enabled: true
@@ -21168,7 +21197,7 @@ erumpent_ambient:
     - class: PotionEffect
   parameters:
     target: self
-    potion_effects:
+    add_effects:
       glowing: 1
     duration: 1500
   enabled: true
@@ -21275,7 +21304,7 @@ fwooper_death:
     target_source: false
     message_type: title
     message_target: true
-    potion_effects:
+    add_effects:
       slowness: 3
       confusion: 5
     duration: 20000
@@ -21404,7 +21433,7 @@ wampus_scratch:
     range: 6
     hitbox: true
     velocity: 30
-    potion_effects:
+    add_effects:
       wither: 2
     duration: 2000
   enabled: true
@@ -21423,9 +21452,48 @@ gillyweed_ability:
   costs:
     mana: 25
   enabled: true
+godrics_sword_ability:
+  inherit: expelliarmus|5
+  actions:
+    cast:
+    - class: Delay
+    - class: CustomProjectile
+      actions:
+      - class: Disarm
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: magic.crack
+      sound_pitch: 0.3
+      sound_volume: 0.5
+      location: origin
+      source_location: feet
+      effectlib:
+        class: Atom
+        duration: $delay
+        particleNucleus: spell_mob_ambient
+        colorNucleus: d44141
+        particleOrbital: spell_mob
+        colorOrbital: FF0000
+    tick:
+    - class: EffectSingle
+      location: target
+      effectlib:
+        class: ConeEffect
+        iterations: 10
+        particle: redstone
+        color: FF0000
+        lengthGrow: 0.05
+  parameters:
+    delay: 1000
+    cooldown: 3500
+  costs:
+    mana: 0
+  enabled: true
 key_ability:
   inherit: alohomora
   icon: shears
+  hidden: true
   parameters:
     cooldown: 1000
     range: 4
@@ -21436,6 +21504,39 @@ skeleton_key_ability:
   parameters:
     cooldown: 500
     range: 6
+  enabled: true
+peruvian_powder_ability:
+  icon: sulphur
+  hidden: true
+  category: item_ability
+  actions:
+    cast:
+    - class: AreaOfEffect
+      actions:
+      - class: PotionEffect
+  effects:
+    cast:
+    - class: EffectSingle
+      location: origin
+      effectlib:
+        class: Cloud
+        cloudParticle: block_crack
+        mainParticle: spell_mob
+        mainParticleColor: 0
+        material: obsidian
+        cloudSize: $radius
+        duration: $duration
+  parameters:
+    target: self
+    target_source: true
+    radius: 6
+    y_radius: 6
+    duration: 8000
+    effect_blindness: 2
+    slowness: 2
+    add_effects:
+      blindess: 2
+      slow: 2
   enabled: true
 portable_swamp_ability:
   inherit: incarcifors
@@ -21545,6 +21646,23 @@ aberto:
       particle_offset_x: 0.2
       particle_offset_y: 0.2
       particle_offset_z: 0.2
+  enabled: true
+aguamenti|3:
+  upgrade_required_path: year7
+  upgrade_required_casts: 125
+  parameters:
+    radius: 2.5
+    cooldown: 6000
+    undo: 6000
+    range: 24
+  enabled: true
+aguamenti|4:
+  upgrade_required_path: graduates
+  parameters:
+    radius: 3
+    cooldown: 8000
+    undo: 8000
+    range: 32
   enabled: true
 alarteascendare:
   icon: diamond_axe:150
@@ -21679,6 +21797,36 @@ arrowmaxima|3:
 arrowmaxima|4:
   parameters:
     fire: true
+  enabled: true
+ascendio|3:
+  upgrade_required_path: year5
+  upgrade_required_casts: 75
+  parameters:
+    cooldown: 8000
+    min_speed: 1.2
+    max_speed: 1.4
+  enabled: true
+ascendio|4:
+  upgrade_required_path: year6
+  upgrade_required_casts: 125
+  parameters:
+    min_speed: 1.4
+    max_speed: 1.6
+  enabled: true
+ascendio|5:
+  upgrade_required_path: year7
+  upgrade_required_casts: 150
+  parameters:
+    cooldown: 6000
+    min_speed: 1.6
+    max_speed: 1.8
+  enabled: true
+ascendio|6:
+  upgrade_required_path: graduates
+  upgrade_required_casts: 200
+  parameters:
+    min_speed: 1.8
+    max_speed: 2.0
   enabled: true
 avis|2:
   upgrade_required_casts: 125
@@ -21854,7 +22002,16 @@ bruchumaculeatos|3:
     entity_damage: 4
   enabled: true
 bubblehead|2:
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
   parameters:
+    cooldown: 25000
+    duration: 30000
+    undo: 30000
+  enabled: true
+bubblehead|3:
+  parameters:
+    cooldown: 55000
     duration: 60000
     undo: 60000
   enabled: true
@@ -21903,7 +22060,7 @@ cantis:
 carperetractum:
   icon: diamond_axe:198
   worth: 10 ac
-  upgrade_required_casts: 75
+  upgrade_required_casts: 25
   upgrade_required_path: year5
   category: charms
   actions:
@@ -21921,7 +22078,7 @@ carperetractum:
         particle: spell_mob_ambient
         color: e3892c
         period: 1
-        iterations: 30
+        duration: $delay
     tick:
     - class: EffectSingle
       particle: spell_mob
@@ -21961,19 +22118,27 @@ carperetractum:
     duration: 10000
     cooldown: 2000
     delay: 1000
-    velocity: 50
+    velocity: 25
     gravity: 0.05
   costs:
     mana: 10
   enabled: true
 carperetractum|2:
+  upgrade_required_path: year6
+  upgrade_required_casts: 50
   parameters:
     push: -1
     speed: 3
     cooldown: 1500
     delay: 750
-    velocity: 75
-    gravity: 0.02
+    velocity: 50
+    gravity: 0.03
+  enabled: true
+carperetractum|3:
+  parameters:
+    cooldown: 1000
+    delay: 500
+    gravity: 0.01
   enabled: true
 colloshoo:
   category: dada
@@ -21982,6 +22147,11 @@ colloshoo:
   upgrade_required_casts: 25
   upgrade_required_path: year3
   pvp_restricted: true
+  actions:
+    cast:
+    - class: CustomProjectile
+      actions:
+      - class: PotionEffect
   effects:
     tick:
     - location: target
@@ -21998,47 +22168,45 @@ colloshoo:
         particle: slime
         radius: 2.5
         duration: $duration
-  actions:
-    cast:
-    - class: CustomProjectile
-      actions:
-      - class: PotionEffect
-  costs:
-    mana: 40
   parameters:
     range: 12
     hitbox: true
-    potion_effects:
+    add_effects:
       slowness: 1
       jump: -20
     duration: 6000
-    cooldown: 12000
+    cooldown: 9000
+  costs:
+    mana: 40
   enabled: true
 colloshoo|2:
   upgrade_required_casts: 50
   upgrade_required_path: year4
   parameters:
     range: 24
-    potion_effects:
+    add_effects:
       slowness: 2
-    duration: 7000
-    cooldown: 12000
+      jump: -20
+    duration: 8000
+    cooldown: 11000
   enabled: true
 colloshoo|3:
   upgrade_required_casts: 75
   upgrade_required_path: year5
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 3
-    duration: 8000
+      jump: -20
+    duration: 10000
     cooldown: 13000
   enabled: true
 colloshoo|4:
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 4
-    duration: 9000
-    cooldown: 14000
+      jump: -20
+    duration: 12000
+    cooldown: 15000
   enabled: true
 defodio:
   icon: diamond_axe:108
@@ -22135,23 +22303,22 @@ despello:
     hitbox: true
     target: other
     target_type: Player
+    cooldown: 8000
     randomized_messages:
     - blablablabla
     - fwufheuf
-    - It's a FISH!
     - BlubBlubBlubBlub
     - HueHueHue
     - LaLaLa
     - TutTutTut
     - TyTyTy
     - Floooop
-    - Tinky-Winky
     - Laa-Laa
     - Dipsy
     - Po
-    - Sun Baby
     - Noo-noo
-    - Yo soy loco
+  costs:
+    mana: 25
   enabled: true
 despello|2:
   parameters:
@@ -22193,10 +22360,28 @@ epoximise:
     - location: target
       particle: block_crack
       material: web
-      particle_count: 4
+      particle_count: 12
       particle_offset_x: 0.5
       particle_offset_z: 0.5
       particle_offset_y: 0
+    hit_entity:
+    - location: target
+      target_offset: 0,-3,0
+      effectlib:
+        class: Sphere
+        particle: block_crack
+        material: web
+        radius: 2.5
+        duration: $duration
+  enabled: true
+epoximise|2:
+  inherit: colloshoo|2
+  enabled: true
+epoximise|3:
+  inherit: colloshoo|3
+  enabled: true
+epoximise|4:
+  inherit: colloshoo|4
   enabled: true
 evertestatum:
   icon: diamond_axe:151
@@ -22262,7 +22447,7 @@ expulso:
   upgrade_required_path: year7
   upgrade_required_casts: 50
   costs:
-    mana: 75
+    mana: 150
   actions:
     cast:
     - class: CustomProjectile
@@ -22305,10 +22490,11 @@ expulso:
       color: 22659c
       location: self
   parameters:
-    break_blocks: false
-    fire: false
+    break_blocks: true
+    undo: 2000
+    undo_speed: 0.1
     size: 2
-    range: 24
+    range: 12
     hitbox: true
     reorient: false
     target: other
@@ -22316,18 +22502,23 @@ expulso:
     cooldown: 15000
     push: 1
     living_entity_speed: 0.3
-    player_damage: 6
-    entity_damage: 6
-    velocity: 75
+    damage: 6
+    velocity: 25
   enabled: true
 expulso|2:
+  upgrade_required_path: graduates
+  upgrade_required_casts: 75
+  parameters:
+    velocity: 50
+    damage: 6
+    undo: 4000
+  enabled: true
+expulso|3:
   parameters:
     fire: true
-    velocity: 100
-    player_damage: 8
-    entity_damage: 8
+    velocity: 75
     size: 3
-    undo: 2000
+    undo: 5000
   enabled: true
 felixleporemos:
   category: charms
@@ -22375,7 +22566,7 @@ felixleporemos:
     target: other
     target_type: LivingEntity
     hitbox: true
-    potion_effects:
+    add_effects:
       speed: 1
       jump: 1
     duration: 3000
@@ -22395,7 +22586,7 @@ felixleporemos|3:
   costs:
     mana: 25
   parameters:
-    potion_effects:
+    add_effects:
       speed: 2
       jump: 2
     velocity: 200
@@ -22503,17 +22694,34 @@ flagellos:
         class: Bleed
         height: 0.5
   parameters:
-    player_damage: 5
-    entity_damage: 5
+    damage: 1.5
   enabled: true
 flagellos|2:
+  upgrade_required_path: year5
+  upgrade_required_casts: 125
   parameters:
-    player_damage: 8
-    entity_damage: 8
+    damage: 3
+    track_speed: 0.5
+    target_self_timeout: 3000
+    velocity: 15
+  enabled: true
+flagellos|3:
+  upgrade_required_path: year6
+  upgrade_required_casts: 150
+  parameters:
+    damage: 5
+    target_self_timeout: 5000
+  enabled: true
+flagellos|4:
+  parameters:
+    damage: 6
+    velocity: 20
+    track_speed: 0.75
+    target_self_timeout: 6000
   enabled: true
 flagrate|2:
   effects:
-    cast:
+    name:
     - class: EffectSingle
       location: target
       target_offset: 0,30
@@ -22557,6 +22765,12 @@ flintifors:
   parameters:
     item: flint_and_steel
     name: '&dConjured Flint and Steel'
+  enabled: true
+flintifors|2:
+  inherit: scribblifors|2
+  enabled: true
+flintifors|3:
+  inherit: scribblifors|3
   enabled: true
 fourpoint|2:
   parameters:
@@ -22603,7 +22817,7 @@ frigusignatus:
         color: FFFFFF
         iterations: 100
   parameters:
-    potion_effects:
+    add_effects:
       fire_resistance: 1
     duration: 10000
     cooldown: 12000
@@ -22632,7 +22846,7 @@ fumos|2:
         radius: 3
         particles: 20
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 2
     radius: 3
     y_radius: 3
@@ -22654,7 +22868,7 @@ fumos|3:
         radius: 5
         particles: 50
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 3
       blindness: 3
     radius: 5
@@ -22789,6 +23003,7 @@ herbifors:
   icon: diamond_axe:41
   category: herbology
   worth: 5 ac
+  upgrade_required_casts: 50
   effects:
     cast:
     - class: EffectSingle
@@ -22819,23 +23034,34 @@ herbifors:
       actions:
       - class: Hat
   parameters:
-    material: double_plant:1
+    material: double_plant:1,yellow_flower,red_flower,red_flower:1,red_flower:2,red_flower:3,red_flower:4,red_flower:5,red_flower:6,red_flower:7,red_flower:8
     target: other
     target_type: Player
-    range: 12
+    range: 8
     hitbox: true
     undo: 5000
     cooldown: 12000
   costs:
-    mana: 10
+    mana: 30
+  enabled: true
+herbifors|2:
+  upgrade_required_casts: 75
+  parameters:
+    undo: 8000
+    range: 16
+  enabled: true
+herbifors|3:
+  parameters:
+    undo: 10000
+    range: 24
   enabled: true
 homenumrevelio:
   icon: diamond_axe:74
   icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
   category: charms
   worth: 10 ac
-  costs:
-    mana: 40
+  upgrade_required_path: year5
+  upgrade_required_casts: 25
   actions:
     cast:
     - class: AreaOfEffect
@@ -22857,22 +23083,52 @@ homenumrevelio:
         radiusIncrease: 0.08
         iterations: 20
   parameters:
-    radius: 25
-    y_radius: 25
-    target_count: 24
+    radius: 12
+    y_radius: 12
+    target_count: 6
     target_source: false
-    potion_effects:
+    add_effects:
       glowing: 2
-    duration: 24000
+    duration: 5000
     target: self
-    target_type: Player
-    cooldown: 24000
+    cooldown: 15000
+  costs:
+    mana: 40
+  enabled: true
+homenumrevelio|2:
+  upgrade_required_path: year6
+  upgrade_required_casts: 50
+  parameters:
+    radius: 32
+    y_radius: 32
+    target_count: 16
+    duration: 10000
+  enabled: true
+homenumrevelio|3:
+  upgrade_required_path: year7
+  upgrade_required_casts: 100
+  parameters:
+    radius: 50
+    y_radius: 50
+    target_count: 24
+    duration: 15000
+    cooldown: 20000
+  enabled: true
+homenumrevelio|4:
+  parameters:
+    radius: 75
+    y_radius: 75
+    target_count: 48
+    duration: 20000
+    cooldown: 25000
   enabled: true
 ignisdisceditus:
   icon: diamond_axe:33
   category: charms
   worth: 5 ac
   class: ConstructSpell
+  upgrade_required_casts: 25
+  upgrade_required_path: year2
   effects:
     cast:
     - class: EffectSingle
@@ -22886,18 +23142,52 @@ ignisdisceditus:
         radiusGrow: 0.03
         updateLocations: false
         updateDirections: false
-  costs:
-    mana: 20
   parameters:
     allow_max_range: false
-    range: 32
+    range: 16
     check_destructible: true
     destructible: fire
     brush: erase
     radius: 2
     transparent: transparent_to_construction
     undo: 5000
-    cooldown: 20000
+    cooldown: 12000
+  costs:
+    mana: 20
+  enabled: true
+ignisdisceditus|2:
+  upgrade_required_casts: 50
+  upgrade_required_path: year3
+  parameters:
+    range: 24
+    radius: 2.5
+    cooldown: 10000
+  enabled: true
+ignisdisceditus|3:
+  parameters:
+    range: 32
+    radius: 3
+    undo: 8000
+  enabled: true
+immobulus|2:
+  upgrade_required_path: year4
+  upgrade_required_casts: 75
+  parameters:
+    range: 24
+    duration: 6000
+  enabled: true
+immobulus|3:
+  upgrade_required_path: year5
+  upgrade_required_casts: 100
+  parameters:
+    duration: 8000
+    cooldown: 10000
+  enabled: true
+immobulus|4:
+  parameters:
+    range: 32
+    duration: 10000
+    cooldown: 12000
   enabled: true
 impedimenta:
   icon: diamond_axe:163
@@ -22962,7 +23252,7 @@ impedimenta:
     target: other
     target_breakables: 1
     duration: 3000
-    potion_effects:
+    add_effects:
       slowness: 1.5
       jump: -20
     cooldown: 7000
@@ -22973,14 +23263,14 @@ impedimenta|2:
   upgrade_required_casts: 50
   upgrade_required_path: year5
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 2
     duration: 7000
     cooldown: 12000
   enabled: true
 impedimenta|3:
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 3
     duration: 10000
     cooldown: 15000
@@ -22997,8 +23287,6 @@ incarcifors:
   enabled: true
 lapifors:
   inherit: avis
-  effects:
-    undo_entity: undo_entity
   parameters:
     type: rabbit
     name: '&dConjured Rabbit'
@@ -23118,7 +23406,7 @@ locomotorwibbly:
     target: other
     target_type: Damageable
     range: 24
-    potion_effects:
+    add_effects:
       slowness: 2
       confusion: 2
     duration: 8000
@@ -23135,7 +23423,7 @@ locomotorwibbly|2:
   enabled: true
 locomotorwibbly|3:
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 2
     range: 32
   enabled: true
@@ -23160,7 +23448,7 @@ lumosmaxima:
       color: FF0080
       firework: burst
   parameters:
-    potion_effects:
+    add_effects:
       night_vision: 2
     duration: 90000
     cooldown: 90000
@@ -23168,9 +23456,23 @@ lumosmaxima:
     mana: 50
   enabled: true
 lumosmaxima|2:
+  upgrade_required_path: year6
+  upgrade_required_casts: 75
   parameters:
     duration: 120000
     cooldown: 120000
+  enabled: true
+lumosmaxima|3:
+  upgrade_required_path: year7
+  upgrade_required_casts: 125
+  parameters:
+    duration: 180000
+    cooldown: 180000
+  enabled: true
+lumosmaxima|4:
+  parameters:
+    duration: 240000
+    cooldown: 240000
   enabled: true
 lumossolem|2:
   upgrade_required_path: year3
@@ -23345,7 +23647,6 @@ obliviate:
   enabled: true
 obliviatemaxima:
   category: staff
-  icon_url: http://textures.minecraft.net/texture/89f9399aceb3211c3ca1259d5b1bb1f3fb61a4d5626a757ee1a1ccec28a0ae
   icon: diamond_axe:230
   worth: 30 ac
   actions:
@@ -23365,11 +23666,12 @@ obliviatemaxima:
         particle: redstone
         color: FFFFFF
   parameters:
+    target: self
     cooldown: 20000
     target_all_worlds: true
     target_type: Player
-    potion_effects:
-      confusion: 1
+    add_effects:
+      confusion: 2
     duration: 8000
   costs:
     mana: 75
@@ -23457,6 +23759,8 @@ percutios:
   category: dark
   worth: 25 ac
   pvp_restricted: true
+  upgrade_required_path: year7
+  upgrade_required_casts: 50
   actions:
     cast:
     - class: Lightning
@@ -23467,10 +23771,21 @@ percutios:
       - class: Ignite
   parameters:
     damage: 2
+    range: 16
+    duration: 5000
   enabled: true
 percutios|2:
+  upgrade_required_path: graduates
+  upgrade_required_casts: 75
   parameters:
     damage: 4
+    range: 24
+    duration: 8000
+  enabled: true
+percutios|3:
+  parameters:
+    damage: 8
+    range: 32
   enabled: true
 periculum|2:
   upgrade_required_path: year6
@@ -23548,7 +23863,7 @@ protegototalus:
     radius: 3
     y_radius: 3
     cooldown: 20000
-    potion_effects:
+    add_effects:
       damage_resistance: 255
       fire_resistance: 1
     duration: 10000
@@ -23612,27 +23927,48 @@ pulvifors:
   parameters:
     protection_count: 1
   enabled: true
+rictusempra|2:
+  upgrade_required_path: year4
+  upgrade_required_casts: 75
+  parameters:
+    range: 24
+    living_entity_speed: 1.0
+    damage: 1.0
+  enabled: true
+rictusempra|3:
+  upgrade_required_path: year5
+  upgrade_required_casts: 100
+  parameters:
+    living_entity_speed: 1.5
+    damage: 1.5
+  enabled: true
+rictusempra|4:
+  parameters:
+    range: 32
+    damage: 2
+  enabled: true
 salviohexia|2:
-  effects:
-    cast:
-    - class: EffectSingle
-      sound: block_fire_extinguish
-      location: target
-      effectlib:
-        class: Sphere
-        iterations: 70
-        period: 0.1
-        particle: smoke_normal
-        radius: 2
-        particles: 20
+  upgrade_required_path: year7
+  upgrade_required_casts: 75
   parameters:
     duration: 8000
-    cooldown: 18000
+  enabled: true
+salviohexia|3:
+  upgrade_required_path: graduates
+  upgrade_required_casts: 125
+  parameters:
+    duration: 10000
+  enabled: true
+salviohexia|4:
+  parameters:
+    duration: 15000
+    cooldown: 25000
   enabled: true
 scribblifors:
   icon: diamond_axe:118
   category: transfiguration
   worth: 5 ac
+  upgrade_required_casts: 25
   effects:
     cast:
     - class: EffectSingle
@@ -23648,11 +23984,20 @@ scribblifors:
     - class: Delay
     - class: GiveItem
   parameters:
-    cooldown: 30000
+    cooldown: 15000
     item: book_and_quill
     name: '&dConjured Book and Quill'
     target: self
     delay: 1000
+  enabled: true
+scribblifors|2:
+  upgrade_required_casts: 50
+  parameters:
+    cooldown: 10000
+  enabled: true
+scribblifors|3:
+  parameters:
+    cooldown: 5000
   enabled: true
 sluguluseructo:
   inherit: bogies
@@ -23696,7 +24041,7 @@ sluguluseructo:
     count: 2
     target: other_entity
     target_type: Player
-    potion_effects:
+    add_effects:
       poison: 2
     duration: 1000
     cast_on_no_target: false
@@ -23713,6 +24058,17 @@ sluguluseructo|2:
 sluguluseructo|3:
   parameters:
     count: 6
+  enabled: true
+snowball|2:
+  upgrade_required_casts: 50
+  parameters:
+    damage: 1
+    cooldown: 8000
+  enabled: true
+snowball|3:
+  parameters:
+    damage: 1.5
+    cooldown: 5000
   enabled: true
 stupefy|4:
   parameters:
@@ -23756,7 +24112,7 @@ tarantallegra:
     reorient: true
     velocity: 50
     hitbox: true
-    potion_effects:
+    add_effects:
       jump: -20
     duration: 8000
     cooldown: 16000
@@ -23813,7 +24169,7 @@ titillando:
     range: 16
     hitbox: true
     cooldown: 15000
-    potion_effects:
+    add_effects:
       confusion: 6
       slowness: 1
       weakness: 2
@@ -23826,7 +24182,7 @@ titillando|2:
   parameters:
     range: 24
     cooldown: 12000
-    potion_effects:
+    add_effects:
       confusion: 8
       slowness: 2
       weakness: 3
@@ -23835,7 +24191,7 @@ titillando|2:
 titillando|3:
   parameters:
     range: 32
-    potion_effects:
+    add_effects:
       confusion: 10
       slowness: 3
       weakness: 4
@@ -23902,6 +24258,10 @@ verdimillious|2:
 verdimillious|3:
   inherit: vermillious|3
   enabled: true
+vermillious|4:
+  parameters:
+    damage: 3
+  enabled: true
 waddiwasi:
   inherit: colloshoo
   icon: diamond_axe:133
@@ -23926,4 +24286,13 @@ waddiwasi:
         material: purpur_block
         radius: 2.5
         duration: $duration
+  enabled: true
+waddiwasi|2:
+  inherit: colloshoo|2
+  enabled: true
+waddiwasi|3:
+  inherit: colloshoo|3
+  enabled: true
+waddiwasi|4:
+  inherit: colloshoo|4
   enabled: true

@@ -1,0 +1,3 @@
+mage:
+  spell_added: "t:&6$name &9learned!"
+  spell_upgraded: "t:&7$spell &9upgraded to &7$level"

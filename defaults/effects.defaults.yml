@@ -124,9 +124,3 @@ bundimun_summon:
     particleNucleus: block_crack
     orbitals: 12
     iterations: 16
-undo_entity:
-- class: EffectSingle
-  location: target
-  effectlib:
-    class: Smoke
-    iterations: 24

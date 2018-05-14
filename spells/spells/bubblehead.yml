@@ -3,11 +3,29 @@ bubblehead:
   category: charms
   upgrade_required_path: year2
   upgrade_required_casts: 25
+  actions:
+    cast:
+      - class: Delay
+      - class: PotionEffect
+      - class: Hat
   parameters:
     brushcolor: false
-    brush: ice
+    brush: stained_glass:3
+    delay: 4000
+    cooldown: 10000
+    duration: 15000
+    undo: 15000
 
 bubblehead|2:
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
   parameters:
+    cooldown: 25000
+    duration: 30000
+    undo: 30000
+
+bubblehead|3:
+  parameters:
+    cooldown: 55000
     duration: 60000
     undo: 60000

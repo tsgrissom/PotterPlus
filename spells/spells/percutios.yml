@@ -5,6 +5,8 @@ percutios:
   category: dark
   worth: 25 ac
   pvp_restricted: true
+  upgrade_required_path: year7
+  upgrade_required_casts: 50
   actions:
     cast:
       - class: Lightning
@@ -15,7 +17,18 @@ percutios:
           - class: Ignite
   parameters:
     damage: 2
+    range: 16
+    duration: 5000
 
 percutios|2:
+  upgrade_required_path: graduates
+  upgrade_required_casts: 75
   parameters:
     damage: 4
+    range: 24
+    duration: 8000
+
+percutios|3:
+  parameters:
+    damage: 8
+    range: 32

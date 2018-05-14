@@ -23,7 +23,7 @@ base_wand:
   hidden: true
   inherit: base_bound
   mode: inventory
-  drop: cycle_hotbar
+  drop: toggle
   left_click: cast
   right_click: toggle
   swap: cycle_hotbar
@@ -418,7 +418,6 @@ firebolt:
     0.25
   spells:
   - broom
-  enabled: false
 crudfirebolt:
   mode: cast
   active_spell: broom
@@ -448,7 +447,6 @@ nimbus:
     0.4
   spells:
   - broom
-  enabled: false
 crudnimbus:
   mode: cast
   active_spell: broom
@@ -1038,12 +1036,28 @@ gillyweed:
   undroppable: false
   drop: none
   swap: none
-  left_click: cast
+  left_click: none
   right_click: cast
   uses: 5
   active_spell: gillyweed_ability
   spells:
   - gillyweed_ability
+godricssword:
+  inherit: base_wand
+  icon: iron_sword
+  display_name: $name
+  lore:
+  - $description
+  mana: 125
+  mana_regeneration: 125
+  cost_reduction: 10
+  drop: none
+  swap: none
+  left_click: none
+  right_click: cast
+  active_spell: godrics_sword_ability
+  spells:
+  - godrics_sword_ability
 skeletonkey:
   inherit: key
   uses: 3
@@ -1055,6 +1069,25 @@ music_box:
   icon: note_block
   cooldown_reduction: 5
   has_uses: false
+peruvianpowder:
+  inherit: base_wand
+  icon: sulphur
+  display_name: $name
+  lore:
+  - $description
+  - ''
+  - $uses
+  mana: 50
+  mana_regeneration: 25
+  undroppable: false
+  drop: none
+  swap: none
+  left_click: none
+  right_click: cast
+  uses: 8
+  active_spell: peruvian_powder_ability
+  spells:
+  - peruvian_powder_ability
 portableswamp:
   inherit: base_wand
   icon: grass
@@ -1070,7 +1103,7 @@ portableswamp:
   drop: none
   swap: none
   left_click: cast
-  right_click: none
+  right_click: cast
   uses: 1
   active_spell: portable_swamp_ability
   spells:
@@ -1129,10 +1162,6 @@ erumpent_horn:
   active_spell: erumpent_attack
   spells:
   - erumpent_attack
-default:
-  drop: toggle
-  left_click: cast
-  swap: cycle_hotbar
 developer:
   inherit: base_wand
   icon: blaze_rod

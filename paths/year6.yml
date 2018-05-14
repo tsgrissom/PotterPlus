@@ -1,12 +1,12 @@
 year6:
   spells:
+    - apparate
     - aguamenti
     - disillusion
     - levicorpus
     - liberacorpus
     - reducio
     - engorgio
-    - reducto
     - sectumsempra
     - revelio
     - baubillious
@@ -16,5 +16,7 @@ year6:
     - lacarnum
     - titillando
     - flintifors
+    - percutios
+    - salviohexia
   required_spells:
     - patronus

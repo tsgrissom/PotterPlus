@@ -38,7 +38,7 @@ locomotorwibbly:
     target: other
     target_type: Damageable
     range: 24
-    potion_effects:
+    add_effects:
       slowness: 2
       confusion: 2
     duration: 8000
@@ -55,6 +55,6 @@ locomotorwibbly|2:
 
 locomotorwibbly|3:
   parameters:
-    potion_effects:
+    add_effects:
       slowness: 2
     range: 32

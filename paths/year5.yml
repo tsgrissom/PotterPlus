@@ -1,6 +1,5 @@
 year5:
   spells:
-    - apparate
     - colorvaria
     - conjunctivitis
     - evanesco
@@ -15,5 +14,6 @@ year5:
     - lapifors
     - incarcerous
     - multabasiorum
+    - reducto
   required_spells:
     - aparecium

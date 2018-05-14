@@ -62,6 +62,7 @@ year2:
   spells:
   - arresto
   - arrow
+  - ascendio
   - fourpoint
   - finiteincantatem
   - obscuro
@@ -114,7 +115,6 @@ year4:
   spells:
   - accio
   - tarantallegra
-  - ascendio
   - deprimo
   - periculum
   - protego
@@ -138,7 +138,6 @@ year5:
   max_mana: 150
   max_mana_regeneration: 28
   spells:
-  - apparate
   - colorvaria
   - conjunctivitis
   - evanesco
@@ -153,6 +152,7 @@ year5:
   - lapifors
   - incarcerous
   - multabasiorum
+  - reducto
   required_spells:
   - aparecium
 year6:
@@ -163,13 +163,13 @@ year6:
   max_mana: 170
   max_mana_regeneration: 34
   spells:
+  - apparate
   - aguamenti
   - disillusion
   - levicorpus
   - liberacorpus
   - reducio
   - engorgio
-  - reducto
   - sectumsempra
   - revelio
   - baubillious
@@ -179,6 +179,8 @@ year6:
   - lacarnum
   - titillando
   - flintifors
+  - percutios
+  - salviohexia
   required_spells:
   - patronus
 year7:
@@ -214,14 +216,9 @@ graduate:
   max_mana_regeneration: 40
   max_mana: 200
   spells:
-  - expelliarmus|5
-  - finiteincantatem|4
-  - reducio|3
-  - episkey|3
-  - ferula|3
-  - arrow|4
-  - bogies|3
-  - lacarnum|3
+  - avadakedavra
+  - crucio
+  - imperio
 broom:
   hidden: true
   inherit: default

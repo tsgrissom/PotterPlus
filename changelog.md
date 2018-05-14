@@ -6,6 +6,42 @@ There is a relatively up-to-date and accurate roadmap and list of upcoming chang
 
 This is not an absolute record of *ever* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 5/13/18
+
+* Overhauled Salvio Hexia with new levels and stats.
+* Nerfed Expulso and spread it out across more levels.
+
+### 5/12/18
+
+* Buffed Homenum Revelio across multiple levels
+* Buffed Percutios and split it into more levels
+* Updated Carpe Retractum with new level and balance
+* Re-worked Immobulus leveling
+* Re-worked Rictusempra leveling
+* Re-worked Herbifors leveling
+* Re-worked Herbifors leveling
+* Re-worked Waddiwasi leveling
+* Re-worked Epoximise leveling
+* Re-worked Lumos Maxima leveling
+* Fixed progression on Flagrate
+* Re-worked Vermillious leveling
+* Re-worked Ascendio
+* Overhauled spell and wand looks
+* Fixed broken potion effects
+* Added Godric Gryffindor's Sword
+* Added more levels to Aguamenti
+* Added Peruvian Instant Darkness Powder
+
+### 5/11/18
+
+* Added back Firebolt and Nimbus brooms
+* Buffed and added leveling to Scribblifors and Flintifors
+* Converted all upgrade messages to new multi-line format
+* Re-worked Bubblehead Charm with leveling and nerf
+* Added Ignis Disceditus leveling
+* Added Bewitched Snowball leveling
+* Fixed Lumos leveling
+
 ### 5/10/18
 
 * Nerfed Arania Exumai

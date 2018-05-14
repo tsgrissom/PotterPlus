@@ -35,7 +35,7 @@ tarantallegra:
     reorient: true
     velocity: 50
     hitbox: true
-    potion_effects:
+    add_effects:
       jump: -20
     duration: 8000
     cooldown: 16000

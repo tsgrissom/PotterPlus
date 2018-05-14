@@ -6,6 +6,8 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 
 [License](https://github.com/grisstyl/BetterPotter/blob/master/license.md)
 
+[Issue Tracker](https://github.com/grisstyl/BetterPotter/issues)
+
 ## TODO
 
 ### General
@@ -13,31 +15,25 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Make sure every spell has sounds
 * Finish spells in `to_redo.yml`
 * Overhaul spells with attributes
-* Add brooms again
 * Add `.gitattributes`
-* Test out multi-line spell upgrade messages
 * Remove unnecessary parameters from spells
 * Add distances to mobs so they are less crazy persistent
 * Implement `longapparate` based on recall again
 * Add optional dark upgrade for `flight`
 * Fix custom projectile spells mid-flight redirection when turning
 * Add tags (`noduel`, stuff like that)
-* Add `pvp_restricted` flags
-* Check if `enchanting.yml` is even a thing anymore
 * Make mobs more aggressive as they get damaged with `min_damage` flags, etc.
 * Change upgrade messages.
 * Implement Nathan's post-grad ideas
-* Convert concatenated names of wands and spells to use underscores
 * Add more shops like a joke shop for fun items, book store, etc.
 * Make firestorm place fire trail while moving instead of at the end
-
-### Known bugs
-
-#### Spells
-
-* Obliviate Maxima doesn't work, Obliviate does
-* `upgrades` is broken for me locally but not for Nathan
-* Effects are lost from `avis` -> `lapifors`, `effects/mobs/undo_effects` current workaround
+* Investigate `mode: cast` for fun wands
+* Use some sort of template to simplify wand making
+* Devise some better Graduate spells
+* Decide on the fate of `/defaults/`
+* Replace all fake warmup spells with a real warmup
+* Follow up with Nathan on Flagrate progression
+* Add Riddikulus
 
 ### Other ideas
 
@@ -57,13 +53,11 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Remembrall -> Flashes pink and red glass and tells you if you have any lost wands
 * Secrecy sensor
 * Quidditch balls -> Based on flashbang spell, bounces around with more speed
-* Godric Gryffindor's Sword -> An iron sword imbued with magic such as expelliarmus
 * Sorting hate
 * Two-way mirrors
 * Whiz-bangs -> Crazy fireworks, come in Basic Blaze Box of Deflagration Deluxe
 * Skiving snackboxes -> A box of snacks which cause illness
 * Decoy detonators -> Sends a hopper projectile which explodes to create a distraction
-* Peruvian instant darkness powder -> Covers the surrounding area in darkness powder
 * Flying carpet -> Casts modified air scooter with random color carpet mount
 * Time turner
 * Potions? Might want to just handle the effects and let them pick a third-party to cast

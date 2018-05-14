@@ -1,14 +1,11 @@
-gillyweed:
+peruvianpowder:
   inherit: base_wand
-  icon: vine
+  icon: sulphur
   display_name: "$name"
   lore:
     - "$description"
     - ""
-    - "&8Right-click to consume some"
-    - ""
     - "$uses"
-  cost_reduction: 10
   mana: 50
   mana_regeneration: 25
   undroppable: false
@@ -16,7 +13,7 @@ gillyweed:
   swap: none
   left_click: none
   right_click: cast
-  uses: 5
-  active_spell: gillyweed_ability
+  uses: 8
+  active_spell: peruvian_powder_ability
   spells:
-    - gillyweed_ability
+    - peruvian_powder_ability

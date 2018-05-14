@@ -14,3 +14,9 @@ flintifors:
   parameters:
     item: flint_and_steel
     name: "&dConjured Flint and Steel"
+
+flintifors|2:
+  inherit: scribblifors|2
+
+flintifors|3:
+  inherit: scribblifors|3

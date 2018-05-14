@@ -1,0 +1,37 @@
+godrics_sword_ability:
+  inherit: expelliarmus|5
+  actions:
+    cast:
+      - class: Delay
+      - class: CustomProjectile
+        actions:
+          - class: Disarm
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.crack
+        sound_pitch: 0.3
+        sound_volume: 0.5
+        location: origin
+        source_location: feet
+        effectlib:
+          class: Atom
+          duration: $delay
+          particleNucleus: spell_mob_ambient
+          colorNucleus: d44141
+          particleOrbital: spell_mob
+          colorOrbital: FF0000
+    tick:
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          particle: redstone
+          color: FF0000
+          lengthGrow: 0.05
+  parameters:
+    delay: 1000
+    cooldown: 3500
+  costs:
+    mana: 0

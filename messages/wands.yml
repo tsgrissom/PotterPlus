@@ -55,3 +55,13 @@ wands:
     description: "&6Casts some trick spells"
     spell_instructions: ""
     bound_instructions: ""
+  peruvianpowder:
+    name: "&8Peruvian Instant Darkness Powder"
+    description: "&7Blanket an area in darkness"
+    spell_instructions: ""
+    bound_instructions: ""
+  godricssword:
+    name: "&4Sword of Godric Gryffindor"
+    description: "&6A sword imbued with magic, previously owned by a Hogwarts founder"
+    spell_instructions: ""
+    bound_instructions: ""

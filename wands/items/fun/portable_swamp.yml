@@ -3,9 +3,9 @@ portableswamp:
   icon: grass
   display_name: "$name"
   lore:
-    - '$description'
-    - ''
-    - '&cSingle-use'
+    - "$description"
+    - ""
+    - "&cSingle-use"
   cost_reduction: 10
   mana: 50
   mana_regeneration: 25
@@ -13,7 +13,7 @@ portableswamp:
   drop: none
   swap: none
   left_click: cast
-  right_click: none
+  right_click: cast
   uses: 1
   active_spell: portable_swamp_ability
   spells:

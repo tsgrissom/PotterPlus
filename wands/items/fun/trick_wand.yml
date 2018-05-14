@@ -3,9 +3,9 @@ trickwand:
   icon: wood_hoe:24,wood_hoe:25,wood_hoe:26
   display_name: "$name"
   lore:
-    - '$description'
-    - ''
-    - '$uses'
+    - "$description"
+    - ""
+    - "$uses"
   cost_reduction: 10
   mana: 50
   mana_regeneration: 25

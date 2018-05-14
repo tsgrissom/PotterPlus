@@ -1,8 +1,0 @@
-# Workaround for the weird bug where undo entity effects are lost from Avis -> Lapifors, added to todo
-
-undo_entity:
-  - class: EffectSingle
-    location: target
-    effectlib:
-      class: Smoke
-      iterations: 24

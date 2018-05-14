@@ -1,7 +1,7 @@
 carperetractum:
   icon: diamond_axe:198
   worth: 10 ac
-  upgrade_required_casts: 75
+  upgrade_required_casts: 25
   upgrade_required_path: year5
   category: charms
   actions:
@@ -19,7 +19,7 @@ carperetractum:
           particle: spell_mob_ambient
           color: e3892c
           period: 1
-          iterations: 30
+          duration: $delay
     tick:
       - class: EffectSingle
         particle: spell_mob
@@ -59,16 +59,24 @@ carperetractum:
     duration: 10000
     cooldown: 2000
     delay: 1000
-    velocity: 50
+    velocity: 25
     gravity: 0.05
   costs:
     mana: 10
 
 carperetractum|2:
+  upgrade_required_path: year6
+  upgrade_required_casts: 50
   parameters:
     push: -1
     speed: 3
     cooldown: 1500
     delay: 750
-    velocity: 75
-    gravity: 0.02
+    velocity: 50
+    gravity: 0.03
+
+carperetractum|3:
+  parameters:
+    cooldown: 1000
+    delay: 500
+    gravity: 0.01

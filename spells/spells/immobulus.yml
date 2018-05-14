@@ -1,0 +1,33 @@
+immobulus:
+  icon: diamond_axe:175
+  icon_disabled: diamond_hoe:175
+  worth: 10 ac
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
+  parameters:
+    range: 12
+    duration: 3000
+    add_effects:
+      slowness: 20
+      jump: -20
+    cooldown: 8000
+
+immobulus|2:
+  upgrade_required_path: year4
+  upgrade_required_casts: 75
+  parameters:
+    range: 24
+    duration: 6000
+
+immobulus|3:
+  upgrade_required_path: year5
+  upgrade_required_casts: 100
+  parameters:
+    duration: 8000
+    cooldown: 10000
+
+immobulus|4:
+  parameters:
+    range: 32
+    duration: 10000
+    cooldown: 12000

@@ -1,7 +1,5 @@
 lapifors:
   inherit: avis
-  effects:
-    undo_entity: undo_entity
   parameters:
     type: rabbit
     name: "&dConjured Rabbit"

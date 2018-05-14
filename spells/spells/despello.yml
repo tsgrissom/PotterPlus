@@ -27,23 +27,22 @@ despello:
     hitbox: true
     target: other
     target_type: Player
+    cooldown: 8000
     randomized_messages:
       - "blablablabla"
       - "fwufheuf"
-      - "It's a FISH!"
       - "BlubBlubBlubBlub"
       - "HueHueHue"
       - "LaLaLa"
       - "TutTutTut"
       - "TyTyTy"
       - "Floooop"
-      - "Tinky-Winky"
       - "Laa-Laa"
       - "Dipsy"
       - "Po"
-      - "Sun Baby"
       - "Noo-noo"
-      - "Yo soy loco"
+  costs:
+    mana: 25
 
 despello|2:
   parameters:

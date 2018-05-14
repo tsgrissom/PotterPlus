@@ -1,0 +1,21 @@
+spell:
+  upgrade_description_prefix: "&r&8&bull; &7"
+  category: "&cCategory&8: &7$category"
+  undoable: ""
+  not_undoable: ""
+  level_description: "&8Level $level"
+  description_lore: "&3$description"
+  level_lore: "&9$level"
+
+cooldown:
+  description: "&5Cooldown&8: &7$time"
+  mage_description: "&eExhaustion for &7$time"
+  description_moment: "A moment"
+
+duration:
+  lasts_seconds: "&2Lasts for &7$seconds seconds"
+  lasts_minutes: "&2Lasts for &7$minutes minutes"
+  lasts_hours: "&2Lasts for &7$hours hours"
+  lasts_second: "&2Lasts for &7$seconds second"
+  lasts_minute: "&2Lasts for &7$minutes minute"
+  lasts_hour: "&2Lasts for &7$hours hour"

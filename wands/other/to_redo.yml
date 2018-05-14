@@ -30,13 +30,7 @@ unspeakabroom:
 headmaster:
   enabled: false
 
-firebolt:
-  enabled: false
-
 crudfirebolt:
-  enabled: false
-
-nimbus:
   enabled: false
 
 crudnimbus:

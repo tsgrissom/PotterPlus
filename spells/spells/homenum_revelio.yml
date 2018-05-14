@@ -3,8 +3,8 @@ homenumrevelio:
   icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
   category: charms
   worth: 10 ac
-  costs:
-    mana: 40
+  upgrade_required_path: year5
+  upgrade_required_casts: 25
   actions:
     cast:
       - class: AreaOfEffect
@@ -26,13 +26,41 @@ homenumrevelio:
           radiusIncrease: 0.08
           iterations: 20
   parameters:
-    radius: 25
-    y_radius: 25
-    target_count: 24
+    radius: 12
+    y_radius: 12
+    target_count: 6
     target_source: false
-    potion_effects:
+    add_effects:
       glowing: 2
-    duration: 24000
+    duration: 5000
     target: self
-    target_type: Player
-    cooldown: 24000
+    cooldown: 15000
+  costs:
+    mana: 40
+
+homenumrevelio|2:
+  upgrade_required_path: year6
+  upgrade_required_casts: 50
+  parameters:
+    radius: 32
+    y_radius: 32
+    target_count: 16
+    duration: 10000
+
+homenumrevelio|3:
+  upgrade_required_path: year7
+  upgrade_required_casts: 100
+  parameters:
+    radius: 50
+    y_radius: 50
+    target_count: 24
+    duration: 15000
+    cooldown: 20000
+
+homenumrevelio|4:
+  parameters:
+    radius: 75
+    y_radius: 75
+    target_count: 48
+    duration: 20000
+    cooldown: 25000

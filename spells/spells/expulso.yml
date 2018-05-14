@@ -7,7 +7,7 @@ expulso:
   upgrade_required_path: year7
   upgrade_required_casts: 50
   costs:
-    mana: 75
+    mana: 150
   actions:
     cast:
       - class: CustomProjectile
@@ -50,10 +50,11 @@ expulso:
        color: 22659c
        location: self
   parameters:
-    break_blocks: false
-    fire: false
+    break_blocks: true
+    undo: 2000
+    undo_speed: 0.1
     size: 2
-    range: 24
+    range: 12
     hitbox: true
     reorient: false
     target: other
@@ -61,15 +62,20 @@ expulso:
     cooldown: 15000
     push: 1
     living_entity_speed: 0.3
-    player_damage: 6
-    entity_damage: 6
-    velocity: 75
+    damage: 6
+    velocity: 25
 
 expulso|2:
+  upgrade_required_path: graduates
+  upgrade_required_casts: 75
+  parameters:
+    velocity: 50
+    damage: 6
+    undo: 4000
+
+expulso|3:
   parameters:
     fire: true
-    velocity: 100
-    player_damage: 8
-    entity_damage: 8
+    velocity: 75
     size: 3
-    undo: 2000
+    undo: 5000

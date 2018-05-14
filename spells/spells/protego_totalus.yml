@@ -30,7 +30,7 @@ protegototalus:
     radius: 3
     y_radius: 3
     cooldown: 20000
-    potion_effects:
+    add_effects:
       damage_resistance: 255
       fire_resistance: 1
     duration: 10000
