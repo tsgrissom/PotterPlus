@@ -3,6 +3,10 @@ base_spawner:
   description: "A basic spawner for BetterPotter mobs"
   interval: 3000
   spawn:
+    player_range: 32
+    min_players: 1
+    limit_range: 32
+    probability: 1
     vertical_range: 24
     limit: 6
     radius: 64
