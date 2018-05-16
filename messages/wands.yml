@@ -65,3 +65,13 @@ wands:
     description: "&6A sword imbued with magic, previously owned by a Hogwarts founder"
     spell_instructions: ""
     bound_instructions: ""
+  basicblazebox:
+    name: "&6Basic Blaze Box"
+    description: "&4A box of assorted fireworks from Weasley's Wizard Wheezes' Explosive Enterprises line"
+    spell_instructions: ""
+    bound_instructions: ""
+  deflagrationdeluxe:
+    name: "&6Deflagration Deluxe"
+    description: "&4A big box of assorted fireworks from Weasley's Wizard Wheezes' Explosive Enterprises line"
+    spell_instructions: ""
+    bound_instructions: ""

@@ -1,0 +1,6 @@
+deflagrationdeluxe:
+  inherit: basicblazebox
+  uses: 12
+  active_spell: deflagration_deluxe_ability
+  spells:
+    - deflagration_deluxe_ability

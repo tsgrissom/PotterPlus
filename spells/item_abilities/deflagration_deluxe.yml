@@ -1,0 +1,7 @@
+deflagration_deluxe_ability:
+  inherit: basic_blaze_box_ability
+  parameters:
+    radius: 4
+    repeat: 8
+    delay: 250
+    cooldown: 8000

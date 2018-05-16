@@ -28,7 +28,6 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Investigate `mode: cast` for fun wands
 * Use some sort of template to simplify fun item wand making
 * Replace all fake warmup spells with a real warmup
-* Follow up with Nathan on Flagrate progression
 * Add Riddikulus
 
 ### Other ideas
@@ -41,11 +40,9 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Dungbombs - Bombs which cause illness, nausea and poison
 * Brooms -> Fly around on a broom
 * Invisibility cloak -> Armor which casts disillusionment charm
-* Deluminator -> Eliminates lights in the area
 * Marauder's Map - Casts modified `longapparate`
 * Remembrall -> Flashes pink and red glass and tells you if you have any lost wands
 * Quidditch balls -> Based on flashbang spell, bounces around with more speed
-* Whiz-bangs -> Crazy fireworks, come in Basic Blaze Box of Deflagration Deluxe
 * Skiving snackboxes -> A box of snacks which cause illness
 * Decoy detonators -> Sends a hopper projectile which explodes to create a distraction
 * Flying carpet -> Casts modified air scooter with random color carpet mount

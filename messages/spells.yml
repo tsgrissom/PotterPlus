@@ -803,3 +803,6 @@ spells:
   godrics_sword_ability:
     name: "Godric's Sword Ability"
     description: "Disarm your target"
+  basic_blaze_box_ability:
+    name: "Basic Blaze Box Ability"
+    description: "Send out some fireworks"

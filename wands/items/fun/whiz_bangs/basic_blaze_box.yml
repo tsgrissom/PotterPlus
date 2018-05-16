@@ -1,0 +1,18 @@
+basicblazebox:
+  inherit: base_wand
+  icon: chest
+  display_name: "$name"
+  lore:
+    - "$description"
+    - ""
+    - "$uses"
+  left_click: cast
+  right_click: cast
+  swap: none
+  drop: none
+  mana: 100
+  mana_regeneration: 25
+  uses: 8
+  active_spell: basic_blaze_box_ability
+  spells:
+    - basic_blaze_box_ability

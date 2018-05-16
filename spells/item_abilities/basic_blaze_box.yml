@@ -1,0 +1,21 @@
+basic_blaze_box_ability:
+  inherit: periculum|2
+  icon: fire
+  hidden: true
+  category: item_ability
+  actions:
+    cast:
+      - class: Repeat
+        actions:
+          - class: Spread
+            actions:
+              - class: ModifyParameters
+                actions:
+                  - class: Firework
+              - class: Delay
+  parameters:
+    color: random
+    color2: FFFFFF
+    delay: 500
+    repeat: 5
+    cooldown: 5000
