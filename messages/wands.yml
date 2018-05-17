@@ -75,3 +75,12 @@ wands:
     description: "&4A big box of assorted fireworks from Weasley's Wizard Wheezes' Explosive Enterprises line"
     spell_instructions: ""
     bound_instructions: ""
+  dungbombs:
+    name: "&6Dungbomb Pack"
+    description: "&8A horrid-smelling pack of dungbombs"
+  camera:
+    name: "&8Camera"
+    description: "&7Snap a photo of yourself or others"
+  handbag:
+    name: "&4Beaded Handbag"
+    description: "&cA very spacious beaded handbag enchanted to hold many, many items"

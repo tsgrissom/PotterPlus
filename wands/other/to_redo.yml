@@ -2,13 +2,14 @@ portkey:
   enabled: false
 
 camera:
-  enabled: false
+  display_name: "$name"
 
 dungbombs:
-  enabled: false
-
-handbag:
-  enabled: false
+  display_name: "$name"
+  lore:
+    - "$description"
+    - ""
+    - "$uses"
 
 # Brooms
 

@@ -34,13 +34,7 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 
 #### Items
 
-* Portkey -> Teleports to a random warp
-* Beaded handbag -> Stash items in enderchest
 * Camera -> Takes pictures via maps
-* Dungbombs - Bombs which cause illness, nausea and poison
-* Brooms -> Fly around on a broom
-* Invisibility cloak -> Armor which casts disillusionment charm
-* Marauder's Map - Casts modified `longapparate`
 * Remembrall -> Flashes pink and red glass and tells you if you have any lost wands
 * Quidditch balls -> Based on flashbang spell, bounces around with more speed
 * Skiving snackboxes -> A box of snacks which cause illness
