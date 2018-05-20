@@ -4,6 +4,8 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 
 [Changelog](https://github.com/grisstyl/BetterPotter/blob/master/changelog.md)
 
+[Contribution Guide](https://github.com/grisstyl/BetterPotter/blob/master/CONTRIBUTING.md)
+
 [License](https://github.com/grisstyl/BetterPotter/blob/master/license.md)
 
 [Issue Tracker](https://github.com/grisstyl/BetterPotter/issues)
@@ -29,6 +31,7 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Use some sort of template to simplify fun item wand making
 * Replace all fake warmup spells with a real warmup
 * Add Riddikulus
+* Plan for 1.13 material changes
 
 ### Other ideas
 
