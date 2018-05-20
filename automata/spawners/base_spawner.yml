@@ -11,3 +11,5 @@ base_spawner:
     limit: 6
     radius: 64
     vertical_radius: 24
+    mobs:
+      acromantula: 100
