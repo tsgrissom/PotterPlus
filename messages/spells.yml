@@ -6,10 +6,10 @@ spells:
     title: "Spell Books"
     description: "Get some spell books"
   upgrades:
-    level_requirement: '&r&9Requires&8: &7$path'
-    cast_requirement: '&r&9Casts&8: &7$current&8/&7$required'
+    level_requirement: "&r&9Requires&8: &7$path"
+    cast_requirement: "&r&9Casts&8: &7$current&8/&7$required"
   spellshop:
-    selected: 't:&7$item &9learned!'
+    selected: "t:&7$item &9learned!"
   vermillious:
     description: "Conjures a number of burning red sparks which inflict damage on those they touch."
   vermillious|2:
