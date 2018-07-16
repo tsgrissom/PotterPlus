@@ -35,7 +35,7 @@ erkling_freezing_dart:
   icon: diamond_axe:243
   parameters:
     add_effects:
-      slowness: 2
+      slow: 2
     color: "4ad3d7"
 
 erkling_weakening_dart:

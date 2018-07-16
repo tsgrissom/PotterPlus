@@ -8,7 +8,7 @@ immobulus:
     range: 12
     duration: 3000
     add_effects:
-      slowness: 20
+      slow: 20
       jump: -20
     cooldown: 8000
 

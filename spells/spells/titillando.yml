@@ -48,7 +48,7 @@ titillando:
     cooldown: 15000
     add_effects:
       confusion: 6
-      slowness: 1
+      slow: 1
       weakness: 2
     duration: 3000
     velocity: 50
@@ -61,7 +61,7 @@ titillando|2:
     cooldown: 12000
     add_effects:
       confusion: 8
-      slowness: 2
+      slow: 2
       weakness: 3
     duration: 5000
 
@@ -70,5 +70,5 @@ titillando|3:
     range: 32
     add_effects:
       confusion: 10
-      slowness: 3
+      slow: 3
       weakness: 4

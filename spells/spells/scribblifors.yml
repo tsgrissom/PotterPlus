@@ -15,6 +15,7 @@ scribblifors:
           iterations: 16
   actions:
     cast:
+      - class: PotionEffect
       - class: Delay
       - class: GiveItem
   parameters:
@@ -22,7 +23,10 @@ scribblifors:
     item: book_and_quill
     name: "&dConjured Book and Quill"
     target: self
-    delay: 1000
+    duration: 4000
+    add_effects:
+      slow: 4
+    delay: 4000
 
 scribblifors|2:
   upgrade_required_casts: 50

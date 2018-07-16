@@ -10,6 +10,9 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 7/16/18
 
+* Fixed slowness on a bunch of spells
+* Added slowness to Scribblifors
+* Added slowness to Flintifors
 * Added more depth to the leveling of Homenum Revelio
 
 ### 5/16/18

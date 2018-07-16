@@ -30,7 +30,7 @@ colloshoo:
     range: 12
     hitbox: true
     add_effects:
-      slowness: 1
+      slow: 1
       jump: -20
     duration: 6000
     cooldown: 9000
@@ -43,7 +43,7 @@ colloshoo|2:
   parameters:
     range: 24
     add_effects:
-      slowness: 2
+      slow: 2
       jump: -20
     duration: 8000
     cooldown: 11000
@@ -53,7 +53,7 @@ colloshoo|3:
   upgrade_required_path: year5
   parameters:
     add_effects:
-      slowness: 3
+      slow: 3
       jump: -20
     duration: 10000
     cooldown: 13000
@@ -61,7 +61,7 @@ colloshoo|3:
 colloshoo|4:
   parameters:
     add_effects:
-      slowness: 4
+      slow: 4
       jump: -20
     duration: 12000
     cooldown: 15000

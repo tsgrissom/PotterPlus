@@ -31,7 +31,7 @@ fwooper_death:
     message_type: title
     message_target: true
     add_effects:
-      slowness: 3
+      slow: 3
       confusion: 5
     duration: 20000
     message: "&dThe Fwooper's death cry is hindering"

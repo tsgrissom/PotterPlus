@@ -39,7 +39,7 @@ locomotorwibbly:
     target_type: Damageable
     range: 24
     add_effects:
-      slowness: 2
+      slow: 2
       confusion: 2
     duration: 8000
     cooldown: 10000
@@ -56,5 +56,5 @@ locomotorwibbly|2:
 locomotorwibbly|3:
   parameters:
     add_effects:
-      slowness: 2
+      slow: 2
     range: 32

@@ -26,7 +26,7 @@ peruvian_powder_ability:
     y_radius: 6
     duration: 8000
     effect_blindness: 2
-    slowness: 2
+    slow: 2
     add_effects:
       blindess: 2
       slow: 2

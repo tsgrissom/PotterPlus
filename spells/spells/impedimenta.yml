@@ -62,7 +62,7 @@ impedimenta:
     target_breakables: 1
     duration: 3000
     add_effects:
-      slowness: 1.5
+      slow: 1.5
       jump: -20
     cooldown: 7000
   costs:
@@ -73,13 +73,13 @@ impedimenta|2:
   upgrade_required_path: year5
   parameters:
     add_effects:
-      slowness: 2
+      slow: 2
     duration: 7000
     cooldown: 12000
 
 impedimenta|3:
   parameters:
     add_effects:
-      slowness: 3
+      slow: 3
     duration: 10000
     cooldown: 15000

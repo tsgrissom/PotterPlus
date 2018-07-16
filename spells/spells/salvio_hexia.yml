@@ -27,7 +27,7 @@ salviohexia:
       cooldown: 20000
       add_effects:
         damage_resistance: 255
-        slowness: 1
+        slow: 1
   costs:
       mana: 90
 

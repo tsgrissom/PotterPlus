@@ -21,7 +21,7 @@ fumos:
           - class: PotionEffect
   parameters:
     add_effects:
-      slowness: 1
+      slow: 1
       damage_resistance: -1
     duration: 5000
     radius: 2
@@ -47,7 +47,7 @@ fumos|2:
           particles: 20
   parameters:
     add_effects:
-      slowness: 2
+      slow: 2
     radius: 3
     y_radius: 3
     target_count: 10
@@ -69,7 +69,7 @@ fumos|3:
           particles: 50
   parameters:
     add_effects:
-      slowness: 3
+      slow: 3
       blindness: 3
     radius: 5
     y_radius: 5
