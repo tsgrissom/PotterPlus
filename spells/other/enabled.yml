@@ -20,12 +20,15 @@ testdummy:
 
 reveal:
   enabled: true
+  hidden: true
 
 dungbombs:
   enabled: true
+  hidden: true
 
 handbag:
   enabled: true
+  hidden: true
 
 camera:
   enabled: true
