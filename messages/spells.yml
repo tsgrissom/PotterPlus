@@ -561,11 +561,12 @@ spells:
     upgrade_description: "Increased speed.\nIncreased steer speed.\nIncreased thrust.\nDecreased liftoff duration."
   homenumrevelio:
     name: "Homenum Revelio"
-    description: "Reveals the presence of nearby creatures."
+    description: "Reveals the presence of nearby players."
   homenumrevelio|2:
     upgrade_description: "Increased radius.\nIncreased target count.\nIncreased duration."
   homenumrevelio|3:
-    upgrade_description: "Increased radius.\nIncreased target count.\nIncreased duration."
+    description: "Reveals the presence of nearby creatures."
+    upgrade_description: "Increased radius.\nIncreased target count.\nIncreased duration.\nNow detects any living creature."
   homenumrevelio|4:
     upgrade_description: "Increased radius.\nIncreased target count.\nIncreased duration."
   percutios:
