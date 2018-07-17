@@ -51,7 +51,7 @@ multabasiorum:
         effectlib:
           class: Explode
   parameters:
-    damage: 3
+    damage: 4
     size: 0.5
     break_blocks: false
     fire: false
@@ -61,10 +61,10 @@ multabasiorum|2:
   upgrade_required_path: year6
   upgrade_required_casts: 75
   parameters:
-    damage: 5
+    damage: 8
     target_count: 5
 
 multabasiorum|3:
   parameters:
-    damage: 7
+    damage: 12
     target_count: 5
