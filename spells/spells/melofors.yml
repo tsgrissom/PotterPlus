@@ -47,7 +47,7 @@ melofors:
         particle_data: 0.3
   parameters:
     velocity: 200
-    target_type: LivingEntity
+    target_type: Player
     range: 24
     cooldown: 4000
     brush: pumpkin
