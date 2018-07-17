@@ -10,6 +10,9 @@ obliviate:
         actions:
           - class: ClearChat
   effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.patronus
     tick:
       - location: target
         particle: redstone
@@ -18,6 +21,10 @@ obliviate:
         particle_offset_x: 0.4
         particle_offset_y: 0.4
         particle_offset_z: 0.4
+      - location: target
+        particle: cloud
+        particle_count: 10
+        particle_data: 0.1
     hit_entity:
       - location: target
         firework: ball
