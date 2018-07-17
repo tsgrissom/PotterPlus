@@ -1,0 +1,59 @@
+incendio:
+  category: charms
+  worth: 10 ac
+  upgrade_required_path: year2
+  upgrade_required_casts: 25
+  parameters:
+    velocity: 25
+    range: 12
+    cooldown: 8000
+  costs:
+    mana: 50
+
+incendio|2:
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
+  parameters:
+    range: 24
+    radius: 1
+    undo: 1500
+  costs:
+    mana: 75
+
+incendio|3:
+  upgrade_required_path: year4
+  upgrade_required_casts: 100
+  parameters:
+    velocity: 50
+
+incendio|4:
+  upgrade_required_path: year5
+  upgrade_required_casts: 150
+  parameters:
+    range: 32
+    radius: 2
+    undo: 2000
+  costs:
+    mana: 100
+
+incendio|5:
+  upgrade_required_path: year6
+  upgrade_required_casts: 200
+  parameters:
+    radius: 3
+    undo: 2500
+
+incendio|6:
+  upgrade_required_path: year7
+  upgrade_required_casts: 250
+  parameters:
+    velocity: 75
+    radius: 2
+  costs:
+    mana: 125
+
+incendio|7:
+  parameters:
+    undo: 3000
+    radius: 4
+    range: 48
