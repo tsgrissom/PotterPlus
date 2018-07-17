@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 7/16/18
 
+* Nerfed Everte Statum
 * Re-worked Furnunculus with new icon, effects, levels
 * Re-balanced Incendio with new levels
 * Fixed slowness on a bunch of spells

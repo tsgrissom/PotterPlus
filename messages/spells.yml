@@ -472,14 +472,14 @@ spells:
     name: "Everte Statum"
     description: "Hurls the target backwards, inflicting differing amounts of damage."
   evertestatum|2:
-    upgrade_description: "Increased push."
+    upgrade_description: "Increased force."
   evertestatum|3:
-    upgrade_description: "Increased push."
+    upgrade_description: "Increased force."
   depulso:
     name: "Depulso"
     description: "Banishes an object or person, sending them flying away."
   depulso|2:
-    upgrade_description: "Increased push."
+    upgrade_description: "Increased force."
   longapparate:
     name: "Long-Distance Apparition"
     description: "Allows you to disappear from your current location and apparate to previously known locations."

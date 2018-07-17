@@ -35,7 +35,7 @@ evertestatum:
     target_type: LivingEntity
     allow_max_range: false
     item_speed: 0
-    living_entity_speed: 5
+    living_entity_speed: 1.5
     push: 1
     cooldown: 3000
     velocity: 150
@@ -46,9 +46,8 @@ evertestatum|2:
   upgrade_required_path: year4
   upgrade_required_casts: 50
   parameters:
-    living_entity_speed: 6
+    living_entity_speed: 2
 
 evertestatum|3:
   parameters:
-    living_entity_speed: 8
-    push: 2
+    living_entity_speed: 3
