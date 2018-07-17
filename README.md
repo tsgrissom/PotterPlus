@@ -32,6 +32,7 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Replace all fake warmup spells with a real warmup
 * Add Riddikulus
 * Plan for 1.13 material changes
+* Fix spells that shouldn't be PVP restricted
 
 ### Other ideas
 

@@ -22,6 +22,20 @@ spells:
     upgrade_description: "Increased damage."
   vermillious|7:
     upgrade_description: "Increased damage."
+  verdimillious:
+    description: "Conjures a number of burning green sparks which inflict damage on those they touch."
+  verdimillious|2:
+    upgrade_description: "Increased damage."
+  verdimillious|3:
+    upgrade_description: "Increased damage.\nIncreased range."
+  verdimillious|4:
+    upgrade_description: "Increased damage."
+  verdimillious|5:
+    upgrade_description: "Increased damage.\nIncreased range."
+  verdimillious|6:
+    upgrade_description: "Increased damage."
+  verdimillious|7:
+    upgrade_description: "Increased damage."
   lumos:
     description: "Lights up the tip of your wand to provide a light source in dark areas."
   lumos|2:
@@ -305,13 +319,6 @@ spells:
     upgrade_description: "Increased duration."
   lumossolem|3:
     upgrade_description: "Increased duration."
-  verdimillious:
-    name: Verdimillious
-    description: "Conjures a flurry of green, burning sparks which will inflict damage on targets."
-  verdimillious|2:
-    upgrade_description: "Increased damage."
-  verdimillious|3:
-    upgrade_description: "Increased damage."
   sectumsempra:
     name: Sectumsempra
     description: "Seemingly using an invisible sword, this spell will lash out and slash a target to pieces, inflicting massive damage and bleeding."
