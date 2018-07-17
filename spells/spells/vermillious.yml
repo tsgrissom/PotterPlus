@@ -2,6 +2,7 @@ vermillious:
   worth: 10 ac
   upgrade_required_path: year3
   upgrade_required_casts: 50
+  icon: diamond_axe:92
   effects:
     cast:
       - class: EffectSingle

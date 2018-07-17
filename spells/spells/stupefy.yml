@@ -1,6 +1,6 @@
 stupefy:
   inherit: false
-  icon: diamond_axe:159
+  icon: diamond_axe:92
   upgrade_required_path: year5
   upgrade_required_casts: 25
   category: dada
