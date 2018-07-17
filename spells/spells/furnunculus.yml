@@ -1,8 +1,8 @@
 furnunculus:
   category: dark
-  icon: diamond_axe:159
+  icon: diamond_axe:172
   upgrade_required_path: year7
-  upgrade_required_casts: 25
+  upgrade_required_casts: 50
   worth: 15 ac
   pvp_restricted: true
   actions:
@@ -11,21 +11,24 @@ furnunculus:
         actions:
           - class: Damage
   effects:
+    cast:
+      - sound: magic.zap_crack
     tick:
       - location: target
-        particle: block_crack
-        material: redstone_block
-        particle_count: 4
-        particle_offset_x: 0.2
-        particle_offset_y: 0.2
-        particle_offset_z: 0.2
+        particle: item_crack
+        material: redstone
+        particle_count: 12
+        particle_offset_x: 0.1
+        particle_offset_y: 0.1
+        particle_offset_z: 0.1
       - location: target
-        particle: block_crack
-        material: quartz_block
-        particle_count: 4
-        particle_offset_x: 0.2
-        particle_offset_y: 0.2
-        particle_offset_z: 0.2
+        particle: item_crack
+        material: bone
+        particle_count: 24
+        particle_offset_x: 0.1
+        particle_offset_y: 0.1
+        particle_offset_z: 0.1
+        particle_data: 0.2
     hit_entity:
       - class: EffectSingle
         sound: magic.zap_crack
@@ -56,32 +59,38 @@ furnunculus:
     mana: 75
 
 furnunculus|2:
+  upgrade_required_casts: 100
   effects:
     tick:
       - location: target
-        particle: block_crack
-        material: redstone_block
+        particle: item_crack
+        material: redstone
         particle_count: 12
-        particle_offset_x: 0.2
-        particle_offset_y: 0.2
-        particle_offset_z: 0.2
+        particle_offset_x: 0.1
+        particle_offset_y: 0.1
+        particle_offset_z: 0.1
       - location: target
-        particle: block_crack
-        material: quartz_block
+        particle: item_crack
+        material: bone
         particle_count: 24
-        particle_offset_x: 0.5
-        particle_offset_y: 0.5
-        particle_offset_z: 0.5
+        particle_offset_x: 0.1
+        particle_offset_y: 0.1
+        particle_offset_z: 0.1
+        particle_data: 0.2
       - location: target
         particle: block_crack
         material: slime_block
         particle_count: 4
-        particle_offset_x: 0.2
-        particle_offset_y: 0.2
-        particle_offset_z: 0.2
+        particle_offset_x: 0.001
+        particle_offset_y: 0.001
+        particle_offset_z: 0.001
   parameters:
     range: 24
-    player_damage: 5
+    damage: 5
     duration: 10000
     cooldown: 20000
     velocity: 150
+
+furnunculus|3:
+  range: 36
+  damage: 7

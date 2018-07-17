@@ -440,6 +440,8 @@ spells:
     description: "Causes the target to erupt in terrible, painful boils and impeding their ability to see."
   furnunculus|2:
     upgrade_description: "Expels green pus.\nIncreased range.\nIncreased damage.\nIncreased duration.\nIncreased velocity."
+  furnunculus|3:
+    upgrade_description: "Increased range.\nIncreased damage."
   obliviatemaxima:
     name: "Obliviate Maxima"
     description: "An incredibly powerful spell not intended for misuse, you can wipe everyone's memory of what has previously been said."
