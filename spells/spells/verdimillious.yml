@@ -3,56 +3,56 @@ verdimillious:
   icon: diamond_axe:173
   pvp_restricted: true
   effects:
-        cast:
-        -  class: EffectSingle
-           sound: irongolem_death
-           sound_volume: 1
-        -  class: EffectSingle
-           sound: shoot_arrow
-           sound_volume: .5
-           location: origin
-           effectlib:
-             class: Cone
-             iterations: 15
-             particle: redstone
-             color: 088A08
-             lengthGrow: 0.3
-        -  class: EffectSingle
-           location: target
-           color: 088A08
-           color2: 088A08
-           firework: ball
-        no_target:
-        -  class: EffectSingle
-           sound: irongolem_death
-           sound_volume: 1
-        -  class: EffectSingle
-           sound: shoot_arrow
-           sound_volume: .5
-           location: origin
-           effectlib:
-             class: Cone
-             iterations: 15
-             particle: redstone
-             color: 088A08
-             lengthGrow: 0.3
-        -  class: EffectSingle
-           location: target
-           color: 088A08
-           color2: 088A08
-           firework: ball
-        backfire:
-        -  class: EffectSingle
-           sound: shoot_arrow
-           sound_volume: 5.0
-           location: origin
-           entity_effect: hurt
-           effectlib:
-             class: Cone
-             iterations: 15
-             particle: redstone
-             color: 088A08
-             lengthGrow: 0.3
+    cast:
+      - class: EffectSingle
+        sound: irongolem_death
+        sound_volume: 1
+      - class: EffectSingle
+        sound: shoot_arrow
+        sound_volume: .5
+        location: origin
+        effectlib:
+          class: Cone
+          iterations: 15
+          particle: redstone
+          color: 088A08
+          lengthGrow: 0.3
+      - class: EffectSingle
+        location: target
+        color: 088A08
+        color2: 088A08
+        firework: ball
+    no_target:
+      - class: EffectSingle
+        sound: irongolem_death
+        sound_volume: 1
+      - class: EffectSingle
+        sound: shoot_arrow
+        sound_volume: .5
+        location: origin
+        effectlib:
+          class: Cone
+          iterations: 15
+          particle: redstone
+          color: 088A08
+          lengthGrow: 0.3
+      - class: EffectSingle
+        location: target
+        color: 088A08
+        color2: 088A08
+        firework: ball
+    backfire:
+      - class: EffectSingle
+        sound: shoot_arrow
+        sound_volume: 5.0
+        location: origin
+        entity_effect: hurt
+        effectlib:
+          class: Cone
+          iterations: 15
+          particle: redstone
+          color: 088A08
+          lengthGrow: 0.3
 
 verdimillious|2:
   inherit: vermillious|2
