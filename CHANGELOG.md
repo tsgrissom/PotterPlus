@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 7/17/18
 
+* Buffed Vermillious
 * Buffed Multa Basorium
 
 ### 7/16/18

@@ -1,16 +1,11 @@
 vermillious:
   worth: 10 ac
   pvp_restricted: true
-  upgrade_required_path: year4
+  upgrade_required_path: year3
   upgrade_required_casts: 50
   effects:
     cast:
       - class: EffectSingle
-        sound: irongolem_death
-        sound_volume: 1
-      - class: EffectSingle
-        sound: magic.zap
-        sound_volume: 1
         location: origin
         effectlib:
           class: Cone
@@ -24,24 +19,44 @@ vermillious:
         color2: c64343
         firework: ball
   parameters:
+    cooldown: 1500
     range: 8
-    damage: 1
+    damage: 1.5
+  costs:
+    mana: 15
 
 vermillious|2:
-  upgrade_required_path: year5
+  upgrade_required_path: year4
   upgrade_required_casts: 75
   parameters:
-    range: 16
-    damage: 1.5
-
-vermillious|3:
-  upgrade_required_path: year6
-  upgrade_required_casts: 125
-  parameters:
-    range: 24
-    cooldown: 2000
     damage: 2
 
+vermillious|3:
+  upgrade_required_path: year5
+  upgrade_required_casts: 125
+  parameters:
+    range: 16
+    damage: 2.5
+
 vermillious|4:
+  upgrade_required_path: year6
+  upgrade_required_casts: 150
   parameters:
     damage: 3
+
+vermillious|5:
+  upgrade_required_path: year7
+  upgrade_required_casts: 175
+  parameters:
+    range: 24
+    damage: 3.5
+
+vermillious|6:
+  upgrade_required_path: graduates
+  upgrade_required_casts: 200
+  parameters:
+    damage: 4
+
+vermillious|7:
+  parameters:
+    damage: 4.5
