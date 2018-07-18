@@ -5,7 +5,7 @@ araniaexumai:
   effects:
     cast:
       - class: EffectSingle
-        sound: ghast_fireball
+        sound: magic.zap
         sound_volume: 1
         sound_pitch: 3
         effectlib:
