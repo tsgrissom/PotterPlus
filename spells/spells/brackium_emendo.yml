@@ -2,41 +2,60 @@ brackiumemendo:
   inherit: ferula
   worth: 10 ac
   icon_url: http://textures.minecraft.net/texture/964590674dbaf76126bd87694bfe97575be8de19aac4a8d9aa5579f8f01ed1
-  category: herbology
+  category: charms
   actions:
     cast:
-      - class: Repeat
+      - class: Random
         actions:
-          - class: Delay
-          - class: Heal
+          - class: Serial
+            actions:
+              - class: Damage
+          - class: Serial
+            actions:
+              - class: PlayEffects
+              - class: Repeat
+                actions:
+                  - class: Delay
+                  - class: Heal
   effects:
-    cast:
+    cast: []
+    heal:
       - class: EffectSingle
         sound: creeper_death
-        location: target
+        location: origin
+        use_wand_location: false
         effectlib:
-           class: Atom
-           particleNucleus: item_crack
-           material: bone
-           particleOrbital: item_crack
-           particleCount: 5
-           iterations: 100
+          class: Atom
+          particleNucleus: item_crack
+          material: bone
+          particleOrbital: item_crack
+          particleCount: 5
+          duration: $duration
+          offset: 0,0.5,0
   parameters:
-    count: 3
-    amount: 3
-    delay: 1000
+    effect: heal
+    target: any_entity
+    target_type: Player
+    target_self: true
+    duration: 6000
+    damage: 6
+    repeat: 3
+    amount: 2
+    delay: 2000
 
 brackiumemendo|2:
   upgrade_required_path: year3
   upgrade_required_casts: 75
   parameters:
-    count: 5
-    amount: 4
-    delay: 500
+    damage: 4
+    repeat: 4
+    delay: 1500
 
 brackiumemendo|3:
   upgrade_required_path: year4
   upgrade_required_casts: 100
   parameters:
-    amount: 5
-    delay: 250
+    damage: 2
+    duration: 5000
+    repeat: 5
+    delay: 1000

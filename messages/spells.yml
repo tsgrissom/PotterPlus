@@ -606,11 +606,11 @@ spells:
     upgrade_description: "Increased damage.\nIncreased target count."
   brackiumemendo:
     name: "Brackium Emendo"
-    description: "Mends bones that are no longer there, supposedly. Effectiveness varies."
+    description: "An unreliable healing charm that can potentially wound or mend bones."
   brackiumemendo|2:
-    upgrade_description: "Increased efficacy."
+    upgrade_description: "Increased cycles. Decreased delay. Decreased potential damage."
   brackiumemendo|3:
-    upgrade_description: "Increased efficacy."
+    upgrade_description: "Increased cycles. Decreased delay. Decreased potential damage."
   carperetractum:
     name: "Carpe Retractum"
     description: "Seizes and pulls an object or creature via a conjured, magical lasso."
