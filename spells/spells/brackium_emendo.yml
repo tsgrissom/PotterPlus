@@ -26,9 +26,10 @@ brackiumemendo:
         use_wand_location: false
         effectlib:
           class: Atom
-          particleNucleus: item_crack
+          particleNucleus: spell_mob
           material: bone
           particleOrbital: item_crack
+          colorNucleus: 3619c4
           particleCount: 5
           duration: $duration
           offset: 0,0.5,0
