@@ -4,7 +4,6 @@ colloshoo:
   worth: 10 ac
   upgrade_required_casts: 25
   upgrade_required_path: year3
-  pvp_restricted: true
   actions:
     cast:
       - class: CustomProjectile

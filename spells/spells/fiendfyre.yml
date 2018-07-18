@@ -4,7 +4,6 @@ fiendfyre:
   icon: diamond_axe:139
   icon_disabled: diamond_hoe:139
   worth: 25 ac
-  pvp_restricted: true
   upgrade_required_path: year7
   upgrade_required_casts: 50
   category: dark

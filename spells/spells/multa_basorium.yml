@@ -8,7 +8,6 @@ multabasiorum:
   worth: 20 ac
   upgrade_required_path: year5
   upgrade_required_casts: 50
-  pvp_restricted: true
   actions:
     cast:
     - class: CustomProjectile

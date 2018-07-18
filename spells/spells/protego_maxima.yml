@@ -1,7 +1,6 @@
 protegomaxima:
   icon_url: http://textures.minecraft.net/texture/9330f3a837c4a358fa62f2b684c5c4c2dadf799c0fe9be8f4a4aecace62a
   upgrade_required_casts: 50
-  pvp_restricted: true
   parameters:
     radius: 5
     target: self

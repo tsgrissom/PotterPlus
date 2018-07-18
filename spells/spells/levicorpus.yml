@@ -4,7 +4,6 @@ levicorpus:
   icon: diamond_axe:163
   category: dada
   cast_on_no_target: true
-  pvp_restricted: true
   upgrade_required_casts: 25
   effects:
     cast:

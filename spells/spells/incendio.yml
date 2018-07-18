@@ -3,6 +3,7 @@ incendio:
   worth: 10 ac
   upgrade_required_path: year2
   upgrade_required_casts: 25
+  pvp_restricted: true
   parameters:
     velocity: 25
     range: 12

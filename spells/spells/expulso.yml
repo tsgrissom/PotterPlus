@@ -3,7 +3,6 @@ expulso:
   icon_url: http://textures.minecraft.net/texture/436cb244bd2a9c1734f2db6517a973a91b1773f02ca4b481af5f24d17bb1496
   category: dark
   worth: 20 ac
-  pvp_restricted: true
   upgrade_required_path: year7
   upgrade_required_casts: 50
   costs:

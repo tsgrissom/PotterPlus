@@ -3,7 +3,6 @@ depulso:
   category: charms
   upgrade_required_path: year5
   upgrade_required_casts: 25
-  pvp_restricted: true
   worth: 10 ac
   effects:
     cast:

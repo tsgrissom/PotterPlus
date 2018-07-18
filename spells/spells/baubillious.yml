@@ -3,7 +3,6 @@ baubillious:
   worth: 20 ac
   upgrade_required_path: year6
   upgrade_required_casts: 25
-  pvp_restricted: true
   effects:
     projectile:
         - class: EffectSingle

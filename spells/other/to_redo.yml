@@ -90,6 +90,7 @@ deprimo:
 erecto:
   worth: 10 ac
   category: transfiguration
+  pvp_restricted: true
   parameters:
     undo: 12000
     undo_speed: 1
@@ -102,6 +103,7 @@ fourpoint:
 imperio:
   worth: 40 ac
   category: dark
+  pvp_restricted: true
 impervius:
   worth: 10 ac
 meteo:

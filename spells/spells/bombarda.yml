@@ -3,7 +3,6 @@ bombarda:
   icon: diamond_axe:35
   icon_url: http://textures.minecraft.net/texture/70df3afc6a6035b189f83d2cfc84ff9ffe33750273247d1e41acb5a805f54
   category: dark
-  pvp_restricted: true
   worth: 20 ac
   upgrade_required_path: year4
   upgrade_required_casts: 50

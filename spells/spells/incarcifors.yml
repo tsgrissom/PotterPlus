@@ -3,6 +3,7 @@ incarcifors:
   worth: 25 ac
   category: transfiguration
   cast_on_no_target: false
+  pvp_restricted: true
   parameters:
     undo: 5000
     undo_speed: 1
