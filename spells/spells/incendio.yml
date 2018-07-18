@@ -48,7 +48,6 @@ incendio|6:
   upgrade_required_casts: 250
   parameters:
     velocity: 75
-    radius: 2
   costs:
     mana: 125
 
