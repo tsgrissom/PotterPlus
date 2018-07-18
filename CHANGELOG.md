@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 7/17/18
 
+* Re-wrote Expelliarmus from scratch
 * Re-worked Brackium Emendo
 * Re-worked Obliviate particle effects
 * Buffed Verdimillious and followed Vermillious

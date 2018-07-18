@@ -154,13 +154,15 @@ spells:
   expelliarmus:
     description: "In a flash of red light, this spell disarms the target of their item, wand or otherwise."
   expelliarmus|2:
-    upgrade_description: "Decreased chance of fizzling.\nDecreased chance of backfiring."
+    upgrade_description: "Increased range.\nIncreased duration."
   expelliarmus|3:
-    upgrade_description: "Decreased chance of fizzling.\nDecreased chance of backfiring."
+    upgrade_description: "Now has a chance to disarm and throw the target backwards.\nIncreased duration."
   expelliarmus|4:
-    upgrade_description: "Decreased chance of fizzling.\nDecreased chance of backfiring."
+    upgrade_description: "Increased speed.\nIncreased range."
   expelliarmus|5:
-    upgrade_description: "No chance of fizzling.\nNo chance of backfiring."
+    upgrade_description: "Increased duration."
+  expelliarmus|6:
+    upgrade_description: "Now no longer moves their item back."
   finiteincantatem:
     description: "A general-purpose counterspell which will undo most of the world-changing effects of previously cast spells."
   finiteincantatem|2:
@@ -714,7 +716,10 @@ spells:
     upgrade_description: "Decreased backfire chance."
   reveal:
     name: "Reveal"
-    description: "Reveals hidden things"
+    description: "Force the hidden to become unhidden."
+  legilimens:
+    name: "Legilimens"
+    description: "Peer inside of the contents of your target's soul."
 
   acromantula_summon:
     name: "Summon"
