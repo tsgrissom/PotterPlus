@@ -427,7 +427,7 @@ spells:
   impedimenta|2:
     upgrade_description: "Increased slowness.\nIncreased duration."
   impedimenta|3:
-    upgrade_description: "Increased slowness.\nIncreased duration."
+    upgrade_description: "Increased duration."
   aberto:
     name: "Aberto"
     description: "Unlocks previously locked doors in order to reach previously inaccessible areas."

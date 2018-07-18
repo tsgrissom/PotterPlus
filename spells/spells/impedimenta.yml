@@ -3,7 +3,7 @@ impedimenta:
   category: dada
   upgrade_required_path: year4
   upgrade_required_casts: 25
-  worth: 20 ac
+  worth: 10 ac
   actions:
     cast:
       - class: CustomProjectile
@@ -18,23 +18,15 @@ impedimenta:
           class: Cone
           iterations: 10
           particle: redstone
-          color: 831b90
+          color: 7a70bb
           lengthGrow: 0.1
-          radiusGrow: 0.003
+          radiusGrow: 0.01
           updateLocations: false
           updateDirections: false
     tick:
       - particle: redstone
         location: target
         color: 8823a8
-    hit_block:
-      - class: EffectSingle
-        location: target
-        particle: block_crack
-        particle_count: 50
-        particle_offset_x: 0.2
-        particle_offset_y: 1
-        particle_offset_z: 0.2
     hit:
       - particle: fireworks_spark
         location: target
@@ -45,12 +37,20 @@ impedimenta:
         sound: magic.zap
         sound_volume: .3
         particle_data: 0.3
-    hit_entity:
       - class: EffectSingle
-        firework: ball
-        color: 831b90
-        fadeColor: 8823a8
+        sound: block_stone_hit
         location: target
+        requires_entity_target: true
+        target_location: body
+        effectlib:
+           class: AtomEffect
+           particleNucleus: redstone
+           particleOrbital: redstone
+           colorNucleus: 7a70bb
+           colorOrbital: 7a70bb
+           duration: $duration
+           radius: 2
+           period: 1
   parameters:
     velocity: 100
     hitbox: true
@@ -59,9 +59,9 @@ impedimenta:
     target_type: LivingEntity
     target: other
     target_breakables: 1
-    duration: 3000
+    duration: 1500
     add_effects:
-      slow: 1.5
+      slow: 1
       jump: -20
     cooldown: 7000
   costs:
@@ -73,12 +73,8 @@ impedimenta|2:
   parameters:
     add_effects:
       slow: 2
-    duration: 7000
-    cooldown: 12000
+    duration: 2500
 
 impedimenta|3:
   parameters:
-    add_effects:
-      slow: 3
-    duration: 10000
-    cooldown: 15000
+    duration: 3500
