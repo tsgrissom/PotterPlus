@@ -78,7 +78,6 @@ expelliarmus|3:
           - class: Random
             actions:
               - class: Serial
-                weight: 10
                 actions:
                   - class: Velocity
                   - class: Disarm
@@ -87,6 +86,7 @@ expelliarmus|3:
                 actions:
                   - class: Disarm
   parameters:
+    weight: 10
     push: 1
     living_entity_speed: 1
     undo: 4000
@@ -99,6 +99,7 @@ expelliarmus|4:
   upgrade_required_path: year6
   upgrade_required_casts: 125
   parameters:
+    weight: 15
     velocity: 50
     range: 32
     fizzle_chance: 0
@@ -114,6 +115,7 @@ expelliarmus|5:
 
 expelliarmus|6:
   parameters:
+    weight: 20
     undo: 0
   costs:
     mana: 150
