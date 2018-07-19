@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 7/18/18
 
+* Re-worked Volo
 * Re-worked leveling for Accio with slight nerf
 * Added sound effects to Arania Exumai and Limus Exumai
 * Re-worked Impedimenta with new effects and a stat nerf

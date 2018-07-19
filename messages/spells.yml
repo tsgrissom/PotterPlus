@@ -410,6 +410,10 @@ spells:
     description: "Conjures rainbow-colored fireworks which signal to fellow wizards."
   volo:
     description: "Allows you to run at magically-enhanced speeds to escape enemies or venture into the unknown with increased speed."
+  volo|2:
+    upgrade_description: "Increased duration.\nIncreased speed."
+  volo|3:
+    upgrade_description: "Increased duration.\nIncreased speed."
   colloportus:
     description: "Locks previously unlocked doors, preventing basic unlocking charms from being used against them."
   spongify:
