@@ -15,8 +15,7 @@ diffindo:
   worth: 5 ac
 duro:
   worth: 5 ac
-accio:
-  worth: 10 ac
+
 locomotomortus:
   worth: 10 ac
 
@@ -76,12 +75,11 @@ aquaeructo:
   category: charms
   worth: 15 ac
   inherit: stream
-
 aquaeructo|2:
   inherit: stream|2
-
 aquaeructo|3:
   inherit: stream|3
+
 conjunctivitis:
   worth: 10 ac
 deprimo:

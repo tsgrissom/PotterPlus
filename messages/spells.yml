@@ -212,6 +212,10 @@ spells:
     description: "Pollinates the area with flowers."
   accio:
     description: "Summons objects and lesser creatures to the caster."
+  accio|2:
+    upgrade_description: "Increased range.\nIncreased power.\nNow pulls dropped items."
+  accio|3:
+    upgrade_description: "Increased range.\nIncreased power."
   aguamenti:
     description: "Conjures a gush of water for drinking use or to cushion a fall."
   aguamenti|2:
