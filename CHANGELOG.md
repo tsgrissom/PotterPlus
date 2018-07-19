@@ -51,7 +51,6 @@ This is not an absolute record of *every* change that happens, just ones that ar
 * Re-worked Immobulus leveling
 * Re-worked Rictusempra leveling
 * Re-worked Herbifors leveling
-* Re-worked Herbifors leveling
 * Re-worked Waddiwasi leveling
 * Re-worked Epoximise leveling
 * Re-worked Lumos Maxima leveling

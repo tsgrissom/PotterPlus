@@ -19,7 +19,6 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Remove unnecessary parameters from spells
 * Clean up the order of spell definition files (no section -> `actions` -> `effects` -> `parameters` -> `costs`)
 * Add distances to mobs so they are less persistent
-* Implement `longapparate` based on recall again
 * Add dark upgrade for `flight`
 * Fix custom projectile spells mid-flight redirection when turning (Ex. `locomotormortus`)
 * Add tags (`noduel`, `nojail`, etc.)
@@ -29,10 +28,8 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Make firestorm place fire trail while moving instead of at the end
 * Investigate `mode: cast` for fun wands
 * Use some sort of template to simplify fun item wand making
-* Replace all fake warmup spells with a real warmup
 * Add Riddikulus
 * Plan for 1.13 material changes
-* Fix spells that shouldn't be PVP restricted
 
 ### Other ideas
 
