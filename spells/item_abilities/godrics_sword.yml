@@ -1,5 +1,6 @@
 godrics_sword_ability:
   inherit: expelliarmus|5
+  hidden: true
   actions:
     cast:
       - class: Delay
