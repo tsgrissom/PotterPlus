@@ -13,6 +13,8 @@ bombarda:
       - class: PlayEffects
         effect: warmup
       - class: Delay
+      - class: PlayEffects
+        effect: launch
       - class: CustomProjectile
         actions:
           - class: Explosion
@@ -20,7 +22,7 @@ bombarda:
     warmup:
       - class: EffectSingle
         location: origin
-        sound: magic.zap
+        sound: magic.shimmer_quiet
         use_wand_location: false
         effectlib:
           class: AnimatedBall
@@ -28,6 +30,8 @@ bombarda:
           iterations: 30
           particle: redstone
           color: 8A084B
+    launch:
+      - sound: magic.shimmer_crack
     tick:
       - class: EffectSingle
         location: target
