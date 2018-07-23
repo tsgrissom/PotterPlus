@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 7/23/18
 
+* Re-worked Ferula
 * Re-worked Tarantallegra
 
 ### 7/18/18

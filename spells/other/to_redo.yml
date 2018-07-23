@@ -32,9 +32,7 @@ noxmaxima:
   quick_cast: false
 evanesco:
   worth: 15 ac
-ferula:
-  worth: 20 ac
-  category: herbology
+  
 incarcerous:
   worth: 10 ac
   parameters:

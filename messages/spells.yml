@@ -275,6 +275,14 @@ spells:
     description: "Binds the entire body of the target, preventing any movement for a short while."
   ferula:
     description: "Conjures magical bandages in order to heal the target."
+  ferula|2:
+    upgrade_description: "Increased accuracy."
+  ferula|3:
+    upgrade_description: "Increased bandages."
+  ferula|4:
+    upgrade_description: "Increased healing.\nIncreased accuracy."
+  ferula|5:
+    upgrade_description: "Increased bandages.\nIncreased accuracy."
   reducto:
     description: "Vaporizes stone into dust-like particles. Can open up access to new areas."
   reducto|2:
