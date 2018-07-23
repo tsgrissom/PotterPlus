@@ -337,6 +337,14 @@ spells:
   tarantallegra:
     name: Tarantallegra
     description: "Forces the target to dance against their will, limiting the amount of actions they can perform temporarily."
+  tarantallegra|2:
+    upgrade_description: "Increased duration."
+  tarantallegra|3:
+    upgrade_description: "Increased duration."
+  tarantallegra|4:
+    upgrade_description: "Increased duration."
+  tarantallegra|5:
+    upgrade_description: "Increased duration."
   limusexumai:
     name: Limus Exumai
     description: "Repells slimey creatures, inflicting major damage on them."
