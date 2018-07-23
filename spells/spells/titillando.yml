@@ -32,10 +32,11 @@ titillando:
     hit_entity:
       - class: EffectSingle
         location: target
+        use_wand_location: false
         effectlib:
           class: AnimatedBall
           period: 1
-          iterations: 64
+          duration: $duration
           particle: spell_mob
           color: b343e0
   costs:
