@@ -381,6 +381,7 @@ spells:
   protegomaxima:
     name: Protego Maxima
     description: "Conjures a spherical shield which will encase a large area and protect you from incoming projectiles and magical attacks."
+    usage: ""
   protegomaxima|2:
     upgrade_description: "Decreased cooldown.\nIncreased duration.\nIncreased reflection chance.\nIncreased size."
     usage: "Cast at your feet to shield yourself."
@@ -391,6 +392,7 @@ spells:
     upgrade_description: "Increased radius."
   impervius:
     description: "Causes water to repel away from objects or areas, clearing pathways through water."
+    usage: ""
   baubillious:
     name: Baubillious
     description: "Causes powerful lightning to zap one target, then to continue jumping between additional nearby targets."
@@ -400,6 +402,7 @@ spells:
     upgrade_description: "Increased damage.\nIncreased chains."
   crucio:
     description: "This torturous spell induces horrible, writing pain which makes it terribly hard to focus on anything but the pain at hand."
+    usage: ""
   morsmordre:
     description: "Conjures the symbol of one of Britain's darkest wizards, Lord Voldemort high into the air."
   firestorm:
@@ -462,6 +465,14 @@ spells:
   liberacorpus:
     name: "Liberacorpus"
     description: "Counters levitation hex casts, returning their targets to their normal, right-side-up states."
+  liberacorpus|2:
+    upgrade_description: "Decreased chance of fizzling."
+  liberacorpus|3:
+    upgrade_description: "Decreased chance of fizzling."
+  liberacorpus|4:
+    upgrade_description: "Decreased chance of fizzling."
+  liberacorpus|5:
+    upgrade_description: "No chance of fizzling."
   colloshoo:
     name: "Colloshoo"
     description: "Quickly sticks the target to the ground with a viscous, green goo."
@@ -577,6 +588,7 @@ spells:
     name: "Salvio Hexia"
     description: "Provies additional defenses against hexes, curses, and other dark magic."
     cast: ""
+    usage: ""
   salviohexia|2:
     upgrade_description: "Increased duration."
   salviohexia|3:
@@ -746,6 +758,9 @@ spells:
   legilimens:
     name: "Legilimens"
     description: "Peer inside of the contents of your target's soul."
+  erecto:
+    name: "Erecto"
+    description: "Conjures, pitches, and furnishes a tent for shelter."
 
   acromantula_summon:
     name: "Summon"

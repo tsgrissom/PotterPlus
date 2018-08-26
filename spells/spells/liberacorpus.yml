@@ -2,6 +2,7 @@ liberacorpus:
   category: charms
   icon: diamond_axe:136
   worth: 10 ac
+  upgrade_required_casts: 25
   effects:
     cast:
       - class: EffectSingle
@@ -24,6 +25,7 @@ liberacorpus:
   costs:
     mana: 30
   parameters:
+    fizzle_chance: 0.8
     radius: 20
     remove_effects:
       - levitation
@@ -31,3 +33,25 @@ liberacorpus:
     force: true
     target: self
     cooldown: 8000
+
+liberacorpus|2:
+  upgrade_required_casts: 50
+  parameters:
+    fizzle_chance: 0.6
+
+liberacorpus|3:
+  upgrade_required_casts: 75
+  upgrade_required_path: year7
+  parameters:
+    fizzle_chance: 0.4
+
+liberacorpus|4:
+  upgrade_required_casts: 100
+  parameters:
+    fizzle_chance: 0.2
+
+liberacorpus|5:
+  upgrade_required_casts: 125
+  upgrade_required_path: graduates
+  parameters:
+    fizzle_chance: 0
