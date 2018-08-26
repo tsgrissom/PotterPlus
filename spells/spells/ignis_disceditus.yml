@@ -20,6 +20,17 @@ ignisdisceditus:
           radiusGrow: 0.03
           updateLocations: false
           updateDirections: false
+      - class: EffectSingle
+        location: origin
+        effectlib:
+          class: Cone
+          iterations: 10
+          particle: cloud
+          lengthGrow: 0.1
+          radiusGrow: 0.01
+          angularVelocity: -0.196349540849362
+          updateLocations: false
+          updateDirections: false
   parameters:
     allow_max_range: false
     range: 16

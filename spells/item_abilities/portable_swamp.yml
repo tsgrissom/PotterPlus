@@ -13,6 +13,7 @@ portable_swamp_ability:
         material: grass
   parameters:
     brush: schematic|portable_swamp
+    target: block
     check_destructible: false
     undo: 12000
     cooldown: 15000

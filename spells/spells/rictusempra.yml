@@ -3,6 +3,18 @@ rictusempra:
   worth: 5 ac
   upgrade_required_path: year3
   upgrade_required_casts: 50
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.bonk
+        sound_volume: 1
+        location: origin
+        effectlib:
+          class: ConeEffect
+          iterations: 15
+          particle: redstone
+          color: 5882FA
+          lengthGrow: 0.7
   parameters:
     range: 12
     living_entity_speed: 0.5

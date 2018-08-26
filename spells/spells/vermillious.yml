@@ -1,27 +1,44 @@
 vermillious:
+  inherit: false
   worth: 10 ac
   upgrade_required_path: year3
   upgrade_required_casts: 50
   icon: diamond_axe:92
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Damage
   effects:
     cast:
       - class: EffectSingle
-        location: origin
-        effectlib:
-          class: Cone
-          iterations: 15
-          particle: redstone
-          color: c64343
-          lengthGrow: 0.3
+        sound: magic.zap
+    tick:
+      - class: EffectSingle
+        particle: redstone
+        color: c64343
+        location: target
+    hit_entity:
       - class: EffectSingle
         location: target
         color: c64343
         color2: c64343
         firework: ball
+    hit:
+      - class: EffectSingle
+        location: target
+        particle: fireworks_spark
+        particle_count: 10
+        particle_data: 1
   parameters:
+    hitbox: true
+    target_type: LivingEntity
+    target_breakables: 0
+    bypass_backfire: false
     cooldown: 1500
     range: 8
     damage: 1.5
+    velocity: 75
   costs:
     mana: 15
 

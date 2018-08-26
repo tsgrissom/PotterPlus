@@ -5,13 +5,13 @@ verdimillious:
   effects:
     cast:
       - class: EffectSingle
-        location: origin
-        effectlib:
-          class: Cone
-          iterations: 15
-          particle: redstone
-          color: 088A08
-          lengthGrow: 0.3
+        sound: magic.zap
+    tick:
+      - class: EffectSingle
+        particle: redstone
+        color: 088A08
+        location: target
+    hit_entity:
       - class: EffectSingle
         location: target
         color: 088A08

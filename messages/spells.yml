@@ -9,6 +9,7 @@ spells:
     level_requirement: "&r&9Requires&8: &7$path"
     cast_requirement: "&r&9Casts&8: &7$current&8/&7$required"
   vermillious:
+    name: "Vermillious"
     description: "Conjures a number of burning red sparks which inflict damage on those they touch."
   vermillious|2:
     upgrade_description: "Increased damage."
@@ -23,6 +24,7 @@ spells:
   vermillious|7:
     upgrade_description: "Increased damage."
   verdimillious:
+    name: "Verdimillious"
     description: "Conjures a number of burning green sparks which inflict damage on those they touch."
   verdimillious|2:
     upgrade_description: "Increased damage."
