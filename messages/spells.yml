@@ -313,6 +313,12 @@ spells:
     description: "Blasts the target with a stream of hot air which propels them backwards."
   disillusion:
     description: "Creates the illusion of invisibility on the target as a means of concealment or to cause confusion. This spell is often used to create invisibility cloaks."
+  disillusion|2:
+    upgrade_description: "Increased duration."
+  disillusion|3:
+    upgrade_description: "Increased duration."
+  disillusion|4:
+    upgrade_description: "Increased duration."
   meteo:
     description: "Control the weather to precisely calm storms."
   vulnera:

@@ -32,7 +32,7 @@ noxmaxima:
   quick_cast: false
 evanesco:
   worth: 15 ac
-  
+
 incarcerous:
   worth: 10 ac
   parameters:
@@ -52,8 +52,7 @@ ventus:
 vulnera:
   worth: 25 ac
   category: herbology
-disillusion:
-  worth: 15 ac
+  
 atmos:
   category: charms
   worth: 30 ac
