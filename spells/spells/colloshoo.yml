@@ -10,6 +10,10 @@ colloshoo:
         actions:
           - class: PotionEffect
   effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.ignite
+        location: origin
     tick:
       - location: target
         particle: slime
