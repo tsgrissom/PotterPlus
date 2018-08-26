@@ -4,7 +4,7 @@ disillusion:
   parameters:
     target: self
     duration: 3000
-    cooldown: 12000
+    cooldown: 20000
 
 disillusion|2:
   upgrade_required_casts: 50
@@ -15,10 +15,16 @@ disillusion|2:
 disillusion|3:
   upgrade_required_casts: 75
   upgrade_required_path: graduates
+  actions:
+    cast:
+      - class: PotionEffect
+      - class: StashWand
   parameters:
     duration: 8000
+    undo: 8000
 
 disillusion|4:
   upgrade_required_casts: 100
   parameters:
-    duration: 10000
+    duration: 12000
+    undo: 12000

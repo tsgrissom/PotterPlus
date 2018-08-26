@@ -313,10 +313,12 @@ spells:
     description: "Blasts the target with a stream of hot air which propels them backwards."
   disillusion:
     description: "Creates the illusion of invisibility on the target as a means of concealment or to cause confusion. This spell is often used to create invisibility cloaks."
+    cast: ""
+    cast_self: ""
   disillusion|2:
     upgrade_description: "Increased duration."
   disillusion|3:
-    upgrade_description: "Increased duration."
+    upgrade_description: "Increased duration.\nAutomatically hides your wand."
   disillusion|4:
     upgrade_description: "Increased duration."
   meteo:
