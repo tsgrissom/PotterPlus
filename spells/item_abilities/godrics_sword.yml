@@ -1,5 +1,5 @@
 godrics_sword_ability:
-  inherit: expelliarmus|5
+  inherit: expelliarmus
   hidden: true
   actions:
     cast:
@@ -34,5 +34,8 @@ godrics_sword_ability:
   parameters:
     delay: 1000
     cooldown: 3500
+    fizzle_chance: 0
+    backfire_chance: 0
+    target_breakables: 2
   costs:
     mana: 0

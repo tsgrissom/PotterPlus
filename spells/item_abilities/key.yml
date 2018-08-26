@@ -1,0 +1,14 @@
+key_ability:
+  inherit: alohomora
+  icon: shears
+  hidden: true
+  parameters:
+    cooldown: 1000
+    range: 4
+
+skeleton_key_ability:
+  inherit: key_ability
+  parameters:
+    cooldown: 500
+    range: 32
+    destructible: doors
