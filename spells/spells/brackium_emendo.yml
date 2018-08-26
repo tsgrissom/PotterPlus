@@ -1,7 +1,7 @@
 brackiumemendo:
   inherit: ferula
   worth: 10 ac
-  icon_url: http://textures.minecraft.net/texture/964590674dbaf76126bd87694bfe97575be8de19aac4a8d9aa5579f8f01ed1
+  icon: diamond_axe:45
   category: charms
   actions:
     cast:
@@ -9,19 +9,26 @@ brackiumemendo:
         actions:
           - class: Serial
             actions:
+              - class: PlayEffects
+                effect: hurt
               - class: Damage
           - class: Serial
             actions:
               - class: PlayEffects
+                effect: heal
               - class: Repeat
                 actions:
                   - class: Delay
                   - class: Heal
   effects:
     cast: []
+    hurt:
+      - class: EffectSingle
+        sound: magic.creeper_death
+        location: origin
     heal:
       - class: EffectSingle
-        sound: creeper_death
+        sound: magic.shimmer_quiet
         location: origin
         use_wand_location: false
         effectlib:

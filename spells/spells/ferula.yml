@@ -4,6 +4,7 @@ ferula:
   category: charms
   upgrade_required_path: year2
   upgrade_required_casts: 50
+  icon: diamond_axe:10
   actions:
     cast:
       - class: Multiply
