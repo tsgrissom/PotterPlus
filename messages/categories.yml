@@ -28,7 +28,7 @@ categories:
     description: "Spells used to control magical creatures."
   beast_ability:
     name: "Beast Ability"
-    description: "Abilities that beasts can utilize"
+    description: "Abilities that beasts can utilize."
   item_ability:
     name: "Item Ability"
-    description: "Abilities that items can utilize"
+    description: "Abilities that items can utilize."
