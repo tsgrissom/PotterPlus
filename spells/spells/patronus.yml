@@ -18,72 +18,63 @@ patronus:
         location: origin
         effectlib:
           class: Sphere
-          particle: redstone
+          particle: spell_instant
           color: FFFFFF
           radius: 0.4
+    hit:
+      - class: EffectSingle
+        location: target
+        sound: magic.shield_boom
+        particle: fireworks_spark
+        particle_data: 1
+        particle_count: 15
   parameters:
     bypass_weakness: false
-    fizzle_chance: .15
-    target: other_entity
+    fizzle_chance: 0.5
+    target: other
     target_type: Wither
-    range: 64
+    range: 24
     cooldown: 30000
     velocity: 5
-    track_range: 8
+    track_range: 6
     track_speed: 0.5
     bypass_backfire: true
-    sound: irongolem_hit
-    damage: 300
+    damage: 150
     hitbox_size: 3
     hitbox: true
 
 patronus|2:
   parameters:
     track_speed: 1
+    fizzle_chance: 0.25
 
 patronus|3:
   actions:
     cast:
-    - class: PlaySound
-    - class: EntityProjectile
-      actions:
-      - class: Damage
+      - class: EntityProjectile
+        actions:
+          - class: Damage
   effects:
     cast:
-    -  class: EffectSingle
-       custom_sound: magic.patronus
-       location: origin
-    hit:
-    -  class: EffectSingle
-       location: target
-       effectlib:
-         class: BigBang
-         explosions: 1
-         sound_volume: 1
-         sound_pitch: 0.8
-         color: 010101
-         color2: 111111
-         color3: 222222
-         fadeColor: 888888
-         iterations: 1
-    -  class: EffectSingle
-       location: target
-       effectlib:
-         class: Cube
-         particle: enchantment_table
-         iterations: 5
-         period: 2
+      - class: EffectSingle
+        sound: magic.ignite
+        location: origin
     projectile:
       - class: EffectSingle
         location: source
         effectlib:
           class: Wave
-          particle: redstone
+          particle: spell_mob
           color: FFFFFF
-          cloudParticle: firework_spark
+          cloudParticle: spell_instant
           iterations: 8
+          duration: 8000
           particlesFront: 5
           particlesBack: 5
           rows: 10
   parameters:
     type: chicken
+    fizzle_chance: 0
+    damage: 300
+    projectile_potion_effects:
+      glowing: 1000000,1

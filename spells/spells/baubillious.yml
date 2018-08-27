@@ -13,7 +13,7 @@ baubillious:
              zigZagOffset: 0,0.05,0
              length: 6
              particles: 50
-             particle: firework_spark
+             particle: fireworks_spark
              color: "FFFFFF"
              duration: 2000
 

@@ -195,9 +195,9 @@ spells:
     usage: ""
     cast: ""
   patronus|2:
-    upgrade_description: "Increased speed."
+    upgrade_description: "Increased speed.\nDecreased chance of fizzling."
   patronus|3:
-    upgrade_description: "Corporeal patronus."
+    upgrade_description: "Your patronus becomes corporeal.\nNo chance of fizzling.\nIncreased damage."
   bombarda:
     description: "Causes the target to explode, inflicting deadly damage and damaging the surrounding area."
   bombarda|2:
