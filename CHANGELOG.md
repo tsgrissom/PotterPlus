@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/27/18
 
+* Added Carpe Retractum sound fx
 * Overhauled Patronus Charm
 * Improved Disillusionment Charm fx
 

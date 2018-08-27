@@ -26,10 +26,9 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Implement Nathan's post-graduation ideas on multiple branching paths
 * Add more shops like a joke shop for fun items, book store, etc.
 * Make firestorm place fire trail while moving instead of at the end
-* Investigate `mode: cast` for fun wands
-* Use some sort of template to simplify fun item wand making
+* Use some sort of template to simplify fun item wand making (`mode: cast`?)
 * Add Riddikulus
-* Plan for 1.13 material changes
+* Add RP with Lily's models
 
 ### Other ideas
 

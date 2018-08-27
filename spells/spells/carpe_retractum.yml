@@ -7,6 +7,7 @@ carperetractum:
   actions:
     cast:
       - class: Delay
+      - class: PlayEffects
       - class: CustomProjectile
         actions:
           - class: Velocity
@@ -20,6 +21,10 @@ carperetractum:
           color: e3892c
           period: 1
           duration: $delay
+    launch:
+      - class: EffectSingle
+        location: origin
+        sound: magic.zap
     tick:
       - class: EffectSingle
         particle: spell_mob
@@ -37,7 +42,7 @@ carperetractum:
         particle_offset_x: 0.3
         particle_offset_y: 0.3
         particle_offset_z: 0.3
-        sound: magic.zap
+        sound: magic.vanish
         sound_volume: .3
         particle_data: 0.1
     hit_entity:
@@ -61,6 +66,7 @@ carperetractum:
     delay: 1000
     velocity: 25
     gravity: 0.05
+    effect: launch
   costs:
     mana: 10
 
