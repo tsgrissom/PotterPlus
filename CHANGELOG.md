@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/28/18
 
+* Added Pulsus sound fx
 * Changed Glisseo to use packed ice instead of transparent ice for build security
 * Adjusted Aparecium fx with added sound
 * Made Obliviate cause confusion

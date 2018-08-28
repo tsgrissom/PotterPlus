@@ -10,7 +10,7 @@ pulsus:
   effects:
     cast:
       - class: EffectSingle
-        sound: fizz
+        sound: magic.flying
         source_location: feet
         effectlib:
           class: Sphere
