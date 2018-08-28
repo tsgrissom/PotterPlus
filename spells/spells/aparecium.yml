@@ -5,7 +5,7 @@ aparecium:
   effects:
     cast:
       - class: EffectSingle
-        sound: magic.patronus
+        sound: magic.shimmer_quiet
       - class: EffectTrail
         particle: spell_mob
         color: 5caeb4
@@ -15,6 +15,7 @@ aparecium:
         particle: spell_mob
         color: 5caeb4
         particle_count: 2
+        radius: 2
         location: target
     backfire:
       - class: EffectSingle
