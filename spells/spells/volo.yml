@@ -6,7 +6,7 @@ volo:
   effects:
     cast:
       - class: EffectSingle
-        sound: fuse
+        sound: magic.ignite
       - class: EffectSingle
         location: origin
         source_location: feet
