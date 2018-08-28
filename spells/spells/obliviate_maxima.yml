@@ -22,6 +22,7 @@ obliviatemaxima:
           color: FFFFFF
   parameters:
     target: self
+    target_self: true
     cooldown: 20000
     target_all_worlds: true
     target_type: Player
