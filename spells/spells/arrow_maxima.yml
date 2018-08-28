@@ -6,8 +6,12 @@ arrowmaxima:
     cast:
       - class: Repeat
         actions:
-          - class: Projectile
+          - class: Asynchronous
+            actions:
+              - class: Projectile
+          - class: Delay
   parameters:
+    delay: 500
     damage: 1
     repeat: 3
     spread: 2
@@ -27,7 +31,7 @@ arrowmaxima|3:
     damage: 3
     repeat: 8
     spread: 0
-    delay: 50
+    delay: 250
 
 arrowmaxima|4:
   parameters:

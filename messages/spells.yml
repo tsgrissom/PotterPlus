@@ -91,7 +91,7 @@ spells:
     upgrade_description: "Increased damage.\nIncreased accuracy.\nIncreased speed."
   arrowmaxima:
     name: "Arrow Maxima"
-    description: "Conjures a set of powerful, accurate magical arrows to inflict major damage."
+    description: "Conjures and propels a number of powerful magical arrows which can inflict high damage."
   arrowmaxima|2:
     upgrade_description: "Increased damage.\nIncreased arrow count.\nDecreased projectile spread."
   arrowmaxima|3:
