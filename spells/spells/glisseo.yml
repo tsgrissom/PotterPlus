@@ -19,7 +19,7 @@ glisseo:
     range: 32
     check_destructible: true
     destructible: stairs
-    brush: ice
+    brush: packed_ice
     radius: 2
     transparent: transparent_to_construction
     undo: 5000

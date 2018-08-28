@@ -8,6 +8,14 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 8/28/18
+
+* Changed Glisseo to use packed ice instead of transparent ice for build security
+* Adjusted Aparecium fx with added sound
+* Made Obliviate cause confusion
+* Added sound fx to Obliviate
+* Fixed Obliviate Maxima issues
+
 ### 8/27/18
 
 * Added Carpe Retractum sound fx
