@@ -2,6 +2,7 @@ verdimillious:
   inherit: vermillious
   icon: diamond_axe:173
   upgrade_required_path: year4
+  category: dada
   effects:
     cast:
       - class: EffectSingle
@@ -19,6 +20,7 @@ verdimillious:
         firework: ball
   parameters:
     damage: 2
+    range: 24
 
 verdimillious|2:
   inherit: vermillious|2

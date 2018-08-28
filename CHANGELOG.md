@@ -10,6 +10,9 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/28/18
 
+* Fixed Verdimillious lore 
+* Fixed Patronus cast audio
+* Fixed Avada Kedavra warmup lore
 * Fixed Arrow Maxima delay issues
 * Changed Lacarnum Inflamari sound fx
 * Added Alarte Ascendare sound fx

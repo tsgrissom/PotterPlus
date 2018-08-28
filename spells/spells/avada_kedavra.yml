@@ -30,3 +30,4 @@ avadakedavra:
   parameters:
     velocity: 20
     delay: 1000
+    warmup: 0
