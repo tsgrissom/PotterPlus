@@ -14,9 +14,10 @@ emancipare:
   effects:
     cast:
       - class: EffectSingle
-        sound: magic.shimmer
+        sound: magic.teleport
       - class: EffectTrail
         particle: block_crack
+        particle_count: 10
         material: fence
   parameters:
     target: other
