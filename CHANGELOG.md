@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/28/18
 
+* Changed Lacarnum Inflamari sound fx
 * Added Alarte Ascendare sound fx
 * Added Pulsus sound fx
 * Changed Glisseo to use packed ice instead of transparent ice for build security

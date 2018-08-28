@@ -20,7 +20,7 @@ lacarnum:
   effects:
       cast:
       -  class: EffectSingle
-         sound: ghast_fireball
+         sound: magic.hit
          sound_volume: 1
          location: both
       -  class: EffectSingle
