@@ -20,7 +20,6 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Clean up the order of spell definition files (no section -> `actions` -> `effects` -> `parameters` -> `costs`)
 * Add distances to mobs so they are less persistent
 * Add dark upgrade for `flight`
-* Fix custom projectile spells mid-flight redirection when turning (Ex. `locomotormortus`)
 * Add tags (`noduel`, `nojail`, etc.)
 * Make mobs more aggressive as they get damaged with `min_damage` flags, etc.
 * Implement Nathan's post-graduation ideas on multiple branching paths
@@ -28,7 +27,6 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 * Make firestorm place fire trail while moving instead of at the end
 * Use some sort of template to simplify fun item wand making (`mode: cast`?)
 * Add Riddikulus
-* Add RP with Lily's models
 
 ### Other ideas
 
