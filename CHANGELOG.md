@@ -10,7 +10,8 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 7/29/19
 
-* Adjusted visual fx for fourpoint, added sound.
+* Added visual and sound fx to Impervius
+* Adjusted visual fx for fourpoint, added sound
 
 ### 8/28/18
 
