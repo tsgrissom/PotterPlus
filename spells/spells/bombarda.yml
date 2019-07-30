@@ -64,3 +64,4 @@ bombarda|2:
     cooldown: 8000
     undo: 4000
     range: 64
+    delay: 1000

@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 7/30/19
 
+* Adjusted warm-up time and added warm-up time description to Bombarda
 * Increased cooldown, warm-up time, and added warm-up time description to Carpe Retractum
 
 ### 7/29/19

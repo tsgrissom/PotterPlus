@@ -200,8 +200,10 @@ spells:
     upgrade_description: "Your patronus becomes corporeal.\nNo chance of fizzling.\nIncreased damage."
   bombarda:
     description: "Causes the target to explode, inflicting deadly damage and damaging the surrounding area."
+    usage: "Spell charges for 1.5s"
   bombarda|2:
     upgrade_description: "Increased size.\nIncreased range."
+    usage: "Spell charges for 1s"
   rennervate:
     description: "Awakens stunned targets back to their normal state, alleviating confusion."
   bubblehead:
