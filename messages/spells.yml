@@ -662,10 +662,13 @@ spells:
   carperetractum:
     name: "Carpe Retractum"
     description: "Seizes and pulls an object or creature via a conjured, magical lasso."
+    usage: "Spell charges for 3s"
   carperetractum|2:
     upgrade_description: "Increased strength.\nIncreased speed.\nDecreased gravity.\nDecreased delay."
+    usage: "Spell charges for 2s"
   carperetractum|3:
     upgrade_description: "Increased strength.\nDecreased gravity.\nDecreased delay."
+    usage: "Spell charges for 1s"
   pulvifors:
     name: "Pulvifors"
     description: "Conjures an invisible cushion to protect yourself from fall damage."
