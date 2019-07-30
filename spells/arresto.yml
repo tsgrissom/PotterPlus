@@ -1,0 +1,15 @@
+arresto:
+  worth: 5 ac
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.shimmer
+        sound_volume: 1
+        effectlib:
+          class: ShieldEffect
+          iterations: 10
+          particle: spell
+    land:
+      - class: EffectRing
+        effect: step_sound
+        period: 2

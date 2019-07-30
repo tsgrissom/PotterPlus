@@ -52,7 +52,7 @@ ventus:
 vulnera:
   worth: 25 ac
   category: herbology
-  
+
 atmos:
   category: charms
   worth: 30 ac
@@ -64,10 +64,6 @@ sectumsempra:
   worth: 20 ac
 reducto:
   worth: 10 ac
-
-arresto:
-  worth: 5 ac
-
 aquaeructo:
   category: charms
   worth: 15 ac
