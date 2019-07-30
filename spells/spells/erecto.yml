@@ -1,0 +1,5 @@
+erecto:
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.teleport
