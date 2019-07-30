@@ -6,7 +6,7 @@ herbifors:
   effects:
     cast:
       - class: EffectSingle
-        sound: magic.zap
+        sound: magic.vanish
         location: origin
         effectlib:
           class: Cone
@@ -19,7 +19,6 @@ herbifors:
           updateDirections: false
     tick:
       - class: EffectSingle
-        sound: magic.zap_up
         particle: villager_happy
         location: target
     hit:
