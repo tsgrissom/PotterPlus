@@ -8,6 +8,10 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 7/29/19
+
+* Adjusted visual fx for fourpoint, added sound.
+
 ### 8/28/18
 
 * Adjusted Emancipare effects and audio

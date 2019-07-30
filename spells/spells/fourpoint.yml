@@ -10,17 +10,14 @@ fourpoint:
     cast:
       - class: Delay
       - class: Orient
-      - class: Delay
-        delay: 250
-      - class: CustomProjectile
   effects:
     cast:
-      - sound: fizz
+      - sound: magic.shimmer_crack
         location: origin
         source_location: feet
         effectlib:
           class: Sphere
-          particle: spell_mob_ambient
+          particle: spell_mob
           radiusIncrease: 0.02
           color: FFFFFF
           iterations: $iterations
