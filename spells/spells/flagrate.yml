@@ -16,6 +16,7 @@ flagrate:
           particle: lava
   parameters:
     effect: name
+    cooldown: 20000
 
 flagrate|2:
   effects:

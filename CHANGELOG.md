@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 7/31/19
 
+* Increased cooldown on Flagrate
 * Increased cooldown on Pulvifors
 * Increased cooldown on Despello (Babbling Curse)
 
