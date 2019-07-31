@@ -24,3 +24,4 @@ pulvifors:
        period: 2
   parameters:
     protection_count: 1
+    cooldown: 10000
