@@ -104,3 +104,5 @@ tripudio:
   category: charms
 wingardium:
   worth: 5 ac
+  parameters:
+    cooldown: 15000
