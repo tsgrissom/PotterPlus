@@ -36,10 +36,10 @@ evertestatum:
     item_speed: 0
     living_entity_speed: 1.5
     push: 1
-    cooldown: 3000
+    cooldown: 10000
     velocity: 150
   costs:
-    mana: 25
+    mana: 40
 
 evertestatum|2:
   upgrade_required_path: year4
