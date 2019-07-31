@@ -27,7 +27,7 @@ despello:
     hitbox: true
     target: other
     target_type: Player
-    cooldown: 8000
+    cooldown: 20000
     randomized_messages:
       - "blablablabla"
       - "fwufheuf"
