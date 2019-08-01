@@ -56,7 +56,7 @@ spells:
   lumosmaxima|4:
     upgrade_description: "Increased duration."
   arresto:
-    description: "Lessens your downward momentum, cushioning the damage of your fall significantly."
+    description: "Lessens your downward momentum, cushioning the damage of your fall."
   periculum:
     description: "Conjures and ignites bright-red fireworks where you wish to signal fellow wizards."
   periculum|2:

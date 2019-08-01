@@ -13,3 +13,8 @@ arresto:
       - class: EffectRing
         effect: step_sound
         period: 2
+  parameters:
+    duration: 10000
+    cooldown: 15000
+  costs:
+    mana: 20

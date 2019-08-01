@@ -5,7 +5,7 @@ pulvifors:
   effects:
     cast:
     -  class: EffectSingle
-       sound: horse_saddle
+       sound: magic.shimmer
        sound_volume: 1
        effectlib:
          class: Shield
@@ -24,4 +24,5 @@ pulvifors:
        period: 2
   parameters:
     protection_count: 1
+    duration: 5000
     cooldown: 10000
