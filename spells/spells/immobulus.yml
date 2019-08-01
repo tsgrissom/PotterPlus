@@ -4,6 +4,12 @@ immobulus:
   worth: 10 ac
   upgrade_required_path: year3
   upgrade_required_casts: 50
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: PotionEffect
+          - Class: FallProtection
   effects:
     cast:
       - class: EffectSingle
