@@ -116,6 +116,8 @@ spells:
     description: "Causes severe blindness against the target, making them vulnerable against follow-up attacks."
   alohomora:
     description: "Unlocks doors that are not magically protected against such charms."
+  alohomora|2:
+    upgrade_description: "Increased range.\nDecreased chance of fizzling."
   fumos:
     description: "Produces heavy smoke which fills the target's lungs, slowing them down and obstructing their breathing, and blinding them."
   fumos|2:

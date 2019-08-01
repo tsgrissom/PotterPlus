@@ -28,8 +28,11 @@ alohomora:
         particle_offset_x: 0.2
         particle_offset_y: 0.2
         particle_offset_z: 0.2
+  parameters:
+    fizzle_chance: 0.2
 
 alohomora|2:
   parameters:
     range: 32
     destructible: doors
+    fizzle_chance: 0.1
