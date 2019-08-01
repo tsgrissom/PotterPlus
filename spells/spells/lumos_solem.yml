@@ -2,9 +2,19 @@ lumossolem:
   upgrade_required_path: year2
   upgrade_required_casts: 50
   worth: 10 ac
+  actions:
+    cast:
+      - class: PlayEffects
+      - class: ThrowBlock
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.bonk
   parameters:
     brush: glowstone
-    undo: 3000
+    undo: 8000
+    cooldown: 20000
+    effect: cast
   costs:
     mana: 30
 
@@ -12,7 +22,7 @@ lumossolem|2:
   upgrade_required_path: year3
   upgrade_required_casts: 75
   parameters:
-    undo: 8000
+    undo: 10000
 
 lumossolem|3:
   parameters:
