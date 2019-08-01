@@ -27,6 +27,8 @@ scribblifors:
     add_effects:
       slow: 4
     delay: 4000
+  costs:
+    mana: 50
 
 scribblifors|2:
   upgrade_required_casts: 50

@@ -712,6 +712,7 @@ spells:
   scribblifors:
     name: "Scribblifors"
     description: "Conjures stationery to write on. A useful transfiguration spell for classwork."
+    usage: "Spell charges for 4s"
   scribblifors|2:
     upgrade_description: "Decreased cooldown."
   scribblifors|3:

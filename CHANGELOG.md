@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/1/19
 
+* Added mana cost to Scribblifors along with spell charge time text
 * Increased cooldown, undo time, and added sound fx to Lumos Solem
 * Converted Immobulus to a CustomProjectile
 * Converted Rictusempra to a CustomProjectile
