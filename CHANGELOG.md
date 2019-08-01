@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 7/31/19
 
+* Converted Rictusempra to a CustomProjectile
 * Balanced timings of Arresto Momentum and Pulvifors, respectively
 * Added chance of fizzling to Alohomora
 * Increased cooldown and added sound fx to Immobulus

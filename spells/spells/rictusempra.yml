@@ -3,10 +3,16 @@ rictusempra:
   worth: 5 ac
   upgrade_required_path: year3
   upgrade_required_casts: 50
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Velocity
+          - class: Damage
   effects:
     cast:
       - class: EffectSingle
-        sound: magic.bonk
+        sound: magic.crack
         sound_volume: 1
         location: origin
         effectlib:
@@ -15,6 +21,11 @@ rictusempra:
           particle: redstone
           color: 5882FA
           lengthGrow: 0.7
+    hit:
+      - class: EffectSingle
+        location: target
+        firework: ball
+        color: 5882FA
   parameters:
     range: 12
     living_entity_speed: 0.5
