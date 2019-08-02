@@ -1,6 +1,4 @@
-# Corresponds to the Cheering Charm in lore
-
-felixleporemos:
+cheeringcharm:
   category: charms
   icon_url: http://textures.minecraft.net/texture/bc8e7e971bbac56883fe9bfe1b38c5f568ece6cbe09ca59d85f6dab4688d14
   icon: diamond_axe:46
@@ -53,7 +51,7 @@ felixleporemos:
     velocity: 125
     range: 12
 
-felixleporemos|2:
+cheeringcharm|2:
   upgrade_required_casts: 50
   upgrade_required_path: year3
   costs:
@@ -62,7 +60,7 @@ felixleporemos|2:
     cooldown: 14000
     duration: 5000
 
-felixleporemos|3:
+cheeringcharm|3:
   costs:
     mana: 25
   parameters:

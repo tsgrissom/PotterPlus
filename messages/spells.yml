@@ -515,12 +515,12 @@ spells:
     description: "Freezes flames for you, making you immune and feel them as if they are mere tickles."
   frigusignatus|2:
     upgrade_description: "Increased duration."
-  felixleporemos:
-    name: "Felix Leporemos"
+  cheeringcharm:
+    name: "Cheering Charm"
     description: "Makes the target happier temporarily, improving their jumping ability and speed."
-  felixleporemos|2:
+  cheeringcharm|2:
     upgrade_description: "Increased duration."
-  felixleporemos|3:
+  cheeringcharm|3:
     upgrade_description: "Increased speed.\nIncreased jump.\nIncreased velocity."
   cantis:
     name: "Cantis"
