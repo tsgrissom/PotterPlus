@@ -1,6 +1,4 @@
-# Corresponds to the Cascading Jinx in lore
-
-multabasiorum:
+cascadingjinx:
   inherit: baubillious
   icon: diamond_axe:161
   icon_url: http://textures.minecraft.net/texture/436cb244bd2a9c1734f2db6517a973a91b1773f02ca4b481af5f24d17bb1496
@@ -56,14 +54,14 @@ multabasiorum:
     fire: false
     cooldown: 15000
 
-multabasiorum|2:
+cascadingjinx|2:
   upgrade_required_path: year6
   upgrade_required_casts: 75
   parameters:
     damage: 8
     target_count: 5
 
-multabasiorum|3:
+cascadingjinx|3:
   parameters:
     damage: 12
     target_count: 5

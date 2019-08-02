@@ -649,16 +649,16 @@ spells:
     upgrade_description: "Increased damage.\nIncreased range.\nIncreased burn duration."
   percutios|3:
     upgrade_description: "Increased damage.\nIncreased range."
-  multabasiorum:
-    name: "Multa Basiorium"
+  cascadingjinx:
+    name: "Cascading Jinx"
     description: "A high damage-inflicting spell which cascades from target to target, decimating the enemy with effective precision."
-  multabasiorum|2:
+  cascadingjinx|2:
     upgrade_description: "Increased damage.\nIncreased target count."
-  multabasiorum|3:
+  cascadingjinx|3:
     upgrade_description: "Increased damage.\nIncreased target count."
   brackiumemendo:
     name: "Brackium Emendo"
-    description: "An unreliable healing charm that can potentially wound or mend bones."
+    description: "An unreliable healing charm that can potentially liquify or mend bones."
   brackiumemendo|2:
     upgrade_description: "Increased cycles. Decreased delay. Decreased potential damage."
   brackiumemendo|3:

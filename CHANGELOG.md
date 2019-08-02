@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/2/19
 
+* Changed `multabasiorum` to `cascadingjinx`
 * Changed `flagellos` to `whippinghex`
 * Changed `frigusignatus` to `flamefreezingcharm`
 * Changed `felixleporemos` to `cheeringcharm`
