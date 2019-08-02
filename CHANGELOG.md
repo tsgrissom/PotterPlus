@@ -2,11 +2,15 @@
 
 Changes are organized here for record-keeping purposes. Changes are organized from top to bottom by order of most to least recent.
 
-There is a relatively up-to-date and accurate roadmap and list of upcoming changes in the document [here](https://github.com/grisstyl/BetterPotter/blob/master/README.md).
+There is a relatively up-to-date and accurate roadmap and list of upcoming changes in the document [here](https://github.com/grisstyl/BetterPotter/blob/master/TODO.md).
 
 There is a list of current, known issues [here](https://github.com/grisstyl/BetterPotter/issues).
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
+
+### 8/2/19
+
+* Updated and re-arranged all of the MD files
 
 ### 8/1/19
 
