@@ -607,14 +607,14 @@ spells:
     upgrade_description: "Increased duration."
   salviohexia|4:
     upgrade_description: "Increased duration."
-  flagellos:
-    name: "Flagellos"
-    description: "Conjures a tiny, but powerful controllable whip to attack your target viciously with."
-  flagellos|2:
+  whippinghex:
+    name: "Whipping Hex"
+    description: "Conjures a powerful whip to attack your target viciously with."
+  whippinghex|2:
     upgrade_description: "Increased damage.\nIncreased speed.\nIncreased duration."
-  flagellos|3:
+  whippinghex|3:
     upgrade_description: "Increased damage.\nIncreased duration."
-  flagellos|4:
+  whippinghex|4:
     upgrade_description: "Increased damage.\nIncreased speed.\nIncreased duration."
   emancipare:
     name: "Emancipare"
