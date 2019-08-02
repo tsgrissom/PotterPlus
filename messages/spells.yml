@@ -591,10 +591,10 @@ spells:
     upgrade_description: "Increased speed.\nIncreased damage.\nIncreased duration."
   expulso|3:
     upgrade_description: "Explosion now burns.\nIncreased size.\nIncreased speed.\nIncreased duration."
-  despello:
-    name: "Despello"
+  babblingcurse:
+    name: "Babbling Curse"
     description: "Causes the target to babble uncontrollably."
-  despello|2:
+  babblingcurse|2:
     upgrade_description: "Increased speed."
   salviohexia:
     name: "Salvio Hexia"

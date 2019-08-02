@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/2/19
 
+* Changed `despello` to `babblingcurse`
 * Updated and re-arranged all of the MD files
 
 ### 8/1/19
