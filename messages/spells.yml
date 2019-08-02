@@ -525,12 +525,12 @@ spells:
   singingcharm:
     name: "Singing Charm"
     description: "Forces the target to begin singing lyrics from various songs."
-  bruchumaculeatos:
-    name: "Bruchum Aculeatos"
+  stinginghex:
+    name: "Stinging Hex"
     description: "Causes incredibly painful stinging and blisters which often result in an allergic reaction."
-  bruchumaculeatos|2:
+  stinginghex|2:
     upgrade_description: "Increased damage."
-  bruchumaculeatos|3:
+  stinginghex|3:
     upgrade_description: "Increased damage."
   evertestatum:
     name: "Everte Statum"

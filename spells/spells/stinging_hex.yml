@@ -1,6 +1,4 @@
-# Corresponds to the Stinging Hex in lore #
-
-bruchumaculeatos:
+stinginghex:
   category: dark
   icon: diamond_axe:151
   icon_url: http://textures.minecraft.net/texture/c7142a19d8c84389da74b69641542b8b2fafbed8f7515d1d36c63c96bd749
@@ -58,7 +56,7 @@ bruchumaculeatos:
     cooldown: 15000
     velocity: 125
 
-bruchumaculeatos|2:
+stinginghex|2:
   upgrade_required_casts: 50
   upgrade_required_path: year7
   parameters:
@@ -67,7 +65,7 @@ bruchumaculeatos|2:
     repeat: 6
     delay: 250
 
-bruchumaculeatos|3:
+stinginghex|3:
   parameters:
     player_damage: 4
     entity_damage: 4
