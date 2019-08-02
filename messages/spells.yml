@@ -522,8 +522,8 @@ spells:
     upgrade_description: "Increased duration."
   cheeringcharm|3:
     upgrade_description: "Increased speed.\nIncreased jump.\nIncreased velocity."
-  cantis:
-    name: "Cantis"
+  singingcharm:
+    name: "Singing Charm"
     description: "Forces the target to begin singing lyrics from various songs."
   bruchumaculeatos:
     name: "Bruchum Aculeatos"
