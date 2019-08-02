@@ -747,12 +747,12 @@ spells:
     upgrade_description: "Decreased cooldown."
   flintifors|3:
     upgrade_description: "Decreased cooldown."
-  ignisdisceditus:
-    name: "Ignis Disceditus"
+  extinguishingcharm:
+    name: "Extinguishing Charm"
     description: "Extinguishes nearby flames in a gush of cold air."
-  ignisdisceditus|2:
+  extinguishingcharm|2:
     upgrade_description: "Increased range.\nIncreased size.\nDecreased cooldown."
-  ignisdisceditus|3:
+  extinguishingcharm|3:
     upgrade_description: "Increased range.\nIncreased size.\nIncreased duration."
   pulsus:
     name: "Pulsus"

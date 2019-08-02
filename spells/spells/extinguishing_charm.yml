@@ -1,6 +1,4 @@
-# Extinguishing charm
-
-ignisdisceditus:
+extinguishingcharm:
   icon: diamond_axe:33
   category: charms
   worth: 5 ac
@@ -44,7 +42,7 @@ ignisdisceditus:
   costs:
     mana: 20
 
-ignisdisceditus|2:
+extinguishingcharm|2:
   upgrade_required_casts: 50
   upgrade_required_path: year3
   parameters:
@@ -52,7 +50,7 @@ ignisdisceditus|2:
     radius: 2.5
     cooldown: 10000
 
-ignisdisceditus|3:
+extinguishingcharm|3:
   parameters:
     range: 32
     radius: 3
