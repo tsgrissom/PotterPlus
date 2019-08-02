@@ -1,6 +1,6 @@
 # Corresponds to the Flame-Freezing Charm
 
-frigusignatus:
+flamefreezingcharm:
   category: charms
   icon: diamond_axe:139
   upgrade_required_casts: 25
@@ -44,7 +44,7 @@ frigusignatus:
   costs:
     mana: 25
 
-frigusignatus|2:
+flamefreezingcharm|2:
   parameters:
     duration: 20000
     coolown: 22000

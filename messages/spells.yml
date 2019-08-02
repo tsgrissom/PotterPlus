@@ -510,10 +510,10 @@ spells:
   obliviate:
     name: "Obliviate"
     description: "A powerful memory-wiping charm which will erase the target's memory of what has been said previously."
-  frigusignatus:
-    name: "Frigus Ignatus"
+  flamefreezingcharm:
+    name: "Flame-Freezing Charm"
     description: "Freezes flames for you, making you immune and feel them as if they are mere tickles."
-  frigusignatus|2:
+  flamefreezingcharm|2:
     upgrade_description: "Increased duration."
   cheeringcharm:
     name: "Cheering Charm"
