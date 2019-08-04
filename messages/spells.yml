@@ -642,12 +642,12 @@ spells:
     upgrade_description: "Increased radius.\nIncreased target count.\nIncreased duration.\nNow detects any living creature."
   homenumrevelio|4:
     upgrade_description: "Increased radius.\nIncreased target count.\nIncreased duration."
-  percutios:
-    name: "Percutios"
+  lightningcurse:
+    name: "Lightning Curse"
     description: "Smites your target with the power of lightning."
-  percutios|2:
+  lightningcurse|2:
     upgrade_description: "Increased damage.\nIncreased range.\nIncreased burn duration."
-  percutios|3:
+  lightningcurse|3:
     upgrade_description: "Increased damage.\nIncreased range."
   cascadingjinx:
     name: "Cascading Jinx"

@@ -1,6 +1,4 @@
-# Corresponds to the Smiting Hex
-
-percutios:
+lightningcurse:
   inherit: smite
   category: dark
   worth: 25 ac
@@ -41,7 +39,7 @@ percutios:
     range: 16
     duration: 5000
 
-percutios|2:
+lightningcurse|2:
   upgrade_required_path: graduates
   upgrade_required_casts: 75
   parameters:
@@ -49,7 +47,7 @@ percutios|2:
     range: 24
     duration: 8000
 
-percutios|3:
+lightningcurse|3:
   parameters:
     damage: 8
     range: 32
