@@ -491,7 +491,7 @@ spells:
     upgrade_description: "No chance of fizzling."
   colloshoo:
     name: "Colloshoo"
-    description: "Quickly sticks the target to the ground with a viscous, green goo."
+    description: "Quickly sticks the target to the ground with a viscous green goo."
   colloshoo|2:
     upgrade_description: "Increased range.\nIncreased slowness.\nIncreased duration."
   colloshoo|3:

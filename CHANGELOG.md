@@ -10,6 +10,8 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/6/19
 
+* Fixed grammatical error in `colloshoo` description
+* Adjusted `araniaexumai` cooldown
 * Adjusted `incendio` cooldown
 * Added sound fx and adjusted cooldown for `flipendo`
 * Re-worked spell `nox`

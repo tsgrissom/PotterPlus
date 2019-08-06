@@ -23,6 +23,7 @@ araniaexumai:
           color: FFFFFF
   parameters:
     damage: 5
+    cooldown: 2000
 
 araniaexumai|2:
   upgrade_required_path: year3
