@@ -230,9 +230,13 @@ spells:
     upgrade_description: "Increased size.\nIncreased duration.\nIncreased range."
   aguamenti|4:
     upgrade_description: "Increased size.\nIncreased duration.\nIncreased range."
-  locomotomortus:
-    name: "Locomotor Mortus"
+  locomotormortis:
+    name: "Locomotor Mortis"
     description: "Locks the target's legs to immobilize them temporarily."
+  locomotormortis|2:
+    upgrade_description: "Increased duration."
+  locomotormortis|3:
+    upgrade_description: "Increased duration."
   episkey:
     description: "Mends the most minor of the target's wounds to increase vitality."
   episkey|2:
