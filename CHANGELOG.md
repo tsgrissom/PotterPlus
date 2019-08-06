@@ -10,7 +10,8 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/6/19
 
-* Re-worked spell `nox` 
+* Added sound fx and adjusted cooldown for `flipendo`
+* Re-worked spell `nox`
 
 ### 8/5/19
 

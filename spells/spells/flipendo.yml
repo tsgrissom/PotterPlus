@@ -1,0 +1,15 @@
+flipendo:
+  worth: 5 ac
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.flying
+        sound_volume: 1
+        effectlib:
+          class: ConeEffect
+          iterations: 12
+          particle: spell_instant
+          color: FFFFFF
+          lengthGrow: 0.1
+  parameters:
+    cooldown: 5000
