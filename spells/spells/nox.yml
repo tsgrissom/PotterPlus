@@ -1,0 +1,17 @@
+nox:
+  worth: 5
+  effects:
+    cast:
+      - class: EffectSingle
+        location: origin
+        source_location: feet
+        sound: magic.shimmer
+        effectlib:
+          class: Warp
+          particle: spell_mob
+          color: 000000
+  parameters:
+    target: self
+    cooldown: 5000
+  costs:
+    mana: 20

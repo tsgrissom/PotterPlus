@@ -125,7 +125,7 @@ spells:
   fumos|3:
     upgrade_description: "Increased radius.\nIncreased effect."
   nox:
-    description: "Extinguishes your lit wand to conceal yourself back into the darkness."
+    description: "Extinguishes your lit wand."
   araniaexumai:
     description: "Repells arachnids and damages them severely. A must-have when venturing into dangerous forests or spelunking in caves inhabited by acromantula colonies."
   araniaexumai|2:
