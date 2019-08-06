@@ -48,7 +48,7 @@ ferula:
     delay: 100
     target_self: true
   costs:
-    mana: 100
+    mana: 60
 
 ferula|2:
   upgrade_required_path: year3
