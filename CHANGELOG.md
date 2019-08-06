@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/6/19
 
+* Adjusted `incendio` cooldown
 * Added sound fx and adjusted cooldown for `flipendo`
 * Re-worked spell `nox`
 

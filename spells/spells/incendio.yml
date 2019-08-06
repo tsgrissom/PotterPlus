@@ -7,7 +7,7 @@ incendio:
   parameters:
     velocity: 25
     range: 12
-    cooldown: 8000
+    cooldown: 10000
   costs:
     mana: 50
 
