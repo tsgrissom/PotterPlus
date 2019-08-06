@@ -664,9 +664,9 @@ spells:
     name: "Brackium Emendo"
     description: "An unreliable healing charm that can potentially liquify or mend bones."
   brackiumemendo|2:
-    upgrade_description: "Increased cycles. Decreased delay. Decreased potential damage."
+    upgrade_description: "Decreased damage."
   brackiumemendo|3:
-    upgrade_description: "Increased cycles. Decreased delay. Decreased potential damage."
+    upgrade_description: "Decreased damage.\nIncreased regeneration."
   carperetractum:
     name: "Carpe Retractum"
     description: "Seizes and pulls an object or creature via a conjured, magical lasso."

@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/6/19
 
+* Re-worked and fixed `brackiumemendo`
 * Adjusted mana costs and added sound fx for `brachiabindo`
 * Fixed grammatical error in `colloshoo` description
 * Adjusted `araniaexumai` cooldown
