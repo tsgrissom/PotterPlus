@@ -7,6 +7,9 @@ brachiabindo:
         reverse: false
         length: 16
         particle_count: 6
+        sound: magic.shimmer_quiet
   parameters:
     brush: birch_fence
     undo: 2000
+  costs:
+    mana: 40
