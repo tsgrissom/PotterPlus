@@ -1,34 +1,34 @@
 categories:
-  specialty:
-    name: "Specialty"
-    description: "Generally not for casting, these often power magic items."
-  staff:
-    name: "Staff"
-    description: "These are generally only for staff."
-  elective:
-    name: "Electives"
-    description: "Various subjects you can choose to take on your own."
-  dada:
-    name: "DADA"
-    description: "Defend yourself against dark magic."
-  charms:
-    name: "Charms"
-    description: "Change the attributes of yourself and other objects."
-  herbology:
-    name: "Herbology"
-    description: "Cultivate plants or use healing magic."
-  dark:
-    name: "Dark Arts"
-    description: "Exploring the darker side of magic."
-  transfiguration:
-    name: Transfiguration
-    description: "Spells to transform, switch, vanish, or conjure objects."
-  creatures:
-    name: "Magical Creatures"
-    description: "Spells used to control magical creatures."
   beast_ability:
+    description: "Magic granted to beasts and creatures."
     name: "Beast Ability"
-    description: "Abilities that beasts can utilize."
+  charms:
+    description: "Spells to change the properties of yourself, others, and objects."
+    name: "Charms"
+  creatures:
+    description: "Spells used to control magical creatures."
+    name: "Magical Creatures"
+  dada:
+    description: "Spells to defend yourself against dark magic."
+    name: "DADA"
+  dark:
+    description: "Spells that explore the darker side of magic."
+    name: "Dark Arts"
+  elective:
+    description: "Spells from assorted subjects you can choose to take on your own."
+    name: "Electives"
+  herbology:
+    description: "Spells to cultivate plants or heal."
+    name: Herbology
   item_ability:
-    name: "Item Ability"
     description: "Abilities that items can utilize."
+    name: "Item Ability"
+  specialty:
+    description: "Spells that often power magic items."
+    name: "Specialty"
+  staff:
+    description: "Spells that are exclusively granted to staff members."
+    name: "Staff"
+  transfiguration:
+    description: "Spells to transform, switch, vanish, or conjure objects."
+    name: "Transfiguration"
