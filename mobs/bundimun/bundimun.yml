@@ -13,7 +13,17 @@ bundimun:
     magic: 0.2
   triggers:
     damage:
-      effects: bundimun_summon
+      effects:
+        - class: EffectSingle
+          location: origin
+          material: slime_block
+          effectlib:
+            class: AtomEffect
+            radius: 2
+            particleOrbital: block_crack
+            particleNucleus: block_crack
+            orbitals: 12
+            iterations: 16
       cast:
         none: 90
         bundimun_summon: 10
