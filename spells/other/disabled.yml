@@ -1,34 +1,22 @@
-# Disabled
-
-deletrius:
-  enabled: false
-
-beat:
-  enabled: false
-
-expulsion:
-  enabled: false
-
 avadamaxima:
   enabled: false
-
+beat:
+  enabled: false
 confundusmaxima:
   enabled: false
-
+deletrius:
+  enabled: false
 dementor:
   enabled: false
-
+expulsion:
+  enabled: false
 floo:
   enabled: false
-
 reductomaxima:
   enabled: false
-
 reparo:
   enabled: false
-
 reparomaxima:
   enabled: false
-
 ticketshop:
   enabled: false

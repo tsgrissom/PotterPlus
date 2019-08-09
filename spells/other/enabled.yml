@@ -1,36 +1,27 @@
-# Enabled
-
-music:
+camera:
+  category: specialty
   enabled: true
   hidden: true
-  category: speciality
-
-upgrades:
-  enabled: true
-  hidden: true
-  category: npc
-
 debugger:
   enabled: true
   hidden: true
-
-testdummy:
-  enabled: true
-  hidden: true
-
-reveal:
-  enabled: true
-  hidden: true
-
 dungbombs:
   enabled: true
   hidden: true
-
 handbag:
   enabled: true
   hidden: true
-
-camera:
+music:
+  category: speciality
   enabled: true
   hidden: true
-  category: specialty
+reveal:
+  enabled: true
+  hidden: true
+testdummy:
+  enabled: true
+  hidden: true
+upgrades:
+  category: npc
+  enabled: true
+  hidden: true

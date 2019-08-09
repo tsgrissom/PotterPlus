@@ -1,19 +1,16 @@
-spellshop:
+appearanceshop:
   parameters:
-    confirm_filler: stained_glass:5
-    cost_type: ac
-
+    cost_type: none
 bookshop:
-  icon: book
-  category: npc
-  hidden: true
   actions:
     cast:
       - class: ItemShop
+  category: npc
+  hidden: true
+  icon: book
   parameters:
-    quiet: true
     confirm: true
-    confirm_filler: stained_glass:5
+    confirm_filler: 'stained_glass:5'
     items:
       - item: book|dada
       - item: book|charms
@@ -22,15 +19,14 @@ bookshop:
       - item: book|dark
       - item: book|creatures
       - item: book|elective
-
-appearanceshop:
-  parameters:
-    cost_type: none
-
-effectshop:
-  parameters:
-    cost_type: none
-
+    quiet: true
 colorshop:
   parameters:
     cost_type: none
+effectshop:
+  parameters:
+    cost_type: none
+spellshop:
+  parameters:
+    confirm_filler: 'stained_glass:5'
+    cost_type: ac

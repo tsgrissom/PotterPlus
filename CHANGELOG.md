@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/8/19
 
+* Sorted some spell YAML files
 * Adjusted cooldown for `finiteincantatem`
 
 ### 8/6/19

@@ -1,102 +1,96 @@
-bogies:
-  category: dark
-  worth: 15 ac
-finiteincantatem:
-  worth: 20 ac
-  alias: finite
-  parameters:
-    cooldown: 10000
-colorvaria:
-  worth: 5 ac
-diffindo:
-  worth: 5 ac
-duro:
-  worth: 5 ac
-
-rennervate:
-  worth: 5 ac
-episkey:
-  worth: 15 ac
-  category: herbology
-orchideous:
-  worth: 5 ac
-  parameters:
-    undo: 2000
-noxmaxima:
-  quick_cast: false
-evanesco:
-  worth: 15 ac
-
-incarcerous:
-  worth: 10 ac
-  parameters:
-    brush: fence
-petrificustotalus:
-  worth: 20 ac
-reducio:
-  worth: 10 ac
-confringo:
-  worth: 25 ac
-engorgio:
-  worth: 15 ac
-confundus:
-  worth: 10 ac
-ventus:
-  worth: 10 ac
-vulnera:
-  worth: 25 ac
-  category: herbology
-
-atmos:
-  category: charms
-  worth: 30 ac
-spongify:
-  worth: 10 ac
-spongifymaxima:
-  worth: 25 ac
-sectumsempra:
-  worth: 20 ac
-reducto:
-  worth: 10 ac
 aquaeructo:
   category: charms
-  worth: 15 ac
   inherit: stream
+  worth: 15 ac
 aquaeructo|2:
   inherit: stream|2
 aquaeructo|3:
   inherit: stream|3
-
+atmos:
+  category: charms
+  worth: 30 ac
+bogies:
+  category: dark
+  worth: 15 ac
+colorvaria:
+  worth: 5 ac
+confringo:
+  worth: 25 ac
+confundus:
+  worth: 10 ac
 conjunctivitis:
   worth: 10 ac
 deprimo:
   worth: 10 ac
-
+diffindo:
+  worth: 5 ac
+duro:
+  worth: 5 ac
+engorgio:
+  worth: 15 ac
+episkey:
+  category: herbology
+  worth: 15 ac
 erecto:
-  worth: 10 ac
   category: transfiguration
-  pvp_restricted: true
   parameters:
     undo: 12000
     undo_speed: 1
-
-fiantoduri:
+  pvp_restricted: true
   worth: 10 ac
+evanesco:
+  worth: 15 ac
+fiantoduri:
   category: dada
+  worth: 10 ac
+finiteincantatem:
+  alias: finite
+  parameters:
+    cooldown: 10000
+  worth: 20 ac
 imperio:
-  worth: 40 ac
   category: dark
   pvp_restricted: true
+  worth: 40 ac
 impervius:
   worth: 10 ac
+incarcerous:
+  parameters:
+    brush: fence
+  worth: 10 ac
 meteo:
+  category: charms
   quick_cast: false
   worth: 30 ac
-  category: charms
+noxmaxima:
+  quick_cast: false
+orchideous:
+  parameters:
+    undo: 2000
+  worth: 5 ac
+petrificustotalus:
+  worth: 20 ac
+reducio:
+  worth: 10 ac
+reducto:
+  worth: 10 ac
+rennervate:
+  worth: 5 ac
+sectumsempra:
+  worth: 20 ac
+spongify:
+  worth: 10 ac
+spongifymaxima:
+  worth: 25 ac
 tripudio:
-  worth: 5 ac
   category: charms
-wingardium:
   worth: 5 ac
+ventus:
+  worth: 10 ac
+vulnera:
+  category: herbology
+  worth: 25 ac
+wingardium:
   parameters:
     cooldown: 15000
+  worth: 5 ac
