@@ -1,6 +1,6 @@
 basic_blaze_box_ability:
   inherit: periculum|2
-  icon: fire
+  icon: firework
   hidden: true
   category: item_ability
   actions:
