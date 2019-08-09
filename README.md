@@ -7,6 +7,7 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 [Changelog](https://github.com/grisstyl/BetterPotter/blob/master/CHANGELOG.md)
 
 [Contribution Guide](https://github.com/grisstyl/BetterPotter/blob/master/CONTRIBUTING.md)
+
 [To-do List](https://github.com/grisstyl/BetterPotter/blob/master/TODO.md)
 
 [License](https://github.com/grisstyl/BetterPotter/blob/master/LICENSE.md)
