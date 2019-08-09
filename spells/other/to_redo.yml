@@ -4,6 +4,8 @@ bogies:
 finiteincantatem:
   worth: 20 ac
   alias: finite
+  parameters:
+    cooldown: 10000
 colorvaria:
   worth: 5 ac
 diffindo:
