@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/8/19
 
+* Added README text to most sub-folders to explain what each folder's purpose is
 * Changed `basic_blaze_box_ability` icon to resolve console warning
 * Tweaked and sorted various message files
 * Adjusted and sorted spell categories
