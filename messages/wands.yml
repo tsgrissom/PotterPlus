@@ -1,86 +1,90 @@
 wands:
-  wand:
-    name: "Wand"
-    description: "$wood with $core"
-    randomized_description: "Wand description broken"
-  potterwand:
-    name: "Wand"
-    description: "$length Inches $flex $wood with $core"
-    randomized_description: "Potterwand description broken"
-  conductors_wand:
-    name: "Conductor's Wand"
-    description: "Play some music!"
-  ticket:
-    name: "Wand Ticket"
-    description: "Visit a wand shop to obtain your wand!"
-  music_box:
-    name: "Music Box"
-    description: "Play some music!"
-  erkling_dart_blower:
-    name: "&2Erkling Dart Blower"
-    description: "&aA dart blower stolen from an erkling"
-    spell_instructions: ""
-    bound_instructions: ""
-    inventory_instructions: ""
-  erumpent_horn:
-    name: "&8Erumpent Horn"
-    description: "&7A Class-B tradeable material. Highly explosive."
-    spell_instructions: ""
-    bound_instructions: ""
-  developer:
-    name: "&3Magic Developer Wand"
-    description: "&9Curated spells to aid in the furthering of magic"
-  gillyweed:
-    name: "&2Gillyweed"
-    description: "&aGrants you the ability to temporarily breathe underwater"
-    spell_instructions: ""
-    bound_instructions: ""
-  portableswamp:
-    name: "&2Portable Swamp"
-    description: "&aDeploys a portable swamp wherever you are"
-    spell_instructions: ""
-    bound_instructions: ""
-  key:
-    name: "&7Key"
-    description: "&8Unlocks most doors for a limited time"
-    spell_instructions: ""
-    bound_instructions: ""
-  skeletonkey:
-    name: "&7Skeleton Key"
-    description: "&8Unlocks all doors for a limited time"
-    spell_instructions: ""
-    bound_instructions: ""
-  trickwand:
-    name: "&eTrick Wand"
-    description: "&6Casts some trick spells"
-    spell_instructions: ""
-    bound_instructions: ""
-  peruvianpowder:
-    name: "&8Peruvian Instant Darkness Powder"
-    description: "&7Blanket an area in darkness"
-    spell_instructions: ""
-    bound_instructions: ""
-  godricssword:
-    name: "&4Sword of Godric Gryffindor"
-    description: "&6A sword imbued with magic, previously owned by a Hogwarts founder"
-    spell_instructions: ""
-    bound_instructions: ""
   basicblazebox:
+    bound_instructions: ""
+    description: >-
+      &4A box of assorted fireworks from Weasley"s Wizard Wheezes" Explosive
+      Enterprises line
     name: "&6Basic Blaze Box"
-    description: "&4A box of assorted fireworks from Weasley's Wizard Wheezes' Explosive Enterprises line"
     spell_instructions: ""
-    bound_instructions: ""
-  deflagrationdeluxe:
-    name: "&6Deflagration Deluxe"
-    description: "&4A big box of assorted fireworks from Weasley's Wizard Wheezes' Explosive Enterprises line"
-    spell_instructions: ""
-    bound_instructions: ""
-  dungbombs:
-    name: "&6Dungbomb Pack"
-    description: "&8A horrid-smelling pack of dungbombs"
   camera:
-    name: "&8Camera"
     description: "&7Snap a photo of yourself or others"
+    name: "&8Camera"
+  conductors_wand:
+    description: Play some music!
+    name: Conductor"s Wand
+  deflagrationdeluxe:
+    bound_instructions: ""
+    description: >-
+      &4A big box of assorted fireworks from Weasley"s Wizard Wheezes" Explosive
+      Enterprises line
+    name: "&6Deflagration Deluxe"
+    spell_instructions: ""
+  developer:
+    description: "&9Curated spells to aid in the furthering of magic"
+    name: "&3Magic Developer Wand"
+  dungbombs:
+    description: "&8A horrid-smelling pack of dungbombs"
+    name: "&6Dungbomb Pack"
+  erkling_dart_blower:
+    bound_instructions: ""
+    description: "&aA dart blower stolen from an erkling"
+    inventory_instructions: ""
+    name: "&2Erkling Dart Blower"
+    spell_instructions: ""
+  erumpent_horn:
+    bound_instructions: ""
+    description: "&7A Class-B tradeable material. Highly explosive."
+    name: "&8Erumpent Horn"
+    spell_instructions: ""
+  gillyweed:
+    bound_instructions: ""
+    description: "&aGrants you the ability to temporarily breathe underwater"
+    name: "&2Gillyweed"
+    spell_instructions: ""
+  godricssword:
+    bound_instructions: ""
+    description: "&6A sword imbued with magic, previously owned by a Hogwarts founder"
+    name: "&4Sword of Godric Gryffindor"
+    spell_instructions: ""
   handbag:
-    name: "&4Beaded Handbag"
     description: "&cA very spacious beaded handbag enchanted to hold many, many items"
+    name: "&4Beaded Handbag"
+  key:
+    bound_instructions: ""
+    description: "&8Unlocks most doors for a limited time"
+    name: "&7Key"
+    spell_instructions: ""
+  music_box:
+    description: "Play some music!"
+    name: "Music Box"
+  peruvianpowder:
+    bound_instructions: ""
+    description: "&7Blanket an area in darkness"
+    name: "&8Peruvian Instant Darkness Powder"
+    spell_instructions: ""
+  portableswamp:
+    bound_instructions: ""
+    description: "&aDeploys a portable swamp wherever you are"
+    name: "&2Portable Swamp"
+    spell_instructions: ""
+  potterwand:
+    description: "$length Inches $flex $wood with $core"
+    name: "Wand"
+    randomized_description: "Potterwand description broken"
+  skeletonkey:
+    bound_instructions: ""
+    description: "&8Unlocks all doors for a limited time"
+    name: "&7Skeleton Key"
+    spell_instructions: ""
+  ticket:
+    description: "Visit a wand shop to obtain your wand!"
+    name: "Wand Ticket"
+  trickwand:
+    bound_instructions: ""
+    description: "&6Casts some trick spells"
+    name: "&eTrick Wand"
+    spell_instructions: ""
+  wand:
+    description: "$wood with $core"
+    name: "Wand"
+    randomized_description: "Wand description broken"
