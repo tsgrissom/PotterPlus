@@ -79,6 +79,7 @@ wands:
   ticket:
     description: "Visit a wand shop to obtain your wand!"
     name: "Wand Ticket"
+    bound_description: ""
   trickwand:
     bound_instructions: ""
     description: "&6Casts some trick spells"
@@ -91,4 +92,8 @@ wands:
   randomizedpotterwand:
     description: "$length Inches $flex $wood with $core"
     name: "Wand"
-    randomized_description: "Randomized Potterwand description broken"
+    randomized_description: "&bContains your very own wand. What adventures await?"
+    enchant_instructions: ""
+    bound_instructions: ""
+    spell_instructions: "&7&lWAND HOW-TO&8// &dLeft-click &5to cast spells. &dRight-click&8/&dDrop button &5to open and close the spell menu. &dSwap button &5to cycle between hotbars."
+    inventory_instructions: "&7&lWAND INVENTORY MANAGEMENT&8// &5You now know more than one spell! &dOpen your inventory &5to manage which spells are in your hotbar. &dUse number keys &5to change to the desired spell in your hotbar. &dPress swap &5to cycle hotbars."
