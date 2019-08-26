@@ -5,9 +5,14 @@ base_wand:
 
 wandbox:
   icon: wood_step:2
+  replace_on_activate: potterwand
 
 potterwand:
   hotbar_count: 2
+  icon: wood_hoe:24,wood_hoe:25,wood_hoe:26
   spells:
     - lumos
   active_spell: lumos
+
+randomizedpotterwand:
+  icon: wood_hoe:24,wood_hoe:25,wood_hoe:26

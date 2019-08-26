@@ -88,3 +88,7 @@ wands:
     description: "$wood with $core"
     name: "Wand"
     randomized_description: "Wand description broken"
+  randomizedpotterwand:
+    description: "$length Inches $flex $wood with $core"
+    name: "Wand"
+    randomized_description: "Randomized Potterwand description broken"

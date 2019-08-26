@@ -30,3 +30,12 @@ spellshop:
   parameters:
     confirm_filler: 'stained_glass:5'
     cost_type: ac
+
+ollivander:
+  parameters:
+    put_in_hand: false
+    auto_close: true
+    items:
+      - item: wand:randomizedpotterwand
+        costs:
+          ticket: 1
