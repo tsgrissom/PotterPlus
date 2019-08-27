@@ -15,3 +15,13 @@ potterwand:
 
 randomizedpotterwand:
   icon: wood_hoe:24,wood_hoe:25,wood_hoe:26
+  effects:
+    randomize:
+    -  class: EffectSingle
+       sound: magic.ignite
+    -  class: EffectRing
+       firework: star
+       color: FFFFFF
+       color2: 000000
+       radius: 4
+       size: 2
