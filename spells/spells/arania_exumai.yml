@@ -6,8 +6,8 @@ araniaexumai:
     cast:
       - class: EffectSingle
         sound: magic.zap
-        sound_volume: 1
-        sound_pitch: 3
+        sound_volume: 0.3
+        sound_pitch: 1
         effectlib:
           class: Cone
           iterations: 10
