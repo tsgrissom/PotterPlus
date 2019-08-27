@@ -10,3 +10,5 @@ wand:
   owner_description: "&7$name's &9wand"
   range_description: "&6Range&8: &7$range meters"
   spell_count: "&6Knows &7$count spells"
+  upgraded_property: "&7&l>> &dYour knowledge of magic grows&8. $name"
+  spell_added: "t:&dSpell Unlocked\n&6$name"

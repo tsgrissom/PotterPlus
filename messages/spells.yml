@@ -5,6 +5,9 @@ spells:
     name: "Spellbook Shop"
     title: "Spell Books"
     description: "Get some spell books"
+  spellshop:
+    selected: "t:&dSpell Unlocked\n&6$item"
+    no_items: "&7&l>> &5You have learned all that you can from here."
   upgrades:
     level_requirement: "&r&9Requires&8: &7$path"
     cast_requirement: "&r&9Casts&8: &7$current&8/&7$required"

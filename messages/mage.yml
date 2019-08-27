@@ -1,0 +1,2 @@
+mage:
+  spell_added: "t:&dSpell Unlocked\n&6$name"
