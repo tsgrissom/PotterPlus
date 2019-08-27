@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/27/19
 
+* Adjusted `lumosmaxima` effects and re-balanced
 * Adjusted `lumos` effects
 * Adjusted starting events
 * Disabled `wandbox` template
