@@ -4,6 +4,7 @@ godrics_sword_ability:
   actions:
     cast:
       - class: Delay
+        delay: $delay
       - class: CustomProjectile
         actions:
           - class: Disarm
@@ -31,11 +32,17 @@ godrics_sword_ability:
           particle: redstone
           color: FF0000
           lengthGrow: 0.05
+          radiusGrow: 0.0001
+    hit:
+      - class: EffectSingle
+        firework: burst
+        color: d44141
+        location: target
   parameters:
-    delay: 1000
-    cooldown: 3500
+    cooldown: 2000
     fizzle_chance: 0
     backfire_chance: 0
     target_breakables: 2
+    delay: 500
   costs:
-    mana: 0
+    mana: 75

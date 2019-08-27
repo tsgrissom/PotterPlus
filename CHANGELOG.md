@@ -8,9 +8,12 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 8/27/19
+
+* Tinkered with `godricssword` to a more balanced place
+
 ### 8/8/19
 
-* Added README text to most sub-folders to explain what each folder's purpose is
 * Changed `basic_blaze_box_ability` icon to resolve console warning
 * Tweaked and sorted various message files
 * Adjusted and sorted spell categories

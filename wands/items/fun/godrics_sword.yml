@@ -4,13 +4,15 @@ godricssword:
   display_name: "$name"
   lore:
     - "$description"
-  mana: 125
-  mana_regeneration: 125
-  cost_reduction: 10
+  mana: 100
+  mana_max: 100
+  mana_regeneration: 10
   drop: none
   swap: none
   left_click: none
   right_click: cast
+  potion_effects: increase_damage:2
+  glow: true
   active_spell: godrics_sword_ability
   spells:
     - godrics_sword_ability
