@@ -1,11 +1,11 @@
 # Loads in base potter configs
-
 example: potter
 
 # Disables the SP system in favor of AC
-
 sp_enabled: false
 
 # Removes default automata because they aren't necessary
-
 disable_default_automata: false
+
+# Gives the player the BetterPotter data pack whenever they log in
+resource_pack: "https://download.nodecdn.net/containers/nodecraft/minepack/38b4abd16c1c2e38cab1858415db1c7b.zip"
