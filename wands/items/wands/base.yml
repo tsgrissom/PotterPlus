@@ -4,8 +4,7 @@ base_wand:
   swap: cycle_hotbar
 
 wandbox:
-  icon: wood_step:2
-  replace_on_activate: potterwand
+  enabled: false
 
 potterwand:
   hotbar_count: 2

@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/27/19
 
+* Disabled `wandbox` template
 * Tinkered with `godricssword` to a more balanced place
 
 ### 8/8/19
