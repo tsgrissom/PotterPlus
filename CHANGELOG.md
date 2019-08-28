@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/28/2019
 
+* Un-ignored classes folder. Beginning of branching paths starts here.
 * Re-named "special.yml" materials to "stairs.yml"
 * Made all attributes have a min value  of 1
 * Cleaned up shop spells, disabled a few, added Galleons
