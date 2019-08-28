@@ -1,4 +1,10 @@
 spells:
+  default:
+    fizzle: "a:&4&lX &cSpell fizzled! &4&lX"
+    backfire: "a:&4&lX &cSpell backfired! &4&lX"
+    fail: "&7&l>> &5Spell failed. Please report this to an administrator."
+    insufficient_permission: "&cYou don't have permission to cast that here."
+    cast_play_message: "a:&6$player &3cast &6$spell &3on you!"
   ollivander:
     title: "Wand Shop"
   bookshop:
