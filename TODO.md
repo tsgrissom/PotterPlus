@@ -10,7 +10,7 @@
 * Add dark upgrade for `flight`
 * Add tags (`noduel`, `nojail`, etc.)
 * Make mobs more aggressive as they get damaged with `min_damage` flags, etc.
-* Implement Nathan's post-graduation ideas on multiple branching paths
+* Deep-dive into classes and plan out how further classes/paths will work
 * Add more shops like a joke shop for fun items, book store, etc.
 * Make firestorm place fire trail while moving instead of at the end
 * Use some sort of template to simplify fun item wand making (`mode: cast`?)

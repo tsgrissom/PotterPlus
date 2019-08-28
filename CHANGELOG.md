@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/28/2019
 
+* Disabled unnecessary automata
 * Disabled unnecessary effects `butterfly` and `fountain`
 * Updated `default` spell text to fit the new UI
 
