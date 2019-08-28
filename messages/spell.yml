@@ -16,4 +16,4 @@ spell:
   level_lore: "&9$level"
   not_undoable: ""
   undoable: ""
-  upgrade_description_prefix: "&r&8&bull; &7"
+  upgrade_description_prefix: "&r&8&l> &7"

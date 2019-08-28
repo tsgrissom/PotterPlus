@@ -10,7 +10,8 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/27/19
 
-* Added official data pack. See more on wiki.
+* Adjusted spell upgrade text to match new UI
+* Added official data pack. See more on wiki
 * Turned down `araniaexumai` sound fx
 * Adjusted `lumosmaxima` effects and re-balanced
 * Adjusted `lumos` effects
