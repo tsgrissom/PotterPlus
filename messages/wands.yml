@@ -95,8 +95,8 @@ wands:
     name: "&7Skeleton Key"
     spell_instructions: ""
   ticket:
-    description: "Visit a wand shop to obtain your wand!"
-    name: "Wand Ticket"
+    name: "&5Wand Ticket"
+    description: "&dYou can trade this for your very first wand at a &5Wand Shop&8."
     bound_description: ""
   trickwand:
     bound_instructions: ""

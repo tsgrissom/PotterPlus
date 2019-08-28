@@ -7,6 +7,7 @@ spells:
     cast_play_message: "a:&6$player &3cast &6$spell &3on you!"
   ollivander:
     title: "Wand Shop"
+    selected: "&7&l>> &dYou purchased &r$item &dfor &r$cost"
   bookshop:
     name: "Spellbook Shop"
     title: "Spell Books"
