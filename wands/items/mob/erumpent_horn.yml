@@ -1,4 +1,4 @@
-erumpent_horn:
+erumpenthorn:
   inherit: base_wand
   icon: nether_star
   display_name: '$name'

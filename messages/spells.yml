@@ -897,8 +897,8 @@ spells:
   peruvian_powder_ability:
     name: "Peruvian Powder Ability"
     description: "Blanket the area in darkness"
-  godrics_sword_ability:
-    name: "Godric's Sword Ability"
+  sword_of_godric_gryffindor_ability:
+    name: "Sword of Godric Gryffindor Ability"
     description: "Disarm your target"
   basic_blaze_box_ability:
     name: "Basic Blaze Box Ability"

@@ -1,4 +1,4 @@
-godricssword:
+swordofgodricgryffindor:
   inherit: base_wand
   icon: iron_sword
   display_name: "$name"
@@ -13,6 +13,6 @@ godricssword:
   right_click: cast
   potion_effects: increase_damage:2
   glow: true
-  active_spell: godrics_sword_ability
+  active_spell: sword_of_godric_gryffindor_ability
   spells:
-    - godrics_sword_ability
+    - sword_of_godric_gryffindor_ability

@@ -1,4 +1,4 @@
-godrics_sword_ability:
+sword_of_godric_gryffindor_ability:
   inherit: expelliarmus
   hidden: true
   actions:

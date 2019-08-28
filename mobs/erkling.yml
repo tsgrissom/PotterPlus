@@ -7,7 +7,7 @@ erkling:
   default_drops: false
   helmet: leaves
   drops:
-    - erkling_dart_blower
+    - erklingdartblower
     - ac:10
   interval: 4000
   potion_effects:

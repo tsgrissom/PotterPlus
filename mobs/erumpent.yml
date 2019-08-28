@@ -10,7 +10,7 @@ erumpent:
     - type: speed
       amplifier: 1
   drops:
-    - erumpent_horn
+    - erumpenthorn
     - ac:15
   triggers:
     interval:

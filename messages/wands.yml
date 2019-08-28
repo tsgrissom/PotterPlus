@@ -1,4 +1,25 @@
 wands:
+  year2:
+    name: "Second Year Upgrade"
+    description: "Increases your wand's power"
+  year3:
+    name: "Third Year Upgrade"
+    description: "Increases your wand's power"
+  year4:
+    name: "Fourth Year Upgrade"
+    description: "Increases your wand's power"
+  year5:
+    name: "Fifth Year Upgrade"
+    description: "Increases your wand's power"
+  year6:
+    name: "Sixth Year Upgrade"
+    description: "Increases your wand's power"
+  year7:
+    name: "Seventh Year Upgrade"
+    description: "Increases your wand's power"
+  graduate:
+    name: "Gradute Upgrade"
+    description: "Increases your wand's power"
   basicblazebox:
     bound_instructions: ""
     description: >-
@@ -19,19 +40,16 @@ wands:
       Enterprises line
     name: "&6Deflagration Deluxe"
     spell_instructions: ""
-  developer:
-    description: "&9Curated spells to aid in the furthering of magic"
-    name: "&3Magic Developer Wand"
   dungbombs:
     description: "&8A horrid-smelling pack of dungbombs"
     name: "&6Dungbomb Pack"
-  erkling_dart_blower:
+  erklingdartblower:
     bound_instructions: ""
     description: "&aA dart blower stolen from an erkling"
     inventory_instructions: ""
     name: "&2Erkling Dart Blower"
     spell_instructions: ""
-  erumpent_horn:
+  erumpenthorn:
     bound_instructions: ""
     description: "&7A Class-B tradeable material. Highly explosive."
     name: "&8Erumpent Horn"
@@ -41,7 +59,7 @@ wands:
     description: "&aGrants you the ability to temporarily breathe underwater"
     name: "&2Gillyweed"
     spell_instructions: ""
-  godricssword:
+  swordofgodricgryffindor:
     bound_instructions: ""
     description: "&6A sword imbued with magic, previously owned by a Hogwarts founder"
     name: "&4Sword of Godric Gryffindor"

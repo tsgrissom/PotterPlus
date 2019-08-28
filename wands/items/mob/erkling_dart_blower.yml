@@ -1,4 +1,4 @@
-erkling_dart_blower:
+erklingdartblower:
   inherit: base_wand
   icon: stick
   display_name: '$name'
