@@ -9,3 +9,10 @@ disable_default_automata: false
 
 # Gives the player the BetterPotter data pack whenever they log in
 resource_pack: "https://download.nodecdn.net/containers/nodecraft/minepack/38b4abd16c1c2e38cab1858415db1c7b.zip"
+
+# Defines custom currencies
+custom_currency:
+  galleon:
+    max: 9999
+    default: 0
+    icon: gold_nugget

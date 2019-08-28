@@ -1,36 +1,27 @@
-appearanceshop:
-  parameters:
-    cost_type: none
-bookshop:
-  actions:
-    cast:
-      - class: ItemShop
-  category: npc
-  hidden: true
-  icon: book
-  parameters:
-    confirm: true
-    confirm_filler: 'stained_glass:5'
-    items:
-      - item: book|dada
-      - item: book|charms
-      - item: book|transfiguration
-      - item: book|herbology
-      - item: book|dark
-      - item: book|creatures
-      - item: book|elective
-    quiet: true
+ticketshop:
+  enabled: false
 colorshop:
-  parameters:
-    cost_type: none
+  enabled: false
 effectshop:
+  enabled: false
+appearanceshop:
+  enabled: false
+bookshop:
+  enabled: false
+broomshop:
   parameters:
-    cost_type: none
+    cost_type: galleon
+    confirm: true
+    confirm_filler: stained_glass:5
+    items:
+      - item: wand|firebolt
+        cost: 250
+      - item: wand|nimbus
+        cost: 100
 spellshop:
   parameters:
     confirm_filler: 'stained_glass:5'
     cost_type: ac
-
 ollivander:
   parameters:
     put_in_hand: false

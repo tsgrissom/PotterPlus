@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/28/2019
 
+* Cleaned up shop spells, disabled a few, added Galleons
 * Changed shop messages to match UI
 * Sweeping changes to clean up wands, disable a ton, etc.
 * Disabled unnecessary automata
