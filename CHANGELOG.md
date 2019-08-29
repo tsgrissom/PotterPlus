@@ -8,8 +8,13 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
-### 8/28/2019
+### 8/29/19
 
+* Cleaned up some unnecessary files
+
+### 8/28/19
+
+* Moved base classes script from `classes.yml` to `/classes/base.yml`
 * Un-ignored classes folder. Beginning of branching paths starts here.
 * Re-named "special.yml" materials to "stairs.yml"
 * Made all attributes have a min value  of 1
