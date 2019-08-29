@@ -18,6 +18,15 @@ spells:
   upgrades:
     level_requirement: "&r&9Requires&8: &7$path"
     cast_requirement: "&r&9Casts&8: &7$current&8/&7$required"
+  choosepath:
+    name: "Choose Your Path"
+    description: "Select a path after graduating"
+    title: "&7&l>> &8Choose your path"
+    confirm_title: "&7&l>> &8Confirm path"
+    no_path: "&7&l>> &5This will unlock once you graduate."
+    no_required_path: "&7&l>> &5This will unlock once you graduate."
+    selected_free: "t:$item"
+    at_limit: "&7&l>> &5You can only choose your path once."
   vermillious:
     name: "Vermillious"
     description: "Conjures a number of burning red sparks which inflict damage on those they touch."
