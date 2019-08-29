@@ -1,0 +1,9 @@
+dark:
+  mana_regeneration: 50
+  max_mana: 200
+  max_mana_regeneration: 50
+  inherit: default
+  spells:
+    - avadakedavra
+    - crucio
+    - imperio
