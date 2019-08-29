@@ -18,3 +18,14 @@ reparo:
   enabled: false
 reparomaxima:
   enabled: false
+
+# Shops
+
+ticketshop:
+  enabled: false
+colorshop:
+  enabled: false
+effectshop:
+  enabled: false
+appearanceshop:
+  enabled: false

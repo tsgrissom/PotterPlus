@@ -1,0 +1,26 @@
+bookshop:
+  category: npc
+  parameters:
+    free: false
+    cost_type: galleon
+    items:
+      - item: book|charms
+        name: "&6Charms Textbook"
+        cost: 10
+      - item: book|creatures
+        name: "&6Care of Magical Creatures Textbook"
+      - item: book|dada
+        name: "&6Defense Against the Dark Arts Textbook"
+        cost: 10
+      - item: book|dark
+        name: "&6Dark Arts Textbook"
+        cost: 10
+      - item: book|elective
+        name: "&6Elective Textbook"
+        cost: 5
+      - item: book|herbology
+        name: "&6Herbology Textbook"
+        cost: 10
+      - item: book|transfiguration
+        name: "&6Transfiguration Textbook"
+        cost: 5

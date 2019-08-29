@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/29/19
 
+* Added NPC category, split up `shops.yml`, fixed `bookshop`
 * Skinned text for `choosepath` to match the UI
 * Added `dark` path
 * Split up years into a folder

@@ -1,0 +1,9 @@
+ollivander:
+  category: npc
+  parameters:
+    put_in_hand: false
+    auto_close: true
+    items:
+      - item: wand:randomizedpotterwand
+        costs:
+          ticket: 1

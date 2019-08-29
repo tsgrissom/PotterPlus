@@ -1,0 +1,11 @@
+broomshop:
+  category: npc
+  parameters:
+    cost_type: galleon
+    confirm: true
+    confirm_filler: stained_glass:5
+    items:
+      - item: wand|firebolt
+        cost: 250
+      - item: wand|nimbus
+        cost: 100

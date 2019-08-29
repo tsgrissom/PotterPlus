@@ -1,6 +1,7 @@
 choosepath:
   icon: ender_eye
   hidden: true
+  category: npc
   actions:
     cast:
       - class: Selector

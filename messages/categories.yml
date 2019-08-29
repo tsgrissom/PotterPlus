@@ -32,3 +32,6 @@ categories:
   transfiguration:
     description: "Spells to transform, switch, vanish, or conjure objects."
     name: "Transfiguration"
+  npc:
+    description: "Spells used by NPCs, likely to bring up a GUI."
+    name: "NPC"
