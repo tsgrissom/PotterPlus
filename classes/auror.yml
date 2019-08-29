@@ -1,0 +1,8 @@
+auror:
+  inherit: wizard
+  parent: wizard
+  path: graduate
+  icon: wood_hoe:24
+  mana_max: 220
+  mana: 220
+  mana_regeneration: 40
