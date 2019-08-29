@@ -1,0 +1,16 @@
+choosepath:
+  icon: ender_eye
+  hidden: true
+  actions:
+    cast:
+      - class: Selector
+  parameters:
+    requirements:
+      - path_end: graduate
+    options:
+      - item: wand|firebolt
+        cost: 10
+    limit: 1
+    confirm: true
+    auto_close: true
+    confirm_filler: stained_glass:3

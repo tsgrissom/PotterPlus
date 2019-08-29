@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/29/19
 
+* Added a `choosepath` spell
 * Cleaned up some unnecessary files
 
 ### 8/28/19
