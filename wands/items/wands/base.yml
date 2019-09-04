@@ -18,10 +18,4 @@ randomizedpotterwand:
   effects:
     randomize:
     -  class: EffectSingle
-       sound: magic.ignite
-    -  class: EffectRing
-       firework: star
-       color: FFFFFF
-       color2: 000000
-       radius: 4
-       size: 2
+       sound: betterpotter.swish
