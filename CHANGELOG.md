@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/4/19
 
+* Adjusted Conductor's Wand and Music Box wand keys to match style
 * Adjusted effects when purchasing and opening a Wand Box
 
 ### 8/29/19

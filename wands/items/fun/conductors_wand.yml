@@ -1,4 +1,4 @@
-conductors_wand:
+conductorswand:
   inherit: base_wand
   icon: stick
   active_spell: music

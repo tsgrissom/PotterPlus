@@ -1,5 +1,5 @@
-music_box:
-  inherit: conductors_wand
+musicbox:
+  inherit: conductorswand
   icon: note_block
   cooldown_reduction: 5
   has_uses: false

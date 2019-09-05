@@ -30,7 +30,7 @@ wands:
   camera:
     description: "&7Snap a photo of yourself or others"
     name: "&8Camera"
-  conductors_wand:
+  conductorswand:
     description: Play some music!
     name: Conductor"s Wand
   deflagrationdeluxe:
@@ -72,7 +72,7 @@ wands:
     description: "&8Unlocks most doors for a limited time"
     name: "&7Key"
     spell_instructions: ""
-  music_box:
+  musicbox:
     description: "Play some music!"
     name: "Music Box"
   peruvianpowder:
