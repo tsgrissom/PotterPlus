@@ -5,7 +5,7 @@ spells:
     fail: "&7&l>> &5Spell failed. Please report this to an administrator."
     insufficient_permission: "&cYou don't have permission to cast that here."
     cast_play_message: "a:&6$player &3cast &6$spell &3on you!"
-  ollivander:
+  wandshop:
     title: "Wand Shop"
     selected: "&7&l>> &dYou purchased &r$item &dfor &r$cost"
   bookshop:

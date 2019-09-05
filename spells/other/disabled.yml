@@ -29,3 +29,5 @@ effectshop:
   enabled: false
 appearanceshop:
   enabled: false
+ollivander:
+  enabled: false

@@ -1,4 +1,5 @@
-ollivander:
+wandshop:
+  inherit: ollivander
   category: npc
   effects:
     selected:
@@ -12,6 +13,7 @@ ollivander:
   parameters:
     put_in_hand: false
     auto_close: true
+    confirm: false
     items:
       - item: wand:randomizedpotterwand
         costs:

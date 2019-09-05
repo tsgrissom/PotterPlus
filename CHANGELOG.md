@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/4/19
 
+* Re-named `ollivander` to `wandshop`
 * Adjusted Conductor's Wand and Music Box wand keys to match style
 * Adjusted effects when purchasing and opening a Wand Box
 
