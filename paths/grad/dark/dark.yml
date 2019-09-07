@@ -2,7 +2,6 @@ dark:
   mana_regeneration: 50
   max_mana: 200
   max_mana_regeneration: 50
-  inherit: wizard
   spells:
     - avadakedavra
     - crucio

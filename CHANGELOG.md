@@ -8,6 +8,10 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 9/7/19
+
+* Removed path reference that was causing a warning
+
 ### 9/4/19
 
 * Re-named `ollivander` to `wandshop`
