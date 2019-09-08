@@ -15,6 +15,7 @@
 * Make firestorm place fire trail while moving instead of at the end
 * Use some sort of template to simplify fun item wand making (`mode: cast`?)
 * Add Riddikulus
+* Add new spells from Fantastic Beasts and review every spell list I can find for any missing
 * Change `bubblehead` so the item doesn't say "Diving Helmet"
 
 ### Other ideas
