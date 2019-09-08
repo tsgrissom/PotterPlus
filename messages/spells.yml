@@ -229,10 +229,13 @@ spells:
     description: "Awakens stunned targets back to their normal state, alleviating confusion."
   bubblehead:
     description: "Conjures a magical bubble of air for a wizard to breathe underwater with."
+    usage: "Spell charges for 4s"
   bubblehead|2:
-    upgrade_description: "Increased duration."
+    upgrade_description: "Increased duration. Decreased charge time."
+    usage: "Spell charges for 3s"
   bubblehead|3:
-    upgrade_description: "Increased duration."
+    upgrade_description: "Increased duration. Decreased charge time."
+    usage: "Spell charges for 2s"
   orchideous:
     description: "Pollinates the area with flowers."
   accio:
