@@ -702,6 +702,10 @@ spells:
   pulvifors:
     name: "Pulvifors"
     description: "Conjures an invisible cushion to protect yourself from fall damage."
+  pulvifors|2:
+    upgrade_description: "Increased duration.\nDecreased cooldown."
+  pulvifors|3:
+    upgrade_description: "Decreased cooldown."
   finestra:
     name: "Finestra"
     description: "Vaporizes glass surfaces as if they were struck with a heavy object."

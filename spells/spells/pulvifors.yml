@@ -2,27 +2,37 @@ pulvifors:
   inherit: arresto
   worth: 5 ac
   category: charms
+  upgrade_required_casts: 25
+  upgrade_required_path: year2
   effects:
     cast:
-    -  class: EffectSingle
-       sound: magic.shimmer
-       sound_volume: 1
-       effectlib:
-         class: Shield
-         iterations: 10
-         particle: water_wake
-    -  class: EffectSingle
-       sound: horse_saddle
-       sound_volume: 1
-       effectlib:
-         class: Shield
-         iterations: 10
-         particle: smoke_normal
+      - class: EffectSingle
+        sound: magic.shimmer
+        location: origin
+        source_location: feet
+        effectlib:
+          class: Circle
+          radius: 2
+          duration: 1000
+          particle: spell
+          wholeCircle: true
+          enableRotation: false
     land:
-    -  class: EffectRing
-       effect: step_sound
-       period: 2
+      - class: EffectRing
+        effect: step_sound
+        period: 2
   parameters:
     protection_count: 1
     duration: 5000
     cooldown: 10000
+
+pulvifors|2:
+  upgrade_required_casts: 50
+  upgrade_required_path: year3
+  parameters:
+    duration: 10000
+    cooldown: 80000
+
+pulvifors|3:
+  parameters:
+    cooldown: 5000
