@@ -10,8 +10,6 @@ bombarda:
     mana: 35
   actions:
     cast:
-      - class: PlayEffects
-        effect: warmup
       - class: Delay
       - class: PlayEffects
         effect: launch
@@ -19,7 +17,7 @@ bombarda:
         actions:
           - class: Explosion
   effects:
-    warmup:
+    cast:
       - class: EffectSingle
         location: origin
         sound: magic.shimmer_quiet
