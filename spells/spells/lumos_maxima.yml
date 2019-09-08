@@ -22,8 +22,6 @@ lumosmaxima:
           radius: 0.1
           duration: 3000
   parameters:
-    add_effects:
-      night_vision: 2
     duration: 90000
     cooldown: 90000
   costs:

@@ -16,6 +16,7 @@ lumos:
           duration: 1000
   parameters:
     target: self
+    effect_night_vision: 0
     duration: 10000
     cooldown: 10000
   costs:
