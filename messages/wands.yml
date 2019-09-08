@@ -23,7 +23,7 @@ wands:
   basicblazebox:
     bound_instructions: ""
     description: >-
-      &4A box of assorted fireworks from Weasley"s Wizard Wheezes" Explosive
+      &4A box of assorted fireworks from Weasley's Wizard Wheezes' Explosive
       Enterprises line
     name: "&6Basic Blaze Box"
     spell_instructions: ""
@@ -36,7 +36,7 @@ wands:
   deflagrationdeluxe:
     bound_instructions: ""
     description: >-
-      &4A big box of assorted fireworks from Weasley"s Wizard Wheezes" Explosive
+      &4A big box of assorted fireworks from Weasley's Wizard Wheezes' Explosive
       Enterprises line
     name: "&6Deflagration Deluxe"
     spell_instructions: ""

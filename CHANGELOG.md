@@ -10,7 +10,8 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/8/19
 
-* Re-worked Pulvifors effects and added leveling 
+* Fixed a grammatical error in two wand descriptions
+* Re-worked Pulvifors effects and added leveling
 * Re-balanced Bewitched Snowball costs and effects
 * Removed Bombarda `warmup` effects and placed them under `cast`
 * Re-worked how `bubblehead` works
