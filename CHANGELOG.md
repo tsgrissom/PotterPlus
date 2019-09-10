@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/9/19
 
+* Added more paths to flesh out how post-grad pathing will work
 * Removed unnecessary comments from mob files
 * Split up Kneazle and Crup mob types into separate files
 * Removed AC drops from mobs

@@ -1,6 +1,6 @@
 darkwizard:
-  parent: wizard
-  path: dark
+  inherit: wizard
+  path: darkunderling
   icon: wood_hoe:25
   mana_max: 200
   mana: 200

@@ -1,7 +1,6 @@
 professor:
   inherit: wizard
-  parent: wizard
-  path: graduate
+  path: traineeprofessor
   icon: wood_hoe:27
   mana_max: 250
   mana: 250
