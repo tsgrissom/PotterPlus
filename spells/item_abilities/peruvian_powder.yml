@@ -4,13 +4,26 @@ peruvian_powder_ability:
   category: item_ability
   actions:
     cast:
-      - class: AreaOfEffect
+      - class: CustomProjectile
+        target: other
         actions:
-          - class: PotionEffect
+          - class: AreaOfEffect
+            target: any
+            actions:
+              - class: PotionEffect
   effects:
-    cast:
+    tick:
       - class: EffectSingle
-        location: origin
+        location: target
+        effectlib:
+          class: Sphere
+          particle: block_crack
+          material: obsidian
+          radius: 0.1
+          iterations: 1
+    hit:
+      - class: EffectSingle
+        location: target
         effectlib:
           class: Cloud
           cloudParticle: block_crack
@@ -20,13 +33,11 @@ peruvian_powder_ability:
           cloudSize: $radius
           duration: $duration
   parameters:
-    target: self
     target_source: true
+    range: 64
+    gravity: 0.05
     radius: 6
-    y_radius: 6
     duration: 8000
-    effect_blindness: 2
-    slow: 2
     add_effects:
-      blindess: 2
+      blindness: 2
       slow: 2

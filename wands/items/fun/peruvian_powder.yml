@@ -1,19 +1,17 @@
 peruvianpowder:
-  inherit: base_wand
   icon: sulphur
-  display_name: "$name"
-  lore:
-    - "$description"
-    - ""
-    - "$uses"
-  mana: 50
-  mana_regeneration: 25
+  mode: cast
+  indestructible: false
   undroppable: false
-  drop: none
-  swap: none
-  left_click: none
-  right_click: cast
+  locked: true
   uses: 8
   active_spell: peruvian_powder_ability
   spells:
     - peruvian_powder_ability
+  display_name: "$name"
+  lore:
+    - "$description"
+    - ""
+    - "&7Right-click to throw"
+    - ""
+    - "$uses"

@@ -10,6 +10,8 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/10/19
 
+* Overhauled SFX for `peruvianpowder`
+* Fixed weird implementation of Peruvian Instant Darkness Powder
 * Fixed weird implementation of Conductor's Wand and Music Box
 * Fixed weird implementation of Basic Blaze Boxes and Deflagration Deluxes
 * Fixed weird implementation of Keys and Skeleton Keys
