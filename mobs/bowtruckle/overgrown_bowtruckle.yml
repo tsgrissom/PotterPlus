@@ -4,8 +4,6 @@ overgrown_bowtruckle:
   baby: false
   health: 50
   interval: 4000
-  drops:
-    - ac:10
   triggers:
     interval:
       cast:

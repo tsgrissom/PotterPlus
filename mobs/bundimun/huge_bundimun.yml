@@ -3,8 +3,6 @@ huge_bundimun:
   name: '&2Huge Bundimun'
   size: 4
   health: 50
-  drops:
-    - ac:10
   weakness:
     fire: 0.6
   triggers:

@@ -5,8 +5,6 @@ acromantula_queen:
   type: spider
   name: '&2Queen Acromantula'
   health: 60
-  drops:
-    - ac:10
   potion_effects:
     - type: slow
       amplifier: 1

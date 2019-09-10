@@ -7,8 +7,6 @@ centaur:
   default_drops: false
   aggro: true
   interval: 2000
-  drops:
-    - ac:15
   triggers:
     interval:
       cast:
