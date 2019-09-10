@@ -17,6 +17,7 @@
 * Add Riddikulus
 * Add new spells from Fantastic Beasts and review every spell list I can find for any missing
 * Change `bubblehead` so the item doesn't say "Diving Helmet"
+* Document aspects of the configuration so that BetterPotter can be used as an example for other configs
 
 ### Other ideas
 
