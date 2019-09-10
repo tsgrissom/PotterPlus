@@ -10,7 +10,6 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/10/19
 
-* Disabled `potterwand` to avoid confusion
 * Re-arranged wands folder
 * Fixed Melofors material reference
 * Fixed weird implementation of Trick Wand
