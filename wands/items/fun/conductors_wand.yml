@@ -1,13 +1,16 @@
 conductorswand:
-  inherit: base_wand
   icon: stick
+  mode: cast
+  indestructible: false
+  undroppable: false
+  locked: true
+  cost_reduction: 10
+  uses: 5
   active_spell: music
   spells:
     - music
-  left_click: cast
-  right_click: none
-  drop: none
-  swap: none
-  mana: 20
-  mana_regeneration: 10
-  uses: 5
+  display_name: "$name"
+  lore:
+    - "$description"
+    - ""
+    - "$uses"

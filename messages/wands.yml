@@ -31,8 +31,8 @@ wands:
     description: "&7Snap a photo of yourself or others"
     name: "&8Camera"
   conductorswand:
-    description: Play some music!
-    name: Conductor"s Wand
+    description: "&aPlay some music!"
+    name: "&bConductor's Wand"
   deflagrationdeluxe:
     bound_instructions: ""
     description: >-
@@ -73,8 +73,8 @@ wands:
     name: "&7Key"
     spell_instructions: ""
   musicbox:
-    description: "Play some music!"
-    name: "Music Box"
+    description: "&aPlay some music!"
+    name: "&bMusic Box"
   peruvianpowder:
     bound_instructions: ""
     description: "&7Blanket an area in darkness"
