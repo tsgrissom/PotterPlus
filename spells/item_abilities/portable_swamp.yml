@@ -16,4 +16,7 @@ portable_swamp_ability:
     target: block
     check_destructible: false
     undo: 12000
-    cooldown: 15000
+    undo_speed: 1
+    cooldown: 30000
+  costs:
+    mana: 0
