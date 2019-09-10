@@ -1,5 +1,3 @@
-# Acromantula
-
 acromantula:
   inherit: acromantula_underling
   name: '&2Acromantula'
