@@ -20,7 +20,7 @@ trick_wand_ability:
           - class: Cast
             spell: expelliarmus
             spell_parameters:
-              backfire_chance: 0.7
+              target: self
               keep_in_inventory: false
           - class: Cast
             spell: herbifors

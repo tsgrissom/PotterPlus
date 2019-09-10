@@ -8,6 +8,11 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 9/10/19
+
+* Fixed a bug where `trickwand` did nothing
+* Overhauled visuals of the `basicblazebox` and `deflagrationdeluxe`
+
 ### 9/9/19
 
 * Added more paths to flesh out how post-grad pathing will work

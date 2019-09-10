@@ -3,19 +3,49 @@ basic_blaze_box_ability:
   icon: firework
   hidden: true
   category: item_ability
+  effects:
+    cast:
+      - class: EffectSingle
+        location: target
+        target_offset: 0,6,0
+        effectlib:
+          enable_rotation: false
+          class: ColoredImage
+          fileName: https://i.pinimg.com/originals/64/aa/21/64aa21161101f75b496a418afb7f9eb7.png
+          duration: 2000
+          transparency: true
+    logo:
+      - class: EffectSingle
+        location: target
+        target_offset: 0,6,0
+        effectlib:
+          class: Text
+          text: "WW"
+          iterations: 2
+          particle: firework_spark
   actions:
     cast:
-      - class: Repeat
+      - class: Parallel
         actions:
-          - class: Spread
+          - class: Serial
             actions:
-              - class: ModifyParameters
+              - class: Repeat
                 actions:
-                  - class: Firework
+                  - class: Spread
+                    actions:
+                      - class: ModifyParameters
+                        actions:
+                          - class: Firework
+                      - class: Delay
+                        delay: 250
+          - class: Serial
+            actions:
               - class: Delay
+                delay: 2500
+              - class: PlayEffects
   parameters:
     color: random
-    color2: FFFFFF
-    delay: 500
+    color2: random
     repeat: 5
+    effect: logo
     cooldown: 5000
