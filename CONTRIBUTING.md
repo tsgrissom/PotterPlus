@@ -1,5 +1,7 @@
 # Contributing to BetterPotter
 
+[Contributor Covenant Code of Conduct](https://github.com/grisstyl/BetterPotter/blob/master/CODE_OF_CONDUCT.md)
+
 I recommend reading this guide in its entirety before submitting a pull request or contributing to BetterPotter.
 
 ## Q&A
