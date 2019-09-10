@@ -1,18 +1,27 @@
 swordofgodricgryffindor:
-  inherit: base_wand
   icon: iron_sword
   display_name: "$name"
   lore:
     - "$description"
+    - ""
+    - "&4Left-click &8> &7to swing"
+    - "&4Right-click &8> &7to disarm"
+    - "&4Swap &8> &7to heal"
+  bound: true
+  undroppable: false
+  indestructible: true
+  locked: true
   mana: 100
   mana_max: 100
   mana_regeneration: 10
   drop: none
-  swap: none
+  swap: alt_cast
   left_click: none
   right_click: cast
   potion_effects: increase_damage:2
   glow: true
   active_spell: sword_of_godric_gryffindor_ability
+  alternate_spell: sword_of_godric_gryffindor_alt_ability
   spells:
     - sword_of_godric_gryffindor_ability
+    - sword_of_godric_gryffindor_alt_ability

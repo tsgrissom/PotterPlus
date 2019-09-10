@@ -917,6 +917,12 @@ spells:
   sword_of_godric_gryffindor_ability:
     name: "Sword of Godric Gryffindor Ability"
     description: "Disarm your target"
+    cast: ""
+  sword_of_godric_gryffindor_alt_ability:
+    name: "Sword of Godric Gryffindor Alt Ability"
+    description: "Heal yourself"
+    cast: ""
+    cast_self: ""
   basic_blaze_box_ability:
     name: "Basic Blaze Box Ability"
     description: "Send out some fireworks"

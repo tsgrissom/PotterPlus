@@ -45,4 +45,12 @@ sword_of_godric_gryffindor_ability:
     target_breakables: 2
     delay: 500
   costs:
-    mana: 75
+    mana: 60
+
+sword_of_godric_gryffindor_alt_ability:
+  inherit: episkey
+  parameters:
+    target: self
+    cooldown: 2000
+  costs:
+    mana: 60

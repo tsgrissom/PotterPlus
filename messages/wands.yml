@@ -63,7 +63,7 @@ wands:
     bound_instructions: ""
     description: "&6A sword imbued with magic, previously owned by a Hogwarts founder"
     name: "&4Sword of Godric Gryffindor"
-    spell_instructions: "&4&lSword of Godric Gryffindor&7// &6The Sword of Godric Gryffindor can be wielded as a powerful melee weapon or as an effective means to disarm your opponent&8. &eLeft-click &6to swing the sword&8. &eRight-click &6to disarm your opponent&8."
+    spell_instructions: "&4&lSword of Godric Gryffindor&7// &6The Sword of Godric Gryffindor can be wielded as a powerful melee weapon or as an effective means to disarm your opponent&8. &eLeft-click &6to swing the sword&8. &eRight-click &6to disarm your opponent&8. &ePress swap &6to heal yourself&8."
   handbag:
     description: "&cA very spacious beaded handbag enchanted to hold many, many items"
     name: "&4Beaded Handbag"
