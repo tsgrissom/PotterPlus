@@ -1,5 +1,3 @@
-# Crup
-
 crup_puppy:
   name: '&cCrup Puppy'
   type: wolf
@@ -7,8 +5,3 @@ crup_puppy:
   baby: true
   interact_spell: crup_pet
   default_drops: false
-
-crup:
-  inherit: crup_puppy
-  name: '&cCrup'
-  baby: false

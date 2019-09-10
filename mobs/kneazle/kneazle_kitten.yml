@@ -1,13 +1,6 @@
-# Kneazle
-
 kneazle_kitten:
   name: '&eKneazle Kitten'
   type: ocelot
   tamed: true
   baby: true
   interact_spell: kneazle_pet
-
-kneazle:
-  inherit: kneazle_kitten
-  name: '&eKneazle'
-  baby: false
