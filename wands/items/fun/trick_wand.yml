@@ -1,20 +1,16 @@
 trickwand:
-  inherit: base_wand
-  icon: wood_hoe:24,wood_hoe:25,wood_hoe:26
+  icon: stick
+  mode: cast
+  cost_reduction: 10
+  indestructible: false
+  undroppable: false
+  locked: true
+  uses: 5
+  active_spell: trick_wand_ability
+  spells:
+    - trick_wand_ability
   display_name: "$name"
   lore:
     - "$description"
     - ""
     - "$uses"
-  cost_reduction: 10
-  mana: 50
-  mana_regeneration: 25
-  undroppable: false
-  drop: none
-  swap: none
-  left_click: cast
-  right_click: none
-  uses: 5
-  active_spell: trick_wand_ability
-  spells:
-    - trick_wand_ability
