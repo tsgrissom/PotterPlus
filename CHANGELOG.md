@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/10/19
 
+* Added burp sound to Gillyweed
 * Overhauled SFX for `peruvianpowder`
 * Fixed weird implementation of Peruvian Instant Darkness Powder
 * Fixed weird implementation of Conductor's Wand and Music Box
