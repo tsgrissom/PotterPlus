@@ -1,0 +1,4 @@
+skeleton_key_ability:
+  inherit: key_ability
+  parameters:
+    destructible: doors

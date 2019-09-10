@@ -1,19 +1,17 @@
 key:
-  inherit: base_wand
   icon: shears
+  mode: cast
+  indestructible: false
+  locked: true
+  uses: 5
+  left_click: none
+  active_spell: key_ability
+  spells:
+    - key_ability
   display_name: "$name"
   lore:
     - '$description'
     - ''
+    - '&7Right-click to use'
+    - ''
     - '$uses'
-  mana: 50
-  mana_regeneration: 25
-  undroppable: false
-  drop: none
-  swap: none
-  left_click: cast
-  right_click: none
-  uses: 5
-  active_spell: key_ability
-  spells:
-    - key_ability
