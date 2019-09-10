@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/10/19
 
+* Fixed Melofors material reference
 * Fixed weird implementation of Trick Wand
 * Added new ability to Sword of Godric Gryffindor
 * Fixed weird implementation of Portable Swamp

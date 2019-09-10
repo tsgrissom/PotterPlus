@@ -42,7 +42,7 @@ melofors:
         particle_offset_x: 0.3
         particle_offset_y: 0.5
         particle_offset_z: 0.3
-        sound: magic.zap
+        sound: magic.hit
         sound_volume: .3
         particle_data: 0.3
   parameters:
@@ -50,7 +50,7 @@ melofors:
     target_type: Player
     range: 24
     cooldown: 4000
-    brush: pumpkin
+    brush: carved_pumpkin
     undo: 6000
   costs:
     mana: 24
