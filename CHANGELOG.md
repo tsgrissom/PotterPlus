@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/10/19
 
+* Fixed weird implementation of Basic Blaze Boxes and Deflagration Deluxes
 * Fixed weird implementation of Keys and Skeleton Keys
 * Fixed weird wand implementation of Gillyweed
 * Fixed a bug where `trickwand` did nothing

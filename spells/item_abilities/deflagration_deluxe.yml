@@ -2,4 +2,3 @@ deflagration_deluxe_ability:
   inherit: basic_blaze_box_ability
   parameters:
     repeat: 20
-    cooldown: 8000

@@ -48,4 +48,6 @@ basic_blaze_box_ability:
     color2: random
     repeat: 5
     effect: logo
-    cooldown: 5000
+    cooldown: 15000
+  costs:
+    mana: 0
