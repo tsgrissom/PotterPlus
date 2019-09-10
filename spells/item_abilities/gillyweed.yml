@@ -8,7 +8,7 @@ gillyweed_ability:
       - class: PotionEffect
   parameters:
     target: self
-    cooldown: 300000
+    cooldown: 5000
     duration: 300000
   costs:
-    mana: 25
+    mana: 0
