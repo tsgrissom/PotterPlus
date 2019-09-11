@@ -1,0 +1,9 @@
+# Disables the SP system in favor of AC
+sp_enabled: false
+
+# Defines custom currencies
+custom_currency:
+  galleon:
+    max: 9999
+    default: 0
+    icon: gold_nugget

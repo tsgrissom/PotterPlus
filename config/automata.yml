@@ -1,0 +1,2 @@
+# Removes default automata because they aren't necessary
+disable_default_automata: false
