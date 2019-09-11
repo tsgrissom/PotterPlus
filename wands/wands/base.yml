@@ -12,6 +12,11 @@ potterwand:
   spells:
     - lumos
   active_spell: lumos
+  classes:
+    - wizard
+    - auror
+    - darkwizard
+    - professor
 
 randomizedpotterwand:
   icon: wood_hoe:24,wood_hoe:25,wood_hoe:26

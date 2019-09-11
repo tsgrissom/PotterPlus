@@ -9,9 +9,9 @@ choosepath:
     requirements:
       - path_end: graduate
     options:
-      - icon: diamond_axe:140
-        name: "&7Choose a Path"
+      - placeholder: true
       - unlock_class: darkwizard
+        item: darkwizardupgrade
         icon: wood_hoe:25
         name: "&8&lPath of the Dark Wizard"
         lore:
@@ -25,7 +25,7 @@ choosepath:
           - "  &7and inflicting great injury on others&8."
           - ""
           - "&a&l++ &6Moderate &7resistance to all damage"
-          - "&a&l++ &6Three &7new spells to learn&8:"
+          - "&a&l++ &6Three &7new spells&8:"
           - "  &8> &7Imperio"
           - "  &8> &7Crucio"
           - "  &8> &7Avada Kedavra"
@@ -34,11 +34,10 @@ choosepath:
           - "&7> &5Mana Regeneration&8: &d40"
           - ""
           - "&6&lCLICK &8> &7to select this path"
-      - icon: diamond_axe:140
-        name: "&7Choose a Path"
-      - icon: diamond_axe:140
-        name: "&7Choose a Path"
+      - placeholder: true
+      - placeholder: true
       - unlock_class: auror
+        item: aurorupgrade
         icon: wood_hoe:24
         name: "&6&lPath of the Auror"
         lore:
@@ -60,11 +59,10 @@ choosepath:
           - "&7> &5Mana Regeneration&8: &d40"
           - ""
           - "&6&lCLICK &8> &7to select this path"
-      - icon: diamond_axe:140
-        name: "&7Choose a Path"
-      - icon: diamond_axe:140
-        name: "&7Choose a Path"
+      - placeholder: true
+      - placeholder: true
       - unlock_class: professor
+        item: professorupgrade
         icon: wood_hoe:27
         name: "&3&lPath of the Professor"
         lore:
@@ -77,15 +75,14 @@ choosepath:
           - "  &7Their knowledge of magic gives them"
           - "  &7a particular prowess in any area of magic&8."
           - ""
-          - "&a&l++ &6Slightly &7reduced spell cooldowns"
-          - "&a&l++ &6Slightly &7reduced spell costs"
+          - "&a&l++ &625&8% &7reduced spell cooldowns"
+          - "&a&l++ &640&8% &7reduced spell costs"
           - ""
           - "&7> &5Mana&8: &d250"
           - "&7> &5Mana Regeneration&8: &d60"
           - ""
           - "&6&lCLICK &8> &7to select this path"
-      - icon: diamond_axe:140
-        name: "&7Choose a Path"
+      - placeholder: true
     limit: 1
     confirm: true
     auto_close: true

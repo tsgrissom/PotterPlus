@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/11/19
 
+* First draft of post-grad progression. Visit a `choosepath` NPC.
 * Upgraded visuals of Flame-Freezing Charm
 * Made fun wand flags consistent
 

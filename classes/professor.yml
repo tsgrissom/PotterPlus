@@ -1,5 +1,6 @@
 professor:
-  inherit: wizard
+  inherit: base
+  locked: true
   path: traineeprofessor
   icon: wood_hoe:27
   mana_max: 250

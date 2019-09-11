@@ -1,8 +1,0 @@
-darkunderling:
-  mana_regeneration: 50
-  max_mana: 200
-  max_mana_regeneration: 50
-  spells:
-    - avadakedavra
-    - crucio
-    - imperio

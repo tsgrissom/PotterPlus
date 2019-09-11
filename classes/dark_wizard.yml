@@ -1,5 +1,6 @@
 darkwizard:
-  inherit: wizard
+  inherit: base
+  locked: true
   path: darkunderling
   icon: wood_hoe:25
   mana_max: 200

@@ -1,5 +1,6 @@
 auror:
-  inherit: wizard
+  inherit: base
+  locked: true
   path: traineeauror
   icon: wood_hoe:24
   mana_max: 220
