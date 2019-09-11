@@ -4,6 +4,7 @@ trickwand:
   cost_reduction: 10
   indestructible: false
   undroppable: false
+  unstashable: false
   locked: true
   uses: 5
   active_spell: trick_wand_ability

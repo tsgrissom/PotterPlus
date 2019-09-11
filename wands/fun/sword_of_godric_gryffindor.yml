@@ -9,6 +9,7 @@ swordofgodricgryffindor:
     - "&4Swap &8> &7to heal"
   bound: true
   undroppable: false
+  unstashable: false
   indestructible: true
   locked: true
   mana: 100

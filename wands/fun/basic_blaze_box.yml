@@ -3,6 +3,7 @@ basicblazebox:
   mode: cast
   indestructible: false
   undroppable: false
+  unstashable: false
   locked: true
   uses: 8
   active_spell: basic_blaze_box_ability

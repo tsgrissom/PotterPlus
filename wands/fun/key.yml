@@ -2,6 +2,8 @@ key:
   icon: shears
   mode: cast
   indestructible: false
+  undroppable: false
+  unstashable: false
   locked: true
   uses: 5
   left_click: none

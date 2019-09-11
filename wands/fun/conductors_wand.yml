@@ -3,6 +3,7 @@ conductorswand:
   mode: cast
   indestructible: false
   undroppable: false
+  unstashable: false
   locked: true
   cost_reduction: 10
   uses: 5

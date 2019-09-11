@@ -2,6 +2,8 @@ gillyweed:
   icon: vine
   mode: cast
   indestructible: false
+  undroppable: false
+  unstashable: false
   locked: true
   left_click: none
   right_click: cast

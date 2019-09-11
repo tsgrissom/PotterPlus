@@ -3,6 +3,7 @@ peruvianpowder:
   mode: cast
   indestructible: false
   undroppable: false
+  unstashable: false
   locked: true
   uses: 8
   active_spell: peruvian_powder_ability
