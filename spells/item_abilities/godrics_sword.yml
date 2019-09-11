@@ -1,5 +1,6 @@
 sword_of_godric_gryffindor_ability:
   inherit: expelliarmus
+  category: item_ability
   hidden: true
   actions:
     cast:
@@ -49,6 +50,8 @@ sword_of_godric_gryffindor_ability:
 
 sword_of_godric_gryffindor_alt_ability:
   inherit: episkey
+  category: item_ability
+  hidden: true
   parameters:
     target: self
     cooldown: 2000
