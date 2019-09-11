@@ -7,6 +7,7 @@ flamefreezingcharm:
   actions:
     cast:
       - class: PotionEffect
+      - class: Ignite
   effects:
     cast:
       - class: EffectSingle
@@ -24,7 +25,7 @@ flamefreezingcharm:
           class: Smoke
           particle: redstone
           color: 95d5e0
-          iterations: 100
+          duration: $duration
       - class: EffectSingle
         location: origin
         source_location: feet
@@ -32,7 +33,7 @@ flamefreezingcharm:
           class: Smoke
           particle: redstone
           color: FFFFFF
-          iterations: 100
+          duration: $duration
   parameters:
     add_effects:
       fire_resistance: 1

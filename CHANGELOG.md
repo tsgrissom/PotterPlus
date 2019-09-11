@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/11/19
 
+* Upgraded visuals of Flame-Freezing Charm
 * Made fun wand flags consistent
 
 ### 9/10/19
