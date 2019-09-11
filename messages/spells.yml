@@ -23,9 +23,9 @@ spells:
     description: "Select a path after graduating"
     title: "&7&l>> &8Choose your path"
     confirm_title: "&7&l>> &8Confirm path"
-    no_path: "&7&l>> &5This will unlock once you graduate."
-    no_required_path: "&7&l>> &5This will unlock once you graduate."
-    selected_free: "t:$item"
+    no_path: "&7&l>> &5You can only choose your path once you graduate!"
+    no_required_path: "&7&l>> &5You can only choose your path once you graduate!"
+    selected: "t:&7Unlocked\n$item"
     at_limit: "&7&l>> &5You can only choose your path once."
   vermillious:
     name: "Vermillious"
