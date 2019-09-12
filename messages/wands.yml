@@ -140,3 +140,6 @@ wands:
   baruffiosbrainelixir:
     description: "&aCompletely restores the drinker's mana."
     name: "&2Baruffio's Brain Elixir"
+  befuddlementdraught:
+    description: "&aCauses the drinker to become confused."
+    name: "&2Beffudlement Draught"

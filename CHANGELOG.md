@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/12/19
 
+* Added Befuddlement Draughts
 * Added Baruffio's Brain Elixirs
 * Added Babbling Beverages
 * Added Antidote to Uncommon Poisons

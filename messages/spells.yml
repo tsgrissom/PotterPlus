@@ -948,3 +948,5 @@ spells:
     name: "Babbling Beverage Ability"
   baruffios_brain_elixir_ability:
     name: "Baruffio's Brain Elixir Ability"
+  befuddlement_draught_ability:
+    name: "Befuddlement Draught Ability"
