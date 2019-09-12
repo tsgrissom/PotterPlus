@@ -8,8 +8,9 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
-### 9/11/19
+### 9/12/19
 
+* Added Baruffio's Brain Elixirs
 * Added Babbling Beverages
 * Added Antidote to Uncommon Poisons
 * Added Antidote to Common Poisons
@@ -19,6 +20,9 @@ This is not an absolute record of *every* change that happens, just ones that ar
 * Added Burping Potions
 * Added a Potion Shop (`potionshop`)
 * Added Love Potions
+
+### 9/11/19
+
 * Fixed some `choosepath` messages
 * Fixed Sword of Gryffindor ability categories
 * Fixed `baubillious` category

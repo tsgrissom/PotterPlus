@@ -137,3 +137,6 @@ wands:
   babblingbeverage:
     description: "&cCauses the drinker to babble nonsense uncontrollably."
     name: "&4Babbling Beverage"
+  baruffiosbrainelixir:
+    description: "&aCompletely restores the drinker's mana."
+    name: "&2Baruffio's Brain Elixir"

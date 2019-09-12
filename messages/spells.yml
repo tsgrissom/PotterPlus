@@ -946,3 +946,5 @@ spells:
     name: "Antidote to Uncommon Poisons Potion Ability"
   babbling_beverage_ability:
     name: "Babbling Beverage Ability"
+  baruffios_brain_elixir_ability:
+    name: "Baruffio's Brain Elixir Ability"
