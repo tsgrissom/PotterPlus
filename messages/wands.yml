@@ -143,3 +143,6 @@ wands:
   befuddlementdraught:
     description: "&aCauses the drinker to become confused."
     name: "&2Beffudlement Draught"
+  beguilingbubbles:
+    description: "&dA love potion from the WonderWitch line by Weasley's Wizard Wheezes."
+    name: "&5Beguiling Bubbles"
