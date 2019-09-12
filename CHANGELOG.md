@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/11/19
 
+* Added Love Potions
 * Fixed some `choosepath` messages
 * Fixed Sword of Gryffindor ability categories
 * Fixed `baubillious` category

@@ -926,3 +926,7 @@ spells:
   basic_blaze_box_ability:
     name: "Basic Blaze Box Ability"
     description: "Send out some fireworks"
+
+  love_potion_ability:
+    name: "Love Potion Ability"
+    description: "Causes the drinker to become infatuated with the person who gave it to them."

@@ -23,6 +23,9 @@ categories:
   item_ability:
     description: "Abilities that items can utilize."
     name: "Item Ability"
+  potions:
+    description: "Abilities that are used by potions"
+    name: "Potions"
   specialty:
     description: "Spells that often power magic items."
     name: "Specialty"
