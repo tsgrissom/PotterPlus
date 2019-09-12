@@ -38,7 +38,7 @@ flamefreezingcharm:
     add_effects:
       fire_resistance: 1
     duration: 10000
-    cooldown: 12000
+    cooldown: 15000
     target: self
   costs:
     mana: 25
@@ -46,4 +46,4 @@ flamefreezingcharm:
 flamefreezingcharm|2:
   parameters:
     duration: 20000
-    coolown: 22000
+    cooldown: 25000

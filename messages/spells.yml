@@ -950,3 +950,5 @@ spells:
     name: "Baruffio's Brain Elixir Ability"
   befuddlement_draught_ability:
     name: "Befuddlement Draught Ability"
+  ice_potion_ability:
+    name: "Ice Potion Ability"

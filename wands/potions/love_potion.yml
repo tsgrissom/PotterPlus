@@ -1,4 +1,3 @@
 lovepotion:
   icon: potion:ff69b4
-  glow: true
   consume_spell: love_potion_ability

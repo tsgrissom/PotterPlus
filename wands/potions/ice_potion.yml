@@ -1,0 +1,3 @@
+icepotion:
+  icon: potion:d6ecef
+  consume_spell: ice_potion_ability

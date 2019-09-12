@@ -15,6 +15,8 @@ potionshop:
         cost: 10
       - item: wand|amortentia
         cost: 15
+      - item: wand|icepotion
+        cost: 15
       - item: wand|antiparalysispotion
         cost: 20
       - item: wand|baruffiosbrainelixir

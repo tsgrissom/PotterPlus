@@ -1,0 +1,14 @@
+ice_potion_ability:
+  inherit: flamefreezingcharm|2
+  icon: potion
+  category: potions
+  hidden: true
+  actions:
+    cast:
+      - class: PotionEffect
+  parameters:
+    bypass_confusion: true
+    cooldown: 0
+    target: self
+  costs:
+    mana: 0

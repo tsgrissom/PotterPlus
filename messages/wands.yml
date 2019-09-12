@@ -18,7 +18,7 @@ wands:
     name: "Seventh Year Upgrade"
     description: "Increases your wand's power"
   graduate:
-    name: "Gradute Upgrade"
+    name: "Graduate Upgrade"
     description: "Increases your wand's power"
   basicblazebox:
     bound_instructions: ""
@@ -146,3 +146,6 @@ wands:
   beguilingbubbles:
     description: "&dA love potion from the WonderWitch line by Weasley's Wizard Wheezes."
     name: "&5Beguiling Bubbles"
+  icepotion:
+    description: "&bCauses the drinker to be able to walk through flames unscathed."
+    name: "&3Ice Potion"
