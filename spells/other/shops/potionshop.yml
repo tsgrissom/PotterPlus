@@ -7,6 +7,8 @@ potionshop:
     items:
       - item: wand|lovepotion
         cost: 15
+      - item: wand|burpingpotion
+        cost: 5
     quiet: true
     free: false
     cost_type: galleon

@@ -119,3 +119,6 @@ wands:
   lovepotion:
     description: "&5Causes the drinker to become infatuated with the person who gave it to them."
     name: "&dLove Potion"
+  burpingpotion:
+    description: "&eCauses the drinker to burp uncontrollably."
+    name: "&6Burping Potion"

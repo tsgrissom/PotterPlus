@@ -935,3 +935,6 @@ spells:
   love_potion_ability:
     name: "Love Potion Ability"
     description: "Causes the drinker to become infatuated with the person who gave it to them."
+  burping_potion_ability:
+    name: "Burping Potion Ability"
+    description: "Causes the drinker to burp uncontrollably."
