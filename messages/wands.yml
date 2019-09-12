@@ -122,3 +122,6 @@ wands:
   burpingpotion:
     description: "&eCauses the drinker to burp uncontrollably."
     name: "&6Burping Potion"
+  amortentiapotion:
+    description: "&5The most powerful love potion in existence. Causes the drinker to develop a powerful infatuation or obsession with the person who gave it to them."
+    name: "&dAmortentia"

@@ -2,3 +2,7 @@ lovepotion:
   icon: potion:ff69b4
   glow: true
   consume_spell: love_potion_ability
+
+amortentiapotion:
+  icon: potion:f7edec
+  consume_spell: love_potion_ability|2

@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/11/19
 
+* Added Amortentia
 * Added Burping Potions
 * Added a Potion Shop (`potionshop`)
 * Added Love Potions
