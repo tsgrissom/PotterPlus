@@ -9,12 +9,17 @@ spells:
     title: "Wand Shop"
     selected: "&7&l>> &dYou purchased &r$item &dfor &r$cost"
   bookshop:
-    name: "Spellbook Shop"
-    title: "Spell Books"
+    name: "Textbook Shop"
+    title: "Textbook Shop ($balance)"
     description: "Get some spell books"
   spellshop:
     selected: "t:&dSpell Unlocked\n&6$item"
     no_items: "&7&l>> &5You have learned all that you can from here."
+  potionshop:
+    name: "Potion Shop"
+    description: "Get some potions"
+    title: "Potion Shop ($balance)"
+    selected: "&7&l>> &dYou purchased a &r$item &dfor &r$cost"
   upgrades:
     level_requirement: "&r&9Requires&8: &7$path"
     cast_requirement: "&r&9Casts&8: &7$current&8/&7$required"

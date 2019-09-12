@@ -1,0 +1,14 @@
+potionshop:
+  icon: potion
+  category: npc
+  hidden: true
+  inherit: buyshop
+  parameters:
+    items:
+      - item: wand|lovepotion
+        cost: 15
+    quiet: true
+    free: false
+    cost_type: galleon
+    confirm: true
+    confirm_filler: cauldron
