@@ -1,0 +1,22 @@
+anti_paralysis_potion_ability:
+  icon: potion
+  category: potions
+  hidden: true
+  effects:
+    cast:
+      - class: EffectSingle
+        location: origin
+        source_location: feet
+        effectlib:
+          class: Smoke
+          particle: spell_mob
+          color: 58CCED
+          duration: 4000
+  actions:
+    cast:
+      - class: PotionEffect
+  parameters:
+    target: self
+    remove_effects:
+      - slow
+      - jump

@@ -125,3 +125,6 @@ wands:
   amortentiapotion:
     description: "&5The most powerful love potion in existence. Causes the drinker to develop a powerful infatuation or obsession with the person who gave it to them."
     name: "&dAmortentia"
+  antiparalysispotion:
+    description: "&3Causes the drinker to lose any paralyzing effects they may be under."
+    name: "&bAnti-Paralysis Potion"

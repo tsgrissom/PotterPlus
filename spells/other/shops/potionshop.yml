@@ -11,6 +11,8 @@ potionshop:
         cost: 25
       - item: wand|burpingpotion
         cost: 5
+      - item: wand|antiparalysispotion
+        cost: 20
     quiet: true
     free: false
     cost_type: galleon

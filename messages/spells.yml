@@ -938,3 +938,6 @@ spells:
   burping_potion_ability:
     name: "Burping Potion Ability"
     description: "Causes the drinker to burp uncontrollably."
+  anti_paralysis_potion_ability:
+    name: "Anti-Paralysis Potion Ability"
+    description: "Causes the drinker to lose any paralyzing effects they may be under."
