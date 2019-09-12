@@ -3,6 +3,6 @@ lovepotion:
   glow: true
   consume_spell: love_potion_ability
 
-amortentiapotion:
+amortentia:
   icon: potion:f7edec
   consume_spell: love_potion_ability|2

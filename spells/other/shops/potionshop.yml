@@ -9,13 +9,13 @@ potionshop:
         cost: 5
       - item: wand|lovepotion
         cost: 10
-      - item: wand|amortentiapotion
+      - item: wand|amortentia
         cost: 15
       - item: wand|antiparalysispotion
         cost: 20
-      - item: wand|antidotetocommonpoisonspotion
+      - item: wand|antidotetocommonpoisons
         cost: 25
-      - item: wand|antidotetouncommonpoisonspotion
+      - item: wand|antidotetouncommonpoisons
         cost: 30
     quiet: true
     free: false

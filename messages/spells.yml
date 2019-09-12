@@ -941,9 +941,9 @@ spells:
   anti_paralysis_potion_ability:
     name: "Anti-Paralysis Potion Ability"
     description: "Cures the drinker of any paralyzing effects they are under."
-  antidote_to_common_poisons_potion_ability:
+  antidote_to_common_poisons_ability:
     name: "Antidote to Common Poisons Potion Ability"
     description: "Cures the drinker of common poisonous effects."
-  antidote_to_uncommon_poisons_potion_ability:
+  antidote_to_uncommon_poisons_ability:
     name: "Antidote to Uncommon Poisons Potion Ability"
     description: "Cures the drinker of common and uncommen poisonous effects."

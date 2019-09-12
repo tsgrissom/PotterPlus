@@ -1,4 +1,4 @@
-antidote_to_common_poisons_potion_ability:
+antidote_to_common_poisons_ability:
   icon: potion
   category: potions
   hidden: true
