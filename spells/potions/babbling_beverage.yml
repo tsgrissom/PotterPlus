@@ -1,0 +1,12 @@
+babbling_beverage_ability:
+  inherit: babblingcurse
+  icon: potion
+  category: potions
+  hidden: true
+  effects: []
+  parameters:
+    bypass_confusion: true
+    target: self
+    cooldown: 0
+  costs:
+    mana: 0

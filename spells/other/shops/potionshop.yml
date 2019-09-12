@@ -7,6 +7,8 @@ potionshop:
     items:
       - item: wand|burpingpotion
         cost: 5
+      - item: wand|babblingbeverage
+        cost: 5
       - item: wand|lovepotion
         cost: 10
       - item: wand|amortentia

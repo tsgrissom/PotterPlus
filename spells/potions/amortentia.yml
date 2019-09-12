@@ -1,7 +1,5 @@
-love_potion_ability:
-  icon: potion
-  category: potions
-  hidden: true
+amortentia_ability:
+  inherit: love_potion_ability
   effects:
     cast:
       - class: EffectSingle
@@ -16,5 +14,14 @@ love_potion_ability:
           mainParticle: spell_mob_ambient
           mainParticleColor: FFFFFF
           duration: 10000
-  parameters:
-    bypass_confusion: true
+      - class: EffectSingle
+        location: origin
+        source_location: feet
+        effectlib:
+          class: Cloud
+          cloudParticle: heart
+          cloudSize: 1
+          yOffset: -0.4
+          mainParticle: spell_mob_ambient
+          mainParticleColor: FFFFFF
+          duration: 10000

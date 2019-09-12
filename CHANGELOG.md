@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/11/19
 
+* Added Babbling Beverages
 * Added Antidote to Uncommon Poisons
 * Added Antidote to Common Poisons
 * Patched up a weird lore bug in `potionshop`

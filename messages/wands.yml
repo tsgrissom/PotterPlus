@@ -134,3 +134,6 @@ wands:
   antidotetouncommonpoisons:
     description: "&7Cures the drinker of common and uncommon poisonous effects."
     name: "&8Antidote to Uncommon Poisons"
+  babblingbeverage:
+    description: "&cCauses the drinker to babble nonsense uncontrollably."
+    name: "&4Babbling Beverage"
