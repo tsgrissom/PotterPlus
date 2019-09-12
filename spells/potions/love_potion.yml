@@ -16,6 +16,8 @@ love_potion_ability:
           mainParticle: spell_mob_ambient
           mainParticleColor: FFFFFF
           duration: 10000
+  parameters:
+    bypass_confusion: true
 
 love_potion_ability|2:
   effects:

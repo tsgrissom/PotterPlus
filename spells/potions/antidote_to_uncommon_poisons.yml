@@ -1,0 +1,7 @@
+antidote_to_uncommon_poisons_potion_ability:
+  inherit: antidote_to_common_poisons_potion_ability
+  parameters:
+    remove_effects:
+      - poison
+      - weakness
+      - wither

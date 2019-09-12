@@ -1,4 +1,4 @@
-anti_paralysis_potion_ability:
+antidote_to_common_poisons_potion_ability:
   icon: potion
   category: potions
   hidden: true
@@ -9,8 +9,7 @@ anti_paralysis_potion_ability:
         source_location: feet
         effectlib:
           class: Smoke
-          particle: spell_mob
-          color: 58CCED
+          particle: fireworks_spark
           duration: 4000
   actions:
     cast:
@@ -19,5 +18,4 @@ anti_paralysis_potion_ability:
     bypass_confusion: true
     target: self
     remove_effects:
-      - slow
-      - jump
+      - poison

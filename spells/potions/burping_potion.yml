@@ -15,6 +15,7 @@ burping_potion_ability:
           - class: PlayEffects
           - class: Delay
   parameters:
+    bypass_confusion: true
     repeat: 4
     effect: burp
     delay: 1000

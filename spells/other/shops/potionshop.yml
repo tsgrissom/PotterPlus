@@ -5,14 +5,18 @@ potionshop:
   inherit: buyshop
   parameters:
     items:
-      - item: wand|lovepotion
-        cost: 15
-      - item: wand|amortentiapotion
-        cost: 25
       - item: wand|burpingpotion
         cost: 5
+      - item: wand|lovepotion
+        cost: 10
+      - item: wand|amortentiapotion
+        cost: 15
       - item: wand|antiparalysispotion
         cost: 20
+      - item: wand|antidotetocommonpoisonspotion
+        cost: 25
+      - item: wand|antidotetouncommonpoisonspotion
+        cost: 30
     quiet: true
     free: false
     cost_type: galleon

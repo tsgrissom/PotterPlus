@@ -1,0 +1,3 @@
+antidotetouncommonpoisonspotion:
+  inherit: antidotetocommonpoisonspotion
+  consume_spell: antidote_to_uncommon_poisons_potion
