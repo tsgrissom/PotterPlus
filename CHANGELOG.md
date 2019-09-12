@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/11/19
 
+* Patched up a weird lore bug in `potionshop`
 * Added Anti-Paralysis Potions
 * Added Amortentia
 * Added Burping Potions

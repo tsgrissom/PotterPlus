@@ -117,13 +117,13 @@ wands:
     inventory_instructions: "&7&lWAND INVENTORY MANAGEMENT&8// &5You now know more than one spell! &dOpen your inventory &5to manage which spells are in your hotbar. &dUse number keys &5to change to the desired spell in your hotbar. &dPress swap &5to cycle hotbars."
 
   lovepotion:
-    description: "&5Causes the drinker to become infatuated with the person who gave it to them."
+    description: "&5Causes the drinker to &5become infatuated with the &5person who gave it to them."
     name: "&dLove Potion"
   burpingpotion:
     description: "&eCauses the drinker to burp uncontrollably."
     name: "&6Burping Potion"
   amortentiapotion:
-    description: "&5The most powerful love potion in existence. Causes the drinker to develop a powerful infatuation or obsession with the person who gave it to them."
+    description: "&5The most powerful love &5potion in existence. Causes &5the &5drinker to develop a &5powerful infatuation or &5obsession with &5the person &5who gave it to them."
     name: "&dAmortentia"
   antiparalysispotion:
     description: "&3Causes the drinker to lose any paralyzing effects they may be under."
