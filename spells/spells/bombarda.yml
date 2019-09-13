@@ -1,13 +1,11 @@
 bombarda:
   inherit: false
   icon: diamond_axe:35
-  icon_url: http://textures.minecraft.net/texture/70df3afc6a6035b189f83d2cfc84ff9ffe33750273247d1e41acb5a805f54
+  icon_disabled: diamond_hoe:35
   category: dark
   worth: 20 ac
   upgrade_required_path: year4
   upgrade_required_casts: 50
-  costs:
-    mana: 35
   actions:
     cast:
       - class: Delay
@@ -45,21 +43,17 @@ bombarda:
     target: other
     delay: 1500
     gravity: .05
-    velocity: 100
-    allow_max_range: false
-    range: 32
+    velocity: 50
+    range: 24
     break_blocks: false
     size: 2
-    cooldown: 7000
-    undo: 3000
-    undo_speed: 0.5
-    fire: false
+    cooldown: 15000
+  costs:
+    mana: 40
 
 bombarda|2:
   parameters:
-    velocity: 125
+    velocity: 75
     size: 3
-    cooldown: 8000
-    undo: 4000
-    range: 64
+    range: 32
     delay: 1000
