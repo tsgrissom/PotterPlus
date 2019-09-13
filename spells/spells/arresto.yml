@@ -1,5 +1,10 @@
 arresto:
   worth: 5 ac
+  actions:
+    cast:
+      - class: PotionEffect
+      - class: Velocity
+      - class: FallProtection
   effects:
     cast:
       - class: EffectSingle
@@ -15,6 +20,8 @@ arresto:
         period: 2
   parameters:
     duration: 10000
-    cooldown: 15000
+    add_effects:
+      slow_falling: 1
+    cooldown: 10000
   costs:
     mana: 20
