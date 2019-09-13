@@ -1,12 +1,10 @@
 cheeringcharm:
   category: charms
-  icon_url: http://textures.minecraft.net/texture/bc8e7e971bbac56883fe9bfe1b38c5f568ece6cbe09ca59d85f6dab4688d14
   icon: diamond_axe:46
+  icon_disabled: diamond_hoe:46
   upgrade_required_casts: 25
   upgrade_required_path: year2
   worth: 5 ac
-  costs:
-    mana: 15
   actions:
     cast:
       - class: CustomProjectile
@@ -50,21 +48,22 @@ cheeringcharm:
     duration: 3000
     velocity: 125
     range: 12
+  costs:
+    mana: 15
 
 cheeringcharm|2:
   upgrade_required_casts: 50
   upgrade_required_path: year3
+  parameters:
+    duration: 5000
   costs:
     mana: 20
-  parameters:
-    cooldown: 14000
-    duration: 5000
 
 cheeringcharm|3:
-  costs:
-    mana: 25
   parameters:
     add_effects:
       speed: 2
       jump: 2
     velocity: 200
+  costs:
+    mana: 25
