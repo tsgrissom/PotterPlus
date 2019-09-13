@@ -149,3 +149,6 @@ wands:
   icepotion:
     description: "&bCauses the drinker to be able to walk through flames unscathed."
     name: "&3Ice Potion"
+  bloodreplenishingpotion:
+    description: "&cReplenishes the drinker's blood, healing them."
+    name: "&4Blood-Replenishing Potion"

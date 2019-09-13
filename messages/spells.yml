@@ -952,3 +952,5 @@ spells:
     name: "Befuddlement Draught Ability"
   ice_potion_ability:
     name: "Ice Potion Ability"
+  blood_replenishing_potion_ability:
+    name: "Blood-Replenishing Potion Ability"

@@ -1,25 +1,25 @@
-befuddlement_draught_ability:
+blood_replenishing_potion_ability:
   icon: potion
   category: potions
   hidden: true
+  actions:
+    cast:
+      - class: PotionEffect
   effects:
     cast:
       - class: EffectSingle
         location: origin
         source_location: feet
         effectlib:
-          class: Smoke
-          particle: spell_mob
-          color: 006400
+          class: Warp
+          particle: heart
+          particles: 5
+          rings: 3
+          grow: 0.5
           duration: $duration
-  actions:
-    cast:
-      - class: PotionEffect
   parameters:
     bypass_confusion: true
     target: self
-    duration: 10000
+    duration: 5000
     add_effects:
-      confusion: 2
-      slow: 2
-      blindness: 1
+      regeneration: 2
