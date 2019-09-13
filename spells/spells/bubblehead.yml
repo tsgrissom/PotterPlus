@@ -36,7 +36,7 @@ bubblehead:
           radius: 0.5
   parameters:
     effect: bubble
-    brushcolor: false
+    brushcolor: true
     brush: stained_glass:3
     delay: 4000
     cooldown: 20000
