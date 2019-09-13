@@ -3,7 +3,8 @@ babbling_beverage_ability:
   icon: potion
   category: potions
   hidden: true
-  effects: []
+  effects:
+    cast: []
   parameters:
     bypass_confusion: true
     target: self
