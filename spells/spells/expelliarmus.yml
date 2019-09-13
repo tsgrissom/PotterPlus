@@ -1,9 +1,9 @@
 expelliarmus:
   inherit: false
-  category: dada
-  worth: 15 ac
   icon: diamond_axe:43
   icon_disabled: diamond_hoe:43
+  category: dada
+  worth: 15 ac
   upgrade_required_path: year3
   upgrade_required_casts: 25
   actions:
@@ -57,7 +57,7 @@ expelliarmus:
     fizzle_chance: 0
     backfire_chance: 0
   costs:
-    mana: 75
+    mana: 50
 
 expelliarmus|2:
   upgrade_required_path: year4
@@ -92,8 +92,6 @@ expelliarmus|3:
     undo: 4000
     fizzle_chance: 0
     backfire_chance: 0
-  costs:
-    mana: 100
 
 expelliarmus|4:
   upgrade_required_path: year6
