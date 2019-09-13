@@ -8,7 +8,7 @@ furnunculus:
     cast:
       - class: CustomProjectile
         actions:
-          - class: Damage
+          - class: PotionEffect
   effects:
     cast:
       - sound: magic.zap_crack
@@ -28,30 +28,29 @@ furnunculus:
         particle_offset_y: 0.1
         particle_offset_z: 0.1
         particle_data: 0.2
-    hit_entity:
+    hit:
       - class: EffectSingle
-        sound: magic.zap_crack
-        sound_volume: 0.5
+        location: target
+        sound: magic.hit
+        effectlib:
+          class: Smoke
+          particle: item_crack
+          material: redstone
+          duration: 2000
       - class: EffectSingle
         location: target
         effectlib:
-          class: Bleed
-          duration: $duration
-      - class: EffectSingle
-        location: target
-        effectlib:
-          class: Bleed
-          color: 255
-          duration: $duration
-          hurt: false
+          class: Smoke
+          particle: item_crack
+          material: bone
+          duration: 2000
   parameters:
-    range: 12
-    hitbox: true
+    range: 8
     target: other
-    target_type: Player
-    target_self: false
-    player_damage: 3
-    duration: 5000
+    hitbox: true
+    duration: 2000
+    add_effects:
+      wither: 1
     cooldown: 15000
     velocity: 100
   costs:
@@ -84,12 +83,11 @@ furnunculus|2:
         particle_offset_y: 0.001
         particle_offset_z: 0.001
   parameters:
-    range: 24
-    damage: 5
-    duration: 10000
-    cooldown: 20000
+    range: 16
+    duration: 4000
     velocity: 150
 
 furnunculus|3:
-  range: 36
-  damage: 7
+  parameters:
+    range: 24
+    duration: 6000
