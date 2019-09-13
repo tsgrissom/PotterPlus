@@ -2,7 +2,7 @@ apparate:
   worth: 30 ac
   inherit: blink
   upgrade_required_path: year5
-  upgrade_required_casts: 75
+  upgrade_required_casts: 25
   effects:
     teleport:
       - class: EffectSingle
@@ -37,34 +37,59 @@ apparate:
           particle: redstone
           color: FFFFFF
           updateLocations: false
+  parameters:
+    cooldown: 10000
+    range: 16
+    bypass_confusion: false
+  costs:
+    mana: 75
 
 apparate|2:
   inherit: blink|2
   upgrade_required_path: year5
-  upgrade_required_casts: 100
+  upgrade_required_casts: 50
+  parameters:
+    range: 24
+  costs:
+    mana: 75
 
 apparate|3:
   inherit: blink|3
   upgrade_required_path: year6
-  upgrade_required_casts: 125
+  upgrade_required_casts: 75
   actions:
     alternate_up: []
+  parameters:
+    range: 32
+    cooldown: 10000
+  costs:
+    mana: 75
 
 apparate|4:
   inherit: blink|4
   upgrade_required_path: year6
-  upgrade_required_casts: 150
+  upgrade_required_casts: 100
   actions:
     alternate_down: []
+  parameters:
+    range: 40
+    cooldown: 10000
+  costs:
+    mana: 75
 
 apparate|5:
   inherit: blink|5
   upgrade_required_path: year7
-  upgrade_required_casts: 200
+  upgrade_required_casts: 125
   parameters:
     allow_passthrough: false
-    passthrough_range: 0
+    range: 48
+  costs:
+    mana: 75
 
 apparate|6:
   parameters:
-    range: 64
+    safe: true
+    range: 56
+  costs:
+    mana: 75
