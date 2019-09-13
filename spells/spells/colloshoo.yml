@@ -1,6 +1,7 @@
 colloshoo:
   category: dada
   icon: diamond_axe:180
+  icon_disabled: diamond_hoe:180
   worth: 10 ac
   upgrade_required_casts: 25
   upgrade_required_path: year3
@@ -36,7 +37,7 @@ colloshoo:
       slow: 1
       jump: -20
     duration: 6000
-    cooldown: 9000
+    cooldown: 15000
   costs:
     mana: 40
 
@@ -49,7 +50,6 @@ colloshoo|2:
       slow: 2
       jump: -20
     duration: 8000
-    cooldown: 11000
 
 colloshoo|3:
   upgrade_required_casts: 75
@@ -59,7 +59,6 @@ colloshoo|3:
       slow: 3
       jump: -20
     duration: 10000
-    cooldown: 13000
 
 colloshoo|4:
   parameters:
@@ -67,4 +66,3 @@ colloshoo|4:
       slow: 4
       jump: -20
     duration: 12000
-    cooldown: 15000
