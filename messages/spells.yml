@@ -794,11 +794,11 @@ spells:
     name: "Aparecium"
     description: "Causes hidden things to appear. Can be used to access new areas."
   aparecium|2:
-    upgrade_description: "Decreased backfire chance."
+    upgrade_description: "Increased range."
   aparecium|3:
-    upgrade_description: "Decreased backfire chance."
+    upgrade_description: "Increased range.\nDecreased cooldown."
   aparecium|4:
-    upgrade_description: "Decreased backfire chance."
+    upgrade_description: "Increased duration."
   reveal:
     name: "Reveal"
     description: "Force the hidden to become unhidden."

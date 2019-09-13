@@ -1,5 +1,5 @@
 aparecium:
-  upgrade_required_path: 5
+  upgrade_required_path: year5
   upgrade_required_casts: 25
   worth: 10 ac
   effects:
@@ -17,30 +17,23 @@ aparecium:
         particle_count: 2
         radius: 2
         location: target
-    backfire:
-      - class: EffectSingle
-        sound: shoot_arrow
-        sound_volume: 5.0
-        location: origin
-        entity_effect: hurt
-        firework: burst
-        color: 5caeb4
   parameters:
-    backfire_chance: 0.6
-  costs:
-    mana: 50
+    range: 8
+    cooldown: 10000
 
 aparecium|2:
-  upgrade_required_path: 6
+  upgrade_required_path: year6
   upgrade_required_casts: 50
   parameters:
-    backfire_chance: 0.4
+    range: 12
 
 aparecium|3:
-  upgrade_required_path: 7
+  upgrade_required_path: year7
   upgrade_required_casts: 100
   parameters:
-    backfire_chance: 0.2
+    range: 16
+    cooldown: 8000
 
 aparecium|4:
-  backfire_chance: 0
+  parameters:
+    undo: 8000
