@@ -659,10 +659,6 @@ spells:
   flight:
     name: "Flight"
     description: "Channeling some of the most powerful magic known to wizardkind, you levitate in the air and sail around without aid from a magical device."
-  flight|2:
-    upgrade_description: "Increased speed.\nIncreased steer speed.\nIncreased thrust.\nDecreased liftoff duration."
-  flight|3:
-    upgrade_description: "Increased speed.\nIncreased steer speed.\nIncreased thrust.\nDecreased liftoff duration."
   homenumrevelio:
     name: "Homenum Revelio"
     description: "Reveals the presence of nearby players."
