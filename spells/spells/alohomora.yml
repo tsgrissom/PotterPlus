@@ -2,7 +2,7 @@ alohomora:
   worth: 5 ac
   category: charms
   upgrade_required_path: year2
-  upgrade_required_casts: 50
+  upgrade_required_casts: 25
   effects:
     cast:
       - sound: magic.shimmer
@@ -29,10 +29,8 @@ alohomora:
         particle_offset_y: 0.2
         particle_offset_z: 0.2
   parameters:
-    fizzle_chance: 0.2
+    range: 8
 
 alohomora|2:
   parameters:
-    range: 32
-    destructible: doors
-    fizzle_chance: 0.1
+    range: 16
