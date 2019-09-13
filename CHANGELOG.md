@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/12/19
 
+* Fixed Carpe Retractum disabled icon
 * Adjusted Bubblehead Charm
 * Fixed Brackium Emendo disabled icon
 * Balanced Bombarda
