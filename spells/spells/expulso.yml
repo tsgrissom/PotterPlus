@@ -1,12 +1,10 @@
 expulso:
   icon: diamond_axe:161
-  icon_url: http://textures.minecraft.net/texture/436cb244bd2a9c1734f2db6517a973a91b1773f02ca4b481af5f24d17bb1496
+  icon_disabled: diamond_hoe:161
   category: dark
   worth: 20 ac
   upgrade_required_path: year7
   upgrade_required_casts: 50
-  costs:
-    mana: 150
   actions:
     cast:
       - class: CustomProjectile
@@ -16,46 +14,30 @@ expulso:
           - class: Velocity
   effects:
     cast:
-    -  class: EffectSingle
-       sound: magic.crack
-       sound_pitch: 0.3
-       sound_volume: 0.5
+      - class: EffectSingle
+        sound: magic.crack
+        sound_pitch: 0.3
+        sound_volume: 0.5
     tick:
-    -  class: EffectSingle
-       location: target
-       effectlib:
-         class: Cone
-         iterations: 10
-         particle: redstone
-         color: 22659c
-         lengthGrow: 0.05
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Cone
+          iterations: 10
+          particle: redstone
+          color: 22659c
+          lengthGrow: 0.05
     hit:
-    -  class: EffectSingle
-       location: target
-       color: 22659c
-       firework: star
-    backfire:
-    -  class: EffectSingle
-       sound: entity_player_hurt
-    -  class: EffectRing
-       particle: spell_mob
-       color: 22659c
-       location: self
-    fizzle:
-    -  class: EffectSingle
-       sound: entity_generic_explode
-    -  class: EffectRing
-       particle: redstone
-       color: 22659c
-       location: self
+      - class: EffectSingle
+        location: target
+        color: 22659c
+        firework: star
   parameters:
     break_blocks: true
     undo: 2000
     undo_speed: 0.1
     size: 2
-    range: 12
-    hitbox: true
-    reorient: false
+    range: 16
     target: other
     target_type: LivingEntity
     cooldown: 15000
@@ -63,6 +45,8 @@ expulso:
     living_entity_speed: 0.3
     damage: 6
     velocity: 25
+  costs:
+    mana: 100
 
 expulso|2:
   upgrade_required_path: graduate
