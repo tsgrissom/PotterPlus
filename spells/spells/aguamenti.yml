@@ -1,6 +1,6 @@
 aguamenti:
   worth: 10 ac
-  upgrade_required_casts: 50
+  upgrade_required_casts: 25
   effects:
     hit:
       - class: EffectSingle
@@ -8,7 +8,7 @@ aguamenti:
         effectlib:
           class: Shield
           particle: water_splash
-          radius: $radius
+          radius: "$radius"
           particles: 50
           particle_count: 20
           particle_offset_x: 0.4
@@ -16,27 +16,29 @@ aguamenti:
           particle_offset_z: 0.2
           duration: $undo
   parameters:
-    range: 6
+    range: 12
+    undo: 2000
+    cooldown: 8000
+  costs:
+    mana: 40
 
 aguamenti|2:
   inherit: bubble|2
-  upgrade_required_casts: 75
+  upgrade_required_casts: 50
   parameters:
-    range: 12
+    range: 16
 
 aguamenti|3:
   upgrade_required_path: year7
-  upgrade_required_casts: 125
+  upgrade_required_casts: 75
   parameters:
     radius: 2.5
-    cooldown: 6000
-    undo: 6000
-    range: 24
+    undo: 4000
+    range: 20
 
 aguamenti|4:
-  upgrade_required_path: graduates
+  upgrade_required_path: graduate
   parameters:
     radius: 3
-    cooldown: 8000
-    undo: 8000
-    range: 32
+    undo: 6000
+    range: 24

@@ -65,7 +65,7 @@ expulso:
     velocity: 25
 
 expulso|2:
-  upgrade_required_path: graduates
+  upgrade_required_path: graduate
   upgrade_required_casts: 75
   parameters:
     velocity: 50

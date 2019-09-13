@@ -29,7 +29,7 @@ disillusion|2:
 
 disillusion|3:
   upgrade_required_casts: 75
-  upgrade_required_path: graduates
+  upgrade_required_path: graduate
   actions:
     cast:
       - class: PotionEffect

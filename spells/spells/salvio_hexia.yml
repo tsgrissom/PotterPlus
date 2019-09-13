@@ -38,7 +38,7 @@ salviohexia|2:
     duration: 8000
 
 salviohexia|3:
-  upgrade_required_path: graduates
+  upgrade_required_path: graduate
   upgrade_required_casts: 125
   parameters:
     duration: 10000

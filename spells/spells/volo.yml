@@ -25,7 +25,7 @@ volo:
     mana: 75
 
 volo|2:
-  upgrade_required_path: graduates
+  upgrade_required_path: graduate
   upgrade_required_casts: 50
   parameters:
     duration: 10000

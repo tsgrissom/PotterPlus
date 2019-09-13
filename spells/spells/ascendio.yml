@@ -38,7 +38,7 @@ ascendio|5:
     max_speed: 1.8
 
 ascendio|6:
-  upgrade_required_path: graduates
+  upgrade_required_path: graduate
   upgrade_required_casts: 200
   parameters:
     min_speed: 1.8

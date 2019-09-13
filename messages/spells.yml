@@ -252,7 +252,7 @@ spells:
   aguamenti:
     description: "Conjures a gush of water for drinking use or to cushion a fall."
   aguamenti|2:
-    upgrade_description: "Increased size.\nIncreased range.\nIncreased duration."
+    upgrade_description: "Increased size.\nIncreased range."
   aguamenti|3:
     upgrade_description: "Increased size.\nIncreased duration.\nIncreased range."
   aguamenti|4:

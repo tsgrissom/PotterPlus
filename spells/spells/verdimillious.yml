@@ -42,5 +42,5 @@ verdimillious|4:
 
 verdimillious|5:
   inherit: vermillious|5
-  upgrade_required_path: graduates
+  upgrade_required_path: graduate
   parameters: 4

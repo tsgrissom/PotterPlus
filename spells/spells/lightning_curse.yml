@@ -40,7 +40,7 @@ lightningcurse:
     duration: 5000
 
 lightningcurse|2:
-  upgrade_required_path: graduates
+  upgrade_required_path: graduate
   upgrade_required_casts: 75
   parameters:
     damage: 4

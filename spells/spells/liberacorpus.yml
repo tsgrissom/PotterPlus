@@ -52,6 +52,6 @@ liberacorpus|4:
 
 liberacorpus|5:
   upgrade_required_casts: 125
-  upgrade_required_path: graduates
+  upgrade_required_path: graduate
   parameters:
     fizzle_chance: 0

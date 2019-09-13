@@ -69,7 +69,7 @@ vermillious|5:
     damage: 3.5
 
 vermillious|6:
-  upgrade_required_path: graduates
+  upgrade_required_path: graduate
   upgrade_required_casts: 200
   parameters:
     damage: 4
