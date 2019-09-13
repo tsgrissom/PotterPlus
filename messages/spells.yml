@@ -90,9 +90,9 @@ spells:
   avis:
     description: "Conjures a number of avian companions temporarily."
   avis|2:
-    upgrade_description: "Increased spawning rate."
+    upgrade_description: "Increased amount.\nIncreased duration."
   avis|3:
-    upgrade_description: "Spawns adult birds."
+    upgrade_description: "Spawns adult birds.\nIncreased amount.\nIncreased duration."
   flagrate:
     description: "Writes your name in flames in mid-air."
   flagrate|2:
