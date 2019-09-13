@@ -2,6 +2,7 @@ brackiumemendo:
   inherit: ferula
   worth: 10 ac
   icon: diamond_axe:45
+  icon_disabled: diamond_hoe:45
   category: charms
   actions:
     cast:

@@ -228,7 +228,7 @@ spells:
     description: "Causes the target to explode, inflicting deadly damage and damaging the surrounding area."
     usage: "Spell charges for 1.5s"
   bombarda|2:
-    upgrade_description: "Increased speed.\nIncreased size.\nIncreased range.\nDecreased warmup."
+    upgrade_description: "Increased speed.\nIncreased size.\nIncreased range.\nDecreased charge time."
     usage: "Spell charges for 1s"
   rennervate:
     description: "Awakens stunned targets back to their normal state, alleviating confusion."

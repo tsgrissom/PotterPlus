@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/12/19
 
+* Fixed Brackium Emendo disabled icon
 * Balanced Bombarda
 * Balanced Baubillious
 * Balanced Babbling Curse
