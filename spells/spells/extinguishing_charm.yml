@@ -1,5 +1,6 @@
 extinguishingcharm:
   icon: diamond_axe:33
+  icon_disabled: diamond_hoe:33
   category: charms
   worth: 5 ac
   class: ConstructSpell
@@ -30,7 +31,6 @@ extinguishingcharm:
           updateLocations: false
           updateDirections: false
   parameters:
-    allow_max_range: false
     range: 16
     check_destructible: true
     destructible: fire
@@ -40,7 +40,7 @@ extinguishingcharm:
     undo: 5000
     cooldown: 12000
   costs:
-    mana: 20
+    mana: 40
 
 extinguishingcharm|2:
   upgrade_required_casts: 50
