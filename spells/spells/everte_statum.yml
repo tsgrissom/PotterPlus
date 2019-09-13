@@ -1,6 +1,6 @@
 evertestatum:
   icon: diamond_axe:151
-  icon_url: http://textures.minecraft.net/texture/c7142a19d8c84389da74b69641542b8b2fafbed8f7515d1d36c63c96bd749
+  icon_disabled: diamond_hoe:151
   category: dada
   worth: 10 ac
   upgrade_required_path: year3
@@ -28,18 +28,16 @@ evertestatum:
         firework: ball
         color: FFFFFF
   parameters:
-    range: 24
-    fov: .12
+    range: 12
     hitbox: true
     target_type: LivingEntity
-    allow_max_range: false
     item_speed: 0
     living_entity_speed: 1.5
     push: 1
-    cooldown: 10000
-    velocity: 150
+    cooldown: 12000
+    velocity: 75
   costs:
-    mana: 40
+    mana: 30
 
 evertestatum|2:
   upgrade_required_path: year4
