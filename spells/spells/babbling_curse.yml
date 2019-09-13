@@ -1,6 +1,6 @@
 babblingcurse:
-  icon_url: http://textures.minecraft.net/texture/ad7e09a7af7af5acc286e6a4dd3c2f69b55ace33b7838ca899545570e946ee
   icon: diamond_axe:8
+  icon_disabled: diamond_hoe:8
   category: charms
   worth: 5 ac
   upgrade_required_path: year2
@@ -18,9 +18,9 @@ babblingcurse:
       - firework: burst
         location: target
         color: FFFFFF
-        fadeColor: cfd223
+        fadeColor: 000000
   parameters:
-    range: 12
+    range: 16
     velocity: 75
     hitbox: true
     target: other
@@ -40,8 +40,9 @@ babblingcurse:
       - "Po"
       - "Noo-noo"
   costs:
-    mana: 25
+    mana: 30
 
 babblingcurse|2:
   parameters:
+    range: 24
     velocity: 100

@@ -626,7 +626,7 @@ spells:
     name: "Babbling Curse"
     description: "Causes the target to babble uncontrollably."
   babblingcurse|2:
-    upgrade_description: "Increased speed."
+    upgrade_description: "Increased speed.\nIncreased range."
   salviohexia:
     name: "Salvio Hexia"
     description: "Provies additional defenses against hexes, curses, and other dark magic."
