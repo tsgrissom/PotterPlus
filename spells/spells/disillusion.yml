@@ -16,7 +16,7 @@ disillusion:
   parameters:
     target: self
     duration: 3000
-    delay: 3000
+    delay: $duration
     effect: appear
     cooldown: 20000
 
@@ -25,7 +25,6 @@ disillusion|2:
   upgrade_required_path: year7
   parameters:
     duration: 5000
-    delay: 5000
 
 disillusion|3:
   upgrade_required_casts: 75
@@ -36,12 +35,10 @@ disillusion|3:
       - class: StashWand
   parameters:
     duration: 8000
-    delay: 8000
     undo: 8000
 
 disillusion|4:
   upgrade_required_casts: 100
   parameters:
     duration: 12000
-    delay: 12000
     undo: 12000
