@@ -143,7 +143,10 @@ spells:
   alohomora|2:
     upgrade_description: "Increased range."
   fumos:
-    description: "Produces heavy smoke which fills the target's lungs, slowing them down and obstructing their breathing, and blinding them."
+    description: >
+      Produces heavy smoke which fills the target's lungs,
+      slowing them down and obstructing their breathing,
+      and blinding them.
   fumos|2:
     upgrade_description: "Increased radius.\nIncreased effect."
   fumos|3:
@@ -151,7 +154,10 @@ spells:
   nox:
     description: "Extinguishes your lit wand."
   araniaexumai:
-    description: "Repells arachnids and damages them severely. A must-have when venturing into dangerous forests or spelunking in caves inhabited by acromantula colonies."
+    description: >
+      Repells arachnids and damages them severely.
+      A must-have when venturing into dangerous forests
+      or spelunking in caves inhabited by acromantula colonies.
   araniaexumai|2:
     upgrade_description: "Increased damage."
   araniaexumai|3:
@@ -174,7 +180,9 @@ spells:
   rictusempra|4:
     upgrade_description: "Increased damage.\nIncreased range."
   bogies:
-    description: "Sickens the target significantly, causing a runny nose, terrible cough, and overall miserable symptoms."
+    description: >
+      Sickens the target, causing a runny nose,
+      terrible cough, and overall miserable symptoms.
   bogies|2:
     upgrade_description: "Increased range.\nIncreased duration.\nIncreased potency."
   bogies|3:
@@ -192,7 +200,10 @@ spells:
   expelliarmus|6:
     upgrade_description: "Now no longer moves their item back.\nIncreased chance to throw the target backwards."
   finiteincantatem:
-    description: "A general-purpose counterspell which will undo most of the world-changing effects of previously cast spells."
+    description: >
+      A general-purpose counterspell which will
+      undo most of the world-changing effects of
+      previously cast spells.
   finiteincantatem|2:
     upgrade_description: "Decreased chance of fizzling."
   finiteincantatem|3:
@@ -200,7 +211,10 @@ spells:
   finiteincantatem|4:
     upgrade_description: "No chance of fizzling."
   glacius:
-    description: "With a jet of icy breeze, snow is conjures and falls from the sky, icing over the ground below it and inflicting cold damage."
+    description: >
+      With a jet of icy breeze, snow is conjured
+      and falls from the sky, icing over the ground
+      below it and inflicting cold damage.
   glacius|2:
     upgrade_description: "Increased damage.\nIncreased size.\nIncreased range.\nIncreased potency."
   glacius|3:
@@ -214,10 +228,16 @@ spells:
   diffindo:
     description: "Severs fabric."
   snowball:
-    description: "Causes bewitched snowballs to fall from the sky, damaging and slowing the target slightly. Usually nothing more than an annoyance."
+    description: >
+      Causes bewitched snowballs to fall from the sky,
+      damaging and slowing the target slightly.
+      Usually nothing more than an annoyance.
     upgrade_description: "Increased damage.\nDecreased cooldown."
   patronus:
-    description: "Conjures concentrated happiness of a wizard from their happiest memory to protect against dark beings such as dementors and lethifolds."
+    description: >
+      Conjures concentrated happiness of a wizard
+      from their happiest memory to protect against
+      dark beings such as dementors and lethifolds.
     usage: ""
     cast: ""
   patronus|2:
@@ -271,7 +291,10 @@ spells:
   episkey|3:
     upgrade_description: "Increased healing."
   ascendio:
-    description: "A lesser form of propulsion-based flight, this spell propels the wizard high into the air, or whatever direction they choose."
+    description: >
+      A lesser form of propulsion-based flight,
+      this spell propels the wizard high into the air,
+      or whatever direction they choose.
   ascendio|2:
     upgrade_description: "Increased power."
   ascendio|3:
@@ -285,7 +308,10 @@ spells:
   evanesco:
     description: "Causes the target to vanish into almost non-being, temporarily."
   reducio:
-    description: "Causes the target object or creature to shrink quickly, assuming they are not already as small as they can be."
+    description: >
+      Causes the target object or creature
+      to shrink quickly, assuming they are
+      not already as small as they can be.
   incarcerous:
     description: "Binds your target in ropes which they will find difficult to escape from."
   levicorpus:
@@ -295,7 +321,11 @@ spells:
   levicorpus|3:
     upgrade_description: "Increased levitation speed.\nIncreased disorientation."
   stupefy:
-    description: "In a jet of red light, this spell will inflict damage and stun the target, preventing them from performing other actions for a short time."
+    description: >
+      In a jet of red light, this spell
+      will inflict damage and stun the target,
+      preventing them from performing other
+      actions for a short time.
   stupefy|2:
     upgrade_description: "Increased damage.\nIncreased duration."
   stupefy|3:
@@ -303,7 +333,10 @@ spells:
   stupefy|4:
     upgrade_description: "Increased damage.\nIncreased duration."
   lacarnum:
-    description: "Conjures and propels a fireball which can inflict major damage to both creatures and the surrounding area."
+    description: >
+      Conjures and propels a fireball which
+      can inflict major damage to both creatures
+      and the surrounding area.
   lacarnum|2:
     upgrade_description: "Increased radius.\nIncreased duration.\nIncreased accuracy."
   lacarnum|3:
@@ -333,7 +366,10 @@ spells:
     upgrade_description: "Increased damage."
   apparate:
     name: "Short-Distance Apparition"
-    description: "Causes the witch or wizard to vanish from one location in disapparition and re-appear somewhere desirable in apparation."
+    description: >
+      Causes the witch or wizard to vanish from
+      one location in disapparition and re-appear
+      somewhere desirable in apparation.
   apparate|2:
     upgrade_description: "Increased range."
   apparate|3:
@@ -347,7 +383,11 @@ spells:
   ventus:
     description: "Blasts the target with a stream of hot air which propels them backwards."
   disillusion:
-    description: "Creates the illusion of invisibility on the target as a means of concealment or to cause confusion. This spell is often used to create invisibility cloaks."
+    description: >
+      Creates the illusion of invisibility on the
+      target as a means of concealment or to cause
+      confusion. This spell is often used to create
+      invisibility cloaks.
     cast: ""
     cast_self: ""
   disillusion|2:
@@ -373,14 +413,20 @@ spells:
     upgrade_description: "Spawns adult bunnies."
   lumossolem:
     name: Lumos Solem
-    description: "Conjures a well-lit ball of light which can be thrown where desired and will stick there, temporarily lighting up the area."
+    description: >
+      Conjures a well-lit ball of light which can
+      be thrown where desired and will stick there,
+      temporarily lighting up the area.
   lumossolem|2:
     upgrade_description: "Increased duration."
   lumossolem|3:
     upgrade_description: "Increased duration."
   sectumsempra:
     name: Sectumsempra
-    description: "Seemingly using an invisible sword, this spell will lash out and slash a target to pieces, inflicting massive damage and bleeding."
+    description: >
+      Seemingly using an invisible sword, this spell
+      will lash out and slash a target to pieces,
+      inflicting massive damage and bleeding.
   alarteascendare:
     name: Alarte Ascendare
     description: "Flings the target high into the air."
@@ -389,7 +435,10 @@ spells:
     upgrade_description: "Increased power."
   tarantallegra:
     name: Tarantallegra
-    description: "Forces the target to dance against their will, limiting the amount of actions they can perform temporarily."
+    description: >
+      Forces the target to dance against their will,
+      limiting the amount of actions they can perform
+      temporarily.
   tarantallegra|2:
     upgrade_description: "Increased duration."
   tarantallegra|3:
@@ -416,14 +465,21 @@ spells:
   protego|2:
     upgrade_description: "Decreased cooldown.\nIncreased chance to reflect spells.\nIncreased size."
   protego|3:
-    upgrade_description: "Decreased cooldown.\nIncreased duration.\nIncreased chance to reflect spells.\nIncreased size."
+    upgrade_description: |
+      Decreased cooldown.
+      Increased duration.
+      Increased chance to reflect spells.
+      Increased size.
   protego|4:
     upgrade_description: "Decreased cooldown.\nIncreased chance to reflect spells.\nIncreased size."
   protego|5:
     upgrade_description: "Increased duration.\nIncreased size.\nGuaranteed to reflect spells."
   protegomaxima:
     name: Protego Maxima
-    description: "Conjures a spherical shield which will encase a large area and protect you from incoming projectiles and magical attacks."
+    description: >
+      Conjures a spherical shield which will
+      encase a large area and protect you from
+      incoming projectiles and magical attacks.
     usage: ""
   protegomaxima|2:
     upgrade_description: "Decreased cooldown.\nIncreased duration.\nIncreased reflection chance.\nIncreased size."
@@ -438,13 +494,20 @@ spells:
     usage: ""
   baubillious:
     name: Baubillious
-    description: "Causes powerful lightning to zap one target, then to continue jumping between additional nearby targets."
+    description: >
+      Causes powerful lightning to zap one target,
+      then to continue jumping between additional
+      nearby targets.
   baubillious|2:
     upgrade_description: "Increased damage."
   baubillious|3:
     upgrade_description: "Increased damage.\nIncreased chains."
   crucio:
-    description: "This torturous spell induces horrible, writing pain which makes it terribly hard to focus on anything but the pain at hand."
+    description: >
+      This torturous spell induces horrible,
+      writhing pain which makes it terribly
+      hard to focus on anything but the pain
+      at hand.
     usage: ""
   morsmordre:
     description: "Conjures the symbol of one of Britain's darkest wizards, Lord Voldemort high into the air."
@@ -473,7 +536,10 @@ spells:
   periculux:
     description: "Conjures rainbow-colored fireworks which signal to fellow wizards."
   volo:
-    description: "Allows you to run at magically-enhanced speeds to escape enemies or venture into the unknown with increased speed."
+    description: >
+      Allows you to run at magically-enhanced
+      speeds to escape enemies or venture
+      into the unknown with increased speed.
   volo|2:
     upgrade_description: "Increased duration.\nIncreased speed."
   volo|3:
@@ -485,7 +551,10 @@ spells:
   spongifymaxima:
     description: "Softens and makes a large area bouncy."
   avadakedavra:
-    description: "In a flash of green light, this unblockable curse can end the life of any living creature with great malice."
+    description: >
+      In a flash of green light, this unblockable
+      curse can end the life of any living creature
+      with great malice.
     usage: ""
   reparifarge:
     description: "Counter mosts of the world-impacting effects of previously cast spells."
@@ -532,12 +601,20 @@ spells:
     name: "Furnunculus"
     description: "Causes the target to erupt in terrible, painful boils and impeding their ability to see."
   furnunculus|2:
-    upgrade_description: "Expels green pus.\nIncreased range.\nIncreased damage.\nIncreased duration.\nIncreased velocity."
+    upgrade_description: |
+      Expels green pus.
+      Increased range.
+      Increased damage.
+      Increased duration.
+      Increased velocity.
   furnunculus|3:
     upgrade_description: "Increased range.\nIncreased damage."
   obliviatemaxima:
     name: "Obliviate Maxima"
-    description: "An incredibly powerful spell not intended for misuse, you can wipe everyone's memory of what has previously been said."
+    description: >
+      An incredibly powerful spell that allows
+      you to wipe everyone's memory of what has
+      previously been said.
   obliviate:
     name: "Obliviate"
     description: "A powerful memory-wiping charm which will erase the target's memory of what has been said previously."
@@ -658,7 +735,11 @@ spells:
     description: "Binds your target in ropes to immobilize them."
   flight:
     name: "Flight"
-    description: "Channeling some of the most powerful magic known to wizardkind, you levitate in the air and sail around without aid from a magical device."
+    description: >
+      Channeling some of the most powerful
+      magic known to wizardkind, you
+      levitate in the air and sail around
+      without aid from a magical device.
   homenumrevelio:
     name: "Homenum Revelio"
     description: "Reveals the presence of nearby players."
@@ -666,7 +747,11 @@ spells:
     upgrade_description: "Increased radius.\nIncreased target count.\nIncreased duration."
   homenumrevelio|3:
     description: "Reveals the presence of nearby creatures."
-    upgrade_description: "Increased radius.\nIncreased target count.\nIncreased duration.\nNow detects any living creature."
+    upgrade_description: |
+      Increased radius.
+      Increased target count.
+      Increased duration.
+      Now detects any living creature.
   homenumrevelio|4:
     upgrade_description: "Increased radius.\nIncreased target count.\nIncreased duration."
   lightningcurse:
@@ -678,7 +763,11 @@ spells:
     upgrade_description: "Increased damage.\nIncreased range."
   cascadingjinx:
     name: "Cascading Jinx"
-    description: "A high damage-inflicting spell which cascades from target to target, decimating the enemy with effective precision."
+    description: >
+      A high damage-inflicting spell which
+      cascades from target to target,
+      decimating the enemy with effective
+      precision.
   cascadingjinx|2:
     upgrade_description: "Increased damage.\nIncreased target count."
   cascadingjinx|3:
@@ -723,7 +812,10 @@ spells:
     upgrade_description: "Increased range.\nIncreased slowness.\nIncreased duration."
   titillando:
     name: "Titillando"
-    description: "Causes the target great discomfort by tickling them beyond their control, immobilizing and slowing them down."
+    description: >
+      Causes the target great discomfort
+      by tickling them beyond their control,
+      immobilizing and slowing them down.
   titillando|2:
     upgrade_description: "Decreased cooldown.\nIncreased range.\nIncreased efficacy.\nIncreased duration."
   titillando|3:

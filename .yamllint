@@ -1,6 +1,12 @@
 extends: default
 yaml-files:
-  - '*.yml'
+  - "*.yml"
+ignore: |
+  .github
+  data
+  defaults
+  examples
+  schematics
 rules:
   braces:
     level: warning

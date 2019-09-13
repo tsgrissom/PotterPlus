@@ -63,7 +63,13 @@ wands:
     bound_instructions: ""
     description: "&6A sword imbued with magic, previously owned by a Hogwarts founder"
     name: "&4Sword of Godric Gryffindor"
-    spell_instructions: "&4&lSword of Godric Gryffindor&7// &6The Sword of Godric Gryffindor can be wielded as a powerful melee weapon or as an effective means to disarm your opponent&8. &eLeft-click &6to swing the sword&8. &eRight-click &6to disarm your opponent&8. &ePress swap &6to heal yourself&8."
+    spell_instructions: >
+      &4&lSword of Godric Gryffindor&7//
+      &6The Sword of Godric Gryffindor can be wielded as a powerful melee weapon
+      or as an effective means to disarm your opponent&8.
+      &eLeft-click &6to swing the sword&8.
+      &eRight-click &6to disarm your opponent&8.
+      &ePress swap &6to heal yourself&8.
   handbag:
     description: "&cA very spacious beaded handbag enchanted to hold many, many items"
     name: "&4Beaded Handbag"
@@ -113,8 +119,17 @@ wands:
     randomized_description: "&bContains your very own wand. What adventures await?"
     enchant_instructions: ""
     bound_instructions: ""
-    spell_instructions: "&7&lWAND BASICS&8// &dLeft-click &5to cast spells. &dRight-click&8/&dDrop button &5to open and close the spell menu. &dSwap button &5to cycle between hotbars."
-    inventory_instructions: "&7&lWAND INVENTORY MANAGEMENT&8// &5You now know more than one spell! &dOpen your inventory &5to manage which spells are in your hotbar. &dUse number keys &5to change to the desired spell in your hotbar. &dPress swap &5to cycle hotbars."
+    spell_instructions: >
+      &7&lWAND BASICS&8//
+      &dLeft-click &5to cast spells.
+      &dRight-click&8/&dDrop button &5to open and close the spell menu.
+      &dSwap button &5to cycle between hotbars.
+    inventory_instructions: >
+      &7&lWAND INVENTORY MANAGEMENT&8//
+      &5You now know more than one spell!
+      &dOpen your inventory &5to manage which spells are in your hotbar.
+      &dUse number keys &5to change to the desired spell in your hotbar.
+      &dPress swap &5to cycle hotbars.
 
   lovepotion:
     description: "&5Causes the drinker to &5become infatuated with the &5person who gave it to them."
@@ -123,7 +138,10 @@ wands:
     description: "&eCauses the drinker to burp uncontrollably."
     name: "&6Burping Potion"
   amortentia:
-    description: "&5The most powerful love &5potion in existence. Causes &5the &5drinker to develop a &5powerful infatuation or &5obsession with &5the person &5who gave it to them."
+    description: >
+      &5The most powerful love &5potion in existence.
+      Causes &5the &5drinker to develop a &5powerful infatuation
+      or &5obsession with &5the person &5who gave it to them.
     name: "&dAmortentia"
   antiparalysispotion:
     description: "&3Cures the drinker of any paralyzing effects they are under."
