@@ -6,17 +6,19 @@ baubillious:
   upgrade_required_casts: 25
   effects:
     projectile:
-        - class: EffectSingle
-          effectlib:
-             class: Line
-             isZigZag: true
-             zigZags: 2
-             zigZagOffset: 0,0.05,0
-             length: 6
-             particles: 50
-             particle: fireworks_spark
-             color: "FFFFFF"
-             duration: 2000
+      - class: EffectSingle
+        effectlib:
+          class: Line
+          isZigZag: true
+          zigZags: 2
+          zigZagOffset: 0,0.05,0
+          length: 6
+          particles: 50
+          particle: fireworks_spark
+          color: "FFFFFF"
+          duration: 2000
+  parameters:
+    cooldown: 15000
 
 baubillious|2:
   upgrade_required_path: year7

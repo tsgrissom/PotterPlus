@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/12/19
 
+* Balanced Baubillious
 * Balanced Babbling Curse
 * Balanced Avis
 * Balanced Arresto Momentum
