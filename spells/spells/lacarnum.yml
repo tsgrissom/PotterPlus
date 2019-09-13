@@ -8,41 +8,41 @@ lacarnum:
   upgrade_required_casts: 50
   pvp_restricted: true
   actions:
-      cast:
-        - class: Projectile
-          actions:
-            - class: Ignite
-            - class: Disc
-              actions:
-                - class: Cover
-                  actions:
-                    - class: Burn
+    cast:
+      - class: Projectile
+        actions:
+          - class: Ignite
+          - class: Disc
+            actions:
+              - class: Cover
+                actions:
+                  - class: Burn
   effects:
-      cast:
-      -  class: EffectSingle
-         sound: magic.hit
-         sound_volume: 1
-         location: both
-      -  class: EffectSingle
-         effectlib:
-           class: Cone
-           iterations: 15
-           particle: lava
-           lengthGrow: 0.4
+    cast:
+      - class: EffectSingle
+        sound: magic.hit
+        sound_volume: 1
+        location: both
+      - class: EffectSingle
+        effectlib:
+          class: Cone
+          iterations: 15
+          particle: lava
+          lengthGrow: 0.4
   parameters:
-      target_type: Damageable
-      hitbox: true
-      target: other
-      radius: 1
-      range: 40
-      cooldown: 10000
-      target_breakables: 0
-      duration: 1000
-      projectile: SmallFireball
-      spread: 2
-      undo: 1000
+    target_type: Damageable
+    hitbox: true
+    target: other
+    radius: 1
+    range: 40
+    cooldown: 10000
+    target_breakables: 0
+    duration: 1000
+    projectile: SmallFireball
+    spread: 2
+    undo: 1000
   costs:
-      mana: 100
+    mana: 100
 
 lacarnum|2:
   upgrade_required_path: year7

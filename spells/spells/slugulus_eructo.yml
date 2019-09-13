@@ -15,23 +15,23 @@ sluguluseructo:
               - class: SpawnEntity
   effects:
     hit:
-      -  class: EffectSingle
-         location: target
-         requires_entity_target: true
-         effectlib:
-           class: Warp
-           particle: slime
-           iterations: 1
-      -  class: EffectSingle
-         location: target
-         requires_entity_target: true
-         effectlib:
-           class: Sphere
-           iterations: 60
-           period: .1
-           particle: slime
-           radius: .75
-           particles: 20
+      - class: EffectSingle
+        location: target
+        requires_entity_target: true
+        effectlib:
+          class: Warp
+          particle: slime
+          iterations: 1
+      - class: EffectSingle
+        location: target
+        requires_entity_target: true
+        effectlib:
+          class: Sphere
+          iterations: 60
+          period: .1
+          particle: slime
+          radius: .75
+          particles: 20
   parameters:
     type: silverfish
     name: "&aSlug"

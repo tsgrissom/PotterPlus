@@ -8,27 +8,22 @@ cascadingjinx:
   upgrade_required_casts: 50
   actions:
     cast:
-    - class: CustomProjectile
-      actions:
-      - class: Damage
-      - class: Delay
-      - class: AreaOfEffect
+      - class: CustomProjectile
         actions:
-        - class: Asynchronous
-          actions:
-          - class: CustomProjectile
-            velocity: 150
+          - class: Damage
+          - class: Delay
+          - class: AreaOfEffect
             actions:
-            - class: Repeat
-              actions:
-              - class: Damage
-              - class: Explosion
-              - class: Delay
-      - class: Repeat
-        actions:
-        - class: Damage
-        - class: Explosion
-        - class: Delay
+              - class: Asynchronous
+                actions:
+                  - class: CustomProjectile
+                    velocity: 150
+                    actions:
+                      - class: Repeat
+                        actions:
+                          - class: Damage
+                          - class: Explosion
+                          - class: Delay
   effects:
     projectile:
       - class: EffectSingle

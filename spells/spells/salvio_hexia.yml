@@ -22,14 +22,14 @@ salviohexia:
           particles: 20
           duration: $duration
   parameters:
-      target: self
-      duration: 5000
-      cooldown: 20000
-      add_effects:
-        damage_resistance: 255
-        slow: 1
+    target: self
+    duration: 5000
+    cooldown: 20000
+    add_effects:
+      damage_resistance: 255
+      slow: 1
   costs:
-      mana: 90
+    mana: 90
 
 salviohexia|2:
   upgrade_required_path: year7

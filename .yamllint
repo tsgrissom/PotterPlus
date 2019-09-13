@@ -10,6 +10,8 @@ rules:
     max-spaces-inside: 0
     min-spaces-inside-empty: 0
     max-spaces-inside-empty: 0
+  hyphens:
+    level: warning
   comments:
     level: warning
     require-starting-space: true

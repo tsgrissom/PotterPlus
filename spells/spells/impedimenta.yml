@@ -43,14 +43,14 @@ impedimenta:
         requires_entity_target: true
         target_location: body
         effectlib:
-           class: AtomEffect
-           particleNucleus: redstone
-           particleOrbital: redstone
-           colorNucleus: 7a70bb
-           colorOrbital: 7a70bb
-           duration: $duration
-           radius: 2
-           period: 1
+          class: AtomEffect
+          particleNucleus: redstone
+          particleOrbital: redstone
+          colorNucleus: 7a70bb
+          colorOrbital: 7a70bb
+          duration: $duration
+          radius: 2
+          period: 1
   parameters:
     velocity: 100
     hitbox: true
