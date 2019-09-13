@@ -72,8 +72,6 @@ cyclemode:
 deatheater_upgrade:
   enabled: false
 
-
-
 # Wands
 
 elder:

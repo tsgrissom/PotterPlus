@@ -22,5 +22,5 @@ randomizedpotterwand:
   icon: wood_hoe:24,wood_hoe:25,wood_hoe:26
   effects:
     randomize:
-    -  class: EffectSingle
-       sound: betterpotter.swish
+      - class: EffectSingle
+        sound: betterpotter.swish
