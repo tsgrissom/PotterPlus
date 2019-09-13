@@ -3,22 +3,25 @@ accio:
   upgrade_required_path: year4
   upgrade_required_casts: 50
   parameters:
-    range: 24
-    item_speed: 0
-    living_entity_speed: 0.5
-    cooldown: 3000
+    range: 12
+    item_speed: 3
+    living_entity_speed: 2
+    cooldown: 12000
+  costs:
+    mana:
 
 accio|2:
   upgrade_required_path: year5
   upgrade_required_casts: 75
   parameters:
-    range: 32
-    item_speed: 1
-    living_entity_speed: 1
+    range: 20
+    item_speed: 4
+    living_entity_speed: 2.5
 
 accio|3:
   upgrade_required_path: year6
   upgrade_required_casts: 100
   parameters:
-    range: 48
-    living_entity_speed: 2
+    range: 28
+    item_speed: 5
+    living_entity_speed: 3

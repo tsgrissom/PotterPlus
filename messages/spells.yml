@@ -246,7 +246,7 @@ spells:
   accio:
     description: "Summons objects and lesser creatures to the caster."
   accio|2:
-    upgrade_description: "Increased range.\nIncreased power.\nNow pulls dropped items."
+    upgrade_description: "Increased range.\nIncreased power."
   accio|3:
     upgrade_description: "Increased range.\nIncreased power."
   aguamenti:
