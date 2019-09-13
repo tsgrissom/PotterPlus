@@ -11,6 +11,8 @@ potionshop:
         cost: 5
       - item: wand|befuddlementdraught
         cost: 10
+      - item: wand|confusingconcoction
+        cost: 10
       - item: wand|lovepotion
         cost: 10
       - item: wand|amortentia

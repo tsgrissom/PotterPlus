@@ -954,3 +954,5 @@ spells:
     name: "Ice Potion Ability"
   blood_replenishing_potion_ability:
     name: "Blood-Replenishing Potion Ability"
+  confusing_concoction_ability:
+    name: "Confusing Concoction Ability"

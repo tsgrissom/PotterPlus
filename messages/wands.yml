@@ -152,3 +152,6 @@ wands:
   bloodreplenishingpotion:
     description: "&cReplenishes the drinker's blood, healing them."
     name: "&4Blood-Replenishing Potion"
+  confusingconcoction:
+    description: "&eCauses the drinker to become confused."
+    name: "&6Confusing Concoction"

@@ -1,0 +1,23 @@
+confusing_concoction_ability:
+  icon: potion
+  category: potions
+  hidden: true
+  actions:
+    cast:
+      - class: PotionEffect
+  effects:
+    cast:
+      - class: EffectSingle
+        location: origin
+        source_location: feet
+        effectlib:
+          class: Smoke
+          particle: spell_mob
+          color: e5f622
+          duration: $duration
+  parameters:
+    bypass_confusion: true
+    target: self
+    duration: 20000
+    add_effects:
+      confusion: 1
