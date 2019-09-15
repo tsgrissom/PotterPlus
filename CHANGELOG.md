@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/15/19
 
+* Re-worked leveling for Alohomora
 * Re-worked leveling for Alarte Ascendare
 * Added leveling to Aberto
 * Fixed fizzle and backfire messages

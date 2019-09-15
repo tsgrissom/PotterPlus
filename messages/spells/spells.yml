@@ -73,6 +73,13 @@ spells:
   alohomora|2:
     upgrade_description: |-
       Increased range.
+      Decreased chance of fizzling.
+  alohomora|3:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  alohomora|4:
+    upgrade_description: |-
+      Decreased chance of fizzling.
 
   aparecium:
     name: >-

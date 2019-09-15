@@ -30,7 +30,21 @@ alohomora:
         particle_offset_z: 0.2
   parameters:
     range: 8
+    fizzle_chance: 0.4
 
 alohomora|2:
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
   parameters:
     range: 16
+    fizzle_chance: 0.3
+
+alohomora|3:
+  upgrade_required_path: year4
+  upgrade_required_casts: 75
+  parameters:
+    fizzle_chance: 0.2
+
+alohomora|4:
+  parameters:
+    fizzle_chance: 0.1
