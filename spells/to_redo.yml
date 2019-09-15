@@ -31,13 +31,6 @@ engorgio:
 episkey:
   category: herbology
   worth: 15 ac
-erecto:
-  category: transfiguration
-  parameters:
-    undo: 12000
-    undo_speed: 1
-  pvp_restricted: true
-  worth: 10 ac
 evanesco:
   worth: 15 ac
 fiantoduri:

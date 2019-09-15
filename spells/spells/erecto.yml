@@ -1,10 +1,11 @@
 erecto:
   category: transfiguration
+  worth: 10 ac
   effects:
     cast:
       - class: EffectSingle
         sound: magic.teleport
   parameters:
-    undo: 30000
+    undo: 12000
   costs:
     mana: 100

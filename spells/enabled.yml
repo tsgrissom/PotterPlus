@@ -15,9 +15,6 @@ music:
   category: specialty
   enabled: true
   hidden: true
-reveal:
-  enabled: true
-  hidden: true
 testdummy:
   enabled: true
   hidden: true
