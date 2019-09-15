@@ -1,40 +1,56 @@
 categories:
-  beast_ability:
-    description: "Magic granted to beasts and creatures."
-    name: "Beast Ability"
   charms:
-    description: "Spells to change the properties of yourself, others, and objects."
     name: "Charms"
-  creatures:
-    description: "Spells used to control magical creatures."
-    name: "Magical Creatures"
+    description: >-
+      Spells used to change the
+      properties of yourself,
+      others, and objects around
+      you.
+  careofcreatures:
+    name: "Care of Magical Creatures"
+    description: >-
+      Spells used to control magical
+      creatures.
   dada:
-    description: "Spells to defend yourself against dark magic."
-    name: "DADA"
+    name: "Defense Against the Dark Arts"
+    description: >-
+      Spells used to defend yourself
+      against practitioners of dark
+      magic.
   dark:
-    description: "Spells that explore the darker side of magic."
     name: "Dark Arts"
-  elective:
-    description: "Spells from assorted subjects you can choose to take on your own."
-    name: "Electives"
+    description: >-
+      Spells that explore the darker
+      side of magic.
   herbology:
-    description: "Spells to cultivate plants or heal."
-    name: Herbology
-  item_ability:
-    description: "Abilities that items can utilize."
-    name: "Item Ability"
-  potions:
-    description: "Abilities that are used by potions"
-    name: "Potions"
-  specialty:
-    description: "Spells that often power magic items."
-    name: "Specialty"
-  staff:
-    description: "Spells that are exclusively granted to staff members."
-    name: "Staff"
+    name: "Herbology"
+    description: >-
+      Spells used to cultivate plants
+      or to heal.
   transfiguration:
-    description: "Spells to transform, switch, vanish, or conjure objects."
     name: "Transfiguration"
+    description: >-
+      Spells used to transform, switch,
+      vanish or conjure objects.
+  elective:
+    name: "Electives"
+    description: >-
+      Spells from assorted subjects
+      that you can choose to take on
+      your own.
+  staff:
+    name: "Staff"
+    description: >-
+      Spells that are exclusively
+      granted to staff members.
+  specialty:
+    name: "Specialty"
+    description: >-
+      Spells that often power magic
+      items, potions, magical creatures,
+      and more.
   npc:
-    description: "Spells used by NPCs, likely to bring up a GUI."
     name: "NPC"
+    description: >-
+      Spells that are used by NPCs,
+      often to bring up menus.

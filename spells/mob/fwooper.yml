@@ -1,6 +1,6 @@
 fwooper_death:
   icon: feather
-  category: beast_ability
+  category: specialty
   hidden: true
   actions:
     cast:

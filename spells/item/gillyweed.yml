@@ -1,7 +1,7 @@
 gillyweed_ability:
   inherit: bubblehead
   icon: vine
-  category: item_ability
+  category: specialty
   hidden: true
   effects:
     cast:

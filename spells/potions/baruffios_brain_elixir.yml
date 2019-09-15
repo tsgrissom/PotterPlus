@@ -1,6 +1,6 @@
 baruffios_brain_elixir_ability:
   icon: potion
-  category: potions
+  category: specialty
   hidden: true
   effects:
     cast:

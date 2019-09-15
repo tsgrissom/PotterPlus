@@ -1,6 +1,6 @@
 blood_replenishing_potion_ability:
   icon: potion
-  category: potions
+  category: specialty
   hidden: true
   actions:
     cast:

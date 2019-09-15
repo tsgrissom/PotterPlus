@@ -11,7 +11,7 @@ spells:
   vermillious|2:
     upgrade_description: Increased damage.
   vermillious|3:
-    upgrade_description: |
+    upgrade_description: |-
       Increased damage.
       Increased range.
   vermillious|4:
@@ -118,7 +118,7 @@ spells:
   alohomora|2:
     upgrade_description: "Increased range."
   fumos:
-    description: >
+    description: >-
       Produces heavy smoke which fills the target's lungs,
       slowing them down and obstructing their breathing,
       and blinding them.
@@ -129,7 +129,7 @@ spells:
   nox:
     description: "Extinguishes your lit wand."
   araniaexumai:
-    description: >
+    description: >-
       Repells arachnids and damages them severely.
       A must-have when venturing into dangerous forests
       or spelunking in caves inhabited by acromantula colonies.
@@ -155,7 +155,7 @@ spells:
   rictusempra|4:
     upgrade_description: "Increased damage.\nIncreased range."
   bogies:
-    description: >
+    description: >-
       Sickens the target, causing a runny nose,
       terrible cough, and overall miserable symptoms.
   bogies|2:
@@ -175,7 +175,7 @@ spells:
   expelliarmus|6:
     upgrade_description: "Now no longer moves their item back.\nIncreased chance to throw the target backwards."
   finiteincantatem:
-    description: >
+    description: >-
       A general-purpose counterspell which will
       undo most of the world-changing effects of
       previously cast spells.
@@ -186,7 +186,7 @@ spells:
   finiteincantatem|4:
     upgrade_description: "No chance of fizzling."
   glacius:
-    description: >
+    description: >-
       With a jet of icy breeze, snow is conjured
       and falls from the sky, icing over the ground
       below it and inflicting cold damage.
@@ -203,13 +203,13 @@ spells:
   diffindo:
     description: "Severs fabric."
   snowball:
-    description: >
+    description: >-
       Causes bewitched snowballs to fall from the sky,
       damaging and slowing the target slightly.
       Usually nothing more than an annoyance.
     upgrade_description: "Increased damage.\nDecreased cooldown."
   patronus:
-    description: >
+    description: >-
       Conjures concentrated happiness of a wizard
       from their happiest memory to protect against
       dark beings such as dementors and lethifolds.
@@ -266,7 +266,7 @@ spells:
   episkey|3:
     upgrade_description: "Increased healing."
   ascendio:
-    description: >
+    description: >-
       A lesser form of propulsion-based flight,
       this spell propels the wizard high into the air,
       or whatever direction they choose.
@@ -283,7 +283,7 @@ spells:
   evanesco:
     description: "Causes the target to vanish into almost non-being, temporarily."
   reducio:
-    description: >
+    description: >-
       Causes the target object or creature
       to shrink quickly, assuming they are
       not already as small as they can be.
@@ -296,7 +296,7 @@ spells:
   levicorpus|3:
     upgrade_description: "Increased levitation speed.\nIncreased disorientation."
   stupefy:
-    description: >
+    description: >-
       In a jet of red light, this spell
       will inflict damage and stun the target,
       preventing them from performing other
@@ -308,7 +308,7 @@ spells:
   stupefy|4:
     upgrade_description: "Increased damage.\nIncreased duration."
   lacarnum:
-    description: >
+    description: >-
       Conjures and propels a fireball which
       can inflict major damage to both creatures
       and the surrounding area.
@@ -341,7 +341,7 @@ spells:
     upgrade_description: "Increased damage."
   apparate:
     name: "Short-Distance Apparition"
-    description: >
+    description: >-
       Causes the witch or wizard to vanish from
       one location in disapparition and re-appear
       somewhere desirable in apparation.
@@ -358,7 +358,7 @@ spells:
   ventus:
     description: "Blasts the target with a stream of hot air which propels them backwards."
   disillusion:
-    description: >
+    description: >-
       Creates the illusion of invisibility on the
       target as a means of concealment or to cause
       confusion. This spell is often used to create
@@ -388,7 +388,7 @@ spells:
     upgrade_description: "Spawns adult bunnies."
   lumossolem:
     name: Lumos Solem
-    description: >
+    description: >-
       Conjures a well-lit ball of light which can
       be thrown where desired and will stick there,
       temporarily lighting up the area.
@@ -398,7 +398,7 @@ spells:
     upgrade_description: "Increased duration."
   sectumsempra:
     name: Sectumsempra
-    description: >
+    description: >-
       Seemingly using an invisible sword, this spell
       will lash out and slash a target to pieces,
       inflicting massive damage and bleeding.
@@ -410,7 +410,7 @@ spells:
     upgrade_description: "Increased power."
   tarantallegra:
     name: Tarantallegra
-    description: >
+    description: >-
       Forces the target to dance against their will,
       limiting the amount of actions they can perform
       temporarily.
@@ -440,7 +440,7 @@ spells:
   protego|2:
     upgrade_description: "Decreased cooldown.\nIncreased chance to reflect spells.\nIncreased size."
   protego|3:
-    upgrade_description: |
+    upgrade_description: |-
       Decreased cooldown.
       Increased duration.
       Increased chance to reflect spells.
@@ -451,7 +451,7 @@ spells:
     upgrade_description: "Increased duration.\nIncreased size.\nGuaranteed to reflect spells."
   protegomaxima:
     name: Protego Maxima
-    description: >
+    description: >-
       Conjures a spherical shield which will
       encase a large area and protect you from
       incoming projectiles and magical attacks.
@@ -469,7 +469,7 @@ spells:
     usage: ""
   baubillious:
     name: Baubillious
-    description: >
+    description: >-
       Causes powerful lightning to zap one target,
       then to continue jumping between additional
       nearby targets.
@@ -478,7 +478,7 @@ spells:
   baubillious|3:
     upgrade_description: "Increased damage.\nIncreased chains."
   crucio:
-    description: >
+    description: >-
       This torturous spell induces horrible,
       writhing pain which makes it terribly
       hard to focus on anything but the pain
@@ -511,7 +511,7 @@ spells:
   periculux:
     description: "Conjures rainbow-colored fireworks which signal to fellow wizards."
   volo:
-    description: >
+    description: >-
       Allows you to run at magically-enhanced
       speeds to escape enemies or venture
       into the unknown with increased speed.
@@ -526,7 +526,7 @@ spells:
   spongifymaxima:
     description: "Softens and makes a large area bouncy."
   avadakedavra:
-    description: >
+    description: >-
       In a flash of green light, this unblockable
       curse can end the life of any living creature
       with great malice.
@@ -576,7 +576,7 @@ spells:
     name: "Furnunculus"
     description: "Causes the target to erupt in terrible, painful boils and impeding their ability to see."
   furnunculus|2:
-    upgrade_description: |
+    upgrade_description: |-
       Expels green pus.
       Increased range.
       Increased damage.
@@ -586,7 +586,7 @@ spells:
     upgrade_description: "Increased range.\nIncreased damage."
   obliviatemaxima:
     name: "Obliviate Maxima"
-    description: >
+    description: >-
       An incredibly powerful spell that allows
       you to wipe everyone's memory of what has
       previously been said.
@@ -677,7 +677,7 @@ spells:
     description: "Binds your target in ropes to immobilize them."
   flight:
     name: "Flight"
-    description: >
+    description: >-
       Channeling some of the most powerful
       magic known to wizardkind, you
       levitate in the air and sail around
@@ -689,7 +689,7 @@ spells:
     upgrade_description: "Increased radius.\nIncreased target count.\nIncreased duration."
   homenumrevelio|3:
     description: "Reveals the presence of nearby creatures."
-    upgrade_description: |
+    upgrade_description: |-
       Increased radius.
       Increased target count.
       Increased duration.
@@ -705,7 +705,7 @@ spells:
     upgrade_description: "Increased damage.\nIncreased range."
   cascadingjinx:
     name: "Cascading Jinx"
-    description: >
+    description: >-
       A high damage-inflicting spell which
       cascades from target to target,
       decimating the enemy with effective
@@ -754,7 +754,7 @@ spells:
     upgrade_description: "Increased range.\nIncreased slowness.\nIncreased duration."
   titillando:
     name: "Titillando"
-    description: >
+    description: >-
       Causes the target great discomfort
       by tickling them beyond their control,
       immobilizing and slowing them down.

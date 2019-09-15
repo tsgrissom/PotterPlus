@@ -1,6 +1,11 @@
 currency:
-  description: "&8Right-click to deposit"
-  item_name: "&e$amount &6$type"
+  description: >-
+    &8Right-click to deposit
+  item_name: >-
+    &e$amount &6$type
+
   galleon:
-    amount: "&6$amount Galleons"
-    name: "&6Galleons"
+    amount: >-
+      &6$amount Galleons
+    name: >-
+      &6Galleons

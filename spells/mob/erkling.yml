@@ -20,7 +20,7 @@ erkling_dart:
     color: c2bfb4
     cooldown: 12000
   costs:
-    mana: 5
+    mana: 0
 
 erkling_poisoned_dart:
   inherit: erkling_dart

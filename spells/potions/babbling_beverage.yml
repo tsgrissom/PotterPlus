@@ -1,7 +1,7 @@
 babbling_beverage_ability:
   inherit: babblingcurse
   icon: potion
-  category: potions
+  category: specialty
   hidden: true
   effects:
     cast: []

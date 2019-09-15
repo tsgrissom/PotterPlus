@@ -1,5 +1,5 @@
 camera:
-  category: item_ability
+  category: specialty
   enabled: true
   hidden: true
 debugger:
@@ -12,7 +12,7 @@ handbag:
   enabled: true
   hidden: true
 music:
-  category: item_ability
+  category: specialty
   enabled: true
   hidden: true
 reveal:

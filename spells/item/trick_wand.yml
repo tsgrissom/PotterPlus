@@ -1,7 +1,7 @@
 trick_wand_ability:
   icon: stick
   hidden: true
-  category: item_ability
+  category: specialty
   actions:
     cast:
       - class: Random

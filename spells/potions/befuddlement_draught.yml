@@ -1,6 +1,6 @@
 befuddlement_draught_ability:
   icon: potion
-  category: potions
+  category: specialty
   hidden: true
   effects:
     cast:

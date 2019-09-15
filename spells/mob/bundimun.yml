@@ -1,6 +1,6 @@
 bundimun_summon:
   icon: slime_block
-  category: beast_ability
+  category: specialty
   hidden: true
   effects:
     cast: bundimun_summon

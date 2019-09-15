@@ -7,8 +7,9 @@ bookshop:
       - item: book|charms
         name: "&6Charms Textbook"
         cost: 10
-      - item: book|creatures
+      - item: book|careofcreatures
         name: "&6Care of Magical Creatures Textbook"
+        cost: 5
       - item: book|dada
         name: "&6Defense Against the Dark Arts Textbook"
         cost: 10

@@ -1,6 +1,6 @@
 confusing_concoction_ability:
   icon: potion
-  category: potions
+  category: specialty
   hidden: true
   actions:
     cast:

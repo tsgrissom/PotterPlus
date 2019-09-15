@@ -1,7 +1,7 @@
 portable_swamp_ability:
   inherit: incarcifors
   icon: water_lily
-  category: item_ability
+  category: specialty
   hidden: true
   cast_on_no_target: true
   effects:

@@ -1,6 +1,6 @@
 demiguise_disappear:
   icon: glass
-  category: beast_ability
+  category: specialty
   hidden: true
   effects:
     cast:

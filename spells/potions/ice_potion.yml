@@ -1,7 +1,7 @@
 ice_potion_ability:
   inherit: flamefreezingcharm|2
   icon: potion
-  category: potions
+  category: specialty
   hidden: true
   actions:
     cast:

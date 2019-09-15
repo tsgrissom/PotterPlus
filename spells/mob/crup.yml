@@ -1,6 +1,6 @@
 crup_pet:
   icon: bone
-  category: beast_ability
+  category: specialty
   hidden: true
   actions:
     cast:

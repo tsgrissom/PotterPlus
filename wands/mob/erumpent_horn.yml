@@ -1,15 +1,16 @@
 erumpenthorn:
-  inherit: base_wand
   icon: nether_star
+  mode: cast
+  indestructible: false
+  undroppable: false
+  unstashable: false
+  locked: true
+  uses: 8
+  active_spell: erumpent_attack
+  spells:
+    - erumpent_attack
   display_name: '$name'
   lore:
     - '$description'
     - ''
     - '$uses'
-  mana: 200
-  uses: 8
-  undroppable: false
-  right_click: none
-  active_spell: erumpent_attack
-  spells:
-    - erumpent_attack

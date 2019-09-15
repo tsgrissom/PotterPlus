@@ -1,6 +1,6 @@
 ashwinder_ambient:
   icon: fire
-  category: beast_ability
+  category: specialty
   hidden: true
   actions:
     cast:

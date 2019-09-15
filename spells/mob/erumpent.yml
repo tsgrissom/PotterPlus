@@ -1,6 +1,6 @@
 erumpent_death:
   icon: tnt
-  category: beast_ability
+  category: specialty
   hidden: true
   actions:
     cast:
@@ -15,7 +15,7 @@ erumpent_death:
 
 erumpent_ambient:
   icon: tnt
-  category: beast_ability
+  category: specialty
   hidden: true
   actions:
     cast:

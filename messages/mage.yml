@@ -1,8 +1,8 @@
 mage:
-  spell_added: |
+  spell_added: |-
     t:&dSpell Unlocked
     &6$name
-  spell_upgraded: |
+  spell_upgraded: |-
     t:&dSpell Upgraded
     &r&6$name &r$level
     &7&l>> &dYour knowledge of magic grows&8.

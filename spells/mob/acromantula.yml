@@ -1,6 +1,6 @@
 acromantula_summon:
   icon: web
-  category: beast_ability
+  category: specialty
   hidden: true
   effects:
     cast:

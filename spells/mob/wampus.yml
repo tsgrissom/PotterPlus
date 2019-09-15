@@ -1,6 +1,6 @@
 wampus_scratch:
   icon: salmon
-  category: beast_ability
+  category: specialty
   hidden: true
   actions:
     cast:

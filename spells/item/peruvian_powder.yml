@@ -1,7 +1,7 @@
 peruvian_powder_ability:
   icon: sulphur
   hidden: true
-  category: item_ability
+  category: specialty
   actions:
     cast:
       - class: CustomProjectile

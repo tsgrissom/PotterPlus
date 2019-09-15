@@ -2,7 +2,7 @@ basic_blaze_box_ability:
   inherit: periculum|2
   icon: firework
   hidden: true
-  category: item_ability
+  category: specialty
   effects:
     cast:
       - class: EffectSingle

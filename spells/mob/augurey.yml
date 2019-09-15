@@ -1,6 +1,6 @@
 augurey_death:
   icon: water
-  category: beast_ability
+  category: specialty
   hidden: true
   actions:
     cast:

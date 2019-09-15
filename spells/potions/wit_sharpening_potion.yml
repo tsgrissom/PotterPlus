@@ -1,6 +1,6 @@
 wit_sharpening_potion_ability:
   icon: potion:e5ff0f
-  category: potions
+  category: specialty
   hidden: true
   actions:
     cast:

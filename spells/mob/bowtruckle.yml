@@ -1,7 +1,7 @@
 bowtruckle_tree:
   inherit: forest
   icon: log
-  category: beast_ability
+  category: specialty
   hidden: true
   parameters:
     undo: 12000
@@ -10,7 +10,7 @@ bowtruckle_tree:
 
 bowtruckle_wood_throw:
   icon: log
-  category: beast_ability
+  category: specialty
   hidden: true
   actions:
     cast:

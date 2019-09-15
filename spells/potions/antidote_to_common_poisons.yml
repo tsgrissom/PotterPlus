@@ -1,6 +1,6 @@
 antidote_to_common_poisons_ability:
   icon: potion
-  category: potions
+  category: specialty
   hidden: true
   effects:
     cast:

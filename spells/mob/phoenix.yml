@@ -1,6 +1,6 @@
 phoenix_ambient:
   icon: fire
-  category: beast_ability
+  category: specialty
   hidden: true
   actions:
     cast:
@@ -11,7 +11,7 @@ phoenix_ambient:
 
 phoenix_death:
   icon: fire
-  category: beast_ability
+  category: specialty
   hidden: true
   effects:
     rise:
