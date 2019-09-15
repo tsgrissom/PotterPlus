@@ -1,2 +1,5 @@
 # Loads in base potter configs
 example: potter
+
+# Gives the correct wand when the player does /wand
+default_wand: randomizedpotterwand
