@@ -5,6 +5,12 @@ spells:
     description: >-
       Unlocks previously locked doors in order to reach previously inaccessible
       areas.
+  aberto|2:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  aberto|3:
+    upgrade_description: |-
+      No chance of fizzling.
 
   accio:
     name: >-
