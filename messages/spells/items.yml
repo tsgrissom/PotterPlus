@@ -1,22 +1,31 @@
 spells:
   gillyweed_ability:
-    name: "Gillyweed Ability"
+    name: >-
+      Gillyweed Ability
   portable_swamp_ability:
-    name: "Portable Swamp Ability"
+    name: >-
+      Portable Swamp Ability
   key_ability:
-    name: "Key Ability"
+    name: >-
+      Key Ability
   skeleton_key_ability:
-    name: "Skeleton Key Ability"
+    name: >-
+      Skeleton Key Ability
   trick_wand_ability:
-    name: "Trick Wand Ability"
+    name: >-
+      Trick Wand Ability
   peruvian_powder_ability:
-    name: "Peruvian Powder Ability"
+    name: >-
+      Peruvian Powder Ability
   sword_of_godric_gryffindor_ability:
-    name: "Sword of Godric Gryffindor Ability"
-    cast: ""
+    name: >-
+      Sword of Godric Gryffindor Ability
+    cast:
   sword_of_godric_gryffindor_alt_ability:
-    name: "Sword of Godric Gryffindor Alt Ability"
+    name: >-
+      Sword of Godric Gryffindor Alt Ability
     cast: ""
     cast_self: ""
   basic_blaze_box_ability:
-    name: "Basic Blaze Box Ability"
+    name: >-
+      Basic Blaze Box Ability

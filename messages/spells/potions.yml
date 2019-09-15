@@ -1,27 +1,40 @@
 spells:
   love_potion_ability:
-    name: "Love Potion Ability"
+    name: >-
+      Love Potion Ability
   amortentia_ability:
-    name: "Amortentia Ability"
+    name: >-
+      Amortentia Ability
   burping_potion_ability:
-    name: "Burping Potion Ability"
+    name: >-
+      Burping Potion Ability
   anti_paralysis_potion_ability:
-    name: "Anti-Paralysis Potion Ability"
+    name: >-
+      Anti-Paralysis Potion Ability
   antidote_to_common_poisons_ability:
-    name: "Antidote to Common Poisons Potion Ability"
+    name: >-
+      Antidote to Common Poisons Potion Ability
   antidote_to_uncommon_poisons_ability:
-    name: "Antidote to Uncommon Poisons Potion Ability"
+    name: >-
+      Antidote to Uncommon Poisons Potion Ability
   babbling_beverage_ability:
-    name: "Babbling Beverage Ability"
+    name: >-
+      Babbling Beverage Ability
   baruffios_brain_elixir_ability:
-    name: "Baruffio's Brain Elixir Ability"
+    name: >-
+      Baruffio's Brain Elixir Ability
   befuddlement_draught_ability:
-    name: "Befuddlement Draught Ability"
+    name: >-
+      Befuddlement Draught Ability
   ice_potion_ability:
-    name: "Ice Potion Ability"
+    name: >-
+      Ice Potion Ability
   blood_replenishing_potion_ability:
-    name: "Blood-Replenishing Potion Ability"
+    name: >-
+      Blood-Replenishing Potion Ability
   confusing_concoction_ability:
-    name: "Confusing Concoction Ability"
+    name: >-
+      Confusing Concoction Ability
   wit_sharpening_potion_ability:
-    name: "Wit-Sharpening Potion Ability"
+    name: >-
+      Wit-Sharpening Potion Ability

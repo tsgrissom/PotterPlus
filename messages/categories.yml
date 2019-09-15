@@ -1,56 +1,66 @@
 categories:
   charms:
-    name: "Charms"
+    name: >-
+      Charms
     description: >-
       Spells used to change the
       properties of yourself,
       others, and objects around
       you.
   careofcreatures:
-    name: "Care of Magical Creatures"
+    name: >-
+      Care of Magical Creatures
     description: >-
       Spells used to control magical
       creatures.
   dada:
-    name: "Defense Against the Dark Arts"
+    name: >-
+      Defense Against the Dark Arts
     description: >-
       Spells used to defend yourself
       against practitioners of dark
       magic.
   dark:
-    name: "Dark Arts"
+    name: >-
+      Dark Arts
     description: >-
       Spells that explore the darker
       side of magic.
   herbology:
-    name: "Herbology"
+    name: >-
+      Herbology
     description: >-
       Spells used to cultivate plants
       or to heal.
   transfiguration:
-    name: "Transfiguration"
+    name: >-
+      Transfiguration
     description: >-
       Spells used to transform, switch,
       vanish or conjure objects.
   elective:
-    name: "Electives"
+    name: >-
+      Elective
     description: >-
       Spells from assorted subjects
       that you can choose to take on
       your own.
   staff:
-    name: "Staff"
+    name: >-
+      Staff
     description: >-
       Spells that are exclusively
       granted to staff members.
   specialty:
-    name: "Specialty"
+    name: >-
+      Specialty
     description: >-
       Spells that often power magic
       items, potions, magical creatures,
       and more.
   npc:
-    name: "NPC"
+    name: >-
+      NPC
     description: >-
       Spells that are used by NPCs,
       often to bring up menus.

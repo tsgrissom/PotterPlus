@@ -1,41 +1,50 @@
 wands:
   basicblazebox:
-    name: "&6Basic Blaze Box"
+    name: >-
+      &6Basic Blaze Box
     description: >-
       &4A box of assorted fireworks from Weasley's
       Wizard Wheezes' Explosive Enterprises line.
   camera:
-    name: "&8Camera"
+    name: >-
+      &8Camera
     description: >-
       &7Snap a photo of yourself or others.
   conductorswand:
-    name: "&bConductor's Wand"
+    name: >-
+      &bConductor's Wand
     description: >-
       &3Play some music!
   deflagrationdeluxe:
-    name: "&6Deflagration Deluxe"
+    name: >-
+      &6Deflagration Deluxe
     description: >-
       &4A big box of assorted fireworks from Weasley's
       Wizard Wheezes' Explosive Enterprises line.
   dungbombs:
-    name: "&6Dungbomb Pack"
+    name: >-
+      &6Dungbomb pack
     description: >-
       &8A horrid-smelling pack of dungboms.
   erklingdartblower:
-    name: "&2Erkling Dart Blower"
+    name: >-
+      &2Erkling Dart Blower
     description: >-
       &aA dart blower stolen from an erkling.
   erumpenthorn:
-    name: "&8Erumpent Horn"
+    name: >-
+      &8Erumpent Horn
     description: >-
       &7A Class-B tradeable material. Highly explosive.
   gillyweed:
-    name: "&2Gillyweed"
+    name: >-
+      &2Gillyweed
     description: >-
       &aGrants you the ability to temporarily breathe
       underwater.
   swordofgodricgryffindor:
-    name: "&4Sword of Godric Gryffindor"
+    name: >-
+      &4Sword of Godric Gryffindor
     description: >-
       &6A sword imbued with magic. Previously owned
       by a Hogwarts founder.
@@ -47,31 +56,38 @@ wands:
       &eRight-click &6to disarm your opponent&8.
       &ePress swap &6to heal yourself&8.
   handbag:
-    name: "&4Beaded Handbag"
+    name: >-
+      &4Beaded Handbag
     description: >-
       &cA very spacious beaded handbag enchanted to hold many,
       many items.
   key:
-    name: "&7Key"
+    name: >-
+      &7Key
     description: >-
       &8Unlocks most doors for a limited time.
   musicbox:
-    name: "&bMusic Box"
+    name: >-
+      &bMusic Box
     description: >-
       &3Play some music!
   peruvianpowder:
-    name: "&8Peruvian Instant Darkness Powder"
+    name: >-
+      &8Peruvian Instant Darkness Powder
     description: >-
       &7Blanket an area in darkness.
   portableswamp:
-    name: "&2Portable Swamp"
+    name: >-
+      &2Portable Swamp
     description: >-
       &aDeploys a portable swamp wherever you are.
   skeletonkey:
-    name: "&7Skeleton Key"
+    name: >-
+      &7Skeleton Key
     description: >-
       &8Unlocks all doors for a limited time.
   trickwand:
-    name: "&eTrick Wand"
+    name: >-
+      &eTrick Wand
     description: >-
       &6Casts some trick spells.

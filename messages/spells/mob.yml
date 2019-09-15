@@ -1,59 +1,88 @@
 spells:
   acromantula_summon:
-    name: "Summon"
+    name: >-
+      Summon
   acromantula_spit:
-    name: "Acromantula Spit"
+    name: >-
+      Acromantula Spit
   acromantula_webbing:
-    name: "Acromantula Webbing"
+    name: >-
+      Acromantula Webbing
   ashwinder_ambient:
-    name: "Ashwinder Ambient"
+    name: >-
+      Ashwinder Ambient
   ashwinder_summon:
-    name: "Ashwinder Summon"
+    name: >-
+      Ashwinder Summon
   ashwinder_burn:
-    name: "Ashwinder Burn"
+    name: >-
+      Ashwinder Burn
   augurey_death:
-    name: "Augurey Death"
+    name: >-
+      Augurey Death
   bowtruckle_tree:
-    name: "Bowtruckle Tree"
+    name: >-
+      Bowtruckle Tree
   bowtruckle_wood_throw:
-    name: "Bowtruckle Wood Throw"
+    name: >-
+      Bowtruckle Wood Throw
   bowtruckle_shield:
-    name: "Bowtruckle Shield"
+    name: >-
+      Bowtruckle Shield
   bundimun_summon:
-    name: "Bundimun Summon"
+    name: >-
+      Bundimun Summon
   centaur_arrow:
-    name: "Centaur Arrow"
+    name: >-
+      Centaur Arrow
   centaur_heal:
-    name: "Centaur Heal"
+    name: >-
+      Centaur Heal
   crup_pet:
-    name: "Pet the Crup"
+    name: >-
+      Pet the Crup
   demiguise_disappear:
-    name: "Demiguise Disappear"
+    name: >-
+      Demiguise Disappear
   erkling_dart:
-    name: "Erkling Dart"
+    name: >-
+      Erkling Dart
   erkling_poisoned_dart:
-    name: "Erkling Dart of Poison"
+    name: >-
+      Erkling Dart of Poison
   erkling_freezing_dart:
-    name: "Erkling Dart of Freezing"
+    name: >-
+      Erkling Dart of Freezing
   erkling_flaming_dart:
-    name: "Erkling Dart of Fire"
+    name: >-
+      Erkling Dart of Fire
   erkling_weakening_dart:
-    name: "Erkling Dart of Weakening"
+    name: >-
+      Erkling Dart of Weakening
   erumpent_attack:
-    name: "Erumpent Attack"
+    name: >-
+      Erumpent Attack
   erumpent_death:
-    name: "Erumpent Death"
+    name: >-
+      Erumpent Death
   fire_crab_attack:
-    name: "Fire Crab Attack"
+    name: >-
+      Fire Crab Attack
   fire_crab_alt_attack:
-    name: "Fire Crab Alternate Attack"
+    name: >-
+      Fire Crab Alternate Attack
   fire_crab_ambient:
-    name: "Fire Crab Ambient"
+    name: >-
+      Fire Crab Ambient
   fwooper_death:
-    name: "Fwooper Death"
+    name: >-
+      Fwooper Death
   phoenix_ambient:
-    name: "Phoenix Ambient"
+    name: >-
+      Phoenix Ambient
   phoenix_death:
-    name: "Phoenix Death"
+    name: >-
+      Phoenix Death
   wampus_scratch:
-    name: "Wampus Scratch"
+    name: >- 
+      Wampus Scratch

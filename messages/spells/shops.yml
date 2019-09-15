@@ -1,16 +1,23 @@
 spells:
   buyshop:
-    selected: "&7&l>> &dYou purchased a &r$item &dfor &6$cost"
+    selected: >-
+      &7&l>> &dYou purchased a &r$item &dfor &6$cost
   wandshop:
-    title: "Wand Shop"
+    title: >-
+      Wand Shop
   bookshop:
-    name: "Textbook Shop"
-    description: "Purchase some textbooks"
-    title: "Textbook Shop ($balance)"
+    name: >-
+      Textbook Shop
+    title: >-
+      Textbook Shop ($balance)
   spellshop:
-    selected: "t:&dSpell Unlocked\n&6$item"
-    no_items: "&7&l>> &5You have learned all that you can from here."
+    selected: |-
+      t:&dSpell Unlocked
+      &6$item
+    no_items: >-
+      &7&l>> &5You have learned all that you can from here.
   potionshop:
-    name: "Potion Shop"
-    description: "Purchase some potions"
-    title: "Potion Shop ($balance)"
+    name: >-
+      Potion Shop
+    title: >-
+      Potion Shop ($balance)
