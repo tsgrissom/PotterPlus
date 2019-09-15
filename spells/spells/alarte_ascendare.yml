@@ -1,7 +1,10 @@
 alarteascendare:
   icon: diamond_axe:150
+  icon_disabled: diamond_hoe:150
   category: charms
   worth: 10 ac
+  upgrade_required_path: year2
+  upgrade_required_casts: 25
   actions:
     cast:
       - class: CustomProjectile
@@ -21,20 +24,31 @@ alarteascendare:
         particle_offset_y: 0.1
         particle_offset_z: 0.1
   parameters:
+    target: other
     target_type: LivingEntity
-    range: 24
+    cooldown: 15000
+    range: 16
     velocity: 25
     living_entity_speed: 1
-    y_offset: "rand(0.5, 1)"
-    cooldown: 15000
+    y_offset: "rand(0.5, 0.75)"
   costs:
     mana: 20
 
 alarteascendare|2:
-  upgrade_required_casts: 75
   upgrade_required_path: year3
+  upgrade_required_casts: 50
   parameters:
-    cooldown: 12000
-    range: 32
+    range: 24
     velocity: 50
-    y_offset: "rand(1.5, 1.8)"
+    y_offset: "rand(0.75, 1)"
+
+alarteascendare|3:
+  upgrade_required_path: year4
+  upgrade_required_casts: 75
+  parameters:
+    range: 32
+    y_offset: "rand(1, 1.25)"
+
+alarteascendare|4:
+  parameters:
+    y_offset: "rand(1.25, 1.5)"

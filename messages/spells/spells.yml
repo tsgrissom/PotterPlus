@@ -54,6 +54,15 @@ spells:
   alarteascendare|2:
     upgrade_description: |-
       Increased power.
+      Increased speed.
+      Increased range.
+  alarteascendare|3:
+    upgrade_description: |-
+      Increased power.
+      Increased range.
+  alarteascendare|4:
+    upgrade_description: |-
+      Increased power.
 
   alohomora:
     name: >-
