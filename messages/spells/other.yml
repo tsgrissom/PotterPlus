@@ -1,0 +1,13 @@
+spells:
+  upgrades:
+    level_requirement: "&r&9Requires&8: &7$path"
+    cast_requirement: "&r&9Casts&8: &7$current&8/&7$required"
+  choosepath:
+    name: "Choose Your Path"
+    description: "Select a path after graduating"
+    title: "&7&l>> &8Choose your path"
+    confirm_title: "&7&l>> &8Confirm path"
+    no_path: "&7&l>> &5You can only choose your path once you graduate!"
+    no_required_path: "&7&l>> &5You can only choose your path once you graduate!"
+    selected: "t:&7Unlocked\n$item"
+    at_limit: "&7&l>> &5You can only choose your path once."

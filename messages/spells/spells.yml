@@ -1,44 +1,19 @@
 spells:
   default:
-    fizzle: "a:&4&lX &cSpell fizzled! &4&lX"
-    backfire: "a:&4&lX &cSpell backfired! &4&lX"
+    fizzle: "&cSpell fizzled!"
+    backfire: "&cSpell backfired!"
     fail: "&7&l>> &5Spell failed. Please report this to an administrator."
     insufficient_permission: "&cYou don't have permission to cast that here."
     cast_play_message: "a:&6$player &3cast &6$spell &3on you!"
-  wandshop:
-    title: "Wand Shop"
-    selected: "&7&l>> &dYou purchased &r$item &dfor &r$cost"
-  bookshop:
-    name: "Textbook Shop"
-    title: "Textbook Shop ($balance)"
-    description: "Get some spell books"
-  spellshop:
-    selected: "t:&dSpell Unlocked\n&6$item"
-    no_items: "&7&l>> &5You have learned all that you can from here."
-  potionshop:
-    name: "Potion Shop"
-    description: "Get some potions"
-    title: "Potion Shop ($balance)"
-    selected: "&7&l>> &dYou purchased a &r$item &dfor &r$cost"
-  upgrades:
-    level_requirement: "&r&9Requires&8: &7$path"
-    cast_requirement: "&r&9Casts&8: &7$current&8/&7$required"
-  choosepath:
-    name: "Choose Your Path"
-    description: "Select a path after graduating"
-    title: "&7&l>> &8Choose your path"
-    confirm_title: "&7&l>> &8Confirm path"
-    no_path: "&7&l>> &5You can only choose your path once you graduate!"
-    no_required_path: "&7&l>> &5You can only choose your path once you graduate!"
-    selected: "t:&7Unlocked\n$item"
-    at_limit: "&7&l>> &5You can only choose your path once."
   vermillious:
     name: "Vermillious"
     description: "Conjures a number of burning red sparks which inflict damage on those they touch."
   vermillious|2:
-    upgrade_description: "Increased damage."
+    upgrade_description: Increased damage.
   vermillious|3:
-    upgrade_description: "Increased damage.\nIncreased range."
+    upgrade_description: |
+      Increased damage.
+      Increased range.
   vermillious|4:
     upgrade_description: "Increased damage."
   vermillious|5:
@@ -652,39 +627,6 @@ spells:
     description: "Banishes an object or person, sending them flying away."
   depulso|2:
     upgrade_description: "Increased force."
-  longapparate:
-    name: "Long-Distance Apparition"
-    description: "Allows you to disappear from your current location and apparate to previously known locations."
-    cancel: "&6(&7Magic) &cYour apparate was cancelled!"
-    teleport: ""
-    teleport_failed: "&6(&7Magic) &cYour apparate failed!"
-    cast_death: "&6(&7Magic) &9Returning you to your last death location."
-    cast_spawn: "&6(&7Magic) &9Returning you to spawn."
-    cast_home: "&6(&7Magic) &9Returning you home."
-    cast_wand: "&6(&7Magic) &9Returning you to your lost wand."
-    cast_warp: "&6(&7Magic) &9Warping you to &7$name&9."
-    cast_field: "&6(&7Magic) &9Warping you to a protected area."
-    cast_friend: "&6(&7Magic) &9Warping you to &7name&9."
-    no_target_death: "&6(&7Magic) &cNo recorded death location."
-    no_target_wand: "&6(&7Magic) &cNo recorded lost wands."
-    no_target_home: "&6(&7Magic) &cNo home set."
-    no_target_warp: "&6(&7Magic) &cInvalid warp &4$name"
-    no_target_spawn: "&6(&7Magic) &cCan't apparate to spawn."
-    no_target_fields: "&6(&7Magic) &cYou have no fields."
-    no_target_friend: "&6(&7Magic) &cInvalid friend &4$name"
-    title_death: "&7Last Death"
-    description_death: "&9Your last death location."
-    title_friend: "&7$name"
-    title_warp: "&r$name"
-    title_spawn: "&7Spawn"
-    description_spawn: "&9The current world's spawn location."
-    title_home: "&7Home"
-    description_home: "&9Your home."
-    title_wand: "&7Lost Wand"
-    description_wand: "&9A wand you've dropped on the ground."
-    cross_world_disallowed: "&6(&7Magic) &cYou are not allowed to apparate to another world."
-    title: Choose Destination
-    unlock_warp: "&6(&7Magic) &9You have discovered &7$name &9to apparate to!"
   defodio:
     name: "Defodio"
     description: "Gouges stone from structures, providing access to new areas or clearing obstacles."
@@ -900,149 +842,3 @@ spells:
   erecto:
     name: "Erecto"
     description: "Conjures, pitches, and furnishes a tent for shelter."
-
-  acromantula_summon:
-    name: "Summon"
-    description: "Summons more Acromantula"
-  acromantula_spit:
-    name: "Acromantula Spit"
-    description: "Spits poison"
-  acromantula_webbing:
-    name: "Acromantula Webbing"
-    description: "Shoots webbing"
-  ashwinder_ambient:
-    name: "Ashwinder Ambient"
-    description: "Creates snake-like effect for Ashwinders"
-  ashwinder_summon:
-    name: "Ashwinder Summon"
-    description: "Summons more Ashwinders"
-  ashwinder_burn:
-    name: "Ashwinder Burn"
-    description: "Causes a fire"
-  augurey_death:
-    name: "Augurey Death"
-    description: "Screeches, changes weather, and causes death to those who bear witness"
-  bowtruckle_tree:
-    name: "Bowtruckle Tree"
-    description: "Captures the target in the Bowtruckle's domain"
-  bowtruckle_wood_throw:
-    name: "Bowtruckle Wood Throw"
-    description: "Throws damaging wood pieces"
-  bowtruckle_shield:
-    name: "Bowtruckle Shield"
-    description: "Conjures a wooden shield"
-  bundimun_summon:
-    name: "Bundimun Summon"
-    description: "Summons more Bundimun"
-  centaur_arrow:
-    name: "Centaur Arrow"
-    description: "Shoots a deadly projectile"
-  centaur_heal:
-    name: "Centaur Heal"
-    description: "Heals quickly"
-  crup_pet:
-    name: "Pet the Crup"
-    description: "Pet the doggy"
-  demiguise_disappear:
-    name: "Demiguise Disappear"
-    description: "Disappear into thin air"
-  erkling_dart:
-    name: "Erkling Dart"
-    description: "A erkling-crafted projectile"
-  erkling_poisoned_dart:
-    name: "Erkling Dart of Poison"
-    description: "A poison-tipped projectile crafted by erklings"
-  erkling_freezing_dart:
-    name: "Erkling Dart of Freezing"
-    description: "A projectile crafted by erklings for slowing down prey"
-  erkling_flaming_dart:
-    name: "Erkling Dart of Fire"
-    description: "A burning-hot projectile crafted by erklings"
-  erkling_weakening_dart:
-    name: "Erkling Dart of Weakening"
-    description: "A tipped projectile crafted by erklings designed to expose prey"
-  erumpent_attack:
-    name: "Erumpent Attack"
-    description: "Exposive offensive"
-  erumpent_death:
-    name: "Erumpent Death"
-    description: "Erumpent horns are a Class-B tradeable material, highly volatile"
-  fire_crab_attack:
-    name: "Fire Crab Attack"
-    description: "Lights things on fire"
-  fire_crab_alt_attack:
-    name: "Fire Crab Alternate Attack"
-    description: "Surrounds the fire crab in fire"
-  fire_crab_ambient:
-    name: "Fire Crab Ambient"
-    description: "Ambient effect for fire crabs"
-  fwooper_death:
-    name: "Fwooper Death"
-    description: "Sounds off every noise it ever heard, causing mass confusion and hinderance"
-  phoenix_ambient:
-    name: "Phoenix Ambient"
-    description: "Ambient effects for phoenixes."
-  phoenix_death:
-    name: "Phoenix Death"
-    description: "From the ashes, reborn."
-  wampus_scratch:
-    name: "Wampus Scratch"
-    description: "Deadly, magical claw scratches leave you bleeding"
-
-  gillyweed_ability:
-    name: "Gillyweed Ability"
-    description: "Allows you to breathe underwater temporarily"
-  portable_swamp_ability:
-    name: "Portable Swamp Ability"
-    description: "Creates a portable swamp"
-  key_ability:
-    name: "Key Ability"
-    description: "Unlocks some doors"
-  skeleton_key_ability:
-    name: "Skeleton Key Ability"
-    description: "Unlocks any door"
-  trick_wand_ability:
-    name: "Trick Wand Ability"
-    description: "Casts some trick spells"
-  peruvian_powder_ability:
-    name: "Peruvian Powder Ability"
-    description: "Blanket the area in darkness"
-  sword_of_godric_gryffindor_ability:
-    name: "Sword of Godric Gryffindor Ability"
-    description: "Disarm your target"
-    cast: ""
-  sword_of_godric_gryffindor_alt_ability:
-    name: "Sword of Godric Gryffindor Alt Ability"
-    description: "Heal yourself"
-    cast: ""
-    cast_self: ""
-  basic_blaze_box_ability:
-    name: "Basic Blaze Box Ability"
-    description: "Send out some fireworks"
-
-  love_potion_ability:
-    name: "Love Potion Ability"
-  amortentia_ability:
-    name: "Amortentia Ability"
-  burping_potion_ability:
-    name: "Burping Potion Ability"
-  anti_paralysis_potion_ability:
-    name: "Anti-Paralysis Potion Ability"
-  antidote_to_common_poisons_ability:
-    name: "Antidote to Common Poisons Potion Ability"
-  antidote_to_uncommon_poisons_ability:
-    name: "Antidote to Uncommon Poisons Potion Ability"
-  babbling_beverage_ability:
-    name: "Babbling Beverage Ability"
-  baruffios_brain_elixir_ability:
-    name: "Baruffio's Brain Elixir Ability"
-  befuddlement_draught_ability:
-    name: "Befuddlement Draught Ability"
-  ice_potion_ability:
-    name: "Ice Potion Ability"
-  blood_replenishing_potion_ability:
-    name: "Blood-Replenishing Potion Ability"
-  confusing_concoction_ability:
-    name: "Confusing Concoction Ability"
-  wit_sharpening_potion_ability:
-    name: "Wit-Sharpening Potion Ability"

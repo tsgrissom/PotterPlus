@@ -1,5 +1,6 @@
 economy:
   insufficient: "&cCosts&8: &7$cost"
+  
 shops:
   cost_lore: "&aCosts&8: &7$cost"
   insufficient: "&cCosts&8: &7$cost"

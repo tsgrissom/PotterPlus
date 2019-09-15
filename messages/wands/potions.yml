@@ -1,0 +1,46 @@
+wands:
+  lovepotion:
+    description: "&5Causes the drinker to &5become infatuated with the &5person who gave it to them."
+    name: "&dLove Potion"
+  burpingpotion:
+    description: "&eCauses the drinker to burp uncontrollably."
+    name: "&6Burping Potion"
+  amortentia:
+    description: >
+      &5The most powerful love &5potion in existence.
+      Causes &5the &5drinker to develop a &5powerful infatuation
+      or &5obsession with &5the person &5who gave it to them.
+    name: "&dAmortentia"
+  antiparalysispotion:
+    description: "&3Cures the drinker of any paralyzing effects they are under."
+    name: "&bAnti-Paralysis Potion"
+  antidotetocommonpoisons:
+    description: "&7Cures the drinker of common poisonous effects."
+    name: "&8Antidote to Common Poisons"
+  antidotetouncommonpoisons:
+    description: "&7Cures the drinker of common and uncommon poisonous effects."
+    name: "&8Antidote to Uncommon Poisons"
+  babblingbeverage:
+    description: "&cCauses the drinker to babble nonsense uncontrollably."
+    name: "&4Babbling Beverage"
+  baruffiosbrainelixir:
+    description: "&aCompletely restores the drinker's mana."
+    name: "&2Baruffio's Brain Elixir"
+  befuddlementdraught:
+    description: "&aCauses the drinker to become confused."
+    name: "&2Beffudlement Draught"
+  beguilingbubbles:
+    description: "&dA love potion from the WonderWitch line by Weasley's Wizard Wheezes."
+    name: "&5Beguiling Bubbles"
+  icepotion:
+    description: "&bCauses the drinker to be able to walk through flames unscathed."
+    name: "&3Ice Potion"
+  bloodreplenishingpotion:
+    description: "&cReplenishes the drinker's blood, healing them."
+    name: "&4Blood-Replenishing Potion"
+  confusingconcoction:
+    description: "&eCauses the drinker to become confused."
+    name: "&6Confusing Concoction"
+  witsharpeningpotion:
+    description: "&6Slightly but permanently increases the drinker's maximum mana."
+    name: "&eWit-Sharpening Potion"

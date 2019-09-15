@@ -1,0 +1,28 @@
+wands:
+  wand:
+    description: "$wood with $core"
+    name: "Wand"
+    randomized_description: "Wand description broken"
+  potterwand:
+    description: "$length Inches $flex $wood with $core"
+    name: "Wand"
+    randomized_description: "Potterwand description broke"
+  randomizedpotterwand:
+    description: "$length Inches $flex $wood with $core"
+    name: "Wand"
+    randomized_description: >
+      &bContains your very own wand.
+      What adventures await?
+    enchant_instructions: ""
+    bound_instructions: ""
+    spell_instructions: >
+      &7&lWAND BASICS&8//
+      &dLeft-click &5to cast spells.
+      &dRight-click&8/&dDrop button &5to open and close the spell menu.
+      &dSwap button &5to cycle between hotbars.
+    inventory_instructions: >
+      &7&lWAND INVENTORY MANAGEMENT&8//
+      &5You now know more than one spell!
+      &dOpen your inventory &5to manage which spells are in your hotbar.
+      &dUse number keys &5to change to the desired spell in your hotbar.
+      &dPress swap &5to cycle hotbars.

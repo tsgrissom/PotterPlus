@@ -1,0 +1,86 @@
+wands:
+  basicblazebox:
+    bound_instructions: ""
+    description: >-
+      &4A box of assorted fireworks from Weasley's Wizard Wheezes' Explosive
+      Enterprises line
+    name: "&6Basic Blaze Box"
+    spell_instructions: ""
+  camera:
+    description: "&7Snap a photo of yourself or others"
+    name: "&8Camera"
+  conductorswand:
+    description: "&aPlay some music!"
+    name: "&bConductor's Wand"
+  deflagrationdeluxe:
+    bound_instructions: ""
+    description: >-
+      &4A big box of assorted fireworks from Weasley's Wizard Wheezes' Explosive
+      Enterprises line
+    name: "&6Deflagration Deluxe"
+    spell_instructions: ""
+  dungbombs:
+    description: "&8A horrid-smelling pack of dungbombs"
+    name: "&6Dungbomb Pack"
+  erklingdartblower:
+    bound_instructions: ""
+    description: "&aA dart blower stolen from an erkling"
+    inventory_instructions: ""
+    name: "&2Erkling Dart Blower"
+    spell_instructions: ""
+  erumpenthorn:
+    bound_instructions: ""
+    description: "&7A Class-B tradeable material. Highly explosive."
+    name: "&8Erumpent Horn"
+    spell_instructions: ""
+  gillyweed:
+    bound_instructions: ""
+    description: "&aGrants you the ability to temporarily breathe underwater"
+    name: "&2Gillyweed"
+    spell_instructions: ""
+  swordofgodricgryffindor:
+    bound_instructions: ""
+    description: "&6A sword imbued with magic, previously owned by a Hogwarts founder"
+    name: "&4Sword of Godric Gryffindor"
+    spell_instructions: >
+      &4&lSword of Godric Gryffindor&7//
+      &6The Sword of Godric Gryffindor can be wielded as a powerful melee weapon
+      or as an effective means to disarm your opponent&8.
+      &eLeft-click &6to swing the sword&8.
+      &eRight-click &6to disarm your opponent&8.
+      &ePress swap &6to heal yourself&8.
+  handbag:
+    description: "&cA very spacious beaded handbag enchanted to hold many, many items"
+    name: "&4Beaded Handbag"
+  key:
+    bound_instructions: ""
+    description: "&8Unlocks most doors for a limited time"
+    name: "&7Key"
+    spell_instructions: ""
+  musicbox:
+    description: "&aPlay some music!"
+    name: "&bMusic Box"
+  peruvianpowder:
+    bound_instructions: ""
+    description: "&7Blanket an area in darkness"
+    name: "&8Peruvian Instant Darkness Powder"
+    spell_instructions: ""
+  portableswamp:
+    bound_instructions: ""
+    description: "&aDeploys a portable swamp wherever you are"
+    name: "&2Portable Swamp"
+    spell_instructions: ""
+  skeletonkey:
+    bound_instructions: ""
+    description: "&8Unlocks all doors for a limited time"
+    name: "&7Skeleton Key"
+    spell_instructions: ""
+  ticket:
+    name: "&5Wand Ticket"
+    description: "&dYou can trade this for your very first wand at a &5Wand Shop&8."
+    bound_description: ""
+  trickwand:
+    bound_instructions: ""
+    description: "&6Casts some trick spells"
+    name: "&eTrick Wand"
+    spell_instructions: ""
