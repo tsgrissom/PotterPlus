@@ -8,6 +8,10 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 9/14/19
+
+* Added Wit-Sharpening Potions
+
 ### 9/13/19
 
 * Linted and cleaned up /messages/ folder

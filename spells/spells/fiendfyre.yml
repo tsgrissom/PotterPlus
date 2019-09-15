@@ -1,61 +1,67 @@
 fiendfyre:
   inherit: false
-  icon_url: http://textures.minecraft.net/texture/a9e073da36aaf2c844da428cd4a19dfde32c8cdc2404eed4a135f6095b17c
   icon: diamond_axe:139
   icon_disabled: diamond_hoe:139
   worth: 25 ac
   upgrade_required_path: year7
   upgrade_required_casts: 50
   category: dark
-  costs:
-    mana: 150
   actions:
     cast:
+      - class: PotionEffect
+        duration: $duration
+        add_effects:
+          fire_resistance: 1
+      - class: ChangeParameters
+        parameters:
+          target: other
       - class: CustomProjectile
-        actions:
-          - class: Damage
-          - class: Ignite
+        tick:
           - class: Disc
+            y_size: 3
             radius: 1
             actions:
               - class: Cover
                 actions:
                   - class: Burn
-          - class: Line
-            size: 2
+        actions:
+          - class: Damage
+          - class: Ignite
+          - class: Disc
+            radius: 5
             actions:
               - class: Cover
                 actions:
                   - class: Burn
   effects:
     tick:
-      - particle: lava
+      - class: EffectSingle
         location: target
-        particle_count: 25
-        particle_offset_x: 0.01
-        particle_offset_y: 0.01
-        particle_offset_z: 0.01
+        effectlib:
+          class: Sphere
+          particle: lava
+          iterations: 2
+          particles: 5
+          radius: 1.5
     hit_entity:
       - class: EffectSingle
         location: target
         color: FE642E
         firework: ball_large
   parameters:
+    brush: water
     damage: 20
-    hitbox: true
-    velocity: 30
+    velocity: 5
     range: 48
-    hitbox_size: 0.5
+    target: self
     target_type: Damageable
     target_breakables: 1
     cooldown: 45000
-    track_target: true
-    lifetime: 20000
-    target_self_timeout: 2000
-    track_speed: 0.1
-    use_target_location: false
     duration: 15000
-    undo: 5000
+    undo: 10000
+    undo_speed: 1
+  costs:
+    mana: 100
 
 fiendfyre|2:
   actions:

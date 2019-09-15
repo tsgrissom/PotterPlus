@@ -29,6 +29,8 @@ potionshop:
         cost: 25
       - item: wand|antidotetouncommonpoisons
         cost: 30
+      - item: wand|witsharpeningpotion
+        cost: 100
     quiet: true
     free: false
     cost_type: galleon

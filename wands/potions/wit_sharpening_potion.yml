@@ -1,0 +1,3 @@
+witsharpeningpotion:
+  icon: potion:e5ff0f
+  consume_spell: wit_sharpening_potion_ability

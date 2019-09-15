@@ -173,3 +173,6 @@ wands:
   confusingconcoction:
     description: "&eCauses the drinker to become confused."
     name: "&6Confusing Concoction"
+  witsharpeningpotion:
+    description: "&6Slightly but permanently increases the drinker's maximum mana."
+    name: "&eWit-Sharpening Potion"

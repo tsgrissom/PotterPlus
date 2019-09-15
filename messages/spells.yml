@@ -1044,3 +1044,5 @@ spells:
     name: "Blood-Replenishing Potion Ability"
   confusing_concoction_ability:
     name: "Confusing Concoction Ability"
+  wit_sharpening_potion_ability:
+    name: "Wit-Sharpening Potion Ability"
