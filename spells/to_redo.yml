@@ -1,11 +1,3 @@
-aquaeructo:
-  category: charms
-  inherit: stream
-  worth: 15 ac
-aquaeructo|2:
-  inherit: stream|2
-aquaeructo|3:
-  inherit: stream|3
 atmos:
   category: charms
   worth: 30 ac

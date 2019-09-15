@@ -128,6 +128,8 @@ spells:
   aquaeructo|2:
     upgrade_description: |-
       Increased damage.
+      Increased range.
+      Increased duration.
   aquaeructo|3:
     upgrade_description: |-
       Increased damage.
