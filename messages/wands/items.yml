@@ -26,16 +26,6 @@ wands:
       &6Dungbomb pack
     description: >-
       &8A horrid-smelling pack of dungboms.
-  erklingdartblower:
-    name: >-
-      &2Erkling Dart Blower
-    description: >-
-      &aA dart blower stolen from an erkling.
-  erumpenthorn:
-    name: >-
-      &8Erumpent Horn
-    description: >-
-      &7A Class-B tradeable material. Highly explosive.
   gillyweed:
     name: >-
       &2Gillyweed

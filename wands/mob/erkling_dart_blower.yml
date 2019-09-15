@@ -1,6 +1,7 @@
 erklingdartblower:
+  inherit: base_wand
   icon: stick
-  mode: cast
+  bound: false
   indestructible: false
   undroppable: false
   unstashable: false
@@ -13,7 +14,7 @@ erklingdartblower:
     - erkling_freezing_dart
     - erkling_weakening_dart
     - erkling_flaming_dart
-  display_name: '$name'
+  display_name: $name
   lore:
     - '$description'
     - ''
