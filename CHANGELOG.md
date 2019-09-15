@@ -10,6 +10,8 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/14/19
 
+* Re-structured spell files
+* Updated spell messages to fit format
 * Changed the format of a bunch of message files
 * Re-structured /messages/ folder
 * Added Wit-Sharpening Potions

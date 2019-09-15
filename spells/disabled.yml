@@ -18,6 +18,8 @@ reparo:
   enabled: false
 reparomaxima:
   enabled: false
+reveal:
+  enabled: false
 
 # Shops
 

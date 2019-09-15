@@ -3,3 +3,6 @@ example: potter
 
 # Gives the correct wand when the player does /wand
 default_wand: randomizedpotterwand
+
+# Disables all cast messages in chat
+show_cast_messages: true
