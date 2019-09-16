@@ -1,0 +1,17 @@
+incarcerous:
+  worth: 10 ac
+  upgrade_required_path: year5
+  upgrade_required_casts: 25
+  parameters:
+    brush: fence
+    undo: 5000
+
+incarcerous|2:
+  upgrade_required_path: year6
+  upgrade_required_casts: 50
+  parameters:
+    undo: 7000
+
+incarcerous|3:
+  parameters:
+    undo: 9000

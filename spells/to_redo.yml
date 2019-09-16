@@ -39,10 +39,6 @@ imperio:
   worth: 40 ac
 impervius:
   worth: 10 ac
-incarcerous:
-  parameters:
-    brush: fence
-  worth: 10 ac
 meteo:
   category: charms
   quick_cast: false

@@ -218,7 +218,8 @@ spells:
       Increased power.
       Decreased cooldown.
   ascendio|4:
-    upgrade_description: Increased power.
+    upgrade_description: |-
+      Increased power.
   ascendio|5:
     upgrade_description: |-
       Increased power.
@@ -282,7 +283,7 @@ spells:
 
   bogies:
     description: >-
-      Sickens the target, causing a runny nose, terrible cough, and overall
+      Sickens the target causing a runny nose, terrible cough, and overall
       miserable symptoms.
   bogies|2:
     upgrade_description: |-
@@ -317,6 +318,12 @@ spells:
       Brachiabindo
     description: >-
       Binds your target in ropes to immobilize them.
+  brachiabindo|2:
+    upgrade_description: |-
+      Increased duration.
+  brachiabindo|3:
+    upgrade_description: |-
+      Increased duration.
 
   brackiumemendo:
     name: >-
@@ -941,6 +948,12 @@ spells:
       Incarcerous
     description: >-
       Binds your target in ropes which they will find difficult to escape from.
+  incarcerous|2:
+    upgrade_description: |-
+      Increased duration.
+  incarcerous|3:
+    upgrade_description: |-
+      Increased duration.
 
   incarcifors:
     name: >-
