@@ -1,6 +1,7 @@
 base_wand:
   drop: toggle
   left_click: cast
+  right_click: toggle
   swap: cycle_hotbar
 
 wandbox:
@@ -8,10 +9,9 @@ wandbox:
 
 potterwand:
   hotbar_count: 2
-  icon: wood_hoe:24,wood_hoe:25,wood_hoe:26
+  active_spell: lumos
   spells:
     - lumos
-  active_spell: lumos
   classes:
     - wizard
     - auror

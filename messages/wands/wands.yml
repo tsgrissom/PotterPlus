@@ -1,0 +1,8 @@
+elder:
+  name: >-
+    &8The Elder Wand
+  description: >-
+    &7The most powerful wand in existence. Use it wisely.
+  bound_instructions: ""
+  spell_instructions: ""
+  inventory_instructions: ""

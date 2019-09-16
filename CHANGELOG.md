@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/15/19
 
+* Tailored the Elder Wand
 * Re-worked Incarcerous leveling
 * Re-worked Brachiabindo leveling
 * Re-worked Arresto Momentum leveling

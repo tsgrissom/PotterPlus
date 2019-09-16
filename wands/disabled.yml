@@ -74,9 +74,6 @@ deatheater_upgrade:
 
 # Wands
 
-elder:
-  enabled: false
-
 testwand:
   enabled: false
 
