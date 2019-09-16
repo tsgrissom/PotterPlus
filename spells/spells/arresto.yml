@@ -1,5 +1,8 @@
 arresto:
   worth: 5 ac
+  upgrade_required_path: year2
+  upgrade_required_casts: 25
+  alias: arrestomomentum
   actions:
     cast:
       - class: PotionEffect
@@ -25,3 +28,16 @@ arresto:
     cooldown: 10000
   costs:
     mana: 20
+
+arresto|2:
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
+  parameters:
+    add_effects:
+      slow_falling: 2
+  costs:
+    mana: 10
+
+arresto|3:
+  parameters:
+    cooldown: 8000

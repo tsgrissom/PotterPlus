@@ -153,6 +153,13 @@ spells:
       Arresto Momentum
     description: >-
       Lessens your downward momentum, cushioning the damage of your fall.
+  arresto|2:
+    upgrade_description: |-
+      Increased slow falling speed.
+      Decreased costs.
+  arresto|3:
+    upgrade_description: |-
+      Decreased cooldown.
 
   arrow:
     name: >-
