@@ -1,6 +1,0 @@
-# Calculated for spell damage
-
-prowess:
-  min: 1
-  max: 20
-  default: 1

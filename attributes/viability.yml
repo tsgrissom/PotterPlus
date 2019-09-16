@@ -1,6 +1,0 @@
-# Calculated for mana usage
-
-viability:
-  min: 1
-  max: 20
-  default: 1

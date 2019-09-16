@@ -1,6 +1,0 @@
-# Calculated for spell cooldown
-
-intelligence:
-  min: 1
-  max: 20
-  default: 1

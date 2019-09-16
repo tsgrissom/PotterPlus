@@ -1,6 +1,0 @@
-# Calculated for various flying properties
-
-flying:
-  min: 1
-  max: 20
-  default: 1

@@ -1,6 +1,0 @@
-# Calculated for projectile spell range
-
-flexibility:
-  min: 1
-  max: 20
-  default: 1
