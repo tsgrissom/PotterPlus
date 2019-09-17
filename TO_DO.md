@@ -14,7 +14,6 @@
 * Clean up spell files (order their sections consistently and remove unnecessary flags)
 * Add dark upgrade for `flight` and `apparate`
 * Add tags (`noduel`, `nojail`, etc.)
-* PVP restrict spells
 * Check Fantastic Beasts for new spells and review online spell lists
 * Re-do spells in the to_redo file
 * Change `bubblehead` so that the item doesn't say diving helmet

@@ -4,6 +4,7 @@ portable_swamp_ability:
   category: specialty
   hidden: true
   cast_on_no_target: true
+  pvp_restricted: true
   effects:
     cast:
       - class: EffectSingle

@@ -7,6 +7,7 @@ firestorm:
   worth: 20 ac
   upgrade_required_casts: 50
   upgrade_required_path: year6
+  pvp_restricted: true
   actions:
     cast:
       - class: PotionEffect

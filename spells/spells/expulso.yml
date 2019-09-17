@@ -5,6 +5,7 @@ expulso:
   worth: 20 ac
   upgrade_required_path: year7
   upgrade_required_casts: 50
+  pvp_restricted: true
   actions:
     cast:
       - class: CustomProjectile
