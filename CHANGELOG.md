@@ -8,9 +8,13 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 9/16/19
+
+* Removed non-existent path references from classes
+
 ### 9/15/19
 
-* Removed attributes 
+* Removed attributes
 * Tailored the Elder Wand
 * Re-worked Incarcerous leveling
 * Re-worked Brachiabindo leveling
