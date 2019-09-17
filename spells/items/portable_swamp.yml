@@ -5,6 +5,7 @@ portable_swamp_ability:
   hidden: true
   cast_on_no_target: true
   pvp_restricted: true
+  tags: nojail
   effects:
     cast:
       - class: EffectSingle

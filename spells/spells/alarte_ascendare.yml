@@ -5,6 +5,7 @@ alarteascendare:
   worth: 10 ac
   upgrade_required_path: year2
   upgrade_required_casts: 25
+  tags: nojail
   actions:
     cast:
       - class: CustomProjectile

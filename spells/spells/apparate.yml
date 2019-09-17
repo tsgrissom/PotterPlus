@@ -3,6 +3,7 @@ apparate:
   inherit: blink
   upgrade_required_path: year5
   upgrade_required_casts: 25
+  tags: nojail
   effects:
     teleport:
       - class: EffectSingle

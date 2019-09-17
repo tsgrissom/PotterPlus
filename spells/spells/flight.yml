@@ -5,6 +5,7 @@ flight:
   quick_cast: false
   cancel_effects: true
   category: elective
+  tags: nojail
   costs:
     mana: 100
   active_costs:

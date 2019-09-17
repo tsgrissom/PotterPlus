@@ -2,6 +2,7 @@ aparecium:
   upgrade_required_path: year5
   upgrade_required_casts: 25
   worth: 10 ac
+  tags: nojail
   effects:
     cast:
       - class: EffectSingle

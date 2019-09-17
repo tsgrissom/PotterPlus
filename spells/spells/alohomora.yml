@@ -3,6 +3,7 @@ alohomora:
   category: charms
   upgrade_required_path: year2
   upgrade_required_casts: 25
+  tags: nojail
   effects:
     cast:
       - sound: magic.shimmer

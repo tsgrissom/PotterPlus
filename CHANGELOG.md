@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/17/19
 
+* Tagged a bunch of spells with nojail
 * PVP restricted a bunch of spells
 
 ### 9/16/19
