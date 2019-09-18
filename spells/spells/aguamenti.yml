@@ -2,19 +2,24 @@ aguamenti:
   worth: 10 ac
   upgrade_required_casts: 25
   effects:
+    tick:
+      - location: target
+        particle: water_splash
+        particle_count: 20
+        particle_offset_x: 0.2
+        particle_offset_y: 0.2
+        particle_offset_z: 0.2
     hit:
-      - class: EffectSingle
-        location: target
+      - location: target
         effectlib:
-          class: Shield
-          particle: water_splash
-          radius: "$radius"
-          particles: 50
-          particle_count: 20
-          particle_offset_x: 0.4
-          particle_offset_y: 0.4
-          particle_offset_z: 0.2
+          class: Modified
           duration: $undo
+          parameters:
+            radius: "(t / i) * 2 + 1.5"
+          effect:
+            class: Shield
+            particle: water_splash
+            particles: 50
   parameters:
     range: 12
     undo: 2000
