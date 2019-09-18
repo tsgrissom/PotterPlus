@@ -81,3 +81,9 @@ wands:
       &eTrick Wand
     description: >-
       &6Casts some trick spells.
+  flyingcarpet:
+    name: >-
+      &dFlying Carpet
+    description: >-
+      &aA carpet enchanted with similar magic to that of brooms, allowing you
+      to fly around in the air while riding.

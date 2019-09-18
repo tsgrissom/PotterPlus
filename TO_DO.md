@@ -24,7 +24,6 @@
 * Quidditch balls -> Based on flashbang spell, bounces around with more speed
 * Skiving snackboxes -> A box of snacks which cause illness
 * Decoy detonators -> Sends a hopper projectile which explodes to create a distraction
-* Flying carpet -> Casts modified air scooter with random color carpet mount
 * Finish list of potions
 
 #### Mobs

@@ -29,3 +29,20 @@ spells:
   basic_blaze_box_ability:
     name: >-
       Basic Blaze Box Ability
+  flying_carpet_ability:
+    name: >-
+      Flying Carpet Ability
+    cast: >-
+      a:&5Your carpet springs to life!
+    deactivate: >-
+      a:&5Your carpet settles to the ground.
+    crash: >-
+      t:&cCRASH!
+  broom:
+    cast: >-
+      a:&5Your broom springs to life!
+    deactivate: >-
+      a:&5Your broom settles to the ground.
+    crash: >-
+      t:&cCRASH!
+      
