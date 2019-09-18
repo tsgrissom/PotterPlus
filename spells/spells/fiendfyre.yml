@@ -9,13 +9,6 @@ fiendfyre:
   pvp_restricted: true
   actions:
     cast:
-      - class: PotionEffect
-        duration: $duration
-        add_effects:
-          fire_resistance: 1
-      - class: ChangeParameters
-        parameters:
-          target: other
       - class: CustomProjectile
         tick:
           - class: Disc
@@ -50,11 +43,10 @@ fiendfyre:
         color: FE642E
         firework: ball_large
   parameters:
-    brush: water
     damage: 20
     velocity: 5
     range: 48
-    target: self
+    target: other
     target_type: Damageable
     target_breakables: 1
     cooldown: 45000

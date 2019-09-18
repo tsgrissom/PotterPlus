@@ -10,6 +10,7 @@
 
 #### Spells
 
+* Fix Fiendfyre
 * Make sure all spells have sounds
 * Clean up spell files (order their sections consistently and remove unnecessary flags)
 * Add dark upgrade for `flight` and `apparate`
