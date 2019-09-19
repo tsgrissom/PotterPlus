@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/18/19
 
+* Moved common effects and disabled effects over to /effects/
 * Added some barebones documentation to some files
 
 ### 9/17/19

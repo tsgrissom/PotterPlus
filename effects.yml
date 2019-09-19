@@ -1,4 +1,1 @@
-# Disabling unnecessary effects
-
-butterfly: []
-fountain: []
+# Effects are contained under /effects/
