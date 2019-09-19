@@ -66,10 +66,7 @@ Pepperup Potion - Cures poison, gives speed, cancels curse of bogies
 
 Polyjuice - Temporarily disguise as another random username
 
-Pompion Potion - Casts melofors on self
-
-Revive Potion - Casts rennervate
-on self
+Revive Potion - Casts rennervate on self
 
 Scintillation Solution - Restores a portion of mana
 

@@ -77,3 +77,8 @@ wands:
       &rInvisibility Potion
     description: >-
       &7Causes the drinker to completely vanish from sight for a time.
+  pompionpotion:
+    name: >-
+      &6Pompion Potion
+    description: >-
+      &eCauses the drinker's head to become encased in a pumpkin.

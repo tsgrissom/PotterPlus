@@ -1,0 +1,10 @@
+pompion_potion_ability:
+  inherit: melofors
+  icon: potion
+  category: specialty
+  hidden: true
+  parameters:
+    bypass_confusion: true
+    target: self
+    cooldown: 0
+    undo: 8000

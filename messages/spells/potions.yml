@@ -41,3 +41,6 @@ spells:
   invisibility_potion_ability:
     name: >-
       Invisibility Potion Ability
+  pompion_potion_ability:
+    name: >-
+      Pompion Potion Ability
