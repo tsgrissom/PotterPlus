@@ -19,7 +19,69 @@
 * Quidditch balls -> Based on flashbang spell, bounces around with more speed
 * Skiving snackboxes -> A box of snacks which cause illness
 * Decoy detonators -> Sends a hopper projectile which explodes to create a distraction
-* Finish list of potions
+
+**Potions**
+
+Cure for Boils - Cancel Furnunculus
+
+Death Potion - Kills those who come into contact with it
+
+Dizziness Draught - Gives confusion and different types of weakness
+
+Draught of Living Death - Completely stops the user, gives them blindness, negative jump temporarily
+
+Drink of Despair - Gives extreme wither effect
+
+Elixir of Life - Gives absorption
+
+Elixir to Induce Euphoria - Casts a modified cheering charm
+
+Essence of Dittany - Heals the target
+
+Fatiguing Infusion - Saps hunger from target until they cannot run and applies slight slowness
+
+Felix Felicis - Definitely give luck, perhaps speed and jump boost along with temporarily reducing spell costs and decreasing spell cooldown
+
+Forgetfulness Potion - Apply global cooldown to spells
+
+Garrotting Gas - Create an AOE of poison with a noxious cloud
+
+Girding Potion - Gives saturation, fills hunger, and gives absorption
+
+Invigoration Draught - Gives speed
+
+Invisibility potion - Gives invisibility
+
+Mandrake Restorative Draught - Cures slowness and petrification
+
+Manegro Potion - Equip player’s own skull temporarily
+
+Memory Potion - Reduces spell costs and cooldowns
+
+Muffling Draught - Silences spell casts temporarily
+
+Murtlap Essence - Heals
+
+Oculus Potion - Cures blindness
+
+Pepperup Potion - Cures poison, gives speed, cancels curse of bogies
+
+Polyjuice - Temporarily disguise as another random username
+
+Pompion Potion - Casts melofors on self
+
+Revive Potion - Casts rennervate
+on self
+
+Scintillation Solution - Restores a portion of mana
+
+Skele-Gro - Fake damages the player (through effectlib?) but gives regeneration
+
+Sleeping Draught - Applies confusion and at the peak of it makes them blind, unable to move or jump
+
+Strengthening Potion - Gives strength
+
+Wiggenweld Potion - Cures minor damage, cure sleep effects
 
 #### Mobs
 
