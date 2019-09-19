@@ -3,20 +3,14 @@
 #### General
 
 * Move common effects into effects folder (like the knowledge gained one used when upgrading or using potions)
-* Consider whether attributes should stay or not
 * Review default files
 * Re-balance how the year upgrades work and what they change
-* Document aspects of the configuration so that BetterPotter can be used as an example for other configs
 
 #### Spells
 
-* Fix Fiendfyre
 * Make sure all spells have sounds
 * Clean up spell files (order their sections consistently and remove unnecessary flags)
-* Add dark upgrade for `flight` and `apparate`
 * Check Fantastic Beasts for new spells and review online spell lists
-* Re-do spells in the to_redo file
-* Change `bubblehead` so that the item doesn't say diving helmet
 * Add Riddikulus
 
 #### Items

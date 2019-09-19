@@ -1,3 +1,4 @@
+# TODO: Add some protections for the caster
 fiendfyre:
   inherit: false
   icon: diamond_axe:139
