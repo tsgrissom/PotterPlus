@@ -488,7 +488,8 @@ spells:
   deprimo:
     name: >-
       Deprimo
-    description: Collapses the ground the target's feet.
+    description: >-
+      Collapses the ground the target's feet.
   deprimo|2:
     upgrade_description: |-
       Increased radius.
@@ -786,7 +787,8 @@ spells:
       A basic offensive spell which pushes the target backwards.
 
   fourpoint:
-    name: "Fourpoint Charm"
+    name: >-
+      Fourpoint Charm
     description: >-
       Functions as a magical compass.
   fourpoint|2:
