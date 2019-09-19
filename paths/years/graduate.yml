@@ -1,2 +1,4 @@
 graduate:
+  # Disables graduate spells for purchase in `spellshop` since spell progression
+  # is freeform in BetterPotter
   spells: []

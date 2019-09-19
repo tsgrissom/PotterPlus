@@ -1,3 +1,5 @@
+# Defines the types of glass that can be broken by `finestra`
+# TODO: Make sure that these material IDs still cover every type of glass
 destructible_glass:
   - glass
   - stained_glass_pane

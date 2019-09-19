@@ -1,13 +1,23 @@
+# Defines the Magic mob key. The mob can be spawned in-game with `/mmob spawn `
 ashwinder:
+  # Defines the vanilla mob type to base the Magic mob off of
   type: silverfish
+  # Defines the display name that shows overhead of the Magic mob
   name: '&4Ashwinder'
+  # Defines how much health the mob will have
   health: 40
+  # Disables default mob drops
   default_drops: false
+  # Defines potion effects to apply to the Magic mob
   potion_effects:
     - type: fire_resistance
       amplifier: 255
+  # Defines the interval in milliseconds between each `interval` trigger
   interval: 1000
+  # Defines the triggers for the Magic mob. You can trigger spell casts,
+  # effects, etc.
   triggers:
+    # Defines what will happen each interval cycle from the time defined above
     interval:
       effects:
         - class: EffectSingle
@@ -27,7 +37,9 @@ ashwinder:
             particle_orbital: smoke_normal
             iterations: 16
             radius: 0.8
+    # Defines what will happen when the mob is damaged
     damage:
+      # Defines spells that the mob can cast based on weighted values
       cast:
         none: 60
         ashwinder_burn: 25

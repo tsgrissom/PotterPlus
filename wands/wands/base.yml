@@ -1,17 +1,27 @@
 base_wand:
+  # When the drop key is pressed while holding the wand, open the spell
+  # inventory
   drop: toggle
+  # When left clicking while holding the wand, cast the active spell
   left_click: cast
+  # When right clicking while holding the wand, open the spell inventory
   right_click: toggle
+  # When the swap key is pressed while holding the wand, cycle between the
+  # multiple spell hotbars
   swap: cycle_hotbar
 
 wandbox:
   enabled: false
 
 potterwand:
+  # Defines how many spell hotbars the wand will have
   hotbar_count: 2
+  # Defines what spell the wand has selected by default
   active_spell: lumos
+  # Defines what spells are in the wand's inventory
   spells:
     - lumos
+  # Defines what mage classes can use this wand
   classes:
     - wizard
     - auror
@@ -19,6 +29,7 @@ potterwand:
     - professor
 
 randomizedpotterwand:
+  # Defines which icons the wand could be created from
   icon: wood_hoe:24,wood_hoe:25,wood_hoe:26
   effects:
     randomize:

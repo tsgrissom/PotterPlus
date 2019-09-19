@@ -1,4 +1,6 @@
 year1:
+  # Defines spells for players on this path that will be available in
+  # `spellshop`
   spells:
     - araniaexumai
     - snowball
@@ -15,5 +17,11 @@ year1:
     - herbifors
     - scribblifors
     - extinguishingcharm
+  # Defines a required spell that cannot be purchased in `spellshop`. This spell
+  # can be offered at the end of a quest, through an NPC, however the server
+  # wants. Until this spell is obtained the player will not year up.
+  #
+  # Alternatively, remove the below line and add alohomora to the above `spells`
+  # list to offer it in the `spellshop`.
   required_spells:
     - alohomora

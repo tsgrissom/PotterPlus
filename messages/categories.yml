@@ -1,3 +1,4 @@
+# Defines the spell categories for use with books, spell listings, etc.
 categories:
   charms:
     name: >-

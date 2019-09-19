@@ -1,3 +1,4 @@
+# Defines the types of stairs for conversion with `glisseo`
 stairs:
   - acacia_stairs
   - birch_wood_stairs
