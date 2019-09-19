@@ -1,3 +1,6 @@
+# Starts the player off with no SP since we're disabling it below
+sp_default: 0
+
 # Disables the SP system in favor of AC
 sp_enabled: false
 
