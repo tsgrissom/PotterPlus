@@ -16,11 +16,7 @@ I recommend reading this guide in its entirety before submitting a pull request 
 
 #### I don't know how to configure the Magic plugin. How can I still help?
 
-> Magic is a fun plugin to work with! I'd be glad to give you some pointers on learning, though I understand if you are unwilling to commit the time. Besides written contributions, I appreciate reviewing the configuration for balance issues or bugs which can be added to the issue tracker.
-
-#### I'm interested in obtaining write access. How would I do this?
-
-> I'm willing to bring in contributors with write access to the repository who can prove that they have a good idea of what they are doing with little to no guidance on my part. Contact me on Discord _T0xicTyler#6978_ or open an issue [here](https://github.com/grisstyl/BetterPotter/issues).
+> Magic is a fun plugin to work with! I'd be glad to give you some pointers on learning, though I understand if you are unwilling to commit the time. Besides written contributions, I appreciate reviewing the configuration for balance issues or bugs which can be added to the [issue tracker](https://github.com/grisstyl/BetterPotter/issues).
 
 ## Pull Requests
 
