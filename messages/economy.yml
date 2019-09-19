@@ -1,0 +1,27 @@
+currency:
+  description: >-
+    &8Right-click to deposit
+  item_name: >-
+    &e$amount &6$type
+
+  galleon:
+    amount: >-
+      &6$amount Galleons
+    name: >-
+      &6Galleons
+
+economy:
+  insufficient: >-
+    &cCosts&8: &7$cost
+
+shops:
+  cost_lore: >-
+    &aCosts&8: &7$cost
+  insufficient: >-
+    &cCosts&8: &7$cost
+  required_cost_lore: >-
+    &cCosts&8: &7$cost
+  deducted: >-
+    &7&l>> &dYou purchased &r$item &dfor &r$cost
+  selected: >-
+    &7&l>> &dYou purchased &r$item &dfor &r$cost

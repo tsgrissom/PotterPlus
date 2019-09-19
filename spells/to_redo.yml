@@ -34,7 +34,7 @@ finiteincantatem:
     cooldown: 10000
   worth: 20 ac
 imperio:
-  category: dark
+  category: unforgivable
   pvp_restricted: true
   worth: 40 ac
 impervius:

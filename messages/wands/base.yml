@@ -3,8 +3,7 @@ wands:
     name: >-
       &5Wand Ticket
     description: >-
-      &dYou can trade this for your very first wand
-      at a &5Wand Shop&8.
+      &dYou can trade this for your very first wand at a &5Wand Shop&8.
   randomizedpotterwand:
     description: >-
       $length Inches $flex $wood with $core

@@ -3,8 +3,8 @@ wands:
     name: >-
       &6Basic Blaze Box
     description: >-
-      &4A box of assorted fireworks from Weasley's
-      Wizard Wheezes' Explosive Enterprises line.
+      &4A box of assorted fireworks from Weasley's Wizard Wheezes' Explosive
+      Enterprises line.
   camera:
     name: >-
       &8Camera
@@ -19,8 +19,8 @@ wands:
     name: >-
       &6Deflagration Deluxe
     description: >-
-      &4A big box of assorted fireworks from Weasley's
-      Wizard Wheezes' Explosive Enterprises line.
+      &4A big box of assorted fireworks from Weasley's Wizard Wheezes' Explosive
+      Enterprises line.
   dungbombs:
     name: >-
       &6Dungbomb pack
@@ -30,14 +30,12 @@ wands:
     name: >-
       &2Gillyweed
     description: >-
-      &aGrants you the ability to temporarily breathe
-      underwater.
+      &aGrants you the ability to temporarily breathe underwater.
   swordofgodricgryffindor:
     name: >-
       &4Sword of Godric Gryffindor
     description: >-
-      &6A sword imbued with magic. Previously owned
-      by a Hogwarts founder.
+      &6A sword imbued with magic. Previously owned by a Hogwarts founder.
     spell_instructions: >-
       &4&lSword of Godric Gryffindor&7//
       &6The Sword of Godric Gryffindor can be wielded as a powerful
@@ -49,8 +47,7 @@ wands:
     name: >-
       &4Beaded Handbag
     description: >-
-      &cA very spacious beaded handbag enchanted to hold many,
-      many items.
+      &cA very spacious beaded handbag enchanted to hold many, many items.
   key:
     name: >-
       &7Key
