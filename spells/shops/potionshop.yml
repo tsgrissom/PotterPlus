@@ -23,6 +23,8 @@ potionshop:
         cost: 20
       - item: wand|baruffiosbrainelixir
         cost: 20
+      - item: wand|invisibilitypotion
+        cost: 20
       - item: wand|bloodreplenishingpotion
         cost: 25
       - item: wand|antidotetocommonpoisons

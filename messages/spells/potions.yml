@@ -38,3 +38,6 @@ spells:
   wit_sharpening_potion_ability:
     name: >-
       Wit-Sharpening Potion Ability
+  invisibility_potion_ability:
+    name: >-
+      Invisibility Potion Ability

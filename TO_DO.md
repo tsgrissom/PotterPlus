@@ -50,8 +50,6 @@ Girding Potion - Gives saturation, fills hunger, and gives absorption
 
 Invigoration Draught - Gives speed
 
-Invisibility potion - Gives invisibility
-
 Mandrake Restorative Draught - Cures slowness and petrification
 
 Manegro Potion - Equip player’s own skull temporarily

@@ -1,0 +1,3 @@
+invisibilitypotion:
+  icon: potion:FFFFFF
+  consume_spell: invisibility_potion_ability

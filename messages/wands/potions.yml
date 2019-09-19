@@ -72,3 +72,8 @@ wands:
       &eWit-Sharpening Potion
     description: >-
       &6Slightly but permanently increases the drinker's maximum mana.
+  invisibilitypotion:
+    name: >-
+      &rInvisibility Potion
+    description: >-
+      &7Causes the drinker to completely vanish from sight for a time.

@@ -1,0 +1,11 @@
+invisibility_potion_ability:
+  inherit: disillusion|4
+  icon: potion
+  category: specialty
+  hidden: true
+  parameters:
+    bypass_confusion: true
+    target: self
+    cooldown: 0
+    duration: 20000
+    undo: 20000
