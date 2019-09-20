@@ -12,7 +12,7 @@ Visit the [wiki](https://github.com/grisstyl/BetterPotter/wiki) for more informa
 
 [Contributor Code of Conduct](https://github.com/grisstyl/BetterPotter/blob/master/CODE_OF_CONDUCT.md)
 
-[To-do List](https://github.com/grisstyl/BetterPotter/blob/master/TODO.md)
+[Roadmap](https://github.com/grisstyl/BetterPotter/blob/master/ROADMAP.md)
 
 [License](https://github.com/grisstyl/BetterPotter/blob/master/LICENSE.md)
 

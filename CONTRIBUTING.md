@@ -12,7 +12,7 @@ I recommend reading this guide in its entirety before submitting a pull request 
 
 #### What sort of pull requests are you looking for?
 
-> Anything! If you can make even the slightest contribution to BetterPotter it's pretty awesome on you. That said, I especially like marking off some of the items on the to do list or resolving issues from the [issue tracker](https://github.com/grisstyl/BetterPotter/issues) as soon as possible.
+> Anything! If you can make even the slightest contribution to BetterPotter it's pretty awesome on you. That said, I especially like marking off some of the items on the [roadmap](https://github.com/grisstyl/BetterPotter/blob/master/ROADMAP.md) or resolving issues from the [issue tracker](https://github.com/grisstyl/BetterPotter/issues) as soon as possible.
 
 #### I don't know how to configure the Magic plugin. How can I still help?
 

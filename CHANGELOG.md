@@ -2,7 +2,7 @@
 
 Changes are organized here for record-keeping purposes. Changes are organized from top to bottom by order of most to least recent.
 
-There is a relatively up-to-date and accurate roadmap and list of upcoming changes in the document [here](https://github.com/grisstyl/BetterPotter/blob/master/TODO.md).
+There is a relatively up-to-date and accurate roadmap and list of upcoming changes in the document [here](https://github.com/grisstyl/BetterPotter/blob/master/ROADMAP.md).
 
 There is a list of current, known issues [here](https://github.com/grisstyl/BetterPotter/issues).
 
@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/20/19
 
+* Re-named TO_DO.md to ROADMAP.md
 * Added Oculus Potions
 
 ### 9/19/19
