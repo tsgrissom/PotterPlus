@@ -93,3 +93,8 @@ wands:
     description: >-
       &7A throwable potion that creates a cloud of noxious, poisonous gas which
       will suffocate and slow down those sucked into the cloud.
+  oculuspotion:
+    name: >-
+      &8Oculus Potion
+    description: >-
+      &7Cures the drinker of blindness.

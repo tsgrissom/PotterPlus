@@ -50,3 +50,6 @@ spells:
   garotting_gas_ability:
     name: >-
       Garotting Gas Ability
+  oculus_potion_ability:
+    name: >-
+      Oculus Potion Ability

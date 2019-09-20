@@ -56,8 +56,6 @@ Muffling Draught - Silences spell casts temporarily
 
 Murtlap Essence - Heals
 
-Oculus Potion - Cures blindness
-
 Pepperup Potion - Cures poison, gives speed, cancels curse of bogies
 
 Polyjuice - Temporarily disguise as another random username

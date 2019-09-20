@@ -19,6 +19,8 @@ potionshop:
         cost: 10
       - item: wand|amortentia
         cost: 15
+      - item: wand|oculuspotion
+        cost: 15
       - item: wand|icepotion
         cost: 15
       - item: wand|antiparalysispotion
