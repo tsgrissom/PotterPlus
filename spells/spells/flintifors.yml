@@ -1,6 +1,7 @@
 flintifors:
   inherit: scribblifors
   icon: diamond_axe:178
+  icon_disabled: diamond_hoe:178
   effects:
     cast:
       - class: EffectSingle

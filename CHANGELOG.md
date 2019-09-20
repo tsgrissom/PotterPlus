@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/19/19
 
+* Added disabled icon to Flintifors
 * Adjusted Flagrate
 * Added mana costs to Firestorm
 * Re-balanced Finestra
