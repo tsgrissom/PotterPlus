@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/20/19
 
+* Adjusted Impedimenta
 * Adjusted Immobulus
 * Adjusted Homenum Revelio
 * Added disabled icon to Glisseo
