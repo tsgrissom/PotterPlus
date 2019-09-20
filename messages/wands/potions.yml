@@ -98,3 +98,8 @@ wands:
       &8Oculus Potion
     description: >-
       &7Cures the drinker of blindness.
+  deathpotion:
+    name: >-
+      &0Death Potion
+    description: >-
+      &7A throwable potion that kills anyone who comes into contact with it.

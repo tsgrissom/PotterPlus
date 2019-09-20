@@ -1,21 +1,15 @@
-garroting_gas_ability:
+death_potion_ability:
   icon: potion
   category: specialty
   hidden: true
+  pvp_restricted: true
   actions:
     cast:
       - class: CustomProjectile
         actions:
-          - class: Repeat
-            repeat: 6
+          - class: AreaOfEffect
             actions:
-              - class: PlayEffects
-                effect: aoe
-              - class: AreaOfEffect
-                actions:
-                  - class: PotionEffect
-              - class: Delay
-                delay: 750
+              - class: Kill
   effects:
     tick:
       - class: EffectSingle
@@ -23,40 +17,36 @@ garroting_gas_ability:
         effectlib:
           class: Sphere
           particle: spell_mob
-          color: 54a415
+          color: 000000
           radius: 0.1
           iterations: 1
-    aoe:
+    hit:
       - class: EffectSingle
         location: target
         effectlib:
           class: Circle
           particle: spell_mob
-          color: 54a415
+          color: 000000
           particles: 50
           wholeCircle: true
           radius: 4
-          duration: 1000
+          duration: 2000
       - class: EffectSingle
         location: target
         effectlib:
           class: Circle
-          particle: spell_mob
-          color: 93f266
+          particle: spell_mob_ambient
+          color: 000000
           particles: 50
           wholeCircle: true
           radius: 2
-          duration: 1000
+          duration: 2000
   parameters:
     bypass_confusion: true
     target: other
     target_type: LivingEntity
     target_source: false
+    target_count: 1
     range: 64
     gravity: 0.05
     radius: 4
-    duration: 8000
-    add_effects:
-      blindness: 1
-      slow: 2
-      poison: 1

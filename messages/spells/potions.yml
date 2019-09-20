@@ -53,3 +53,6 @@ spells:
   oculus_potion_ability:
     name: >-
       Oculus Potion Ability
+  death_potion_ability:
+    name: >-
+      Death Potion Ability

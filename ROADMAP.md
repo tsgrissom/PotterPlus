@@ -24,8 +24,6 @@
 
 Cure for Boils - Cancel Furnunculus
 
-Death Potion - Kills those who come into contact with it
-
 Dizziness Draught - Gives confusion and different types of weakness
 
 Draught of Living Death - Completely stops the user, gives them blindness, negative jump temporarily
