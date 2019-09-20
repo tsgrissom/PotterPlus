@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/19/19
 
+* Added mana costs to Firestorm
 * Re-balanced Finestra
 * Added Garroting Gas potions
 * Added Essence of Dittany potions

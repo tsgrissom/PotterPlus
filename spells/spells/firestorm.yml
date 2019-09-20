@@ -1,6 +1,5 @@
 firestorm:
   inherit: false
-  icon_url: http://textures.minecraft.net/texture/92d331289b5e527c540652d61561a2e90f52a8755c1c7d0cd1a1a98f49de450
   icon: diamond_axe:144
   icon_disabled: diamond_hoe:144
   category: dark
@@ -56,6 +55,8 @@ firestorm:
     delay: 100
     target_source: false
     target_count: 12
+  costs:
+    mana: 80
 
 firestorm|2:
   parameters:
