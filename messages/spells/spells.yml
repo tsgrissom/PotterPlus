@@ -856,6 +856,7 @@ spells:
       Transfigures stairs into a slippery surface.
   glisseo|2:
     upgrade_description: |-
+      Increased range.
       Increased duration.
       Increased radius.
       Decreased undo speed.

@@ -12,11 +12,9 @@ glisseo:
       - class: EffectTrail
         effect: step_sound
         material: ice
-  costs:
-    mana: 20
   parameters:
     allow_max_range: false
-    range: 32
+    range: 16
     check_destructible: true
     destructible: stairs
     brush: packed_ice
@@ -25,9 +23,12 @@ glisseo:
     undo: 5000
     undo_speed: 0.2
     cooldown: 20000
+  costs:
+    mana: 30
 
 glisseo|2:
   parameters:
     undo: 7000
     undo_speed: 0.1
     radius: 3
+    range: 24

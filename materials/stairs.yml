@@ -1,16 +1,33 @@
 # Defines the types of stairs for conversion with `glisseo`
 stairs:
-  - acacia_stairs
-  - birch_wood_stairs
-  - brick_stairs
-  - cobblestone_stairs
-  - dark_oak_stairs
-  - jungle_wood_stairs
-  - nether_brick_stairs
   - purpur_stairs
-  - quartz_stairs
-  - red_sandstone_stairs
+  - oak_stairs
+  - cobblestone_stairs
+  - brick_stairs
+  - stone_brick_stairs
+  - nether_brick_stairs
   - sandstone_stairs
-  - smooth_stairs
-  - spruce_wood_stairs
-  - wood_stairs
+  - spruce_stairs
+  - birch_stairs
+  - jungle_stairs
+  - quartz_stairs
+  - acacia_stairs
+  - dark_oak_stairs
+  - prismarine_stairs
+  - prismarine_brick_stairs
+  - dark_prismarine_stairs
+  - red_sandstone_stairs
+  - polished_granite_stairs
+  - smooth_red_sandstone_stairs
+  - mossy_stone_brick_stairs
+  - polished_diorite_stairs
+  - mossy_cobblestone_stairs
+  - end_stone_brick_stairs
+  - stone_stairs
+  - smooth_sandstone_stairs
+  - smooth_quartz_stairs
+  - granite_stairs
+  - andesite_stairs
+  - red_nether_brick_stairs
+  - polished_andesite_stairs
+  - diorite_stairs
