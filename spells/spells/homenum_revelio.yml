@@ -1,6 +1,6 @@
 homenumrevelio:
   icon: diamond_axe:74
-  icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
+  icon_disabled: diamond_hoe:74
   category: charms
   worth: 10 ac
   upgrade_required_path: year5
@@ -27,7 +27,6 @@ homenumrevelio:
           iterations: 20
   parameters:
     radius: 12
-    y_radius: 12
     target_count: 6
     target_source: false
     target_type: Player
@@ -44,7 +43,6 @@ homenumrevelio|2:
   upgrade_required_casts: 50
   parameters:
     radius: 32
-    y_radius: 32
     target_count: 16
     duration: 15000
 
@@ -54,7 +52,6 @@ homenumrevelio|3:
   parameters:
     target_type: LivingEntity
     radius: 50
-    y_radius: 50
     target_count: 24
     duration: 15000
     cooldown: 25000
@@ -62,7 +59,6 @@ homenumrevelio|3:
 homenumrevelio|4:
   parameters:
     radius: 75
-    y_radius: 75
     target_count: 48
     duration: 20000
     cooldown: 30000
