@@ -1,6 +1,6 @@
 homenumrevelio:
   icon: diamond_axe:74
-  icon_url: http://textures.minecraft.net/texture/4a68c3ec585277cad3da3955fac44fbe7a7f98271fd529d26ce110d8884a8a
+  icon_disabled: diamond_hoe:74
   category: charms
   worth: 10 ac
   upgrade_required_path: year5
@@ -27,7 +27,6 @@ homenumrevelio:
           iterations: 20
   parameters:
     radius: 12
-    y_radius: 12
     target_count: 6
     target_source: false
     target_type: Player
