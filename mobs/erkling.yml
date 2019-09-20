@@ -7,6 +7,7 @@ erkling:
   drops:
     - erklingdartblower
   interval: 4000
+  track_radius: 32
   potion_effects:
     - type: slow
       amplifier: 1

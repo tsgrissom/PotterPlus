@@ -6,7 +6,7 @@ incendio:
   pvp_restricted: true
   parameters:
     velocity: 25
-    range: 12
+    range: 16
     cooldown: 10000
   costs:
     mana: 50
@@ -34,8 +34,6 @@ incendio|4:
     range: 32
     radius: 2
     undo: 2000
-  costs:
-    mana: 100
 
 incendio|5:
   upgrade_required_path: year6
@@ -49,11 +47,8 @@ incendio|6:
   upgrade_required_casts: 250
   parameters:
     velocity: 75
-  costs:
-    mana: 125
 
 incendio|7:
   parameters:
     undo: 3000
     radius: 4
-    range: 48

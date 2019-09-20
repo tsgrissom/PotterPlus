@@ -1,5 +1,6 @@
 impedimenta:
   icon: diamond_axe:163
+  icon_disabled: diamond_hoe:163
   category: dada
   upgrade_required_path: year4
   upgrade_required_casts: 25
@@ -50,20 +51,17 @@ impedimenta:
           colorOrbital: 7a70bb
           duration: $duration
           radius: 2
-          period: 1
   parameters:
-    velocity: 100
+    velocity: 50
     hitbox: true
     range: 24
-    deactivate_target_mage: false
     target_type: LivingEntity
     target: other
-    target_breakables: 1
-    duration: 1500
+    duration: 2000
     add_effects:
       slow: 1
       jump: -20
-    cooldown: 7000
+    cooldown: 8000
   costs:
     mana: 30
 

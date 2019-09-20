@@ -35,12 +35,14 @@ immobulus:
           radius: 1.8
           particles: 20
   parameters:
-    range: 12
-    duration: 3000
+    range: 16
+    duration: 4000
     add_effects:
       slow: 20
       jump: -20
-    cooldown: 10000
+    cooldown: 20000
+  costs:
+    mana: 30
 
 immobulus|2:
   upgrade_required_path: year4
@@ -54,10 +56,8 @@ immobulus|3:
   upgrade_required_casts: 100
   parameters:
     duration: 8000
-    cooldown: 12000
 
 immobulus|4:
   parameters:
     range: 32
     duration: 10000
-    cooldown: 15000

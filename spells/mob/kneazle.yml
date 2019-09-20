@@ -7,6 +7,7 @@ kneazle_pet:
       - class: Message
   effects:
     cast:
+      - sound: entity_cat_purr
       - class: EffectSingle
         location: origin
         source_location: feet
@@ -29,6 +30,6 @@ kneazle_pet:
           offset: 0,1,0
   parameters:
     target: self
-    message: '&eThe kneazle purrs...'
-    message_type: title
+    message: &eThe kneazle purrs&8...
+    message_type: action_bar
     cooldown: 10000

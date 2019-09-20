@@ -1,0 +1,12 @@
+oculus_potion_ability:
+  icon: potion
+  category: specialty
+  hidden: true
+  actions:
+    cast:
+      - class: PotionEffect
+  parameters:
+    bypass_confusion: true
+    target: self
+    remove_effects:
+      - blindness

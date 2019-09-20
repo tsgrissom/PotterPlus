@@ -5,6 +5,7 @@ centaur:
   default_drops: false
   aggro: true
   interval: 2000
+  track_radius: 48
   triggers:
     interval:
       cast:

@@ -2,11 +2,24 @@
 
 Changes are organized here for record-keeping purposes. Changes are organized from top to bottom by order of most to least recent.
 
-There is a relatively up-to-date and accurate roadmap and list of upcoming changes in the document [here](https://github.com/grisstyl/BetterPotter/blob/master/TODO.md).
+There is a relatively up-to-date and accurate roadmap and list of upcoming changes in the document [here](https://github.com/grisstyl/BetterPotter/blob/master/ROADMAP.md).
 
 There is a list of current, known issues [here](https://github.com/grisstyl/BetterPotter/issues).
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
+
+### 9/20/19
+
+* Added Death Potions
+* Added tracking radiuses to aggro mobs
+* Adjusted Incendio
+* Adjusted Impedimenta
+* Adjusted Immobulus
+* Adjusted Homenum Revelio
+* Added disabled icon to Glisseo
+* Changed Crup and Kneazle SFX and messages
+* Re-named TO_DO.md to ROADMAP.md
+* Added Oculus Potions
 
 ### 9/19/19
 
