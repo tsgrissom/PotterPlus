@@ -1,3 +1,5 @@
 babblingbeverage:
   icon: potion:7d1010
-  consume_spell: babbling_beverage_ability
+  right_click: cast
+  active_spell: babbling_beverage_ability
+  uses: 1

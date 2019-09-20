@@ -2,22 +2,56 @@ befuddlement_draught_ability:
   icon: potion
   category: specialty
   hidden: true
-  effects:
-    cast:
-      - class: EffectSingle
-        location: origin
-        source_location: feet
-        effectlib:
-          class: Smoke
-          particle: spell_mob
-          color: 006400
-          duration: $duration
   actions:
     cast:
-      - class: PotionEffect
+      - class: CustomProjectile
+        actions:
+          - class: AreaOfEffect
+            actions:
+              - class: PotionEffect
+  effects:
+    cast:
+      - sound: entity_splash_potion_throw
+    tick:
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Sphere
+          particle: spell_mob
+          particles: 10
+          color: 006400
+          radius: 0.1
+          iterations: 1
+    hit:
+      - sound: entity_splash_potion_break
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Circle
+          particle: spell_mob
+          color: 006400
+          particles: 50
+          wholeCircle: true
+          radius: 4
+          duration: 2000
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Circle
+          particle: spell_mob
+          color: 006400
+          particles: 50
+          wholeCircle: true
+          radius: 2
+          duration: 2000
   parameters:
     bypass_confusion: true
-    target: self
+    target: other
+    target_source: false
+    range: 64
+    radius: 4
+    velocity: 25
+    gravity: 0.05
     duration: 10000
     add_effects:
       confusion: 2

@@ -1,3 +1,5 @@
 befuddlementdraught:
   icon: potion:006400
-  consume_spell: befuddlement_draught_ability
+  right_click: cast
+  active_spell: befuddlement_draught_ability
+  uses: 1

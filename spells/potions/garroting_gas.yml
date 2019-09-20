@@ -25,6 +25,7 @@ garroting_gas_ability:
         effectlib:
           class: Sphere
           particle: spell_mob
+          particles: 10
           color: 54a415
           radius: 0.1
           iterations: 1
@@ -58,6 +59,7 @@ garroting_gas_ability:
     target_type: LivingEntity
     target_source: false
     range: 64
+    velocity: 25
     gravity: 0.05
     radius: 4
     duration: 10000

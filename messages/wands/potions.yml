@@ -34,9 +34,9 @@ wands:
       &7Cures the drinker of common and uncommon poisonous effects.
   babblingbeverage:
     name: >-
-      &4Babbling Beverage &8(&7Drinkable&8)
+      &4Babbling Beverage &8(&7Throwable&8)
     description: >-
-      &7Causes the drinker to babble nonsense uncontrollably.
+      &7Causes the target to babble nonsense uncontrollably.
   baruffiosbrainelixir:
     name: >-
       &2Baruffio's Brain Elixir &8(&7Drinkable&8)
@@ -44,9 +44,9 @@ wands:
       &7Completely restores the drinker's mana.
   befuddlementdraught:
     name: >-
-      &2Befuddlement Draught &8(&7Drinkable&8)
+      &2Befuddlement Draught &8(&7Throwable&8)
     description: >-
-      &7Causes the drinker to become confused.
+      &7Causes the target to become confused.
   beguilingbubbles:
     name: >-
       &5Beguiling Bubbles &8(&7Drinkable&8)
@@ -64,7 +64,7 @@ wands:
       &7Replenishes the drinker's blood, healing them.
   confusingconcoction:
     name: >-
-      &6Confusing Concoction &8(&7Drinkable&8)
+      &6Confusing Concoction &8(&7Throwable&8)
     description: >-
       &7Causes the drinker to become confused.
   witsharpeningpotion:
@@ -79,7 +79,7 @@ wands:
       &7Causes the drinker to completely vanish from sight for a time.
   pompionpotion:
     name: >-
-      &6Pompion Potion &8(&7Drinkable&8)
+      &6Pompion Potion &8(&7Throwable&8)
     description: >-
       &7Causes the drinker's head to become encased in a pumpkin.
   essenceofdittany:
@@ -100,6 +100,6 @@ wands:
       &7Cures the drinker of blindness.
   deathpotion:
     name: >-
-      &0Death Potion &8(&7Throwable&8)
+      &8Death Potion &8(&7Throwable&8)
     description: >-
       &7A throwable potion that kills anyone who comes into contact with it.

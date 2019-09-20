@@ -19,6 +19,7 @@ death_potion_ability:
         effectlib:
           class: Sphere
           particle: spell_mob
+          particles: 10
           color: 000000
           radius: 0.1
           iterations: 1
@@ -52,5 +53,6 @@ death_potion_ability:
     target_source: false
     target_count: 1
     range: 64
+    velocity: 25
     gravity: 0.05
     radius: 4
