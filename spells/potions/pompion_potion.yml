@@ -8,3 +8,5 @@ pompion_potion_ability:
     target: self
     cooldown: 0
     undo: 8000
+  costs:
+    mana: 0

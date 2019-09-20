@@ -9,3 +9,5 @@ invisibility_potion_ability:
     cooldown: 0
     duration: 20000
     undo: 20000
+  costs:
+    mana: 0
