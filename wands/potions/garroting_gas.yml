@@ -1,0 +1,5 @@
+garrotinggas:
+  icon: potion:54a415
+  right_click: cast
+  active_spell: garroting_gas_ability
+  uses: 1

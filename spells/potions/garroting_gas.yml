@@ -1,0 +1,61 @@
+garroting_gas_ability:
+  icon: potion
+  category: specialty
+  hidden: true
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Repeat
+            repeat: 6
+            actions:
+              - class: PlayEffects
+                effect: aoe
+              - class: AreaOfEffect
+                actions:
+                  - class: PotionEffect
+              - class: Delay
+                delay: 750
+  effects:
+    tick:
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Sphere
+          particle: spell_mob
+          color: 54a415
+          radius: 0.1
+          iterations: 1
+    aoe:
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Circle
+          particle: spell_mob
+          color: 54a415
+          particles: 50
+          wholeCircle: true
+          radius: 4
+          duration: 1000
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Circle
+          particle: spell_mob
+          color: 93f266
+          particles: 50
+          wholeCircle: true
+          radius: 2
+          duration: 1000
+  parameters:
+    target: other
+    target_type: LivingEntity
+    target_source: false
+    range: 64
+    gravity: 0.05
+    radius: 4
+    duration: 8000
+    add_effects:
+      blindness: 1
+      slow: 2
+      poison: 1

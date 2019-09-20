@@ -47,3 +47,6 @@ spells:
   essence_of_dittany_ability:
     name: >-
       Essence of Dittany Ability
+  garotting_gas_ability:
+    name: >-
+      Garotting Gas Ability

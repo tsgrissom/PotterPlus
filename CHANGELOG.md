@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/19/19
 
+* Added Garroting Gas potions
 * Added Essence of Dittany potions
 * Fixed Pompion Potion and Invisiblity Potion mana costs
 * Added Pompion Potions

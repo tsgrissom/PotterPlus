@@ -42,8 +42,6 @@ Felix Felicis - Definitely give luck, perhaps speed and jump boost along with te
 
 Forgetfulness Potion - Apply global cooldown to spells
 
-Garrotting Gas - Create an AOE of poison with a noxious cloud
-
 Girding Potion - Gives saturation, fills hunger, and gives absorption
 
 Invigoration Draught - Gives speed
