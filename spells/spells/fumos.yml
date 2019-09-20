@@ -2,77 +2,63 @@ fumos:
   upgrade_required_path: year4
   upgrade_required_casts: 50
   worth: 5 ac
-  effects:
+  actions:
     cast:
+      - class: Repeat
+        actions:
+          - class: Retarget
+            actions:
+              - class: PlayEffects
+              - class: AreaOfEffect
+                actions:
+                  - class: PotionEffect
+              - class: Delay
+  effects:
+    cast: []
+    aoe:
       - class: EffectSingle
         sound: block_fire_extinguish
         location: target
         effectlib:
           class: Sphere
-          iterations: 140
-          period: .1
-          particle: smoke_large
-          radius: 2
-          particles: 20
-  actions:
-    cast:
-      - class: AreaOfEffect
-        actions:
-          - class: PotionEffect
+          duration: 2000
+          particle: $particle
+          particleSize: 5
+          color: a3a3a3
+          radius: $radius
+          particles: $particleCount
   parameters:
     add_effects:
       slow: 1
       damage_resistance: -1
-    duration: 5000
+    repeat: 6
+    effect: aoe
+    delay: 1000
+    duration: 6000
     radius: 2
-    y_radius: 2
-    target_count: 5
     target_source: false
     cooldown: 10000
+    particle: smoke_large
+    particleCount: 20
+  costs:
+    mana: 30
 
 fumos|2:
   upgrade_required_path: year5
   upgrade_required_casts: 75
-  effects:
-    cast:
-      - class: EffectSingle
-        sound: block_fire_extinguish
-        location: target
-        effectlib:
-          class: Sphere
-          iterations: 140
-          period: .1
-          particle: explosion_normal
-          radius: 3
-          particles: 20
   parameters:
     add_effects:
       slow: 2
     radius: 3
-    y_radius: 3
-    target_count: 10
     duration: 7000
     cooldown: 12000
+    particle: redstone
+    particleCount: 50
 
 fumos|3:
-  effects:
-    cast:
-      - class: EffectSingle
-        sound: block_fire_extinguish
-        location: target
-        effectlib:
-          class: Sphere
-          iterations: 140
-          period: .1
-          particle: explosion_normal
-          radius: 5
-          particles: 50
   parameters:
     add_effects:
       slow: 3
       blindness: 3
     radius: 5
-    y_radius: 5
-    target_count: 15
     duration: 9000
-    cooldown: 14000

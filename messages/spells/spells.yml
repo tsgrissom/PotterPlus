@@ -805,11 +805,11 @@ spells:
   fumos|2:
     upgrade_description: |-
       Increased radius.
-      Increased effect.
+      Increased slowness.
   fumos|3:
     upgrade_description: |-
       Increased radius.
-      Increased effect.
+      Increased slowness.
 
   furnunculus:
     name: >-
