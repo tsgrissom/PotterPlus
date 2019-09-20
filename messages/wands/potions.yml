@@ -82,3 +82,8 @@ wands:
       &6Pompion Potion
     description: >-
       &eCauses the drinker's head to become encased in a pumpkin.
+  essenceofdittany:
+    name: >-
+      &2Essence of Dittany
+    description: >-
+      &aRapidly heals the drinker's wounds in billows of green smoke.

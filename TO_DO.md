@@ -36,8 +36,6 @@ Elixir of Life - Gives absorption
 
 Elixir to Induce Euphoria - Casts a modified cheering charm
 
-Essence of Dittany - Heals the target
-
 Fatiguing Infusion - Saps hunger from target until they cannot run and applies slight slowness
 
 Felix Felicis - Definitely give luck, perhaps speed and jump boost along with temporarily reducing spell costs and decreasing spell cooldown

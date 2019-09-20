@@ -1639,6 +1639,8 @@ spells:
     description: >-
       Heals even the most severe wounds. Lacerations, fractures, near-death
       experiences, you name it!
+    cast: ""
+    cast_self: ""
 
   waddiwasi:
     name: >-

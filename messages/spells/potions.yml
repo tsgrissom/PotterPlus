@@ -44,3 +44,6 @@ spells:
   pompion_potion_ability:
     name: >-
       Pompion Potion Ability
+  essence_of_dittany_ability:
+    name: >-
+      Essence of Dittany Ability

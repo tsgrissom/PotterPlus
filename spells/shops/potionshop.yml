@@ -31,6 +31,8 @@ potionshop:
         cost: 25
       - item: wand|antidotetocommonpoisons
         cost: 25
+      - item: wand|essenceofdittany
+        cost: 30
       - item: wand|antidotetouncommonpoisons
         cost: 30
       - item: wand|witsharpeningpotion
