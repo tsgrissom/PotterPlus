@@ -1,105 +1,105 @@
 wands:
   lovepotion:
     name: >-
-      &dLove Potion
+      &dLove Potion &8(&7Drinkable&8)
     description: >-
-      &7Causes the drinker to &5become infatuated with the &5person who gave it
+      &7Causes the drinker to become infatuated with the person who gave it
       to them.
   burpingpotion:
     name: >-
-      &6Burping Potion
+      &6Burping Potion &8(&7Drinkable&8)
     description: >-
       &7Causes the drinker to burp uncontrollably.
   amortentia:
     name: >-
-      &dAmortentia
+      &dAmortentia &8(&7Drinkable&8)
     description: >-
       &7The most powerful love potion in existence. Causes the drinker to
       develop a powerful infatuation or obsession with the person who
       gave it to them.
   antiparalysispotion:
     name: >-
-      &bAnti-Paralysis Potion
+      &bAnti-Paralysis Potion &8(&7Drinkable&8)
     description: >-
       &7Cures the drinker of any paralyzing effects they are under.
   antidotetocommonpoisons:
     name: >-
-      &8Antidote to Common Poisons
+      &8Antidote to Common Poisons &8(&7Drinkable&8)
     description: >-
       &7Cures the drinker of common poisonous effects.
   antidotetouncommonpoisons:
     name: >-
-      &8Antidote to Uncommon Poisons
+      &8Antidote to Uncommon Poisons &8(&7Drinkable&8)
     description: >-
       &7Cures the drinker of common and uncommon poisonous effects.
   babblingbeverage:
     name: >-
-      &4Babbling Beverage
+      &4Babbling Beverage &8(&7Drinkable&8)
     description: >-
       &7Causes the drinker to babble nonsense uncontrollably.
   baruffiosbrainelixir:
     name: >-
-      &2Baruffio's Brain Elixir
+      &2Baruffio's Brain Elixir &8(&7Drinkable&8)
     description: >-
       &7Completely restores the drinker's mana.
   befuddlementdraught:
     name: >-
-      &2Befuddlement Draught
+      &2Befuddlement Draught &8(&7Drinkable&8)
     description: >-
       &7Causes the drinker to become confused.
   beguilingbubbles:
     name: >-
-      &5Beguiling Bubbles
+      &5Beguiling Bubbles &8(&7Drinkable&8)
     description: >-
       &7A love potion from the WonderWitch line by Weasley's Wizard Wheezes.
   icepotion:
     name: >-
-      &3Ice Potion
+      &3Ice Potion &8(&7Drinkable&8)
     description: >-
       &7Causes the drinker to be able to walk through flames unscathed.
   bloodreplenishingpotion:
     name: >-
-      &4Blood-Replenishing Potion
+      &4Blood-Replenishing Potion &8(&7Drinkable&8)
     description: >-
       &7Replenishes the drinker's blood, healing them.
   confusingconcoction:
     name: >-
-      &6Confusing Concoction
+      &6Confusing Concoction &8(&7Drinkable&8)
     description: >-
       &7Causes the drinker to become confused.
   witsharpeningpotion:
     name: >-
-      &eWit-Sharpening Potion
+      &eWit-Sharpening Potion &8(&7Drinkable&8)
     description: >-
       &7Slightly but permanently increases the drinker's maximum mana.
   invisibilitypotion:
     name: >-
-      &rInvisibility Potion
+      &rInvisibility Potion &8(&7Drinkable&8)
     description: >-
       &7Causes the drinker to completely vanish from sight for a time.
   pompionpotion:
     name: >-
-      &6Pompion Potion
+      &6Pompion Potion &8(&7Drinkable&8)
     description: >-
       &7Causes the drinker's head to become encased in a pumpkin.
   essenceofdittany:
     name: >-
-      &2Essence of Dittany
+      &2Essence of Dittany &8(&7Drinkable&8)
     description: >-
       &7Rapidly heals the drinker's wounds in billows of green smoke.
   garrotinggas:
     name: >-
-      &2Garotting Gas
+      &2Garroting Gas &8(&7Throwable&8)
     description: >-
-      &7A throwable potion that creates a cloud of noxious, poisonous gas which
-      will suffocate and slow down those sucked into the cloud.
+      &7A potion that creates a cloud of noxious, poisonous gas which
+      will suffocate and slow down those stuck in the cloud.
   oculuspotion:
     name: >-
-      &8Oculus Potion
+      &8Oculus Potion &8(&7Drinkable&8)
     description: >-
       &7Cures the drinker of blindness.
   deathpotion:
     name: >-
-      &0Death Potion
+      &0Death Potion &8(&7Throwable&8)
     description: >-
       &7A throwable potion that kills anyone who comes into contact with it.

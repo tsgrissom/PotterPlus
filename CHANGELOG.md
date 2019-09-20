@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/20/19
 
+* Added potion type descriptor to all potion names
 * Added sound FX to throwable potions
 * Added Death Potions
 * Added tracking radiuses to aggro mobs
