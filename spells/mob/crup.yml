@@ -7,6 +7,7 @@ crup_pet:
       - class: Message
   effects:
     cast:
+      - sound: entity_wolf_pant
       - class: EffectSingle
         location: origin
         source_location: feet
@@ -27,6 +28,6 @@ crup_pet:
           offset: 0,1,0
   parameters:
     target: self
-    message: '&eThe crup is happy'
-    message_type: title
+    message: &eThe crup barks
+    message_type: action_bar
     cooldown: 10000

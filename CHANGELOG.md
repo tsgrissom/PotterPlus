@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/20/19
 
+* Changed Crup and Kneazle SFX and messages
 * Re-named TO_DO.md to ROADMAP.md
 * Added Oculus Potions
 
