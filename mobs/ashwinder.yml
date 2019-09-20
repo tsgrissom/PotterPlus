@@ -14,6 +14,8 @@ ashwinder:
       amplifier: 255
   # Defines the interval in milliseconds between each `interval` trigger
   interval: 1000
+  # Defines the max radius from which the mob will pursue the player
+  track_radius: 32
   # Defines the triggers for the Magic mob. You can trigger spell casts,
   # effects, etc.
   triggers:

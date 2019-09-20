@@ -4,6 +4,7 @@ bundimun:
   size: 2
   health: 30
   default_drops: false
+  track_radius: 32
   weakness:
     fire: 0.8
     magic: 0.2

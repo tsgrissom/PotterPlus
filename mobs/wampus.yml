@@ -4,6 +4,7 @@ wampus:
   health: 20
   default_drops: false
   aggro: true
+  track_radius: 32
   triggers:
     interval:
       cast:

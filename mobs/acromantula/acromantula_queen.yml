@@ -3,6 +3,7 @@ acromantula_queen:
   type: spider
   name: '&2Queen Acromantula'
   health: 60
+  track_radius: 64
   potion_effects:
     - type: slow
       amplifier: 1

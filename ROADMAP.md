@@ -76,7 +76,6 @@ Wiggenweld Potion - Cures minor damage, cure sleep effects
 
 General ideas
 
-* Add distances to mobs so they are less persistent
 * Make mobs more aggressive as they get damaged with `min_damage` flags, etc.
 
 Specific mobs

@@ -9,6 +9,7 @@ erumpent:
       amplifier: 1
   drops:
     - erumpenthorn
+  track_radius: 32
   triggers:
     interval:
       cast:

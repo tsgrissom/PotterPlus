@@ -4,6 +4,7 @@ acromantula_underling:
   health: 10
   default_drops: false
   interval: 5000
+  track_radius: 48
   potion_effects:
     - type: speed
       amplifier: 2

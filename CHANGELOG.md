@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/20/19
 
+* Added tracking radiuses to aggro mobs
 * Adjusted Incendio
 * Adjusted Impedimenta
 * Adjusted Immobulus
