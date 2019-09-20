@@ -1,9 +1,10 @@
 finestra:
   icon: diamond_axe:108
+  icon_disabled: diamond_hoe:108
   category: charms
   worth: 15 ac
   class: ConstructSpell
-  upgrade_required_casts: 75
+  upgrade_required_casts: 25
   upgrade_required_path: year5
   effects:
     cast:
@@ -12,8 +13,6 @@ finestra:
       - class: EffectTrail
         effect: step_sound
         material: glass
-  costs:
-    mana: 20
   parameters:
     allow_max_range: false
     range: 32
@@ -24,7 +23,9 @@ finestra:
     transparent: transparent_to_construction
     undo: 5000
     undo_speed: 0.2
-    cooldown: 20000
+    cooldown: 15000
+  costs:
+    mana: 30
 
 finestra|2:
   parameters:
