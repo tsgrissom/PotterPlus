@@ -29,11 +29,7 @@
 
 **Potions**
 
-Cure for Boils - Cancel Furnunculus
-
 Dizziness Draught - Gives confusion and different types of weakness
-
-Draught of Living Death - Completely stops the user, gives them blindness, negative jump temporarily
 
 Drink of Despair - Gives extreme wither effect
 

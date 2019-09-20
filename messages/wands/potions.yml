@@ -102,4 +102,9 @@ wands:
     name: >-
       &8Death Potion &8(&7Throwable&8)
     description: >-
-      &7A throwable potion that kills anyone who comes into contact with it.
+      &7A potion that kills anyone who comes into contact with it.
+  draughtoflivingdeath:
+    name: >-
+      &8Draught of Living Death &8(&7Throwable&8)
+    description: >-
+      &7A potion that puts the target into a deep sleep as if they were dead.

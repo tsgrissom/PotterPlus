@@ -1,0 +1,5 @@
+draughtoflivingdeath:
+  icon: potion:777777
+  right_click: cast
+  active_spell: draught_of_living_death_ability
+  uses: 1

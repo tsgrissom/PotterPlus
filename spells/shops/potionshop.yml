@@ -39,6 +39,8 @@ potionshop:
         cost: 30
       - item: wand|antidotetouncommonpoisons
         cost: 30
+      - item: wand|draughtoflivingdeath
+        cost: 50
       - item: wand|deathpotion
         cost: 80
       - item: wand|witsharpeningpotion

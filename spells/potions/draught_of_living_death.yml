@@ -1,0 +1,81 @@
+count:
+  enabled: true
+
+draught_of_living_death_ability:
+  icon: potion
+  category: specialty
+  hidden: true
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: AreaOfEffect
+            actions:
+              - class: PotionEffect
+                duration: 10000
+                add_effects:
+                  slow: 1
+                  confusion: 1
+              - class: Delay
+                delay: 8000
+              - class: Message
+                message_type: title
+                message_key: sleep
+                fade_in: 10
+                stay: 180
+                fade_out: 10
+              - class: PotionEffect
+                duration: 15000
+                add_effects:
+                  slow: 255
+                  slow_falling: 2
+                  blindness: 1
+              - class: Delay
+                delay: 13000
+              - class: PotionEffect
+                duration: 10000
+                add_effects:
+                  slow: 1
+                  confusion: 1
+  effects:
+    cast:
+      - sound: entity_splash_potion_throw
+    tick:
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Sphere
+          particle: spell_mob
+          particles: 10
+          color: 777777
+          radius: 0.1
+          iterations: 1
+    hit:
+      - sound: entity_splash_potion_break
+        location: target
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Circle
+          particle: spell_mob
+          color: 777777
+          particles: 50
+          wholeCircle: true
+          radius: 4
+          duration: 2000
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Circle
+          particle: spell_mob
+          color: 777777
+          particles: 50
+          wholeCircle: true
+          radius: 2
+          duration: 2000
+  parameters:
+    bypass_confusion: true
+    range: 64
+    radius: 4
+    velocity: 25
+    gravity: 0.05

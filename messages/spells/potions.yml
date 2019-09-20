@@ -56,3 +56,8 @@ spells:
   death_potion_ability:
     name: >-
       Death Potion Ability
+  draught_of_living_death_ability:
+    name: >-
+      Draught of Living Death Ability
+    sleep: >-
+      &8ZZZ...
