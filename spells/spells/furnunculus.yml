@@ -1,6 +1,7 @@
 furnunculus:
-  category: dark
   icon: diamond_axe:172
+  icon_disabled: diamond_hoe:172
+  category: dark
   upgrade_required_path: year7
   upgrade_required_casts: 50
   worth: 15 ac
