@@ -1,5 +1,6 @@
 herbifors:
   icon: diamond_axe:41
+  icon_disabled: diamond_hoe:41
   category: herbology
   worth: 5 ac
   upgrade_required_casts: 50
