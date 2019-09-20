@@ -11,6 +11,8 @@ death_potion_ability:
             actions:
               - class: Kill
   effects:
+    cast:
+      - sound: entity_splash_potion_throw
     tick:
       - class: EffectSingle
         location: target
@@ -21,6 +23,8 @@ death_potion_ability:
           radius: 0.1
           iterations: 1
     hit:
+      - sound: entity_splash_potion_break
+        location: target
       - class: EffectSingle
         location: target
         effectlib:

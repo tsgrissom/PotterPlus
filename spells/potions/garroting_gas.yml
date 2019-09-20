@@ -7,7 +7,7 @@ garroting_gas_ability:
       - class: CustomProjectile
         actions:
           - class: Repeat
-            repeat: 6
+            repeat: 10
             actions:
               - class: PlayEffects
                 effect: aoe
@@ -17,6 +17,8 @@ garroting_gas_ability:
               - class: Delay
                 delay: 750
   effects:
+    cast:
+      - sound: entity_splash_potion_throw
     tick:
       - class: EffectSingle
         location: target
@@ -26,6 +28,9 @@ garroting_gas_ability:
           color: 54a415
           radius: 0.1
           iterations: 1
+    hit:
+      - sound: entity_splash_potion_break
+        location: target
     aoe:
       - class: EffectSingle
         location: target
@@ -55,7 +60,7 @@ garroting_gas_ability:
     range: 64
     gravity: 0.05
     radius: 4
-    duration: 8000
+    duration: 10000
     add_effects:
       blindness: 1
       slow: 2
