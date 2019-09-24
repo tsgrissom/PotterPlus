@@ -5,9 +5,11 @@ ashwinder:
   # Defines the display name that shows overhead of the Magic mob
   name: '&4Ashwinder'
   # Defines how much health the mob will have
-  health: 40
+  health: 20
   # Disables default mob drops
   default_drops: false
+  # Disables default mob sound FX
+  silent: true
   # Defines potion effects to apply to the Magic mob
   potion_effects:
     - type: fire_resistance
@@ -16,15 +18,23 @@ ashwinder:
   interval: 1000
   # Defines the max radius from which the mob will pursue the player
   track_radius: 32
+  # Defines what items the mob will drop when killed
+  drops:
+    - ashwindereggs
   # Defines the triggers for the Magic mob. You can trigger spell casts,
   # effects, etc.
   triggers:
     # Defines what will happen each interval cycle from the time defined above
     interval:
+      cast:
+        none: 60
+        ashwinder_burn: 25
+        ashwinder_burn|2: 10
+        ashwinder_burn|3: 5
       effects:
         - class: EffectSingle
           source_location: feet
-          sound: entity_blaze_ambient
+          sound: block_blastfurnace_fire_crackle
           effectlib:
             class: AtomEffect
             particle_nucleus: flame
@@ -39,11 +49,3 @@ ashwinder:
             particle_orbital: smoke_normal
             iterations: 16
             radius: 0.8
-    # Defines what will happen when the mob is damaged
-    damage:
-      # Defines spells that the mob can cast based on weighted values
-      cast:
-        none: 60
-        ashwinder_burn: 25
-        ashwinder_burn|2: 10
-        ashwinder_burn|3: 5

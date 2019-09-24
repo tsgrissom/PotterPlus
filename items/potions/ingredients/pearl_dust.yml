@@ -1,0 +1,12 @@
+pearldust:
+  worth: 5.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1976
+    type: SUGAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fPearl Dust
+      lore:
+      - §7Finely ground pearl.

@@ -2,8 +2,11 @@ lovepotion:
   output: lovepotion
   output_type: wand
   materials:
-    x: ashwindereggs
-    y: potionbase
-  row_1: "   "
-  row_2: " x "
-  row_3: " y "
+    x: potionbase
+    y: ashwindereggs
+    z: pearldust
+    a: powderedmoonstone
+    b: rosethorns
+  row_1: "zab"
+  row_2: " y "
+  row_3: " x "

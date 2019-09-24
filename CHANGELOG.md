@@ -10,6 +10,8 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/20/19
 
+* Added Love Potion crafting
+* Ashwinder mob re-worked
 * Added Draught of Living Death
 * Converted all offensive potions to be throwable
 * Added potion type descriptor to all potion names
