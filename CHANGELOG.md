@@ -10,7 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/23/19
 
-* Re-worked Potion Shop
+* Re-worked Potion Shop (`potionshop`)
 * Added Love Potion crafting
 * Ashwinder mob re-worked
 
