@@ -1,8 +1,68 @@
 potionshop:
-  icon: potion
+  icon: cauldron
+  hidden: true
+  category: npc
+  actions:
+    cast:
+      - class: Selector
+  parameters:
+    options:
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - icon: diamond_axe:45
+        name: "&3Buy Ingredients"
+        cast_spell: potionshop_ingredients
+        item: null
+      - placeholder: true
+      - icon: diamond_axe:76
+        name: "&3Buy Potions"
+        cast_spell: potionshop_potions
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+    auto_close: true
+    quiet: true
+    free: true
+    confirm: false
+
+potionshop_ingredients:
+  icon: diamond_axe:180
   category: npc
   hidden: true
   inherit: buyshop
+  parameters:
+    items:
+      - item: glass_bottle
+        cost: 1
+        name: "&8Glass Bottle"
+        lore:
+          - "&7A standard-sized glass bottle"
+          - "&7for potion creation."
+      - item: standardingredient
+        cost: 2
+      - item: ashwindereggs
+        cost: 5
+      - item: pearldust
+        cost: 3
+        name: "&fPearl Dust"
+      - item: powderedmoonstone
+        cost: 3
+        name: "&fPowdered Moonstone"
+      - item: rosethorns
+        cost: 3
+    quiet: true
+    free: false
+    cost_type: galleon
+    confirm: true
+    confirm_filler: cauldron
+    confirm_title: "Buy Ingredient?"
+
+potionshop_potions:
+  icon: diamond_axe:44
+  category: npc
+  hidden: true
+  inherit: potionshop_ingredients
   parameters:
     items:
       - item: wand|burpingpotion
@@ -45,8 +105,4 @@ potionshop:
         cost: 80
       - item: wand|witsharpeningpotion
         cost: 100
-    quiet: true
-    free: false
-    cost_type: galleon
-    confirm: true
-    confirm_filler: cauldron
+    confirm_title: "Buy Potion?"

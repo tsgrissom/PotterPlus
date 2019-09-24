@@ -20,4 +20,15 @@ spells:
     name: >-
       Potion Shop
     title: >-
+      Potion Shop
+    selected_free: ""
+  potionshop_ingredients:
+    name: >-
+      Ingredient Shop
+    title: >-
+      Ingredient Shop ($balance&8)
+  potionshop_potions:
+    name: >-
+      Potion Shop
+    title: >-
       Potion Shop ($balance&8)

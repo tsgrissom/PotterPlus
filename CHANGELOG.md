@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/20/19
 
+* Re-worked Potion Shop
 * Added Love Potion crafting
 * Ashwinder mob re-worked
 * Added Draught of Living Death
