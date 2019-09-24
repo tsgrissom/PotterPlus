@@ -1,46 +1,115 @@
 # Defines some randomizable messages for use in wand lore
 randomized:
   core:
-    - Unicorn Tail Hair
-    - Dragon Heartstring
-    - Pheonix Feather
-    - Veela Hair
-    - Thestral Tail-Hair
-    - Troll Whisker
-    - Kneazle Whisker
-    - Dittany Stalk
-    - Kelpie Manes
-    - Coral
-    - Thunderbird Tail Feather
-    - Wampus Cat Hair
-    - White River Monster Spine
-    - Rougarou Hair
-    - Horned Serpent Horn
-    - Snallygaster Heartstring
-    - Jackalope Antler
+    - Augurey Feather
+    - Basilisk Eyestalk
     - Basilisk Horn
     - Bone
+    - Coral
+    - Demiguise Hair
+    - Dittany Stalk
+    - Dragon Heartstring
+    - Horned Serpent Horn
+    - Jackalope Antler
+    - Kelpie Hair
+    - Kneazle Whisker
+    - Manticore Mane
+    - Pheonix Feather
+    - Puffskein Tongue
+    - Rougarou Hair
     - Shell
+    - Snallygaster Heartstring
+    - Sphinx Tongue Sinew
+    - Thestral Tail-Hair
+    - Thunderbird Tail Feather
+    - Troll Whisker
+    - Unicorn Tail Hair
+    - Veela Hair
+    - Wampus Cat Hair
+    - White River Monster Spine
   flex:
-    - Very Flexible
-    - Quite Bendy
-    - Quite Flexible
-    - Fairly Bendy
-    - Pliant
-    - Supple
-    - Swishy
-    - Reasonably Supple
-    - Slightly Springy
-    - Surprisingly Swishy
+    - Surprisingly Springy
+    - Quite Springy
+    - Springy
+    - Rather Springy
+    - Reasonably Springy
+
+    - Surprisingly Whippy
+    - Quite Whippy
     - Whippy
+    - Rather Whippy
+    - Reasonably Whippy
+
+    - Surpisingly Bendy
+    - Quite Bendy
+    - Bendy
+    - Rather Bendy
+    - Reasonably Bendy
+
+    - Surprisingly Swishy
+    - Quite Swishy
+    - Swishy
+    - Rather Swishy
+    - Reasonably Swishy
+
+    - Surprisingly Flexible
+    - Quite Flexible
+    - Flexible
+    - Rather Flexible
+    - Reasonably Flexible
+
+    - Quite Supple
+    - Supple
+    - Reasonably Supple
+
+    - Surpisingly Pliable
+    - Quite Pliable
+    - Pliable
+    - Rather Pliable
+
+    - Quite Brittle
     - Brittle
-    - Solid
-    - Hard
-    - Slightly Yielding
+    - Rather Brittle
+    - Reasonably Brittle
+
+    - Surprisingly Stiff
+    - Quite Stiff
     - Stiff
+    - Rather Stiff
+    - Reasonably Stiff
+
+    - Surpisingly Hard
+    - Quite Hard
+    - Hard
+
+    - Quite Rigid
     - Rigid
-    - Unbending
+
+    - Surpisingly Unyielding
+    - Quite Unyielding
     - Unyielding
+    - Rather Unyielding
+    - Reasonably Unyielding
+
+    - Surpisingly Yielding
+    - Quite Yielding
+    - Yielding
+    - Reasonably Yielding
+
+    - Surpisingly Pliable
+    - Quite Pliable
+    - Pliable
+    - Rather Pliable
+    - Reasonably Pliable
+
+    - Quite Solid
+    - Solid
+    - Reasonably Solid
+
+    - Quite Unbending
+    - Unbending
+    - Rather Unbending
+    - Reasonably Unbending
   length:
     - Eight
     - Eight and 1/4
@@ -78,6 +147,7 @@ randomized:
     - Ash
     - Aspen
     - Beech
+    - Birch
     - Blackthorn
     - Black Walnut
     - Cedar
@@ -87,13 +157,13 @@ randomized:
     - Dogwood
     - Ebony
     - English Oak
-    - Elder
     - Elm
     - Fir
     - Hawthorn
     - Hazel
     - Holly
     - Hornbeam
+    - Ivy
     - Larch
     - Laurel
     - Mahogany
@@ -105,6 +175,7 @@ randomized:
     - Poplar
     - Red Oak
     - Redwood
+    - Reed
     - Rosewood
     - Rowan
     - Silver Lime

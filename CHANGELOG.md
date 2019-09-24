@@ -8,6 +8,10 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 9/24/19
+
+* Adjusted and added pieces to the wand lore
+
 ### 9/23/19
 
 * Re-worked Potion Shop (`potionshop`)
