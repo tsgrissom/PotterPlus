@@ -1,0 +1,9 @@
+lovepotion:
+  output: lovepotion
+  output_type: wand
+  materials:
+    x: ashwindereggs
+    y: potionbase
+  row_1: "   "
+  row_2: " x "
+  row_3: " y "

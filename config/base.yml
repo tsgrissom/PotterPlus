@@ -6,3 +6,6 @@ default_wand: randomizedpotterwand
 
 # Disables all cast messages in chat
 show_cast_messages: true
+
+# Enables custom crafting recipes
+enable_crafting: true

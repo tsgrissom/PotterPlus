@@ -1,0 +1,13 @@
+ashwindereggs:
+  worth: 5
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1976
+    type: PHANTOM_MEMBRANE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8Ashwinder Eggs
+      lore:
+      - §7Eggs of an Ashwinder,
+      - §7a magical serpent.
