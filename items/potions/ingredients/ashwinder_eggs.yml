@@ -9,5 +9,5 @@ ashwindereggs:
       meta-type: UNSPECIFIC
       display-name: §8Ashwinder Eggs
       lore:
-      - §7Eggs of an Ashwinder,
-      - §7a magical serpent.
+        - §7Eggs of an Ashwinder,
+        - §7a magical serpent.

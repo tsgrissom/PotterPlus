@@ -9,5 +9,5 @@ standardingredient:
       meta-type: UNSPECIFIC
       display-name: §6Standard Ingredient
       lore:
-      - §7A mixture of herbs used
-      - §7in creating potions.
+        - §7A mixture of herbs used
+        - §7in creating potions.

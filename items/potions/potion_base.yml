@@ -9,8 +9,8 @@ potionbase:
       meta-type: POTION
       display-name: §3Potion Base
       lore:
-      - §7A basic potion used to craft
-      - §7more advanced potions.
+        - §7A basic potion used to craft
+        - §7more advanced potions.
       ItemFlags:
-      - HIDE_POTION_EFFECTS
+        - HIDE_POTION_EFFECTS
       potion-type: minecraft:water
