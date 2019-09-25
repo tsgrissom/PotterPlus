@@ -14,7 +14,6 @@
 **Upcoming Spells**
 
 * SPELL Riddikulus
-* SPELL Felifors, turns cats into cauldrons temporarily
 
 ## Items
 

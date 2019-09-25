@@ -670,6 +670,20 @@ spells:
       Increased size.
       Increased duration.
 
+  felifors:
+    name: >-
+      Felifors
+    description: >-
+      Transfigures cats into cauldrons.
+  felifors|2:
+    upgrade_description: |-
+      Increased range.
+      Increased duration.
+  felifors|3:
+    upgrade_description: |-
+      Increased range.
+      Increased duration.
+
   ferula:
     name: >-
       Ferula

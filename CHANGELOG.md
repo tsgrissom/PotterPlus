@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/25/19
 
+* Added Felifors -> The cats to cauldron spell for Third Years
 * Adjusted the Elder Wand again
 * Fixed a bug with Potion Shops
 

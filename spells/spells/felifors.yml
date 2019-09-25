@@ -1,0 +1,65 @@
+felifors:
+  icon: diamond_axe:181
+  icon_disabed: diamond_hoe:181
+  category: transfiguration
+  worth: 15 ac
+  upgrade_required_path: year3
+  upgrade_required_casts: 25
+  actions:
+    cast:
+      - class: RemoveEntity
+      - class: ModifyBlock
+  effects:
+    cast:
+      - class: EffectSingle
+        location: origin
+        sound: magic.zap
+        effectlib:
+          class: Cone
+          iterations: 10
+          particle: spell_mob
+          color: 5977c7
+          lengthGrow: 0.1
+          radiusGrow: 0.003
+          updateLocations: false
+          updateDirections: false
+      - class: EffectSingle
+        location: origin
+        effectlib:
+          class: Cone
+          iterations: 10
+          particle: fireworks_spark
+          lengthGrow: 0.1
+          radiusGrow: 0.003
+          updateLocations: false
+          updateDirections: false
+      - class: EffectSingle
+        location: target
+        sound: magic.hit
+        effectlib:
+          class: Atom
+          iterations: 2
+          particleNucleus: fireworks_spark
+          particleOrbital: spell_mob
+          colorOrbital: 5977c7
+  parameters:
+    cooldown: 15000
+    target: other
+    target_type: Cat
+    range: 8
+    brush: cauldron
+    undo: 3000
+  costs:
+    mana: 50
+
+felifors|2:
+  upgrade_required_path: year4
+  upgrade_required_casts: 50
+  parameters:
+    range: 16
+    undo: 5000
+
+felifors|3:
+  parameters:
+    range: 24
+    undo: 7000
