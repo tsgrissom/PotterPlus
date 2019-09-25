@@ -1,50 +1,30 @@
 dark_spider:
   enabled: false
-
 dark_wizard:
   enabled: false
-
 dummynoai:
   enabled: false
-
 killer_bunny:
   enabled: false
-
 kingslime:
   enabled: false
-
 madscientist:
   enabled: false
-
 mega_spider:
   enabled: false
-
 mutant:
   enabled: false
-
 mutant_captain:
   enabled: false
-
 mutant_spider:
   enabled: false
-
 polterghast:
   enabled: false
-
 undead_minion:
   enabled: false
-
 undead_overlord:
   enabled: false
-
 warlock:
   enabled: false
-
 fire_elemental:
-  enabled: false
-
-deatheater:
-  enabled: false
-
-dementor:
   enabled: false
