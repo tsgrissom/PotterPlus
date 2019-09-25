@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/25/19
 
+* Moved glass types over to 1.14.4
 * Fixed some spell file name formats
 * Split up disabled mobs for future reference
 * Added Felifors -> The cats to cauldron spell for Third Years
