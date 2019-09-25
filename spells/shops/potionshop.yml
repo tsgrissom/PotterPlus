@@ -1,4 +1,5 @@
 potionshop:
+  inherit: false
   icon: cauldron
   hidden: true
   category: npc
