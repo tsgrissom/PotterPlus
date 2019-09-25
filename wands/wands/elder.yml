@@ -1,4 +1,20 @@
 elder:
+  inherit: base_wand
+  migrate_icon: iron_hoe
+  icon: wood_hoe:27
+  path: graduate
+  hotbar_count: 2
+  classes:
+    - wizard
+    - professor
+    - auror
+    - darkwizard
+  organize: true
+  quiet: 1
+  power: 0
+  haste: 0
+  mana_max: 300
+  mana_regeneration: 80
   cost_reduction: 0.2
   cooldown_reduction: 0.6
   active_spell: expelliarmus|6

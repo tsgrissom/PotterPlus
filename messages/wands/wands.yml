@@ -1,8 +1,10 @@
-elder:
-  name: >-
-    &8The Elder Wand
-  description: >-
-    &7The most powerful wand in existence. Use it wisely.
-  bound_instructions: ""
-  spell_instructions: ""
-  inventory_instructions: ""
+wands:
+  elder:
+    name: >-
+      The Elder Wand
+    description: >-
+      Fifteen Inches Unyielding Elder with Unicorn Hair
+    bound_instructions: ""
+    spell_instructions: ""
+    enchant_instructions: ""
+    inventory_instructions: ""
