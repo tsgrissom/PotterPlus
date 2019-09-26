@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/25/19
 
+* Adjusted `broom` spell to levitate the player since brooms are having issues.
 * Adjusted Glisseo and Finestra
 * Re-formatted material files
 * Moved glass types over to 1.14.4
