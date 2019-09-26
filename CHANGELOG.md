@@ -10,6 +10,8 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/25/19
 
+* Adjusted Glisseo and Finestra
+* Re-formatted material files
 * Moved glass types over to 1.14.4
 * Fixed some spell file name formats
 * Split up disabled mobs for future reference

@@ -17,7 +17,7 @@ finestra:
     allow_max_range: false
     range: 32
     check_destructible: true
-    destructible: destructible_glass
+    destructible: all_glass
     brush: erase
     radius: 2
     transparent: transparent_to_construction

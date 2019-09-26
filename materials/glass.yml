@@ -1,5 +1,5 @@
 # Defines the types of glass that can be broken by `finestra`
-destructible_glass:
+all_glass:
   - glass
   - glass_pane
   - white_stained_glass
