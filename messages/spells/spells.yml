@@ -471,6 +471,12 @@ spells:
       This torturous spell induces horrible, writhing pain which makes it
       terribly hard to focus on anything but the pain at hand.
     usage: ""
+  crucio|2:
+    upgrade_description: |-
+      Increased range.
+  crucio|3:
+    upgrade_description: |-
+      Increased range.
 
   defodio:
     name: >-

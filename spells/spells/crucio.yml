@@ -2,6 +2,7 @@ crucio:
   category: unforgivable
   worth: 30 ac
   pvp_restricted: true
+  upgrade_required_casts: 50
   effects:
     cast:
       - class: EffectSingle
@@ -16,15 +17,24 @@ crucio:
           colorOrbital: "19070B"
           iterations: 16
           radius: 5
-    tick: []
     projectile:
       - location: origin
         effectlib:
           class: Sphere
           iterations: 15
           particle: redstone
-          color: "19070B"
+          color: 19070B
           radius: 0.3
+    tick: []
   parameters:
     gravity: 0
-    velocity: 40
+    range: 16
+
+crucio|2:
+  upgrade_required_casts: 75
+  parameters:
+    range: 24
+
+crucio|3:
+  parameters:
+    range: 32
