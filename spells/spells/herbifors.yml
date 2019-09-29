@@ -31,9 +31,41 @@ herbifors:
     cast:
       - class: CustomProjectile
         actions:
-          - class: Hat
+          - class: Random
+            actions:
+              - class: Hat
+                material: dandelion
+              - class: Hat
+                material: poppy
+              - class: Hat
+                material: blue_orchid
+              - class: Hat
+                material: allium
+              - class: Hat
+                material: azure_bluet
+              - class: Hat
+                material: red_tulip
+              - class: Hat
+                material: orange_tulip
+              - class: Hat
+                material: white_tulip
+              - class: Hat
+                material: pink_tulip
+              - class: Hat
+                material: oxeye_daisy
+              - class: Hat
+                material: cornflower
+              - class: Hat
+                material: lily_of_the_valley
+              - class: Hat
+                material: sunflower
+              - class: Hat
+                material: lilac
+              - class: Hat
+                material: rose_bush
+              - class: Hat
+                material: peony
   parameters:
-    material: double_plant:1,yellow_flower,red_flower,red_flower:1,red_flower:2,red_flower:3,red_flower:4,red_flower:5,red_flower:6,red_flower:7,red_flower:8
     target: other
     target_type: Player
     range: 8

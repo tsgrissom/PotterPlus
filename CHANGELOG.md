@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/29/19
 
+* Fixed Herbifors
 * Made sure every spell had an `icon_disabled` property
 * Changed Erumpent type from Polar Bear to Ravager
 
