@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/28/19
 
+* Cleaned up Avada Kedavra
 * Re-worked Lumos Solem. Requires LightAPI.
 * Tweaked Lumos and Lumos Maxima SFX to be a tad better
 

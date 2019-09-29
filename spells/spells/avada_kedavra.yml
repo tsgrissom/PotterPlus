@@ -1,6 +1,10 @@
 avadakedavra:
+  inherit: false
+  icon: diamond_axe:170
+  icon_disabled: diamond_hoe:170
   category: unforgivable
   worth: 50 ac
+  tags: noduel
   pvp_restricted: true
   actions:
     cast:
@@ -12,6 +16,20 @@ avadakedavra:
         actions:
           - class: Kill
   effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.electrify
+        sound_volume: 5
+        sound_pitch: -0.25
+        location: origin
+        effectlib:
+          class: AtomEffect
+          particle_nucleus: spell_mob
+          colorNucleus: "00FF00"
+          particle_orbital: redstone
+          colorOrbital: "00FF00"
+          iterations: 16
+          radius: 5
     projectile:
       - class: EffectSingle
         effectlib:
@@ -27,7 +45,36 @@ avadakedavra:
         particle_offset_x: 0.2
         particle_offset_y: 0.2
         particle_offset_z: 0.2
+    hit:
+      - class: EffectSingle
+        location: target
+        color: "00FF00"
+        firework: ball_large
+    hit_entity:
+      - class: EffectSingle
+        location: target
+        target_offset: 0,3,0
+        orient: true
+        effectlib:
+          class: Modified
+          iterations: 75
+          parameters:
+            size: "max(0, (t / i) * 5 - 3) + 0.2"
+          effect:
+            enable_rotation: false
+            class: ColoredImageEffect
+            fileName: https://i.imgur.com/47aVrwT.gif
+            stepX: 1
+            stepY: 1
+            transparency: true
   parameters:
+    target: none
+    target_type: Damageable
+    target_breakables: 5
+    bypass_backfire: true
     velocity: 20
     delay: 1000
-    warmup: 0
+    hitbox_size: 1
+    cooldown: 30000
+  costs:
+    mana: 150
