@@ -15,7 +15,6 @@ baubillious:
           length: 6
           particles: 50
           particle: fireworks_spark
-          color: "FFFFFF"
           duration: 2000
   parameters:
     cooldown: 15000
