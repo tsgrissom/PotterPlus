@@ -33,7 +33,7 @@ all_stairs:
   - diorite_stairs
 
 # Defines all slabs
-slabs:
+all_slabs:
   - oak_slab
   - spruce_slab
   - birch_slab

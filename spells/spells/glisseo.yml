@@ -29,7 +29,7 @@ glisseo:
 
 glisseo|2:
   parameters:
-    destructible: stairs,slabs
+    destructible: all_stairs,all_slabs
     undo: 7000
     undo_speed: 0.1
     radius: 6
