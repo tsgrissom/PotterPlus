@@ -1,15 +1,19 @@
-# TODO: Remove the Diving Helmet item that is applied when using this
 bubblehead:
-  worth: 5 ac
+  inherit: false
+  icon: diamond_axe:83
+  icon_disabled: diamond_hoe:83
   category: charms
+  worth: 5 ac
   upgrade_required_path: year2
   upgrade_required_casts: 25
   actions:
     cast:
       - class: Delay
       - class: PlayEffects
+        effect: bubble
       - class: PotionEffect
       - class: Hat
+        item: bubble
   effects:
     cast:
       - class: EffectSingle
@@ -36,13 +40,16 @@ bubblehead:
           particle: drip_water
           radius: 0.5
   parameters:
-    effect: bubble
-    brushcolor: true
-    brush: stained_glass:3
+    target: self
+    target_type: LivingEntity
     delay: 4000
-    cooldown: 20000
+    add_effects:
+      water_breathing: 1
     duration: 15000
     undo: 15000
+    cooldown: 20000
+  costs:
+    mana: 15
 
 bubblehead|2:
   upgrade_required_path: year3
