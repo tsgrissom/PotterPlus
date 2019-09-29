@@ -1140,9 +1140,11 @@ spells:
       Lights up the tip of your wand to provide a light source in dark areas.
   lumos|2:
     upgrade_description: |-
+      Increased range.
       Increased duration.
   lumos|3:
     upgrade_description: |-
+      Increased range.
       Increased duration.
   lumos|4:
     upgrade_description: |-
@@ -1156,9 +1158,11 @@ spells:
       source in dark areas.
   lumosmaxima|2:
     upgrade_description: |-
+      Increased range.
       Increased duration.
   lumosmaxima|3:
     upgrade_description: |-
+      Increased range.
       Increased duration.
   lumosmaxima|4:
     upgrade_description: |-
@@ -1168,8 +1172,8 @@ spells:
     name: >-
       Lumos Solem
     description: >-
-      Conjures a well-lit ball of light which can be thrown where desired and
-      will stick there, temporarily lighting up the area.
+      Conjures a ball of light which can be thrown where desired and will stick
+      there.
   lumossolem|2:
     upgrade_description: |-
       Increased duration.

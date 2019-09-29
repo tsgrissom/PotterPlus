@@ -1,20 +1,48 @@
 lumossolem:
+  inherit: false
+  icon: diamond_axe:228
+  icon_disabled: diamond_hoe:228
+  category: charms
+  worth: 10 ac
   upgrade_required_path: year2
   upgrade_required_casts: 50
-  worth: 10 ac
   actions:
     cast:
-      - class: PlayEffects
-      - class: ThrowBlock
+      - class: CustomProjectile
+        actions:
+          - class: Light
   effects:
     cast:
+      - sound: magic.shimmer
+    tick:
       - class: EffectSingle
-        sound: magic.bonk
+        location: target
+        effectlib:
+          class: Sphere
+          particle: spell
+          iterations: 2
+          radius: 0.25
+    hit:
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Modified
+          duration: 2000
+          parameters:
+            radius: "t/i"
+          effect:
+            class: Sphere
+            radius: 2
+            particle: spell
+            particle_count: 10
   parameters:
-    brush: glowstone
-    undo: 8000
-    cooldown: 20000
-    effect: cast
+    range: 16
+    velocity: 25
+    gravity: 0.05
+    hit_on_miss: true
+    update: true
+    undo: 5000
+    cooldown: 30000
   costs:
     mana: 30
 
@@ -22,8 +50,9 @@ lumossolem|2:
   upgrade_required_path: year3
   upgrade_required_casts: 75
   parameters:
+    range: 24
     undo: 10000
 
 lumossolem|3:
   parameters:
-    undo: 12000
+    undo: 15000

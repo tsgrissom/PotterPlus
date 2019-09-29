@@ -5,14 +5,15 @@ lumosmaxima:
   worth: 10 ac
   effects:
     cast:
+      - sound: magic.shimmer
+    light:
       - class: EffectSingle
         location: origin
-        sound: magic.shimmer
         effectlib:
           class: Sphere
           particle: spell
           radius: 0.2
-          duration: 3000
+          duration: 250
       - class: EffectSingle
         location: origin
         effectlib:
@@ -20,8 +21,9 @@ lumosmaxima:
           particle: spell_mob_ambient
           color: FF0080
           radius: 0.1
-          duration: 3000
+          duration: 250
   parameters:
+    range: 16
     duration: 90000
     cooldown: 90000
   costs:
@@ -31,12 +33,14 @@ lumosmaxima|2:
   upgrade_required_path: year6
   upgrade_required_casts: 75
   parameters:
+    range: 20
     duration: 120000
 
 lumosmaxima|3:
   upgrade_required_path: year7
   upgrade_required_casts: 125
   parameters:
+    range: 24
     duration: 180000
 
 lumosmaxima|4:
