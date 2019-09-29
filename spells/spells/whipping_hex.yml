@@ -25,12 +25,6 @@ whippinghex:
         sound_volume: .3
         location: target
         particle: explosion_large
-    hit_entity:
-      - class: EffectSingle
-        location: target
-        effectlib:
-          class: Bleed
-          height: 0.5
   parameters:
     damage: 1.5
 
