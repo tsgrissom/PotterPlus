@@ -29,6 +29,8 @@ fiendfyre:
                 actions:
                   - class: Burn
   effects:
+    cast:
+      - sound: betterpotter.cast_fire_unique
     tick:
       - class: EffectSingle
         location: target

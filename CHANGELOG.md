@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/28/19
 
+* Added a ton of new sound effects. Check the wiki for info.
 * Removed references to obsolete `icon_url`
 * Added leveling to Crucio
 * Cleaned up Avada Kedavra
