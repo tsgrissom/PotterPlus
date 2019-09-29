@@ -1,5 +1,6 @@
 melofors:
   icon: diamond_axe:145
+  icon_disabled: diamond_hoe:145
   category: transfiguration
   worth: 10 ac
   actions:

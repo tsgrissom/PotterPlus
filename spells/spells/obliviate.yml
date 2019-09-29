@@ -1,6 +1,7 @@
 obliviate:
   category: charms
   icon: diamond_axe:83
+  icon_disabled: diamond_hoe:83
   worth: 25 ac
   costs:
     mana: 40

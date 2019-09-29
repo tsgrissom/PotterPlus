@@ -1,5 +1,6 @@
 tarantallegra:
   icon: diamond_axe:163
+  icon_disabled: diamond_hoe:163
   worth: 10 ac
   category: charms
   upgrade_required_path: year4

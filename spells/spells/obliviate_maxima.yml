@@ -3,6 +3,7 @@
 obliviatemaxima:
   category: staff
   icon: diamond_axe:230
+  icon_disabled: diamond_hoe:230
   worth: 30 ac
   actions:
     cast:

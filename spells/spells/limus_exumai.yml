@@ -3,6 +3,7 @@
 limusexumai:
   inherit: araniaexumai
   icon: diamond_axe:173
+  icon_disabled: diamond_hoe:173
   effects:
     cast:
       - class: EffectSingle
