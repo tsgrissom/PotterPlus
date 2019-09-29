@@ -1,5 +1,6 @@
 scribblifors:
   icon: diamond_axe:118
+  icon_disabled: diamond_hoe:118
   category: transfiguration
   worth: 5 ac
   upgrade_required_casts: 25

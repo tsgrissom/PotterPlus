@@ -4,6 +4,7 @@ vermillious:
   upgrade_required_path: year3
   upgrade_required_casts: 50
   icon: diamond_axe:92
+  icon_disabled: diamond_hoe:92
   actions:
     cast:
       - class: CustomProjectile

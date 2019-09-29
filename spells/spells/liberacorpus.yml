@@ -1,6 +1,7 @@
 liberacorpus:
   category: charms
   icon: diamond_axe:136
+  icon_disabled: diamond_hoe:136
   worth: 10 ac
   upgrade_required_casts: 25
   effects:

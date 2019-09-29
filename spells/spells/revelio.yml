@@ -1,6 +1,7 @@
 revelio:
   inherit: false
   icon: diamond_axe:189
+  icon_disabled: diamond_hoe:189
   category: charms
   worth: 10 ac
   costs:

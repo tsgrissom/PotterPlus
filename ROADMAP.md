@@ -22,12 +22,12 @@
 * ITEM Remembrall -> Flashes pink and red glass and tells you if you have any lost wands
 * ITEM Quidditch balls -> Based on flashbang spell, bounces around with more speed
 * ITEM Skiving snackboxes -> A box of snacks which cause illness
-* Decoy detonators -> Sends a hopper projectile which explodes to create a distraction
-* Invisibility cloak -> Creates a shield particle effect, and vanishes the caster, stashing the wand and applying a slight slowness debuff
-* Philosopher's stone -> Maybe just a cosmetic item with high value, but could also bring up a selector to convert metal to gold
-* Wizard Crackers -> Short range throwable crackers that pop and create small fireworks
-* Dissimulator -> A musical instrument that plays music and sounds with puffs of multi-colored smoke
-* Exploding Snap Cards -> Pieces of (paper?) that explode when thrown
+* ITEM Decoy detonators -> Sends a hopper projectile which explodes to create a distraction
+* ITEM Invisibility cloak -> Creates a shield particle effect, and vanishes the caster, stashing the wand and applying a slight slowness debuff
+* ITEM Philosopher's stone -> Maybe just a cosmetic item with high value, but could also bring up a selector to convert metal to gold
+* ITEM Wizard Crackers -> Short range throwable crackers that pop and create small fireworks
+* ITEM Dissimulator -> A musical instrument that plays music and sounds with puffs of multi-colored smoke
+* ITEM Exploding Snap Cards -> Pieces of (paper?) that explode when thrown
 
 **Upcoming Potions**
 

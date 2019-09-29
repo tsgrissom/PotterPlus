@@ -1,6 +1,7 @@
 verdimillious:
   inherit: vermillious
   icon: diamond_axe:173
+  icon_disabled: diamond_hoe:173
   upgrade_required_path: year4
   category: dada
   effects:
