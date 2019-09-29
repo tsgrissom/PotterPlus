@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/28/19
 
+* Removed references to obsolete `icon_url`
 * Added leveling to Crucio
 * Cleaned up Avada Kedavra
 * Re-worked Lumos Solem. Requires LightAPI.

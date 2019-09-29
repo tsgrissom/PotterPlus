@@ -1,6 +1,6 @@
 protegototalus:
   icon: diamond_axe:74
-  icon_url: http://textures.minecraft.net/texture/9330f3a837c4a358fa62f2b684c5c4c2dadf799c0fe9be8f4a4aecace62a
+  icon_disabled: diamond_hoe:74
   category: dada
   tags: noduel
   worth: 20 ac
