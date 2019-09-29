@@ -1,15 +1,15 @@
 erumpent:
   name: '&7Erumpent'
-  type: polar_bear
+  type: ravager
   health: 100
   default_drops: false
   interval: 3000
   potion_effects:
-    - type: speed
-      amplifier: 1
+    - type: slow
+      amplifier: 2
   drops:
     - erumpenthorn
-  track_radius: 32
+  track_radius: 24
   triggers:
     interval:
       cast:

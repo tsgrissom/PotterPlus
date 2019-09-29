@@ -8,6 +8,10 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 9/29/19
+
+* Changed Erumpent type from Polar Bear to Ravager
+
 ### 9/28/19
 
 * Added a ton of new sound effects. Check the wiki for info.
