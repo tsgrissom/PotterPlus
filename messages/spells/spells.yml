@@ -3,8 +3,7 @@ spells:
     name: >-
       Aberto
     description: >-
-      Unlocks previously locked doors in order to reach previously inaccessible
-      areas.
+      Unlocks locked doors in order to reach previously inaccessible areas.
   aberto|2:
     upgrade_description: |-
       Decreased chance of fizzling.
@@ -30,7 +29,7 @@ spells:
     name: >-
       Aguamenti
     description: >-
-      Conjures a gush of water for drinking use or to cushion a fall.
+      Conjures a gush of water for drinking or to cushion a fall.
   aguamenti|2:
     upgrade_description: |-
       Increased size.
@@ -68,8 +67,7 @@ spells:
     name: >-
       Alohomora
     description: >-
-      Unlocks doors that are not magically protected against
-      such charms.
+      Unlocks doors that are not magically protected against such charms.
   alohomora|2:
     upgrade_description: |-
       Increased range.
@@ -101,8 +99,8 @@ spells:
     name: >-
       Apparation
     description: >-
-      Causes the witch or wizard to vanish from one location in disapparition
-      and re-appear somewhere desirable in apparation.
+      Causes the witch or wizard to vanish from one location and re-appear
+      where they desire.
   apparate|2:
     upgrade_description: |-
       Increased range.
@@ -138,9 +136,7 @@ spells:
     name: >-
       Arania Exumai
     description: >-
-      Repells arachnids and damages them severely. A must-have when venturing
-      into dangerous forests or spelunking in caves inhabited by acromantula
-      colonies.
+      Repells and heavily damages arachnids.
   araniaexumai|2:
     upgrade_description: |-
       Increased damage.
@@ -165,7 +161,7 @@ spells:
     name: >-
       Arrow
     description: >-
-      A simple, but effective offensive spell which conjures an arrow and
+      A simple but effective offensive spell which conjures an arrow and
       thrusts it at the target.
   arrow|2:
     upgrade_description: |-
@@ -208,8 +204,7 @@ spells:
     name: >-
       Ascendio
     description: >-
-      A lesser form of propulsion-based flight, this spell propels the wizard
-      high into the air, or whatever direction they choose.
+      Propels the wizard in the direction they choose.
   ascendio|2:
     upgrade_description: |-
       Increased power.
@@ -238,15 +233,15 @@ spells:
     name: >-
       Avada Kedavra
     description: >-
-      In a flash of green light, this unblockable curse can end the life of any
-      living creature with great malice.
+      An unblockable killing curse that can only be used by those with great
+      malice. Highly illegal.
     usage: ""
 
   avis:
     name: >-
       Avis
     description: >-
-      Conjures a number of avian companions temporarily.
+      Conjures a number of avian companions.
   avis|2:
     upgrade_description: |-
       Increased amount.
@@ -300,7 +295,7 @@ spells:
     name: >-
       Bombarda
     description: >-
-      Causes the target to explode, inflicting deadly damage and damaging the
+      Causes the target to explode, inflicting deadly damage to them and the
       surrounding area.
   bombarda|2:
     upgrade_description: |-
@@ -369,7 +364,7 @@ spells:
     name: >-
       Cascading Jinx
     description: >-
-      A high damage-inflicting spell which cascades from target to target,
+      A powerful offensive spell which cascades from target to target,
       decimating the enemy with effective precision.
   cascadingjinx|2:
     upgrade_description: |-
@@ -425,21 +420,21 @@ spells:
     name: >-
       Colorvaria
     description: >-
-      Changes the color of objects temporarily.
+      Changes the color of objects.
 
   confringo:
     name: >-
       Confringo
     description: >-
-      Blastes the target or blocks to pieces in order to inflict massive damage
-      or clear obstacles.
+      Blasts the target to pieces in order to inflict massive damage or clear
+      obstacles.
 
   confundus:
     name: >-
       Confundo
     description: >-
-      Confuses the target, making it difficult to cast spells or sufficiently
-      protect themselves.
+      Confuses the target, making it difficult to cast spells and leaving them
+      defenseless.
 
   conjunctivitis:
     name: >-
@@ -500,15 +495,14 @@ spells:
     name: >-
       Diffindo
     description: >-
-      Severs fabric.
+      Precisely and accurately cuts the target.
 
   disillusion:
     name: >-
       Disillusionment Charm
     description: >-
       Creates the illusion of invisibility on the target as a means of
-      concealment or to cause confusion. This spell is often used to create
-      invisibility cloaks.
+      concealment or to cause confusion.
   disillusion|2:
     upgrade_description: |-
       Increased duration.
@@ -547,7 +541,7 @@ spells:
     name: >-
       Episkey
     description: >-
-      Mends the most minor of the target's wounds to increase vitality.
+      Mends the most minor of the target's wounds.
   episkey|2:
     upgrade_description: |-
       Increased healing.
@@ -559,7 +553,7 @@ spells:
     name: >-
       Epoximise
     description: >-
-      Causes the target to be adhesived to the ground temporarily.
+      Causes the target to be stuck to the ground temporarily.
   epoximise|2:
     upgrade_description: |-
       Increased range.
@@ -592,7 +586,7 @@ spells:
     name: >-
       Everte Statum
     description: >-
-      Hurls the target backwards inflicting damage.
+      Hurls the target backwards.
   evertestatum|2:
     upgrade_description: |-
       Increased force.
@@ -604,8 +598,7 @@ spells:
     name: >-
       Expelliarmus
     description: >-
-      In a flash of red light, this spell disarms the target of their item, wand
-      or otherwise.
+      Disarms the target of what they are holding.
   expelliarmus|2:
     upgrade_description: |-
       Increased range.
@@ -698,20 +691,20 @@ spells:
     name: >-
       Fianto Duri
     description: >-
-      Grants you additional protections against damage of all kinds.
+      Grants you temporary protections against damage of all kinds.
 
   fiendfyre:
     name: >-
       Fiendfyre
     description: >-
-      Conjures an unstoppable mammoth of a flame which will consume anything and
+      Conjures an unstoppable monster of flame which will consume anything and
       everything in its path.
 
   finestra:
     name: >-
       Finestra
     description: >-
-      Vaporizes glass into an almost mist.
+      Vaporizes glass into a near mist.
   finestra|2:
     upgrade_description: |-
       Decreased cooldown.
@@ -721,8 +714,8 @@ spells:
     name: >-
       Finite Incantatem
     description: >-
-      A general-purpose counterspell which will undo most of the world-changing
-      effects of previously cast spells.
+      A general-purpose counterspell which will undo most effects of previously
+      cast spells.
     usage: ""
   finiteincantatem|2:
     upgrade_description: |-
@@ -738,7 +731,7 @@ spells:
     name: >-
       Firestorm
     description: >-
-      Incinerates nearby targets by conjuring flames around you.
+      Conjures a wall of flames around you, incinerating nearby targets.
   firestorm|2:
     upgrade_description: |-
       Increased damage.
@@ -760,8 +753,8 @@ spells:
     name: >-
       Flame-Freezing Charm
     description: >-
-      Freezes flames for you, making you immune and feel them as if they are
-      mere tickles.
+      Freezes flames for you, making you immune and causing you to feel them as
+      if they were mere tickles.
   flamefreezingcharm|2:
     upgrade_description: |-
       Increased duration.
@@ -805,8 +798,8 @@ spells:
     name: >-
       Fumos
     description: >-
-      Produces heavy smoke which fills the target's lungs, slowing them down and
-      obstructing their breathing, and blinding them.
+      Produces heavy smoke which fills the target's lungs, slowing them down,
+      obstructing their breathing and blinding them.
   fumos|2:
     upgrade_description: |-
       Increased radius.
@@ -909,7 +902,7 @@ spells:
     name: >-
       Immobulus
     description: >-
-      Immoblizes the target temporarily.
+      Immobilizes the target temporarily.
   immobulus|2:
     upgrade_description: |-
       Increased range.
@@ -926,7 +919,7 @@ spells:
     name: >-
       Impedimenta
     description: >-
-      Impedes the movement of living creatures to slow them down temporarily.
+      Impedes the movement of the target to slow them down.
   impedimenta|2:
     upgrade_description: |-
       Increased slowness.
@@ -972,7 +965,7 @@ spells:
     name: >-
       Incendio
     description: >-
-      Ignites things on fire for a variety of purposes.
+      Ignites the target for a variety of purposes.
   incendio|2:
     upgrade_description: |-
       Increased range.
@@ -1087,7 +1080,7 @@ spells:
     name: >-
       Limus Exumai
     description: >-
-      Repells slimey creatures, inflicting major damage on them.
+      Repels slimey creatures, inflicting major damage on them.
   limusexumai|2:
     upgrade_description: |-
       Increased damage.
@@ -1161,8 +1154,7 @@ spells:
     name: >-
       Lumos Solem
     description: >-
-      Conjures a ball of light which can be thrown where desired and will stick
-      there.
+      Conjures a ball of light which can be thrown and stuck where desired.
   lumossolem|2:
     upgrade_description: |-
       Increased duration.
@@ -1174,8 +1166,7 @@ spells:
     name: >-
       Melofors
     description: >-
-      Encases the target's head in a pumpkin, limiting their vision and
-      providing a minor annoyance.
+      Encases the target's head in a pumpkin to limit their vision.
 
   meteo:
     name: >-
@@ -1187,7 +1178,7 @@ spells:
     name: >-
       Morsmordre
     description: >-
-      Conjures the symbol of one of Britain's darkest wizards, Lord Voldemort
+      Conjures the symbol of one of Britain's darkest wizards, Lord Voldemort,
       high into the air.
 
   nox:
@@ -1220,8 +1211,7 @@ spells:
     name: >-
       Obscuro
     description: >-
-      Obscures the target's vision, making it more easily to evade or escape
-      their jinxes.
+      Obscures the target's vision, making them an easier opponent.
   obscuro|2:
     upgrade_description: |-
       Increased density.
@@ -1231,7 +1221,7 @@ spells:
     name: >-
       Orchideous
     description: >-
-      Pollinates the area with flowers.
+      Conjures bunches of beautiful flowers.
 
   patronus:
     name: >-
@@ -1267,7 +1257,7 @@ spells:
     name: >-
       Periculux
     description: >-
-      Conjures rainbow-colored fireworks which signal to fellow wizards.
+      Conjures rainbow-colored fireworks to signal fellow wizards.
 
   petrificustotalus:
     name: >-
@@ -1337,7 +1327,7 @@ spells:
     name: >-
       Pulsus
     description: >-
-      Pushes away a number of nearby targets with great force, damaging them.
+      Pushes away a number of nearby targets with great force.
   pulsus|2:
     upgrade_description: |-
       Increased power.
@@ -1360,8 +1350,7 @@ spells:
     name: >-
       Reducio
     description: >-
-      Causes the target object or creature to shrink quickly, assuming they are
-      not already as small as they can be.
+      Causes the target object or creature to shrink quickly.
 
   reducto:
     name: >-
@@ -1388,13 +1377,13 @@ spells:
     name: >-
       Revelio
     description: >-
-      Reveals hidden things nearby, such as pathways or objects.
+      Reveals nearby hidden things, such as pathways or objects.
 
   rictusempra:
     name: >-
       Rictusempra
     description: >-
-      Tickles the target terribly, throwing them backwards.
+      Tickles the target terribly, hurling them backwards.
   rictusempra|2:
     upgrade_description: |-
       Increased damage.
@@ -1413,7 +1402,7 @@ spells:
     name: >-
       Salvio Hexia
     description: >-
-      Provies additional defenses against hexes, curses, and other dark magic.
+      Provides additional defenses against hexes, curses, and other dark magic.
     usage: ""
   salviohexia|2:
     upgrade_description: |-
@@ -1442,8 +1431,8 @@ spells:
     name: >-
       Sectumsempra
     description: >-
-      Seemingly using an invisible sword, this spell will lash out and slash a
-      target to pieces, inflicting massive damage and bleeding.
+      Conjues an invisible sword which will lash out and slash a target to
+      pieces, inflicting massive damage and bleeding.
 
   singingcharm:
     name: >-
@@ -1468,7 +1457,7 @@ spells:
       Bewitched Snowball
     description: >-
       Causes bewitched snowballs to fall from the sky, damaging and slowing the
-      target slightly. Usually nothing more than an annoyance.
+      target slightly.
     upgrade_description: |-
       Increased damage.
       Decreased cooldown.
@@ -1477,8 +1466,7 @@ spells:
     name: >-
       Spongify
     description: >-
-      Softens and makes the ground bouncy, prime for cushioning a long fall or
-      created a trampoline.
+      Softens and makes the ground bouncy, prime for cushioning a long fall.
 
   spongifymaxima:
     name: >-
@@ -1503,8 +1491,8 @@ spells:
     name: >-
       Stupefy
     description: >-
-      In a jet of red light, this spell will inflict damage and stun the target,
-      preventing them from performing other actions for a short time.
+      Inflicts damage and stun the target, preventing them from performing other
+      actions for a short time.
   stupefy|2:
     upgrade_description: |-
       Increased damage.
@@ -1524,7 +1512,7 @@ spells:
       Tarantallegra
     description: >-
       Forces the target to dance against their will, limiting the amount of
-      actions they can perform temporarily.
+      actions they can perform.
   tarantallegra|2:
     upgrade_description: |-
       Increased duration.
@@ -1626,8 +1614,7 @@ spells:
     name: >-
       Volo
     description: >-
-      Allows you to run at magically-enhanced speeds to escape enemies or
-      venture into the unknown with increased speed.
+      Allows the caster to run at magically-enhanced speeds.
   volo|2:
     upgrade_description: |-
       Increased duration.
@@ -1641,8 +1628,7 @@ spells:
     name: >-
       Vulnera Sanentur
     description: >-
-      Heals even the most severe wounds. Lacerations, fractures, near-death
-      experiences, you name it!
+      Heals even the most severe of wounds.
     cast: ""
     cast_self: ""
 
