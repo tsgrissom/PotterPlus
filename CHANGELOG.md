@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/30/19
 
+* Adjusted Homenum Revelio SFX
 * Overhauled spell descriptions
 * Fixed Vermillious not having a category
 * Re-worked lore for wands and spells

@@ -10,6 +10,7 @@
 * TODO Make sure all spells have sounds
 * TODO Clean up spell files (order their sections consistently and remove unnecessary flags)
 * TODO Check Fantastic Beasts for new spells and review online spell lists
+* TODO Since particle performance has gone down, go through with F3 enabled and review which SFX cause performance drops
 
 **Upcoming Spells**
 

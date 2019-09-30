@@ -24,7 +24,7 @@ homenumrevelio:
           particle: crit_magic
           radius: 1.5
           radiusIncrease: 0.08
-          iterations: 20
+          duration: 5000
   parameters:
     radius: 12
     target_count: 6
