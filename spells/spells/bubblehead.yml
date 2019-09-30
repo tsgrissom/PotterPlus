@@ -43,6 +43,7 @@ bubblehead:
     target: self
     target_type: LivingEntity
     delay: 4000
+    warmup: 4000
     add_effects:
       water_breathing: 1
     duration: 15000
@@ -59,6 +60,7 @@ bubblehead|2:
     duration: 20000
     undo: 20000
     delay: 3000
+    warmup: 3000
 
 bubblehead|3:
   parameters:
@@ -66,3 +68,4 @@ bubblehead|3:
     duration: 25000
     undo: 25000
     delay: 2000
+    warmup: 2000

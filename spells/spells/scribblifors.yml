@@ -28,6 +28,7 @@ scribblifors:
     add_effects:
       slow: 4
     delay: 4000
+    warmup: 4000
   costs:
     mana: 50
 

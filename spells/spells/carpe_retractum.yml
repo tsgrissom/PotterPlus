@@ -65,6 +65,7 @@ carperetractum:
     duration: 10000
     cooldown: 15000
     delay: 2000
+    warmup: 2000
     velocity: 25
     gravity: 0.05
     effect: launch
@@ -79,6 +80,7 @@ carperetractum|2:
     speed: 3
     cooldown: 10000
     delay: 2000
+    warmup: 2000
     velocity: 50
     gravity: 0.03
 
@@ -86,4 +88,5 @@ carperetractum|3:
   parameters:
     cooldown: 5000
     delay: 1000
+    warmup: 1000
     gravity: 0.01

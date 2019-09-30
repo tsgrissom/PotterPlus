@@ -74,6 +74,7 @@ avadakedavra:
     bypass_backfire: true
     velocity: 20
     delay: 1000
+    warmup: 1000
     hitbox_size: 1
     cooldown: 30000
   costs:

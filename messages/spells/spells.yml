@@ -302,16 +302,12 @@ spells:
     description: >-
       Causes the target to explode, inflicting deadly damage and damaging the
       surrounding area.
-    usage: >-
-      Spell charges for 1.5s
   bombarda|2:
     upgrade_description: |-
       Increased speed.
       Increased size.
       Increased range.
       Decreased charge time.
-    usage: >-
-      Spell charges for 1s
 
   brachiabindo:
     name: >-
@@ -343,43 +339,31 @@ spells:
       Bubblehead Charm
     description: >-
       Conjures a magical bubble of air for a wizard to breathe underwater with.
-    usage: >-
-      Spell charges for 4s
   bubblehead|2:
     upgrade_description: |-
       Increased duration.
       Decreased charge time.
-    usage: >-
-      Spell charges for 3s
   bubblehead|3:
     upgrade_description: |-
       Increased duration.
       Decreased charge time.
-    usage: >-
-      Spell charges for 2s
 
   carperetractum:
     name: >-
       Carpe Retractum
     description: >-
       Seizes and pulls an object or creature via a conjured, magical lasso.
-    usage: >-
-      Spell charges for 3s
   carperetractum|2:
     upgrade_description: |-
       Increased strength.
       Increased speed.
       Decreased gravity.
       Decreased delay.
-    usage: >-
-      Spell charges for 2s
   carperetractum|3:
     upgrade_description: |-
       Increased strength.
       Decreased gravity.
       Decreased delay.
-    usage: >-
-      Spell charges for 1s
 
   cascadingjinx:
     name: >-
@@ -739,6 +723,7 @@ spells:
     description: >-
       A general-purpose counterspell which will undo most of the world-changing
       effects of previously cast spells.
+    usage: ""
   finiteincantatem|2:
     upgrade_description: |-
       Decreased chance of fizzling.
@@ -955,9 +940,7 @@ spells:
       Imperio
     description: >-
       This unforgivable dark spell grants you control of where the target goes.
-    usage: >-
-      Cast once to select your target, cast again to hurl your target in a
-      direction.
+    usage: ""
 
   impervius:
     name: >-
@@ -1340,8 +1323,6 @@ spells:
       Increased duration.
       Increased reflection chance.
       Increased size.
-    usage: >-
-      Cast at your feet to shield yourself.
 
   protegototalus:
     name: >-
@@ -1450,8 +1431,6 @@ spells:
     description: >-
       Conjures stationery to write on. A useful transfiguration spell for
       classwork.
-    usage: >-
-      Spell charges for 4s
   scribblifors|2:
     upgrade_description: |-
       Decreased cooldown.

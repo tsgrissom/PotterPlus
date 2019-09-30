@@ -48,6 +48,7 @@ bombarda:
     break_blocks: false
     size: 2
     cooldown: 15000
+    warmup: 1500
   costs:
     mana: 40
 
@@ -57,3 +58,4 @@ bombarda|2:
     size: 3
     range: 32
     delay: 1000
+    warmup: 1000

@@ -1,28 +1,28 @@
 cooldown:
   description: >-
-    &5Cooldown&8: &7$time
+    &dCooldown&8: &7$time
   description_moment: >-
     A moment
   mage_description: >-
-    &eExhaustion for &7$time
+    &eExhaustion&8: &7$time
 
 duration:
   lasts_hour: >-
-    &2Lasts for &7$hours hour
+    &aDuration&8: &7$hours hour
   lasts_hours: >-
-    &2Lasts for &7$hours hours
+    &aDuration&8: &7$hours hours
   lasts_minute: >-
-    &2Lasts for &7$minutes minute
+    &aDuration&8: &7$minutes minute
   lasts_minutes: >-
-    &2Lasts for &7$minutes minutes
+    &aDuration&8: &7$minutes minutes
   lasts_second: >-
-    &2Lasts for &7$seconds second
+    &aDuration&8: &7$seconds second
   lasts_seconds: >-
-    &2Lasts for &7$seconds seconds
+    &aDuration&8: &7$seconds seconds
 
 spell:
   category: >-
-    &cCategory&8: &7$category
+    &7Category&8: &7$category
   description_lore: >-
     &3$description
   level_description: >-
@@ -33,3 +33,6 @@ spell:
     &r&8&l> &7
   not_undoable: ""
   undoable: ""
+
+warmup:
+  description: "&cWarmup&8: &7$time"
