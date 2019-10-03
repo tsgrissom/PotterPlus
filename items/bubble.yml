@@ -11,7 +11,7 @@ bubble:
       meta-type: UNSPECIFIC
       display-name: §3Bubble
       lore:
-      - §7A bubble encasing your
-      - §7head.
+        - §7A bubble encasing your
+        - §7head.
       ItemFlags:
-      - HIDE_UNBREAKABLE
+        - HIDE_UNBREAKABLE
