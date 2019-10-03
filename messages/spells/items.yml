@@ -20,7 +20,7 @@ spells:
   sword_of_godric_gryffindor_ability:
     name: >-
       Sword of Godric Gryffindor Ability
-    cast:
+    cast: ""
   sword_of_godric_gryffindor_alt_ability:
     name: >-
       Sword of Godric Gryffindor Alt Ability

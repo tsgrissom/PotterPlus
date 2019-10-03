@@ -35,14 +35,7 @@ wands:
     name: >-
       &4Sword of Godric Gryffindor
     description: >-
-      &6A sword imbued with magic. Previously owned by a Hogwarts founder.
-    spell_instructions: >-
-      &4&lSword of Godric Gryffindor&7//
-      &6The Sword of Godric Gryffindor can be wielded as a powerful
-      melee weapon or as an effective means to disarm your opponent&8.
-      &eLeft-click &6to swing the sword&8.
-      &eRight-click &6to disarm your opponent&8.
-      &ePress swap &6to heal yourself&8.
+      &6A sword imbued with great magic. Previously owned by a Hogwarts founder.
   handbag:
     name: >-
       &4Beaded Handbag
