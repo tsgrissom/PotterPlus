@@ -12,15 +12,15 @@ currency:
 
 economy:
   insufficient: >-
-    &cCosts&8: &7$cost
+    &4Costs&8: &7$cost
 
 shops:
   cost_lore: >-
-    &aCosts&8: &7$cost
+    &2Costs&8: &7$cost
   insufficient: >-
-    &cCosts&8: &7$cost
+    &4Costs&8: &7$cost
   required_cost_lore: >-
-    &cCosts&8: &7$cost
+    &7Costs&8: &7$cost
   deducted: >-
     &7&l>> &dYou purchased &r$item &dfor &r$cost
   selected: >-

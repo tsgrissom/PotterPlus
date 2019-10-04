@@ -8,6 +8,11 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 10/4/19
+
+* Adjusted costs to be more readable
+* Adjusted category names to be more readable
+
 ### 9/30/19
 
 * Overhauled wand messages to be much more readable and pretty
