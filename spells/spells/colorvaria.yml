@@ -1,0 +1,34 @@
+colorvaria:
+  worth: 5 ac
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Recurse
+            actions:
+              - class: CycleBlock
+  effects:
+    cast:
+      - sound: magic.shimmer_quiet
+    tick:
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Sphere
+          particle: redstone
+          radius: 0.2
+          color: FFFFFF
+          duration: 100
+    hit:
+      -  class: EffectSingle
+         location: target
+         particle: fireworks_spark
+         particle_count: 10
+         particle_offset_x: 0.3
+         particle_offset_y: 0.3
+         particle_offset_z: 0.3
+         particle_data: 0.1
+  parameters:
+    target: other
+    velocity: 10
+    destructible: glass,glass_pane,stained_glasses,stained_glass_panes,stained_clays,wools,carpets

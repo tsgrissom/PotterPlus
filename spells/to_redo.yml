@@ -5,8 +5,6 @@ atmos:
 bogies:
   category: dark
   worth: 15 ac
-colorvaria:
-  worth: 5 ac
 confringo:
   worth: 25 ac
 confundus:
