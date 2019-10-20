@@ -1,3 +1,5 @@
+# Disabled inherited mobs
+
 dark_spider:
   enabled: false
 dark_wizard:
