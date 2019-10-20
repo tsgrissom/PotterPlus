@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 10/19/19
 
+* Adjusted Potion Shop UI
 * Re-worked Colorvaria
 * Simplified material sets
 * Fixed color of Spell Shop GUI title

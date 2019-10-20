@@ -11,6 +11,15 @@ potionshop:
       - placeholder: true
       - placeholder: true
       - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
       - icon: diamond_axe:45
         name: "&3Buy Ingredients"
         cast_spell: potionshop_ingredients
@@ -19,6 +28,15 @@ potionshop:
       - icon: diamond_axe:76
         name: "&3Buy Potions"
         cast_spell: potionshop_potions
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
       - placeholder: true
       - placeholder: true
       - placeholder: true
