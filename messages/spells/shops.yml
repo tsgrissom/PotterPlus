@@ -11,6 +11,10 @@ spells:
     title: >-
       Textbook Shop ($balance)
   spellshop:
+    name: >-
+      Spell Shop
+    title: >-
+      $path Spells ($balance&r)
     selected: |-
       t:&dSpell Unlocked
       &6$item
