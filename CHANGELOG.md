@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 10/19/19
 
+* Adjusted Bowtruckle spawners
 * Removed "disabled" effects since it doesn't do anything significant
 * Modified items.yml text to be consistent
 
