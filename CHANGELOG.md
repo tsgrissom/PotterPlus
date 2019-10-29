@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 10/28/19
 
+* Re-worked Bewitched Snowball
 * Moved to Magic 7.7.6
 
 ### 10/19/19

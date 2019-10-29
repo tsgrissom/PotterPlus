@@ -1456,12 +1456,30 @@ spells:
     name: >-
       Bewitched Snowball
     description: >-
-      Causes bewitched snowballs to fall from the sky, damaging and slowing the
-      target slightly.
+      Conjures a volley of enchanted snowballs that slow down and damage
+      targets.
+  snowball|2:
     upgrade_description: |-
+      Decreased charge time.
+      Increased snowball count.
+      Decreased projectile spread.
       Increased damage.
-      Decreased cooldown.
-
+  snowball|3:
+    upgrade_description: |-
+      Decreased charge time.
+      Decreased projectile spread.
+      Increased damage.
+  snowball|4:
+    description: >-
+      Conjures a volley of enchanted snowballs that slow down and damage nearby
+      targets.
+    upgrade_description: |-
+      Increased projectile spread.
+      Increased snowball count.
+      Decreased damage.
+      Increased slowness.
+      Now works in an area of effect.
+      
   spongify:
     name: >-
       Spongify
