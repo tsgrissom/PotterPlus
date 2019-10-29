@@ -10,6 +10,9 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 10/28/19
 
+* Added `bewitchedsnowball` alias to `snowball`
+* Fixed Magical Creatures category text
+* Fixed Bewitched Snowball file paths
 * Re-worked Bewitched Snowball
 * Moved to Magic 7.7.6
 
