@@ -13,8 +13,7 @@ flintifors:
           particle: flame
           iterations: 16
   parameters:
-    item: flint_and_steel
-    name: "&dConjured Flint and Steel"
+    item: conjuredflintandsteel
 
 flintifors|2:
   inherit: scribblifors|2

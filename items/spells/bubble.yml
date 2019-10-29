@@ -9,7 +9,7 @@ bubble:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      display-name: §3Bubble
+      display-name: §3Magical Bubble
       lore:
         - §7A bubble encasing your
         - §7head.

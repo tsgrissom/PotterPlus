@@ -21,8 +21,7 @@ scribblifors:
       - class: GiveItem
   parameters:
     cooldown: 15000
-    item: book_and_quill
-    name: "&dConjured Book and Quill"
+    item: conjuredbook
     target: self
     duration: 4000
     add_effects:

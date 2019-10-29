@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 10/28/19
 
+* Converted Flintifors and Scribblifors to use Magic item serialization
 * Added `bewitchedsnowball` alias to `snowball`
 * Fixed Magical Creatures category text
 * Fixed Bewitched Snowball file paths
