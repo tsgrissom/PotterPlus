@@ -1,5 +1,6 @@
 centaur_arrow:
   inherit: arrow|5
+  category: specialty
   hidden: true
   actions:
     cast:
@@ -23,6 +24,7 @@ centaur_arrow:
 
 centaur_heal:
   inherit: episkey
+  category: specialty
   hidden: true
   parameters:
     cooldown: 0

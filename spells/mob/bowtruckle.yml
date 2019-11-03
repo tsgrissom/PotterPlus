@@ -44,6 +44,7 @@ bowtruckle_wood_throw|2:
 
 bowtruckle_shield:
   inherit: protego|3
+  category: specialty
   hidden: true
   parameters:
     cooldown: 0

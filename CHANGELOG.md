@@ -8,6 +8,10 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 11/3/19
+
+* Added `specialty` category to inherited mob spells
+
 ### 10/28/19
 
 * Converted Flintifors and Scribblifors to use Magic item serialization

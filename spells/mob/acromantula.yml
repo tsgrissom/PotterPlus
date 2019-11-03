@@ -27,6 +27,7 @@ acromantula_summon:
 
 acromantula_spit:
   inherit: bogies
+  category: specialty
   hidden: true
   parameters:
     range: 24
