@@ -5,6 +5,31 @@
 * TODO Review default files
 * TODO Re-balance how the year upgrades work and what they change
 
+## Data Pack
+
+* TODO Look through data pack features and plot out more of what to do
+* TODO Finish cleaning out the pack
+
+**Models**
+
+* Re-do Harry Potter wand with better proportions
+* Re-do the black base wand to be consistent with the others
+* Wand ticket
+* House scarfs
+* House hats
+* Voldemort's wand
+* Draco Malfoy's wand
+* Lucius Malfoy's wand
+* Narcissa Malfoy's wand
+* Hermione Granger's wand
+* Ron Weasley's wand
+
+**Features to look into**
+
+* Can fire be customized in some way with the custom model data feature? Different colored flames would be useful.
+* Customizing the UI
+* Moving over to a new icon set/converting existing icon set to use custom model data
+
 ## Spells
 
 * TODO Make sure all spells have sounds
@@ -15,6 +40,17 @@
 **Upcoming Spells**
 
 * SPELL Riddikulus
+* SPELL Reducto -> Fiery ash effects on a projectile that does damage with a burst of sulphur drops
+* SPELL Diffindo -> Damages armor? Cuts through wool?
+* SPELL Relashio -> Stronger Diffindo
+* SPELL Portus -> Takes player to sethome
+* SPELL Knee-Reversal Hex -> Causes target to walk in some weird way (look into reversed movement implemented as a custom action)
+* SPELL Appare Vestigium -> In a swirl of gold nearby players are tracked
+* SPELL Protego Diabolica -> Some sort of damage reversal/absorption version of protego with flames
+* SPELL Nebulus -> Creates a swirl of descending fog
+* SPELL Sonorus  -> Makes the person speak in all caps
+* SPELL Quietus -> Makes the person speak in all lowercase
+* SPELL Silencio -> Silences the target and renders them unable to cast spells
 
 ## Items
 
