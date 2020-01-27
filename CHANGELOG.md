@@ -8,6 +8,11 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 1/26/20
+
+* Added custom 3D wand models. They're a little rough but there's an Elder Wand, Harry Potter wand, three basic wands, and a wand box modelled so far. More plans for the future
+* Cleaned out a bunch of unnecessary stuff in the data pack
+
 ### 11/3/19
 
 * Added `specialty` category to inherited mob spells
