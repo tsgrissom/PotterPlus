@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 1/26/20
 
+* Added Sorting Hat model and changed numbering system for custom models
 * Added custom 3D wand models. They're a little rough but there's an Elder Wand, Harry Potter wand, three basic wands, and a wand box modelled so far. More plans for the future
 * Cleaned out a bunch of unnecessary stuff in the data pack
 
