@@ -1,7 +1,7 @@
 elder:
   inherit: base_wand
   migrate_icon: iron_hoe
-  icon: wooden_hoe{CustomModelData:2}
+  icon: wooden_hoe{CustomModelData:11}
   path: graduate
   hotbar_count: 2
   classes:

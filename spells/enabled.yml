@@ -22,3 +22,13 @@ upgrades:
   category: npc
   enabled: true
   hidden: true
+hat:
+  enabled: true
+  effects:
+    cast: []
+  parameters:
+    cooldown: 8000
+  costs:
+    mana: 0
+wear:
+  enabled: true

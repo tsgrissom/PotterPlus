@@ -1,6 +1,6 @@
 # BetterPotter
 
-Latest test with [**Magic 7.7.6 Snapshot**](http://jenkins.elmakers.com/view/Plugins/job/MagicPlugin/) on **Spigot 1.14.4**
+Latest test with [**Magic 7.8.2**](http://jenkins.elmakers.com/view/Plugins/job/MagicPlugin/) on **Spigot 1.15.2**
 
 > The goal of BetterPotter is to create a set of extensible and flexible configurations for NathanWolf's Magic plugin. I am constantly striving to keep these configurations up-to-date with the latest Harry Potter canon while still being well-balanced for Harry Potter Minecraft servers to use and build upon.
 
