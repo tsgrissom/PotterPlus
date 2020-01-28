@@ -5,7 +5,9 @@ broomshop:
     confirm: true
     confirm_filler: stained_glass:5
     items:
+      - item: wand|nimbus2000
+        cost: 150
+      - item: wand|nimbus2001
+        cost: 200
       - item: wand|firebolt
         cost: 250
-      - item: wand|nimbus
-        cost: 100

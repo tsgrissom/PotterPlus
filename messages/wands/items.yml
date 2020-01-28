@@ -77,3 +77,19 @@ wands:
     description: >-
       &aA carpet enchanted with similar magic to that of brooms, allowing you
       to fly around in the air while riding.
+  firebolt:
+    name: >-
+      Firebolt
+    description: >-
+      Capable of going from nought to one hundred and fifty miles per hour in
+      ten seconds.
+  nimbus2000:
+    name: >-
+      Nimbus 2000
+    description: >-
+      Highly reliable with good speed and exceptional handling.
+  nimbus2001:
+    name: >-
+      Nimbus 2001
+    description: >-
+      Capable of previously unseen speed and control.

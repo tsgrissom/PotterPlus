@@ -20,14 +20,14 @@ colorvaria:
           color: FFFFFF
           duration: 100
     hit:
-      -  class: EffectSingle
-         location: target
-         particle: fireworks_spark
-         particle_count: 10
-         particle_offset_x: 0.3
-         particle_offset_y: 0.3
-         particle_offset_z: 0.3
-         particle_data: 0.1
+      - class: EffectSingle
+        location: target
+        particle: fireworks_spark
+        particle_count: 10
+        particle_offset_x: 0.3
+        particle_offset_y: 0.3
+        particle_offset_z: 0.3
+        particle_data: 0.1
   parameters:
     target: other
     velocity: 10

@@ -20,7 +20,6 @@
 * Voldemort's wand
 * Draco Malfoy's wand
 * Lucius Malfoy's wand
-* Narcissa Malfoy's wand
 * Hermione Granger's wand
 * Ron Weasley's wand
 

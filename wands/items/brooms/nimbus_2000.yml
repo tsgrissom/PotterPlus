@@ -1,0 +1,3 @@
+nimbus2000:
+  inherit: nimbus
+  icon: wooden_hoe{CustomModelData:201}
