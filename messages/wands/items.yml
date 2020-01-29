@@ -79,17 +79,20 @@ wands:
       to fly around in the air while riding.
   firebolt:
     name: >-
-      Firebolt
+      &4Firebolt
     description: >-
-      Capable of going from nought to one hundred and fifty miles per hour in
-      ten seconds.
+      &7This state-of-the-art racing broom sports an unsurpassable balance and
+      pinpoint precision&8.
   nimbus2000:
     name: >-
-      Nimbus 2000
+      &4Nimbus 2000
     description: >-
-      Highly reliable with good speed and exceptional handling.
+      &7One of Nimbus Racing Broom Company&8'&7s most successful models&8.
+      &7Highly reliable with good speed and exceptional handling &8— &7not for
+      beginners&8!
   nimbus2001:
     name: >-
-      Nimbus 2001
+      &4Nimbus 2001
     description: >-
-      Capable of previously unseen speed and control.
+      &7The top of the Nimbus Racing Broom Company&8'&7s range&8. &7Capable of
+      previously unseen speed and control&8.

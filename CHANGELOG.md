@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 1/28/20
 
+* Gave brooms some nicer lore
 * Added Nimbus 2001
 * Moved everything except for spell icons over to custom model data
 
