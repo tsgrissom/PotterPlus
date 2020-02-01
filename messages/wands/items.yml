@@ -96,3 +96,8 @@ wands:
     description: >-
       &7The top of the Nimbus Racing Broom Company&8'&7s range&8. &7Capable of
       previously unseen speed and control&8.
+  portkey:
+    name: >-
+      &dPortkey
+    description: >-
+      &7A seemingly random object enchanted to take you back home&8.

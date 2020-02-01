@@ -21,12 +21,25 @@
 * Draco Malfoy's wand
 * Lucius Malfoy's wand
 * Hermione Granger's wand
+* Snape's wand
+* Sirius Black's wand
+* Luna Lovegood's wand
+
+* Wizard chess
+* Cauldrons
+* Rowena Ravenclaw's diadem
+* Helga Hufflepuff's cup
+* Salazar Slytherin's locket
+* Moody's magical eye
+* Beaded handbag
+* Deluminator
 
 **Features to look into**
 
 * Can fire be customized in some way with the custom model data feature? Different colored flames would be useful.
 * Customizing the UI
 * Moving over to a new icon set/converting existing icon set to use custom model data
+* 3D model potions
 
 ## Spells
 
@@ -34,6 +47,10 @@
 * TODO Clean up spell files (order their sections consistently and remove unnecessary flags)
 * TODO Check Fantastic Beasts for new spells and review online spell lists
 * TODO Since particle performance has gone down, go through with F3 enabled and review which SFX cause performance drops
+* Is there a way to implement side-along apparition?
+* Re-implement short vs. long distance apparition
+* Look into wandless magic
+* Animagus
 
 **Upcoming Spells**
 
@@ -41,7 +58,6 @@
 * SPELL Reducto -> Fiery ash effects on a projectile that does damage with a burst of sulphur drops
 * SPELL Diffindo -> Damages armor? Cuts through wool?
 * SPELL Relashio -> Stronger Diffindo
-* SPELL Portus -> Takes player to sethome
 * SPELL Knee-Reversal Hex -> Causes target to walk in some weird way (look into reversed movement implemented as a custom action)
 * SPELL Appare Vestigium -> In a swirl of gold nearby players are tracked
 * SPELL Protego Diabolica -> Some sort of damage reversal/absorption version of protego with flames
@@ -49,6 +65,13 @@
 * SPELL Sonorus  -> Makes the person speak in all caps
 * SPELL Quietus -> Makes the person speak in all lowercase
 * SPELL Silencio -> Silences the target and renders them unable to cast spells
+* SPELL Anti-Apparition Charm -> Makes it so the afflicted cannot apparate
+* SPELL Armor-Bewitching Charm -> Causes suits of armor (iron golems) to sing (particles and perhaps some sort of sound?)
+* SPELL Bat-Bogey Hex -> Spawns some sort of mob with gross particles that attacks the target
+* SPELL Bedazzling Hex -> Temporarily blinds the target in a flash of light
+* SPELL Circumrota -> Causes the target to rotate
+* SPELL Geminio -> Duplicates items with a push of velocity
+* SPELL Anti-Gravity Mist Charm -> Creates a golden mist AOE that applies the levitation effect
 
 ## Items
 
@@ -63,6 +86,9 @@
 * ITEM Wizard Crackers -> Short range throwable crackers that pop and create small fireworks
 * ITEM Dissimulator -> A musical instrument that plays music and sounds with puffs of multi-colored smoke
 * ITEM Exploding Snap Cards -> Pieces of (paper?) that explode when thrown
+* ITEM Beaded Handbag -> Access to your enderchest (perhaps serialize to the BP plugin for bigger inventory)
+* ITEM Deluminator -> Clears any light effects nearby (Potion effects in an AOE, light blocks, LightAPI lights)
+* ITEM Mokeskin Pouch -> A small furry pouch worn around the neck that carries items
 
 **Upcoming Potions**
 

@@ -45,3 +45,6 @@ spells:
       a:&5Your broom settles to the ground.
     crash: >-
       t:&cCRASH!
+  portkey_ability:
+    name: >-
+      Portkey Ability

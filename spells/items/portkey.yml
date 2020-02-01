@@ -1,0 +1,21 @@
+portkey_ability:
+  category: specialty
+  pvp_restricted: true
+  tags: noduel,nojail
+  actions:
+    cast:
+      - class: PotionEffect
+      - class: Delay
+      - class: Command
+  effects:
+    teleport:
+      - class: EffectSingle
+        sound: magic.teleport
+  parameters:
+    add_effects:
+      confusion: 1
+    duration: 12000
+    delay: 5000
+    command: home
+    op: true
+    target: self

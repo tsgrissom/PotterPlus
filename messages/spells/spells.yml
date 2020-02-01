@@ -1272,6 +1272,16 @@ spells:
     description: >-
       Animates sets of armor and brings them to your defense in combat.
 
+  portus:
+    name: >-
+      Portus
+    description: >-
+      Transforms regular objects into portkeys, enchanted objects that can be
+      used to take you home.
+  portus|2:
+    upgrade_description: |-
+      Decreased charge time.
+
   protego:
     name: >-
       Protego

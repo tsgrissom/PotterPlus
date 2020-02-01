@@ -1,8 +1,5 @@
 # TODO: Figure out what to do with these wands
 
-portkey:
-  enabled: false
-
 camera:
   display_name: "$name"
 
