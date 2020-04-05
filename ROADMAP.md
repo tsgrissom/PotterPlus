@@ -14,9 +14,6 @@
 
 * Re-do Harry Potter wand with better proportions
 * Re-do the black base wand to be consistent with the others
-* Wand ticket
-* House scarfs
-* House hats
 * Voldemort's wand
 * Draco Malfoy's wand
 * Lucius Malfoy's wand
@@ -25,14 +22,22 @@
 * Sirius Black's wand
 * Luna Lovegood's wand
 
+* Wand ticket
+* House scarfs
+* House hats
 * Wizard chess
 * Cauldrons
 * Rowena Ravenclaw's diadem
 * Helga Hufflepuff's cup
 * Salazar Slytherin's locket
+* Sword of Godric Gryffindor
 * Moody's magical eye
 * Beaded handbag
 * Deluminator
+* Peruvian Instant Darkness Powder
+* Portable Swamp
+* Deflagration Deluxe & Basic Blaze Box
+* Gillyweed (on a food item?)
 
 **Features to look into**
 
@@ -68,7 +73,6 @@
 * SPELL Anti-Apparition Charm -> Makes it so the afflicted cannot apparate
 * SPELL Armor-Bewitching Charm -> Causes suits of armor (iron golems) to sing (particles and perhaps some sort of sound?)
 * SPELL Bat-Bogey Hex -> Spawns some sort of mob with gross particles that attacks the target
-* SPELL Bedazzling Hex -> Temporarily blinds the target in a flash of light
 * SPELL Circumrota -> Causes the target to rotate
 * SPELL Geminio -> Duplicates items with a push of velocity
 * SPELL Anti-Gravity Mist Charm -> Creates a golden mist AOE that applies the levitation effect
@@ -89,6 +93,9 @@
 * ITEM Beaded Handbag -> Access to your enderchest (perhaps serialize to the BP plugin for bigger inventory)
 * ITEM Deluminator -> Clears any light effects nearby (Potion effects in an AOE, light blocks, LightAPI lights)
 * ITEM Mokeskin Pouch -> A small furry pouch worn around the neck that carries items
+* ITEM Ravenclaw Diadem -> Bestows intelligence upon the wearer
+* ITEM Hufflepuff's Cup -> Gives random potions from a list
+* ITEM Slytherin Locket -> Bestows enhanced dueling skills upon the wearer
 
 **Upcoming Potions**
 

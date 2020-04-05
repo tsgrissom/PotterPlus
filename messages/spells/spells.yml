@@ -276,6 +276,19 @@ spells:
       Increased damage.
       Increased chains.
 
+  bedazzlinghex:
+    name: >-
+      Bedazzling Hex
+    description: >-
+      Blinds the target in a flash of light.
+  bedazzlinghex|2:
+    upgrade_description: |-
+      Increased range.
+      Increased duration.
+  bedazzlinghex|3:
+    upgrade_description: |-
+      Increased duration.
+
   bogies:
     description: >-
       Sickens the target causing a runny nose, terrible cough, and overall
@@ -352,13 +365,13 @@ spells:
     upgrade_description: |-
       Increased strength.
       Increased speed.
-      Decreased gravity.
-      Decreased delay.
+      Decreased projectile gravity.
+      Decreased charge time.
   carperetractum|3:
     upgrade_description: |-
       Increased strength.
-      Decreased gravity.
-      Decreased delay.
+      Decreased projectile gravity.
+      Decreased charge time.
 
   cascadingjinx:
     name: >-
