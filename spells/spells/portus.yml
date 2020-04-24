@@ -27,6 +27,7 @@ portus:
     warmup: 5000
     item: wand|portkey
     target: self
+    cooldown: 60000
   costs:
     mana: 50
 

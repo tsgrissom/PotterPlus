@@ -10,7 +10,8 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 4/24/20
 
-* Gave Volo cooldowns
+* Gave Portus a cooldown
+* Gave Volo a cooldown
 * Disabled Silencio Maxima and Silencio Totalus
 * Gave Flight a cooldown
 
