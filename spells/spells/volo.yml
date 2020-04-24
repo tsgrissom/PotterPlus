@@ -16,6 +16,7 @@ volo:
           particle: spell_mob
           color: 5ab5d6
   parameters:
+    cooldown: 15000
     target: self
     duration: 8000
     add_effects:
