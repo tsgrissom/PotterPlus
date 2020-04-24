@@ -7,6 +7,8 @@ flight:
   cancel_effects: true
   category: elective
   tags: nojail
+  parameters:
+    cooldown: 60000
   costs:
     mana: 100
   active_costs:
