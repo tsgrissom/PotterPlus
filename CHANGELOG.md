@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 4/24/20
 
+* Disabled Silencio Maxima and Silencio Totalus
 * Gave Flight a cooldown
 
 ### 4/5/20

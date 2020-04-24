@@ -20,6 +20,10 @@ reparomaxima:
   enabled: false
 reveal:
   enabled: false
+silenciomaxima:
+  enabled: false
+silenciototalus:
+  enabled: false
 
 # Shops
 
