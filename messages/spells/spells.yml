@@ -442,12 +442,18 @@ spells:
       Blasts the target to pieces in order to inflict massive damage or clear
       obstacles.
 
-  confundus:
+  confundo:
     name: >-
       Confundo
     description: >-
       Confuses the target, making it difficult to cast spells and leaving them
       defenseless.
+  confundo|2:
+    upgrade_description: |-
+      Increased duration.
+  confundo|3:
+    upgrade_description: |-
+      Increased duration.
 
   conjunctivitis:
     name: >-

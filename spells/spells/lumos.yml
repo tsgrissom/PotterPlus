@@ -1,5 +1,6 @@
 lumos:
   category: charms
+  tags: default
   worth: 10 ac
   upgrade_required_casts: 50
   actions:

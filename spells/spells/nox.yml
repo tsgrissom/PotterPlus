@@ -1,5 +1,6 @@
 nox:
   worth: 5 ac
+  tags: noprogression
   effects:
     cast:
       - class: EffectSingle

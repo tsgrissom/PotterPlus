@@ -24,6 +24,10 @@ silenciomaxima:
   enabled: false
 silenciototalus:
   enabled: false
+phase:
+  enabled: false
+confundus:
+  enabled: false
 
 # Shops
 
