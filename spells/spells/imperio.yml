@@ -46,6 +46,7 @@ imperio:
       - class: EffectTrail
         particle: spell_mob
   parameters:
+    cooldown: 6000
     item_force: 0.5
     entity_force: 1.5
 

@@ -10,6 +10,8 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 5/2/20
 
+* Gave Imperio a cooldown
+* Fixed `skeleton_key_ability` category
 * Re-worked Imperio with leveling
 
 ### 5/1/20
