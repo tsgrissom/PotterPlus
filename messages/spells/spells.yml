@@ -953,6 +953,12 @@ spells:
     description: >-
       This unforgivable dark spell grants you control of where the target goes.
     usage: ""
+  imperio|2:
+    upgrade_description: |-
+      Increased power.
+  imperio|3:
+    upgrade_description: |-
+      Increased power.
 
   impervius:
     name: >-
