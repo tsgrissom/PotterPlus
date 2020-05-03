@@ -1,6 +1,7 @@
 key_ability:
   inherit: alohomora
   icon: shears
+  category: specialty
   hidden: true
   tags: nojail
   parameters:

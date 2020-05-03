@@ -29,6 +29,7 @@ erumpent_ambient:
 erumpent_attack:
   inherit: bombarda
   icon: tnt
+  category: specialty
   hidden: true
   actions:
     cast:

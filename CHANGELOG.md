@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 5/2/20
 
+* Fixed the last of specialty spells not having a category
 * Removed Limus Exumai
 * Gave Imperio a cooldown
 * Fixed `skeleton_key_ability` category
