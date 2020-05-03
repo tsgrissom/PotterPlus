@@ -26,7 +26,11 @@ silenciototalus:
   enabled: false
 phase:
   enabled: false
+# Moved to `confundo` namespace.
 confundus:
+  enabled: false
+# Not a spell. Inherited from potter.
+tripudio:
   enabled: false
 
 # Shops
