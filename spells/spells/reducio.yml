@@ -9,18 +9,28 @@ reducio:
           - class: Damage
   effects:
     cast:
-      - sound: betterpotter.cast_quiet
+      - class: EffectSingle
+        sound: betterpotter.cast_quiet
+        location: origin
+        effectlib:
+          class: ConeEffect
+          iterations: 10
+          particle: spell_mob
+          color: 5d1d77
+          lengthGrow: 0.1
+          radiusGrow: 0.003
+          updateLocations: false
+          updateDirections: false
     tick:
       - class: EffectSingle
         location: target
         particle: portal
-        particle_count: 50
-        particle_offset_x: 0.15
-        particle_offset_y: 0.15
-        particle_offset_z: 0.15
+        particle_count: 5
     hit:
       - class: EffectSingle
         location: target
+        sound: magic.zap
+        sound_volume: 0.1
         particle: fireworks_spark
         particle_count: 10
         particle_offset_x: 0.3
@@ -28,20 +38,20 @@ reducio:
         particle_offset_z: 0.3
         particle_data: 0.1
     hit_entity:
+      - sound: entity_firework_rocket_blast
       - class: EffectSingle
         location: target
-        sound: entity_endermen_teleport
-        sound_pitch: 0.2
-        sound_volume: 0.8
+        source_location: feet
+        sound: betterpotter.whoosh
         effectlib:
-          class: Modified
-          iterations: 30
-          parameters:
-            radius: "max(1, (1 - (t / i)) * 5 - 2)"
-          effect:
-            class: Sphere
-            particle: portal
-            particles: 10
+         class: Circle
+         duration: 1000
+         particle: redstone
+         color: 5d1d77
+         particles: 10
+         radius: 2
+         enableRotation: false
+         wholeCircle: true
   parameters:
     target: other
     velocity: 25
