@@ -718,6 +718,11 @@ spells:
     description: >-
       Conjures an unstoppable monster of flame which will consume anything and
       everything in its path.
+  fiendfyre|2:
+    upgrade_description: |-
+      Increased power.
+      Increased damage.
+      Increased speed.
 
   finestra:
     name: >-
