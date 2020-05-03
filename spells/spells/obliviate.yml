@@ -3,8 +3,6 @@ obliviate:
   icon: diamond_axe:83
   icon_disabled: diamond_hoe:83
   worth: 25 ac
-  costs:
-    mana: 40
   actions:
     cast:
       - class: CustomProjectile
@@ -33,6 +31,7 @@ obliviate:
         color: FFFFFF
         fadeColor: D3D3D3
   parameters:
+    cooldown: 8000
     repeat: 100
     range: 16
     hitbox: true
@@ -42,3 +41,5 @@ obliviate:
     add_effects:
       confusion: 2
     duration: 8000
+  costs:
+    mana: 40
