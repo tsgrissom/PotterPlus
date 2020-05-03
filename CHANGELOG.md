@@ -8,6 +8,10 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 5/3/20
+
+* Fixed Verdimillious parameters
+
 ### 5/2/20
 
 * Fixed the last of specialty spells not having a category
