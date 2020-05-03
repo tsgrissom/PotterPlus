@@ -1,3 +1,5 @@
+# TODO Sound player GUI? BP sound player?
+
 soundtest:
   icon: note_block
   hidden: true

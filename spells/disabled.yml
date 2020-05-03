@@ -1,10 +1,4 @@
-avadamaxima:
-  enabled: false
 beat:
-  enabled: false
-confundusmaxima:
-  enabled: false
-deletrius:
   enabled: false
 dementor:
   enabled: false
@@ -12,30 +6,35 @@ expulsion:
   enabled: false
 floo:
   enabled: false
-reductomaxima:
+reveal:
   enabled: false
-reparo:
+phase:
+  enabled: false
+
+# Moved to `confundo` namespace.
+confundus:
+  enabled: false
+
+# Not actual spells. Inherited from potter.
+
+confundusmaxima:
+  enabled: false
+deletrius:
   enabled: false
 reparomaxima:
   enabled: false
-reveal:
+avadamaxima:
   enabled: false
 silenciomaxima:
   enabled: false
 silenciototalus:
   enabled: false
-phase:
+reductomaxima:
   enabled: false
-# Moved to `confundo` namespace.
-confundus:
-  enabled: false
-# Not a spell. Inherited from potter.
 tripudio:
   enabled: false
-# Not a spell. Inherited from potter.
 periculux:
   enabled: false
-# Not a spell. Inherited from potter.
 spongifymaxima:
   enabled: false
 

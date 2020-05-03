@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 5/3/20
 
+* Added some comments and moved around some spells that will be changed soon
 * Re-worked Reducio and added upgrade description messages
 * Added `fiendfyre|2` upgrade description message
 * Removed Spongify Maxima

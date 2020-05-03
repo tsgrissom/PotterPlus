@@ -61,3 +61,5 @@ wingardium:
   parameters:
     cooldown: 15000
   worth: 5 ac
+reparo:
+  enabled: false
