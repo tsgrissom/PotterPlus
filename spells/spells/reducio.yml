@@ -1,0 +1,64 @@
+reducio:
+  worth: 10 ac
+  upgrade_required_casts: 25
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: ShrinkEntity
+          - class: Damage
+  effects:
+    cast:
+      - sound: betterpotter.cast_quiet
+    tick:
+      - class: EffectSingle
+        location: target
+        particle: portal
+        particle_count: 50
+        particle_offset_x: 0.15
+        particle_offset_y: 0.15
+        particle_offset_z: 0.15
+    hit:
+      - class: EffectSingle
+        location: target
+        particle: fireworks_spark
+        particle_count: 10
+        particle_offset_x: 0.3
+        particle_offset_y: 0.3
+        particle_offset_z: 0.3
+        particle_data: 0.1
+    hit_entity:
+      - class: EffectSingle
+        location: target
+        sound: entity_endermen_teleport
+        sound_pitch: 0.2
+        sound_volume: 0.8
+        effectlib:
+          class: Modified
+          iterations: 30
+          parameters:
+            radius: "max(1, (1 - (t / i)) * 5 - 2)"
+          effect:
+            class: Sphere
+            particle: portal
+            particles: 10
+  parameters:
+    target: other
+    velocity: 25
+    range: 8
+    player_damage: 1
+    entity_damage: 2
+
+reducio|2:
+  upgrade_required_path: year7
+  upgrade_required_casts: 50
+  parameters:
+    range: 12
+    player_damage: 1.5
+    entity_damage: 2.5
+
+reducio|3:
+  parameters:
+    range: 16
+    player_damage: 2
+    entity_damage: 3

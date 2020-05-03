@@ -1372,7 +1372,15 @@ spells:
     name: >-
       Reducio
     description: >-
-      Causes the target object or creature to shrink quickly.
+      Causes objects or creatures to shrink quickly.
+  reducio|2:
+    upgrade_description: |-
+      Increased range.
+      Increased damage.
+  reducio|3:
+    upgrade_description: |-
+      Increased range.
+      Increased damage.
 
   reducto:
     name: >-
