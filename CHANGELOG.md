@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 5/2/20
 
+* Removed Limus Exumai
 * Gave Imperio a cooldown
 * Fixed `skeleton_key_ability` category
 * Re-worked Imperio with leveling

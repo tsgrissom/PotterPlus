@@ -1101,18 +1101,6 @@ spells:
       Increased damage.
       Increased range.
 
-  limusexumai:
-    name: >-
-      Limus Exumai
-    description: >-
-      Repels slimey creatures, inflicting major damage on them.
-  limusexumai|2:
-    upgrade_description: |-
-      Increased damage.
-  limusexumai|3:
-    upgrade_description: |-
-      Increased damage.
-
   locomotormortis:
     name: >-
       Locomotor Mortis
