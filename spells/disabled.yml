@@ -32,6 +32,12 @@ confundus:
 # Not a spell. Inherited from potter.
 tripudio:
   enabled: false
+# Not a spell. Inherited from potter.
+periculux:
+  enabled: false
+# Not a spell. Inherited from potter.
+spongifymaxima:
+  enabled: false
 
 # Shops
 

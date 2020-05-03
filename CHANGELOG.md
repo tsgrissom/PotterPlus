@@ -10,6 +10,8 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 5/3/20
 
+* Removed Spongify Maxima
+* Removed Periculux
 * Removed Tripudio
 * Gave Obliviate a cooldown
 * Fixed Verdimillious parameters

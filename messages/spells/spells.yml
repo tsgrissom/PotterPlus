@@ -1266,12 +1266,6 @@ spells:
     upgrade_description: |-
       Increased size of firework.
 
-  periculux:
-    name: >-
-      Periculux
-    description: >-
-      Conjures rainbow-colored fireworks to signal fellow wizards.
-
   petrificustotalus:
     name: >-
       Petrificus Totalus
@@ -1508,12 +1502,6 @@ spells:
       Spongify
     description: >-
       Softens and makes the ground bouncy, prime for cushioning a long fall.
-
-  spongifymaxima:
-    name: >-
-      Spongify Maxima
-    description: >-
-      Softens and makes a large area bouncy.
 
   stinginghex:
     name: >-
