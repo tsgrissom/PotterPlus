@@ -29,7 +29,7 @@ spells:
     name: >-
       Aguamenti
     description: >-
-      Conjures a gush of water for drinking or to cushion a fall.
+      Conjures a gush of water where you point your wand.
   aguamenti|2:
     upgrade_description: |-
       Increased size.
@@ -49,7 +49,7 @@ spells:
     name: >-
       Alarte Ascendare
     description: >-
-      Flings the target high into the air.
+      Causes the target to be flung high into the air.
   alarteascendare|2:
     upgrade_description: |-
       Increased power.
@@ -66,8 +66,8 @@ spells:
   alohomora:
     name: >-
       Alohomora
-    description: >-
-      Unlocks doors that are not magically protected against such charms.
+    description: |-
+      Can be used to unlock locked doors.
   alohomora|2:
     upgrade_description: |-
       Increased range.
@@ -83,7 +83,7 @@ spells:
     name: >-
       Aparecium
     description: >-
-      Causes hidden things to appear. Can be used to access new areas.
+      Causes hidden things to appear.
   aparecium|2:
     upgrade_description: |-
       Increased range.
@@ -136,7 +136,7 @@ spells:
     name: >-
       Arania Exumai
     description: >-
-      Repells and heavily damages arachnids.
+      Repells and heavily damages spiders.
   araniaexumai|2:
     upgrade_description: |-
       Increased damage.
@@ -148,7 +148,7 @@ spells:
     name: >-
       Arresto Momentum
     description: >-
-      Lessens your downward momentum, cushioning the damage of your fall.
+      Lessens your momentum, cushioning the damage of your fall.
   arresto|2:
     upgrade_description: |-
       Increased slow falling speed.
@@ -161,8 +161,7 @@ spells:
     name: >-
       Arrow
     description: >-
-      A simple but effective offensive spell which conjures an arrow and
-      thrusts it at the target.
+      Conjures and thrusts and arrow from the tip of your wand.
   arrow|2:
     upgrade_description: |-
       Increased damage.
@@ -183,8 +182,7 @@ spells:
     name: >-
       Arrow Maxima
     description: >-
-      Conjures and propels a number of powerful magical arrows which can inflict
-      high damage.
+      Conjures and propels a number of powerful magical arrows.
   arrowmaxima|2:
     upgrade_description: |-
       Increased damage.
@@ -204,7 +202,7 @@ spells:
     name: >-
       Ascendio
     description: >-
-      Propels the wizard in the direction they choose.
+      Propels the wizard in the direction they aim.
   ascendio|2:
     upgrade_description: |-
       Increased power.
@@ -233,15 +231,14 @@ spells:
     name: >-
       Avada Kedavra
     description: >-
-      An unblockable killing curse that can only be used by those with great
-      malice. Highly illegal.
+      Kills the target. Highly illegal.
     usage: ""
 
   avis:
     name: >-
       Avis
     description: >-
-      Conjures a number of avian companions.
+      Conjures a number of bird companions.
   avis|2:
     upgrade_description: |-
       Increased amount.
@@ -291,8 +288,7 @@ spells:
 
   bogies:
     description: >-
-      Sickens the target causing a runny nose, terrible cough, and overall
-      miserable symptoms.
+      Sickens the target causing illness.
   bogies|2:
     upgrade_description: |-
       Increased range.
@@ -377,8 +373,7 @@ spells:
     name: >-
       Cascading Jinx
     description: >-
-      A powerful offensive spell which cascades from target to target,
-      decimating the enemy with effective precision.
+      Cascades between nearby targets inflicting high damage.
   cascadingjinx|2:
     upgrade_description: |-
       Increased damage.
@@ -392,8 +387,7 @@ spells:
     name: >-
       Cheering Charm
     description: >-
-      Makes the target happier temporarily, improving their jumping ability and
-      speed.
+      Improve's the caster's mood, granting them increased abilities.
   cheeringcharm|2:
     upgrade_description: |-
       Increased duration.
@@ -405,14 +399,13 @@ spells:
 
   colloportus:
     description: >-
-      Locks previously unlocked doors, preventing basic unlocking charms from
-      being used against them.
+      Can be used to lock doors.
 
   colloshoo:
     name: >-
       Colloshoo
     description: >-
-      Quickly sticks the target to the ground with a viscous green goo.
+      Sticks the target to the ground with a viscous green goo.
   colloshoo|2:
     upgrade_description: |-
       Increased range.
@@ -439,8 +432,7 @@ spells:
     name: >-
       Confringo
     description: >-
-      Blasts the target to pieces in order to inflict massive damage or clear
-      obstacles.
+      Blasts the target to pieces to clear obstacles and destroy targets.
 
   confundo:
     name: >-
@@ -459,15 +451,13 @@ spells:
     name: >-
       Conjunctivitis
     description: >-
-      Causes severe blindness against the target, making them vulnerable against
-      follow-up attacks.
+      Causes severe blindness against the target, weakening them.
 
   crucio:
     name: >-
       Crucio
     description: >-
-      This torturous spell induces horrible, writhing pain which makes it
-      terribly hard to focus on anything but the pain at hand.
+      Induces horrible, writhing pain which makes it terribly hard to focus.
     usage: ""
   crucio|2:
     upgrade_description: |-
@@ -493,7 +483,7 @@ spells:
     name: >-
       Deprimo
     description: >-
-      Collapses the ground the target's feet.
+      Collapses the ground, granting access to new areas.
   deprimo|2:
     upgrade_description: |-
       Increased radius.
@@ -505,7 +495,7 @@ spells:
     name: >-
       Depulso
     description: >
-      Banishes an object or person, sending them flying away.
+      Banishes an object or creature.
   depulso|2:
     upgrade_description: |-
       Increased force.
@@ -554,13 +544,13 @@ spells:
     name: >-
       Engorgio
     description: >-
-      Engorges objects or creatures to collosal sizes.
+      Engorges objects and creatures.
 
   episkey:
     name: >-
       Episkey
     description: >-
-      Mends the most minor of the target's wounds.
+      Mends minor wounds.
   episkey|2:
     upgrade_description: |-
       Increased healing.
@@ -643,7 +633,7 @@ spells:
     name: >-
       Expulso
     description: >-
-      A dark spell causing an incredibly powerful and dangerous explosion.
+      Causes an incredibly powerful and dangerous explosion.
   expulso|2:
     upgrade_description: |-
       Increased speed.
@@ -660,7 +650,7 @@ spells:
     name: >-
       Extinguishing Charm
     description: >-
-      Extinguishes nearby flames in a gush of cold air.
+      Extinguishes flames in a gush of cold air.
   extinguishingcharm|2:
     upgrade_description: |-
       Increased range.
@@ -690,7 +680,7 @@ spells:
     name: >-
       Ferula
     description: >-
-      Conjures magical bandages in order to heal the target.
+      Conjures magical bandages which heal nearby targets.
   ferula|2:
     upgrade_description: |-
       Increased accuracy.
@@ -710,14 +700,13 @@ spells:
     name: >-
       Fianto Duri
     description: >-
-      Grants you temporary protections against damage of all kinds.
+      Grants you temporary protection against damage.
 
   fiendfyre:
     name: >-
       Fiendfyre
     description: >-
-      Conjures an unstoppable monster of flame which will consume anything and
-      everything in its path.
+      Conjures an unstoppable monster of flame.
   fiendfyre|2:
     upgrade_description: |-
       Increased power.
@@ -738,8 +727,7 @@ spells:
     name: >-
       Finite Incantatem
     description: >-
-      A general-purpose counterspell which will undo most effects of previously
-      cast spells.
+      Reverses the effects of most spells.
     usage: ""
   finiteincantatem|2:
     upgrade_description: |-
@@ -777,8 +765,7 @@ spells:
     name: >-
       Flame-Freezing Charm
     description: >-
-      Freezes flames for you, making you immune and causing you to feel them as
-      if they were mere tickles.
+      Causes flames to feel like tickles temporarily.
   flamefreezingcharm|2:
     upgrade_description: |-
       Increased duration.
@@ -787,8 +774,7 @@ spells:
     name: >-
       Flight
     description: >-
-      Channeling some of the most powerful magic known to wizardkind, you
-      levitate in the air and sail around without aid from a magical device.
+      Levitate and fly around without the aid of a magical device.
 
   flintifors:
     name: >-
@@ -806,7 +792,7 @@ spells:
     name: >-
       Flipendo
     description: >-
-      A basic offensive spell which pushes the target backwards.
+      Pushes the target backwards.
 
   fourpoint:
     name: >-
@@ -822,8 +808,7 @@ spells:
     name: >-
       Fumos
     description: >-
-      Produces heavy smoke which fills the target's lungs, slowing them down,
-      obstructing their breathing and blinding them.
+      Produces a heavy smoke from the tip of your wand.
   fumos|2:
     upgrade_description: |-
       Increased radius.
@@ -837,8 +822,7 @@ spells:
     name: >-
       Furnunculus
     description: >-
-      Causes the target to erupt in terrible, painful boils and impeding their
-      ability to see.
+      Causes the target to erupt in terrible, painful boils.
   furnunculus|2:
     upgrade_description: |-
       Expels green pus.
@@ -855,8 +839,7 @@ spells:
     name: >-
       Glacius
     description: >-
-      With a jet of icy breeze, snow is conjured and falls from the sky, icing
-      over the ground below it and inflicting cold damage.
+      Conjures snowfall which freezes the ground below it, slowing targets.
   glacius|2:
     upgrade_description: |-
       Increased damage.
@@ -956,7 +939,7 @@ spells:
     name: >-
       Imperio
     description: >-
-      This unforgivable dark spell grants you control of where the target goes.
+      Allows you to control the actions of another being.
     usage: ""
   imperio|2:
     upgrade_description: |-
@@ -969,15 +952,14 @@ spells:
     name: >-
       Impervius
     description: >-
-      Causes water to repel away from objects or areas, clearing pathways
-      through water.
+      Repels water and potentially clears pathways.
     usage: ""
 
   incarcerous:
     name: >-
       Incarcerous
     description: >-
-      Binds your target in ropes which they will find difficult to escape from.
+      Binds your target in ropes.
   incarcerous|2:
     upgrade_description: |-
       Increased duration.
@@ -989,7 +971,7 @@ spells:
     name: >-
       Incarcifors
     description: >-
-      Conjures a cage to entrap your target in, partially immobilizing them.
+      Conjures a cage to entrap your target.
 
   incendio:
     name: >-
@@ -1025,8 +1007,7 @@ spells:
     name: >-
       Lacarnum Inflamari
     description: >-
-      Conjures and propels a fireball which can inflict major damage to both
-      creatures and the surrounding area.
+      Conjures and propels a large fireball.
   lacarnum|2:
     upgrade_description: |-
       Increased radius.
@@ -1043,7 +1024,7 @@ spells:
     name: >-
       Lapifors
     description: >-
-      Conjures sets of adorable bunnies and rabbits.
+      Conjures sets of bunnies and rabbits.
   lapifors|2:
     upgrade_description: |-
       Increased spawning rate.
@@ -1055,14 +1036,14 @@ spells:
     name: >-
       Legilimens
     description: >-
-      Peer inside of the contents of your target's soul.
+      View the inventory of your target.
 
   levicorpus:
     name: >-
       Levicorpus
     description: >-
-      Levitates and flips the target upside down, making them incredibly
-      vulnerable to follow-up attacks.
+      Levitates the target high off the ground, flipping them upside down and
+      disorienting them.
   levicorpus|2:
     upgrade_description: |-
       Increased levitation speed.
@@ -1122,8 +1103,7 @@ spells:
     name: >-
       Locomotor Wibbly
     description: >-
-      Causes the target's legs to become weak, crippling and
-      immobilizing them temporarily.
+      Causes the target's legs to become weak, immobilizing them temporarily.
   locomotorwibbly|2:
     upgrade_description: |-
       Increased speed.
@@ -1137,7 +1117,7 @@ spells:
     name: >-
       Lumos
     description: >-
-      Lights up the tip of your wand to provide a light source in dark areas.
+      Lights up the tip of your wand.
   lumos|2:
     upgrade_description: |-
       Increased range.
@@ -1154,8 +1134,7 @@ spells:
     name: >-
       Lumos Maxima
     description: >-
-      Blindingly lights up the tip of your wand to provide a long-lasting light
-      source in dark areas.
+      Lights up the tip of your wand with a blinding, long-lasting light.
   lumosmaxima|2:
     upgrade_description: |-
       Increased range.
@@ -1184,7 +1163,7 @@ spells:
     name: >-
       Melofors
     description: >-
-      Encases the target's head in a pumpkin to limit their vision.
+      Encases the target's head in a pumpkin.
 
   meteo:
     name: >-
@@ -1215,21 +1194,19 @@ spells:
     name: >-
       Obliviate
     description: >-
-      A powerful memory-wiping charm which will erase the target's memory of
-      what has been said previously.
+      Wipes the target's chat messages.
 
   obliviatemaxima:
     name: >-
       Obliviate Maxima
     description: >-
-      A powerful spell that allows you to wipe everyone's memory of what has
-      previously been said.
+      Wipes the server's chat messages.
 
   obscuro:
     name: >-
       Obscuro
     description: >-
-      Obscures the target's vision, making them an easier opponent.
+      Obscures the target's vision temporarily.
   obscuro|2:
     upgrade_description: |-
       Increased density.
@@ -1245,8 +1222,7 @@ spells:
     name: >-
       Expecto Patronum
     description: >-
-      Conjures concentrated happiness of a wizard from their happiest memory to
-      protect against dark beings such as dementors and lethifolds.
+      Conjures a wizard's Patronus to protect against Dementors and Lethifolds.
     usage: ""
   patronus|2:
     upgrade_description: |-
@@ -1262,8 +1238,7 @@ spells:
     name: >-
       Periculum
     description: >-
-      Conjures and ignites bright-red fireworks where you wish to signal fellow
-      wizards.
+      Conjures burning red sparks to signal fellow witches and wizards.
   periculum|2:
     upgrade_description: |-
       Increased size of firework.
@@ -1282,14 +1257,13 @@ spells:
     name: >-
       Piertotum Locomotor
     description: >-
-      Animates sets of armor and brings them to your defense in combat.
+      Conjures animated suits of armor to aid you in combat.
 
   portus:
     name: >-
       Portus
     description: >-
-      Transforms regular objects into portkeys, enchanted objects that can be
-      used to take you home.
+      Conjures a portkey, enchanted objects that can be used to take you home.
   portus|2:
     upgrade_description: |-
       Decreased charge time.
@@ -1298,8 +1272,8 @@ spells:
     name: >-
       Protego
     description: >-
-      Conjures a shield of pure magical energy which can deflect projectiles and
-      shield you from attacks.
+      Conjures a temporary magical shield which can shield you from and deflect
+      spells.
   protego|2:
     upgrade_description: |-
       Decreased cooldown.
@@ -1326,8 +1300,8 @@ spells:
     name: >-
       Protego Maxima
     description: >-
-      Conjures a spherical shield which will encase a large area and protect you
-      from incoming projectiles and magical attacks.
+      Conjures a dome-shaped shield to protect an area from incoming projectiles
+      and magical attacks.
     usage: ""
   protegomaxima|2:
     upgrade_description: |-
@@ -1340,7 +1314,7 @@ spells:
     name: >-
       Protego Totalus
     description: >-
-      Protects you and nearby creatures from additional damage of any type.
+      Grants temporary resistance to additional damage.
   protegototalus|2:
     upgrade_description: |-
       Increased radius.
@@ -1349,7 +1323,7 @@ spells:
     name: >-
       Pulsus
     description: >-
-      Pushes away a number of nearby targets with great force.
+      Pushes away everything nearby with great force.
   pulsus|2:
     upgrade_description: |-
       Increased power.
@@ -1372,7 +1346,7 @@ spells:
     name: >-
       Reducio
     description: >-
-      Causes objects or creatures to shrink quickly.
+      Causes objects or creatures to quickly shrink.
   reducio|2:
     upgrade_description: |-
       Increased range.
@@ -1386,7 +1360,8 @@ spells:
     name: >-
       Reducto
     description: >-
-      Vaporizes stone into dust-like particles. Can open up access to new areas.
+      Vaporizes stone into dust-like particles. Can be used to access to new
+      areas.
   reducto|2:
     upgrade_description: |-
       Increased radius.
@@ -1395,13 +1370,13 @@ spells:
     name: >-
       Rennervate
     description: >-
-      Awakens stunned targets back to their normal state, alleviating confusion.
+      Awakens stunned targets back to their normal state.
 
   reparifarge:
     name: >-
       Reparifarge
     description: >-
-      Counter mosts of the world-impacting effects of previously cast spells.
+      Counters most of the world-impacting effects of previously cast spells.
 
   revelio:
     name: >-
@@ -1461,20 +1436,20 @@ spells:
     name: >-
       Sectumsempra
     description: >-
-      Conjues an invisible sword which will lash out and slash a target to
-      pieces, inflicting massive damage and bleeding.
+      Conjures an invisible sword which will slash at a target, inflicting
+      massive damage and bleeding.
 
   singingcharm:
     name: >-
       Singing Charm
     description: >-
-      Forces the target to begin singing lyrics from various songs.
+      Forces the target to begin singing.
 
   sluguluseructo:
     name: >-
       Slugulus Eructo
     description: >-
-      Causes the target to vomit slugs uncontrollably.
+      Causes the target to uncontrollably vomit slugs.
   sluguluseructo|2:
     upgrade_description: |-
       Increased amount.
@@ -1517,11 +1492,10 @@ spells:
       Softens and makes the ground bouncy, prime for cushioning a long fall.
 
   stinginghex:
-    name: >-
+    name: >|
       Stinging Hex
     description: >-
-      Causes incredibly painful stinging and blisters which often result in an
-      allergic reaction.
+      Causes incredibly painful stinging and blisters.
   stinginghex|2:
     upgrade_description: |-
       Increased damage.
@@ -1533,8 +1507,7 @@ spells:
     name: >-
       Stupefy
     description: >-
-      Inflicts damage and stun the target, preventing them from performing other
-      actions for a short time.
+      Stuns the target temporarily.
   stupefy|2:
     upgrade_description: |-
       Increased damage.
@@ -1553,8 +1526,7 @@ spells:
     name: >-
       Tarantallegra
     description: >-
-      Forces the target to dance against their will, limiting the amount of
-      actions they can perform.
+      Forces the target to dance against their will.
   tarantallegra|2:
     upgrade_description: |-
       Increased duration.
@@ -1572,8 +1544,7 @@ spells:
     name: >-
       Titillando
     description: >-
-      Causes the target great discomfort by tickling them beyond their control,
-      immobilizing and slowing them down.
+      Tickles the target to immobilize them.
   titillando|2:
     upgrade_description: |-
       Decreased cooldown.
@@ -1585,12 +1556,6 @@ spells:
       Decreased cooldown.
       Increased range.
       Increased efficacy.
-
-  tripudio:
-    name: >-
-      Tripudio
-    description: >-
-      Gives a boost to the wizard's ability to hop high into the air.
 
   ventus:
     name: >-
@@ -1656,7 +1621,7 @@ spells:
     name: >-
       Volo
     description: >-
-      Allows the caster to run at magically-enhanced speeds.
+      Temporarily grants the caster magically-enhanced speed.
   volo|2:
     upgrade_description: |-
       Increased duration.
@@ -1670,7 +1635,7 @@ spells:
     name: >-
       Vulnera Sanentur
     description: >-
-      Heals even the most severe of wounds.
+      Mends even the most severe of wounds.
     cast: ""
     cast_self: ""
 
@@ -1678,8 +1643,7 @@ spells:
     name: >-
       Waddiwasi
     description: >-
-      Conjures a large quantity of pre-chewed chewing gum to stick the target to
-      a surface.
+      Sticks the target to the ground with pre-chewed gum.
   waddiwasi|2:
     upgrade_description: |-
       Increased range.
