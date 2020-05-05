@@ -1,4 +1,5 @@
 portkey_ability:
+  hidden: true
   category: specialty
   pvp_restricted: true
   tags: noduel,nojail
