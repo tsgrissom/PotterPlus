@@ -2,7 +2,7 @@ avis:
   inherit: false
   icon: diamond_axe:226
   icon_disabled: diamond_hoe:226
-  category: careofcreatures
+  category: creatures
   worth: 5 ac
   upgrade_required_casts: 25
   upgrade_required_path: year5

@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 5/5/20
 
+* Fixed Avis/Lapifors category
 * Re-worked Periculum
 
 ### 5/4/20
