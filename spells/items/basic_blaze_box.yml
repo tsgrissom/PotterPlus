@@ -1,5 +1,5 @@
 basic_blaze_box_ability:
-  inherit: periculum|2
+  inherit: periculum
   icon: firework
   hidden: true
   category: specialty

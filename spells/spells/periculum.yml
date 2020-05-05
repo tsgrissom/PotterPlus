@@ -1,33 +1,61 @@
 periculum:
+  inherit: false
+  icon: diamond_axe:148
+  icon_disabled: diamond_hoe:148
+  category: charms
   worth: 5 ac
-  upgrade_required_path: year5
-  upgrade_required_casts: 75
+  show_undoable: false
+  upgrade_required_path: year4
+  upgrade_required_casts: 25
   actions:
     cast:
-      - class: Firework
+      - class: CustomProjectile
   effects:
     cast:
-      - sound: entity_firework_launch
+      - firework: burst
+        color: FFFFFF
+        color2: FFFFFF
+        location: origin
+        sound: entity_firework_rocket_launch
+    tick:
+      - location: target
+        particle: fireworks_spark
+        particle_count: 2
+        particle_offset_x: 0.2
+        particle_offset_y: 0.2
+        particle_offset_z: 0.2
+        sound: entity_firework_rocket_twinkle
+        sound_volume: 0.5
+      - location: target
+        particle: redstone
+        particle_count: 20
+        color: b12121
+        particle_offset_x: 0.3
+        particle_offset_y: 0.3
+        particle_offset_z: 0.3
+    hit:
+      - sound: magic.zap_up
+        firework: ball_large
+        color: b12121
+        color2: b12121
+        location: target
   parameters:
-    use_wand_color: false
-    firework: burst
-    color: a40e0e
-    color2: adadad
+    target: other
+    target_type: LivingEntity
+    allow_max_range: true
+    range: 24
+    velocity: 20
+    cooldown: 6000
+    miss_effects: hit
+  costs:
+    mana: 20
 
 periculum|2:
-  upgrade_required_path: year6
-  upgrade_required_casts: 150
+  upgrade_required_path: year5
+  upgrade_required_casts: 50
   parameters:
-    firework: ball
+    range: 32
 
 periculum|3:
-  effects:
-    cast:
-      - class: EffectRing
-        location: target
-        firework: ball
-        color: a40e0e
-        color2: adadad
-        radius: 8
-        target_offset: 0,4,0
-        size: 6
+  parameters:
+    cooldown: 5000

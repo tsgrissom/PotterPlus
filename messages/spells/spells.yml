@@ -1238,13 +1238,13 @@ spells:
     name: >-
       Periculum
     description: >-
-      Conjures burning red sparks to signal fellow witches and wizards.
+      Conjures bursting red sparks to signal fellow witches and wizards.
   periculum|2:
     upgrade_description: |-
-      Increased size of firework.
+      Increased range.
   periculum|3:
     upgrade_description: |-
-      Increased size of firework.
+      Decreased cooldown.
 
   petrificustotalus:
     name: >-
@@ -1492,7 +1492,7 @@ spells:
       Softens and makes the ground bouncy, prime for cushioning a long fall.
 
   stinginghex:
-    name: >|
+    name: >-
       Stinging Hex
     description: >-
       Causes incredibly painful stinging and blisters.
