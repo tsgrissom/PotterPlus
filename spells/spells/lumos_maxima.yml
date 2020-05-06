@@ -4,8 +4,6 @@ lumosmaxima:
   upgrade_required_casts: 50
   worth: 10 ac
   effects:
-    cast:
-      - sound: magic.shimmer
     light:
       - class: EffectSingle
         location: origin
@@ -22,8 +20,12 @@ lumosmaxima:
           color: FF0080
           radius: 0.1
           duration: 250
+      - class: EffectSingle
+        location: target
+        particle: fireworks_spark
+        particle_count: 10
+        particle_data: 0.1
   parameters:
-    range: 16
     duration: 90000
     cooldown: 90000
   costs:

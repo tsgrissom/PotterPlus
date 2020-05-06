@@ -1,6 +1,10 @@
 nox:
   worth: 5 ac
   tags: noprogression
+  actions:
+    cast:
+      - class: PotionEffect
+      - class: Cancel
   effects:
     cast:
       - class: EffectSingle
@@ -12,6 +16,9 @@ nox:
           particle: spell_mob
           color: 000000
   parameters:
+    spells:
+      - lumos
+      - lumosmaxima
     target: self
     cooldown: 5000
   costs:

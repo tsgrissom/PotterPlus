@@ -10,6 +10,8 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 5/5/20
 
+* Made Nox actually cancel Lumos and Lumos Maxima
+* Adjusted Lumos FX
 * Fixed Avis/Lapifors category
 * Re-worked Periculum
 

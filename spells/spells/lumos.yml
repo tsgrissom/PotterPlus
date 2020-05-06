@@ -28,6 +28,11 @@ lumos:
           particle: spell
           radius: 0.15
           duration: 250
+      - class: EffectSingle
+        location: target
+        particle: fireworks_spark
+        particle_count: 10
+        particle_data: 0.1
   parameters:
     target: self
     radius: 8
