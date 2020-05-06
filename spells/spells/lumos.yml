@@ -39,6 +39,7 @@ lumos:
     effect_night_vision: 0
     duration: 10000
     cooldown: 10000
+    cancel_on_no_wand: true
   costs:
     mana: 25
 
