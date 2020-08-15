@@ -1,4 +1,6 @@
 arresto:
+  icon: diamond_axe{CustomModelData:163}
+  icon_disabled: diamond_hoe{CustomModelData:163}
   worth: 5 ac
   upgrade_required_path: year2
   upgrade_required_casts: 25

@@ -47,7 +47,7 @@
     {"predicate": {"custom_model_data":62}, "model":"item/spells_disabled/water_droplets"},
     {"predicate": {"custom_model_data":63}, "model":"item/spells_disabled/water_stream"},
 
-    {"predicate": {"custom_model_data":70}, "model":"item/spells_disabled/swirl_blue"},,
+    {"predicate": {"custom_model_data":70}, "model":"item/spells_disabled/swirl_blue"},
     {"predicate": {"custom_model_data":71}, "model":"item/spells_disabled/swirl_light_blue"},
     {"predicate": {"custom_model_data":72}, "model":"item/spells_disabled/swirl_red"},
     {"predicate": {"custom_model_data":73}, "model":"item/spells_disabled/swirl_dark_red"},
