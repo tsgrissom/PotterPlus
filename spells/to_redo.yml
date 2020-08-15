@@ -1,11 +1,17 @@
 # TODO: Re-do some of these spells and do something with the rest of them
 atmos:
+  icon: diamond_axe{CustomModelData:132}
+  icon_disabled: diamond_axe{CustomModelData:132}
   category: charms
   worth: 30 ac
 bogies:
+  icon: diamond_axe{CustomModelData:108}
+  icon_disabled: diamond_axe{CustomModelData:108}
   category: dark
   worth: 15 ac
 confringo:
+  icon: diamond_axe{CustomModelData:23}
+  icon_disabled: diamond_axe{CustomModelData:23}
   worth: 25 ac
 conjunctivitis:
   worth: 10 ac
@@ -14,13 +20,19 @@ deprimo:
 diffindo:
   worth: 5 ac
 duro:
+  icon: diamond_axe{CustomModelData:127}
+  icon_disabled: diamond_axe{CustomModelData:127}
   worth: 5 ac
 engorgio:
   worth: 15 ac
 episkey:
+  icon: diamond_axe{CustomModelData:128}
+  icon_disabled: diamond_axe{CustomModelData:128}
   category: herbology
   worth: 15 ac
 evanesco:
+  icon: diamond_axe{CustomModelData:161}
+  icon_disabled: diamond_axe{CustomModelData:161}
   worth: 15 ac
 fiantoduri:
   category: dada
@@ -31,24 +43,40 @@ finiteincantatem:
     cooldown: 10000
   worth: 20 ac
 impervius:
+  icon: diamond_axe{CustomModelData:62}
+  icon_disabled: diamond_axe{CustomModelData:62}
   worth: 10 ac
 meteo:
+  icon: diamond_axe{CustomModelData:132}
+  icon_disabled: diamond_axe{CustomModelData:132}
   category: charms
   quick_cast: false
   worth: 30 ac
 noxmaxima:
+  icon: diamond_axe{CustomModelData:140}
+  icon_disabled: diamond_axe{CustomModelData:140}
   quick_cast: false
 orchideous:
+  icon: diamond_axe{CustomModelData:122}
+  icon_disabled: diamond_axe{CustomModelData:122}
   parameters:
     undo: 2000
   worth: 5 ac
 petrificustotalus:
+  icon: diamond_axe{CustomModelData:142}
+  icon_disabled: diamond_axe{CustomModelData:142}
   worth: 20 ac
 reducto:
+  icon: diamond_axe{CustomModelData:112}
+  icon_disabled: diamond_axe{CustomModelData:112}
   worth: 10 ac
 rennervate:
+  icon: diamond_axe{CustomModelData:110}
+  icon_disabled: diamond_axe{CustomModelData:110}
   worth: 5 ac
 sectumsempra:
+  icon: diamond_axe{CustomModelData:103}
+  icon_disabled: diamond_axe{CustomModelData:103}
   worth: 20 ac
 spongify:
   worth: 10 ac
@@ -67,3 +95,6 @@ wingardium:
   worth: 5 ac
 reparo:
   enabled: false
+colloportus:
+  icon: diamond_axe{CustomModelData:153}
+  icon_disabled: diamond_axe{CustomModelData:153}

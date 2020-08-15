@@ -1,4 +1,6 @@
 alohomora:
+  icon: diamond_axe{CustomModelData:137}
+  icon_disabled: diamond_axe{CustomModelData:137}
   worth: 5 ac
   category: charms
   upgrade_required_path: year2

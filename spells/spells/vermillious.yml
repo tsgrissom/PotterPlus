@@ -1,7 +1,7 @@
 vermillious:
   inherit: false
-  icon: diamond_axe:92
-  icon_disabled: diamond_hoe:92
+  icon: diamond_axe{CustomModelData:23}
+  icon_disabled: diamond_hoe{CustomModelData:23}
   category: dada
   worth: 10 ac
   upgrade_required_path: year3

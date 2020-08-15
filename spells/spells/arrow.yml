@@ -1,4 +1,6 @@
 arrow:
+  icon: diamond_axe{CustomModelData:102}
+  icon_disabled: diamond_axe{CustomModelData:102}
   worth: 10 ac
   effects:
     hit:

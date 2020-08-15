@@ -1,7 +1,7 @@
 avadakedavra:
   inherit: false
-  icon: diamond_axe:170
-  icon_disabled: diamond_hoe:170
+  icon: diamond_axe{CustomModelData:21}
+  icon_disabled: diamond_axe{CustomModelData:21}
   category: unforgivable
   worth: 50 ac
   tags: noduel

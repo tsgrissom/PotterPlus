@@ -1,4 +1,6 @@
 flipendo:
+  icon: diamond_axe{CustomModelData:150}
+  icon_disabled: diamond_axe{CustomModelData:150}
   worth: 5 ac
   effects:
     cast:

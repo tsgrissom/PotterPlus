@@ -1,4 +1,6 @@
 araniaexumai:
+  icon: diamond_axe{CustomModelData:157}
+  icon_disabled: diamond_axe{CustomModelData:157}
   worth: 5 ac
   upgrade_required_path: year2
   upgrade_required_casts: 50

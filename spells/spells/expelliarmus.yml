@@ -1,7 +1,7 @@
 expelliarmus:
   inherit: false
-  icon: diamond_axe:43
-  icon_disabled: diamond_hoe:43
+  icon: diamond_axe{CustomModelData:73}
+  icon_disabled: diamond_axe{CustomModelData:73}
   category: dada
   worth: 15 ac
   upgrade_required_path: year3
