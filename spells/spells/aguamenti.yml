@@ -1,4 +1,6 @@
 aguamenti:
+  icon: diamond_axe{CustomModelData:60}
+  icon_disabled: diamond_hoe{CustomModelData:60}
   worth: 10 ac
   upgrade_required_casts: 25
   effects:

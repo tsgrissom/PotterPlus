@@ -1,8 +1,8 @@
 # TODO: Add some protections for the caster
 fiendfyre:
   inherit: false
-  icon: diamond_axe:139
-  icon_disabled: diamond_hoe:139
+  icon: diamond_axe{CustomModelData:3}
+  icon_disabled: diamond_hoe{CustomModelData:3}
   worth: 25 ac
   upgrade_required_path: year7
   upgrade_required_casts: 50

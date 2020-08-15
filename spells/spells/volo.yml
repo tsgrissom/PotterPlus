@@ -1,4 +1,6 @@
 volo:
+  icon: diamond_axe{CustomModelData:13}
+  icon_disabled: diamond_hoe{CustomModelData:13}
   worth: 5 ac
   category: charms
   upgrade_required_path: year7

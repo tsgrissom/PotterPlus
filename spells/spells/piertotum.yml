@@ -1,3 +1,5 @@
 piertotum:
+  icon: diamond_axe{CustomModelData:9}
+  icon_disabled: diamond_hoe{CustomModelData:9}
   category: transfiguration
   worth: 25 ac

@@ -1,0 +1,7 @@
+{
+    "parent" : "item/custom/icon",
+    "textures": {
+        "particle": "item/spells/swirl_light_blue",
+        "texture": "item/spells/swirl_light_blue"
+    }
+}

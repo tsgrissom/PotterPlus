@@ -1,5 +1,7 @@
 # TODO: Add dark upgrade
 apparate:
+  icon: diamond_axe{CustomModelData:2}
+  icon_disabled: diamond_hoe{CustomModelData:2}
   worth: 30 ac
   inherit: blink
   upgrade_required_path: year5

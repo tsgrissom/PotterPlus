@@ -1,0 +1,12 @@
+{
+  "_comment": "Items that can be worn are stored here.",
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/iron_ingot"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 1 }, "model": "item/bp/items/gryffindor_scarf" },
+    { "predicate": { "custom_model_data": 2 }, "model": "item/bp/items/slytherin_scarf" },
+    { "predicate": { "custom_model_data": 3 }, "model": "item/bp/items/sorting_hat" }
+  ]
+}

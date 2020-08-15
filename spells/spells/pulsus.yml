@@ -1,4 +1,6 @@
 pulsus:
+  icon: diamond_axe{CustomModelData:10}
+  icon_disabled: diamond_hoe{CustomModelData:10}
   upgrade_required_path: year7
   upgrade_required_casts: 75
   actions:

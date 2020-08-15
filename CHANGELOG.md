@@ -8,6 +8,11 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 8/15/20
+
+* Most spell icons temporarily broken until I go through with the new icons.
+* Complete overhaul of resource pack with RP now included in source.
+
 ### 5/5/20
 
 * Made Nox actually cancel Lumos and Lumos Maxima

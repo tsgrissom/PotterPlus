@@ -1,4 +1,6 @@
 obscuro:
+  icon: diamond_axe{CustomModelData:7}
+  icon_disabled: diamond_hoe{CustomModelData:7}
   worth: 10 ac
   upgrade_required_path: year3
   upgrade_required_casts: 50

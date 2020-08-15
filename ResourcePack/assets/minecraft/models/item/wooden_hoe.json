@@ -1,0 +1,26 @@
+{
+  "_comment": "Items that cannot be worn are stored here.",
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/wooden_hoe"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 1 }, "model": "item/bp/wands/black" },
+    { "predicate": { "custom_model_data": 2 }, "model": "item/bp/wands/brown" },
+    { "predicate": { "custom_model_data": 3 }, "model": "item/bp/wands/white" },
+
+    { "predicate": { "custom_model_data": 10 }, "model": "item/bp/wands/harry_potter" },
+    { "predicate": { "custom_model_data": 11 }, "model": "item/bp/wands/elder" },
+    { "predicate": { "custom_model_data": 12 }, "model": "item/bp/wands/narcissa_malfoy" },
+    { "predicate": { "custom_model_data": 13 }, "model": "item/bp/wands/ron_weasley_first" },
+    { "predicate": { "custom_model_data": 14 }, "model": "item/bp/wands/bellatrix_lestrange_first" },
+    { "predicate": { "custom_model_data": 15 }, "model": "item/bp/wands/draco_malfoy" },
+
+    { "predicate": { "custom_model_data": 100 }, "model": "item/bp/items/wand_box" },
+    { "predicate": { "custom_model_data": 101 }, "model": "item/bp/items/marauders_map" },
+
+    { "predicate": { "custom_model_data": 200 }, "model": "item/custom/firebolt" },
+    { "predicate": { "custom_model_data": 201 }, "model": "item/custom/nimbus2000" },
+    { "predicate": { "custom_model_data": 202 }, "model": "item/custom/nimbus2001" }
+  ]
+}

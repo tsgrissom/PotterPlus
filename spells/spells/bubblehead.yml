@@ -1,7 +1,7 @@
 bubblehead:
   inherit: false
-  icon: diamond_axe:83
-  icon_disabled: diamond_hoe:83
+  icon: diamond_axe{CustomModelData:125}
+  icon_disabled: diamond_hoe{CustomModelData:125}
   category: charms
   worth: 5 ac
   upgrade_required_path: year2

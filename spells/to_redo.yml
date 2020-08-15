@@ -55,9 +55,13 @@ spongify:
 ventus:
   worth: 10 ac
 vulnera:
+  icon: diamond_axe{CustomModelData:12}
+  icon_disabled: diamond_hoe{CustomModelData:12}
   category: herbology
   worth: 25 ac
 wingardium:
+  icon: diamond_axe{CustomModelData:14}
+  icon_disabled: diamond_hoe{CustomModelData:14}
   parameters:
     cooldown: 15000
   worth: 5 ac

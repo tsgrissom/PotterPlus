@@ -1,7 +1,7 @@
 lumossolem:
   inherit: false
-  icon: diamond_axe:228
-  icon_disabled: diamond_hoe:228
+  icon: diamond_axe{CustomModelData:135}
+  icon_disabled: diamond_hoe{CustomModelData:135}
   category: charms
   worth: 10 ac
   upgrade_required_path: year2
