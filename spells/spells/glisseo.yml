@@ -1,6 +1,6 @@
 glisseo:
-  icon: diamond_axe:37
-  icon_disabled: diamond_hoe:37
+  icon: diamond_axe{CustomModelData:65}
+  icon_disabled: diamond_hoe{CustomModelData:65}
   category: transfiguration
   worth: 20 ac
   class: ConstructSpell

@@ -1,6 +1,6 @@
 accio:
   icon: diamond_axe{CustomModelData:149}
-  icon_disabled: diamond_axe{CustomModelData:149}
+  icon_disabled: diamond_hoe{CustomModelData:149}
   worth: 10 ac
   upgrade_required_path: year4
   upgrade_required_casts: 50

@@ -1,6 +1,6 @@
 emancipare:
-  icon: diamond_axe:177
-  icon_disabled: diamond_hoe:177
+  icon: diamond_axe{CustomModelData:267}
+  icon_disabled: diamond_hoe{CustomModelData:267}
   category: charms
   worth: 10 ac
   actions:

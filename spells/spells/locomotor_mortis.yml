@@ -3,8 +3,8 @@ locomotomortus:
 
 locomotormortis:
   inherit: locomotomortus
-  icon: diamond_axe{CustomModelData:5}
-  icon_disabled: diamond_hoe{CustomModelData:5}
+  icon: diamond_axe{CustomModelData:35}
+  icon_disabled: diamond_hoe{CustomModelData:35}
   worth: 10
   alias: []
   upgrade_required_path: year2

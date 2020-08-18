@@ -1,4 +1,6 @@
 disillusion:
+  icon: diamond_axe{CustomModelData:190}
+  icon_disabled: diamond_hoe{CustomModelData:190}
   worth: 15 ac
   upgrade_required_casts: 25
   actions:

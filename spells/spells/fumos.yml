@@ -1,4 +1,6 @@
 fumos:
+  icon: diamond_axe{CustomModelData:199}
+  icon_disabled: diamond_hoe{CustomModelData:199}
   upgrade_required_path: year4
   upgrade_required_casts: 50
   worth: 5 ac

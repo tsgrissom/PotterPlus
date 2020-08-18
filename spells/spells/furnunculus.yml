@@ -1,6 +1,6 @@
 furnunculus:
-  icon: diamond_axe:172
-  icon_disabled: diamond_hoe:172
+  icon: diamond_axe{CustomModelData:95}
+  icon_disabled: diamond_hoe{CustomModelData:95}
   category: dark
   upgrade_required_path: year7
   upgrade_required_casts: 50

@@ -1,5 +1,7 @@
 whippinghex:
   inherit: whip
+  icon: diamond_axe{CustomModelData:183}
+  icon_disabled: diamond_hoe{CustomModelData:183}
   category: dark
   upgrade_required_path: year4
   upgrade_required_casts: 75

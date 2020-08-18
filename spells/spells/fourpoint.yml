@@ -1,7 +1,7 @@
 fourpoint:
   inherit: false
-  icon: diamond_axe:189
-  icon_disabled: diamond_hoe:189
+  icon: diamond_axe{CustomModelData:43}
+  icon_disabled: diamond_hoe{CustomModelData:43}
   category: elective
   worth: 5 ac
   upgrade_required_path: 3

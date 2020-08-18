@@ -1,4 +1,6 @@
 lumosmaxima:
+  icon: diamond_axe{CustomModelData:255}
+  icon_disabled: diamond_hoe{CustomModelData:255}
   inherit: lumos
   upgrade_required_path: year5
   upgrade_required_casts: 50

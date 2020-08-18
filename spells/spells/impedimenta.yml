@@ -1,6 +1,6 @@
 impedimenta:
-  icon: diamond_axe:163
-  icon_disabled: diamond_hoe:163
+  icon: diamond_axe{CustomModelData:33}
+  icon_disabled: diamond_hoe{CustomModelData:33}
   category: dada
   upgrade_required_path: year4
   upgrade_required_casts: 25

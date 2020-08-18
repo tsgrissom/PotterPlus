@@ -1,6 +1,6 @@
 extinguishingcharm:
-  icon: diamond_axe:33
-  icon_disabled: diamond_hoe:33
+  icon: diamond_axe{CustomModelData:199}
+  icon_disabled: diamond_hoe{CustomModelData:199}
   category: charms
   worth: 5 ac
   class: ConstructSpell

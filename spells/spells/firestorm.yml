@@ -1,7 +1,7 @@
 firestorm:
   inherit: false
-  icon: diamond_axe:144
-  icon_disabled: diamond_hoe:144
+  icon: diamond_axe{CustomModelData:53}
+  icon_disabled: diamond_hoe{CustomModelData:53}
   category: dark
   worth: 20 ac
   upgrade_required_casts: 50

@@ -1,6 +1,6 @@
 babblingcurse:
-  icon: diamond_axe:8
-  icon_disabled: diamond_hoe:8
+  icon: diamond_axe{CustomModelData:195}
+  icon_disabled: diamond_hoe{CustomModelData:195}
   category: charms
   worth: 5 ac
   upgrade_required_path: year2

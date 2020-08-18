@@ -1,6 +1,6 @@
 ascendio:
   icon: diamond_axe{CustomModelData:101}
-  icon_disabled: diamond_axe{CustomModelData:101}
+  icon_disabled: diamond_hoe{CustomModelData:101}
   worth: 10 ac
   upgrade_required_path: year3
   upgrade_required_casts: 25

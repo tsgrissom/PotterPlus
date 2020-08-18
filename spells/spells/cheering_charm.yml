@@ -1,7 +1,7 @@
 cheeringcharm:
   category: charms
-  icon: diamond_axe:46
-  icon_disabled: diamond_hoe:46
+  icon: diamond_axe{CustomModelData:195}
+  icon_disabled: diamond_hoe{CustomModelData:195}
   upgrade_required_casts: 25
   upgrade_required_path: year2
   worth: 5 ac

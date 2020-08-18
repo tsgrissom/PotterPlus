@@ -1,6 +1,6 @@
 immobulus:
-  icon: diamond_axe{CustomModelData:4}
-  icon_disabled: diamond_hoe{CustomModelData:4}
+  icon: diamond_axe{CustomModelData:28}
+  icon_disabled: diamond_hoe{CustomModelData:28}
   worth: 10 ac
   upgrade_required_path: year3
   upgrade_required_casts: 50

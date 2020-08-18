@@ -1,6 +1,6 @@
 nox:
   icon: diamond_axe{CustomModelData:140}
-  icon_disabled: diamond_axe{CustomModelData:140}
+  icon_disabled: diamond_hoe{CustomModelData:140}
   worth: 5 ac
   tags: noprogression
   actions:

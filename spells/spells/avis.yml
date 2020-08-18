@@ -1,7 +1,7 @@
 avis:
   inherit: false
-  icon: diamond_axe:226
-  icon_disabled: diamond_hoe:226
+  icon: diamond_axe{CustomModelData:117}
+  icon_disabled: diamond_hoe{CustomModelData:117}
   category: creatures
   worth: 5 ac
   upgrade_required_casts: 25

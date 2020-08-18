@@ -1,4 +1,6 @@
 incarcerous:
+  icon: diamond_axe{CustomModelData:184}
+  icon_disabled: diamond_hoe{CustomModelData:184}
   worth: 10 ac
   upgrade_required_path: year5
   upgrade_required_casts: 25

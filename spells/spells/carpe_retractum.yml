@@ -1,6 +1,6 @@
 carperetractum:
-  icon: diamond_axe:198
-  icon_disabled: diamond_hoe:198
+  icon: diamond_axe{CustomModelData:275}
+  icon_disabled: diamond_hoe{CustomModelData:275}
   worth: 10 ac
   upgrade_required_casts: 25
   upgrade_required_path: year5

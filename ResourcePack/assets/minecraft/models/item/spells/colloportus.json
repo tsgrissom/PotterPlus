@@ -1,0 +1,7 @@
+{
+    "parent" : "item/custom/icon",
+    "textures": {
+        "particle": "item/spells/colloportus",
+        "texture": "item/spells/colloportus"
+    }
+}

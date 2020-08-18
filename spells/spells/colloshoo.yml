@@ -1,7 +1,7 @@
 colloshoo:
   category: dada
-  icon: diamond_axe:180
-  icon_disabled: diamond_hoe:180
+  icon: diamond_axe{CustomModelData:147}
+  icon_disabled: diamond_hoe{CustomModelData:147}
   worth: 10 ac
   upgrade_required_casts: 25
   upgrade_required_path: year3

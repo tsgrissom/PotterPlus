@@ -1,7 +1,7 @@
 periculum:
   inherit: false
-  icon: diamond_axe:148
-  icon_disabled: diamond_hoe:148
+  icon: diamond_axe{CustomModelData:179}
+  icon_disabled: diamond_hoe{CustomModelData:179}
   category: charms
   worth: 5 ac
   show_undoable: false

@@ -1,6 +1,6 @@
 bedazzlinghex:
-  icon: diamond_axe:230
-  icon_disabled: diamond_hoe:230
+  icon: diamond_axe{CustomModelData:43}
+  icon_disabled: diamond_hoe{CustomModelData:43}
   worth: 10 ac
   category: dada
   upgrade_required_path: year2

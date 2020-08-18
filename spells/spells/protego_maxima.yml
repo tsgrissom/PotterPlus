@@ -1,4 +1,6 @@
 protegomaxima:
+  icon: diamond_axe{CustomModelData:258}
+  icon_disabled: diamond_hoe{CustomModelData:258}
   upgrade_required_casts: 50
   tags: nojail
   parameters:

@@ -1,7 +1,7 @@
 stinginghex:
   category: dark
-  icon: diamond_axe:151
-  icon_disabled: diamond_hoe:151
+  icon: diamond_axe{CustomModelData:20}
+  icon_disabled: diamond_hoe{CustomModelData:20}
   worth: 20 ac
   upgrade_required_path: year6
   upgrade_required_casts: 25

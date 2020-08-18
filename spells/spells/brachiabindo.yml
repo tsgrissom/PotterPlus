@@ -1,5 +1,7 @@
 brachiabindo:
   inherit: incarcerous
+  icon: diamond_axe{CustomModelData:110}
+  icon_disabled: diamond_hoe{CustomModelData:110}
   upgrade_required_path: year2
   upgrade_required_casts: 25
   effects:

@@ -1,7 +1,7 @@
 patronus:
   inherit: false
-  icon: diamond_axe{CustomModelData:8}
-  icon_disabled: diamond_hoe{CustomModelData:8}
+  icon: diamond_axe{CustomModelData:265}
+  icon_disabled: diamond_hoe{CustomModelData:265}
   category: charms
   worth: 15 ac
   costs:

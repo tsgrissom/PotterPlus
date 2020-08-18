@@ -1,4 +1,6 @@
 imperio:
+  icon: diamond_axe{CustomModelData:90}
+  icon_disabled: diamond_hoe{CustomModelData:90}
   category: unforgivable
   pvp_restricted: true
   worth: 40 ac

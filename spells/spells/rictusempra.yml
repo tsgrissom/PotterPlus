@@ -1,4 +1,6 @@
 rictusempra:
+  icon: diamond_axe{CustomModelData:28}
+  icon_disabled: diamond_hoe{CustomModelData:28}
   category: dada
   worth: 5 ac
   upgrade_required_path: year3

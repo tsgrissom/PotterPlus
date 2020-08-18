@@ -1,6 +1,6 @@
 protego:
-  icon: diamond_axe{CustomModelData:151}
-  icon_disabled: diamond_axe{CustomModelData:151}
+  icon: diamond_axe{CustomModelData:257}
+  icon_disabled: diamond_hoe{CustomModelData:257}
   worth: 15 ac
   upgrade_required_path: year4
   upgrade_required_casts: 75

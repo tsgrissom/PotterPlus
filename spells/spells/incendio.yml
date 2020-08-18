@@ -1,4 +1,6 @@
 incendio:
+  icon: diamond_axe{CustomModelData:46}
+  icon_disabled: diamond_hoe{CustomModelData:46}
   category: charms
   worth: 10 ac
   upgrade_required_path: year2

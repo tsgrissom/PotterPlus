@@ -1,8 +1,8 @@
 levicorpus:
   inherit: false
   worth: 15 ac
-  icon: diamond_axe:163
-  icon_disabled: diamond_hoe:163
+  icon: diamond_axe{CustomModelData:22}
+  icon_disabled: diamond_hoe{CustomModelData:22}
   category: dada
   cast_on_no_target: true
   upgrade_required_casts: 25

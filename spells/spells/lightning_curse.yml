@@ -1,5 +1,7 @@
 lightningcurse:
   inherit: smite
+  icon: diamond_axe{CustomModelData:90}
+  icon_disabled: diamond_hoe{CustomModelData:90}
   category: dark
   worth: 25 ac
   upgrade_required_path: year7

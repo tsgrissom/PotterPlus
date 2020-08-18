@@ -1,5 +1,7 @@
 baubillious:
   inherit: chainlightning
+  icon: diamond_axe{CustomModelData:188}
+  icon_disabled: diamond_hoe{CustomModelData:188}
   category: dark
   worth: 20 ac
   upgrade_required_path: year6

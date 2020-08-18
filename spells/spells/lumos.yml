@@ -1,6 +1,6 @@
 lumos:
-  icon: diamond_axe{CustomModelData:135}
-  icon_disabled: diamond_hoe{CustomModelData:135}
+  icon: diamond_axe{CustomModelData:255}
+  icon_disabled: diamond_hoe{CustomModelData:255}
   category: charms
   tags: default
   worth: 10 ac

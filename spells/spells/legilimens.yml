@@ -1,7 +1,7 @@
 legilimens:
   inherit: false
-  icon: diamond_axe:107
-  icon_disabled: diamond_hoe:107
+  icon: diamond_axe{CustomModelData:189}
+  icon_disabled: diamond_hoe{CustomModelData:189}
   category: elective
   cast_on_no_target: true
   worth: 15 ac

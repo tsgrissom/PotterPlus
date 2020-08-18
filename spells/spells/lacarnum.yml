@@ -1,6 +1,6 @@
 lacarnum:
-  icon: diamond_axe:153
-  icon_disabled: diamond_hoe:153
+  icon: diamond_axe{CustomModelData:49}
+  icon_disabled: diamond_hoe{CustomModelData:49}
   category: charms
   worth: 20 ac
   upgrade_required_path: year6

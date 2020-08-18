@@ -1,7 +1,7 @@
 salviohexia:
   inherit: false
-  icon: diamond_axe:74
-  icon_disabled: diamond_hoe:74
+  icon: diamond_axe{CustomModelData:151}
+  icon_disabled: diamond_hoe{CustomModelData:151}
   category: dada
   tags: noduel
   worth: 10 ac

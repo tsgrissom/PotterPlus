@@ -1,6 +1,6 @@
 incarcifors:
   icon: diamond_axe{CustomModelData:116}
-  icon_disabled: diamond_axe{CustomModelData:116}
+  icon_disabled: diamond_hoe{CustomModelData:116}
   inherit: cage
   worth: 25 ac
   category: transfiguration

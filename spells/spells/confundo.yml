@@ -1,5 +1,7 @@
 confundo:
   inherit: confundus
+  icon: diamond_axe{CustomModelData:32}
+  icon_disabled: diamond_hoe{CustomModelData:32}
   category: dada
   worth: 10 ac
   upgrade_required_path: year6

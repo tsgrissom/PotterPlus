@@ -1,7 +1,7 @@
 waddiwasi:
   inherit: colloshoo
-  icon: diamond_axe:133
-  icon_disabled: diamond_hoe:133
+  icon: diamond_axe{CustomModelData:158}
+  icon_disabled: diamond_hoe{CustomModelData:158}
   worth: 10 ac
   category: charms
   effects:

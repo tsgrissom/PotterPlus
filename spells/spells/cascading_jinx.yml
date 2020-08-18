@@ -1,7 +1,7 @@
 cascadingjinx:
   inherit: baubillious
-  icon: diamond_axe:161
-  icon_disabled: diamond_hoe:161
+  icon: diamond_axe{CustomModelData:91}
+  icon_disabled: diamond_hoe{CustomModelData:91}
   category: dada
   worth: 20 ac
   upgrade_required_path: year5

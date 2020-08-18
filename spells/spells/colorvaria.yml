@@ -1,4 +1,6 @@
 colorvaria:
+  icon: diamond_axe{CustomModelData:250}
+  icon_disabled: diamond_hoe{CustomModelData:250}
   worth: 5 ac
   actions:
     cast:

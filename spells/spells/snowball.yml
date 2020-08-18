@@ -1,7 +1,7 @@
 snowball:
   inherit: false
-  icon: diamond_axe:59
-  icon_disabled: diamond_hoe:59
+  icon: diamond_axe{CustomModelData:193}
+  icon_disabled: diamond_hoe{CustomModelData:193}
   category: charms
   worth: 10
   upgrade_required_path: year2

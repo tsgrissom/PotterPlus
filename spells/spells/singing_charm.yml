@@ -1,7 +1,7 @@
 singingcharm:
   category: charms
-  icon: diamond_axe:8
-  icon_disabled: diamond_hoe:8
+  icon: diamond_axe{CustomModelData:195}
+  icon_disabled: diamond_hoe{CustomModelData:195}
   worth: 5 ac
   costs:
     mana: 15

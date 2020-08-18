@@ -1,7 +1,7 @@
 bombarda:
   inherit: false
-  icon: diamond_axe{CustomModelData:79}
-  icon_disabled: diamond_axe{CustomModelData:79}
+  icon: diamond_axe{CustomModelData:274}
+  icon_disabled: diamond_hoe{CustomModelData:274}
   category: dark
   worth: 20 ac
   upgrade_required_path: year4

@@ -1,7 +1,7 @@
 ferula:
   inherit: false
-  icon: diamond_axe:10
-  icon_disabled: diamond_hoe:10
+  icon: diamond_axe{CustomModelData:128}
+  icon_disabled: diamond_hoe{CustomModelData:128}
   worth: 15 ac
   category: charms
   upgrade_required_path: year2

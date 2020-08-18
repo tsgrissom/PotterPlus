@@ -1,4 +1,6 @@
 lapifors:
+  icon: diamond_axe{CustomModelData:254}
+  icon_disabled: diamond_hoe{CustomModelData:254}
   inherit: avis
   parameters:
     type: rabbit

@@ -1,6 +1,6 @@
 expulso:
-  icon: diamond_axe:161
-  icon_disabled: diamond_hoe:161
+  icon: diamond_axe{CustomModelData:97}
+  icon_disabled: diamond_hoe{CustomModelData:97}
   category: dark
   worth: 20 ac
   upgrade_required_path: year7

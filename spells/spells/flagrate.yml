@@ -1,5 +1,7 @@
 flagrate:
   upgrade_required_casts: 25
+  icon: diamond_axe{CustomModelData:58}
+  icon_disabled: diamond_hoe{CustomModelData:58}
   worth: 5 ac
   actions:
     cast:

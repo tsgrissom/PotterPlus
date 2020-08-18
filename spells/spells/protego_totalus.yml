@@ -1,6 +1,6 @@
 protegototalus:
-  icon: diamond_axe:74
-  icon_disabled: diamond_hoe:74
+  icon: diamond_axe{CustomModelData:174}
+  icon_disabled: diamond_hoe{CustomModelData:174}
   category: dada
   tags: noduel
   worth: 20 ac

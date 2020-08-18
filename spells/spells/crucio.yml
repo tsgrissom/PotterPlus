@@ -1,4 +1,6 @@
 crucio:
+  icon: diamond_axe{CustomModelData:164}
+  icon_disabled: diamond_hoe{CustomModelData:164}
   category: unforgivable
   worth: 30 ac
   pvp_restricted: true

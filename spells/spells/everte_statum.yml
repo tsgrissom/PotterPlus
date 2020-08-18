@@ -1,6 +1,6 @@
 evertestatum:
-  icon: diamond_axe:151
-  icon_disabled: diamond_hoe:151
+  icon: diamond_axe{CustomModelData:96}
+  icon_disabled: diamond_hoe{CustomModelData:96}
   category: dada
   worth: 10 ac
   upgrade_required_path: year3

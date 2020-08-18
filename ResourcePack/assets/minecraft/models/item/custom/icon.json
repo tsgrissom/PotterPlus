@@ -1,7 +1,8 @@
 {
 "__comment": "Designed by Droobledore - with BDcraft Cubik PRO 0.96 Beta. Used with permission in NathanWolf's Magic plugin.",
+"parent" : "item/custom/lit",
 "ambientocclusion": false,
-"elements": [ 
+"elements": [
 {
     "__comment": "Icon",
     "from": [ 0, 0, 8 ],

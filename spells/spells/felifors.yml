@@ -1,6 +1,6 @@
 felifors:
-  icon: diamond_axe:181
-  icon_disabed: diamond_hoe:181
+  icon: diamond_axe{CustomModelData:253}
+  icon_disabled: diamond_hoe{CustomModelData:253}
   category: transfiguration
   worth: 15 ac
   upgrade_required_path: year3

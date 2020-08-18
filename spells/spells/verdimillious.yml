@@ -1,7 +1,7 @@
 verdimillious:
   inherit: vermillious
-  icon: diamond_axe{CustomModelData:21}
-  icon_disabled: diamond_hoe{CustomModelData:21}
+  icon: diamond_axe{CustomModelData:27}
+  icon_disabled: diamond_hoe{CustomModelData:27}
   upgrade_required_path: year4
   category: dada
   effects:

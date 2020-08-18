@@ -1,7 +1,7 @@
 obliviate:
   category: charms
-  icon: diamond_axe:83
-  icon_disabled: diamond_hoe:83
+  icon: diamond_axe{CustomModelData:43}
+  icon_disabled: diamond_hoe{CustomModelData:43}
   worth: 25 ac
   actions:
     cast:

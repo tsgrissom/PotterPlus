@@ -1,6 +1,6 @@
 portus:
-  icon: diamond_axe:186
-  icon_disabled: diamond_hoe:186
+  icon: diamond_axe{CustomModelData:71}
+  icon_disabled: diamond_hoe{CustomModelData:71}
   worth: 20 ac
   category: charms
   upgrade_required_path: year7

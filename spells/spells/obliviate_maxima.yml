@@ -2,8 +2,8 @@
 
 obliviatemaxima:
   category: staff
-  icon: diamond_axe:230
-  icon_disabled: diamond_hoe:230
+  icon: diamond_axe{CustomModelData:138}
+  icon_disabled: diamond_hoe{CustomModelData:138}
   worth: 30 ac
   actions:
     cast:

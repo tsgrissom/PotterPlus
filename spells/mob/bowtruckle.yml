@@ -1,13 +1,3 @@
-bowtruckle_tree:
-  inherit: forest
-  icon: log
-  category: specialty
-  hidden: true
-  parameters:
-    undo: 12000
-    target: self
-    cooldown: 0
-
 bowtruckle_wood_throw:
   icon: log
   category: specialty

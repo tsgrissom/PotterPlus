@@ -1,6 +1,6 @@
 alarteascendare:
-  icon: diamond_axe:150
-  icon_disabled: diamond_hoe:150
+  icon: diamond_axe{CustomModelData:101}
+  icon_disabled: diamond_hoe{CustomModelData:101}
   category: charms
   worth: 10 ac
   upgrade_required_path: year2

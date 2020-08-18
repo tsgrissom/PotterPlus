@@ -1,6 +1,6 @@
 defodio:
-  icon: diamond_axe:108
-  icon_disabled: diamond_hoe:108
+  icon: diamond_axe{CustomModelData:112}
+  icon_disabled: diamond_hoe{CustomModelData:112}
   category: charms
   worth: 15 ac
   class: ConstructSpell

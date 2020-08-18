@@ -1,6 +1,6 @@
 titillando:
-  icon: diamond_axe:163
-  icon_disabled: diamond_hoe:163
+  icon: diamond_axe{CustomModelData:39}
+  icon_disabled: diamond_hoe{CustomModelData:39}
   category: dada
   worth: 10 ac
   upgrade_required_path: year6

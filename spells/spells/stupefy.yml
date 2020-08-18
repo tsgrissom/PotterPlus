@@ -1,7 +1,7 @@
 stupefy:
   inherit: false
-  icon: diamond_axe{CustomModelData:164}
-  icon_disabled: diamond_hoe{CustomModelData:164}
+  icon: diamond_axe{CustomModelData:41}
+  icon_disabled: diamond_hoe{CustomModelData:41}
   upgrade_required_path: year5
   upgrade_required_casts: 25
   category: dada

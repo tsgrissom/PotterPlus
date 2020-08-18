@@ -1,6 +1,6 @@
 finestra:
-  icon: diamond_axe:108
-  icon_disabled: diamond_hoe:108
+  icon: diamond_axe{CustomModelData:199}
+  icon_disabled: diamond_hoe{CustomModelData:199}
   category: charms
   worth: 15 ac
   class: ConstructSpell
