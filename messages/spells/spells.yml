@@ -411,7 +411,18 @@ spells:
     upgrade_description: |-
       Increased speed.
       Increased jump.
-      Increased velocity.
+  cheeringcharm|4:
+    upgrade_description: |-
+      Increased duration.
+  cheeringcharm|5:
+    upgrade_description: |-
+      Increased speed.
+  cheeringcharm|6:
+    upgrade_description: |-
+      Increased duration.
+  cheeringcharm|7:
+    upgrade_description: |-
+      Increased duration.
 
   colloportus:
     description: >-

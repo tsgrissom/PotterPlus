@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/20/20
 
+* Re-worked Cheering Charm as a self cast with new SFX and 7 levels.
 * Re-worked max level Arania Exumai to be a lingering AOE.
 
 ### 8/19/20
