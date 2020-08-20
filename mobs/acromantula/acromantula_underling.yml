@@ -1,7 +1,7 @@
 acromantula_underling:
   type: cave_spider
   name: '&2Acromantula Underling'
-  health: 10
+  health: 20
   default_drops: false
   interval: 5000
   track_radius: 48

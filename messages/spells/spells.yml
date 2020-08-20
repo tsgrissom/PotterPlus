@@ -136,13 +136,28 @@ spells:
     name: >-
       Arania Exumai
     description: >-
-      Repells and heavily damages spiders.
+      Repells and hurts spiders.
   araniaexumai|2:
     upgrade_description: |-
       Increased damage.
+      Able to one-shot small acromantula.
   araniaexumai|3:
     upgrade_description: |-
       Increased damage.
+  araniaexumai|4:
+    upgrade_description: |-
+      Increased damage
+      Able to one-shot regular acromantula.
+  araniaexumai|5:
+    upgrade_description: |-
+      Increased range.
+      Increased radius.
+  araniaexumai|6:
+    upgrade_description: |-
+      Increased radius.
+  araniaexumai|7:
+    upgrade_description: |-
+      Increased range.
 
   arresto:
     name: >-
