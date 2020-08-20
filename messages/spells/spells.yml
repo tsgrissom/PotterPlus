@@ -820,6 +820,46 @@ spells:
       Flipendo
     description: >-
       Pushes the target backwards.
+  flipendo|2:
+    upgrade_description: |-
+      Increased damage.
+  flipendo|3:
+    upgrade_description: |-
+      Increased range.
+  flipendo|4:
+    upgrade_description: |-
+      Increased force.
+  flipendo|5:
+    upgrade_description: |-
+      Can now push multiple things at once.
+  flipendo|6:
+    upgrade_description: |-
+      Increased damage.
+  flipendo|7:
+    upgrade_description: |-
+      Increased damage.
+  flipendo|8:
+    upgrade_description: |-
+      Increased range.
+  flipendo|9:
+    upgrade_description: |-
+      Increased force.
+  flipendo|10:
+    upgrade_description: |-
+      Increased force.
+  flipendo|11:
+    upgrade_description: |-
+      Increased range.
+  flipendo|12:
+    upgrade_description: |-
+      Increased damage.
+      Can now push more things at once.
+  flipendo|13:
+    upgrade_description: |-
+      Can now push more things at once.
+  flipendo|14:
+    upgrade_description: |-
+      Increased damage.
 
   fourpoint:
     name: >-

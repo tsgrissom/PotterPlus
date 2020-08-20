@@ -39,6 +39,7 @@ lumos:
     target: self
     radius: 8
     effect_night_vision: 0
+    effects_particles: false
     duration: 10000
     cooldown: 10000
     cancel_on_no_wand: true
