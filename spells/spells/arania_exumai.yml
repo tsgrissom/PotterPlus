@@ -22,14 +22,15 @@ araniaexumai:
         sound: magic.zap
     tick:
       - particle: fireworks_spark
-        particle_count: 1
+        particle_count: 2
+        particle_data: 0.5
         location: target
     projectile:
       - class: EffectSingle
         location: origin
         effectlib:
           class: Sphere
-          radius: 0.2
+          radius: 0.15
           particle: spell_mob
           color: 58FAD0
     hit:
@@ -48,6 +49,7 @@ araniaexumai:
     entity:
       - class: EffectSingle
         location: target
+        requires_entity: true
         effectlib:
           class: Sphere
           radius: 1
@@ -60,7 +62,7 @@ araniaexumai:
     target: other
     target_type: Spider
     velocity: 15
-    gravity: 0.05
+    gravity: 0.03
     radius: 4
     damage: 15
     range: 16
@@ -107,5 +109,38 @@ araniaexumai|6:
     radius: 5
 
 araniaexumai|7:
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Repeat
+            actions:
+              - class: PlayEffects
+                effect: aoe
+              - class: AreaOfEffect
+                actions:
+                  - class: PlayEffects
+                    effect: entity
+                  - class: Velocity
+                  - class: Damage
+              - class: Delay
+  effects:
+    hit: []
+    aoe:
+      - class: EffectSingle
+        location: target
+        sound: magic.shimmer
+        requires_entity: false
+        effectlib:
+          class: Shield
+          radius: $radius
+          rings: 2
+          duration: 1000
+          particle: spell_mob
+          particleSize: 10
+          color: 58FAD0
   parameters:
-    radius: 5.5
+    radius: 6
+    repeat: 4
+    delay: 1500
+    duration: 6000

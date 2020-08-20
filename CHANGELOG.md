@@ -8,6 +8,10 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 8/20/20
+
+* Re-worked max level Arania Exumai to be a lingering AOE.
+
 ### 8/19/20
 
 * Gave Arania Exumai a rework with levels for every grade.

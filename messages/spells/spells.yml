@@ -158,6 +158,7 @@ spells:
   araniaexumai|7:
     upgrade_description: |-
       Increased radius.
+      Creates a lingering area of effect.
 
   arresto:
     name: >-
