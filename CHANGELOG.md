@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 8/20/20
 
+* Adjusted Herbifors SFX.
 * Added 14 levels to Flipendo, two for each year.
 * Re-worked Cheering Charm as a self cast with new SFX and 7 levels.
 * Re-worked max level Arania Exumai to be a lingering AOE.

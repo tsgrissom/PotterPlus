@@ -12,15 +12,19 @@ herbifors:
         effectlib:
           class: Cone
           iterations: 10
-          particle: item_crack
-          material: bone
+          particle: spell_mob
+          color: 03af47
           lengthGrow: 0.1
           radiusGrow: 0.003
           updateLocations: false
           updateDirections: false
     tick:
+      - particle: redstone
+        color: 25f221
+        location: target
       - class: EffectSingle
-        particle: villager_happy
+        particle: fireworks_spark
+        particle_data: 1
         location: target
     hit:
       - class: EffectSingle
