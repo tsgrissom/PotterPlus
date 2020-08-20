@@ -20,6 +20,10 @@ araniaexumai:
     cast:
       - class: EffectSingle
         sound: magic.zap
+    tick:
+      - particle: fireworks_spark
+        particle_count: 1
+        location: target
     projectile:
       - class: EffectSingle
         location: origin
@@ -38,7 +42,7 @@ araniaexumai:
           radius: $radius
           rings: 2
           duration: 1000
-          particle: spell_mob_ambient
+          particle: spell_mob
           particleSize: 10
           color: 58FAD0
     entity:
@@ -104,4 +108,4 @@ araniaexumai|6:
 
 araniaexumai|7:
   parameters:
-    range: 6
+    radius: 5.5
