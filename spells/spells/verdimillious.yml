@@ -5,20 +5,29 @@ verdimillious:
   upgrade_required_path: year4
   category: dada
   effects:
-    cast:
-      - class: EffectSingle
-        sound: magic.zap
     tick:
       - class: EffectSingle
-        particle: redstone
-        color: 088A08
         location: target
-    hit_entity:
+        effectlib:
+          class: Sphere
+          particle: spell_mob
+          particles: 5
+          color: 42b013
+          radius: 0.1
+          duration: 100
+      - particle: fireworks_spark
+        particle_data: 0.5
+        location: target
+    hit:
       - class: EffectSingle
         location: target
-        color: 088A08
-        color2: 088A08
-        firework: ball
+        sound: magic.hit
+        particle: fireworks_spark
+        particle_count: 10
+        particle_data: 0.5
+        firework: burst
+        color: 42b013
+        color2: FFFFFF
   parameters:
     damage: 2
     range: 24

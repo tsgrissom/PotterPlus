@@ -11,8 +11,11 @@ babblingcurse:
         actions:
           - class: Chat
   effects:
+    cast:
+      - sound: betterpotter.whoosh
     tick:
-      - particle: fireworks_spark
+      - particle: spell_mob
+        color: FFFFFF
         location: target
     hit:
       - firework: burst
@@ -40,7 +43,7 @@ babblingcurse:
       - "Po"
       - "Noo-noo"
   costs:
-    mana: 30
+    mana: 40
 
 babblingcurse|2:
   parameters:

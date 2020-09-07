@@ -8,6 +8,12 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 9/7/20
+
+* Re-worked Flintifors and Scribblifors to be in line with my vision for transfiguration spells.
+* Adjusted Babbling Curse SFX.
+* Re-worked Vermillious and Verdimillious SFX to be in line with my vision for dueling spells.
+
 ### 8/20/20
 
 * Adjusted Herbifors SFX.

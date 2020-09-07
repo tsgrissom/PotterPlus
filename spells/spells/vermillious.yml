@@ -5,7 +5,7 @@ vermillious:
   category: dada
   worth: 10 ac
   upgrade_required_path: year3
-  upgrade_required_casts: 50=
+  upgrade_required_casts: 50
   actions:
     cast:
       - class: CustomProjectile
@@ -17,30 +17,34 @@ vermillious:
         sound: magic.zap
     tick:
       - class: EffectSingle
-        particle: redstone
-        color: c64343
         location: target
-    hit_entity:
-      - class: EffectSingle
+        effectlib:
+          class: Sphere
+          particle: spell_mob
+          particles: 5
+          color: ff1f1f
+          radius: 0.1
+          duration: 100
+      - particle: fireworks_spark
+        particle_data: 0.5
         location: target
-        color: c64343
-        color2: c64343
-        firework: ball
     hit:
       - class: EffectSingle
         location: target
+        sound: magic.hit
         particle: fireworks_spark
         particle_count: 10
-        particle_data: 1
+        particle_data: 0.5
+        firework: burst
+        color: ff1f1f
+        color2: FFFFFF
   parameters:
+    cooldown: 5000
     hitbox: true
     target_type: LivingEntity
-    target_breakables: 0
-    bypass_backfire: false
-    cooldown: 1500
-    range: 8
+    range: 16
     damage: 1.5
-    velocity: 75
+    velocity: 20
   costs:
     mana: 15
 
@@ -54,7 +58,7 @@ vermillious|3:
   upgrade_required_path: year5
   upgrade_required_casts: 125
   parameters:
-    range: 16
+    range: 24
     damage: 2.5
 
 vermillious|4:
@@ -67,7 +71,7 @@ vermillious|5:
   upgrade_required_path: year7
   upgrade_required_casts: 175
   parameters:
-    range: 24
+    range: 32
     damage: 3.5
 
 vermillious|6:

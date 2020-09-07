@@ -1,17 +1,28 @@
 flintifors:
   inherit: scribblifors
-  icon: diamond_axe{CustomModelData:144}
-  icon_disabled: diamond_hoe{CustomModelData:144}
+  icon: diamond_axe{CustomModelData:141}
+  icon_disabled: diamond_hoe{CustomModelData:141}
   effects:
-    cast:
+    tick:
+      - location: target
+        effectlib:
+          class: Sphere
+          radius: 0.05
+          particle: redstone
+          color: e39208
+          duration: 250
+    hit:
       - class: EffectSingle
         sound: magic.zap
-        location: origin
+        sound_volume: 0.1
+        location: target
         use_wand_location: false
         effectlib:
           class: AnimatedBall
-          particle: flame
-          iterations: 16
+          particle: redstone
+          color: e39208
+          duration: 3000
+          size: 0.5
   parameters:
     item: conjuredflintandsteel
 
