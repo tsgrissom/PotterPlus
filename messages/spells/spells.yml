@@ -70,7 +70,6 @@ spells:
       Can be used to unlock locked doors.
   alohomora|2:
     upgrade_description: |-
-      Increased range.
       Decreased chance of fizzling.
   alohomora|3:
     upgrade_description: |-
@@ -78,6 +77,40 @@ spells:
   alohomora|4:
     upgrade_description: |-
       Decreased chance of fizzling.
+  alohomora|5:
+    upgrade_description: |-
+      Increased range.
+      Decreased chance of fizzling.
+  alohomora|6:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  alohomora|7:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  alohomora|8:
+    upgrade_description: |-
+      Increased range.
+      Decreased chance of fizzling.
+  alohomora|9:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  alohomora|10:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  alohomora|11:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  alohomora|12:
+    upgrade_description: |-
+      Increased range.
+      Decreased chance of fizzling.
+  alohomora|13:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  alohomora|14:
+    upgrade_description: |-
+      Increased range.
+      No chance of fizzling.
 
   aparecium:
     name: >-

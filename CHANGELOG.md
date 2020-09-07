@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/7/20
 
+* Gave Alohomora 14 levels of progression.
 * Re-worked Flintifors and Scribblifors to be in line with my vision for transfiguration spells.
 * Adjusted Babbling Curse SFX.
 * Re-worked Vermillious and Verdimillious SFX to be in line with my vision for dueling spells.
