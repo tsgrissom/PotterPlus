@@ -1146,12 +1146,18 @@ spells:
       disorienting them.
   levicorpus|2:
     upgrade_description: |-
-      Increased levitation speed.
-      Increased disorientation.
+      Increased range.
+      Increased speed.
   levicorpus|3:
     upgrade_description: |-
-      Increased levitation speed.
-      Increased disorientation.
+      Increased range.
+      Increased speed.
+  levicorpus|4:
+    upgrade_description: |-
+      Increased speed.
+  levicorpus|5:
+    upgrade_description: |-
+      Increased duration.
 
   liberacorpus:
     name: >-

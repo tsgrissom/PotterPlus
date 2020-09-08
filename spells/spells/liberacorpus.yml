@@ -31,7 +31,6 @@ liberacorpus:
     remove_effects:
       - levitation
     target_spell: levicorpus
-    force: true
     target: self
     cooldown: 8000
 

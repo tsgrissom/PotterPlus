@@ -32,7 +32,6 @@ obliviate:
         fadeColor: D3D3D3
   parameters:
     cooldown: 8000
-    repeat: 100
     range: 16
     hitbox: true
     velocity: 125
