@@ -10,8 +10,8 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/27/20
 
+* Adjusted Flagrate's overall SFX
 * Added Mastery Credit spell shop system for getting the final spell of each year.
-* Gave Flagrate sound effects.
 * Adjusted how the starting flow for players works with wand shops.
 * Merged John Smith Legacy into the pack.
 

@@ -9,14 +9,21 @@ flagrate:
   effects:
     cast:
       - sound: magic.zap
+        class: EffectTrail
+        particle: flame
+        particle_data: 0.1
+        particle_count: 10
     name:
-      - class: EffectSingle
+      - class: EffectRepeat
+        delay: 1000
+        sound: magic.zap_up
+        sound_volume: 0.5
         location: target
         target_offset: 0,3,0
         effectlib:
           class: Text
           text: $target
-          iterations: 3
+          duration: 1000
           particle: lava
   parameters:
     effect: name
