@@ -1,0 +1,8 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/template_fire_side",
+    "textures": {
+        "particle": "minecraft:block/soul_fire_3",
+        "fire": "minecraft:block/soul_fire_3"
+    }
+}

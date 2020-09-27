@@ -8,6 +8,11 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 9/27/20
+
+* Adjusted how the starting flow for players works with wand shops.
+* Merged John Smith Legacy into the pack.
+
 ### 9/8/20
 
 * Cleaned up some parameter definitions (thanks MagicScan!)

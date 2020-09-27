@@ -1,0 +1,10 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+        "particle": "minecraft:block/mycelium_top",
+        "bottom": "minecraft:block/dirt",
+        "top": "minecraft:block/mycelium_top2",
+        "side": "minecraft:block/mycelium_side"
+    }
+}

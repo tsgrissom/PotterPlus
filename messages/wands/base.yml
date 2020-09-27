@@ -4,6 +4,11 @@ wands:
       &5Wand Ticket
     description: >-
       &dYou can trade this for your very first wand at a &5Wand Shop&8.
+  wandbox:
+    name: >-
+      &3Wand Box &8(Right-Click)
+    description: >-
+      &9Contains your very first wand.
   randomizedpotterwand:
     description: >-
       $length Inches $flex $wood with $core

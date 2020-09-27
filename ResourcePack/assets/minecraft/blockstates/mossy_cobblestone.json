@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/mossy_cobblestone", "weight": 40 },
+            { "model": "minecraft:block/mossy_cobblestone1", "weight": 20 },
+            { "model": "minecraft:block/mossy_cobblestone2", "weight": 20 },
+            { "model": "minecraft:block/mossy_cobblestone3", "weight": 20 }
+        ]
+    }
+}

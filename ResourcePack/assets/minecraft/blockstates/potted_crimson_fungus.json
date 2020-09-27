@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/potted_crimson_fungus", "weight": 25 },
+            { "model": "minecraft:block/potted_crimson_fungus1", "weight": 25 },
+            { "model": "minecraft:block/potted_crimson_fungus2", "weight": 25 },
+            { "model": "minecraft:block/potted_crimson_fungus3", "weight": 25 }
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "type=bottom": [
+            { "model": "minecraft:block/granite_slab" },
+            { "model": "minecraft:block/granite_slab1" },
+            { "model": "minecraft:block/granite_slab2" },
+            { "model": "minecraft:block/granite_slab3" },
+            { "model": "minecraft:block/granite_slab4" },
+            { "model": "minecraft:block/granite_slab5" },
+            { "model": "minecraft:block/granite_slab6" },
+            { "model": "minecraft:block/granite_slab7" }
+        ],
+        "type=top": [
+            { "model": "minecraft:block/granite_slab_top" },
+            { "model": "minecraft:block/granite_slab_top1" },
+            { "model": "minecraft:block/granite_slab_top2" },
+            { "model": "minecraft:block/granite_slab_top3" },
+            { "model": "minecraft:block/granite_slab_top4" },
+            { "model": "minecraft:block/granite_slab_top5" },
+            { "model": "minecraft:block/granite_slab_top6" },
+            { "model": "minecraft:block/granite_slab_top7" }
+        ],
+        "type=double": [
+            { "model": "minecraft:block/granite" },
+            { "model": "minecraft:block/granite1" },
+            { "model": "minecraft:block/granite2" },
+            { "model": "minecraft:block/granite3" },
+            { "model": "minecraft:block/granite4" },
+            { "model": "minecraft:block/granite5" },
+            { "model": "minecraft:block/granite6" },
+            { "model": "minecraft:block/granite7" }
+        ]
+    }
+}

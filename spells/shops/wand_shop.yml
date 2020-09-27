@@ -8,6 +8,6 @@ wandshop:
     auto_close: true
     confirm: false
     items:
-      - item: wand:randomizedpotterwand
+      - item: wand:wandbox
         costs:
           ticket: 1

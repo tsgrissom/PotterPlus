@@ -1,0 +1,23 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "type=bottom": [
+            { "model": "minecraft:block/polished_andesite_slab" },
+            { "model": "minecraft:block/polished_andesite_slab1" },
+            { "model": "minecraft:block/polished_andesite_slab2" },
+            { "model": "minecraft:block/polished_andesite_slab3" }
+        ],
+        "type=top": [
+            { "model": "minecraft:block/polished_andesite_slab_top" },
+            { "model": "minecraft:block/polished_andesite_slab_top1" },
+            { "model": "minecraft:block/polished_andesite_slab_top2" },
+            { "model": "minecraft:block/polished_andesite_slab_top3" }
+        ],
+        "type=double": [
+            { "model": "minecraft:block/polished_andesite_slab_double" },
+            { "model": "minecraft:block/polished_andesite_slab_double1" },
+            { "model": "minecraft:block/polished_andesite_slab_double2" },
+            { "model": "minecraft:block/polished_andesite_slab_double3" }
+        ]
+    }
+}

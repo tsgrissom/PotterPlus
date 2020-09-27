@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "minecraft:block/dark_prismarine4",
+        "top": "minecraft:block/dark_prismarine4",
+        "side": "minecraft:block/dark_prismarine4"
+    }
+}

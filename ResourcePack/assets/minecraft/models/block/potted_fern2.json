@@ -1,0 +1,8 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/custom_template_tinted_flower_pot_cross",
+    "textures": {
+        "plant": "minecraft:block/fern_pot",
+        "flower_pot": "minecraft:block/flower_pot2"
+    }
+}

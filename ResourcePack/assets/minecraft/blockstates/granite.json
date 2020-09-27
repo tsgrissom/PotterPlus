@@ -1,0 +1,15 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/granite", "weight": 40 },
+            { "model": "minecraft:block/granite1", "weight": 5 },
+            { "model": "minecraft:block/granite2", "weight": 20 },
+            { "model": "minecraft:block/granite3", "weight": 10 },
+            { "model": "minecraft:block/granite4", "weight": 5 },
+            { "model": "minecraft:block/granite5", "weight": 5 },
+            { "model": "minecraft:block/granite6", "weight": 10 },
+            { "model": "minecraft:block/granite7", "weight": 5 }
+        ]
+    }
+}

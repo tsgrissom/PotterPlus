@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/custom_orientable",
+    "textures": {
+        "top": "minecraft:block/dispenser_top",
+        "bottom": "minecraft:block/dispenser_bottom",
+        "front": "minecraft:block/dispenser_front",
+        "side": "minecraft:block/dispenser_side",
+        "back": "minecraft:block/dispenser_back"
+    }
+}

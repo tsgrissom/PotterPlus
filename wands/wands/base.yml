@@ -11,7 +11,17 @@ base_wand:
   swap: cycle_hotbar
 
 wandbox:
-  enabled: false
+  inherit: false
+  icon: wooden_hoe{CustomModelData:100}
+  active_spell: open_wandbox
+  lore:
+    - "$description"
+  spells:
+    - open_wandbox
+  drop: none
+  left_click: none
+  right_click: cast
+  swap: none
 
 potterwand:
   # Defines how many spell hotbars the wand will have
@@ -31,8 +41,13 @@ potterwand:
 randomizedpotterwand:
   # Defines which icons the wand could be created from
   icon: wooden_hoe{CustomModelData:1},wooden_hoe{CustomModelData:2},wooden_hoe{CustomModelData:3}
-  randomize_icon: wooden_hoe{CustomModelData:100}
+  randomize_icon: diamond_hoe{CustomModelData:138}
   effects:
     randomize:
-      - class: EffectSingle
-        sound: betterpotter.swish
+      - sound: betterpotter.swish
+        source_location: feet
+        effectlib:
+          class: AnimatedBall
+          particle: fireworks_spark
+          particle_data: 0.1
+          duration: 5000

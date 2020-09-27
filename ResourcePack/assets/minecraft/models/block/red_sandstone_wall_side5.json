@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/custom_template_wall_side",
+    "textures": {
+        "wall": "minecraft:block/red_sandstone5",
+        "top": "minecraft:block/red_sandstone_top5",
+        "bottom": "minecraft:block/red_sandstone_bottom5"
+    }
+}

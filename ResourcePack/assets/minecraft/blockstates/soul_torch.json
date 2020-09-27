@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+        { "model": "minecraft:block/soul_torch" },
+        { "model": "minecraft:block/soul_torch1" },
+        { "model": "minecraft:block/soul_torch2" },
+        { "model": "minecraft:block/soul_torch3" }
+        ]
+    }
+}

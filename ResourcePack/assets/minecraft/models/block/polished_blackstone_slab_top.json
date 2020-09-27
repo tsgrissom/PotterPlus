@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/slab_top",
+    "textures": {
+        "bottom": "minecraft:block/polished_blackstone",
+        "top": "minecraft:block/polished_blackstone",
+        "side": "minecraft:block/polished_blackstone_slab_side"
+    }
+}

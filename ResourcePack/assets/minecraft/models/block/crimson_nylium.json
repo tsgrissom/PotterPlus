@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+        "bottom": "minecraft:block/netherrack",
+        "top": "minecraft:block/crimson_nylium",
+        "side": "minecraft:block/crimson_nylium_side"
+    }
+}

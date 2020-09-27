@@ -1,0 +1,12 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/custom_orientable",
+    "textures": {
+        "particle": "minecraft:block/observer_front",
+        "top": "minecraft:block/observer_top",
+        "bottom": "minecraft:block/observer_bottom",
+        "front": "minecraft:block/observer_front",
+        "side": "minecraft:block/observer_side",
+        "back": "minecraft:block/observer_back"
+    }
+}

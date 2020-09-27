@@ -1,0 +1,12 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/potted_poppy", "weight": 20 },
+            { "model": "minecraft:block/potted_poppy1", "weight": 20 },
+            { "model": "minecraft:block/potted_poppy2", "weight": 20 },
+            { "model": "minecraft:block/potted_poppy3", "weight": 20 },
+            { "model": "minecraft:block/potted_poppy4", "weight": 20 }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "minecraft:block/polished_andesite2",
+        "top": "minecraft:block/polished_andesite2",
+        "side": "minecraft:block/polished_andesite_slab_side"
+    }
+}

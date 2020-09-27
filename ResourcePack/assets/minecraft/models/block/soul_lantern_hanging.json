@@ -1,0 +1,8 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/custom_template_hanging_lantern",
+    "textures": {
+        "lantern": "minecraft:block/soul_lantern",
+        "chain": "minecraft:block/chain"
+    }
+}

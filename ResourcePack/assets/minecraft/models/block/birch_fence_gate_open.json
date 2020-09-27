@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/custom_template_fence_gate_open",
+    "textures": {
+        "texture": "minecraft:block/birch_fence_gate",
+        "top": "minecraft:block/birch_fence_gate_top",
+        "bottom": "minecraft:block/birch_fence_gate_bottom"
+    }
+}

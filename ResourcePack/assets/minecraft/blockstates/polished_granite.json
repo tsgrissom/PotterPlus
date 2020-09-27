@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/polished_granite" },
+            { "model": "minecraft:block/polished_granite1" },
+            { "model": "minecraft:block/polished_granite2" },
+            { "model": "minecraft:block/polished_granite3" }
+        ]
+    }
+}

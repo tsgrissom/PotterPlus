@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/cross",
+    "textures": {
+        "cross": "minecraft:block/weeping_vines_plant2"
+    }
+}

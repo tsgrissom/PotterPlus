@@ -1,0 +1,13 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/potted_dandelion", "weight": 25 },
+            { "model": "minecraft:block/potted_dandelion1", "weight": 25 },
+            { "model": "minecraft:block/potted_dandelion2", "weight": 25 },
+            { "model": "minecraft:block/potted_dandelion3", "weight": 25 },
+            { "model": "minecraft:block/potted_dandelion4", "weight": 25 },
+            { "model": "minecraft:block/potted_dandelion5", "weight": 25 }
+        ]
+    }
+}

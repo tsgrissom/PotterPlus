@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/warped_fungus" },
+            { "model": "minecraft:block/warped_fungus1" },
+            { "model": "minecraft:block/warped_fungus2" },
+            { "model": "minecraft:block/warped_fungus3" }
+        ]
+    }
+}

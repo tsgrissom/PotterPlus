@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/crimson_fungus" },
+            { "model": "minecraft:block/crimson_fungus1" },
+            { "model": "minecraft:block/crimson_fungus2" },
+            { "model": "minecraft:block/crimson_fungus3" }
+        ]
+    }
+}

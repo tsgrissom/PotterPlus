@@ -1,0 +1,23 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "axis=x": [
+            { "model": "minecraft:block/chain", "x": 90, "y": 90, "weight": 25 },
+            { "model": "minecraft:block/chain1", "x": 90, "y": 90, "weight": 25 },
+            { "model": "minecraft:block/chain2", "x": 90, "y": 90, "weight": 25 },
+            { "model": "minecraft:block/chain3", "x": 90, "y": 90, "weight": 25 }
+        ],
+        "axis=y": [
+            { "model": "minecraft:block/chain", "weight": 25 },
+            { "model": "minecraft:block/chain1", "weight": 25 },
+            { "model": "minecraft:block/chain2", "weight": 25 },
+            { "model": "minecraft:block/chain3", "weight": 25 }
+        ],
+        "axis=z": [
+            { "model": "minecraft:block/chain", "x": 90, "weight": 25 },
+            { "model": "minecraft:block/chain1", "x": 90, "weight": 25 },
+            { "model": "minecraft:block/chain2", "x": 90, "weight": 25 },
+            { "model": "minecraft:block/chain3", "x": 90, "weight": 25 }
+        ]
+    }
+}

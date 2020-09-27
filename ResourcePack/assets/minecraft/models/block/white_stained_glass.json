@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+        "top": "minecraft:block/white_stained_glass_top",
+        "bottom": "minecraft:block/white_stained_glass_bottom",
+        "side": "minecraft:block/white_stained_glass"
+    }
+}

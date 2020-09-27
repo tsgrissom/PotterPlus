@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/tinted_cross",
+    "textures": {
+        "cross": "minecraft:block/fern1"
+    }
+}

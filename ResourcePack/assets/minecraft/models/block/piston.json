@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/template_piston",
+    "textures": {
+        "bottom": "minecraft:block/piston_bottom",
+        "side": "minecraft:block/piston_side",
+        "platform": "minecraft:block/piston_top"
+    }
+}

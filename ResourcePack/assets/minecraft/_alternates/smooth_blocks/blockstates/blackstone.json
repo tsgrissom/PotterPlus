@@ -1,0 +1,15 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/blackstone", "weight": 50 },
+            { "model": "minecraft:block/blackstone1", "weight": 15 },
+            { "model": "minecraft:block/blackstone2", "weight": 15 },
+            { "model": "minecraft:block/blackstone3", "weight": 1 },
+            { "model": "minecraft:block/blackstone4", "weight": 4 },
+            { "model": "minecraft:block/blackstone5", "weight": 1 },
+            { "model": "minecraft:block/blackstone6", "weight": 4 },
+            { "model": "minecraft:block/blackstone7", "weight": 10 }
+        ]
+    }
+}

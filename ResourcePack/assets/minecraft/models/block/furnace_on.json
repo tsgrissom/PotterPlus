@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/custom_orientable",
+    "textures": {
+        "top": "minecraft:block/furnace_top",
+        "bottom": "minecraft:block/furnace_bottom",
+        "front": "minecraft:block/furnace_front_on",
+        "side": "minecraft:block/furnace_side",
+        "back": "minecraft:block/furnace_back"
+    }
+}

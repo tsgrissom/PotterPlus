@@ -1,0 +1,10 @@
+open_wandbox:
+  actions:
+    cast:
+      - class: Command
+  parameters:
+    command: mgive @tn randomizedpotterwand
+    console: true
+    target: self
+  costs:
+    wandbox: 1

@@ -1,0 +1,5 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "gui_light": "front",
+    "parent": "minecraft:block/soul_torch"
+}
