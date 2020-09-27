@@ -1176,6 +1176,21 @@ spells:
       Decreased chance of fizzling.
   liberacorpus|5:
     upgrade_description: |-
+      Decreased chance of fizzling.
+  liberacorpus|6:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  liberacorpus|7:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  liberacorpus|8:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  liberacorpus|9:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  liberacorpus|10:
+    upgrade_description: |-
       No chance of fizzling.
 
   lightningcurse:

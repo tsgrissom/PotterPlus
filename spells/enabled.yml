@@ -29,3 +29,5 @@ wear:
   enabled: true
   hidden: true
   category: specialty
+fxdemo:
+  enabled: true
