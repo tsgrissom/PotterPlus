@@ -9,6 +9,11 @@ currency:
       &6$amount Galleons
     name: >-
       &6Galleons
+  mc:
+    amount: >-
+      &6$amount Mastery Credits
+    name: >-
+      &6Mastery Credits
 
 economy:
   insufficient: >-

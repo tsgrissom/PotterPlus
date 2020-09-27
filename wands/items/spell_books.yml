@@ -1,0 +1,37 @@
+mastery_book:
+  icon: enchanted_book
+  lore:
+    - "$description"
+  left_click: none
+  right_click: cast
+  drop: none
+  swap: none
+  undroppable: true
+
+alohomora_book:
+  inherit: mastery_book
+  active_spell: learn_alohomora
+
+duro_book:
+  inherit: mastery_book
+  active_spell: learn_duro
+
+glacius_book:
+  inherit: mastery_book
+  active_spell: learn_glacius
+
+episkey_book:
+  inherit: mastery_book
+  active_spell: learn_episkey
+
+aparecium_book:
+  inherit: mastery_book
+  active_spell: learn_aparecium
+
+patronus_book:
+  inherit: mastery_book
+  active_spell: learn_glacius
+
+protego_maxima_book:
+  inherit: mastery_book
+  active_spell: learn_protego_maxima

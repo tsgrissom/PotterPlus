@@ -1,0 +1,73 @@
+learnspell:
+  category: specialty
+  hidden: true
+  actions:
+    cast:
+      - class: Command
+  effects:
+    cast:
+      - effectlib:
+          class: SphereEffect
+          iterations: 5
+          period: 2
+          particle: enchantment_table
+          radius: 3
+  parameters:
+    target: self
+    console: true
+
+learn_alohomora:
+  inherit: learnspell
+  hidden: true
+  parameters:
+    command: mage add @tn alohomora
+  costs:
+    alohomora_book: 1
+
+learn_duro:
+  inherit: learnspell
+  hidden: true
+  parameters:
+    command: mage add @tn duro
+  costs:
+    duro_book: 1
+
+learn_glacius:
+  inherit: learnspell
+  hidden: true
+  parameters:
+    command: mage add @tn glacius
+  costs:
+    glacius_book: 1
+
+learn_episkey:
+  inherit: learnspell
+  hidden: true
+  parameters:
+    command: mage add @tn episkey
+  costs:
+    episkey_book: 1
+
+learn_aparecium:
+  inherit: learnspell
+  hidden: true
+  parameters:
+    command: mage add @tn aparecium
+  costs:
+    aparecium_book: 1
+
+learn_patronus:
+  inherit: learnspell
+  hidden: true
+  parameters:
+    command: mage add @tn patronus
+  costs:
+    patronus_book: 1
+
+learn_protego_maxima:
+  inherit: learnspell
+  hidden: true
+  parameters:
+    command: mage add @tn protegomaxima
+  costs:
+    protego_maxima_book: 1

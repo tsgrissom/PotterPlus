@@ -7,6 +7,8 @@ flagrate:
     cast:
       - class: PlayEffects
   effects:
+    cast:
+      - sound: magic.zap
     name:
       - class: EffectSingle
         location: target

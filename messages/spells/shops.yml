@@ -14,12 +14,23 @@ spells:
     name: >-
       Spell Shop
     title: >-
-      $path Spells ($balance&r)
+      $path Spells ($balance&8)
     selected: |-
       t:&dSpell Unlocked
       &6$item
     no_items: >-
-      &7&l>> &5You have learned all that you can from here.
+      &eSpell Teacher &8&l>> &3You have learned all that you can from here&7.
+      &3Visit a &eMastery Spell Teacher &3to learn the final spell for your
+      year&7.
+  masteryspellshop:
+    name: >-
+      Mastery Spell Shop
+    title: >-
+      Mastery Spells ($balance&8)
+    no_items: >-
+      &eMaster Spell Teacher &8&l>> &3You are not ready to learn a new mastery
+      spell&7. &3Come back when you have unlocked all the spells for your year
+      from your spell teacher&7.
   potionshop:
     name: >-
       Potion Shop

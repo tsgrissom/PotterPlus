@@ -46,14 +46,14 @@ reducio:
         source_location: feet
         sound: betterpotter.whoosh
         effectlib:
-         class: Circle
-         duration: 1000
-         particle: redstone
-         color: 5d1d77
-         particles: 10
-         radius: 2
-         enableRotation: false
-         wholeCircle: true
+          class: Circle
+          duration: 1000
+          particle: redstone
+          color: 5d1d77
+          particles: 10
+          radius: 2
+          enableRotation: false
+          wholeCircle: true
   parameters:
     target: other
     velocity: 25

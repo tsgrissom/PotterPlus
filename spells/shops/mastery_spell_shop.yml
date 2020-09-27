@@ -1,0 +1,38 @@
+masteryspellshop:
+  inherit: buyshop
+  category: npc
+  hidden: true
+  parameters:
+    cost_type: mc
+    confirm: true
+    confirm_filler: stained_glass:5
+    auto_close: true
+    items:
+      - item: wand|alohomora_book
+        cost: 1
+        requirements:
+          - path_end: year1
+      - item: wand|duro_book
+        cost: 1
+        requirements:
+          - path_end: year2
+      - item: wand|glacius_book
+        cost: 1
+        requirements:
+          - path_end: year3
+      - item: wand|episkey_book
+        cost: 1
+        requirements:
+          - path_end: year4
+      - item: wand|aparecium_book
+        cost: 1
+        requirements:
+          - path_end: year5
+      - item: wand|patronus_book
+        cost: 1
+        requirements:
+          - path_end: year6
+      - item: wand|protego_maxima_book
+        cost: 1
+        requirements:
+          - path_end: year7
