@@ -1,14 +1,16 @@
 brackiumemendo:
-  inherit: ferula
   worth: 10 ac
   icon: diamond_axe{CustomModelData:131}
   icon_disabled: diamond_hoe{CustomModelData:131}
   category: charms
+  upgrade_required_path: year2
+  upgrade_required_casts: 25
   actions:
     cast:
       - class: Random
         actions:
           - class: Serial
+            weight: $hurtWeight
             actions:
               - class: Repeat
                 actions:
@@ -17,36 +19,44 @@ brackiumemendo:
                   - class: Delay
                   - class: Damage
           - class: Serial
+            weight: $healWeight
             actions:
               - class: PlayEffects
                 effect: heal
               - class: PotionEffect
   effects:
-    cast: []
     hurt:
-      - class: EffectSingle
-        sound: entity_creeper_death
+      - sound: magic.hit
         location: origin
+        firework: burst
+        color: 3619c4
+        color2: d62929
     heal:
+      - class: EffectRepeat
+        particle: fireworks_spark
+        particle_count: 10
+        particle_data: 0.5
       - class: EffectSingle
-        sound: magic.shimmer_quiet
+        sound: magic.shimmer
         location: origin
         use_wand_location: false
         effectlib:
           class: Atom
-          particleNucleus: spell_mob_ambient
-          material: bone
-          particleOrbital: item_crack
+          particleNucleus: spell_mob
+          particleOrbital: spell_mob
           colorNucleus: 3619c4
+          colorOrbital: 3619c4
           particleCount: 5
           duration: $duration
           offset: 0,0.5,0
   parameters:
     target: self
+    healWeight: 50
+    hurtWeight: 50
     duration: 6000
-    damage: 1.5
-    delay: 1000
-    cooldown: 20000
+    damage: 3
+    delay: 500
+    cooldown: 15000
     repeat: 4
     add_effects:
       regeneration: 1
@@ -54,15 +64,25 @@ brackiumemendo:
     mana: 50
 
 brackiumemendo|2:
+  upgrade_required_path: year2
+  upgrade_required_casts: 50
+  parameters:
+    healWeight: 60
+    hurtWeight: 40
+    damage: 2.5
+
+brackiumemendo|3:
   upgrade_required_path: year3
   upgrade_required_casts: 75
   parameters:
-    damage: 1
-
-brackiumemendo|3:
-  upgrade_required_path: year4
-  upgrade_required_casts: 100
-  parameters:
-    damage: 0.5
+    healWeight: 70
+    hurtWeight: 30
+    damage: 2
     add_effects:
       regeneration: 2
+
+brackiumemendo|4:
+  parameters:
+    healWeight: 80
+    hurtWeight: 20
+    damage: 1.5

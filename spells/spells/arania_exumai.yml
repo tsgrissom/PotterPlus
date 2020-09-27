@@ -31,12 +31,12 @@ araniaexumai:
         effectlib:
           class: Sphere
           radius: 0.15
-          particle: spell_mob
+          particle: redstone
           color: 58FAD0
     hit:
       - class: EffectSingle
         location: target
-        sound: magic.shimmer
+        sound: magic.hit
         requires_entity: false
         effectlib:
           class: Shield
@@ -49,11 +49,12 @@ araniaexumai:
     entity:
       - class: EffectSingle
         location: target
+        sound: magic.zap
         requires_entity: true
         effectlib:
           class: Sphere
           radius: 1
-          particle: spell_mob
+          particle: redstone
           color: 58FAD0
           particles: 5
           duration: 1000

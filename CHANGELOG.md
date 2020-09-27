@@ -10,7 +10,11 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/27/20
 
-* Adjusted Flagrate's overall SFX
+* Gave Scribblifors and Flintifors sound effects when the item is conjured.
+* Re-worked Locomotor Mortis to be a custom projectile spell.
+* Adjusted Arania Exumai's SFX for the new RP.
+* Gave Brackium Emendo new weights and an additional level.
+* Adjusted Flagrate's overall SFX.
 * Added Mastery Credit spell shop system for getting the final spell of each year.
 * Adjusted how the starting flow for players works with wand shops.
 * Merged John Smith Legacy into the pack.

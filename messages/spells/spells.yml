@@ -381,11 +381,17 @@ spells:
       An unreliable healing charm that can potentially liquify or mend bones.
   brackiumemendo|2:
     upgrade_description: |-
+      Increased success rate.
       Decreased damage.
   brackiumemendo|3:
     upgrade_description: |-
+      Increased success rate.
       Decreased damage.
-      Increased regeneration.
+      Increased healing.
+  brackiumemendo|4:
+    upgrade_description: |-
+      Increased success rate.
+      Decreased damage.
 
   bubblehead:
     name: >-
@@ -1218,7 +1224,19 @@ spells:
       Increased duration.
   locomotormortis|3:
     upgrade_description: |-
+      Increased range.
+  locomotormortis|4:
+    upgrade_description: |-
       Increased duration.
+  locomotormortis|5:
+    upgrade_description: |-
+      Increased duration.
+  locomotormortis|6:
+    upgrade_description: |-
+      Increased range.
+  locomotormortis|7:
+    upgrade_description: |-
+      Increased range.
 
   locomotorwibbly:
     name: >-

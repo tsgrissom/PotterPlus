@@ -35,6 +35,8 @@ scribblifors:
         particle: fireworks_spark
         particle_count: 20
         particle_data: 1
+    drop:
+      - sound: magic.shimmer
   actions:
     cast:
       - class: CustomProjectile
@@ -46,6 +48,8 @@ scribblifors:
                   - class: Delay
                     delay: 3500
                   - class: DropItem
+                  - class: PlayEffects
+                    effect: drop
               - class: Serial
                 actions:
                   - class: Repeat
