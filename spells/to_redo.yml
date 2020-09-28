@@ -109,8 +109,6 @@ wingardium:
   parameters:
     cooldown: 15000
   worth: 5 ac
-reparo:
-  enabled: false
 reparifarge:
   icon: diamond_axe{CustomModelData:152}
   icon_disabled: diamond_hoe{CustomModelData:152}

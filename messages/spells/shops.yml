@@ -5,32 +5,40 @@ spells:
   wandshop:
     title: >-
       Wand Shop
+    insufficient: >-
+      &6Wand Shop Owner &8> &cYou do not have a ticket to get a wand with!
   bookshop:
     name: >-
       Textbook Shop
     title: >-
-      Textbook Shop ($balance)
+      &8Textbook Shop ($balance&8)
+  broomshop:
+    title: >-
+      &8Broom Shop ($balance&8)
+    insufficient: >-
+      &6Broom Shop Owner &8&l> &cThat item costs &4$cost&c.
   spellshop:
     name: >-
       Spell Shop
     title: >-
-      $path Spells ($balance&8)
+      &8$path Spells ($balance&8)
     selected: |-
       t:&dSpell Unlocked
       &6$item
     no_items: >-
-      &eSpell Teacher &8&l>> &3You have learned all that you can from here&7.
-      &3Visit a &eMastery Spell Teacher &3to learn the final spell for your
-      year&7.
+      &6Spell Teacher &8&l> &7I have nothing left to teach you for now&8. &7Visit a &eMastery
+      Spell Teacher &7to learn the final spell for your class and then come back
+      to me&8.
+    insufficient: >-
+      &6Spell Teacher &8&l> &cThat spell costs &4$cost&c.
   masteryspellshop:
     name: >-
       Mastery Spell Shop
     title: >-
-      Mastery Spells ($balance&8)
+      &8Mastery Spell Shop ($balance&8)
     no_items: >-
-      &eMaster Spell Teacher &8&l>> &3You are not ready to learn a new mastery
-      spell&7. &3Come back when you have unlocked all the spells for your year
-      from your spell teacher&7.
+      &6Mastery Spell Teacher &8&l> &cYou are not ready to learn a new mastery spell yet. &cCome back
+      when you have learned all the spells for your class.
   potionshop:
     name: >-
       Potion Shop
@@ -41,9 +49,9 @@ spells:
     name: >-
       Ingredient Shop
     title: >-
-      Ingredient Shop ($balance&8)
+      &8Ingredient Shop ($balance&8)
   potionshop_potions:
     name: >-
       Potion Shop
     title: >-
-      Potion Shop ($balance&8)
+      &8Potion Shop ($balance&8)

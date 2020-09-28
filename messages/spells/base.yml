@@ -1,12 +1,10 @@
 spells:
   default:
     backfire: >-
-      a:&cSpell backfired!
+      &8>> &cYour spell backfired on you!
     cast_play_message: >-
-      a:&6$player &3cast &6$spell &3on you!
+      &8>> &6$player &7cast &6$spell &7on you&8!
     fail: >-
-      &7&l>> &5Spell failed. Please report this to an administrator.
+      &8>> &cSpell failed!
     fizzle: >-
-      a:&cSpell fizzled!
-    insufficient_permission: >-
-      &cYou don't have permission to cast that here.
+      &8>> &cYour spell fizzled!

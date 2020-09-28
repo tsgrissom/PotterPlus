@@ -33,16 +33,14 @@ spells:
     name: >-
       Flying Carpet Ability
     cast: >-
-      a:&5Your carpet springs to life!
+      &8>> &7Your carpet springs to life&8!
     deactivate: >-
-      a:&5Your carpet settles to the ground.
-    crash: >-
-      t:&cCRASH!
+      &8>> &7Your carpet settles to the ground&8...
   broom:
     cast: >-
-      a:&5Your broom springs to life!
+      &8>> &7Your broom springs to life&8!
     deactivate: >-
-      a:&5Your broom settles to the ground.
+      &8>> &7Your broom settles to the ground&8...
     crash: >-
       t:&cCRASH!
   portkey_ability:

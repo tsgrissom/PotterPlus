@@ -1,5 +1,6 @@
 wandshop:
   inherit: ollivander
+  hidden: true
   category: npc
   effects:
     selected: enchant
@@ -7,7 +8,14 @@ wandshop:
     put_in_hand: false
     auto_close: true
     confirm: false
+    options:
+      limit: 1
     items:
       - item: wand:wandbox
+        name: "&3Wand Box"
+        lore:
+          - "&7Contains your very own wand&8."
+          - "&7Are you ready for the adventures that await&8?"
+          - " &8> &6Click &7to purchase"
         costs:
           ticket: 1

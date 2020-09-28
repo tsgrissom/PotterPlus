@@ -1,6 +1,3 @@
-locomotomortus:
-  enabled: false
-
 locomotormortis:
   inherit: false
   icon: diamond_axe{CustomModelData:35}

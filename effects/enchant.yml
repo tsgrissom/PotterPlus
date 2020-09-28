@@ -1,5 +1,6 @@
 enchant:
   - class: EffectSingle
+    sound: betterpotter.cast_sharp
     effectlib:
       class: Sphere
       particle: enchantment_table

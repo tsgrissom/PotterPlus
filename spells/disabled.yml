@@ -1,3 +1,15 @@
+# Unused
+reparo:
+  enabled: false
+# Disabled in favor of 'confundo'
+confundus:
+  enabled: false
+# Disabled in favor of 'locomotormortis'
+locomotomortus:
+  enabled: false
+
+# Not actual spells. Inherited from potter.
+
 beat:
   enabled: false
 dementor:
@@ -10,13 +22,6 @@ reveal:
   enabled: false
 phase:
   enabled: false
-
-# Moved to `confundo` namespace.
-confundus:
-  enabled: false
-
-# Not actual spells. Inherited from potter.
-
 confundusmaxima:
   enabled: false
 deletrius:
@@ -38,15 +43,12 @@ periculux:
 spongifymaxima:
   enabled: false
 
-# Shops
-
+# Disabled because buying another ticket is not possible in BP.
 ticketshop:
   enabled: false
+# Disabled because broken and messy.
 colorshop:
   enabled: false
-effectshop:
-  enabled: false
-appearanceshop:
-  enabled: false
+# Disabled in favor of `wandshop`
 ollivander:
   enabled: false
