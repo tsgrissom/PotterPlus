@@ -6,6 +6,8 @@ https://github.com/grisstyl/BetterPotter
 
 ## RP Credits
 
+Most of the pack uses a combination of the John Smith Legacy resource pack, the Magic resource pack, and original assets.
+
 Sound Effects
 
 - FreeSFX http://www.freesfx.co.uk
