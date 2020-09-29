@@ -16,9 +16,9 @@ currency:
       &eAcademic Credits
   mc:
     amount: >-
-      &2$amount MC
+      &2$amount CC
     name: >-
-      &2Mastery Credits
+      &eCompletion Credits
 
 economy:
   insufficient: >-

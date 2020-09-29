@@ -20,12 +20,12 @@ potionshop:
       - placeholder: true
       - placeholder: true
       - placeholder: true
-      - icon: diamond_axe:45
+      - icon: cauldron
         name: "&3Buy Ingredients"
         cast_spell: potionshop_ingredients
         item: null
       - placeholder: true
-      - icon: diamond_axe:76
+      - icon: potion
         name: "&3Buy Potions"
         cast_spell: potionshop_potions
       - placeholder: true

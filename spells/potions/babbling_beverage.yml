@@ -1,6 +1,6 @@
 babbling_beverage_ability:
   inherit: babblingcurse
-  icon: potion
+  icon: potion:7d1010
   category: specialty
   hidden: true
   actions:

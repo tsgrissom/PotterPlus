@@ -1,5 +1,5 @@
 antidote_to_common_poisons_ability:
-  icon: potion
+  icon: potion:000000
   category: specialty
   hidden: true
   effects:

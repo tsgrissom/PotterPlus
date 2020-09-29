@@ -1,35 +1,35 @@
 wands:
   lovepotion:
     name: >-
-      &dLove Potion &8(&7Drinkable&8)
+      &dLove Potion &8(&7Consumable&8)
     description: >-
       &7Causes the drinker to become infatuated with the person who gave it
       to them.
   burpingpotion:
     name: >-
-      &6Burping Potion &8(&7Drinkable&8)
+      &6Burping Potion &8(&7Consumable&8)
     description: >-
       &7Causes the drinker to burp uncontrollably.
   amortentia:
     name: >-
-      &dAmortentia &8(&7Drinkable&8)
+      &dAmortentia &8(&7Consumable&8)
     description: >-
       &7The most powerful love potion in existence. Causes the drinker to
       develop a powerful infatuation or obsession with the person who
       gave it to them.
   antiparalysispotion:
     name: >-
-      &bAnti-Paralysis Potion &8(&7Drinkable&8)
+      &bAnti-Paralysis Potion &8(&7Consumable&8)
     description: >-
       &7Cures the drinker of any paralyzing effects they are under.
   antidotetocommonpoisons:
     name: >-
-      &8Antidote to Common Poisons &8(&7Drinkable&8)
+      &8Antidote to Common Poisons &8(&7Consumable&8)
     description: >-
       &7Cures the drinker of common poisonous effects.
   antidotetouncommonpoisons:
     name: >-
-      &8Antidote to Uncommon Poisons &8(&7Drinkable&8)
+      &8Antidote to Uncommon Poisons &8(&7Consumable&8)
     description: >-
       &7Cures the drinker of common and uncommon poisonous effects.
   babblingbeverage:
@@ -39,7 +39,7 @@ wands:
       &7Causes the target to babble nonsense uncontrollably.
   baruffiosbrainelixir:
     name: >-
-      &2Baruffio's Brain Elixir &8(&7Drinkable&8)
+      &2Baruffio's Brain Elixir &8(&7Consumable&8)
     description: >-
       &7Completely restores the drinker's mana.
   befuddlementdraught:
@@ -49,17 +49,17 @@ wands:
       &7Causes the target to become confused.
   beguilingbubbles:
     name: >-
-      &5Beguiling Bubbles &8(&7Drinkable&8)
+      &5Beguiling Bubbles &8(&7Consumable&8)
     description: >-
       &7A love potion from the WonderWitch line by Weasley's Wizard Wheezes.
   icepotion:
     name: >-
-      &3Ice Potion &8(&7Drinkable&8)
+      &3Ice Potion &8(&7Consumable&8)
     description: >-
       &7Causes the drinker to be able to walk through flames unscathed.
   bloodreplenishingpotion:
     name: >-
-      &4Blood-Replenishing Potion &8(&7Drinkable&8)
+      &4Blood-Replenishing Potion &8(&7Consumable&8)
     description: >-
       &7Replenishes the drinker's blood, healing them.
   confusingconcoction:
@@ -69,12 +69,12 @@ wands:
       &7Causes the drinker to become confused.
   witsharpeningpotion:
     name: >-
-      &eWit-Sharpening Potion &8(&7Drinkable&8)
+      &eWit-Sharpening Potion &8(&7Consumable&8)
     description: >-
       &7Slightly but permanently increases the drinker's maximum mana.
   invisibilitypotion:
     name: >-
-      &rInvisibility Potion &8(&7Drinkable&8)
+      &fInvisibility Potion &8(&7Consumable&8)
     description: >-
       &7Causes the drinker to completely vanish from sight for a time.
   pompionpotion:
@@ -84,7 +84,7 @@ wands:
       &7Causes the drinker's head to become encased in a pumpkin.
   essenceofdittany:
     name: >-
-      &2Essence of Dittany &8(&7Drinkable&8)
+      &2Essence of Dittany &8(&7Consumable&8)
     description: >-
       &7Rapidly heals the drinker's wounds in billows of green smoke.
   garrotinggas:
@@ -95,7 +95,7 @@ wands:
       will suffocate and slow down those stuck in the cloud.
   oculuspotion:
     name: >-
-      &8Oculus Potion &8(&7Drinkable&8)
+      &8Oculus Potion &8(&7Consumable&8)
     description: >-
       &7Cures the drinker of blindness.
   deathpotion:

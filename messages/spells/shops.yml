@@ -1,7 +1,7 @@
 spells:
   buyshop:
     selected: >-
-      &7&l>> &dYou purchased a &r$item &dfor &6$cost
+      &7&l>> &dYou purchased &r$item &dfor &6$cost
   wandshop:
     title: >-
       Wand Shop
@@ -17,6 +17,8 @@ spells:
       &8Broom Shop ($balance&8)
     insufficient: >-
       &6Broom Shop Owner &8&l> &cThat item costs &4$cost&c.
+    selected: >-
+      &6Broom Shop Owner &8&l> &7Ah yes&8! &7The &r$item &7is a magnificent broom&8. &7That will be &r$cost&8.
   spellshop:
     name: >-
       Spell Shop
@@ -30,7 +32,7 @@ spells:
       Spell Teacher &7to learn the final spell for your class and then come back
       to me&8.
     insufficient: >-
-      &6Spell Teacher &8&l> &cThat spell costs &4$cost&c.
+      &6Spell Teacher &8&l> &cI'm afraid you are not ready to learn more. That spell costs &4$cost&c.
   masteryspellshop:
     name: >-
       Mastery Spell Shop
@@ -45,13 +47,19 @@ spells:
     title: >-
       Potion Shop
     selected_free: ""
+    insufficient: >-
+      &6Potion Shop Owner &8&l> &cThat item costs &4$cost&c.
   potionshop_ingredients:
     name: >-
       Ingredient Shop
     title: >-
-      &8Ingredient Shop ($balance&8)
+      &8Ingredients ($balance&8)
+    insufficient: >-
+      &6Potion Shop Owner &8&l> &cI'm sorry, but I'm afraid you cannot afford that ingredient. It costs &4$cost&c.
   potionshop_potions:
     name: >-
       Potion Shop
     title: >-
-      &8Potion Shop ($balance&8)
+      &8Potions ($balance&8)
+    insufficient: >-
+      &6Potion Shop Owner &8&l> &cI'm sorry, but I'm afraid you cannot afford that potion. It costs &4$cost&c.

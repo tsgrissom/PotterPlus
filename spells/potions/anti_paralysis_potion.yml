@@ -1,5 +1,5 @@
 anti_paralysis_potion_ability:
-  icon: potion
+  icon: potion:58CCED
   category: specialty
   hidden: true
   effects:

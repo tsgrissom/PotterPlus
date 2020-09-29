@@ -1,5 +1,5 @@
 garroting_gas_ability:
-  icon: potion
+  icon: potion:54a415
   category: specialty
   hidden: true
   actions:

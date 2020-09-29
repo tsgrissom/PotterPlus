@@ -3,7 +3,7 @@ masteryspellshop:
   category: npc
   hidden: true
   parameters:
-    cost_type: mc
+    cost_type: cc
     confirm: true
     confirm_filler: stained_glass:5
     auto_close: true

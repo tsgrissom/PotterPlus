@@ -1,5 +1,6 @@
 amortentia_ability:
   inherit: love_potion_ability
+  icon: potion:f7edec
   effects:
     cast:
       - class: EffectSingle

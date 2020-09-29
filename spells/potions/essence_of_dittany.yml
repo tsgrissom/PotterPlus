@@ -1,6 +1,6 @@
 essence_of_dittany_ability:
   inherit: vulnera
-  icon: potion
+  icon: potion:4d2a11
   category: specialty
   hidden: true
   effects:

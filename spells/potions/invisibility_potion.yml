@@ -1,6 +1,6 @@
 invisibility_potion_ability:
   inherit: disillusion|4
-  icon: potion
+  icon: potion:FFFFFF
   category: specialty
   hidden: true
   parameters:

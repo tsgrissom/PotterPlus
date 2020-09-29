@@ -1,5 +1,5 @@
 confusing_concoction_ability:
-  icon: potion
+  icon: potion:e5f622
   category: specialty
   hidden: true
   actions:
