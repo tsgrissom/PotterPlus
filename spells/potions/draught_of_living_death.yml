@@ -71,6 +71,7 @@ draught_of_living_death_ability:
           radius: 2
           duration: 2000
   parameters:
+    cooldown_mage: 2000
     bypass_confusion: true
     range: 64
     radius: 4

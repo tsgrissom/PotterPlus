@@ -54,6 +54,7 @@ garroting_gas_ability:
           radius: 2
           duration: 1000
   parameters:
+    cooldown_mage: 2000
     bypass_confusion: true
     target: other
     target_type: LivingEntity

@@ -10,6 +10,8 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/29/20
 
+* Slight potion nerf with global mage cooldown of two seconds.
+* Buffed Death Potion. Can now insta-kill one target with a direct hit and applies damage and wither to those in the AOE.
 * Gave potion spells the correct color icon.
 * Reverted particles.
 * A bunch of new dialogue messages for shopkeeper spells.

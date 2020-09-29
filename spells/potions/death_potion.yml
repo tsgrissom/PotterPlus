@@ -7,9 +7,11 @@ death_potion_ability:
     cast:
       - class: CustomProjectile
         actions:
+          - class: Kill
           - class: AreaOfEffect
             actions:
-              - class: Kill
+              - class: Damage
+              - class: PotionEffect
   effects:
     cast:
       - sound: entity_splash_potion_throw
@@ -51,8 +53,11 @@ death_potion_ability:
     target: other
     target_type: LivingEntity
     target_source: false
-    target_count: 1
+    target_count: 5
     range: 64
     velocity: 25
     gravity: 0.05
     radius: 4
+    damage: 5
+    effect_wither: 1
+    duration: 5000

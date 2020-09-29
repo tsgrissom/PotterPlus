@@ -8,6 +8,7 @@ wit_sharpening_potion_ability:
   effects:
     cast: enchant
   parameters:
+    cooldown_mage: 2000
     bypass_confusion: true
     target: self
     cooldown: 60000

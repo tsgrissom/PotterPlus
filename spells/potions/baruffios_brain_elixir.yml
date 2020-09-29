@@ -8,6 +8,7 @@ baruffios_brain_elixir_ability:
     cast:
       - class: ModifyMana
   parameters:
+    cooldown_mage: 2000
     bypass_confusion: true
     target: self
     fill_mana: true

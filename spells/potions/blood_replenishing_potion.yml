@@ -18,6 +18,7 @@ blood_replenishing_potion_ability:
           grow: 0.5
           duration: $duration
   parameters:
+    cooldown_mage: 2000
     bypass_confusion: true
     target: self
     duration: 5000

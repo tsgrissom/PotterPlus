@@ -23,6 +23,7 @@ essence_of_dittany_ability:
           particle: spell_mob_ambient
           color: 4bcf70
   parameters:
+    cooldown_mage: 2000
     bypass_confusion: true
     target: self
     cooldown: 0

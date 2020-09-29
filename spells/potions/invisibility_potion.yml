@@ -4,6 +4,7 @@ invisibility_potion_ability:
   category: specialty
   hidden: true
   parameters:
+    cooldown_mage: 2000
     bypass_confusion: true
     target: self
     cooldown: 0

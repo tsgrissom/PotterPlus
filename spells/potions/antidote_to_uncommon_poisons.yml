@@ -1,6 +1,7 @@
 antidote_to_uncommon_poisons_ability:
   inherit: antidote_to_common_poisons_ability
   parameters:
+    cooldown_mage: 2000
     remove_effects:
       - poison
       - weakness

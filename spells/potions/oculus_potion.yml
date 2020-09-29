@@ -6,6 +6,7 @@ oculus_potion_ability:
     cast:
       - class: PotionEffect
   parameters:
+    cooldown_mage: 2000
     bypass_confusion: true
     target: self
     remove_effects:

@@ -26,3 +26,5 @@ amortentia_ability:
           mainParticle: spell_mob_ambient
           mainParticleColor: FFFFFF
           duration: 10000
+  parameters:
+    cooldown_mage: 2000

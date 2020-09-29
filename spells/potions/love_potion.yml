@@ -17,4 +17,5 @@ love_potion_ability:
           mainParticleColor: FFFFFF
           duration: 10000
   parameters:
+    cooldown_mage: 2000
     bypass_confusion: true

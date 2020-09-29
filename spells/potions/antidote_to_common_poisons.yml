@@ -15,6 +15,7 @@ antidote_to_common_poisons_ability:
     cast:
       - class: PotionEffect
   parameters:
+    cooldown_mage: 2000
     bypass_confusion: true
     target: self
     remove_effects:
