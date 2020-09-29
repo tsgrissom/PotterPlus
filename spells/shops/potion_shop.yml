@@ -1,3 +1,16 @@
+legendarypotionshop:
+  icon: cauldron
+  hidden: true
+  category: npc
+  actions:
+    cast:
+      - class: Shop
+  parameters:
+    cost_type: galleon
+    items:
+      - item: wand:icepotion_legendary
+        cost: 60
+
 potionshop:
   inherit: false
   icon: cauldron

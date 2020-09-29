@@ -92,11 +92,38 @@ wands:
       &6Confusing Concoction &8(&7Throwable&8)
     description: >-
       &7Causes the drinker to become confused.
+
+  witsharpeningpotion_very_weak:
+    name: >-
+      &eVery Weak Wit-Sharpening Potion &8(&7Consumable&8)
+    description: >-
+      &7Slightly but permanently increases the drinker's maximum mana.
+  witsharpeningpotion_weak:
+    name: >-
+      &eWeak Wit-Sharpening Potion &8(&7Consumable&8)
+    description: >-
+      &7Slightly but permanently increases the drinker's maximum mana.
   witsharpeningpotion:
     name: >-
       &eWit-Sharpening Potion &8(&7Consumable&8)
     description: >-
       &7Slightly but permanently increases the drinker's maximum mana.
+  witsharpeningpotion_strong:
+    name: >-
+      &eStrong Wit-Sharpening Potion &8(&7Consumable&8)
+    description: >-
+      &7Moderately and permanently increases the drinker's maximum mana.
+  witsharpeningpotion_very_strong:
+    name: >-
+      &eVery Strong Wit-Sharpening Potion &8(&7Consumable&8)
+    description: >-
+      &7Moderately and permanently increases the drinker's maximum mana.
+  witsharpeningpotion_legendary:
+    name: >-
+      &eLegendary Wit-Sharpening Potion &8(&7Consumable&8)
+    description: >-
+      &7Tremendously and permanently increases the drinker's maximum mana.
+
   invisibilitypotion:
     name: >-
       &fInvisibility Potion &8(&7Consumable&8)
