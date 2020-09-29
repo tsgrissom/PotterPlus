@@ -57,6 +57,31 @@ wands:
       &3Ice Potion &8(&7Consumable&8)
     description: >-
       &7Causes the drinker to be able to walk through flames unscathed.
+  icepotion_very_weak:
+    name: >-
+      &3Very Weak Ice Potion &8(&7Consumable&8)
+    description: >-
+      &7Causes the drinker to be able to walk through flames unscathed.
+  icepotion_weak:
+    name: >-
+      &3Weak Ice Potion &8(&7Consumable&8)
+    description: >-
+      &7Causes the drinker to be able to walk through flames unscathed.
+  icepotion_strong:
+    name: >-
+      &3Strong Ice Potion &8(&7Consumable&8)
+    description: >-
+      &7Causes the drinker to be able to walk through flames unscathed.
+  icepotion_very_strong:
+    name: >-
+      &3Very Strong Ice Potion &8(&7Consumable&8)
+    description: >-
+      &7Causes the drinker to be able to walk through flames unscathed.
+  icepotion_legendary:
+    name: >-
+      &3Legendary Ice Potion &8(&7Consumable&8)
+    description: >-
+      &7Causes the drinker to be able to walk through flames unscathed.
   bloodreplenishingpotion:
     name: >-
       &4Blood-Replenishing Potion &8(&7Consumable&8)

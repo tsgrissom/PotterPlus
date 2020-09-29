@@ -1,3 +1,23 @@
 icepotion:
   icon: potion:d6ecef
   consume_spell: ice_potion_ability
+
+icepotion_very_weak:
+  inherit: icepotion
+  overrides: ice_potion_ability.duration 5000
+
+icepotion_weak:
+  inherit: icepotion
+  overrides: ice_potion_ability.duration 10000
+
+icepotion_strong:
+  inherit: icepotion
+  overrides: ice_potion_ability.duration 20000
+
+icepotion_very_strong:
+  inherit: icepotion
+  overrides: ice_potion_ability.duration 25000
+
+icepotion_legendary:
+  inherit: icepotion
+  overrides: ice_potion_ability.duration 60000

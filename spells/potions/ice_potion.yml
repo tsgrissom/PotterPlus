@@ -11,5 +11,6 @@ ice_potion_ability:
     bypass_confusion: true
     cooldown: 0
     target: self
+    duration: 15000
   costs:
     mana: 0
