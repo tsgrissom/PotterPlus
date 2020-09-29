@@ -8,15 +8,15 @@ spells:
     name: >-
       Choose Your Path
     title: >-
-      &7&l>> &8Choose your path
+      &8>> &8Choose your path
     confirm_title: >-
-      &7&l>> &8Confirm path
+      &8>> &8Confirm path
     no_path: >-
-      &7&l>> &5You can only choose your path once you graduate!
+      &8>> &5You can only choose your path once you graduate!
     no_required_path: >-
-      &7&l>> &5You can only choose your path once you graduate!
+      &8>> &5You can only choose your path once you graduate!
     selected: |-
       t:&7Unlocked
       $item
     at_limit: >-
-      &7&l>> &5You can only choose your path once.
+      &8>> &5You can only choose your path once.

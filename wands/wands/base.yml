@@ -9,6 +9,8 @@ base_wand:
   # When the swap key is pressed while holding the wand, cycle between the
   # multiple spell hotbars
   swap: cycle_hotbar
+  # Leave wand messages on
+  quiet: 0
 
 wandbox:
   inherit: false
@@ -28,6 +30,8 @@ potterwand:
   hotbar_count: 2
   # Defines what spell the wand has selected by default
   active_spell: lumos
+  # Make sure spell messages are on
+  quiet: 0
   # Defines what spells are in the wand's inventory
   spells:
     - lumos

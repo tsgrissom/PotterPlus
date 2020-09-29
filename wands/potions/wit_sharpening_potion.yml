@@ -2,8 +2,8 @@ witsharpeningpotion_very_weak:
   icon: potion:e5ff0f
   consume_spell: wit_sharpening_potion_ability
 
-witsharpeningpotion_very_weak:
-  inherit: witsharpeningpotion_very_weak
+witsharpeningpotion_weak:
+  inherit: witsharpeningpotion_weak
   icon: potion:e5ff0f
   consume_spell: wit_sharpening_potion_ability|2
 
@@ -13,16 +13,16 @@ witsharpeningpotion:
   consume_spell: wit_sharpening_potion_ability|3
 
 witsharpeningpotion_strong:
-  inherit: witsharpeningpotion_very_weak
+  inherit: witsharpeningpotion_strong
   icon: potion:e5ff0f
   consume_spell: wit_sharpening_potion_ability|4
 
 witsharpeningpotion_very_strong:
-  inherit: witsharpeningpotion_very_weak
+  inherit: witsharpeningpotion_very_strong
   icon: potion:e5ff0f
   consume_spell: wit_sharpening_potion_ability|5
 
 witsharpeningpotion_legendary:
-  inherit: witsharpeningpotion_very_weak
+  inherit: witsharpeningpotion_legendary
   icon: potion:e5ff0f
   consume_spell: wit_sharpening_potion_ability|6

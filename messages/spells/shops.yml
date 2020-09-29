@@ -1,7 +1,7 @@
 spells:
   buyshop:
     selected: >-
-      &7&l>> &dYou purchased &r$item &dfor &6$cost
+      &8>> &dYou purchased &r$item &dfor &6$cost
   wandshop:
     title: >-
       Wand Shop
@@ -12,6 +12,7 @@ spells:
       Textbook Shop
     title: >-
       &8Textbooks ($balance&8)
+    cost_lore: "&7Cost&8: &7$cost"
   broomshop:
     title: >-
       &8Brooms ($balance&8)

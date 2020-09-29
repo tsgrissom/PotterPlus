@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/29/20
 
+* Enhanced messages and cooldown/cost messages return.
 * Enhanced Legendary Potion Shop.
 * Wit-sharpening potion tiers.
 * Ice potion tiers.

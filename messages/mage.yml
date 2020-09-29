@@ -5,5 +5,5 @@ mage:
   spell_upgraded: |-
     t:&dSpell Upgraded
     &r&6$name &r$level
-    &7&l>> &dYour knowledge of magic grows&8.
+    &8>> &dYour knowledge of magic grows&8.
     &7&l> &r&6$name &dupgraded to &r$level

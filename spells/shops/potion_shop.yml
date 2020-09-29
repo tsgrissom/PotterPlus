@@ -7,6 +7,8 @@ legendarypotionshop:
       - class: Shop
   parameters:
     cost_type: galleon
+    confirm: true
+    confirm_title: "Buy legendary potion?"
     items:
       - item: wand:icepotion_legendary
         cost: 60
@@ -36,12 +38,12 @@ potionshop:
       - placeholder: true
       - placeholder: true
       - icon: cauldron
-        name: "&3Buy Ingredients"
+        name: "&6Buy Ingredients"
         cast_spell: potionshop_ingredients
         item: null
       - placeholder: true
       - icon: potion
-        name: "&3Buy Potions"
+        name: "&6Buy Potions"
         cast_spell: potionshop_potions
       - placeholder: true
       - placeholder: true
@@ -88,9 +90,6 @@ potionshop_ingredients:
     quiet: true
     free: false
     cost_type: galleon
-    confirm: true
-    confirm_filler: cauldron
-    confirm_title: "Buy Ingredient?"
 
 potionshop_potions:
   icon: diamond_axe:44
@@ -139,4 +138,3 @@ potionshop_potions:
         cost: 80
       - item: wand|witsharpeningpotion
         cost: 100
-    confirm_title: "Buy Potion?"

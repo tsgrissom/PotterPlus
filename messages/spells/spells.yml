@@ -1775,8 +1775,6 @@ spells:
       Vulnera Sanentur
     description: >-
       Mends even the most severe of wounds.
-    cast: ""
-    cast_self: ""
 
   waddiwasi:
     name: >-

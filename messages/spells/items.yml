@@ -41,6 +41,8 @@ spells:
       &8>> &7Your broom springs to life&8!
     deactivate: >-
       &8>> &7Your broom settles to the ground&8...
+    cursed: >-
+      &8>> &cYou are too stunned to fly!
     crash: >-
       t:&cCRASH!
   portkey_ability:

@@ -24,8 +24,10 @@ essence_of_dittany_ability:
           color: 4bcf70
   parameters:
     cooldown_mage: 2000
+    cooldown: 15000
     bypass_confusion: true
     target: self
     cooldown: 0
+    duration: 8000
   costs:
     mana: 0

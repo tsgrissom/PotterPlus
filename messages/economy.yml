@@ -26,12 +26,12 @@ economy:
 
 shops:
   cost_lore: >-
-    &2Costs&8: &7$cost
+    &7Costs&8: &7$cost
   insufficient: >-
     &4Costs&8: &7$cost
   required_cost_lore: >-
-    &7Costs&8: &7$cost
+    &cCosts&8: &7$cost
   deducted: >-
-    &7&l>> &dYou purchased &r$item &dfor &r$cost
+    &8>> &dYou purchased &r$item &dfor &r$cost
   selected: >-
-    &7&l>> &dYou purchased &r$item &dfor &r$cost
+    &8>> &dYou purchased &r$item &dfor &r$cost

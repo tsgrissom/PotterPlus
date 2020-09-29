@@ -136,9 +136,12 @@ wands:
       &7Causes the drinker's head to become encased in a pumpkin.
   essenceofdittany:
     name: >-
-      &2Essence of Dittany &8(&7Consumable&8)
+      &2Essence of Dittany
     description: >-
       &7Rapidly heals the drinker's wounds in billows of green smoke.
+  essenceofdittany_very_weak:
+    name: >-
+      &2Very Weak Essence of Dittany
   garrotinggas:
     name: >-
       &2Garroting Gas &8(&7Throwable&8)

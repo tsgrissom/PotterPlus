@@ -1,0 +1,4 @@
+default:
+  hide_messages:
+    - cast
+    - cast_finish

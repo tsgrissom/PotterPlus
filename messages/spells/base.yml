@@ -1,10 +1,16 @@
 spells:
   default:
     backfire: >-
-      &8>> &cYour spell backfired on you!
+      a:&cYour spell backfired on you!
     cast_play_message: >-
-      &8>> &6$player &7cast &6$spell &7on you&8!
+      a:&6$player &7cast &6$spell &7on you&8!
     fail: >-
-      &8>> &cSpell failed!
+      a:&cSpell failed!
     fizzle: >-
-      &8>> &cYour spell fizzled!
+      a:&cYour spell fizzled!
+    insufficient_resources: >-
+      a:&cYou don't have enough &4$cost
+    cooldown: >-
+      a:&cYou must wait &4$time
+    cancelled: >-
+      a:&cYour spell was cancelled!

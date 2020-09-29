@@ -25,7 +25,7 @@ wand:
   potion_effect: >-
     &8$effect $roman
   upgraded_property: >-
-    &7&l>> &dYour knowledge of magic grows&8. $name
+    &8>> &dYour knowledge of magic grows&8. $name
   spell_added: |-
     t:&dSpell Unlocked
     &6$name
