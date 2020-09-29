@@ -10,6 +10,8 @@ legendarypotionshop:
     items:
       - item: wand:icepotion_legendary
         cost: 60
+      - item: wand:witsharpeningpotion_legendary
+        cost: 2000
 
 potionshop:
   inherit: false

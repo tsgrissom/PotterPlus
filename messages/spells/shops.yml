@@ -11,10 +11,10 @@ spells:
     name: >-
       Textbook Shop
     title: >-
-      &8Textbook Shop ($balance&8)
+      &8Textbooks ($balance&8)
   broomshop:
     title: >-
-      &8Broom Shop ($balance&8)
+      &8Brooms ($balance&8)
     insufficient: >-
       &6Broom Shop Owner &8&l> &cThat item costs &4$cost&c.
     selected: >-
@@ -37,7 +37,7 @@ spells:
     name: >-
       Mastery Spell Shop
     title: >-
-      &8Mastery Spell Shop ($balance&8)
+      &8Final Spell ($balance&8)
     no_items: >-
       &6Mastery Spell Teacher &8&l> &cYou are not ready to learn a new mastery spell yet. &cCome back
       when you have learned all the spells for your class.
@@ -49,6 +49,13 @@ spells:
     selected_free: ""
     insufficient: >-
       &6Potion Shop Owner &8&l> &cThat item costs &4$cost&c.
+  legendarypotionshop:
+    name: >-
+      Legendary Potion Shop
+    title: >-
+      &8Potions ($balance&8)
+    insufficient: >-
+      &6Legendary Potion Shop Owner &8&l> &cI'm sorry, but I'm afraid you cannot afford that potion. It costs &4$cost&c.
   potionshop_ingredients:
     name: >-
       Ingredient Shop
