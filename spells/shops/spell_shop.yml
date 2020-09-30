@@ -4,5 +4,5 @@ spellshop:
   effects:
     selected: enchant
   parameters:
-    confirm_filler: 'stained_glass:5'
+    confirm_filler: diamond_axe{CustomModelData:400}
     cost_type: ac

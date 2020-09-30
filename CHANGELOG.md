@@ -10,6 +10,10 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/30/20
 
+* Economy enhancements, better messages.
+* Gave Flagrate a bunch of levels across four years.
+* Adjusted Lumos SFX.
+* Added some symbols to RP.
 * Cleared a bunch of cast and cast self messages. Probably a bunch left, fix as we go.
 * Added black and grey wand appearance.
 * Adjusted how Ron and Bellatrix's wands viewed.

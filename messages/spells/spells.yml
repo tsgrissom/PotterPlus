@@ -830,7 +830,38 @@ spells:
       Writes your name in flames in mid-air.
   flagrate|2:
     upgrade_description: |-
-      Increased clarity of text.
+      Decreased chance of fizzling.
+  flagrate|3:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  flagrate|4:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  flagrate|5:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  flagrate|6:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  flagrate|7:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  flagrate|8:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+      Increased text clarity.
+  flagrate|9:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  flagrate|10:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  flagrate|11:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  flagrate|12:
+    upgrade_description: |-
+      No chance of fizzling.
 
   flamefreezingcharm:
     name: >-

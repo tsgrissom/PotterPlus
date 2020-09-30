@@ -19,7 +19,7 @@ snowball:
   effects:
     cast:
       - class: EffectSingle
-        sound: betterpotter.cast_sharp
+        sound: magic.shimmer
         sound_volume: 0.5
         effectlib:
           class: Atom
@@ -28,10 +28,15 @@ snowball:
           particleOrbital: snowball
           duration: $delay
     launch:
-      - sound: block_snow_place
+      - sound: betterpotter.cast_sharp
     hit:
+      - sound: magic.hit
+        sound_volume: 0.5
       - sound: block_snow_hit
         location: target
+        particle: fireworks_spark
+        particle_count: 5
+        particle_data: 0.5
   parameters:
     target: other
     cooldown: 15000
@@ -41,6 +46,7 @@ snowball:
     projectile: Snowball
     spread: 10
     damage: 1
+    duration: 4000
     add_effects:
       slow: 1
   costs:

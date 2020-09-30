@@ -1,9 +1,13 @@
 currency:
-  description: >-
-    &8Right-click to deposit
+  description: ""
   item_name: >-
-    &e$amount &6$type
-
+    &e$amount &6$type &8(Right-click to deposit)
+  limit: >-
+    &8>> &cThe limit for &4$type &cis &4$amount&c.
+  deposited: >-
+    &8>> &7Deposited &e$amount &6$type&8, &7balance&8: &6$balance
+  earned: >-
+    t:&8+&e$earned
   galleon:
     amount: >-
       &6$amount Galleons
@@ -14,11 +18,18 @@ currency:
       &e$amount AC
     name: >-
       &eAcademic Credits
-  mc:
+    description: |-
+      &7AC can be spent at a &eSpell Teacher &7to learn new spells&8.
+      &7You can obtain them by completing classes&8.
+  cc:
     amount: >-
-      &2$amount CC
+      &e$amount CC
     name: >-
       &eCompletion Credits
+    description: |-
+      &7CC can be spent at a &eFinal Spell Teacher &7to learn final spells
+      for each year&8. &7You can obtain them by completing the
+      questline for your year&8.
 
 economy:
   insufficient: >-

@@ -1,8 +1,11 @@
 flagrate:
-  upgrade_required_casts: 25
+  inherit: false
   icon: diamond_axe{CustomModelData:58}
   icon_disabled: diamond_hoe{CustomModelData:58}
+  upgrade_required_path: year1
+  upgrade_required_casts: 25
   worth: 5 ac
+  category: charms
   actions:
     cast:
       - class: PlayEffects
@@ -10,7 +13,7 @@ flagrate:
     cast:
       - sound: magic.zap
         class: EffectTrail
-        particle: flame
+        particle: lava
         particle_data: 0.1
         particle_count: 10
     name:
@@ -26,10 +29,50 @@ flagrate:
           duration: 1000
           particle: lava
   parameters:
-    effect: name
     cooldown: 10000
+    backfire_chance: 0.65
+    effect: name
+    duration: 3000
 
 flagrate|2:
+  upgrade_required_path: year1
+  upgrade_required_casts: 50
+  parameters:
+    backfire_chance: 0.6
+
+flagrate|3:
+  upgrade_required_path: year1
+  upgrade_required_casts: 75
+  parameters:
+    backfire_chance: 0.55
+
+flagrate|4:
+  upgrade_required_path: year2
+  upgrade_required_casts: 100
+  parameters:
+    backfire_chance: 0.5
+
+flagrate|5:
+  upgrade_required_path: year2
+  upgrade_required_casts: 125
+  parameters:
+    backfire_chance: 0.45
+
+flagrate|6:
+  upgrade_required_path: year2
+  upgrade_required_casts: 150
+  parameters:
+    backfire_chance: 0.4
+
+flagrate|7:
+  upgrade_required_path: year3
+  upgrade_required_casts: 175
+  parameters:
+    backfire_chance: 0.35
+
+flagrate|8:
+  upgrade_required_path: year3
+  upgrade_required_casts: 200
   effects:
     name:
       - class: EffectSingle
@@ -40,3 +83,29 @@ flagrate|2:
           text: $target
           iterations: 3
           particle: flame
+  parameters:
+    backfire_chance: 0.3
+
+flagrate|9:
+  upgrade_required_path: year3
+  upgrade_required_casts: 225
+  parameters:
+    backfire_chance: 0.25
+
+flagrate|10:
+  upgrade_required_path: year4
+  upgrade_required_casts: 250
+  parameters:
+    backfire_chance: 0.15
+
+flagrate|11:
+  upgrade_required_path: year4
+  upgrade_required_casts: 275
+  parameters:
+    backfire_chance: 0.1
+
+flagrate|12:
+  upgrade_required_path: year4
+  upgrade_required_casts: 300
+  parameters:
+    backfire_chance: 0

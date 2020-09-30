@@ -21,17 +21,18 @@ lumos:
           - class: PotionEffect
   effects:
     cast:
-      - sound: magic.shimmer
+      - sound: betterpotter.cast_quiet
     light:
       - class: EffectSingle
         location: origin
+        target_offset: 0.1,-0.1,0.1
         effectlib:
           class: Sphere
           particle: spell
           radius: 0.15
           duration: 250
       - class: EffectSingle
-        location: target
+        location: origin
         particle: fireworks_spark
         particle_count: 10
         particle_data: 0.1
