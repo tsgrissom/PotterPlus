@@ -4,55 +4,61 @@ wit_sharpening_potion_ability:
   hidden: true
   actions:
     cast:
+      - class: Message
+        message: "&aPlease hold your wand"
+      - class: Delay
       - class: ModifyProperties
+      - class: Message
+        message: "&dMana upgraded"
   effects:
-    cast: enchant
+    cast:
+      - class: EffectSingle
+        sound: betterpotter.cast_sharp
+        effectlib:
+          class: Sphere
+          particle: enchantment_table
+          duration: $delay
+          radius: 2
+          radiusIncrease: 0.1
+          iterations: 100
   parameters:
     cooldown_mage: 2000
     bypass_confusion: true
     target: self
     cooldown: 60000
+    message: "&aPlease hold your wand"
+    message_type: title
+    delay: 5000
     modify_target: wand
-    additive: 5
     modify:
       - property: mana_max
         value: "x + 1"
 
 wit_sharpening_potion_ability|2:
-  hidden: true
-  category: specialty
   parameters:
     modify:
       - property: mana_max
         value: "x + 2"
 
 wit_sharpening_potion_ability|3:
-  hidden: true
-  category: specialty
   parameters:
     modify:
       - property: mana_max
         value: "x + 5"
 
 wit_sharpening_potion_ability|4:
-  hidden: true
-  category: specialty
   parameters:
     modify:
       - property: mana_max
         value: "x + 8"
 
 wit_sharpening_potion_ability|5:
-  hidden: true
-  category: specialty
   parameters:
     modify:
       - property: mana_max
         value: "x + 10"
 
 wit_sharpening_potion_ability|6:
-  hidden: true
-  category: specialty
   parameters:
     modify:
       - property: mana_max

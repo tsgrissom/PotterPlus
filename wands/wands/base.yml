@@ -44,7 +44,7 @@ potterwand:
 
 randomizedpotterwand:
   # Defines which icons the wand could be created from
-  icon: wooden_hoe{CustomModelData:1},wooden_hoe{CustomModelData:2},wooden_hoe{CustomModelData:3}
+  icon: wooden_hoe{CustomModelData:1},wooden_hoe{CustomModelData:2},wooden_hoe{CustomModelData:3},wooden_hoe{CustomModelData:4},wooden_hoe{CustomModelData:5}
   randomize_icon: diamond_hoe{CustomModelData:138}
   effects:
     randomize:

@@ -2,27 +2,34 @@ spells:
   buyshop:
     selected: >-
       &8>> &dYou purchased &r$item &dfor &6$cost
+    insufficient: >-
+      &6NPC &8&l> &cThat item costs &4$cost&c.
   wandshop:
     title: >-
       Wand Shop
+    selected: "t:&3Wand Purchased\n&7Right-click to open your wand box"
     insufficient: >-
       &6Wand Shop Owner &8> &cYou do not have a ticket to get a wand with!
   bookshop:
     name: >-
-      Textbook Shop
+      Book Shop
     title: >-
       &8Textbooks ($balance&8)
+    insufficient: >-
+      &6Book Vendor &8&l> &cThat book costs &4$cost&c.
     cost_lore: "&7Cost&8: &7$cost"
   broomshop:
     title: >-
       &8Brooms ($balance&8)
     insufficient: >-
-      &6Broom Shop Owner &8&l> &cThat item costs &4$cost&c.
+      &6Broom Shop Owner &8&l> &cThat broom costs &4$cost&c.
     selected: >-
       &6Broom Shop Owner &8&l> &7Ah yes&8! &7The &r$item &7is a magnificent broom&8. &7That will be &r$cost&8.
   spellshop:
     name: >-
-      Spell Shop
+      &6Learn Spells
+    description: >-
+      &7Spend &eAcademic Credits &7to unlock new spells&8.
     title: >-
       &8$path Spells ($balance&8)
     selected: |-
@@ -34,6 +41,28 @@ spells:
       to me&8.
     insufficient: >-
       &6Spell Teacher &8&l> &cI'm afraid you are not ready to learn more. That spell costs &4$cost&c.
+  upgrades:
+    name: >-
+      &6Spell Progress
+    description: >-
+      &7The more you cast your spells the stronger they become&8. &7Track their progress here&8.
+  progressmenu:
+    title: >-
+      &8Spell Progress
+    selected_free: ""
+  appearances:
+    name: >-
+      &6Wand Appearances
+    title: >-
+      &8Wand Appearances
+    description: >-
+      &7Customize your wand's appearance&8. &7Unlock special skins and effects&8.
+    selected_free: >-
+      &8>> &7You selected &6$item&8.
+    insufficient_permission: >-
+      &cThis item is currently locked.
+    not_applicable: >-
+      &8>> &cYour wand is already using that appearance.
   masteryspellshop:
     name: >-
       Mastery Spell Shop

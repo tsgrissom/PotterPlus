@@ -3,3 +3,24 @@ garrotinggas:
   right_click: cast
   active_spell: garroting_gas_ability
   uses: 1
+  unique: false
+
+garrotinggas_very_weak:
+  inherit: garrotinggas
+  overrides: garroting_gas_ability.duration 6000
+
+garrotinggas_weak:
+  inherit: garrotinggas
+  overrides: garroting_gas_ability.duration 8000
+
+garrotinggas_strong:
+  inherit: garrotinggas
+  overrides: garroting_gas_ability.duration 12000
+
+garrotinggas_very_strong:
+  inherit: garrotinggas
+  overrides: garroting_gas_ability.duration 15000
+
+garrotinggas_legendary:
+  inherit: garrotinggas
+  overrides: garroting_gas_ability.duration 25000

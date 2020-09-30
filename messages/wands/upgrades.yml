@@ -1,0 +1,56 @@
+wands:
+  appearance_black:
+    name: >-
+      &3Black Wand Appearance &8(Default)
+    description: >-
+      &7A basic black default wand&8.
+  appearance_brown:
+    name: >-
+      &3Brown Wand Appearance &8(Default)
+    description: >-
+      &7A basic brown default wand&8.
+  appearance_white:
+    name: >-
+      &3White Wand Appearance &8(Default)
+    description: >-
+      &7A basic white default wand&8.
+  appearance_light_brown:
+    name: >-
+      &3Light Brown Wand Appearance &8(Default)
+    description: >-
+      &7A basic light brown default wand&8.
+  appearance_grey:
+    name: >-
+      &3Grey Wand Appearance &8(Default)
+    description: >-
+      &7A basic grey default wand&8.
+  appearance_harry_potter:
+    name: >-
+      &6Harry Potter's Wand Appearance
+    description: >-
+      &7The wand of the chosen one&8.
+  appearance_elder:
+    name: >-
+      &6The Elder Wand Appearance
+    description: >-
+      &7A wand of immense power passed down from owner to owner&8.
+  appearance_narcissa_malfoy:
+    name: >-
+      &6Narcissa Malfoy's Wand Appearance
+    description: >-
+      &7A wand that was passed down to Draco Malfoy from his mother&8.
+  appearance_ron_weasley_first:
+    name: >-
+      &6Ron Weasley's First Wand Appearance
+    description: >-
+      &7The original wand of Ron Weasley.
+  appearance_bellatrix_lestrange_first:
+    name: >-
+      &6Bellatrix Lestrange's First Wand Appearance
+    description: >-
+      &7The original wand of Bellatrix Lestrange.
+  appearance_draco_malfoy:
+    name: >-
+      &6Draco Malfoy's Wand Appearance
+    description: >-
+      &7The original wand of Bellatrix Lestrange.

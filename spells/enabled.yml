@@ -15,10 +15,6 @@ music:
   category: specialty
   enabled: true
   hidden: true
-upgrades:
-  category: npc
-  enabled: true
-  hidden: true
 hat:
   enabled: true
   hidden: true

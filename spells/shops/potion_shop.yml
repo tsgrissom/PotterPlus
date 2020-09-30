@@ -10,6 +10,8 @@ legendarypotionshop:
     confirm: true
     confirm_title: "Buy legendary potion?"
     items:
+      - item: wand:essenceofdittany_legendary
+        cost: 100
       - item: wand:icepotion_legendary
         cost: 60
       - item: wand:witsharpeningpotion_legendary

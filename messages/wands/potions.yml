@@ -142,9 +142,61 @@ wands:
   essenceofdittany_very_weak:
     name: >-
       &2Very Weak Essence of Dittany
+    description: >-
+      &7Rapidly heals the drinker's wounds in billows of green smoke.
+  essenceofdittany_weak:
+    name: >-
+      &2Weak Essence of Dittany
+    description: >-
+      &7Rapidly heals the drinker's wounds in billows of green smoke.
+  essenceofdittany_strong:
+    name: >-
+      &2Strong Essence of Dittany
+    description: >-
+      &7Rapidly heals the drinker's wounds in billows of green smoke.
+  essenceofdittany_very_strong:
+    name: >-
+      &2Very Strong Essence of Dittany
+    description: >-
+      &7Rapidly heals the drinker's wounds in billows of green smoke.
+  essenceofdittany_legendary:
+    name: >-
+      &2Legendary Essence of Dittany
+    description: >-
+      &7Rapidly heals the drinker's wounds in billows of green smoke.
   garrotinggas:
     name: >-
       &2Garroting Gas &8(&7Throwable&8)
+    description: >-
+      &7A potion that creates a cloud of noxious, poisonous gas which
+      will suffocate and slow down those stuck in the cloud.
+  garrotinggas_very_weak:
+    name: >-
+      &2Very Weak Garroting Gas &8(&7Throwable&8)
+    description: >-
+      &7A potion that creates a cloud of noxious, poisonous gas which
+      will suffocate and slow down those stuck in the cloud.
+  garrotinggas_weak:
+    name: >-
+      &2Weak Garroting Gas &8(&7Throwable&8)
+    description: >-
+      &7A potion that creates a cloud of noxious, poisonous gas which
+      will suffocate and slow down those stuck in the cloud.
+  garrotinggas_strong:
+    name: >-
+      &2Strong Garroting Gas &8(&7Throwable&8)
+    description: >-
+      &7A potion that creates a cloud of noxious, poisonous gas which
+      will suffocate and slow down those stuck in the cloud.
+  garrotinggas_very_strong:
+    name: >-
+      &2Very Strong Garroting Gas &8(&7Throwable&8)
+    description: >-
+      &7A potion that creates a cloud of noxious, poisonous gas which
+      will suffocate and slow down those stuck in the cloud.
+  garrotinggas_legendary:
+    name: >-
+      &2Legendary Garroting Gas &8(&7Throwable&8)
     description: >-
       &7A potion that creates a cloud of noxious, poisonous gas which
       will suffocate and slow down those stuck in the cloud.

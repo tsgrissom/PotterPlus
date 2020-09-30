@@ -21,13 +21,13 @@ essenceofdittany_weak:
 
 essenceofdittany_strong:
   inherit: essenceofdittany
-  overiddes: essence_of_dittany_ability.duration 10000
+  overriddes: essence_of_dittany_ability.duration 10000
 
 essenceofdittany_very_strong:
   inherit: essenceofdittany
-  overiddes: essence_of_dittany_ability.duration 12000
+  overrides: essence_of_dittany_ability.duration 12000
 
 essenceofdittany_legendary:
   inherit: essenceofdittany
-  overiddes: essence_of_dittany_ability.duration 12000
+  overrides: essence_of_dittany_ability.duration 12000
   uses: 5

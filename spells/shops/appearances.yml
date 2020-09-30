@@ -1,0 +1,43 @@
+appearances:
+  inherit: appearanceshop
+  icon: diamond_axe{CustomModelData:154}
+  hidden: true
+  category: npc
+  parameters:
+    cost_type: none
+    requirements:
+      - wand: randomizedpotterwand
+    options:
+      - item: appearance_black
+        requirements:
+          - permission: betterpotter.appearance_black
+      - item: appearance_brown
+        requirements:
+          - permission: betterpotter.appearance_brown
+      - item: appearance_white
+        requirements:
+          - permission: betterpotter.appearance_white
+      - item: appearance_light_brown
+        requirements:
+          - permission: betterpotter.appearance_light_brown
+      - item: appearance_grey
+        requirements:
+          - permission: betterpotter.appearance_grey
+      - item: appearance_harry_potter
+        requirements:
+          - permission: betterpotter.appearance_harry_potter
+      - item: appearance_elder
+        requirements:
+          - permission: betterpotter.appearance_elder
+      - item: appearance_narcissa_malfoy
+        requirements:
+          - permission: betterpotter.appearance_narcissa_malfoy
+      - item: appearance_ron_weasley_first
+        requirements:
+          - permission: betterpotter.appearance_ron_weasley_first
+      - item: appearance_bellatrix_lestrange_first
+        requirements:
+          - permission: betterpotter.appearance_bellatrix_lestrange_first
+      - item: appearance_draco_malfoy
+        requirements:
+          - permission: betterpotter.appearance_draco_malfoy

@@ -29,3 +29,4 @@ wand:
   spell_added: |-
     t:&dSpell Unlocked
     &6$name
+  upgrade_item_description: ""
