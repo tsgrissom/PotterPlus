@@ -129,6 +129,32 @@ wands:
       &fInvisibility Potion &8(&7Consumable&8)
     description: >-
       &7Causes the drinker to completely vanish from sight for a time.
+  invisibilitypotion_very_weak:
+    name: >-
+      &fVery Weak Invisibility Potion &8(&7Consumable&8)
+    description: >-
+      &7Causes the drinker to completely vanish from sight for a time.
+  invisibilitypotion_weak:
+    name: >-
+      &fWeak Invisibility Potion &8(&7Consumable&8)
+    description: >-
+      &7Causes the drinker to completely vanish from sight for a time.
+  invisibilitypotion_strong:
+    name: >-
+      &fStrong Invisibility Potion &8(&7Consumable&8)
+    description: >-
+      &7Causes the drinker to completely vanish from sight for a time.
+  invisibilitypotion_very_strong:
+    name: >-
+      &fVery Strong Invisibility Potion &8(&7Consumable&8)
+    description: >-
+      &7Causes the drinker to completely vanish from sight for a time.
+  invisibilitypotion_legendary:
+    name: >-
+      &fLegendary Invisibility Potion &8(&7Consumable&8)
+    description: >-
+      &7Causes the drinker to completely vanish from sight for a time.
+
   pompionpotion:
     name: >-
       &6Pompion Potion &8(&7Throwable&8)

@@ -10,11 +10,13 @@ legendarypotionshop:
     confirm: true
     confirm_title: "Buy legendary potion?"
     items:
-      - item: wand:essenceofdittany_legendary
+      - item: wand|essenceofdittany_legendary
         cost: 100
-      - item: wand:icepotion_legendary
+      - item: wand|icepotion_legendary
         cost: 60
-      - item: wand:witsharpeningpotion_legendary
+      - item: wand|invisibilitypotion_legendary
+        cost: 60
+      - item: wand|witsharpeningpotion_legendary
         cost: 2000
 
 potionshop:
@@ -100,43 +102,43 @@ potionshop_potions:
   inherit: potionshop_ingredients
   parameters:
     items:
-      - item: wand|burpingpotion
-        cost: 5
-      - item: wand|babblingbeverage
-        cost: 5
-      - item: wand|pompionpotion
-        cost: 5
-      - item: wand|befuddlementdraught
-        cost: 10
-      - item: wand|confusingconcoction
-        cost: 10
-      - item: wand|lovepotion
-        cost: 10
       - item: wand|amortentia
-        cost: 15
-      - item: wand|oculuspotion
-        cost: 15
-      - item: wand|icepotion
         cost: 15
       - item: wand|antiparalysispotion
         cost: 20
-      - item: wand|baruffiosbrainelixir
-        cost: 20
-      - item: wand|invisibilitypotion
-        cost: 20
-      - item: wand|bloodreplenishingpotion
-        cost: 25
       - item: wand|antidotetocommonpoisons
         cost: 25
-      - item: wand|garrotinggas
-        cost: 30
-      - item: wand|essenceofdittany
-        cost: 30
       - item: wand|antidotetouncommonpoisons
         cost: 30
-      - item: wand|draughtoflivingdeath
-        cost: 50
+      - item: wand|babblingbeverage
+        cost: 5
+      - item: wand|baruffiosbrainelixir
+        cost: 20
+      - item: wand|befuddlementdraught
+        cost: 10
+      - item: wand|bloodreplenishingpotion
+        cost: 25
+      - item: wand|burpingpotion
+        cost: 5
+      - item: wand|confusingconcoction
+        cost: 10
       - item: wand|deathpotion
         cost: 80
+      - item: wand|draughtoflivingdeath
+        cost: 50
+      - item: wand|essenceofdittany
+        cost: 30
+      - item: wand|garrotinggas
+        cost: 30
+      - item: wand|icepotion
+        cost: 15
+      - item: wand|invisibilitypotion
+        cost: 20
+      - item: wand|lovepotion
+        cost: 10
+      - item: wand|oculuspotion
+        cost: 15
+      - item: wand|pompionpotion
+        cost: 5
       - item: wand|witsharpeningpotion
         cost: 100

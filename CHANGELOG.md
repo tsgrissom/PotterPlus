@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/29/20
 
+* Added invisibility potion tiers.
 * Re-worked Essence of Dittany.
 * Progress Menu with advanced appearances selection.
 * Light brown and grey wand appearances.
