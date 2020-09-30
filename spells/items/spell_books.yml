@@ -3,18 +3,28 @@ learnspell:
   hidden: true
   actions:
     cast:
-      - class: Command
+      - class: Delay
+      - class: AddSpell
   effects:
-    cast: enchant
+    cast:
+      - class: EffectSingle
+        sound: betterpotter.cast_sharp
+        effectlib:
+          class: Sphere
+          particle: enchantment_table
+          radius: 2
+          radiusIncrease: 0.1
+          duration: 15000
   parameters:
+    cooldown_mage: 15000
+    delay: 2000
     target: self
-    console: true
-
+    
 learn_alohomora:
   inherit: learnspell
   hidden: true
   parameters:
-    command: mage add @tn alohomora
+    spell: alohomora
   costs:
     alohomora_book: 1
 
@@ -22,7 +32,7 @@ learn_duro:
   inherit: learnspell
   hidden: true
   parameters:
-    command: mage add @tn duro
+    spell: duro
   costs:
     duro_book: 1
 
@@ -30,7 +40,7 @@ learn_glacius:
   inherit: learnspell
   hidden: true
   parameters:
-    command: mage add @tn glacius
+    spell: glacius
   costs:
     glacius_book: 1
 

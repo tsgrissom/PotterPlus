@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 9/30/20
 
+* Cleared a bunch of cast and cast self messages. Probably a bunch left, fix as we go.
 * Added black and grey wand appearance.
 * Adjusted how Ron and Bellatrix's wands viewed.
 * Fixed grey wand appearance.

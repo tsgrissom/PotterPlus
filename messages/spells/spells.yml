@@ -613,6 +613,8 @@ spells:
       Engorges objects and creatures.
 
   episkey:
+    cast: ""
+    cast_self: ""
     name: >-
       Episkey
     description: >-
@@ -646,6 +648,7 @@ spells:
       Increased duration.
 
   erecto:
+    cast: ""
     name: >-
       Erecto
     description: >-
@@ -743,6 +746,8 @@ spells:
       Increased duration.
 
   ferula:
+    cast: ""
+    cast_self: ""
     name: >-
       Ferula
     description: >-
@@ -1253,6 +1258,7 @@ spells:
       Increased range.
 
   lumos:
+    cast: ""
     name: >-
       Lumos
     description: >-
@@ -1311,6 +1317,7 @@ spells:
       Control the weather to precisely calm storms.
 
   morsmordre:
+    cast: ""
     name: >-
       Morsmordre
     description: >-
@@ -1358,11 +1365,12 @@ spells:
       Conjures bunches of beautiful flowers.
 
   patronus:
+    cast: ""
+    usage: ""
     name: >-
       Expecto Patronum
     description: >-
       Conjures a wizard's Patronus to protect against Dementors and Lethifolds.
-    usage: ""
   patronus|2:
     upgrade_description: |-
       Increased speed.
@@ -1374,6 +1382,7 @@ spells:
       Increased damage.
 
   periculum:
+    cast: ""
     name: >-
       Periculum
     description: >-
@@ -1386,6 +1395,7 @@ spells:
       Decreased cooldown.
 
   petrificustotalus:
+    cast: ""
     name: >-
       Petrificus Totalus
     description: >-
@@ -1408,6 +1418,7 @@ spells:
       Decreased charge time.
 
   protego:
+    cast: ""
     name: >-
       Protego
     description: >-
@@ -1482,6 +1493,7 @@ spells:
       Decreased cooldown.
 
   reducio:
+    cast: ""
     name: >-
       Reducio
     description: >-
@@ -1506,16 +1518,33 @@ spells:
       Increased radius.
 
   rennervate:
+    cast: ""
+    cast_self: ""
     name: >-
       Rennervate
     description: >-
       Awakens stunned targets back to their normal state.
 
   reparifarge:
+    cast: >-
+      &8>> &7You reverse the &6$spell &7cast&8.
+    cast_self: >-
+      &8>> &7You reverse your &6$spell &7cast&8.
+    cost_free: >-
+      &8>> &7You cancel your &6$spell &7cast&8.
+    fail: >-
+      &8>> &cNothing to reverse.
     name: >-
       Reparifarge
     description: >-
       Counters most of the world-impacting effects of previously cast spells.
+
+  reparo:
+    cast: ""
+    name: >-
+      Reparo
+    description: >-
+      Fixes things.
 
   revelio:
     name: >-
@@ -1625,6 +1654,7 @@ spells:
       Now works in an area of effect.
 
   spongify:
+    cast: ""
     name: >-
       Spongify
     description: >-
@@ -1643,6 +1673,7 @@ spells:
       Increased damage.
 
   stupefy:
+    cast: ""
     name: >-
       Stupefy
     description: >-
@@ -1730,6 +1761,7 @@ spells:
       Increased damage.
 
   vermillious:
+    cast: ""
     name: >-
       Vermillious
     description: >-
@@ -1757,6 +1789,7 @@ spells:
       Increased damage.
 
   volo:
+    cast: ""
     name: >-
       Volo
     description: >-
@@ -1771,6 +1804,8 @@ spells:
       Increased speed.
 
   vulnera:
+    cast: ""
+    cast_self: ""
     name: >-
       Vulnera Sanentur
     description: >-
@@ -1818,6 +1853,7 @@ spells:
       Increased duration.
 
   wingardium:
+    cast: ""
     name: >-
       Wingardium Leviosa
     description: >-
