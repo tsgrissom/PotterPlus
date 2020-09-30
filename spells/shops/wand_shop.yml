@@ -1,5 +1,6 @@
 wandshop:
   inherit: ollivander
+  icon: wooden_hoe{CustomModelData:100}
   hidden: true
   category: npc
   effects:

@@ -42,6 +42,8 @@ periculux:
   enabled: false
 spongifymaxima:
   enabled: false
+potterbroomshop:
+  enabled: false
 
 # Disabled because buying another ticket is not possible in BP.
 ticketshop:

@@ -37,12 +37,9 @@ spells:
     deactivate: >-
       &8>> &7Your carpet settles to the ground&8...
   broom:
-    cast: >-
-      &8>> &7Your broom springs to life&8!
-    deactivate: >-
-      &8>> &7Your broom settles to the ground&8...
-    cursed: >-
-      &8>> &cYou are too stunned to fly!
+    cast: ""
+    deactivate: ""
+    cursed: ""
     crash: >-
       t:&cCRASH!
   portkey_ability:

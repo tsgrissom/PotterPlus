@@ -1,4 +1,51 @@
 spells:
+  progressmenu:
+    title: >-
+      &8Spell Progress
+    selected_free: ""
+  upgrades:
+    name: >-
+      &6Spell Progress
+    description: >-
+      &7The more you cast your spells the stronger they become&8. &7Track their progress here&8.
+  appearances:
+    name: >-
+      &6Wand Appearances
+    title: >-
+      &8Wand Appearances
+    description: >-
+      &7Customize your wand's appearance&8. &7Unlock special skins and effects&8.
+    selected_free: >-
+      &8>> &7You selected &6$item&8.
+    insufficient_permission: >-
+      &cThis item is currently locked.
+    not_applicable: >-
+      &8>> &cYour wand is already using that appearance.
+  spellshop:
+    name: >-
+      &6Learn Spells
+    description: >-
+      &7Spend &eAcademic Credits &7to unlock new spells&8.
+    title: >-
+      &8$path Spells ($balance&8)
+    selected: |-
+      t:&dSpell Unlocked
+      &6$item
+    no_items: >-
+      &6Spell Teacher &8&l> &7I have nothing left to teach you for now&8. &7Visit a &eMastery
+      Spell Teacher &7to learn the final spell for your class and then come back
+      to me&8.
+    insufficient: >-
+      &6Spell Teacher &8&l> &cI'm afraid you are not ready to learn more. That spell costs &4$cost&c.
+  finalspellshop:
+    name: >-
+      Learn Final Spells
+    title: >-
+      &8Final Spell ($balance&8)
+    no_items: >-
+      &6Final Spell Teacher &8&l> &cYou are not ready to learn a new mastery spell yet. &cCome back
+      when you have learned all the spells for your class.
+
   buyshop:
     selected: >-
       &8>> &dYou purchased &r$item &dfor &6$cost
@@ -25,52 +72,7 @@ spells:
       &6Broom Shop Owner &8&l> &cThat broom costs &4$cost&c.
     selected: >-
       &6Broom Shop Owner &8&l> &7Ah yes&8! &7The &r$item &7is a magnificent broom&8. &7That will be &r$cost&8.
-  spellshop:
-    name: >-
-      &6Learn Spells
-    description: >-
-      &7Spend &eAcademic Credits &7to unlock new spells&8.
-    title: >-
-      &8$path Spells ($balance&8)
-    selected: |-
-      t:&dSpell Unlocked
-      &6$item
-    no_items: >-
-      &6Spell Teacher &8&l> &7I have nothing left to teach you for now&8. &7Visit a &eMastery
-      Spell Teacher &7to learn the final spell for your class and then come back
-      to me&8.
-    insufficient: >-
-      &6Spell Teacher &8&l> &cI'm afraid you are not ready to learn more. That spell costs &4$cost&c.
-  upgrades:
-    name: >-
-      &6Spell Progress
-    description: >-
-      &7The more you cast your spells the stronger they become&8. &7Track their progress here&8.
-  progressmenu:
-    title: >-
-      &8Spell Progress
-    selected_free: ""
-  appearances:
-    name: >-
-      &6Wand Appearances
-    title: >-
-      &8Wand Appearances
-    description: >-
-      &7Customize your wand's appearance&8. &7Unlock special skins and effects&8.
-    selected_free: >-
-      &8>> &7You selected &6$item&8.
-    insufficient_permission: >-
-      &cThis item is currently locked.
-    not_applicable: >-
-      &8>> &cYour wand is already using that appearance.
-  masteryspellshop:
-    name: >-
-      Mastery Spell Shop
-    title: >-
-      &8Final Spell ($balance&8)
-    no_items: >-
-      &6Mastery Spell Teacher &8&l> &cYou are not ready to learn a new mastery spell yet. &cCome back
-      when you have learned all the spells for your class.
+
   potionshop:
     name: >-
       Potion Shop

@@ -1,5 +1,6 @@
-masteryspellshop:
+finalspellshop:
   inherit: buyshop
+  icon: diamond_axe{CustomModelData:138}
   category: npc
   hidden: true
   parameters:

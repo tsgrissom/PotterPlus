@@ -67,7 +67,7 @@ potionshop:
     confirm: false
 
 potionshop_ingredients:
-  icon: diamond_axe:180
+  icon: cauldron
   category: npc
   hidden: true
   inherit: buyshop
@@ -96,7 +96,7 @@ potionshop_ingredients:
     cost_type: galleon
 
 potionshop_potions:
-  icon: diamond_axe:44
+  icon: cauldron
   category: npc
   hidden: true
   inherit: potionshop_ingredients

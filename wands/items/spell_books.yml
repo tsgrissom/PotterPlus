@@ -1,4 +1,4 @@
-mastery_book:
+final_book:
   icon: enchanted_book
   lore:
     - "$description"
@@ -9,37 +9,37 @@ mastery_book:
   undroppable: true
 
 alohomora_book:
-  inherit: mastery_book
+  inherit: final_book
   active_spell: learn_alohomora
 
 duro_book:
-  inherit: mastery_book
+  inherit: final_book
   active_spell: learn_duro
   icon: paper
   glow: true
 
 glacius_book:
-  inherit: mastery_book
+  inherit: final_book
   active_spell: learn_glacius
   icon: paper
   glow: true
 
 episkey_book:
-  inherit: mastery_book
+  inherit: final_book
   active_spell: learn_episkey
 
 aparecium_book:
-  inherit: mastery_book
+  inherit: final_book
   active_spell: learn_aparecium
 
 patronus_book:
-  inherit: mastery_book
+  inherit: final_book
   active_spell: learn_patronus
   icon: paper
   glow: true
 
 protego_maxima_book:
-  inherit: mastery_book
+  inherit: final_book
   active_spell: learn_protego_maxima
   icon: paper
   glow: true

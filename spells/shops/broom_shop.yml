@@ -1,4 +1,5 @@
 broomshop:
+  icon: wooden_hoe{CustomModelData:200}
   category: npc
   parameters:
     cost_type: galleon
