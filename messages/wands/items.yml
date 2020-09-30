@@ -101,3 +101,8 @@ wands:
       &dPortkey
     description: >-
       &7A seemingly random object enchanted to take you back home&8.
+  open_wandbox:
+    name: >-
+      Open Wandbox
+    description: >-
+      Open your wandbox to obtain your very own wand.

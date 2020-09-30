@@ -1,6 +1,7 @@
 appearances:
   inherit: appearanceshop
   icon: diamond_axe{CustomModelData:154}
+  icon_disabled: barrier
   hidden: true
   category: npc
   parameters:
@@ -23,6 +24,9 @@ appearances:
       - item: appearance_grey
         requirements:
           - permission: betterpotter.appearance_grey
+      - item: appearance_black_and_grey
+        requirements:
+          - permission: betterpotter.appearance_black_and_grey
       - item: appearance_harry_potter
         requirements:
           - permission: betterpotter.appearance_harry_potter

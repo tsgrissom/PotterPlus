@@ -24,6 +24,11 @@ wands:
       &3Grey Wand Appearance &8(Default)
     description: >-
       &7A basic grey default wand&8.
+  appearance_black_and_grey:
+    name: >-
+      &6Black and Grey Wand Appearance
+    description: >-
+      &7A black and grey wand&8.
   appearance_harry_potter:
     name: >-
       &6Harry Potter's Wand Appearance

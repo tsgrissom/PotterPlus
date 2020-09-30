@@ -2,3 +2,6 @@ default:
   hide_messages:
     - cast
     - cast_finish
+
+base_passive:
+  hidden: true

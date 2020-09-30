@@ -1,5 +1,5 @@
 ashwinder_ambient:
-  icon: fire
+  icon: diamond_axe{CustomModelData:46}
   category: specialty
   hidden: true
   actions:
@@ -13,6 +13,7 @@ ashwinder_ambient:
 
 ashwinder_summon:
   inherit: ashwinder_ambient
+  icon: diamond_axe{CustomModelData:46}
   actions:
     cast:
       - class: SpawnEntity
@@ -27,5 +28,6 @@ ashwinder_summon|2:
 
 ashwinder_burn:
   inherit: incendio
+  icon: diamond_axe{CustomModelData:46}
   hidden: true
   category: specialty

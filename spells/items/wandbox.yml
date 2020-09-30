@@ -1,4 +1,7 @@
 open_wandbox:
+  icon: wooden_hoe{CustomModelData:100}
+  hidden: true
+  category: specialty
   actions:
     cast:
       - class: Command

@@ -23,6 +23,11 @@ appearance_grey:
   icon: wooden_hoe{CustomModelData:5}
   upgrade_icon: wooden_hoe{CustomModelData:5}
 
+appearance_black_and_grey:
+  upgrade: true
+  icon: wooden_hoe{CustomModelData:6}
+  upgrade_icon: wooden_hoe{CustomModelData:6}
+
 appearance_harry_potter:
   upgrade: true
   icon: wooden_hoe{CustomModelData:10}

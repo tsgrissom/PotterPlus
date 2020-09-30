@@ -27,6 +27,7 @@ acromantula_summon:
 
 acromantula_spit:
   inherit: bogies
+  icon: web
   category: specialty
   hidden: true
   parameters:
@@ -39,6 +40,7 @@ acromantula_spit|2:
 
 acromantula_webbing:
   inherit: webbing
+  icon: web
   hidden: true
   effects:
     tick: []

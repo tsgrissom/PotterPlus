@@ -1,6 +1,8 @@
 # TODO: Add dark upgrade
 flight:
   inherit: airscooter
+  icon: diamond_axe{CustomModelData:259}
+  icon_disabled: diamond_hoe{CustomModelData:259}
   worth: 30 ac
   show_undoable: false
   quick_cast: false
