@@ -4,6 +4,8 @@ acromantula_queen:
   name: '&2Queen Acromantula'
   health: 60
   track_radius: 64
+  drops:
+    - mobxp|6
   potion_effects:
     - type: slow
       amplifier: 1

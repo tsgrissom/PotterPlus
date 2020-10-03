@@ -209,15 +209,6 @@
     {"predicate": {"custom_model_data":274}, "model":"item/spells/bombarda"},
     {"predicate": {"custom_model_data":275}, "model":"item/spells/carpe_retractum"},
     {"predicate": {"custom_model_data":276}, "model":"item/spells/colloportus"},
-    {"predicate": {"custom_model_data":277}, "model":"item/spells/flame_freezing"},
-
-    { "predicate": { "custom_model_data": 400 }, "model": "item/bp/symbols/yes" },
-    { "predicate": { "custom_model_data": 401 }, "model": "item/bp/symbols/no" },
-    { "predicate": { "custom_model_data": 402 }, "model": "item/bp/symbols/ac" },
-    { "predicate": { "custom_model_data": 403 }, "model": "item/bp/symbols/cc" },
-    { "predicate": { "custom_model_data": 404 }, "model": "item/bp/symbols/up_arrow" },
-    { "predicate": { "custom_model_data": 405 }, "model": "item/bp/symbols/right_arrow" },
-    { "predicate": { "custom_model_data": 406 }, "model": "item/bp/symbols/down_arrow" },
-    { "predicate": { "custom_model_data": 407 }, "model": "item/bp/symbols/left_arrow" }
+    {"predicate": {"custom_model_data":277}, "model":"item/spells/flame_freezing"}
   ]
 }

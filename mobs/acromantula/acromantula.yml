@@ -2,6 +2,8 @@ acromantula:
   inherit: acromantula_underling
   name: '&2Acromantula'
   health: 30
+  drops:
+    - mobxp|3
   triggers:
     damage:
       cast:

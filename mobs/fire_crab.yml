@@ -3,6 +3,8 @@ fire_crab:
   type: spider
   health: 50
   default_drops: false
+  drops:
+    - mobxp|5
   potion_effects:
     - type: fire_resistance
       amplifier: 255

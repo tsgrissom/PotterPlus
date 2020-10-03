@@ -3,6 +3,8 @@ phoenix:
   type: parrot
   health: 10
   default_drops: false
+  drops:
+    - mobxp|1
   potion_effects:
     - type: fire_resistance
       amplifier: 255

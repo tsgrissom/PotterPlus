@@ -5,6 +5,8 @@ bowtruckle:
   health: 30
   interval: 3000
   default_drops: false
+  drops:
+    - mobxp|3
   track_radius: 48
   triggers:
     interval:

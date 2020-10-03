@@ -4,6 +4,9 @@ overgrown_bowtruckle:
   baby: false
   health: 50
   interval: 4000
+  default_drops: false
+  drops:
+    - mobxp|5
   triggers:
     interval:
       cast:

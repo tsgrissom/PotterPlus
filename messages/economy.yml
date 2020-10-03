@@ -18,7 +18,7 @@ currency:
       &e$amount AC
     name: >-
       &eAcademic Credits
-    description: |-
+    description: >-
       &7AC can be spent at a &eSpell Teacher &7to learn new spells&8.
       &7You can obtain them by completing classes&8.
   cc:
@@ -26,10 +26,18 @@ currency:
       &e$amount CC
     name: >-
       &eCompletion Credits
-    description: |-
+    description: >-
       &7CC can be spent at a &eFinal Spell Teacher &7to learn final spells
       for each year&8. &7You can obtain them by completing the
       questline for your year&8.
+  mobxp:
+    amount: >-
+      &6$amount Mob XP
+    name: >-
+      &6Mob XP
+    description: >-
+      &7Mob XP can be obtained by fighting creatures and traded to
+      obtain other things&8.
 
 economy:
   insufficient: >-

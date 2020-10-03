@@ -1,0 +1,4 @@
+on right click:
+  player is holding wand "randomizedpotterwand":
+    player is sneaking
+    Execute console command "castp %player% progressmenu"

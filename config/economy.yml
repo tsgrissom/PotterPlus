@@ -13,8 +13,12 @@ custom_currency:
   ac:
     max: 9999
     default: 0
-    icon: diamond_axe{CustomModelData:402}
+    icon: iron_axe{CustomModelData:5}
   cc:
     max: 9999
     default: 0
-    icon: diamond_axe{CustomModelData:403}
+    icon: iron_axe{CustomModelData:6}
+  mobxp:
+    max: 99999
+    default: 0
+    icon: iron_axe{CustomModelData:12}

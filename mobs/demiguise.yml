@@ -3,6 +3,8 @@ demiguise:
   type: rabbit
   health: 50
   default_drops: false
+  drops:
+    - mobxp|5
   triggers:
     damage:
       cast:

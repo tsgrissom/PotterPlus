@@ -1,0 +1,7 @@
+{
+    "parent" : "item/custom/icon",
+    "textures": {
+        "particle": "item/bp/symbols/question_gold",
+        "texture": "item/bp/symbols/question_gold"
+    }
+}

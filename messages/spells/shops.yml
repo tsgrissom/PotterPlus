@@ -1,26 +1,4 @@
 spells:
-  progressmenu:
-    title: >-
-      &8Spell Progress
-    selected_free: ""
-  upgrades:
-    name: >-
-      &6Spell Progress
-    description: >-
-      &7The more you cast your spells the stronger they become&8. &7Track their progress here&8.
-  appearances:
-    name: >-
-      &6Wand Appearances
-    title: >-
-      &8Wand Appearances
-    description: >-
-      &7Customize your wand's appearance&8. &7Unlock special skins and effects&8.
-    selected_free: >-
-      &8>> &7You selected &6$item&8.
-    insufficient_permission: >-
-      &cThis item is currently locked.
-    not_applicable: >-
-      &8>> &cYour wand is already using that appearance.
   spellshop:
     name: >-
       &6Learn Spells
@@ -102,3 +80,38 @@ spells:
       &8Potions ($balance&8)
     insufficient: >-
       &6Potion Shop Owner &8&l> &cI'm sorry, but I'm afraid you cannot afford that potion. It costs &4$cost&c.
+
+  xptrader:
+    name: >-
+      XP Trader
+    title: >-
+      &8XP Trader ($balance&8)
+    insufficient: >-
+      &6XP Trader &8&l> &cI'm sorry, but you don't have enough XP for that. It costs &4$cost&c.
+    selected: >-
+      &8>> &7You traded $cost &7for $item&8.
+
+  actrader:
+    name: >-
+      AC Trader
+    title: >-
+      &8AC Trader
+    selected_free: ""
+  actrader_ac:
+    name: >-
+      AC-Galleon Trader
+    title: >-
+      &8AC Trader ($balance&8)
+    insufficient: >-
+      &6AC Trader &8&l> &cI'm sorry, but you don't have enough Galleons for that. It costs &4$cost&c.
+    selected: >-
+      &8>> &7You traded $cost &7for $item&8.
+  actrader_galleons:
+    name: >-
+      Galleon-AC Trader
+    title: >-
+      &8AC Trader ($balance&8)
+    insufficient: >-
+      &6AC Trader &8&l> &cI'm sorry, but you don't have enough Academic Credits for that. It costs &4$cost&c.
+    selected: >-
+      &8>> &7You traded $cost &7for $item&8.

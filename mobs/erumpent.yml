@@ -3,6 +3,8 @@ erumpent:
   type: ravager
   health: 100
   default_drops: false
+  drops:
+    - mobxp|10
   interval: 3000
   potion_effects:
     - type: slow

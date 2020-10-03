@@ -3,6 +3,8 @@ erkling:
   type: skeleton
   health: 30
   default_drops: false
+  drops:
+    - mobxp|3
   helmet: leaves
   drops:
     - erklingdartblower

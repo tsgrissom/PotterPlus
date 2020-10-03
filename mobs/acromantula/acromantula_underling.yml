@@ -3,6 +3,8 @@ acromantula_underling:
   name: '&2Acromantula Underling'
   health: 20
   default_drops: false
+  drops:
+    - mobxp|2
   interval: 5000
   track_radius: 48
   potion_effects:

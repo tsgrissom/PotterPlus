@@ -1,7 +1,0 @@
-{
-    "parent" : "item/custom/icon",
-    "textures": {
-        "particle": "item/bp/symbols/up_arrow",
-        "texture": "item/bp/symbols/up_arrow"
-    }
-}

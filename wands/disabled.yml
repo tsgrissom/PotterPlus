@@ -1,3 +1,6 @@
+elder:
+  enabled: false
+
 # Wand Upgrades
 
 stabilizer:

@@ -3,6 +3,8 @@ centaur:
   type: horse
   health: 80
   default_drops: false
+  drops:
+    - mobxp|8
   aggro: true
   interval: 2000
   track_radius: 48

@@ -3,8 +3,9 @@ learnspell:
   hidden: true
   actions:
     cast:
-      - class: Delay
       - class: AddSpell
+      - class: Delay
+      - class: UpgradePath
   effects:
     cast:
       - class: EffectSingle
@@ -16,10 +17,10 @@ learnspell:
           radiusIncrease: 0.1
           duration: 15000
   parameters:
-    cooldown_mage: 15000
+    cooldown_mage: 10000
     delay: 2000
     target: self
-    
+
 learn_alohomora:
   inherit: learnspell
   hidden: true

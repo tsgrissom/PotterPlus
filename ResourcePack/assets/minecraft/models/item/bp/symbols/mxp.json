@@ -1,0 +1,7 @@
+{
+    "parent" : "item/custom/icon",
+    "textures": {
+        "particle": "item/bp/symbols/mxp",
+        "texture": "item/bp/symbols/mxp"
+    }
+}

@@ -6,7 +6,7 @@ wandshop:
   effects:
     selected: enchant
   parameters:
-    put_in_hand: false
+    put_in_hand: true
     auto_close: true
     confirm: false
     options:

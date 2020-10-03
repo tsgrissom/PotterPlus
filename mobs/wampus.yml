@@ -3,6 +3,8 @@ wampus:
   type: ocelot
   health: 20
   default_drops: false
+  drops:
+    - mobxp|2
   aggro: true
   track_radius: 32
   triggers:

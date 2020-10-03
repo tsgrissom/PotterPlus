@@ -1,0 +1,53 @@
+actrader:
+  icon: iron_axe{CustomModelData:5}
+  category: npc
+  hidden: true
+  actions:
+    cast:
+      - class: Selector
+  parameters:
+    options:
+      - icon: iron_axe{CustomModelData:5}
+        name: "&6Trade Galleons for Academic Credits"
+        cast_spell: actrader_ac
+        item: null
+      - icon: gold_nugget
+        name: "&6Trade Academic Credits for Galleons"
+        cast_spell: actrader_galleons
+        item: null
+
+actrader_ac:
+  icon: iron_axe{CustomModelData:5}
+  category: npc
+  hidden: true
+  actions:
+    cast:
+      - class: Shop
+  parameters:
+    cost_type: galleon
+    options:
+      - icon: iron_axe{CustomModelData:5}
+        name: "&e5 Academic Credits"
+        cost: 50
+        lore:
+          - "&aGain&8: &e5 Academic Credits"
+        commands:
+          - "mgive @pn ac 5"
+
+actrader_galleons:
+  icon: gold_nugget
+  category: npc
+  hidden: true
+  actions:
+    cast:
+      - class: Shop
+  parameters:
+    cost_type: ac
+    options:
+      - icon: gold_nugget
+        name: "&650 Galleons"
+        cost: 5
+        lore:
+          - "&aGain&8: &650 Galleons"
+        commands:
+          - "mgive @pn galleon 50"

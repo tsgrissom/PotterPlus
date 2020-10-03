@@ -8,6 +8,10 @@ ashwinder:
   health: 20
   # Disables default mob drops
   default_drops: false
+  # Defines what items the mob will drop when killed
+  drops:
+    - ashwindereggs
+    - mobxp|2
   # Disables default mob sound FX
   silent: true
   # Defines potion effects to apply to the Magic mob
@@ -18,9 +22,6 @@ ashwinder:
   interval: 1000
   # Defines the max radius from which the mob will pursue the player
   track_radius: 32
-  # Defines what items the mob will drop when killed
-  drops:
-    - ashwindereggs
   # Defines the triggers for the Magic mob. You can trigger spell casts,
   # effects, etc.
   triggers:

@@ -8,6 +8,21 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 10/3/20
+
+* Adjusted Locomotor Mortis speed and SFX.
+* Fixed Flagrate to be in line with new spell idea.
+* Adjusted Lumos SFX.
+* Appearance menu.
+* Full progress menu with spells, upgrades, and wand appearances.
+* Added back most particles.
+* Added Skripts folder with some useful Skripts I write to work with BP.
+* `actrader` NPC.
+* Trade Mob XP for Galleons at `xptrader` NPCs.
+* New currency Mob XP dropped by creatures on death.
+* Symbols moved to iron axe namespace.
+* New RP symbols.
+
 ### 9/30/20
 
 * Economy enhancements, better messages.

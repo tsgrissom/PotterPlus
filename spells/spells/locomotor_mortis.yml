@@ -13,25 +13,25 @@ locomotormortis:
   effects:
     cast:
       - sound: magic.zap
+        particle: fireworks_spark
+        particle_data: 1
+        particle_count: 10
+        location: origin
     tick:
       - location: target
         effectlib:
           class: Sphere
-          particle: redstone
-          particles: 15
+          particle: spell_mob
+          particles: 5
           color: 8A084B
           radius: 0.1
           duration: 25
-      - particle: fireworks_spark
-        particle_data: 0.5
-        particle_count: 2
-        location: target
     hit:
       - location: target
         sound: magic.hit
         particle: fireworks_spark
         particle_count: 10
-        particle_data: 0.5
+        particle_data: 1
         firework: ball
         color: 8A084B
         color2: FFFFFF
@@ -47,7 +47,7 @@ locomotormortis:
     target: other
     hitbox: true
     range: 16
-    velocity: 20
+    velocity: 30
     effect_slow: 255
     duration: 3000
     cooldown: 10000

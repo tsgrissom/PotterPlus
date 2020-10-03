@@ -1,7 +1,7 @@
 appearances:
   inherit: appearanceshop
   icon: diamond_axe{CustomModelData:154}
-  icon_disabled: barrier
+  icon_disabled: iron_axe{CustomModelData:10}
   hidden: true
   category: npc
   parameters:
