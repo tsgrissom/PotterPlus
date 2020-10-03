@@ -10,19 +10,21 @@ spells:
       t:&dSpell Unlocked
       &6$item
     no_items: >-
-      &6Spell Teacher &8&l> &7I have nothing left to teach you for now&8. &7Visit a &eMastery
-      Spell Teacher &7to learn the final spell for your class and then come back
-      to me&8.
+      &6Spell Teacher &8&l> &7I have nothing left to teach you for now&8.
+      &7Visit a &eMastery Spell Teacher &7to learn the final spell for your
+      class and then come back to me&8.
     insufficient: >-
-      &6Spell Teacher &8&l> &cI'm afraid you are not ready to learn more. That spell costs &4$cost&c.
+      &6Spell Teacher &8&l> &cI'm afraid you are not ready to learn more. That
+      spell costs &4$cost&c.
   finalspellshop:
     name: >-
       Learn Final Spells
     title: >-
       &8Final Spell ($balance&8)
     no_items: >-
-      &6Final Spell Teacher &8&l> &cYou are not ready to learn a new mastery spell yet. &cCome back
-      when you have learned all the spells for your class.
+      &6Final Spell Teacher &8&l> &cYou are not ready to learn a new mastery
+      spell yet. &cCome back when you have learned all the spells for your
+      class.
 
   buyshop:
     selected: >-
@@ -49,7 +51,8 @@ spells:
     insufficient: >-
       &6Broom Shop Owner &8&l> &cThat broom costs &4$cost&c.
     selected: >-
-      &6Broom Shop Owner &8&l> &7Ah yes&8! &7The &r$item &7is a magnificent broom&8. &7That will be &r$cost&8.
+      &6Broom Shop Owner &8&l> &7Ah yes&8! &7The &r$item &7is a magnificent
+      broom&8. &7That will be &r$cost&8.
 
   potionshop:
     name: >-
@@ -65,21 +68,24 @@ spells:
     title: >-
       &8Potions ($balance&8)
     insufficient: >-
-      &6Legendary Potion Shop Owner &8&l> &cI'm sorry, but I'm afraid you cannot afford that potion. It costs &4$cost&c.
+      &6Legendary Potion Shop Owner &8&l> &cI'm sorry, but I'm afraid you cannot
+      afford that potion. It costs &4$cost&c.
   potionshop_ingredients:
     name: >-
       Ingredient Shop
     title: >-
       &8Ingredients ($balance&8)
     insufficient: >-
-      &6Potion Shop Owner &8&l> &cI'm sorry, but I'm afraid you cannot afford that ingredient. It costs &4$cost&c.
+      &6Potion Shop Owner &8&l> &cI'm sorry, but I'm afraid you cannot afford
+      that ingredient. It costs &4$cost&c.
   potionshop_potions:
     name: >-
       Potion Shop
     title: >-
       &8Potions ($balance&8)
     insufficient: >-
-      &6Potion Shop Owner &8&l> &cI'm sorry, but I'm afraid you cannot afford that potion. It costs &4$cost&c.
+      &6Potion Shop Owner &8&l> &cI'm sorry, but I'm afraid you cannot afford
+      that potion. It costs &4$cost&c.
 
   xptrader:
     name: >-
@@ -87,7 +93,8 @@ spells:
     title: >-
       &8XP Trader ($balance&8)
     insufficient: >-
-      &6XP Trader &8&l> &cI'm sorry, but you don't have enough XP for that. It costs &4$cost&c.
+      &6XP Trader &8&l> &cI'm sorry, but you don't have enough XP for that. It
+      costs &4$cost&c.
     selected: >-
       &8>> &7You traded $cost &7for $item&8.
 
@@ -103,7 +110,8 @@ spells:
     title: >-
       &8AC Trader ($balance&8)
     insufficient: >-
-      &6AC Trader &8&l> &cI'm sorry, but you don't have enough Galleons for that. It costs &4$cost&c.
+      &6AC Trader &8&l> &cI'm sorry, but you don't have enough Galleons for
+      that. It costs &4$cost&c.
     selected: >-
       &8>> &7You traded $cost &7for $item&8.
   actrader_galleons:
@@ -112,6 +120,7 @@ spells:
     title: >-
       &8AC Trader ($balance&8)
     insufficient: >-
-      &6AC Trader &8&l> &cI'm sorry, but you don't have enough Academic Credits for that. It costs &4$cost&c.
+      &6AC Trader &8&l> &cI'm sorry, but you don't have enough Academic Credits
+      for that. It costs &4$cost&c.
     selected: >-
       &8>> &7You traded $cost &7for $item&8.

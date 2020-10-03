@@ -7,14 +7,16 @@ spells:
     name: >-
       &6Spell Progress
     description: >-
-      &7The more you cast your spells the stronger they become&8. &7Track their progress here&8.
+      &7The more you cast your spells the stronger they become&8. &7Track their
+      progress here&8.
   appearances:
     name: >-
       &6Wand Appearances
     title: >-
       &8Wand Appearances
     description: >-
-      &7Customize your wand's appearance&8. &7Unlock special skins and effects&8.
+      &7Customize your wand's appearance&8. &7Unlock special skins and
+      effects&8.
     selected_free: >-
       &8>> &7You selected &6$item&8.
     insufficient_permission: >-

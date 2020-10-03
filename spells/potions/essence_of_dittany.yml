@@ -27,7 +27,6 @@ essence_of_dittany_ability:
     cooldown: 15000
     bypass_confusion: true
     target: self
-    cooldown: 0
     duration: 8000
   costs:
     mana: 0

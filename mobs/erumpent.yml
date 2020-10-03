@@ -5,12 +5,11 @@ erumpent:
   default_drops: false
   drops:
     - mobxp|10
+    - erumpenthorn
   interval: 3000
   potion_effects:
     - type: slow
       amplifier: 2
-  drops:
-    - erumpenthorn
   track_radius: 24
   triggers:
     interval:

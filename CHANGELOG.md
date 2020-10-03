@@ -10,6 +10,8 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 10/3/20
 
+* Fixed duplicate drops and cooldown parameters.
+* Fixed linter checks.
 * Adjusted Locomotor Mortis speed and SFX.
 * Fixed Flagrate to be in line with new spell idea.
 * Adjusted Lumos SFX.
