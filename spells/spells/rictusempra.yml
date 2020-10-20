@@ -1,4 +1,5 @@
 rictusempra:
+  inherit: false
   icon: diamond_axe{CustomModelData:28}
   icon_disabled: diamond_hoe{CustomModelData:28}
   category: dada
@@ -13,43 +14,52 @@ rictusempra:
           - class: Damage
   effects:
     cast:
-      - class: EffectSingle
-        sound: magic.crack
-        sound_volume: 1
-        location: origin
-        effectlib:
-          class: ConeEffect
-          iterations: 15
-          particle: redstone
-          color: 5882FA
-          lengthGrow: 0.7
-    hit:
-      - class: EffectSingle
+      - sound: magic.crack
+    tick:
+      - particle: spell_mob
+        color: 5882FA
         location: target
+    hit:
+      - sound: magic.hit
         firework: ball
         color: 5882FA
+        location: target
+    miss:
+      - particle: fireworks_spark
+        particle_count: 15
+        particle_data: 1
+        location: target
   parameters:
-    range: 12
-    living_entity_speed: 0.5
     cooldown: 5000
-    damage: 0.5
+    target: other
+    target_type: LivingEntity
+    hitbox: true
+    range: 24
+    velocity: 20
+    living_entity_speed: 0.5
+    push: 1
+    damage: 1
+  costs:
+    mana: 30
+
+# TODO Branch out more levels here
 
 rictusempra|2:
   upgrade_required_path: year4
   upgrade_required_casts: 75
   parameters:
-    range: 24
+    range: 28
     living_entity_speed: 1.0
-    damage: 1.0
+    damage: 1.5
 
 rictusempra|3:
   upgrade_required_path: year5
   upgrade_required_casts: 100
   parameters:
     living_entity_speed: 1.5
-    damage: 1.5
+    damage: 2
 
 rictusempra|4:
   parameters:
     range: 32
-    damage: 2
+    damage: 2.5
