@@ -4,7 +4,7 @@ evertestatum:
   category: dada
   worth: 10 ac
   upgrade_required_path: year3
-  upgrade_required_casts: 25
+  upgrade_required_casts: 10
   actions:
     cast:
       - class: CustomProjectile
@@ -12,39 +12,70 @@ evertestatum:
           - class: Velocity
   effects:
     cast:
-      - class: EffectSingle
-        sound: magic.zap
-        location: origin
+      - sound: magic.zap
+        particle: fireworks_spark
+        particle_count: 10
+        particle_data: 1
         effectlib:
           class: Cone
           iterations: 10
           particle: fireworks_spark
           lengthGrow: 0.1
-          radiusGrow: 0.04
+          radiusGrow: 0.035
           updateLocations: false
           updateDirections: false
-    hit_entity:
+    tick:
+      - location: target
+        particle: spell_mob
+        particle_count: 5
+        color: FFFFFF
+    hit:
       - location: target
         firework: ball
         color: FFFFFF
+    miss:
+      - location: target
+        particle: fireworks_spark
+        particle_count: 15
+        particle_data: 1
   parameters:
-    range: 12
+    range: 24
     hitbox: true
     target_type: LivingEntity
     item_speed: 0
-    living_entity_speed: 1.5
+    living_entity_speed: 1
     push: 1
     cooldown: 12000
-    velocity: 75
+    velocity: 20
   costs:
     mana: 30
 
 evertestatum|2:
+  upgrade_required_path: year3
+  upgrade_required_casts: 25
+  parameters:
+    living_entity_speed: 1.5
+
+evertestatum|3:
+  upgrade_required_path: year3
+  upgrade_required_casts: 40
+  parameters:
+    range: 32
+    living_entity_speed: 2
+
+evertestatum|4:
   upgrade_required_path: year4
   upgrade_required_casts: 50
   parameters:
-    living_entity_speed: 2
+    living_entity_speed: 2.5
 
-evertestatum|3:
+evertestatum|5:
+  upgrade_required_path: year4
+  upgrade_required_casts: 75
   parameters:
+    range: 40
     living_entity_speed: 3
+
+evertestatum|6:
+  parameters:
+    living_entity_speed: 3.5

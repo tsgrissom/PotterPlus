@@ -8,6 +8,11 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 10/20/20
+
+* Everte Statum balance changes and new SFX.
+* Arrow SFX changes.
+
 ### 10/3/20
 
 * Fixed duplicate drops and cooldown parameters.

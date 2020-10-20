@@ -6,6 +6,7 @@ arrow:
     hit:
       - class: EffectSingle
         location: origin
-        color_override: color
-        firework: ball
+        particle: fireworks_spark
+        particle_count: 20
+        particle_data: 1
         sound: magic.hit

@@ -671,6 +671,17 @@ spells:
   evertestatum|3:
     upgrade_description: |-
       Increased force.
+      Increased range.
+  evertestatum|4:
+    upgrade_description: |-
+      Increased force.
+  evertestatum|5:
+    upgrade_description: |-
+      Increased force.
+      Increased range.
+  evertestatum|6:
+    upgrade_description: |-
+      Increased force.
 
   expelliarmus:
     name: >-
