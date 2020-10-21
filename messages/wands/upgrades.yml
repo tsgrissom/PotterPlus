@@ -1,4 +1,39 @@
 wands:
+  year2:
+    name: >-
+      Second Year Upgrade
+    description: >-
+      Upgrades your wand to the second year.
+  year3:
+    name: >-
+      Third Year Upgrade
+    description: >-
+      Upgrades your wand to the third year.
+  year4:
+    name: >-
+      Fourth Year Upgrade
+    description: >-
+      Upgrades your wand to the fourth year.
+  year5:
+    name: >-
+      Fifth Year Upgrade
+    description: >-
+      Upgrades your wand to the fifth year.
+  year6:
+    name: >-
+      Sixth Year Upgrade
+    description: >-
+      Upgrades your wand to the sixth year.
+  year7:
+    name: >-
+      Seventh Year Upgrade
+    description: >-
+      Upgrades your wand to the seventh year.
+  graduate:
+    name: >-
+      Graduate Upgrade
+    description: >-
+      Upgrades your wand to the graduate level.
   appearance_black:
     name: >-
       &3Black Wand Appearance &8(Default)
