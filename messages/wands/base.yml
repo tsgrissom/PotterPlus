@@ -17,28 +17,24 @@ wands:
     randomized_description: >-
       &bContains your very own wand.
       What adventures await?
-    spell_instructions: |-
+    wand_instructions_header: |-
       &8 ----------------------------------------------------
       &8|
       &8|   &d&lWAND BASICS
       &8|
+    spell_instructions: |-
       &8| &7> &eLeft-click &7to cast spells&8.
       &8| &7> &eRight-click&8/&eDrop key &7to open and close the spell menu&8.
       &8|
       &8| &7> &aEarn AC &7by attending classes and doing quests&8.
       &8| &7> &aUnlock new spells &7by spending &eAC &7at a &eSpell Shop&8.
+    wand_instructions_footer: |-
       &8|
       &8 ----------------------------------------------------
     inventory_instructions: |-
-      &8 ----------------------------------------------------
-      &8|
-      &8|   &d&lWAND INVENTORY MANAGEMENT
-      &8|
       &8| &7> &eRight-click&8/&eDrop key &7to open and close the spell menu&8.
       &8| &7> &eOpen your inventory &7to manage hotbar spells&8.
       &8| &7> &eUse number keys &7to select the desired spell&8.
       &8| &7> &eSwap key &7to cycle hotbars&8.
-      &8|
-      &8 ----------------------------------------------------
     enchant_instructions: ""
     bound_instructions: ""
