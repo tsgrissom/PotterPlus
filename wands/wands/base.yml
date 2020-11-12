@@ -15,15 +15,19 @@ base_wand:
 wandbox:
   inherit: false
   icon: wooden_hoe{CustomModelData:100}
-  active_spell: open_wandbox
   lore:
     - "$description"
-  spells:
-    - open_wandbox
-  drop: none
-  left_click: none
-  right_click: cast
-  swap: none
+  replacement: randomizedpotterwand
+  right_click: replace
+  effects:
+    replace:
+      - sound: betterpotter.whoosh_loud
+      - class: EffectRepeat
+        delay: 500
+        location: origin
+        firework: burst
+        color: FFFFFF
+        color2: random
 
 potterwand:
   # Defines how many spell hotbars the wand will have
