@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/andesite" },
+            { "model": "minecraft:block/andesite1" },
+            { "model": "minecraft:block/andesite2" },
+            { "model": "minecraft:block/andesite3" }
+        ]
+    }
+}

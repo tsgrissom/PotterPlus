@@ -1,0 +1,7 @@
+{
+    "parent" : "item/custom/icon",
+    "textures": {
+        "particle": "item/potterplus/symbols/exclamation_gold",
+        "texture": "item/potterplus/symbols/exclamation_gold"
+    }
+}

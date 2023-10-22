@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "multipart": [
+        {   "when": { "has_record": "false" },
+            "apply": { "model": "minecraft:block/jukebox" }
+        },
+        {   "when": { "has_record": "true" },
+            "apply": { "model": "minecraft:block/jukebox_on" }
+        }
+    ]
+}

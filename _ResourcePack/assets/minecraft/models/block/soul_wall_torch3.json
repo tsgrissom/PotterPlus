@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/custom_template_torch_wall",
+    "textures": {
+        "torch": "minecraft:block/soul_torch3"
+    }
+}

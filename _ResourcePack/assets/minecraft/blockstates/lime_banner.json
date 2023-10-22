@@ -1,0 +1,6 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": { "model": "minecraft:block/lime_banner" }
+    }
+}

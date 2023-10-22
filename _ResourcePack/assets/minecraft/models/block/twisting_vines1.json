@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/cross",
+    "textures": {
+        "cross": "minecraft:block/twisting_vines1"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "textures": {
+        "particle": "minecraft:block/brown_mushroom_block",
+        "texture": "minecraft:block/brown_mushroom_block_end"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 0 ],
+            "faces": {
+                "north": { "texture": "#texture", "cullface":"north" }
+            }
+        }
+    ]
+}

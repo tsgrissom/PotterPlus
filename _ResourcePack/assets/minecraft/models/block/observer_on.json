@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/observer",
+    "textures": {
+        "back": "minecraft:block/observer_back_on"
+    }
+}

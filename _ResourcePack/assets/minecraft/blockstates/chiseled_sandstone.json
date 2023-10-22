@@ -1,0 +1,16 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/chiseled_sandstone", "weight": 30 },
+            { "model": "minecraft:block/chiseled_sandstone1", "weight": 10 },
+            { "model": "minecraft:block/chiseled_sandstone2", "weight": 10 },
+            { "model": "minecraft:block/chiseled_sandstone3", "weight": 10 },
+            { "model": "minecraft:block/chiseled_sandstone4", "weight": 10 },
+            { "model": "minecraft:block/chiseled_sandstone5", "weight": 10 },
+            { "model": "minecraft:block/chiseled_sandstone6", "weight": 10 },
+            { "model": "minecraft:block/chiseled_sandstone7", "weight": 5 },
+            { "model": "minecraft:block/chiseled_sandstone8", "weight": 5 }
+        ]
+    }
+}

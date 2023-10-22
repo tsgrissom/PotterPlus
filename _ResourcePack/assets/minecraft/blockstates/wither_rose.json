@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/wither_rose" },
+            { "model": "minecraft:block/wither_rose1" },
+            { "model": "minecraft:block/wither_rose2" },
+            { "model": "minecraft:block/wither_rose3" }
+        ]
+    }
+}

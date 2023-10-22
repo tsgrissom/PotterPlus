@@ -1,0 +1,149 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/block",
+    "textures": {
+        "pivot": "minecraft:block/grindstone_pivot",
+        "round": "minecraft:block/grindstone_round",
+        "side": "minecraft:block/grindstone_side",
+        "leg": "minecraft:block/grindstone_pivot",
+        "particle": "minecraft:block/grindstone_side"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale": [ 0.75, 0.75, 0.75 ]
+        }
+    },
+    "elements": [
+        {
+            "from": [ 12, 0, 6.5 ],
+            "to": [ 14, 7, 9.5 ],
+            "faces": {
+                "down":  { "uv": [ 12.5, 0, 15.5,  2 ], "texture": "#leg", "rotation": 90, "cullface": "down" },
+                "north": { "uv": [ 12,   2, 14,    9 ], "texture": "#leg" },
+                "south": { "uv": [ 14,   2, 16,    9 ], "texture": "#leg" },
+                "east":  { "uv": [ 12.5, 9, 15.5, 16 ], "texture": "#leg" },
+                "west":  { "uv": [  8.5, 9, 11.5, 16 ], "texture": "#leg" }
+            },
+            "__comment": "Right Post Foot"
+        },
+        {
+            "from": [ 12, 12, 6 ],
+            "to": [ 14, 13, 10 ],
+            "faces": {
+                "up":    { "uv": [ 3, 0,  7, 2 ], "texture": "#pivot", "rotation": 90 },
+                "north": { "uv": [ 0, 2,  2, 3 ], "texture": "#pivot" },
+                "south": { "uv": [ 8, 2, 10, 3 ], "texture": "#pivot" },
+                "east":  { "uv": [ 3, 2,  7, 3 ], "texture": "#pivot" }
+            },
+            "__comment": "Right Pivot Top"
+        },
+        {
+            "from": [ 12, 8, 5 ],
+            "to": [ 14, 12, 11 ],
+            "faces": {
+                "down":  { "uv": [ 2, 8,  8, 10 ], "texture": "#pivot", "rotation": 90 },
+                "up":    { "uv": [ 2, 0,  8,  2 ], "texture": "#pivot", "rotation": 90 },
+                "north": { "uv": [ 0, 3,  2,  7 ], "texture": "#pivot" },
+                "south": { "uv": [ 8, 3, 10,  7 ], "texture": "#pivot" },
+                "east":  { "uv": [ 2, 3,  8,  7 ], "texture": "#pivot" }
+            },
+            "__comment": "Right Pivot"
+        },
+                {
+            "from": [ 12, 7, 6 ],
+            "to": [ 14, 8, 10 ],
+            "faces": {
+                "down":  { "uv": [ 3, 8,  7, 10 ], "texture": "#pivot", "rotation": 90 },
+                "north": { "uv": [ 0, 7,  2,  8 ], "texture": "#pivot" },
+                "south": { "uv": [ 8, 7, 10,  8 ], "texture": "#pivot" },
+                "east":  { "uv": [ 3, 7,  7,  8 ], "texture": "#pivot" }
+            },
+            "__comment": "Right Pivot Bottom"
+        },
+        {
+            "from": [ 2, 0, 6.5 ],
+            "to": [ 4, 7, 9.5 ],
+            "faces": {
+                "down":  { "uv": [ 12.5, 0, 15.5,  2 ], "texture": "#leg", "rotation": 90, "cullface": "down" },
+                "north": { "uv": [ 14,   2, 16,    9 ], "texture": "#leg" },
+                "south": { "uv": [ 12,   2, 14,    9 ], "texture": "#leg" },
+                "east":  { "uv": [ 12.5, 9, 15.5, 16 ], "texture": "#leg" },
+                "west":  { "uv": [  8.5, 9, 11.5, 16 ], "texture": "#leg" }
+            },
+            "__comment": "Left Post Foot"
+        },
+        {
+            "from": [ 2, 12, 6 ],
+            "to": [ 4, 13, 10 ],
+            "faces": {
+                "up":    { "uv": [ 3, 0, 7, 2 ], "texture": "#pivot", "rotation": 90 },
+                "north": { "uv": [ 8, 2, 10, 3 ], "texture": "#pivot" },
+                "south": { "uv": [ 0, 2, 2, 3 ], "texture": "#pivot" },
+                "west":  { "uv": [ 3, 2, 7, 3 ], "texture": "#pivot" }
+            },
+            "__comment": "Left Pivot Top"
+        },
+        {
+            "from": [ 2, 8, 5 ],
+            "to": [ 4, 12, 11 ],
+            "faces": {
+                "down":  { "uv": [ 2, 8,  8, 10 ], "texture": "#pivot", "rotation": 90 },
+                "up":    { "uv": [ 2, 0,  8,  2 ], "texture": "#pivot", "rotation": 90 },
+                "north": { "uv": [ 8, 3, 10,  7 ], "texture": "#pivot" },
+                "south": { "uv": [ 0, 3,  2,  7 ], "texture": "#pivot" },
+                "west":  { "uv": [ 2, 3,  8,  7 ], "texture": "#pivot" }
+            },
+            "__comment": "Left Pivot"
+        },
+        {
+            "from": [ 2, 7, 6 ],
+            "to": [ 4, 8, 10 ],
+            "faces": {
+                "down":  { "uv": [ 3, 8, 7, 10 ], "texture": "#pivot", "rotation": 90 },
+                "north": { "uv": [ 8, 7, 10,  8 ], "texture": "#pivot" },
+                "south": { "uv": [ 0, 7, 2,  8 ], "texture": "#pivot" },
+                "west":  { "uv": [ 3, 7, 7,  8 ], "texture": "#pivot" }
+            },
+            "__comment": "Left Pivot Bottom"
+        },
+        {
+            "from": [ 4, 14, 4 ],
+            "to": [ 12, 16, 12 ],
+            "faces": {
+                "up":    { "uv": [ 0, 2,  8, 10 ], "texture": "#round" },
+                "north": { "uv": [ 0, 0,  8,  2 ], "texture": "#round" },
+                "south": { "uv": [ 0, 0,  8,  2 ], "texture": "#round" },
+                "east":  { "uv": [ 2, 0, 10,  2 ], "texture": "#side" },
+                "west":  { "uv": [ 2, 0, 10,  2 ], "texture": "#side" }
+            },
+            "__comment": "Grindstone Top"
+        },
+        {
+            "from": [ 4, 6, 2 ],
+            "to": [ 12, 14, 14 ],
+            "faces": {
+                "down":  { "uv": [ 0, 2, 12, 10 ], "texture": "#side", "rotation": 90 },
+                "up":    { "uv": [ 0, 2, 12, 10 ], "texture": "#side", "rotation": 90 },
+                "north": { "uv": [ 0, 2,  8, 10 ], "texture": "#round" },
+                "south": { "uv": [ 0, 2,  8, 10 ], "texture": "#round" },
+                "east":  { "uv": [ 0, 2, 12, 10 ], "texture": "#side" },
+                "west":  { "uv": [ 0, 2, 12, 10 ], "texture": "#side" }
+            },
+            "__comment": "Grindstone Middle"
+        },
+        {
+            "from": [ 4, 4, 4 ],
+            "to": [ 12, 6, 12 ],
+            "faces": {
+                "down":  { "uv": [ 0,  2,  8, 10 ], "texture": "#round" },
+                "north": { "uv": [ 0, 10,  8, 12 ], "texture": "#round" },
+                "south": { "uv": [ 0, 10,  8, 12 ], "texture": "#round" },
+                "east":  { "uv": [ 2, 10, 10, 12 ], "texture": "#side" },
+                "west":  { "uv": [ 2, 10, 10, 12 ], "texture": "#side" }
+            },
+            "__comment": "Grindstone Bottom"
+        }
+    ]
+}

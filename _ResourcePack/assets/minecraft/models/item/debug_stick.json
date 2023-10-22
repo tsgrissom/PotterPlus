@@ -1,0 +1,7 @@
+{
+"__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:item/handheld",
+    "textures": {
+    "layer0": "minecraft:item/debug_stick"
+    }
+}

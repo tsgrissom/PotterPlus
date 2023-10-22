@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/potted_dead_bush", "weight": 25 },
+            { "model": "minecraft:block/potted_dead_bush1", "weight": 25 },
+            { "model": "minecraft:block/potted_dead_bush2", "weight": 25 },
+            { "model": "minecraft:block/potted_dead_bush3", "weight": 25 }
+        ]
+    }
+}

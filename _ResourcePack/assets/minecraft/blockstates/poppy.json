@@ -1,0 +1,12 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/poppy" },
+            { "model": "minecraft:block/poppy1" },
+            { "model": "minecraft:block/poppy2" },
+            { "model": "minecraft:block/poppy3" },
+            { "model": "minecraft:block/poppy4" }
+        ]
+    }
+}

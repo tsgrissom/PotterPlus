@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "minecraft:block/sandstone_bottom2",
+        "top": "minecraft:block/sandstone_top2",
+        "side": "minecraft:block/sandstone2"
+    }
+}

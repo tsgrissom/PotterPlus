@@ -1,0 +1,8 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/custom_template_glass_pane_inventory",
+    "textures": {
+        "edge": "minecraft:block/black_stained_glass_pane_top",
+        "pane": "minecraft:block/black_stained_glass"
+    }
+}

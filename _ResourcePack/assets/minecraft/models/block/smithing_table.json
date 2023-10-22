@@ -1,0 +1,13 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "particle": "minecraft:block/smithing_table_front",
+        "down": "minecraft:block/smithing_table_bottom",
+        "up": "minecraft:block/smithing_table_top",
+        "north": "minecraft:block/smithing_table_front",
+        "east": "minecraft:block/smithing_table_side",
+        "south": "minecraft:block/smithing_table_front",
+        "west": "minecraft:block/smithing_table_side"
+    }
+}

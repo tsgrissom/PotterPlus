@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/potted_oxeye_daisy", "weight": 25 },
+            { "model": "minecraft:block/potted_oxeye_daisy1", "weight": 25 },
+            { "model": "minecraft:block/potted_oxeye_daisy2", "weight": 25 },
+            { "model": "minecraft:block/potted_oxeye_daisy3", "weight": 25 }
+        ]
+    }
+}

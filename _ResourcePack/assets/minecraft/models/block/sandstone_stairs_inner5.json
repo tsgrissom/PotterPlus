@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/inner_stairs",
+    "textures": {
+        "bottom": "minecraft:block/sandstone_bottom5",
+        "top": "minecraft:block/sandstone_top5",
+        "side": "minecraft:block/sandstone5"
+    }
+}

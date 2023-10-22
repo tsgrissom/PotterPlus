@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/pressure_plate_down",
+    "textures": {
+        "texture": "minecraft:block/spruce_pressure_plate"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "type=bottom": [
+            { "model": "minecraft:block/mossy_cobblestone_slab" },
+            { "model": "minecraft:block/mossy_cobblestone_slab1" },
+            { "model": "minecraft:block/mossy_cobblestone_slab2" },
+            { "model": "minecraft:block/mossy_cobblestone_slab3" }
+        ],
+        "type=top": [
+            { "model": "minecraft:block/mossy_cobblestone_slab_top" },
+            { "model": "minecraft:block/mossy_cobblestone_slab_top1" },
+            { "model": "minecraft:block/mossy_cobblestone_slab_top2" },
+            { "model": "minecraft:block/mossy_cobblestone_slab_top3" }
+        ],
+        "type=double": [
+            { "model": "minecraft:block/mossy_cobblestone" },
+            { "model": "minecraft:block/mossy_cobblestone1" },
+            { "model": "minecraft:block/mossy_cobblestone2" },
+            { "model": "minecraft:block/mossy_cobblestone3" }
+        ]
+    }
+}

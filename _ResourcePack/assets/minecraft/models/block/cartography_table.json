@@ -1,0 +1,13 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "particle": "minecraft:block/cartography_table_front",
+        "down": "minecraft:block/cartography_table_bottom",
+        "up": "minecraft:block/cartography_table_top",
+        "north": "minecraft:block/cartography_table_front",
+        "east": "minecraft:block/cartography_table_side",
+        "south": "minecraft:block/cartography_table_front",
+        "west": "minecraft:block/cartography_table_side"
+    }
+}

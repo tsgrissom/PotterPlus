@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/stairs",
+    "textures": {
+        "bottom": "minecraft:block/mossy_cobblestone",
+        "top": "minecraft:block/mossy_cobblestone_top1",
+        "side": "minecraft:block/mossy_cobblestone"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "particle": "#front",
+        "down": "#bottom",
+        "up": "#top",
+        "north": "#front",
+        "south": "#back",
+        "west": "#side",
+        "east": "#side"
+    }
+}

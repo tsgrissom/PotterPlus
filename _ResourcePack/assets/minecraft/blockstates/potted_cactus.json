@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/potted_cactus", "weight": 25 },
+            { "model": "minecraft:block/potted_cactus1", "weight": 25 },
+            { "model": "minecraft:block/potted_cactus2", "weight": 25 },
+            { "model": "minecraft:block/potted_cactus3", "weight": 25 }
+        ]
+    }
+}

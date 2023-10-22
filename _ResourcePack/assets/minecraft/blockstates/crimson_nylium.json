@@ -1,0 +1,14 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/crimson_nylium", "weight": 30 },
+            { "model": "minecraft:block/crimson_nylium1", "weight": 10 },
+            { "model": "minecraft:block/crimson_nylium2", "weight": 20 },
+            { "model": "minecraft:block/crimson_nylium3", "weight": 10 },
+            { "model": "minecraft:block/crimson_nylium4", "weight": 20 },
+            { "model": "minecraft:block/crimson_nylium5", "weight": 5 },
+            { "model": "minecraft:block/crimson_nylium6", "weight": 5 }
+        ]
+    }
+}

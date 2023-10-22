@@ -1,0 +1,15 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "half=lower": { "model": "minecraft:block/tall_grass_bottom" },
+        "half=upper": [
+            { "model": "minecraft:block/tall_grass_top", "weight": 10 },
+            { "model": "minecraft:block/tall_grass_top1", "weight": 20 },
+            { "model": "minecraft:block/tall_grass_top2", "weight": 20 },
+            { "model": "minecraft:block/tall_grass_top3", "weight": 20 },
+            { "model": "minecraft:block/tall_grass_top4", "weight": 10 },
+            { "model": "minecraft:block/tall_grass_top5", "weight": 10 },
+            { "model": "minecraft:block/tall_grass_top6", "weight": 10 }
+        ]
+    }
+}

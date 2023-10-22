@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/potted_acacia_sapling", "weight": 25 },
+            { "model": "minecraft:block/potted_acacia_sapling1", "weight": 25 },
+            { "model": "minecraft:block/potted_acacia_sapling2", "weight": 25 },
+            { "model": "minecraft:block/potted_acacia_sapling3", "weight": 25 }
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "multipart": [
+        {   "apply": [
+                { "model": "minecraft:block/soul_fire_floor0", "weight": 25 },
+                { "model": "minecraft:block/soul_fire_floor1", "weight": 25 },
+                { "model": "minecraft:block/soul_fire_floor2", "weight": 25 },
+                { "model": "minecraft:block/soul_fire_floor3", "weight": 25 }
+            ]
+        },
+        {   "apply": [
+                { "model": "minecraft:block/soul_fire_side0", "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side1", "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side2", "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side3", "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side_alt0", "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side_alt1", "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side_alt2", "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side_alt3", "weight": 25 }
+            ]
+        },
+        {   "apply": [
+                { "model": "minecraft:block/soul_fire_side0", "y": 90, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side1", "y": 90, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side2", "y": 90, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side3", "y": 90, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side_alt0", "y": 90, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side_alt1", "y": 90, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side_alt2", "y": 90, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side_alt3", "y": 90, "weight": 25 }
+            ]
+        },
+        {   "apply": [
+                { "model": "minecraft:block/soul_fire_side0", "y": 180, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side1", "y": 180, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side2", "y": 180, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side3", "y": 180, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side_alt0", "y": 180, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side_alt1", "y": 180, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side_alt2", "y": 180, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side_alt3", "y": 180, "weight": 25 }
+            ]
+        },
+        {   "apply": [
+                { "model": "minecraft:block/soul_fire_side0", "y": 270, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side1", "y": 270, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side2", "y": 270, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side3", "y": 270, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side_alt0", "y": 270, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side_alt1", "y": 270, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side_alt2", "y": 270, "weight": 25 },
+                { "model": "minecraft:block/soul_fire_side_alt3", "y": 270, "weight": 25 }
+            ]
+        }
+    ]
+}

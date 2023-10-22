@@ -1,0 +1,15 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "shape=north_south": { "model": "minecraft:block/custom_rail" },
+        "shape=east_west": { "model": "minecraft:block/custom_rail", "y": 90 },
+        "shape=ascending_east": { "model": "minecraft:block/custom_rail_raised", "y": 270 },
+        "shape=ascending_west": { "model": "minecraft:block/custom_rail_raised", "y": 90 },
+        "shape=ascending_north": { "model": "minecraft:block/custom_rail_raised", "y": 180 },
+        "shape=ascending_south": { "model": "minecraft:block/custom_rail_raised" },
+        "shape=south_east": { "model": "minecraft:block/custom_rail_corner" },
+        "shape=south_west": { "model": "minecraft:block/custom_rail_corner", "y": 90 },
+        "shape=north_west": { "model": "minecraft:block/custom_rail_corner", "y": 180 },
+        "shape=north_east": { "model": "minecraft:block/custom_rail_corner", "y": 270 }
+    }
+}

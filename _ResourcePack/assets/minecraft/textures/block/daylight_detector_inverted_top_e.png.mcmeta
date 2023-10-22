@@ -1,0 +1,15 @@
+{
+  "__comment": "JimStoneCraft - 2018",
+  "animation": {
+    "frametime": 6,
+    "interpolate": true,
+    "frames": [
+      3,
+      2,
+      1,
+      0,
+      1,
+      2
+    ]
+  }
+}

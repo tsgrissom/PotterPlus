@@ -1,0 +1,15 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/polished_blackstone_bricks", "weight": 40 },
+            { "model": "minecraft:block/polished_blackstone_bricks1", "weight": 5 },
+            { "model": "minecraft:block/polished_blackstone_bricks2", "weight": 5 },
+            { "model": "minecraft:block/polished_blackstone_bricks3", "weight": 10 },
+            { "model": "minecraft:block/polished_blackstone_bricks4", "weight": 10 },
+            { "model": "minecraft:block/polished_blackstone_bricks5", "weight": 5 },
+            { "model": "minecraft:block/polished_blackstone_bricks6", "weight": 10 },
+            { "model": "minecraft:block/polished_blackstone_bricks7", "weight": 15 }
+        ]
+    }
+}

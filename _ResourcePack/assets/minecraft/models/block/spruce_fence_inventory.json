@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/custom_template_fence_inventory",
+    "textures": {
+        "texture": "minecraft:block/spruce_fence_inventory",
+        "top": "minecraft:block/spruce_fence_inventory_top",
+        "bottom": "minecraft:block/spruce_fence_inventory_bottom"
+    }
+}

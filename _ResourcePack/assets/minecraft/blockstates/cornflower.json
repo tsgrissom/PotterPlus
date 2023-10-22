@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/cornflower" },
+            { "model": "minecraft:block/cornflower1" },
+            { "model": "minecraft:block/cornflower2" },
+            { "model": "minecraft:block/cornflower3" }
+        ]
+    }
+}

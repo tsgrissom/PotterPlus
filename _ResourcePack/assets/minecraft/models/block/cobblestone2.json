@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+        "bottom": "minecraft:block/cobblestone_bottom2",
+        "top": "minecraft:block/cobblestone_top2",
+        "side": "minecraft:block/cobblestone2"
+    }
+}

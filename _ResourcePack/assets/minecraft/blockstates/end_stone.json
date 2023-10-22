@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/end_stone", "weight": 50 },
+            { "model": "minecraft:block/end_stone1", "weight": 25 },
+            { "model": "minecraft:block/end_stone2", "weight": 25 }
+
+        ]
+    }
+}

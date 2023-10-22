@@ -1,0 +1,29 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "type=bottom": [
+            { "model": "minecraft:block/sandstone_slab", "weight": 40 },
+            { "model": "minecraft:block/sandstone_slab1", "weight": 15 },
+            { "model": "minecraft:block/sandstone_slab2", "weight": 15 },
+            { "model": "minecraft:block/sandstone_slab3", "weight": 10 },
+            { "model": "minecraft:block/sandstone_slab4", "weight": 10 },
+            { "model": "minecraft:block/sandstone_slab5", "weight": 10 }
+        ],
+        "type=top": [
+            { "model": "minecraft:block/sandstone_slab_top", "weight": 40 },
+            { "model": "minecraft:block/sandstone_slab_top1", "weight": 15 },
+            { "model": "minecraft:block/sandstone_slab_top2", "weight": 15 },
+            { "model": "minecraft:block/sandstone_slab_top3", "weight": 10 },
+            { "model": "minecraft:block/sandstone_slab_top4", "weight": 10 },
+            { "model": "minecraft:block/sandstone_slab_top5", "weight": 10 }
+        ],
+        "type=double": [
+            { "model": "minecraft:block/sandstone", "weight": 40 },
+            { "model": "minecraft:block/sandstone1", "weight": 15 },
+            { "model": "minecraft:block/sandstone2", "weight": 15 },
+            { "model": "minecraft:block/sandstone3", "weight": 10 },
+            { "model": "minecraft:block/sandstone4", "weight": 10 },
+            { "model": "minecraft:block/sandstone5", "weight": 10 }
+        ]
+    }
+}

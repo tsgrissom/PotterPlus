@@ -1,0 +1,8 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/template_fire_side_alt",
+    "textures": {
+        "particle": "minecraft:block/fire_2",
+        "fire": "minecraft:block/fire_2"
+    }
+}

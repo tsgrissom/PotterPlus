@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/kelp" },
+            { "model": "minecraft:block/kelp1" },
+            { "model": "minecraft:block/kelp2" },
+            { "model": "minecraft:block/kelp3" }
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/orientable_with_bottom",
+    "textures": {
+        "top": "minecraft:block/bee_nest_top",
+        "bottom": "minecraft:block/bee_nest_bottom",
+        "side": "minecraft:block/bee_nest_side",
+        "front": "minecraft:block/bee_nest_front2",
+        "particle": "minecraft:block/bee_nest_side"
+    }
+}

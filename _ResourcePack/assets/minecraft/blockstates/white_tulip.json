@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/white_tulip" },
+            { "model": "minecraft:block/white_tulip1" },
+            { "model": "minecraft:block/white_tulip2" },
+            { "model": "minecraft:block/white_tulip3" }
+        ]
+    }
+}

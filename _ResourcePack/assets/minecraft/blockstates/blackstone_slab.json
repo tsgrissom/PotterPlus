@@ -1,0 +1,30 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "type=bottom": [
+            { "model": "minecraft:block/blackstone_slab", "weight": 10 },
+            { "model": "minecraft:block/blackstone_slab1", "weight": 5 },
+            { "model": "minecraft:block/blackstone_slab2", "weight": 5 },
+            { "model": "minecraft:block/blackstone_slab3", "weight": 10 },
+            { "model": "minecraft:block/blackstone_slab4", "weight": 40 },
+            { "model": "minecraft:block/blackstone_slab5", "weight": 10 }
+        ],
+        "type=top": [
+            { "model": "minecraft:block/blackstone_slab_top", "weight": 10 },
+            { "model": "minecraft:block/blackstone_slab_top1", "weight": 5 },
+            { "model": "minecraft:block/blackstone_slab_top2", "weight": 5 },
+            { "model": "minecraft:block/blackstone_slab_top3", "weight": 10 },
+            { "model": "minecraft:block/blackstone_slab_top4", "weight": 40 },
+            { "model": "minecraft:block/blackstone_slab_top5", "weight": 10 }
+        ],
+        "type=double": [
+            { "model": "minecraft:block/blackstone", "weight": 10 },
+            { "model": "minecraft:block/blackstone1", "weight": 5 },
+            { "model": "minecraft:block/blackstone2", "weight": 5 },
+            { "model": "minecraft:block/blackstone3", "weight": 10 },
+            { "model": "minecraft:block/blackstone4", "weight": 40 },
+            { "model": "minecraft:block/blackstone5", "weight": 10 }
+        ]
+    }
+}
+

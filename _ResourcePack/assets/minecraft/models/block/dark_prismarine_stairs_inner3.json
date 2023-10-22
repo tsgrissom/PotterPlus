@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/inner_stairs",
+    "textures": {
+        "bottom": "minecraft:block/dark_prismarine3",
+        "top": "minecraft:block/dark_prismarine3",
+        "side": "minecraft:block/dark_prismarine3"
+    }
+}

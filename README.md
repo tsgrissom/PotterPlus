@@ -2,9 +2,9 @@
 
 > The goal of PotterPlus is to create a configuration for [NathanWolf's Magic plugin](https://www.spigotmc.org/resources/magic.1056/) which faithfully recreates the world of Harry Potter in Minecraft.
 
-Recommended Minecraft server version: **Spigot 1.16.5**
+Last tested Minecraft server version: **Spigot 1.16.5**
 
-Required Magic plugin version: [**Magic 8.2**](http://jenkins.elmakers.com/view/Plugins/job/MagicPlugin/)
+Last tested Magic plugin version: [**Magic 8.2**](http://jenkins.elmakers.com/view/Plugins/job/MagicPlugin/)
 
 *PotterPlus makes no assurance of backwards-compatibility with previous versions of Minecraft or the Magic plugin. We will always test with the latest versions of both pieces of software.*
 

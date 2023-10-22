@@ -1,0 +1,14 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/netherrack", "weight": 30 },
+            { "model": "minecraft:block/netherrack1", "weight": 10 },
+            { "model": "minecraft:block/netherrack2", "weight": 20 },
+            { "model": "minecraft:block/netherrack3", "weight": 10 },
+            { "model": "minecraft:block/netherrack4", "weight": 20 },
+            { "model": "minecraft:block/netherrack5", "weight": 5 },
+            { "model": "minecraft:block/netherrack6", "weight": 5 }
+        ]
+    }
+}

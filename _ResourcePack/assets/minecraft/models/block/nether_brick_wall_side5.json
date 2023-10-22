@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/custom_template_wall_side",
+    "textures": {
+        "wall": "minecraft:block/nether_bricks5",
+        "top": "minecraft:block/nether_bricks_top2",
+        "bottom": "minecraft:block/nether_bricks_bottom2"
+    }
+}

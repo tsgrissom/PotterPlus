@@ -1,0 +1,23 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "minecraft:block/iron_bars",
+        "bars": "minecraft:block/iron_bars",
+        "post": "minecraft:block/iron_bars"
+    },
+    "elements": [
+        {   "from": [ 7, 0, 7 ],
+            "to": [ 9, 16, 9 ],
+            "faces": {
+                "down":  { "uv": [ 5, 7, 7,  9 ], "texture": "#post", "cullface": "down" },
+                "up":    { "uv": [ 5, 7, 7,  9 ], "texture": "#post", "cullface": "up" },
+                "north": { "uv": [ 7, 0, 9, 16 ], "texture": "#post" },
+                "south": { "uv": [ 9, 0, 7, 16 ], "texture": "#post" },
+                "west":  { "uv": [ 7, 0, 9, 16 ], "texture": "#post" },
+                "east":  { "uv": [ 9, 0, 7, 16 ], "texture": "#post" }
+            },
+            "__comment": "Post"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/template_piston_head_short",
+    "textures": {
+        "unsticky": "minecraft:block/piston_top_bottom",
+        "side": "minecraft:block/piston_side",
+        "platform": "minecraft:block/piston_top",
+        "shaft": "minecraft:block/piston_shaft"
+    }
+}

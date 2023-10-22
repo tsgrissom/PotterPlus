@@ -1,0 +1,12 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/potted_red_mushroom", "weight": 20 },
+            { "model": "minecraft:block/potted_red_mushroom1", "weight": 20 },
+            { "model": "minecraft:block/potted_red_mushroom2", "weight": 20 },
+            { "model": "minecraft:block/potted_red_mushroom3", "weight": 20 },
+            { "model": "minecraft:block/potted_red_mushroom4", "weight": 20 }
+        ]
+    }
+}

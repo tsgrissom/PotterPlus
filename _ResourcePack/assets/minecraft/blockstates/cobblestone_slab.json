@@ -1,0 +1,20 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "type=bottom": [
+            { "model": "minecraft:block/cobblestone_slab", "weight": 50 },
+            { "model": "minecraft:block/cobblestone_slab1", "weight": 25 },
+            { "model": "minecraft:block/cobblestone_slab2", "weight": 25 }
+        ],
+        "type=top": [
+            { "model": "minecraft:block/cobblestone_slab_top", "weight": 50 },
+            { "model": "minecraft:block/cobblestone_slab_top1", "weight": 25 },
+            { "model": "minecraft:block/cobblestone_slab_top2", "weight": 25 }
+        ],
+        "type=double": [
+            { "model": "minecraft:block/cobblestone", "weight": 50 },
+            { "model": "minecraft:block/cobblestone1", "weight": 25 },
+            { "model": "minecraft:block/cobblestone2", "weight": 25 }
+        ]
+    }
+}

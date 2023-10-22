@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/twisting_vines" },
+            { "model": "minecraft:block/twisting_vines1" },
+            { "model": "minecraft:block/twisting_vines2" },
+            { "model": "minecraft:block/twisting_vines3" }
+        ]
+    }
+}

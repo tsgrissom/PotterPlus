@@ -1,0 +1,35 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "type=bottom": [
+            { "model": "minecraft:block/stone_brick_slab", "weight": 24 },
+            { "model": "minecraft:block/stone_brick_slab1", "weight": 18 },
+            { "model": "minecraft:block/stone_brick_slab2", "weight": 18 },
+            { "model": "minecraft:block/stone_brick_slab3", "weight": 15 },
+            { "model": "minecraft:block/stone_brick_slab4", "weight": 15 },
+            { "model": "minecraft:block/stone_brick_slab5", "weight": 4 },
+            { "model": "minecraft:block/stone_brick_slab6", "weight": 3 },
+            { "model": "minecraft:block/stone_brick_slab7", "weight": 3 }
+        ],
+        "type=top": [
+            { "model": "minecraft:block/stone_brick_slab_top", "weight": 24 },
+            { "model": "minecraft:block/stone_brick_slab_top1", "weight": 18 },
+            { "model": "minecraft:block/stone_brick_slab_top2", "weight": 18 },
+            { "model": "minecraft:block/stone_brick_slab_top3", "weight": 15 },
+            { "model": "minecraft:block/stone_brick_slab_top4", "weight": 15 },
+            { "model": "minecraft:block/stone_brick_slab_top5", "weight": 4 },
+            { "model": "minecraft:block/stone_brick_slab_top6", "weight": 3 },
+            { "model": "minecraft:block/stone_brick_slab_top7", "weight": 3 }
+        ],
+        "type=double": [
+            { "model": "minecraft:block/stone_bricks", "weight": 24 },
+            { "model": "minecraft:block/stone_bricks1", "weight": 18 },
+            { "model": "minecraft:block/stone_bricks2", "weight": 18 },
+            { "model": "minecraft:block/stone_bricks3", "weight": 15 },
+            { "model": "minecraft:block/stone_bricks4", "weight": 15 },
+            { "model": "minecraft:block/stone_bricks5", "weight": 4 },
+            { "model": "minecraft:block/stone_bricks6", "weight": 3 },
+            { "model": "minecraft:block/stone_bricks7", "weight": 3 }
+        ]
+    }
+}

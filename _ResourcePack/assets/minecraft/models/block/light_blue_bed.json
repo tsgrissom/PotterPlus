@@ -1,0 +1,6 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "textures": {
+        "particle": "minecraft:block/particle_light_blue_bed"
+    }
+}

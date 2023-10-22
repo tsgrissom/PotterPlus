@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+        "bottom": "minecraft:block/cracked_nether_bricks_bottom1",
+        "top": "minecraft:block/cracked_nether_bricks_top1",
+        "side": "minecraft:block/cracked_nether_bricks4"
+    }
+}

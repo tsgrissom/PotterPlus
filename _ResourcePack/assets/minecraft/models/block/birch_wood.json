@@ -1,0 +1,8 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "minecraft:block/birch_bark_top",
+        "side": "minecraft:block/birch_log"
+    }
+}

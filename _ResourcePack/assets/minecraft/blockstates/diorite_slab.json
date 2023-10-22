@@ -1,0 +1,23 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "type=bottom": [
+            { "model": "minecraft:block/diorite_slab" },
+            { "model": "minecraft:block/diorite_slab1" },
+            { "model": "minecraft:block/diorite_slab2" },
+            { "model": "minecraft:block/diorite_slab3" }
+        ],
+        "type=top": [
+            { "model": "minecraft:block/diorite_slab_top" },
+            { "model": "minecraft:block/diorite_slab_top1" },
+            { "model": "minecraft:block/diorite_slab_top2" },
+            { "model": "minecraft:block/diorite_slab_top3" }
+        ],
+        "type=double": [
+            { "model": "minecraft:block/diorite" },
+            { "model": "minecraft:block/diorite1" },
+            { "model": "minecraft:block/diorite2" },
+            { "model": "minecraft:block/diorite3" }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/stairs",
+    "textures": {
+        "bottom": "minecraft:block/blackstone3",
+        "top": "minecraft:block/blackstone3",
+        "side": "minecraft:block/blackstone3"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/inner_stairs",
+    "textures": {
+        "bottom": "minecraft:block/diorite2",
+        "top": "minecraft:block/diorite2",
+        "side": "minecraft:block/diorite2"
+    }
+}

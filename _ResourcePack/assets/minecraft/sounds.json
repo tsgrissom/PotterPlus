@@ -1,0 +1,924 @@
+{
+  "potterplus.block": {
+    "sounds": [
+      "potterplus/block"
+    ],
+    "category": "player"
+  },
+  "potterplus.cast_blast": {
+    "sounds": [
+      "potterplus/castblast"
+    ],
+    "category": "player"
+  },
+  "potterplus.cast_break": {
+    "sounds": [
+      "potterplus/castbreak"
+    ],
+    "category": "player"
+  },
+  "potterplus.cast_fire": {
+    "sounds": [
+      "potterplus/castfire",
+      "potterplus/castfire2",
+      "potterplus/castfire3",
+      "potterplus/castfire4",
+      "potterplus/castfire5"
+    ],
+    "category": "player"
+  },
+  "potterplus.cast_fire_unique": {
+    "sounds": [
+      "potterplus/castfireunique"
+    ],
+    "category": "player"
+  },
+  "potterplus.cast_quiet": {
+    "sounds": [
+      "potterplus/castquiet"
+    ],
+    "category": "player"
+  },
+  "potterplus.cast_sharp": {
+    "sounds": [
+      "potterplus/castsharp",
+      "potterplus/castsharp2"
+    ],
+    "category": "player"
+  },
+  "potterplus.cast_sharp_alt": {
+    "sounds": [
+      "potterplus/castsharpalt",
+      "potterplus/castsharpalt2"
+    ],
+    "category": "player"
+  },
+  "potterplus.glass": {
+    "sounds": [
+      "potterplus/glass"
+    ],
+    "category": "player"
+  },
+  "potterplus.impact": {
+    "sounds": [
+      "potterplus/impact",
+      "potterplus/impact2",
+      "potterplus/impact3"
+    ],
+    "category": "player"
+  },
+  "potterplus.potion_brew": {
+    "sounds": [
+      "potterplus/potionbrew"
+    ],
+    "category": "player"
+  },
+  "potterplus.quick_cast": {
+    "sounds": [
+      "potterplus/quickcast",
+      "potterplus/quickcast2",
+      "potterplus/quickcast3"
+    ],
+    "category": "player"
+  },
+  "potterplus.teleport": {
+    "sounds": [
+      "potterplus/teleport"
+    ],
+    "category": "player"
+  },
+  "potterplus.whip": {
+    "sounds": [
+      "potterplus/whip",
+      "potterplus/whip2"
+    ],
+    "category": "player"
+  },
+  "potterplus.whoosh_loud": {
+    "sounds": [
+      "potterplus/whooshloud"
+    ],
+    "category": "player"
+  },
+  "potterplus.zap": {
+    "sounds": [
+      "potterplus/zap",
+      "potterplus/zap2",
+      "potterplus/zap3"
+    ],
+    "category": "player"
+  },
+  "potterplus.dark_whoosh": {
+    "sounds": [
+      "potterplus/darkwhoosh",
+      "potterplus/darkwhoosh2"
+    ],
+    "category": "player"
+  },
+  "potterplus.evil_whoosh": {
+    "sounds": [
+      "potterplus/evilwhoosh"
+    ],
+    "category": "player"
+  },
+  "potterplus.ignite": {
+    "sounds": [
+      "potterplus/ignite"
+    ],
+    "category": "player"
+  },
+  "potterplus.whoosh": {
+    "sounds": [
+      "potterplus/whoosh",
+      "potterplus/whoosh2"
+    ],
+    "category": "player"
+  },
+  "potterplus.swish": {
+    "sounds": [
+      "potterplus/swish"
+    ],
+    "category": "player"
+  },
+  "magic.bonk": {
+    "sounds": [
+      "magic/bonk1",
+      "magic/bonk2",
+      "magic/bonk3",
+      "magic/bonk4"
+    ],
+    "category": "player"
+  },
+  "magic.sonic": {
+    "sounds": [
+      "magic/sonic"
+    ],
+    "category": "player"
+  },
+  "magic.crack": {
+    "sounds": [
+      {
+        "name": "magic/crack1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/crack1",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/crack1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/crack1",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/crack1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "magic.electrify": {
+    "sounds": [
+      {
+        "name": "magic/electrify1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/electrify1",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/electrify1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/electrify1",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/electrify1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "magic.hit": {
+    "sounds": [
+      "magic/hit1",
+      "magic/hit2",
+      "magic/hit3",
+      "magic/hit4"
+    ],
+    "category": "player"
+  },
+  "magic.shimmer_crack": {
+    "sounds": [
+      {
+        "name": "magic/shimmer_crack1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/shimmer_crack1",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/shimmer_crack1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/shimmer_crack1",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/shimmer_crack1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "magic.shimmer": {
+    "sounds": [
+      {
+        "name": "magic/shimmer1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/shimmer1",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/shimmer1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/shimmer1",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/shimmer1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "magic.zap_crack": {
+    "sounds": [
+      {
+        "name": "magic/zap_crack1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/zap_crack1",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/zap_crack1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/zap_crack1",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/zap_crack1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "magic.zap": {
+    "sounds": [
+      {
+        "name": "magic/zap1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/zap1",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/zap1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/zap1",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/zap1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "magic.zap_big": {
+    "sounds": [
+      {
+        "name": "magic/zap_big1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/zap_big1",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/zap_big1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/zap_big1",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/zap_big1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "magic.teleport": {
+    "sounds": [
+      {
+        "name": "magic/teleport1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/teleport1",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/teleport1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/teleport1",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/teleport1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      },
+      {
+        "name": "magic/teleport2",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/teleport2",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/teleport2",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/teleport2",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/teleport2",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "magic.shield": {
+    "sounds": [
+      {
+        "name": "magic/shield1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/shield1",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/shield1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/shield1",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/shield1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "magic.burn": {
+    "sounds": [
+      {
+        "name": "magic/burn1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/burn1",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/burn1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/burn1",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/burn1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "magic.ignite": {
+    "sounds": [
+      {
+        "name": "magic/ignite1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/ignite1",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/ignite1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/ignite1",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/ignite1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "magic.shimmer_quiet": {
+    "sounds": [
+      {
+        "name": "magic/shimmer_quiet1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/shimmer_quiet1",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/shimmer_quiet1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/shimmer_quiet1",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/shimmer_quiet1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "magic.flying": {
+    "sounds": [
+      {
+        "name": "magic/flying1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/flying1",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/flying1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/flying1",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/flying1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "magic.paperturn": {
+    "sounds": [
+      {
+        "name": "magic/paperturn1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/paperturn1",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/paperturn1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/paperturn1",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/paperturn1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "magic.wandup": {
+    "sounds": [
+      {
+        "name": "magic/wandup1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/wandup1",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/wandup1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/wandup1",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/wandup1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "magic.wanddown": {
+    "sounds": [
+      {
+        "name": "magic/wanddown1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/wanddown1",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/wanddown1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/wanddown1",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/wanddown1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "magic.shimmer_big": {
+    "sounds": [
+      {
+        "name": "magic/shimmer_big1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/shimmer_big1",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/shimmer_big1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/shimmer_big1",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/shimmer_big1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "magic.shield_boom": {
+    "sounds": [
+      {
+        "name": "magic/shield_boom1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/shield_boom1",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/shield_boom1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/shield_boom1",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/shield_boom1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "magic.zap_up": {
+    "sounds": [
+      {
+        "name": "magic/zap_up1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/zap_up1",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/zap_up1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/zap_up1",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/zap_up1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "magic.vanish": {
+    "sounds": [
+      {
+        "name": "magic/vanish1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic/vanish1",
+        "stream": false,
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic/vanish1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic/vanish1",
+        "stream": false,
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic/vanish1",
+        "stream": false,
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "magic.ringing": {
+    "sounds": [
+      "magic/ringing1"
+    ],
+    "category": "player"
+  }
+}

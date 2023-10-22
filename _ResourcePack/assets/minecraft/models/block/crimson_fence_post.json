@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/custom_template_fence_post",
+    "textures": {
+        "texture": "minecraft:block/crimson_fence",
+        "top": "minecraft:block/crimson_fence_top",
+        "bottom": "minecraft:block/crimson_fence_bottom"
+    }
+}

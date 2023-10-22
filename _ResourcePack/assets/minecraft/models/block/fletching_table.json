@@ -1,0 +1,13 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "particle": "minecraft:block/fletching_table_front",
+        "down": "minecraft:block/fletching_table_bottom",
+        "up": "minecraft:block/fletching_table_top",
+        "north": "minecraft:block/fletching_table_front",
+        "east": "minecraft:block/fletching_table_side",
+        "south": "minecraft:block/fletching_table_front",
+        "west": "minecraft:block/fletching_table_side"
+    }
+}

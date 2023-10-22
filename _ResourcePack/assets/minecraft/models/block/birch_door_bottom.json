@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/custom_template_door_bottom",
+    "textures": {
+        "bottom": "minecraft:block/birch_door_bottom",
+        "top": "minecraft:block/birch_door_top",
+        "edge": "minecraft:block/birch_door_edge"
+    }
+}

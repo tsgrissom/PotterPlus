@@ -1,0 +1,7 @@
+{
+    "parent" : "item/custom/icon",
+    "textures": {
+        "particle": "item/spells/water_droplets",
+        "texture": "item/spells/water_droplets"
+    }
+}

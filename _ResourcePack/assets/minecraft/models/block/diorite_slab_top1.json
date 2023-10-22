@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/slab_top",
+    "textures": {
+        "bottom": "minecraft:block/diorite1",
+        "top": "minecraft:block/diorite1",
+        "side": "minecraft:block/diorite1"
+    }
+}
