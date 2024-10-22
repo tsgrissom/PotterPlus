@@ -4,16 +4,11 @@ PotterPlus is a configuration of NathanWolf's [Magic plugin](https://github.com/
 
 PotterPlus adds around 400 spells across seven paths, 20 mobs, and over a hundred magical items to your Spigot server.
 
+[GETTING STARTED](./GettingStarted)
+
 [Table of Contents](./TableOfContents)
 
-[Article: Getting Started](./GettingStarted)
-
-[]
-
-## Articles
-
-* [Crafting](./Crafting)
-* [WandAppearances](./WandAppearances)
+[Credits](./Credits)
 
 ## Need support?
 

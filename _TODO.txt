@@ -2,3 +2,5 @@
   - Add a redirect for /ResourcePack/
 * Write article on gameplay flow
 * Expand Shop article
+* Edit index.md to include what is currently in project README
+* Reference GitHub Pages in README
