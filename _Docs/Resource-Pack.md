@@ -1,1 +1,0 @@
-[Resource Pack](https://github.com/PotterPlus/ResourcePack)
