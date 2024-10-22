@@ -52,7 +52,7 @@ This is generally how the server should flow for new players:
 
 `spellshop` is the spell for the player to spend Academic Credits on new spells and progressing their knowledge.
 
-[`finalspellshop`](https://github.com/tsgrissom/PotterPlus/wiki/Final-Spells) is the spell for the player to spend Completion Credits on final spell books to finish their year.
+[`shop_spells_required`](RequiredSpells.md) opens the Required Spell Shop for the player, allowing them to spend Completion Credits on required spell books to finish their year.
 
 `upgrades` is the spell for the player to view their progression. The more they cast a spell, the stronger that spell becomes.
 
@@ -75,4 +75,4 @@ As direct deposit: `/mgive <player> <currency> <amount>`
 
 `ac` is Academic Credits which are the currency the player will obtain through whatever you choose (slaying monsters, attending classes, completing quests, etc.) The player will trade Academic Credits at a `spellshop` NPC for new spells.
 
-`cc` is Completion Credits. More on those in the [Final Spells](https://github.com/tsgrissom/PotterPlus/wiki/Final-Spells) section.
+`cc` is Completion Credits. More on those in the [Required Spells](RequiredSpells) section.
