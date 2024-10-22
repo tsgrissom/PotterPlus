@@ -1,7 +1,0 @@
-{
-    "__comment": "JimStoneCraft - 2020",
-    "parent": "minecraft:block/custom_template_anvil",
-    "textures": {
-        "top": "minecraft:block/damaged_anvil_top"
-    }
-}

@@ -1,8 +1,0 @@
-ashwinder_spawner:
-  inherit: base_spawner
-  interval: 8000
-  spawn:
-    limit: 1
-    probability: 0.2
-    mobs:
-      ashwinder: 100

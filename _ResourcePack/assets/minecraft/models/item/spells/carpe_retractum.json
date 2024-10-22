@@ -1,7 +1,0 @@
-{
-    "parent" : "item/custom/icon",
-    "textures": {
-        "particle": "item/spells/carpe_retractum",
-        "texture": "item/spells/carpe_retractum"
-    }
-}

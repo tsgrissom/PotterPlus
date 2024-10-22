@@ -1,8 +1,0 @@
-archer_mage:
-  inherit: base
-  locked: false
-  path: archer
-  active_spell: arrow_regular
-  spells:
-  - arrow_regular
-  - arrow_poison

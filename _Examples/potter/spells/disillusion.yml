@@ -1,6 +1,0 @@
-disillusion:
-    inherit: cloak
-    category: charms
-    parameters:
-        target: self
-

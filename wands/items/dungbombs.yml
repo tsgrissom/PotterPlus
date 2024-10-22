@@ -1,6 +1,0 @@
-dungbombs:
-  display_name: "$name"
-  lore:
-    - "$description"
-    - ""
-    - "$uses"

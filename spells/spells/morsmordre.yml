@@ -1,6 +1,0 @@
-morsmordre:
-  icon: diamond_axe{CustomModelData:263}
-  icon_disabled: diamond_hoe{CustomModelData:263}
-  actions:
-    cast:
-      - class: Command

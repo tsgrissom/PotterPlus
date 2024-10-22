@@ -1,2 +1,0 @@
-on join:
-  make player execute command "/getrp"

@@ -1,9 +1,0 @@
-enchant:
-  - class: EffectSingle
-    sound: potterplus.cast_sharp
-    effectlib:
-      class: Sphere
-      particle: enchantment_table
-      radius: 2
-      radiusIncrease: 0.1
-      iterations: 100

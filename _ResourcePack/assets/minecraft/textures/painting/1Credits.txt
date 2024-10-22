@@ -1,7 +1,0 @@
-Art by Mark K. Jones
-
-fighters.png
-match.png
-pool.png
-stage.png
-void.png

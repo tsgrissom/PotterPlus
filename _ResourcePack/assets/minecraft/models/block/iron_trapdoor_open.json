@@ -1,8 +1,0 @@
-{
-    "__comment": "JimStoneCraft - 2020",
-    "parent": "minecraft:block/custom_template_trapdoor_open",
-    "textures": {
-        "texture": "minecraft:block/iron_trapdoor",
-        "edge": "minecraft:block/iron_trapdoor_edge"
-    }
-}

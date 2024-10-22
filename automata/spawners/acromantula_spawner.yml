@@ -1,9 +1,0 @@
-acromantula_spawner:
-  inherit: base_spawner
-  name: "Acromantula Spawner"
-  description: "An acromantula spawner"
-  spawn:
-    mobs:
-      acromantula_underling: 60
-      acromantula: 35
-      acromantula_queen: 15

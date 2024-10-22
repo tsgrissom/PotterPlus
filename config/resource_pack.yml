@@ -1,4 +1,0 @@
-# Sets the PotterPlus resource pack.
-resource_pack: "https://download.mc-packs.net/pack/cdedd36e0e68712b70e5897ad91b59ee6792513a.zip"
-# Auto-apply the resource pack on login.
-resource_pack_default_auto: true

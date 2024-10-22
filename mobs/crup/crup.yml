@@ -1,4 +1,0 @@
-crup:
-  inherit: crup_puppy
-  name: '&cCrup'
-  baby: false

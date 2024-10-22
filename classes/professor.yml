@@ -1,7 +1,0 @@
-professor:
-  inherit: base
-  locked: true
-  icon: wood_hoe:27
-  mana_max: 250
-  mana: 250
-  mana_regeneration: 60

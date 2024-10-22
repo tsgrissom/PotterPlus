@@ -1,8 +1,0 @@
-{
-    "__comment": "JimStoneCraft - 2020",
-    "parent": "minecraft:block/custom_template_campfire",
-    "textures": {
-        "fire": "minecraft:block/soul_campfire_fire3",
-        "lit_log": "minecraft:block/soul_campfire_log_lit"
-    }
-}

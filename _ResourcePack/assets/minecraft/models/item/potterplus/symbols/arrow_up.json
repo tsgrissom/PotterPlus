@@ -1,7 +1,0 @@
-{
-    "parent" : "item/custom/icon",
-    "textures": {
-        "particle": "item/potterplus/symbols/arrow_up",
-        "texture": "item/potterplus/symbols/arrow_up"
-    }
-}

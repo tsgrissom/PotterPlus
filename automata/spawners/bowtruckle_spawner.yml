@@ -1,9 +1,0 @@
-bowtruckle_spawner:
-  inherit: base_spawner
-  interval: 3000
-  spawn:
-    limit: 2
-    probability: 0.8
-    mobs:
-      bowtruckle: 90
-      overgrown_bowtruckle: 10

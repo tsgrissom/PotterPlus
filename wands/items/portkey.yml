@@ -1,8 +1,0 @@
-portkey:
-  uses: 1
-  active_spell: ability_portkey
-  spells:
-    - ability_portkey
-  lore:
-    - "$description"
-    - "$cooldown"

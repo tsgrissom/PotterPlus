@@ -1,4 +1,0 @@
-atmos:
-    inherit: weather
-    category: herbology
-

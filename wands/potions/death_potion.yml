@@ -1,5 +1,0 @@
-deathpotion:
-  icon: potion:000000
-  right_click: cast
-  active_spell: death_potion_ability
-  uses: 1

@@ -1,7 +1,0 @@
-{
-    "parent" : "item/custom/icon_disabled",
-    "textures": {
-        "particle": "item/spells/water_gush",
-        "texture": "item/spells/water_splash"
-    }
-}

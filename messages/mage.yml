@@ -1,9 +1,0 @@
-mage:
-  spell_added: |-
-    t:&dSpell Unlocked
-    &6$name
-  spell_upgraded: |-
-    t:&dSpell Upgraded
-    &r&6$name &r$level
-    &8>> &dYour knowledge of magic grows&8.
-    &7&l> &r&6$name &dupgraded to &r$level

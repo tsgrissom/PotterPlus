@@ -1,9 +1,0 @@
-duro:
-    inherit: harden
-    category: transfiguration
-    parameters:
-      destructible: hardenable
-
-duro|2:
-    inherit: harden|2
-

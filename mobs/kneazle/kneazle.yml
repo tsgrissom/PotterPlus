@@ -1,4 +1,0 @@
-kneazle:
-  inherit: kneazle_kitten
-  name: '&eKneazle'
-  baby: false
