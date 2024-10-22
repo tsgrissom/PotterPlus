@@ -1,0 +1,1 @@
+MagicScan is a plugin developed by the creator of PotterPlus to provide analytics and perform linting on your Magic configuration setup to root out common issues and provide deeper insights. The plugin is available [here](https://github.com/tsgrissom/MagicScan).
