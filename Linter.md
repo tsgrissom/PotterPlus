@@ -1,3 +1,5 @@
+# Linter Instructions
+
 PotterPlus uses [yamllint](https://yamllint.readthedocs.io/en/stable/) to ensure that all YAML files follow good conventions. You can run this linter on your own variants of Magic configuration to follow the same conventions PotterPlus outlines.
 
 [Linter Config File](https://github.com/tsgrissom/PotterPlus/blob/master/.yamllint)

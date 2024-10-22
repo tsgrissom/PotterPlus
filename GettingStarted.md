@@ -1,10 +1,12 @@
-### Installing Magic
+# Getting Started
+
+## Installing Magic
 
 * Grab your copy of [Magic](https://www.spigotmc.org/resources/magic.1056/).
 * Place the JAR into your `/plugins/` folder and restart your server.
 * Verify you have installed the latest version of Magic by performing `/magic` in-game.
 
-### Automatic installation
+## Automatic installation
 
 In Magic 8.0+ there is a mechanism for loading examples from GitHub, allowing you to install PotterPlus with commands and begin to configure it yourself.
 
@@ -15,7 +17,7 @@ In Magic 8.0+ there is a mechanism for loading examples from GitHub, allowing yo
 
 Every time you want to update PotterPlus, simply re-fetch and set the example.
 
-### Manual installation
+## Manual installation
 
 If you would rather manually install PotterPlus, you can do so by following these steps. Note that it will be more difficult to tailor PotterPlus to your specific needs.
 
@@ -44,7 +46,7 @@ This is generally how the server should flow for new players:
 
 ### Essential Spells
 
-> TIP: Test spells with /cast <spell-key> in-game.
+> TIP: Test spells with `/cast <spell-key>` command
 
 `wandshop` is the spell for the player to trade the Wand Ticket they receive when they first join the server.
 
@@ -56,7 +58,7 @@ This is generally how the server should flow for new players:
 
 ### Essential items
 
-> TIP: Items can be given with the /mgive command. 
+> TIP: Items can be given with the /mgive command.
 
 `ticket` is the wand ticket players will receive when they first join the server.
 
