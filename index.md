@@ -6,6 +6,11 @@ PotterPlus adds around 400 spells across seven paths, 20 mobs, and over a hundre
 
 [Get started here](https://tsgrissom.github.io/PotterPlus/GettingStarted)
 
+## Articles
+
+* [Crafting.md](./Crafting.md)
+* [WandAppearances](./WandAppearances)
+
 ## Need support?
 
 For Magic support, visit the [Official Magic Discord](https://discord.gg/mTqvSqp) or ask on the [Magic thread](https://www.spigotmc.org/threads/magic.28645/)

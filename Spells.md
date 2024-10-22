@@ -1,3 +1,5 @@
+# Spells
+
 Main Magic wiki page: [Custom Spells](https://github.com/elBukkit/MagicPlugin/wiki/Custom-Spells)
 
 Spells are a very flexible feature provided by Magic which PotterPlus uses in several ways. Some things to note:

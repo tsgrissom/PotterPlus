@@ -1,6 +1,8 @@
+# Shops
+
 There is an assortment of shops provided by PotterPlus by default. Shops in Magic are really just spells and can be attached to NPCs, ran by command blocks, etc.
 
-### List of Shops
+## List of Shops
 
 > TIP: You can demo these spells by performing `/cast <spell-key>`
 
@@ -16,8 +18,8 @@ There is an assortment of shops provided by PotterPlus by default. Shops in Magi
 
 For currency the Book Shop, Broom Shop, Potion Shop, and Legendary Potion Shop all use Galleons. To give players galleons, do `/mgive <player> galleon [amount]`.
 
-#### Potion Shop
+### Potion Shop
 
-[Potions info](https://github.com/PotterPlus/PotterPlus/wiki/Potions)
+[Potions info](Potions.md)
 
 The `shop_potions` is now a menu that has two options, ingredients (`shop_potions_ingredients`) or potions (`shop_potions_potions`) which cast spells bringing up the respective shop. There is a Legendary Potion Shop (`shop_potions_legendary`) which sells more powerful potions.
