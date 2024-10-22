@@ -1,7 +1,10 @@
-# Appearances
+# Wand Appearances
 
-PotterPlus includes an `appearances` spell which will display available wand appearances. Wand appearances are simply skins for your wand and thus are EULA-compliant and a nice way to bring in donations.
+> To display available Wand Appearances: `/cast appearances`
 
-[Article: NPCs](https://tsgrissom.github.io/PotterPlus/NPCs)
+**Wand Appearances** are cosmetic-only skins for your wand. Therefore, they a one method of maintaining EULA-compliance while monetizing your game server.
 
-[Article: Permissions](https://tsgrissom.github.io/PotterPlus/Permissions)
+## Relevant Articles
+
+* [Article: NPCs](./NPCs)
+* [Article: Permissions](./Permissions)

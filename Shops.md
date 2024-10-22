@@ -7,7 +7,7 @@ There is an assortment of shops provided by PotterPlus by default. Shops in Magi
 > TIP: You can demo these spells by performing `/cast <spell-key>`
 
 * `shop_spells`
-* [`shop_spells_required`](https://github.com/tsgrissom/PotterPlus/wiki/Required-Spells)
+* [`shop_spells_required`](./RequiredSpells)
 * `shop_ollivander`
 * `shop_textbooks`
 * `shop_brooms`
@@ -20,6 +20,6 @@ For currency the Book Shop, Broom Shop, Potion Shop, and Legendary Potion Shop a
 
 ### Potion Shop
 
-[Potions info](Potions.md)
+[Potions info](./Potions)
 
 The `shop_potions` is now a menu that has two options, ingredients (`shop_potions_ingredients`) or potions (`shop_potions_potions`) which cast spells bringing up the respective shop. There is a Legendary Potion Shop (`shop_potions_legendary`) which sells more powerful potions.
