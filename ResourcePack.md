@@ -1,5 +1,5 @@
 # Resource Pack
 
-The PotterPlus Resource Pack is bundled in the PotterPlus repository
+The PotterPlus Resource Pack is [bundled](https://github.com/tsgrissom/PotterPlus/tree/master/_ResourcePack) with the PotterPlus repository
 
-[Direct Link](https://github.com/tsgrissom/PotterPlus/tree/master/_ResourcePack)
+[Article: Credits](./Credits)

@@ -1,0 +1,2 @@
+* Move ResourcePack namespace over to DataPack namespace
+  - Add a redirect for /ResourcePack/

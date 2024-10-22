@@ -1,6 +1,6 @@
 # Spells
 
-Main Magic wiki page: [Custom Spells](https://github.com/elBukkit/MagicPlugin/wiki/Custom-Spells)
+Magic wiki page: [Custom Spells](https://github.com/elBukkit/MagicPlugin/wiki/Custom-Spells)
 
 Spells are a very flexible feature provided by Magic which PotterPlus uses in several ways. Some things to note:
 
@@ -8,7 +8,7 @@ Spells are a very flexible feature provided by Magic which PotterPlus uses in se
 2. That said, most spells in PotterPlus have been completely overhauled or heavily tuned to fit the new configuration.
 3. All spells are housed in the [spells folder](https://github.com/tsgrissom/PotterPlus/tree/master/spells).
 
-## Ways PotterPlus utilizes spells
+## How PotterPlus uses spells
 
 * To create graphical menus like progress menus, spell shops, item shops, appearance selectors, etc.
 * To power magical items. All magical items are "wands" with spells that enable those items to do cool things.
