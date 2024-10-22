@@ -1,0 +1,12 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/custom_orientable",
+    "textures": {
+        "particle": "minecraft:block/loom_front",
+        "bottom": "minecraft:block/loom_bottom",
+        "top": "minecraft:block/loom_top",
+        "front": "minecraft:block/loom_front",
+        "side": "minecraft:block/loom_side",
+        "back": "minecraft:block/loom_back"
+    }
+}

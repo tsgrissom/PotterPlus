@@ -1,0 +1,27 @@
+nox:
+  icon: diamond_axe{CustomModelData:140}
+  icon_disabled: diamond_hoe{CustomModelData:140}
+  worth: 5 ac
+  tags: noprogression
+  actions:
+    cast:
+      - class: PotionEffect
+      - class: Cancel
+  effects:
+    cast:
+      - class: EffectSingle
+        location: origin
+        source_location: feet
+        sound: magic.shimmer
+        effectlib:
+          class: Warp
+          particle: spell_mob
+          color: 000000
+  parameters:
+    spells:
+      - lumos
+      - lumosmaxima
+    target: self
+    cooldown: 5000
+  costs:
+    mana: 20

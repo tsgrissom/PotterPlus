@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/potted_lily_of_the_valley", "weight": 25 },
+            { "model": "minecraft:block/potted_lily_of_the_valley1", "weight": 25 },
+            { "model": "minecraft:block/potted_lily_of_the_valley2", "weight": 25 },
+            { "model": "minecraft:block/potted_lily_of_the_valley3", "weight": 25 }
+        ]
+    }
+}

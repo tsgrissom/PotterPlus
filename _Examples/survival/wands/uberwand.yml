@@ -1,0 +1,26 @@
+uberwand:
+  inherit: master
+  path: staff
+  hotbar_count: 3
+  protected: true
+  cost_reduction: 2.0
+  cooldown_reduction: 2.0
+  sp_multiplier: 0
+  mode: inventory
+  effect_particle: ENCHANTMENT_TABLE
+  potion_effects:
+    - SATURATION
+    - REGENERATION
+    - SPEED
+  active_spell: missile|4
+  spells:
+    - levitate@0
+    - blink|3@1
+    - fling|2@2
+    - missile|4@3
+    - day@4
+    - superkill@5
+    - testdummy@6
+    - debugger@7
+    - recall@8
+    - push@9

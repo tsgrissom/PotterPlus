@@ -1,0 +1,81 @@
+arrow_blink:
+    icon: tipped_arrow{CustomModelData:18022,Potion:regeneration}
+    icon_disabled: tipped_arrow{CustomModelData:18023,Potion:regeneration}
+    legacy_icon: spell_icon:248
+    legacy_icon_disabled: spell_icon_disabled:248
+    icon_url: http://textures.minecraft.net/texture/ea96e1b8c4d458f8f5443fa66eb376981f7b2ec385386db67faf3f1589094
+    category: combat
+    worth: 1000
+    earns_sp: 8
+    actions:
+        cast:
+        - class: Projectile
+          actions:
+          - class: Teleport
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: entity_arrow_shoot
+           sound_pitch: 0.2
+           sound_volume: 0.3
+           location: origin
+        projectile:
+        - location: origin
+          effectlib:
+             class: Sphere
+             iterations: 10
+             period: 2
+             particles: 5
+             particle_count: 20
+             particle_offset_x: 0.2
+             particle_offset_y: 0.2
+             particle_offset_z: 0.2
+             particle: portal
+             disappear_with_origin_entity: true
+        - location: origin
+          effectlib:
+             class: Sphere
+             iterations: 10
+             period: 2
+             particles: 10
+             particle: redstone
+             color: "FF00FF"
+             disappear_with_origin_entity: true
+        hit:
+        -  class: EffectSingle
+           target_offset: 0,0.5,0
+           location: target
+           color: FACC2E
+           firework: burst
+        teleport:
+        - class: EffectSingle
+          sound: magic.teleport
+          location: target
+          particle_override: particle_nucleus
+          color_override: colorOrbital
+          source_location: eyes
+          effectlib:
+             class: AtomEffect
+             particle_nucleus: fireworks_spark
+             particle_orbital: redstone
+             iterations: 16
+             offset: 0,-1,0
+        - class: EffectSingle
+          location: target
+          source_location: body
+          color_override: colorNucleus
+          effectlib:
+             class: AtomEffect
+             particle_nucleus: redstone
+             particle_orbital: fireworks_spark
+             iterations: 8
+    parameters:
+      target: none
+      projectile: TippedArrow
+      speed: "bowpull * 3"
+      spread: "1 - bowpull"
+      vertical_range: 8
+      ledge_range: 4
+      damage: 1
+    costs:
+      arrow: 1

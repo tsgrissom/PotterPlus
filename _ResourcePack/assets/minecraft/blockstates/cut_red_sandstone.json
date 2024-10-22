@@ -1,0 +1,13 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/cut_red_sandstone", "weight": 30 },
+            { "model": "minecraft:block/cut_red_sandstone1", "weight": 15 },
+            { "model": "minecraft:block/cut_red_sandstone2", "weight": 15 },
+            { "model": "minecraft:block/cut_red_sandstone3", "weight": 15 },
+            { "model": "minecraft:block/cut_red_sandstone4", "weight": 15 },
+            { "model": "minecraft:block/cut_red_sandstone5", "weight": 10 }
+        ]
+    }
+}

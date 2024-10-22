@@ -1,0 +1,25 @@
+gryffindorsword:
+  icon: iron_sword
+  display_name: "$name"
+  lore:
+    - "$description"
+    - ""
+    - " &6> &4Right-Click &7to shield"
+    - " &6> &4Swap&7/&4Drop &7to heal"
+  bound: true
+  indestructible: true
+  undroppable: true
+  mana: 100
+  mana_max: 100
+  mana_regeneration: 5
+  drop: alt_cast
+  swap: alt_cast
+  left_click: none
+  right_click: cast
+  potion_effects: increase_damage:1
+  glow: true
+  active_spell: ability_gryffindorsword
+  alternate_spell: ability_gryffindorsword_alt
+  spells:
+    - ability_gryffindorsword
+    - ability_gryffindorsword_alt

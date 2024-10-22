@@ -1,0 +1,11 @@
+wizardboots:
+  enabled: false
+  output: wizardboots
+  output_type: wand
+  materials:
+    o: magicheart
+    i: white_wool
+  row_1: ""
+  row_2: o o
+  row_3: i i
+

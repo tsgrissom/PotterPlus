@@ -1,0 +1,47 @@
+avis:
+  inherit: false
+  icon: diamond_axe{CustomModelData:117}
+  icon_disabled: diamond_hoe{CustomModelData:117}
+  category: creatures
+  worth: 5 ac
+  upgrade_required_casts: 25
+  upgrade_required_path: year5
+  actions:
+    cast:
+      - class: Repeat
+        actions:
+          - class: Spread
+            actions:
+              - class: SpawnEntity
+  effects:
+    cast:
+      - sound: chicken_egg_pop
+    undo_entity:
+      - class: EffectSingle
+        location: target
+        firework: ball
+        color: 6a0d5e
+        color2: FFFFFF
+  parameters:
+    cooldown: 20000
+    type: chicken
+    target: self
+    undo: 4000
+    repeat: 6
+    radius: 6
+    name: "&dConjured Bird"
+  costs:
+    mana: 30
+
+avis|2:
+  upgrade_required_casts: 50
+  upgrade_required_path: year6
+  parameters:
+    undo: 6000
+    repeat: 8
+
+avis|3:
+  parameters:
+    repeat: 10
+    undo: 8000
+    baby: false

@@ -1,0 +1,49 @@
+weather:
+    icon: popped_chorus_fruit{CustomModelData:18001}
+    icon_disabled: popped_chorus_fruit{CustomModelData:18002}
+    legacy_icon: spell_icon:59
+    legacy_icon_disabled: spell_icon_disabled:59
+    icon_url: http://textures.minecraft.net/texture/cd76c83453ba48a6aceac090ef4e2c8918ecd8891e91621bed2e03fad8a7f6
+    category: elemental
+    worth: 500
+    earns_sp: 5
+    quick_cast: true
+    actions:
+        cast:
+        -  class: Weather
+    effects:
+        cast:
+        - sound: weather_rain
+          sound_pitch: 0.4
+        - sound: block_conduit_activate
+          sound_pitch: 1.3
+          sound_volume: 1.8
+        -  class: EffectRing
+           size: 4
+           radius: 6
+           effectlib:
+             offset: 0,10,0
+             class: HelixEffect
+             iterations: 1
+             particle: drip_water
+             radius: 4
+        alternate:
+         - sound: block_conduit_deactivate
+           sound_pitch: 1.3
+           sound_volume: 1.8
+         - class: EffectRing
+           size: 4
+           radius: 6
+           effectlib:
+               offset: 0,10,0
+               class: HelixEffect
+               iterations: 1
+               particle: end_rod
+               radius: 4
+    parameters:
+        target: none
+        cooldown: 900000
+        weather: cycle
+    costs:
+        mana: 150
+

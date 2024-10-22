@@ -1,0 +1,33 @@
+tweakshop:
+    icon: nether_star
+    icon_url: http://textures.minecraft.net/texture/f6d6ac2ee323f6497c6e2663a7e56ed9523567b68d18a17f8f39736b06ac3cd
+    category: npc
+    hidden: true
+    inherit: buyshop
+    parameters:
+        requirements:
+        - holding_wand: true
+        apply_to_wand: true
+        items:
+          - wand|inventorymode
+          - wand|chestmode
+          - wand|cyclemode
+          - none
+          - none
+          - wand|quickcast_enable
+          - wand|quickcast_disable
+          - wand|quickcast_normal
+          - wand|quickcast_manual
+          - wand|mode_drop
+          - wand|mode_rightclick
+          - wand|mode_sword
+          - wand|mode_swap
+          - none
+          - wand|organizer
+          - wand|alphabetizer
+          - none
+          - none
+          - wand|loud
+          - wand|quiet
+          - wand|silent
+

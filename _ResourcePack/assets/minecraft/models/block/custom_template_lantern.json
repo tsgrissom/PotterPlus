@@ -1,0 +1,145 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/block",
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [75, 45, 0],
+            "translation": [0, 2.5, 2],
+            "scale": [0.5, 0.5, 0.5]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [75, 45, 0],
+            "translation": [0, 2.5, 2],
+            "scale": [0.5, 0.5, 0.5]
+        },
+        "firstperson_righthand": {
+            "rotation": [0, 45, 0],
+            "translation": [0, 3.2, 1.13],
+            "scale": [0.4, 0.4, 0.4]
+        },
+        "firstperson_lefthand": {
+            "rotation": [0, 225, 0],
+            "translation": [0, 3.2, 1.13],
+            "scale": [0.4, 0.4, 0.4]
+        },
+        "ground": {
+            "translation": [0, 2, 0],
+            "scale": [0.5, 0.5, 0.5]
+        },
+        "gui": {
+            "rotation": [30, 45, 0],
+            "translation": [0, 3, 0]
+        },
+        "head": {
+            "rotation": [0, 180, 0],
+            "translation": [0, 15, 0]
+        },
+        "fixed": {
+            "scale": [0.85, 0.85, 0.85]
+        }
+    },
+    "textures": {
+        "particle": "#lantern"
+    },
+    "elements": [
+        {
+            "__comment": "Body",
+            "from": [5, 0, 5],
+            "to": [11, 7, 11],
+            "faces": {
+                "north": {"uv": [0, 2, 6, 9], "texture": "#lantern"},
+                "east": {"uv": [0, 2, 6, 9], "texture": "#lantern"},
+                "south": {"uv": [0, 2, 6, 9], "texture": "#lantern"},
+                "west": {"uv": [0, 2, 6, 9], "texture": "#lantern"},
+                "up": {"uv": [0, 9, 6, 15], "texture": "#lantern"},
+                "down": {"uv": [0, 9, 6, 15], "texture": "#lantern", "cullface": "down"}
+            }
+        },
+        {
+            "__comment": "Pyramid 4",
+            "from": [5.5, 7, 5.5],
+            "to": [10.5, 7.5, 10.5],
+            "faces": {
+                "north": {"uv": [0.5, 1.5, 5.5, 2], "texture": "#lantern"},
+                "east": {"uv": [0.5, 1.5, 5.5, 2], "texture": "#lantern"},
+                "south": {"uv": [0.5, 1.5, 5.5, 2], "texture": "#lantern"},
+                "west": {"uv": [0.5, 1.5, 5.5, 2], "texture": "#lantern"},
+                "up": {"uv": [0.5, 9.5, 5.5, 14.5], "texture": "#lantern"}
+            }
+        },
+        {
+            "__comment": "Pyramid 3",
+            "from": [6, 7.5, 6],
+            "to": [10, 8, 10],
+            "faces": {
+                "north": {"uv": [1, 1, 5, 1.5], "texture": "#lantern"},
+                "east": {"uv": [1, 1, 5, 1.5], "texture": "#lantern"},
+                "south": {"uv": [1, 1, 5, 1.5], "texture": "#lantern"},
+                "west": {"uv": [1, 1, 5, 1.5], "texture": "#lantern"},
+                "up": {"uv": [1, 10, 5, 14], "texture": "#lantern"}
+            }
+        },
+        {
+            "__comment": "Pyramid 2",
+            "from": [6.5, 8, 6.5],
+            "to": [9.5, 8.5, 9.5],
+            "faces": {
+                "north": {"uv": [1.5, 0.5, 4.5, 1], "texture": "#lantern"},
+                "east": {"uv": [1.5, 0.5, 4.5, 1], "texture": "#lantern"},
+                "south": {"uv": [1.5, 0.5, 4.5, 1], "texture": "#lantern"},
+                "west": {"uv": [1.5, 0.5, 4.5, 1], "texture": "#lantern"},
+                "up": {"uv": [1.5, 10.5, 4.5, 13.5], "texture": "#lantern"}
+            }
+        },
+        {
+            "__comment": "Pyramid 1",
+            "from": [7, 8.5, 7],
+            "to": [9, 9, 9],
+            "faces": {
+                "north": {"uv": [2, 0, 4, 0.5], "texture": "#lantern"},
+                "east": {"uv": [2, 0, 4, 0.5], "texture": "#lantern"},
+                "south": {"uv": [2, 0, 4, 0.5], "texture": "#lantern"},
+                "west": {"uv": [2, 0, 4, 0.5], "texture": "#lantern"},
+                "up": {"uv": [2, 11, 4, 13], "texture": "#lantern"}
+            }
+        },
+        {
+            "__comment": "Chain Top",
+            "from": [7, 10, 7.75],
+            "to": [9, 10.5, 8.25],
+            "shade": false,
+            "faces": {
+                "north": {"uv": [0.5, 10.5, 2.5, 11], "texture": "#chain"},
+                "east": {"uv": [2.5, 10.5, 3, 11], "texture": "#chain"},
+                "south": {"uv": [0.5, 10.5, 2.5, 11], "texture": "#chain"},
+                "west": {"uv": [0, 10.5, 0.5, 11], "texture": "#chain"},
+                "up": {"uv": [0.5, 10, 2.5, 10.5], "texture": "#chain"},
+                "down": {"uv": [0.5, 10, 2.5, 10.5], "texture": "#chain"}
+            }
+        },
+        {
+            "__comment": "Chain Left",
+            "from": [7, 9, 7.75],
+            "to": [7.5, 10, 8.25],
+            "shade": false,
+            "faces": {
+                "north": {"uv": [0.5, 11, 1, 12], "texture": "#chain"},
+                "east": {"uv": [0, 11, 0.5, 12], "texture": "#chain"},
+                "south": {"uv": [0.5, 11, 1, 12], "texture": "#chain"},
+                "west": {"uv": [0, 11, 0.5, 12], "texture": "#chain"}
+            }
+        },
+        {
+            "__comment": "Chain Right",
+            "from": [8.5, 9, 7.75],
+            "to": [9, 10, 8.25],
+            "shade": false,
+            "faces": {
+                "north": {"uv": [2, 11, 2.5, 12], "texture": "#chain"},
+                "east": {"uv": [2.5, 11, 3, 12], "texture": "#chain"},
+                "south": {"uv": [2, 11, 2.5, 12], "texture": "#chain"},
+                "west": {"uv": [2.5, 11, 3, 12], "texture": "#chain"}
+            }
+        }
+    ]
+}

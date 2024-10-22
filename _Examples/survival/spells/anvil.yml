@@ -1,0 +1,70 @@
+anvil:
+    icon: anvil{CustomModelData:18001}
+    icon_disabled: anvil{CustomModelData:18002}
+    legacy_icon: spell_icon:90
+    legacy_icon_disabled: spell_icon_disabled:90
+    icon_url: http://textures.minecraft.net/texture/505b8ba793c372d9fb45db20df80c1606b19b7421a9bbcc258ae2a65d65ea7
+    category: utility
+    actions:
+      cast:
+      - class: ChangeContext
+        target_offset: 0,8,0
+        actions:
+        - class: SpawnEntity
+          set_target: true
+          set_source: true
+          actions:
+          - class: PlayEffects
+            effects: land
+          - class: AreaOfEffect
+            actions:
+            - class: Damage
+    worth: 100
+    effects:
+        cast:
+          - sound: entity_illusioner_cast_spell
+            sound_pitch: 1.9
+            sound_volume: 0.3
+          - sound: block.anvil.use
+            sound_pitch: 1.5
+            sound_volume: 0.3
+          - class: EffectSingle
+            particle: block_crack
+            location: target
+            particle_count: 30
+            particle_offset_x: 0.1
+            particle_offset_y: 0.1
+            particle_offset_z: 0.1
+            material: anvil
+            sound: item.trident.throw
+            sound_pitch: 0.4
+            sound_volume: 2
+        land:
+        - sound: block_stone_step
+          sound_pitch: 0.7
+        - sound: block_anvil_land
+          sound_pitch: 0.6
+          sound_volume: 2
+        - class: EffectRing
+          particle: block_crack
+          period: 4
+          particle_count: 30
+          radius: 2
+          particle_offset_x: 0.9
+          particle_offset_z: 0.9
+          particle_offset_y: 0.1
+          material: anvil
+    parameters:
+        target: other
+        target_type: LivingEntity
+        allow_max_range: true
+        range: 16
+        undo: 30000
+        cooldown: 20000
+        type: falling_block
+        material: anvil
+        radius: 2
+        damage: 5
+    costs:
+        mana: 100
+

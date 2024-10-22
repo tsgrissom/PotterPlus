@@ -1,0 +1,53 @@
+# Unused
+reparo:
+  enabled: false
+# Disabled in favor of 'confundo'
+confundus:
+  enabled: false
+# Disabled in favor of 'locomotormortis'
+locomotomortus:
+  enabled: false
+
+# Not actual spells. Inherited from potter.
+
+beat:
+  enabled: false
+dementor:
+  enabled: false
+expulsion:
+  enabled: false
+floo:
+  enabled: false
+reveal:
+  enabled: false
+phase:
+  enabled: false
+confundusmaxima:
+  enabled: false
+deletrius:
+  enabled: false
+reparomaxima:
+  enabled: false
+avadamaxima:
+  enabled: false
+silenciomaxima:
+  enabled: false
+silenciototalus:
+  enabled: false
+reductomaxima:
+  enabled: false
+tripudio:
+  enabled: false
+periculux:
+  enabled: false
+spongifymaxima:
+  enabled: false
+potterbroomshop:
+  enabled: false
+
+# Disabled because buying another ticket is not possible in BP.
+ticketshop:
+  enabled: false
+# Disabled because broken and messy.
+colorshop:
+  enabled: false

@@ -1,0 +1,28 @@
+controlsmenu:
+    icon: oak_sign{CustomModelData:18001}
+    icon_disabled: oak_sign{CustomModelData:18001}
+    legacy_icon: spell_icon:214
+    legacy_icon_disabled: diamond_hoe:214
+    icon_url: http://textures.minecraft.net/texture/f6d6ac2ee323f6497c6e2663a7e56ed9523567b68d18a17f8f39736b06ac3cd
+    category: npc
+    hidden: true
+    actions:
+        cast:
+        -  class: Selector
+    parameters:
+        apply_to_wand: true
+        requirements:
+        - wand_tags: tweakable
+        options:
+          - item: inventorymode
+          - item: chestmode
+          - item: cyclemode
+          - item: mode_drop
+          - item: mode_rightclick
+          - item: mode_swap
+          - item: none
+          - item: organizer
+            selected: "You organized your spell inventory"
+          - item: alphabetizer
+            selected: "You alphabetized your spell inventory"
+

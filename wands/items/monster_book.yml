@@ -1,0 +1,8 @@
+monsterbook:
+  icon: written_book
+  mode: cast
+  active_spell: ability_monsterbook
+  spells:
+    - ability_monsterbook
+  lore:
+    - "$description"

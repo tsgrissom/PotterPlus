@@ -1,0 +1,103 @@
+wave:
+    icon: light_blue_dye{CustomModelData:18001}
+    icon_disabled: light_blue_dye{CustomModelData:18002}
+    legacy_icon: spell_icon:195
+    legacy_icon_disabled: spell_icon_disabled:195
+    icon_url: http://textures.minecraft.net/texture/1d7cb6f2a4b2c2059621b7f6f84b5f0bc84c19ce981d054c26cec012ac
+    category: elemental
+    pvp_restricted: true
+    worth: 400
+    earns_sp: 8
+    upgrade_required_path: master
+    upgrade_required_casts: 50
+    actions:
+        cast:
+        -  class: Line
+           actions:
+           - class: PlayEffects
+             ignore_result: true
+             effects: iterate
+           - class: Volume
+             ignore_result: true
+             actions:
+             - class: Cover
+               actions:
+               - class: ModifyBlock
+           - class: AreaOfEffect
+             actions:
+             - class: Velocity
+               ignore_result: true
+             - class: Damage
+           - class: Delay
+    effects:
+        cast:
+        -  sound: block_conduit_deactivate
+           sound_pitch: 0.3
+           sound_volume: 0.5
+        -  sound: entity_generic_splash
+           sound_pitch: 0.15
+        -  class: EffectSingle
+           sound: magic.shimmer_quiet
+           sound_volume: 1
+           sound_pitch: 0.2
+           location: origin
+           material: stone
+           effectlib:
+             class: EquationEffect
+             xEquation: "t/8"
+             yEquation: "sin(t/8)"
+             zEquation: "0"
+             x2Equation: "0"
+             y2Equation: "0"
+             z2Equation: "t2/8 * 4 - 4"
+             iterations: 8
+             particles: 10
+             particles2: 16
+             particle: block_crack
+             orient: true
+             orientPitch: false
+             period: 6
+        iterate:
+        -  class: EffectSingle
+           location: target
+           sound: magic.shimmer_quiet
+           particle_count: 4
+           particle_offset_x: 1
+           particle_offset_y: 0.2
+           particle_offset_z: 1
+           particle: smoke_large
+    parameters:
+        target: block
+        target_type: Entity
+        start_at_target: true
+        x_size: 2
+        y_size: 0
+        z_size: 2
+        size: 8
+        range: 3
+        allow_max_range: true
+        orient: true
+        target_count: 16
+        item_speed: 0.2
+        living_entity_speed: 0.3
+        direction: 0,1,0
+        speed: 0.4
+        cooldown: 30000
+        delay: 250
+        brush: air
+        falling: true
+        undo: 15000
+        damage: 2
+        undo_speed: 0.5
+    costs:
+        mana: 150
+
+wave|2:
+    parameters:
+        x_size: 3
+        z_size: 3
+        item_speed: 0.4
+        living_entity_speed: 0.6
+        speed: 0.8
+        destructible: destructible,destructible2,destructible3
+

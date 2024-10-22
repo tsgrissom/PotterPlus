@@ -1,0 +1,139 @@
+flagrate:
+  inherit: false
+  icon: diamond_axe{CustomModelData:58}
+  icon_disabled: diamond_hoe{CustomModelData:58}
+  upgrade_required_path: year1
+  upgrade_required_casts: 5
+  worth: 5 ac
+  category: charms
+  actions:
+    cast:
+      - class: CustomProjectile
+  effects:
+    cast:
+      - sound: magic.zap
+    tick:
+      - particle: lava
+        particle_count: 5
+        location: target
+    hit_block:
+      - sound: magic.burn
+        particle: fireworks_spark
+        particle_count: 15
+        particle_data: 1
+        location: target
+        effectlib:
+          class: Sphere
+          radius: 0.5
+          particle: lava
+          particles: 3
+          duration: 4000
+    miss:
+      - class: EffectRepeat
+        delay: 1000
+        sound: magic.burn
+        sound_volume: 0.5
+        location: target
+        target_offset: 0,1.5,0
+        effectlib:
+          class: Text
+          text: $target
+          duration: 3000
+          particle: lava
+    fizzle:
+      - sound: magic.hit
+        entity_effect: hurt
+        particle: lava
+        particle_data: 0.1
+        particle_count: 15
+  parameters:
+    cooldown: 10000
+    target: other_block
+    fizzle_chance: 0.55
+    allow_max_range: true
+    velocity: 25
+    range: 8
+    repeat: 3
+    effect: name
+    delay: 1000
+  costs:
+    mana: 25
+
+flagrate|2:
+  upgrade_required_path: year1
+  upgrade_required_casts: 10
+  parameters:
+    fizzle_chance: 0.5
+
+flagrate|3:
+  upgrade_required_path: year1
+  upgrade_required_casts: 15
+  parameters:
+    fizzle_chance: 0.45
+
+flagrate|4:
+  upgrade_required_path: year2
+  upgrade_required_casts: 20
+  parameters:
+    fizzle_chance: 0.4
+
+flagrate|5:
+  upgrade_required_path: year2
+  upgrade_required_casts: 25
+  parameters:
+    fizzle_chance: 0.35
+
+flagrate|6:
+  upgrade_required_path: year2
+  upgrade_required_casts: 30
+  parameters:
+    fizzle_chance: 0.3
+
+flagrate|7:
+  upgrade_required_path: year3
+  upgrade_required_casts: 35
+  parameters:
+    fizzle_chance: 0.25
+
+flagrate|8:
+  upgrade_required_path: year3
+  upgrade_required_casts: 40
+  effects:
+    miss:
+      - class: EffectRepeat
+        delay: 1000
+        sound: magic.burn
+        sound_volume: 0.5
+        location: target
+        target_offset: 0,1.5,0
+        effectlib:
+          class: Text
+          text: $target
+          duration: 3000
+          particle: flame
+  parameters:
+    fizzle_chance: 0.2
+
+flagrate|9:
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
+  parameters:
+    fizzle_chance: 0.15
+
+flagrate|10:
+  upgrade_required_path: year4
+  upgrade_required_casts: 60
+  parameters:
+    fizzle_chance: 0.1
+
+flagrate|11:
+  upgrade_required_path: year4
+  upgrade_required_casts: 70
+  parameters:
+    fizzle_chance: 0.5
+
+flagrate|12:
+  upgrade_required_path: year4
+  upgrade_required_casts: 80
+  parameters:
+    fizzle_chance: 0

@@ -1,0 +1,54 @@
+deposits:
+    icon: emerald
+    category: npc
+    hidden: true
+    inherit: sellshop
+    parameters:
+        items:
+          - gold_nugget
+          - gold_ingot
+          - gold_block
+          - emerald
+          - emerald_block
+          - none
+          - none
+          - none
+          - none
+          - gold_nugget@64
+          - gold_ingot@64
+          - gold_block@64
+          - emerald@64
+          - emerald_block@64
+
+withdrawals:
+    icon: emerald
+    category: npc
+    hidden: true
+    inherit: buyshop
+    parameters:
+        items:
+          - gold_nugget
+          - gold_ingot
+          - gold_block
+          - emerald
+          - emerald_block
+          - none
+          - none
+          - none
+          - none
+          - gold_nugget@64
+          - gold_ingot@64
+          - gold_block@64
+          - emerald@64
+          - emerald_block@64
+
+ledgershop:
+    icon: paper
+    category: npc
+    hidden: true
+    inherit: buyshop
+    parameters:
+      confirm: true
+      auto_close: true
+      items:
+        wand|ledger: 2

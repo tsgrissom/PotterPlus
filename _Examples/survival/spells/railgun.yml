@@ -1,0 +1,142 @@
+railgun:
+    icon: prismarine_shard{CustomModelData:18003}
+    icon_disabled: prismarine_shard{CustomModelData:18004}
+    legacy_icon: spell_icon:161
+    legacy_icon_disabled: spell_icon_disabled:161
+    icon_url: http://textures.minecraft.net/texture/436cb244bd2a9c1734f2db6517a973a91b1773f02ca4b481af5f24d17bb1496
+    category: combat
+    worth: 1000
+    earns_sp: 10
+    brush_effects: false
+    require_break: false
+    require_build: false
+    actions:
+        cast:
+        - class: CustomProjectile
+          actions:
+          - class: Damage
+          - class: BreakBlock
+            ignore_result: true
+    effects:
+        cast:
+        -  sound: block_beacon_power_select
+           sound_pitch: 2
+           sound_volume: 0.9
+        -  sound: entity_arrow_shoot
+           sound_pitch: 1.5
+           sound_volume: 0.2
+        -  sound: entity_guardian_attack
+           sound_pitch: 1.5
+           sound_volume: 0.5
+        -  class: EffectSingle
+           sound: magic.zap_crack
+           sound_volume: 0.8
+           sound_pitch: 1.5
+           location: origin
+           color_override: color
+           effectlib:
+             class: VortexEffect
+             iterations: 100
+             particle: redstone
+             radius: 0.2
+             grow: 0.5
+             updateLocations: false
+             updateDirections: false
+             particle_count: 8
+             particle_offset_y: 0.02
+             particle_offset_x: 0.02
+             particle_offset_z: 0.02
+        tick:
+        - particle: fireworks_spark
+          location: target
+        - particle: redstone
+          location: target
+          color: FF8800
+          particle_count: 8
+          particle_offset_y: 0.05
+          particle_offset_x: 0.05
+          particle_offset_z: 0.05
+          particle_size: 1
+        hit_entity:
+        -  class: EffectSingle
+           location: target
+           particle: redstone
+           particle_count: 40
+           particle_offset_x: 0.3
+           particle_offset_y: 0.3
+           particle_offset_z: 0.3
+        hit:
+        -  sound: entity_player_attack_knockback
+           sound_pitch: 2
+           location: target
+        -  sound: block_beacon_deactivate
+           sound_pitch: 1.75
+           location: target
+        -  class: EffectSingle
+           location: target
+           particle: fireworks_spark
+           particle_count: 10
+           particle_offset_x: 0.2
+           particle_offset_y: 0.2
+           particle_offset_z: 0.2
+           particle_data: 0.4
+           sound: magic.zap
+           sound_pitch: 1.2
+           sound_volume: 0.5
+        hit_block:
+        -  class: EffectSingle
+           effect: step_sound
+           location: target
+        -  class: EffectSingle
+           location: target
+           particle: block_crack
+           particle_count: 50
+           particle_offset_x: 0.8
+           particle_offset_y: 1
+           particle_offset_z: 0.8
+        headshot:
+        -  sound: entity_player_attack_knockback
+           sound_pitch: 2
+           location: target
+        -  class: EffectSingle
+           location: target
+           particle: fireworks_spark
+           particle_count: 20
+           particle_offset_y: 0.5
+           particle_offset_x: 0.5
+           particle_offset_z: 0.5
+           sound: magic.zap
+           sound_volume: .3
+           particle_data: 0.4
+        -  sound: entity_player_attack_crit
+           sound_pitch: 0.8
+           location: target
+           particle: crit_magic
+           particle_count: 30
+           particle_offset_y: 1
+           particle_offset_x: 1
+           particle_offset_z: 1
+           particle_data: 0.5
+    headshot_parameters:
+      damage_multiplier: 2
+    parameters:
+        destructible: destructible,destructible2,destructible3,transparent
+        destructible_durability: 10000
+        break_durability: 1000
+        allow_max_range: true
+        velocity: 1000
+        range: 80
+        hitbox: true
+        block_hit_count: 4
+        entity_hit_count: 5
+        target_type: Damageable
+        player_damage: 6
+        entity_damage: 8
+        target_breakables: 1
+        cooldown: 10000
+        reorient: false
+        undo: 5000
+        transparent: all_air,water,stationary_water
+    costs:
+        mana: 150
+

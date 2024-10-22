@@ -1,0 +1,18 @@
+mega_spider:
+  type: spider
+  name: Mega Spider
+  health: 200
+  default_drops: false
+  interval: 1000
+  triggers:
+    interval:
+      cast:
+        webbing: 100
+        poison|3: 100
+        none: 50
+  drops:
+  - gold_nugget@10
+  - sp:10
+  potion_effects:
+  - type: increase_damage
+    amplifier: 0

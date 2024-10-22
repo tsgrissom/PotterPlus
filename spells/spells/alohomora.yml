@@ -1,0 +1,121 @@
+alohomora:
+  icon: diamond_axe{CustomModelData:268}
+  icon_disabled: diamond_hoe{CustomModelData:268}
+  worth: 5 ac
+  category: charms
+  upgrade_required_path: year1
+  upgrade_required_casts: 10
+  tags: nojail
+  effects:
+    fizzle:
+      - entity_effect: hurt
+        particle: crit
+        particle_count: 10
+        particle_data: 0.8
+    cast:
+      - sound: magic.shimmer
+      - class: EffectTrail
+        particle: crit
+        color: false
+        particle_data: 2
+        particle_count: 20
+        particle_offset_x: 0.2
+        particle_offset_y: 0.2
+        particle_offset_z: 0.2
+      - class: EffectSingle
+        location: target
+        sound: magic.bonk
+        sound_volume: 0.5
+    no_target:
+      - sound: magic.shimmer
+      - class: EffectTrail
+        particle: crit
+        color: false
+        particle_data: 2
+        particle_count: 10
+        particle_offset_x: 0.2
+        particle_offset_y: 0.2
+        particle_offset_z: 0.2
+  parameters:
+    range: 8
+    fizzle_chance: 0.65
+
+alohomora|2:
+  upgrade_required_path: year1
+  upgrade_required_casts: 20
+  parameters:
+    fizzle_chance: 0.6
+
+alohomora|3:
+  upgrade_required_path: year2
+  upgrade_required_casts: 30
+  parameters:
+    fizzle_chance: 0.55
+
+alohomora|4:
+  upgrade_required_path: year2
+  upgrade_required_casts: 40
+  parameters:
+    fizzle_chance: 0.5
+
+alohomora|5:
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
+  parameters:
+    range: 12
+    fizzle_chance: 0.45
+
+alohomora|6:
+  upgrade_required_path: year3
+  upgrade_required_casts: 60
+  parameters:
+    fizzle_chance: 0.4
+
+alohomora|7:
+  upgrade_required_path: year4
+  upgrade_required_casts: 70
+  parameters:
+    fizzle_chance: 0.35
+
+alohomora|8:
+  upgrade_required_path: year4
+  upgrade_required_casts: 80
+  parameters:
+    range: 16
+    fizzle_chance: 0.3
+
+alohomora|9:
+  upgrade_required_path: year5
+  upgrade_required_casts: 90
+  parameters:
+    fizzle_chance: 0.25
+
+alohomora|10:
+  upgrade_required_path: year5
+  upgrade_required_casts: 100
+  parameters:
+    fizzle_chance: 0.2
+
+alohomora|11:
+  upgrade_required_path: year6
+  upgrade_required_casts: 115
+  parameters:
+    fizzle_chance: 0.15
+
+alohomora|12:
+  upgrade_required_path: year6
+  upgrade_required_casts: 130
+  parameters:
+    range: 20
+    fizzle_chance: 0.1
+
+alohomora|13:
+  upgrade_required_path: year7
+  upgrade_required_casts: 150
+  parameters:
+    fizzle_chance: 0.05
+
+alohomora|14:
+  parameters:
+    range: 24
+    fizzle_chance: 0

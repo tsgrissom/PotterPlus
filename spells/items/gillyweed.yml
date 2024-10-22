@@ -1,0 +1,19 @@
+ability_gillyweed:
+  inherit: bubblehead
+  icon: vine
+  category: specialty
+  hidden: true
+  effects:
+    cast:
+      - class: EffectSingle
+        location: origin
+        sound: entity_player_burp
+  actions:
+    cast:
+      - class: PotionEffect
+  parameters:
+    target: self
+    cooldown: 5000
+    duration: 300000
+  costs:
+    mana: 0

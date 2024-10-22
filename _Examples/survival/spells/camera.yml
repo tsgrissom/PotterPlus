@@ -1,0 +1,36 @@
+camera:
+    icon: spell_icon:155
+    icon_disabled: spell_icon_disabled:155
+    icon_url: http://textures.minecraft.net/texture/e49b4f3261328c05350ee4031212d2fc7555f211af91c0f0278a5aaf9cec65
+    hidden: true
+    category: specialty
+    class: CameraSpell
+    worth: 80
+    show_undoable: false
+    effects:
+        cast:
+        - particle: smoke_large
+          particle_count: 20
+          particle_offset_x: 0.15
+          particle_offset_y: 0.05
+          particle_offset_z: 0.15
+          relative_offset: 0.2,-1,-0.4
+          sound: entity_tnt_primed,0.5,3
+          location: origin
+        - particle: end_rod
+          particle_count: 4
+          particle_offset_x: 0.05
+          particle_offset_y: 0.05
+          particle_offset_z: 0.05
+          relative_offset: 0.8,-0.8,-0.4
+          location: origin
+    parameters:
+        target_type: LivingEntity
+        target_npc: true
+        cooldown: 5000
+        allow_max_range: false
+        range: 32
+        bypass_pvp: true
+    costs:
+        paper: 1
+

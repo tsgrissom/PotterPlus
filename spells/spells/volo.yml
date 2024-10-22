@@ -1,0 +1,42 @@
+volo:
+  icon: diamond_axe{CustomModelData:270}
+  icon_disabled: diamond_hoe{CustomModelData:270}
+  worth: 5 ac
+  category: charms
+  upgrade_required_path: year7
+  upgrade_required_casts: 25
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.ignite
+      - class: EffectSingle
+        location: origin
+        source_location: feet
+        effectlib:
+          class: Trace
+          duration: $duration
+          particle: spell_mob
+          color: 5ab5d6
+  parameters:
+    cooldown: 15000
+    target: self
+    duration: 8000
+    add_effects:
+      weakness: 1
+      speed: 1
+  costs:
+    mana: 75
+
+volo|2:
+  upgrade_required_path: graduate
+  upgrade_required_casts: 50
+  parameters:
+    duration: 10000
+    add_effects:
+      speed: 2
+
+volo|3:
+  parameters:
+    duration: 12000
+    add_effects:
+      speed: 3

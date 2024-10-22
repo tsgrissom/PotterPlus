@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/dead_bush", "weight": 50 },
+            { "model": "minecraft:block/dead_bush1", "weight": 50 }
+        ]
+    }
+}

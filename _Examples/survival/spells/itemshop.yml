@@ -1,0 +1,12 @@
+itemshop:
+    icon: carrot
+    category: npc
+    hidden: true
+    inherit: buyshop
+    parameters:
+        confirm: true
+        items:
+        - item: carrot_item@64
+          cost: 100
+        - item: bed
+          cost: 200

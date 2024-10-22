@@ -1,0 +1,50 @@
+flamefreezingcharm:
+  category: charms
+  icon: diamond_axe{CustomModelData:277}
+  icon_disabled: diamond_hoe{CustomModelData:277}
+  upgrade_required_casts: 25
+  upgrade_required_path: year4
+  worth: 5 ac
+  actions:
+    cast:
+      - class: PotionEffect
+      - class: Ignite
+  effects:
+    cast:
+      - class: EffectSingle
+        location: origin
+        source_location: feet
+        effectlib:
+          class: AnimatedBall
+          particle: spell_mob_ambient
+          color: d47f1c
+          iterations: 24
+      - class: EffectSingle
+        location: origin
+        source_location: feet
+        effectlib:
+          class: Smoke
+          particle: redstone
+          color: 95d5e0
+          duration: $duration
+      - class: EffectSingle
+        location: origin
+        source_location: feet
+        effectlib:
+          class: Smoke
+          particle: redstone
+          color: FFFFFF
+          duration: $duration
+  parameters:
+    add_effects:
+      fire_resistance: 1
+    duration: 10000
+    cooldown: 15000
+    target: self
+  costs:
+    mana: 25
+
+flamefreezingcharm|2:
+  parameters:
+    duration: 20000
+    cooldown: 25000

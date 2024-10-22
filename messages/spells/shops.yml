@@ -1,0 +1,82 @@
+spells:
+  buyshop:
+    selected: |-
+      &8
+      &8| &6&lPURCHASE
+      &8|&8&m-------------------------------------------------------------------
+      &8| &a&l+ &7Item&8: &r$item
+      &8| &c&l- &7Cost&8: &r$cost
+      &8
+    insufficient: |-
+      t:&4&lX &cCannot afford
+      &cCost&8: &4$cost
+
+  shop_spells:
+    name: >-
+      &dLearn Spells
+    description: >-
+      &7Spend &eAcademic Credits &7to unlock new spells&8.
+    title: >-
+      &8$path Spells ($balance&8)
+    selected: |-
+      t:&dSpell Unlocked
+      &6$item
+    no_items: |-
+      t:&dYear completed
+      &eVisit a required spell teacher
+    insufficient: |-
+      t:&4Not ready
+      &cCost&8: &4$cost
+  shop_spells_required:
+    name: >-
+      &dLearn Required Spells
+    title: >-
+      &8Required Spell ($balance&8)
+    no_items: |-
+      t:&4Not ready
+      &7Visit a spell teacher
+  shop_ollivander:
+    name: >-
+      &6Wand Shop
+    title: >-
+      Wand Shop
+    selected: |-
+      t:&3Wand Purchased
+      &7Right-click to open your wand box
+    insufficient: |-
+      &8
+      &8| &4You must have a &cWand Ticket &4to
+      &8|  &4get another wand.
+      &8
+  shop_textbooks:
+    name: >-
+      &6Textbook Shop
+    title: >-
+      &8Textbooks ($balance&8)
+    cost_lore: "&7Cost&8: &7$cost"
+  shop_brooms:
+    name: >-
+      &6Broom Shop
+    title: >-
+      &8Brooms ($balance&8)
+  shop_potions:
+    name: >-
+      &6Potion Shop
+    title: >-
+      Potion Shop
+    selected_free: ""
+  shop_potions_legendary:
+    name: >-
+      &6Legendary Potion Shop
+    title: >-
+      &8Potions ($balance&8)
+  shop_potions_ingredients:
+    name: >-
+      &6Potion Ingredient Shop
+    title: >-
+      &8Ingredients ($balance&8)
+  shop_potions_potions:
+    name: >-
+      &6Potion Shop
+    title: >-
+      &8Potions ($balance&8)

@@ -1,0 +1,59 @@
+babbling_beverage_ability:
+  inherit: babblingcurse
+  icon: potion:7d1010
+  category: specialty
+  hidden: true
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: AreaOfEffect
+            actions:
+              - class: Chat
+  effects:
+    cast:
+      - sound: entity_splash_potion_throw
+    tick:
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Sphere
+          particle: spell_mob
+          particles: 10
+          color: 7d1010
+          radius: 0.1
+          iterations: 1
+    hit:
+      - sound: entity_splash_potion_break
+        location: target
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Circle
+          particle: spell_mob
+          color: 7d1010
+          particles: 50
+          wholeCircle: true
+          radius: 4
+          duration: 2000
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Circle
+          particle: spell_mob
+          color: 7d1010
+          particles: 50
+          wholeCircle: true
+          radius: 2
+          duration: 2000
+  parameters:
+    cooldown_mage: 2000
+    bypass_confusion: true
+    target_source: false
+    range: 64
+    radius: 4
+    velocity: 25
+    gravity: 0.05
+    cooldown: 0
+  costs:
+    mana: 0

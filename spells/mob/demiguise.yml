@@ -1,0 +1,30 @@
+demiguise_disappear:
+  icon: glass
+  category: specialty
+  hidden: true
+  effects:
+    cast:
+      - class: EffectSingle
+        location: origin
+        source_location: feet
+        effectlib:
+          class: Smoke
+          iterations: 16
+  actions:
+    cast:
+      - class: PotionEffect
+      - class: AreaOfEffect
+        actions:
+          - class: PotionEffect
+            add_effects:
+              blindness: 2
+              confusion: 2
+  parameters:
+    cooldown: 0
+    undo: 5000
+    duration: 5000
+    radius: 6
+    y_radius: 3
+    add_effects:
+      invisibility: 1
+    target: self

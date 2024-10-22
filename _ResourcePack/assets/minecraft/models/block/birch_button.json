@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/button",
+    "textures": {
+        "texture": "minecraft:block/birch_button"
+    }
+}

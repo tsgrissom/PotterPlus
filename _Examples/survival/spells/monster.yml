@@ -1,0 +1,89 @@
+monster:
+    icon: rabbit_hide{CustomModelData:18001}
+    icon_disabled: rabbit_hide{CustomModelData:18002}
+    legacy_icon: spell_icon:64
+    legacy_icon_disabled: spell_icon_disabled:64
+    icon_url: http://textures.minecraft.net/texture/cd541541daaff50896cd258bdbdd4cf80c3ba816735726078bfe393927e57f1
+    category: dark
+    pvp_restricted: true
+    worth: 150
+    actions:
+      cast:
+      # We are going to force the spawned mob to target the entity we originally targeted
+      # This is done by making the current target the source, since the Aggro action makes the target
+      # target the source.
+      - class: ChangeContext
+        source_is_target: true
+        actions:
+        - class: SpawnEntity
+          set_target: true
+        - class: Aggro
+    effects:
+        cast:
+        -  sound: block_beacon_power_select
+           sound_pitch: 0.3
+           sound_volume: 0.3
+        -  class: EffectSingle
+           sound: entity_zombie_ambient
+           location: target
+           sound_pitch: 1.7
+           effectlib:
+             class: Modified
+             iterations: 40
+             parameters:
+               radius: "(t / i) * 3 + 0.1"
+             effect:
+               class: DnaEffect
+               grow: 0.1
+               particles_helix: 5
+               length: 50
+               particle_helix: drip_lava
+               particle_base1: drip_lava
+               particle_base2: drip_lava
+        -  class: EffectSingle
+           location: target
+           effectlib:
+              class: Modified
+              iterations: 32
+              parameters:
+                radius: "(t / i) * 4 + 1"
+              effect:
+               class: AtomEffect
+               particle_nucleus: drip_lava
+               particle_orbital: drip_lava
+        undo_entity:
+        - location: target
+          sound: block_fire_extinguish
+          sound_volume: 1.7
+          sound_pitch: 0.2
+          effectlib:
+            class: Smoke
+            duration: 1000
+            particle_count: 20
+            particle_offset_x: 0.5
+            particle_offset_y: 0.5
+            particle_offset_z: 0.5
+    parameters:
+        target_type: LivingEntity
+        allow_max_range: false
+        cooldown: 30000
+        range: 32
+        undo: 20000
+        entity_types:
+            zombie: 100
+            skeleton: 100
+            spider: 110
+            creeper: 30
+            witch: 20
+            blaze: 15
+            bat: 15
+            magma_cube: 10
+            pig_zombie: 10
+            cave_spider: 10
+            silverfish: 8
+            ghast: 5
+            enderman: 5
+            giant: 1
+    costs:
+        mana: 40
+

@@ -1,0 +1,426 @@
+wands:
+    default:
+        name: Wand
+        description: "$path &rMagic Wand"
+    wand:
+        name: Wand
+        description: "$path &rMagic Wand"
+    starter:
+        name: Starter Wand
+        description: A Wand with Limited Potential
+    beginner:
+        name: (Outdated) Beginner Wand
+        description: "Don't use this anymore... Use 'wand' instead."
+    master:
+        name: Master Wand
+        description: "For demonstration purposes"
+    student:
+        name: Student Wand
+        description: "For demonstration purposes"
+    apprentice:
+        name: Apprentice Wand
+        description: "For demonstration purposes"
+    rage:
+        name: Rage Sword
+        description: Gathers energy when hitting an enemy
+    base_sword:
+        wand_instructions_header: |-
+            &8 ----------------------------------------------------
+            &8|
+            &8|   &b&lSWORD INSTRUCTIONS
+            &8|
+        spell_instructions: |-
+            &8| &7> &fUse the &6number keys &fto cast &d$spell
+    magicsword:
+        name: Magic Sword
+        description: "$path &rMagic Sword"
+    base_bow:
+        wand_instructions_header: |-
+            &8 ----------------------------------------------------
+            &8|
+            &8|   &b&lBOW INSTRUCTIONS
+            &8|
+        spell_instructions: |-
+            &8| &7> &6Loose an arrow &fto cast &d$spell
+    broom_booster:
+        name: Broom Booster
+        description: Drop on your broom to make it go faster
+    broomstick:
+        name: Broomstick
+        description: "&r&bUse your broom to fly through the air.\n&bDive to speed up, and don't fly too long!"
+        enchant_instructions: ""
+        wand_instructions_header: |-
+            &8 ----------------------------------------------------
+            &8|
+            &8|   &b&lBROOMSTICK INSTRUCTIONS
+            &8|
+        spell_instructions: |-
+            &8| &7> &fUse your broom to fly through the air!
+            &8| &7> &fDive to speed up, but don't fly too long!
+            &8| &7> &fYour &6broom skill &fwill improve with use. keep practicing!
+        bound_instructions: |-
+            &8| &7> &fYour &a$wand &fis &9bound &fto you
+    spellbook:
+        name: Spell Book
+        description: "$path &rSpellbook"
+        wand_instructions_header: |-
+            &8 ----------------------------------------------------
+            &8|
+            &8|   &b&lSPELL BOOK INSTRUCTIONS
+            &8|
+        spell_instructions: |-
+            &8| &7> &f&bUse the &6number keys &fto cast &d$spell
+        inventory_instructions: |-
+          &8| &7> &6$toggle &fto open and close the &espell inventory
+          &8| &7> &6Open your inventory (E) &fto manage hotbar spells
+          &8| &7> &fUse &6number keys &fto cast the desired spell
+    skillbook:
+        name: Skill Book
+        description: Right-click to view skills, drag skill to hotbar to use
+    magicbow:
+        name: Magic Bow
+        description: "$path &rMagic Bow"
+    mastersword:
+        name: Master Sword
+        description: The legendary sword that seals the darkness
+    staff:
+        name: The Staff
+        description: Use it Wisely!
+    admin:
+        name: The Shusher
+        description: For admins only
+    developer:
+        name: The Coder
+        description: See the Matrix
+    camera:
+        name: Camera
+        description: Take a portrait of yourself or others
+    magichat:
+        name: Magic Hat
+        description: A true wizard's hat! Look straight up and right-click to wear it.
+    wizardhelmet:
+        name: Wizard's Scarf
+    wizardchestplate:
+        name: Wizard's Robes
+    wizardleggings:
+        name: Wizard's Pants
+    wizardboots:
+        name: Wizard's Boots
+    apprenticehelmet:
+        name: Apprentice Helmet
+        description: For new wizards
+    apprenticechestplate:
+        name: Apprentice Armor
+        description: For new wizards
+    apprenticeleggings:
+        name: Apprentice Pants
+        description: For new wizards
+    apprenticeboots:
+        name: Apprentice Boots
+        description: For new wizards
+    clericchestplate:
+        name: Cleric's Robes
+        description: Heals nearby players
+    magneticleggings:
+        name: Magnetic Leggings
+        description: Pulls in nearby items and XP
+    rabbitboots:
+        name: Rabbit Boots
+        description: Spirit of the hare
+    flashboots:
+        name: Flash Boots
+        description: Zoooooooom
+    rocketboots:
+        name: Rocket Boots
+        description: In a single bound!
+    hulkboots:
+        name: Hulk Boots
+        description: Hulk LEAP!
+    goggles:
+        name: Night Vision Goggles
+        description: See the unseen
+    invisiblecloak:
+        name: Cloak of Invisibility
+        description: One of the fabled hallows
+    minister:
+        name: The Minister
+        description: For Magic!
+    miniwolf:
+        name: Mini-Wolf
+        description: NathanWolf's Legit Wand
+    borealis:
+        name: Borealis
+        description: The Aurora Wand
+    redeffects:
+        name: Red Wand Effects
+        description: Tint your wand effects!
+    greeneffects:
+        name: Green Wand Effects
+        description: Tint your wand effects!
+    blueeffects:
+        name: Blue Wand Effects
+        description: Tint your wand effects!
+    whiteeffects:
+        name: White Wand Effects
+        description: Tint your wand effects!
+    blackeffects:
+        name: Black Wand Effects
+        description: Tint your wand effects!
+    purpleeffects:
+        name: Purple Wand Effects
+        description: Tint your wand effects!
+    yelloweffects:
+        name: Yellow Wand Effects
+        description: Tint your wand effects!
+    aquaeffects:
+        name: Aqua Wand Effects
+        description: Tint your wand effects!
+    orangeeffects:
+        name: Orange Wand Effects
+        description: Tint your wand effects!
+    magentaeffects:
+        name: Magenta Wand Effects
+        description: Tint your wand effects!
+    grayeffects:
+        name: Gray Wand Effects
+        description: Tint your wand effects!
+    lightgrayeffects:
+        name: Light Gray Wand Effects
+        description: Tint your wand effects!
+    lightblueeffects:
+        name: Light Blue Wand Effects
+        description: Tint your wand effects!
+    pinkeffects:
+        name: Pink Wand Effects
+        description: Tint your wand effects!
+    browneffects:
+        name: Brown Wand Effects
+        description: Tint your wand effects!
+    darkgreeneffects:
+        name: Dark Green Wand Effects
+        description: Tint your wand effects!
+    randomeffects:
+        name: Random Wand Effects
+        description: Feeling lucky? Tint your wand effects a random color!
+    bubbleeffects:
+        name: Bubble Wand Effects
+        description: Add potion-like bubble effects to your wand
+    rainboweffects:
+        name: Rainbow Wand Effects
+        description: Color-changing particles
+    cleareffects:
+        name: Clear Wand Effects
+        description: Removes particles and bubbles
+    haloeffects:
+        name: Halo Effects
+        description: A personalized halo
+    student_upgrade:
+        name: Student Upgrade
+        description: Upgrade to Student level
+    apprentice_upgrade:
+        name: Apprentice Upgrade
+        description: Upgrade to Apprentice Level
+    master_upgrade:
+        name: Master Upgrade
+        description: Upgrade to Master level
+    hotbar1:
+        name: Hotbar Reset
+        description: Reset your wand to a single hotbar
+    hotbar2:
+        name: Hotbar Level 2
+        description: Add an extra hotbar to your wand!
+    hotbar3:
+        name: Hotbar Level 3
+        description: Three hotbars are better than two
+    antihunger:
+        name: Anti-Hunger Upgrade
+        description: Never go hungry again!
+    undroppable:
+        name: Undroppable Upgrade
+        description: Makes your wand undroppable
+    chestmode:
+        name: Chest Mode
+        description: A simpler wand mechanic
+    cyclemode:
+        name: Cycle Mode
+        description: The simplest wand mechanic
+    inventorymode:
+        name: Inventory Mode
+        description: For expert wizards
+    quickcast_enable:
+        name: Quick Cast (All)
+        description: Enable quick-cast on all spells
+    quickcast_disable:
+        name: Quick Cast (None)
+        description: Disable quick-cast on all spells
+    quickcast_normal:
+        name: Quick Cast (Some)
+        description: Enable quick-cast on some pre-selected spells
+    quickcast_manual:
+        name: Quick Cast (Manual)
+        description: Quick-cast only by pressing Q in inventory
+    mode_drop:
+        name: Drop Mode
+        description: Use the Drop (Q) Button to open the spell inventory, the Swap (F) button to cycle hotbars and left-click to cast
+    mode_rightclick:
+        name: Right-Click Mode
+        description: Right-Click to open the spell inventory, the Drop (Q) button to cycle hotbars and left-click to cast
+    mode_sword:
+        name: Sword Mode
+        description: Use the Drop (Q) Button to open the spell inventory, hotbar buttons to cast and the Swap (F) button to cycle the hotbar
+    mode_swap:
+        name: Swap Mode
+        description: Use the Swap (F) Button to open the spell inventory, the Drop (Q) button to cycle hotbars, left-click to cast
+    loud:
+        name: Loud Wand
+        description: Turn on all wand chat messages
+    quiet:
+        name: Quiet Wand
+        description: Turn off spell cast messages
+    silent:
+        name: Wand Silencer
+        description: Turn off all wand chat messages
+    organizer:
+        name: The Organizer
+        description: Re-organizes your wand inventory
+    alphabetizer:
+        name: The Alphabetizer
+        description: Alphabetizes your wand inventory
+    recalltoken:
+        name: Recall Token
+        description: Teleport to waypoints
+    respawntoken:
+        name: Respawn Token
+        description: Cast to return to spawn
+    cursedmeat:
+        name: Cursed Meat
+        description: Don't even touch it!
+    crackedbroomstick:
+        name: Cracked Broomstick
+        description: Good while it lasts!
+    spleef:
+        name: Spleef
+        description: For playing Wizard Spleef
+    divinghelmet:
+        name: Diving Helmet
+        description: Work freely underwater
+    heroes:
+        name: Wand
+        description: Use the Q Button to Open Skill Inventory
+    ledger:
+      name: Ledger
+      description: Check your bank balance
+    questscompass:
+      name: Quest Compass
+      description: Tells you what to do next
+    ocarina:
+      name: Ocarina
+      description: Right-click and use the hotbar buttons to play music
+      spell_count: Has $count Notes
+    mirrorshield:
+        name: Mirror Shield
+        description: Can block and reflect spells
+    empty:
+        name: Empty
+        description: For creating in-game items from scratch
+    talisman:
+        name: Mana Talisman
+        description: Gives a mana bonus when held
+    magicheart:
+        name: Heart of Magic
+        description: Used for crafting magic items
+    appearance_beginner:
+        name: Beginner Wand Appearance
+        description: A good starter wand
+    appearance_student:
+        name: Student Wand Appearance
+        description: Its magic is starting to grow
+    appearance_apprentice:
+        name: Apprentice Wand Appearance
+        description: It has transformed!
+    appearance_master:
+        name: Wizard Wand Appearance
+        description: A powerful magical instrument
+    appearance_magicka:
+        name: Magicka Wand Appearance
+        description: A large staff with a crescent moon holding powerful magical energy
+    appearance_moon:
+        name: Moon Wand Appearance
+        description: A wand that may have been used by an ancient sailor
+    appearance_book:
+        name: Book Wand Appearance
+        description: A wand that is cleverly disguised as a book
+    appearance_green:
+        name: Green Wand Appearance
+        description: A dangerous looking poison wand
+    appearance_bow1:
+        name: Egyptian Bow Appearance
+    appearance_bow2:
+        name: Skinny Bow Appearance
+    appearance_longbow:
+        name: Longbow Appearance
+    appearance_spire:
+        name: Spire Wand Appearance
+        description: A wizard tower you can hold in your hand
+    appearance_claw:
+        name: Claw Wand Appearance
+        description: A menacingly dark claw holding powerful magical orbs
+    appearance_orb:
+        name: Orb Wand Appearance
+        description: A wand lovingly imbued with a powerful orb
+    appearance_magma:
+        name: Magma Staff Appearance
+        description: A staff containing the essence of pure magma
+    appearance_valk:
+        name: Valkyrie Sword Appearance
+    appearance_whitedagger:
+        name: Dagger Sword Appearance
+    appearance_demon:
+        name: Demon Sword Appearance
+    appearance_felm:
+        name: Fire Sword Appearance
+    appearance_riven:
+        name: Riven Sword Appearance
+    appearance_silver:
+        name: Silver Hammer Appearance
+    appearance_lava:
+        name: Lava Sword Appearance
+    glow_upgrade:
+        name: Glowing
+        description: Make your wand shimmer
+    noglow_upgrade:
+        name: Not Glowing
+        description: Take away that shimmer
+    uberwand:
+        name: "Überwand"
+        description: The Ultimate Wand
+    extinguisher:
+        name: Extinguisher
+        description: Puts out fires
+    science:
+        name: For Science!
+        description: For testing automata
+    potion_sp100:
+        name: SP Potion
+        description: Drink to gain 100 SP
+    purger:
+        name: The Purge
+        description: An Automata-Fighting Wand
+    magictorch:
+      name: Magic Torch
+      description: Creates light as you hold it
+    gauntlet:
+      name: Infinity Gauntlet
+      description: Harness all of the powers of the Universe
+    rainbowhelmet:
+      name: Technicolor Helmet
+      spell_aura: ""
+    rainbowchestplate:
+      name: Technicolor Chestplate
+      spell_aura: ""
+    rainbowleggings:
+      name: Technicolor Leggings
+      spell_aura: ""
+    rainbowboots:
+      name: Technicolor Boots
+      spell_aura: ""

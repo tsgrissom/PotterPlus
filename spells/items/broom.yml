@@ -1,0 +1,10 @@
+broom:
+  actions:
+    cast:
+      - class: PotionEffect
+        duration: 750
+        add_effects:
+          levitation: 2
+      - class: Delay
+        delay: 750
+      - class: MountArmorStand

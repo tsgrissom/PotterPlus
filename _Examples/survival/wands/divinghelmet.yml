@@ -1,0 +1,14 @@
+divinghelmet:
+    icon: stained_glass:3
+    indestructible: true
+    locked: true
+    keep: true
+    quiet: 2
+    mana_regeneration_boost: -0.1
+    potion_effects: water_breathing,night_vision
+    worn: true
+    wearable: helmet
+    enchantments:
+      oxygen: 3
+      water_worker: 1
+      depth_strider: 3

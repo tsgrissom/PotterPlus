@@ -1,0 +1,12 @@
+ability_pumpkinjuice:
+  icon: honey_bottle
+  category: specialty
+  hidden: true
+  effects:
+    cast:
+      - source_location: feet
+        effectlib:
+          class: AnimatedBall
+          particle: spell_mob
+          color: d68c0f
+          duration: 3000

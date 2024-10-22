@@ -1,0 +1,34 @@
+light:
+    icon: shroomlight{CustomModelData:18001}
+    icon_disabled: shroomlight{CustomModelData:18002}
+    legacy_icon: spell_icon:228
+    legacy_icon_disabled: spell_icon_disabled:228
+    icon_url: http://textures.minecraft.net/texture/4abfe52d50f710f4103bc650b5e972d49832ea419841d9fa24e16ce617c716
+    category: engineering
+    worth: 500
+    earns_sp: 2
+    required: LightAPI
+    actions:
+        cast:
+        -  class: Light
+    effects:
+        cast:
+        - sound: block_beacon_activate
+          sound_pitch: 1.8
+        - sound: item_firecharge_use
+          sound_pitch: 1.7
+        - class: EffectTrail
+          particle: smoke_normal
+          particle_count: 10
+          particle_offset_x: 0.2
+          particle_offset_y: 0.2
+          particle_offset_z: 0.2
+    parameters:
+        target: block
+        allow_max_range: true
+        range: 32
+        cooldown: 10000
+        async: false
+        ignore_region_overrides: true
+    costs:
+        mana: 200

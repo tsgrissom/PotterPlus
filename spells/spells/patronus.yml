@@ -1,0 +1,79 @@
+patronus:
+  inherit: false
+  icon: diamond_axe{CustomModelData:265}
+  icon_disabled: diamond_hoe{CustomModelData:265}
+  category: charms
+  worth: 15 ac
+  costs:
+    mana: 50
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Damage
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.ignite
+        location: origin
+    projectile:
+      - class: EffectSingle
+        location: origin
+        effectlib:
+          class: Sphere
+          particle: spell_instant
+          color: FFFFFF
+          radius: 0.4
+    hit:
+      - class: EffectSingle
+        location: target
+        sound: magic.shield_boom
+        particle: fireworks_spark
+        particle_data: 1
+        particle_count: 15
+  parameters:
+    bypass_weakness: false
+    fizzle_chance: 0.5
+    target: other
+    target_type: Wither
+    range: 24
+    cooldown: 30000
+    velocity: 5
+    track_range: 6
+    track_speed: 0.5
+    bypass_backfire: true
+    damage: 150
+    hitbox_size: 3
+    hitbox: true
+
+patronus|2:
+  parameters:
+    track_speed: 1
+    fizzle_chance: 0.25
+
+patronus|3:
+  actions:
+    cast:
+      - class: EntityProjectile
+        actions:
+          - class: Damage
+  effects:
+    projectile:
+      - class: EffectSingle
+        location: source
+        effectlib:
+          class: Wave
+          particle: spell_mob
+          color: FFFFFF
+          cloudParticle: spell_instant
+          iterations: 8
+          duration: 8000
+          particlesFront: 5
+          particlesBack: 5
+          rows: 10
+  parameters:
+    type: chicken
+    fizzle_chance: 0
+    damage: 300
+    projectile_potion_effects:
+      glowing: 1000000,1

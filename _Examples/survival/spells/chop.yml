@@ -1,0 +1,89 @@
+chop:
+    icon: iron_axe{CustomModelData:18001}
+    icon_disabled: iron_axe{CustomModelData:18002}
+    legacy_icon: spell_icon:124
+    legacy_icon_disabled: spell_icon_disabled:124
+    icon_url: http://textures.minecraft.net/texture/7033deb4e25f57413fb15bd3f7019d4ea659a4637d75597248590d746778f
+    example_thumbnail: https://gfycat.com/gifs/detail/FluidSkeletalBaldeagle-size_restricted.gif
+    example_link: https://gfycat.com/gifs/detail/FluidSkeletalBaldeagle
+    category: elemental
+    tags: noduel,nojail
+    worth: 600
+    earns_sp: 8
+    upgrade_required_path: student
+    upgrade_required_casts: 30
+    actions:
+        cast:
+        - class: ChangeContext
+          source_offset: 0,-0.7,0
+          actions:
+          - class: ArmorStandProjectile
+            actions:
+            - class: Recurse
+              actions:
+              - class: Drop
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: block_wood_step
+           sound_volume: 1.7
+        -  class: EffectSingle
+           sound: entity_drowned_shoot
+           sound_pitch: 0.4
+        projectile:
+        - location: origin
+          material: log
+          effectlib:
+             class: Sphere
+             duration: 5000
+             period: 2
+             particles: 2
+             particle: block_crack
+             particle_count: 3
+             particle_offset_x: 0.1
+             particle_offset_y: 0.1
+             particle_offset_z: 0.1
+        hit:
+          - location: target
+            particle: fireworks_spark
+            particle_count: 16
+            particle_offset_x: 1
+            particle_offset_y: 1
+            particle_offset_z: 1
+            sound: block_wood_break
+            sound_pitch: 0.2
+            sound_volume: 2
+    parameters:
+        velocity: 10
+        right_arm_item: iron_axe
+        bypass_undo: true
+        allow_max_range: true
+        range: 32
+        faces: all
+        drop_count: 8
+        limit: 128
+        depth: 8
+        destructible: trees
+        cooldown: 5000
+        tool: diamond_axe
+        right_arm_transform:
+            x: 0
+            y: "6.28*sin(2*t)"
+            z: 0
+    costs:
+        mana: 80
+
+chop|2:
+    upgrade_required_path: apprentice
+    upgrade_required_casts: 30
+    parameters:
+        drop_count: 16
+        depth: 16
+
+chop|3:
+    upgrade_required_path: master
+    upgrade_required_casts: 50
+    parameters:
+        drop_count: 32
+        depth: 32
+

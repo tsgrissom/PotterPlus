@@ -1,0 +1,48 @@
+aberto:
+  inherit: alohomora|2
+  upgrade_required_path: year3
+  upgrade_required_casts: 25
+  tags: nojail
+  effects:
+    cast:
+      - sound: magic.shimmer
+      - class: EffectTrail
+        particle: spell
+        color: false
+        particle_data: 2
+        particle_count: 20
+        particle_offset_x: 0.2
+        particle_offset_y: 0.2
+        particle_offset_z: 0.2
+      - class: EffectSingle
+        location: target
+        sound: magic.bonk
+        sound_volume: 0.5
+    no_target:
+      - sound: magic.shimmer
+      - class: EffectTrail
+        particle: spell
+        color: false
+        particle_data: 2
+        particle_count: 10
+        particle_offset_x: 0.2
+        particle_offset_y: 0.2
+        particle_offset_z: 0.2
+    fizzle:
+      - class: EffectSingle
+        location: origin
+        firework: burst
+        color: FFFFFF
+        color2: FFFFFF
+  parameters:
+    fizzle_chance: 0.2
+
+aberto|2:
+  upgrade_required_path: year4
+  upgrade_required_casts: 50
+  parameters:
+    fizzle_chance: 0.1
+
+aberto|3:
+  parameters:
+    fizzle_chance: 0

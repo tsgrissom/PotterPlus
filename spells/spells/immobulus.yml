@@ -1,0 +1,63 @@
+immobulus:
+  icon: diamond_axe{CustomModelData:28}
+  icon_disabled: diamond_hoe{CustomModelData:28}
+  worth: 10 ac
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: PotionEffect
+          - Class: FallProtection
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.crack
+        effectlib:
+          class: ConeEffect
+          iterations: 15
+          particle: redstone
+          color: 380B61
+          lengthGrow: 0.33
+      - class: EffectSingle
+        location: target
+        color: 380B61
+        firework: ball
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: SphereEffect
+          iterations: 55
+          period: .1
+          particle: redstone
+          color: 380B61
+          radius: 1.8
+          particles: 20
+  parameters:
+    range: 16
+    duration: 4000
+    add_effects:
+      slow: 20
+      jump: -20
+    cooldown: 20000
+  costs:
+    mana: 30
+
+immobulus|2:
+  upgrade_required_path: year4
+  upgrade_required_casts: 75
+  parameters:
+    range: 24
+    duration: 6000
+
+immobulus|3:
+  upgrade_required_path: year5
+  upgrade_required_casts: 100
+  parameters:
+    duration: 8000
+
+immobulus|4:
+  parameters:
+    range: 32
+    duration: 10000

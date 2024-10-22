@@ -1,0 +1,43 @@
+ability_peruvianpowder:
+  icon: sulphur
+  hidden: true
+  category: specialty
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: AreaOfEffect
+            actions:
+              - class: PotionEffect
+  effects:
+    tick:
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Sphere
+          particle: block_crack
+          material: obsidian
+          radius: 0.1
+          iterations: 1
+    hit:
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Cloud
+          cloudParticle: block_crack
+          mainParticle: spell_mob
+          mainParticleColor: 000000
+          material: obsidian
+          cloudSize: $radius
+          duration: $duration
+  parameters:
+    cooldown: 1000
+    target: other
+    target_source: true
+    range: 64
+    gravity: 0.05
+    radius: 6
+    duration: 8000
+    add_effects:
+      blindness: 2
+      slow: 2

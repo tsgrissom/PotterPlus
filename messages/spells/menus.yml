@@ -1,0 +1,86 @@
+spells:
+  menu_character:
+    name: >-
+      &6Character Progress
+    title: >-
+      &8Character Progress
+    selected_free: ""
+  menu_upgrades:
+    name: >-
+      &6Spell Progress
+    description: >-
+      &7The more you cast your spells the stronger they become&8. &7Track their
+      progress here&8.
+  menu_appearances:
+    name: >-
+      &6Wand Appearances
+    title: >-
+      &8Wand Appearances
+    description: >-
+      &7Customize your wand's appearance&8. &7Unlock special skins and
+      effects&8.
+    selected_free: >-
+      &8>> &7You selected &6$item&8.
+    insufficient_permission: >-
+      &cThis item is currently locked.
+    not_applicable: >-
+      &8>> &cYour wand is already using that appearance.
+  menu_help:
+    name: >-
+      &aNeed Help?
+    title: >-
+      &8Server Help
+    selected_free: ""
+  menu_help_items:
+    name: >-
+      &6Magical items
+    title: >-
+      &8Magical Items
+    selected_free: ""
+  menu_getrp:
+    name: >-
+      &6Get the resource pack
+    title: >-
+      &8Would you like the resource pack?
+    description: >-
+      &7Would you like to use the server resource pack&8?
+    selected_free: ""
+  menu_xptrader:
+    name: >-
+      XP Trader
+    title: >-
+      &8XP Trader ($balance&8)
+    insufficient: >-
+      &6XP Trader &8&l> &cI'm sorry, but you don't have enough XP for that. It
+      costs &4$cost&c.
+    selected: >-
+      &8>> &7You traded $cost &7for $item&8.
+
+  # Traders
+
+  menu_actrader:
+    name: >-
+      AC Trader
+    title: >-
+      &8AC Trader
+    selected_free: ""
+  menu_actrader_ac:
+    name: >-
+      AC-Galleon Trader
+    title: >-
+      &8AC Trader ($balance&8)
+    insufficient: >-
+      &6AC Trader &8&l> &cI'm sorry, but you don't have enough Galleons for
+      that. It costs &4$cost&c.
+    selected: >-
+      &8>> &7You traded $cost &7for $item&8.
+  menu_actrader_galleons:
+    name: >-
+      Galleon-AC Trader
+    title: >-
+      &8AC Trader ($balance&8)
+    insufficient: >-
+      &6AC Trader &8&l> &cI'm sorry, but you don't have enough Academic Credits
+      for that. It costs &4$cost&c.
+    selected: >-
+      &8>> &7You traded $cost &7for $item&8.

@@ -1,0 +1,59 @@
+grow:
+    icon: cookie{CustomModelData:18001}
+    icon_disabled: cookie{CustomModelData:18002}
+    legacy_icon: spell_icon:147
+    legacy_icon_disabled: spell_icon_disabled:147
+    icon_url: http://textures.minecraft.net/texture/b54fa4fb25cef58bc69cac7292e32e449322cac2ace4810a8a0749b2fbbb154
+    category: combat
+    worth: 75
+    earns_sp: 8
+    actions:
+      cast:
+      - class: CustomProjectile
+        actions:
+        - class: GrowEntity
+    effects:
+        cast:
+        -  sound: entity_enderman_teleport
+           sound_pitch: 1.9
+           sound_volume: 0.5
+           location: origin
+           effectlib:
+             class: ConeEffect
+             iterations: 11
+             particle: spell_instant
+             lengthGrow: 0.32
+             particle_count: 10
+             particle_offset_x: 0.2
+             particle_offset_y: 0.2
+             particle_offset_z: 0.2
+        hit:
+        - sound: block_beacon_activate
+          sound_pitch: 0.3
+          sound_volume: 0.9
+          location: both
+        - class: EffectSingle
+          location: target
+          sound: entity_enderman_teleport
+          sound_pitch: 1.4
+          sound_volume: 0.8
+          effectlib:
+           class: Modified
+           iterations: 30
+           parameters:
+            radius: "max(1, (t / i) * 5 - 2)"
+           effect:
+             class: Sphere
+             particle: redstone
+             color: "C0F0C0"
+    parameters:
+        velocity: 400
+        target_type: LivingEntity
+        target: other_entity
+        allow_max_range: false
+        range: 16
+        target_breakables: 1
+        cooldown: 30000
+    costs:
+        mana: 75
+

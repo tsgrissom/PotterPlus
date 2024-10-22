@@ -1,0 +1,7 @@
+default:
+  effects:
+    upgrade: enchant
+    enchant: []
+  upgrade_commands:
+    - 'title @pn title {"text":"&dGraduated to $path"}'
+    - 'title @pn subtitle {"text":"&5New spells are available!"}'

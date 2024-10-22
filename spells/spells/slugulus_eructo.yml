@@ -1,0 +1,58 @@
+sluguluseructo:
+  inherit: bogies
+  worth: 15 ac
+  category: dark
+  upgrade_required_path: year3
+  upgrade_required_casts: 75
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Repeat
+            actions:
+              - class: Delay
+              - class: PotionEffect
+              - class: SpawnEntity
+  effects:
+    hit:
+      - class: EffectSingle
+        location: target
+        requires_entity_target: true
+        effectlib:
+          class: Warp
+          particle: slime
+          iterations: 1
+      - class: EffectSingle
+        location: target
+        requires_entity_target: true
+        effectlib:
+          class: Sphere
+          iterations: 60
+          period: .1
+          particle: slime
+          radius: .75
+          particles: 20
+  parameters:
+    type: silverfish
+    name: "&aSlug"
+    delay: 250
+    count: 2
+    target: other_entity
+    target_type: Player
+    add_effects:
+      poison: 2
+    duration: 1000
+    cast_on_no_target: false
+    range: 24
+  costs:
+    mana: 20
+
+sluguluseructo|2:
+  upgrade_required_casts: 125
+  upgrade_required_path: year4
+  parameters:
+    count: 4
+
+sluguluseructo|3:
+  parameters:
+    count: 6

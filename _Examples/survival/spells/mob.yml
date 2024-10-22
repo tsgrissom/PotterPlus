@@ -1,0 +1,95 @@
+mob:
+    icon: salmon_bucket{CustomModelData:18001}
+    icon_disabled: salmon_bucket{CustomModelData:18002}
+    legacy_icon: spell_icon:67
+    legacy_icon_disabled: spell_icon_disabled:67
+    icon_url: http://textures.minecraft.net/texture/74e9c6e98582ffd8ff8feb3322cd1849c43fb16b158abb11ca7b42eda7743eb
+    category: dark
+    pvp_restricted: true
+    worth: 300
+    actions:
+      cast:
+      # We are going to force the spawned mob to target the entity we originally targeted
+      # This is done by making the current target the source, since the Aggro action makes the target
+      # target the source.
+      - class: ChangeContext
+        source_is_target: true
+        actions:
+        - class: Repeat
+          actions:
+          - class: Spread
+            actions:
+            - class: SpawnEntity
+              set_target: true
+            - class: Aggro
+            - class: PlayEffects
+              effects: spawned
+            - class: Delay
+    effects:
+        cast:
+        - sound: block_beacon_power_select
+          sound_pitch: 0.1
+          sound_volume: 0.3
+        - location: target
+          effectlib:
+             class: Modified
+             offset: 0,0.2,0
+             iterations: 60
+             parameters:
+               radius: "(t / i) * 16 + 0.1"
+             effect:
+               class: HelixEffect
+               particle: drip_lava
+        spawned:
+        -  class: EffectSingle
+           location: target
+           sound: entity_husk_ambient
+           sound_pitch: 1.4
+           effectlib:
+               class: Smoke
+               duration: 100
+               particle: end_rod
+               particle_count: 5
+               particle_offset_x: 0.5
+               particle_offset_y: 0.5
+               particle_offset_z: 0.5
+        undo_entity:
+        - location: target
+          sound: block_fire_extinguish
+          sound_volume: 0.8
+          sound_pitch: 0.2
+          effectlib:
+            class: Smoke
+            duration: 500
+            particle_count: 5
+            particle_offset_x: 0.5
+            particle_offset_y: 0.5
+            particle_offset_z: 0.5
+    parameters:
+        entity_types:
+            zombie: 100
+            skeleton: 100
+            spider: 110
+            creeper: 30
+            witch: 20
+            slime: 20
+            blaze: 15
+            bat: 15
+            magma_cube: 10
+            pig_zombie: 10
+            cave_spider: 10
+            silverfish: 8
+            ghast: 5
+            enderman: 5
+            giant: 1
+        target_type: LivingEntity
+        allow_max_range: false
+        range: 32
+        cooldown: 45000
+        undo: 30000
+        repeat: 20
+        radius: 16
+        delay: 500
+    costs:
+        mana: 100
+

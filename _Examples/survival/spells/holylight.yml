@@ -1,0 +1,58 @@
+holylight:
+    icon: honey_bottle{CustomModelData:18001}
+    icon_disabled: honey_bottle{CustomModelData:18002}
+    legacy_icon: spell_icon:10
+    legacy_icon_disabled: spell_icon_disabled:10
+    icon_url: http://textures.minecraft.net/texture/775c41bd5e4ef3cba5f9bdc5258973c95477e819cb20c163ffb378db5ae3
+    category: master
+    worth: 700
+    earns_sp: 8
+    actions:
+        cast:
+         -  class: AreaOfEffect
+            actions:
+            -  class: CheckEntity
+               allowed_entities: player
+               actions:
+               - class: Heal
+               - class: PlayEffects
+                 effects: heal
+                 ignore_result: true
+            -  class: CheckEntity
+               denied_entities: player
+               actions:
+               - class: Damage
+               - class: PlayEffects
+                 effects: hurt
+                 ignore_result: true
+    effects:
+        heal:
+        -  class: EffectSingle
+           sound: entity_villager_yes
+           location: origin
+           effectlib:
+             class: HelixEffect
+             particle: heart
+             iterations: 10
+             radius: 2
+        hurt:
+        -  class: EffectSingle
+           sound: entity_bat_hurt
+           location: origin
+           effectlib:
+             class: HelixEffect
+             particle: smoke_normal
+             iterations: 10
+             radius: 2
+    parameters:
+        target: self
+        target_caster: true
+        target_type: LivingEntity
+        amount: 10
+        damage: 10
+        radius: 16
+        cooldown: 30000
+        bypass_friendly_fire: true
+    costs:
+        mana: 150
+

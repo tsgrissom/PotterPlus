@@ -1,0 +1,162 @@
+nuke:
+    icon: brown_mushroom{CustomModelData:18001}
+    icon_disabled: brown_mushroom{CustomModelData:18002}
+    legacy_icon: spell_icon:36
+    legacy_icon_disabled: spell_icon_disabled:36
+    icon_url: http://textures.minecraft.net/texture/f27c497b89fdcbf754b59aaadcc7e49c5217f1677bf9f8803c4cca519b3a2
+    example_thumbnail: https://thumbs.gfycat.com/QuerulousWealthyAmericanavocet-size_restricted.gif
+    example_link: https://gfycat.com/gifs/detail/QuerulousWealthyAmericanavocet
+    category: master
+    worth: 2000
+    earns_sp: 10
+    pvp_restricted: true
+    upgrade_required_path: master
+    upgrade_required_casts: 20
+    actions:
+        cast:
+        - class: CustomProjectile
+          actions:
+          - class: Parallel
+            actions:
+            - class: Serial
+              actions:
+              - class: Repeat
+                repeat: 4
+                actions:
+                - class: Delay
+                  delay: 1000
+                - class: PlayEffects
+                  ignore_result: true
+                  effect: explode
+                - class: AreaOfEffect
+                  radius: 4
+                  actions:
+                  - class: Damage
+                  - class: Velocity
+                    ignore_result: true
+              - class: Repeat
+                repeat: 4
+                actions:
+                - class: Delay
+                  delay: 1000
+                - class: PlayEffects
+                  ignore_result: true
+                  effect: explode
+                - class: AreaOfEffect
+                  radius: 10
+                  actions:
+                  - class: Damage
+                  - class: Velocity
+                    ignore_result: true
+            - class: Serial
+              ignore_result: true
+              actions:
+              - class: Sphere
+                actions:
+                - class: Skip
+                  actions:
+                  - class: Delay
+                - class: ModifyBlock
+              - class: PlayEffects
+                effect: explode
+    effects:
+        explode:
+        - location: target
+          sound: entity_generic_explode
+          sound_volume: 2
+        cast:
+        -  sound: entity_wither_shoot
+           sound_pitch: 0.1
+        -  class: EffectSingle
+           sound: entity_firework_rocket_launch
+           location: both
+        tick:
+        -  location: target
+           particle: smoke_large
+           particle_count: 4
+           particle_offset_x: 0.3
+           particle_offset_y: 0.3
+           particle_offset_z: 0.3
+        -  location: target
+           particle: fireworks_spark
+           particle_count: 2
+           particle_offset_x: 0.01
+           particle_offset_y: 0.01
+           particle_offset_z: 0.01
+        -  location: target
+           particle: end_rod
+           particle_count: 4
+           particle_offset_x: 0.5
+           particle_offset_y: 0.5
+           particle_offset_z: 0.5
+        hit:
+        -  location: target
+           sound: entity_generic_explode
+           sound_volume: 10
+        -  location: target
+           effectlib:
+             class: Modified
+             duration: 8000
+             parameters:
+               radius: "min(8, (t/i) * 15)"
+             effect:
+               class: Helix
+               particles: 4
+               strands: 3
+               particle: explosion_large
+               particle_count: 2
+               particle_offset_x: 1
+               particle_offset_y: 0
+               particle_offset_z: 1
+               period: 4
+        -  location: target
+           effectlib:
+             class: Modified
+             duration: 8000
+             parameters:
+               y_factor: "min(20, (t/i) * 30)"
+             effect:
+               class: AnimatedBall
+               particles: 4
+               particle: explosion_huge
+               size: 1
+               period: 8
+        -  location: target
+           effectlib:
+             class: Modified
+             duration: 8000
+             yEquation: "min(20, (t/i)*30)"
+             parameters:
+               size: "min(10, (t/i) * 20)"
+             effect:
+               class: AnimatedBall
+               particles: 2
+               particle: explosion_huge
+               size: 1
+               period: 6
+               y_factor: 0.3
+    parameters:
+        velocity: 20
+        target: block
+        allow_max_range: true
+        range: 64
+        cooldown: 60000
+        undo: 50000
+        speed: 0.9
+        falling: true
+        falling_probability: 0.2
+        brush: air
+        radius: 8
+        skip: 16
+        delay: 1
+        undo_speed: 2
+        damage: 4
+        target_self_timeout: 2000
+    costs:
+        mana: 200
+
+nuke|2:
+  parameters:
+    destructible: destructible,destructible2,destructible3
+    radius: 12
+

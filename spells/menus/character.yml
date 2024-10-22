@@ -1,0 +1,22 @@
+menu_character:
+  inherit: progressmenu
+  icon: sulphur
+  category: npc
+  hidden: true
+  actions:
+    cast:
+      - class: Selector
+  parameters:
+    show_unavailable: true
+    options:
+      - cast_spell: shop_spells
+      - cast_spell: menu_upgrades
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - cast_spell: menu_help
+      - cast_spell: menu_appearances
+        requirements:
+          - wand: playerwand

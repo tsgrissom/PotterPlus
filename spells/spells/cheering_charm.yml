@@ -1,0 +1,66 @@
+cheeringcharm:
+  icon: diamond_axe{CustomModelData:195}
+  icon_disabled: diamond_hoe{CustomModelData:195}
+  upgrade_required_casts: 25
+  category: charms
+  worth: 5 ac
+  actions:
+    cast:
+      - class: PotionEffect
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.shimmer
+        location: origin
+        source_location: feet
+        effectlib:
+          class: Warp
+          particle: spell_mob
+          color: 7effa2
+  parameters:
+    cooldown: 12000
+    target: self
+    add_effects:
+      speed: 1
+      jump: 1
+    duration: 5000
+  costs:
+    mana: 15
+
+cheeringcharm|2:
+  upgrade_required_casts: 50
+  upgrade_required_path: year2
+  parameters:
+    duration: 6000
+
+cheeringcharm|3:
+  upgrade_required_casts: 75
+  upgrade_required_path: year3
+  parameters:
+    add_effects:
+      speed: 2
+      jump: 2
+
+cheeringcharm|4:
+  upgrade_required_casts: 100
+  upgrade_required_path: year4
+  parameters:
+    duration: 7000
+
+cheeringcharm|5:
+  upgrade_required_casts: 125
+  upgrade_required_path: year5
+  parameters:
+    add_effects:
+      speed: 3
+      jump: 2
+
+cheeringcharm|6:
+  upgrade_required_casts: 150
+  upgrade_required_path: year6
+  parameters:
+    duration: 8000
+
+cheeringcharm|7:
+  parameters:
+    duration: 10000

@@ -1,0 +1,99 @@
+shell:
+    icon: scute{CustomModelData:18001}
+    icon_disabled: scute{CustomModelData:18002}
+    legacy_icon: spell_icon:22
+    legacy_icon_disabled: spell_icon_disabled:22
+    icon_url: http://textures.minecraft.net/texture/3dbb78853b526f9b712b4e431fb332eae0e6cd3dea9a610e9ecf54c31f7c6d
+    alias: dome
+    category: combat
+    worth: 150
+    earns_sp: 2
+    upgrade_required_path: student
+    upgrade_required_casts: 50
+    actions:
+        cast:
+        -  class: CustomProjectile
+           actions:
+           - class: Sphere
+             actions:
+             -  class: ModifyBlock
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: magic.shield
+        -  sound: block_stone_place
+           sound_pitch: 1.2
+           sound_volume: 1.7
+        -  sound: entity_ender_dragon_hurt
+           sound_pitch: 1.9
+           sound_volume: 0.8
+        tick:
+        -  location: target
+           particle: block_crack
+           particle_count: 10
+           particle_offset_x: 0.2
+           particle_offset_y: 0.2
+           particle_offset_z: 0.2
+        hit:
+        -  sound: block_stone_place
+           sound_pitch: 0.1
+           sound_volume: 1.7
+           location: target
+        -  location: target
+           sound: entity_ender_dragon_hurt
+           sound_pitch: 1.2
+           sound_volume: 0.8
+           effectlib:
+             class: SphereEffect
+             particle: block_crack
+             particle_count: 10
+             particles: 5
+             particle_offset_x: 0.3
+             particle_offset_y: 0.3
+             particle_offset_z: 0.3
+             radius: $radius
+             duration: 2000
+    parameters:
+        target: other
+        allow_max_range: false
+        velocity: 50
+        target_type: LivingEntity
+        range: 32
+        thickness: 1
+        radius: 3
+        type: sphere
+        transparent: transparent_to_construction
+        destructible: destructible_replace
+        check_destructible: true
+        undo: 4000
+        brush: stained_glass
+        brushcolor: true
+        cooldown: 5000
+        breakable: 4
+        reflect_chance: 0.25
+        miss_effects: hit
+        miss: actions
+    costs:
+        mana: 75
+
+shell|2:
+    upgrade_required_path: apprentice
+    upgrade_required_casts: 50
+    parameters:
+        reflect_chance: 0.5
+        undo: 5000
+        cooldown: 6000
+        breakable: 3
+
+shell|3:
+    upgrade_required_path: master
+    upgrade_required_casts: 50
+    parameters:
+        reflect_chance: 0.75
+        breakable: 2
+
+shell|4:
+    parameters:
+        reflect_chance: 0.9
+        breakable: 1
+

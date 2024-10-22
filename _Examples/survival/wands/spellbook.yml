@@ -1,0 +1,20 @@
+spellbook:
+    mode: skills
+    icon: enchanted_book{CustomModelData:18001}
+    legacy_icon: wand_icon:31
+    indestructible: true
+    drop: toggle
+    right_click: toggle
+    undroppable: true
+    keep: true
+    bound: true
+    class: mage
+    skills:
+      # Set this to false if you want skills to be held and right-clicked to cast
+      # quick_cast: false
+
+      # Don't lose skill items on death (they will disappear otherwise, they are never dropped)
+      keep: true
+
+      # Make skill items undroppable
+      # undroppable: true

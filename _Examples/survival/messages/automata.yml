@@ -1,0 +1,89 @@
+automata:
+    awaken: "&c&o$name &r&5has awakened"
+    default_name: Automaton
+    level: Level $roman
+    good:
+       prefixes:
+           - Holy
+           - Light
+           - Shiny
+           - Shimmering
+           - Stalwart
+           - Bright
+           - Savior
+           - Blessed
+           - Magic
+           - Enchanted
+           - Enlightened
+           - Magnificent
+           - Magnamous
+           - Brave
+           - Loyal
+           - Glorious
+       suffixes:
+           - of Holiness
+           - of Honor
+           - of Light
+           - of Lightness
+           - of Protection
+           - of The Sun
+           - of Magic
+           - of The Blessed
+           - of Forgiveness
+           - of Loyalty
+           - of Retribution
+           - of Resilience
+           - of Hope
+           - of Glory
+           - of Absolution
+    evil:
+       prefixes:
+           - Evil
+           - Dark
+           - Slimy
+           - Dreadful
+           - Dread
+           - Cursed
+           - Magic
+           - Enchanted
+           - Harbringer
+           - Nether
+           - Infamous
+           - Nefarious
+           - Distastrous
+           - Eldritch
+           - Disgusting
+           - Abominable
+           - Horrifying
+           - Calamity
+           - Calamitous
+           - Otherworldly
+           - Deplorable
+           - Apocalyptic
+           - Despicable
+           - Vile
+           - Wretched
+           - Loathsome
+           - Monstrous
+           - Dread
+       suffixes:
+           - of Darkness
+           - of Evil
+           - of the Night
+           - of Death
+           - of Doom
+           - of the Nether
+           - of Magic
+           - of Destruction
+           - of Desolation
+           - of Infamy
+           - of Horror
+           - of the Dark
+           - of the End
+           - of Domination
+           - of the Apocalypse
+           - of Devastation
+           - of the Wilds
+           - of Terror
+           - of Blight
+           - of the Plague

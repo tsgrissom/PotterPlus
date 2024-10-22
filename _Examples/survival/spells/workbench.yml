@@ -1,0 +1,32 @@
+workbench:
+    icon: crafting_table{CustomModelData:18001}
+    icon_disabled: crafting_table{CustomModelData:18002}
+    legacy_icon: spell_icon:105
+    legacy_icon_disabled: spell_icon_disabled:105
+    icon_url: http://textures.minecraft.net/texture/a5bf87cdeeefecb473472dc7c858ffa2e3ec5bd48c3718df49e2798e4aeff
+    category: utility
+    tags: noduel
+    quick_cast: true
+    worth: 80
+    actions:
+        cast:
+        - class: Inventory
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: block_piston_extend
+           effectlib:
+            class: WarpEffect
+            particle: block_crack
+            material: crafting_table
+            duration: 1000
+            particle_count: 10
+            particle_offset_x: 1
+            particle_offset_z: 1
+            particle_offset_y: 1
+    parameters:
+        target: none
+        cooldown: 5000
+        type: workbench
+    costs:
+        mana: 30

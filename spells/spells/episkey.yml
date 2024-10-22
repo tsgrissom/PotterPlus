@@ -1,0 +1,48 @@
+episkey:
+  icon: diamond_axe{CustomModelData:180}
+  icon_disabled: diamond_hoe{CustomModelData:180}
+  category: herbology
+  worth: 15 ac
+  upgrade_required_path: year4
+  upgrade_required_casts: 25
+  actions:
+    cast:
+      - class: PotionEffect
+  parameters:
+    cooldown: 20000
+    add_effects:
+      regeneration: 1
+    duration: 6000
+  costs:
+    mana: 40
+
+episkey|2:
+  upgrade_required_path: year4
+  upgrade_required_casts: 50
+  parameters:
+    duration: 7000
+
+episkey|3:
+  upgrade_required_path: year5
+  upgrade_required_casts: 75
+  parameters:
+    add_effects:
+      regeneration: 2
+
+episkey|4:
+  upgrade_required_path: year5
+  upgrade_required_casts: 100
+  parameters:
+    duration: 8000
+
+episkey|5:
+  upgrade_required_path: year6
+  upgrade_required_casts: 125
+  parameters:
+    duration: 9000
+
+episkey|6:
+  upgrade_required_path: year6
+  upgrade_required_casts: 150
+  parameters:
+    duration: 10000

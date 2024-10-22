@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/allium", "weight": 25 },
+            { "model": "minecraft:block/allium1", "weight": 25 },
+            { "model": "minecraft:block/allium2", "weight": 25 },
+            { "model": "minecraft:block/allium3", "weight": 25 }
+        ]
+    }
+}

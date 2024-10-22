@@ -1,0 +1,23 @@
+unspeakable:
+    inherit: base_wand
+    icon: stick{CustomModelData:18024}
+    legacy_icon: wand_icon:24
+    migrate_icon: wand_icon
+    path: graduate
+    fill: true
+    organize: true
+    cost_reduction: 2
+    cooldown_reduction: 2
+    quiet: 0
+    power: 0
+    haste: 0.1
+    effect_color: '00FFFF'
+    effect_particle: drip_water
+    effect_particle_interval: 0
+    effect_particle_count: 1
+    effect_particle_data: 1
+    effect_bubbles: false
+    active_spell: ascendio
+    hidden: true
+    overrides: patronus.type sheep, patronus.variant blue
+

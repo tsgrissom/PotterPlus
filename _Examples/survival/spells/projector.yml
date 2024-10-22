@@ -1,0 +1,130 @@
+projector:
+  icon: white_stained_glass{CustomModelData:18001}
+  icon_disabled: white_stained_glass{CustomModelData:18002}
+  legacy_icon: spell_icon:169
+  legacy_icon_disabled: spell_icon_disabled:169
+  icon_url: http://textures.minecraft.net/texture/6eb68dc909b12ef5fb397c23fdecbc416d9a76825170c106b1faeb97b4749
+  category: engineering
+  effects:
+      cast:
+      -  class: EffectTrail
+         particle: fireworks_spark
+         particle_count: 10
+         particle_offset_x: 1.2
+         particle_offset_y: 1.2
+         particle_offset_z: 1.2
+  actions:
+    cast:
+    - class: Parallel
+      actions:
+      - class: Repeat
+        actions:
+        - class: Brush
+          actions:
+          - class: Plane
+            actions:
+            - class: ModifyBlock
+      - class: ChangeContext
+        target_caster: true
+        actions:
+        - class: Delay
+          delay: 2000
+
+        - class: PlaySound
+          sound: block_note_block_bit
+          pitch: 0.793701 # 8
+        - class: PlaySound
+          sound: block_note_block_bit
+          pitch: 1.781797 # 22
+        - class: PlaySound
+          sound: block_note_block_bit
+          pitch: 1 # 12
+
+        - class: Delay
+          delay: 200 # 1 redstone tick = 2 ticks = 100 ms
+        - class: PlaySound
+          sound: block_note_block_bit
+          pitch: 0.793701 # 8
+        - class: PlaySound
+          sound: block_note_block_bit
+          pitch: 1.781797 # 22
+        - class: PlaySound
+          sound: block_note_block_bit
+          pitch: 1 # 12
+
+        - class: Delay
+          delay: 400
+        - class: PlaySound
+          sound: block_note_block_bit
+          pitch: 0.793701 # 8
+        - class: PlaySound
+          sound: block_note_block_bit
+          pitch: 1.781797 # 22
+        - class: PlaySound
+          sound: block_note_block_bit
+          pitch: 1 # 12
+
+        - class: Delay
+          delay: 400
+        - class: PlaySound
+          sound: block_note_block_bit
+          pitch: 0.793701 # 8
+        - class: PlaySound
+          sound: block_note_block_bit
+          pitch: 1.414214 # 18
+        - class: PlaySound
+          sound: block_note_block_bit
+          pitch: 1 # 12
+
+        - class: Delay
+          delay: 100
+        - class: Delay
+          delay: 100
+
+        - class: PlaySound
+          sound: block_note_block_bit
+          pitch: 0.793701 # 8
+        - class: PlaySound
+          sound: block_note_block_bit
+          pitch: 1.781797 # 22
+        - class: PlaySound
+          sound: block_note_block_bit
+          pitch: 1 # 12
+
+        - class: Delay
+          delay: 300
+        - class: PlaySound
+          sound: block_note_block_bit
+          pitch: 1.334840 # 17
+        - class: PlaySound
+          sound: block_note_block_bit
+          pitch: 1.059463 # 13
+
+        - class: Delay
+          delay: 400
+        - class: Delay
+          delay: 400
+
+        - class: PlaySound
+          sound: block_note_block_bit
+          pitch: 0.529732 # 1
+        - class: PlaySound
+          sound: block_note_block_bit
+          pitch: 1.059463 # 13
+
+  parameters:
+    target: block
+    range: 32
+    radius: 32
+    cooldown: 60000
+    undo: 100
+    delay: 1000
+    repeat: 30
+    axis: z
+    reorient: false
+    orient: true
+    orient_snap: 90
+    destructible: all_air,concretes
+    allow_max_range: true
+    brushmod: concrete
+    brush: "map:64:https://s3-us-west-2.amazonaws.com/elmakers/mario.gif"

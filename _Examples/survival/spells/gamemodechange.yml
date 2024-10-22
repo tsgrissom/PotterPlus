@@ -1,0 +1,25 @@
+tocreative:
+  name: Creative
+  show_undoable: false
+  hidden: true
+  icon: spell_icon:79
+  icon_disabled: spell_icon_disabled:79
+  actions:
+    cast:
+    - class: ModifyGameMode
+  parameters:
+   target: self
+   game_mode: creative
+
+tosurvival:
+  name: Survival
+  show_undoable: false
+  hidden: true
+  icon: spell_icon:123
+  icon_disabled: spell_icon_disabled:123
+  actions:
+    cast:
+    - class: ModifyGameMode
+  parameters:
+    target: self
+    game_mode: survival

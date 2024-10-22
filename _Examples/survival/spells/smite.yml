@@ -1,0 +1,89 @@
+smite:
+    icon: sea_pickle{CustomModelData:18001}
+    icon_disabled: sea_pickle{CustomModelData:18002}
+    legacy_icon: spell_icon:40
+    legacy_icon_disabled: spell_icon_disabled:40
+    icon_url: http://textures.minecraft.net/texture/a31cc0ffb1e814e1c82301067ea318356befa65dc1a027afbfd498709cad58
+    category: elemental
+    worth: 500
+    upgrade_required_path: apprentice
+    upgrade_required_casts: 50
+    actions:
+        cast:
+        - class: Lightning
+          ignore_result: true
+        - class: AreaOfEffect
+          actions:
+          - class: Damage
+          - class: Ignite
+        -  class: Sphere
+           ignore_result: true
+           actions:
+           -  class: ModifyBlock
+    effects:
+      cast:
+      - sound: block_conduit_activate
+        sound_pitch: 2
+        sound_volume: 2
+      - class: EffectSingle
+        sound: entity_firework_large_blast
+        location: target
+      - class: EffectTrail
+        particle: end_rod
+        particle_count: 30
+        particle_offset_x: 0.3
+        particle_offset_y: 0.3
+        particle_offset_z: 0.3
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: HelixEffect
+          particle: smoke_large
+          iterations: 1
+          particles: 10
+          particle_count: 4
+          particle_offset_x: 1
+          particle_offset_y: 0.1
+          particle_offset_z: 1
+          offset: 0,2,0
+      - class: EffectSingle
+        location: target
+        effectlib:
+           class: HelixEffect
+           particle: end_rod
+           iterations: 1
+           particles: 30
+           particle_count: 10
+           particle_offset_x: 1
+           particle_offset_y: 0.1
+           particle_offset_z: 1
+           offset: 0,2,0
+    parameters:
+        target_type: Damageable
+        allow_max_range: true
+        range: 32
+        radius: 1.5
+        damage_max_distance: 4
+        cooldown: 45000
+        effect_only: true
+        damage: 3
+        duration: 5000
+        speed: 0.9
+        falling: true
+        brush: air
+        undo: 10000
+        oty: -2
+        undo_speed: 0.5
+    costs:
+        mana: 100
+
+smite|2:
+  upgrade_required_path: master
+  parameters:
+    radius: 2.5
+    damage: 4
+
+smite|3:
+  parameters:
+    radius: 3.5
+    damage: 5

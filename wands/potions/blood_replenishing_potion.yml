@@ -1,0 +1,3 @@
+bloodreplenishingpotion:
+  icon: potion:781616
+  consume_spell: blood_replenishing_potion_ability

@@ -1,0 +1,1362 @@
+spells:
+    admission:
+        name: Admission
+        description: Opens the target door
+        cast: Let me in!
+    admission|2:
+        upgrade_description: "Now opens iron doors"
+    collapse:
+        name: Collapse
+        description: Collapse a spherical area of blocks
+        cast_finish: Collapsed $count blocks
+        upgrade_description: "Increased radius, breaks more types of blocks"
+    secure:
+        name: Secure
+        description: Secures containers
+        usage: Aim up and cast for a replacement key, sneak-cast to unlock
+        cast: Container is now locked- you must hold your key to unlock it!
+        acquire: Lock changed!
+        already: That is already locked
+        alternate_up: You summon a replacement key
+        alternate_sneak: Container unlocked
+        key_name: "&6&k$uuid"
+        key_name_alternate: "&6$name's &eKey"
+        key_description: "&6$name's &eKey\nNeeded to open your locked containers"
+        fail: You can't lock that!
+        upgrade_description: "Now locks furnaces and other containers"
+    lockpick:
+        name: Lockpick
+        description: Unlocks locked containers
+        cast: Open Sesame!
+        fail: You can't unlock that!
+    snoop:
+        name: Snoop
+        description: Peek inside of a chest
+        cast: Let's see what's in there
+        no_target: "You must target a chest"
+    anvil:
+        name: Anvil
+        description: Spawn an anvil
+        cast: So heavy!
+    silence:
+        name: Silence
+        description: Prevent your target from casting spells
+        cast: You silence $target
+    curse:
+        name: Curse
+        description: Slows down and weakens the target
+        cast: You curse $target
+        upgrade_description: "Now confuses as well"
+    broom:
+        name: Broom Skill
+        cast: Your broom springs to life!
+        deactivate: Your broom quiets down.
+        crash: CRASH!
+        fail: Not enough room to take off!
+        creative_fail: You can't use broomsticks in creative mode!
+        cursed: You are too stunned to fly!
+        upgrade_description: "Increased flight duration and improved handling"
+        nospace: "&cFind a clear space to mount your broom"
+        reactivate: "Reactivating your broomstick"
+    superbroom:
+        name: SuperBroom
+        cast: Your wand springs to life!
+        deactivate: Your wand quiets down.
+        crash: CRASH!
+        fail: Not enough room to take off!
+        reactivate: "Reactivating your flying enchantment"
+    boon:
+        name: Boon
+        description: Makes you temporarily superpowered
+        cast_self: You give yourself a boon
+        cast: You give $target a boon
+    boon|2:
+        upgrade_description: "Gives a jump boost"
+    boon|3:
+        upgrade_description: "Increases speed effect"
+    boon|4:
+        upgrade_description: "Adds night vision"
+    blessing:
+        name: Blessing
+        description: Bless a large area of followers
+        cast: You bless the area
+    holylight:
+        name: Holy Light
+        description: Heal players in the area, harm mobs
+        cast: You shine the Holy Light
+    mount:
+        name: Mount
+        description: Mount your target
+        cast: You mount $target
+    horse:
+        name: Horse
+        description: Summon and mount a horse
+        cast: Giddyup!
+        nospace: "&cFind a clear space for your horse"
+    tame:
+        name: Tame
+        description: Tame your target
+        cast: You tame $target
+    platform:
+        name: Platform
+        description: Create a platform in front of you
+        cast_finish: Filled $count blocks with $material
+    platform|2:
+        upgrade_description: "Increased size"
+    platform|4:
+        upgrade_description: "Now builds with your brush"
+    reflect:
+        name: Reflect
+        description: Reflect spells cast against you
+        upgrade_description: "Increased size and reflectivity"
+    shell:
+        name: Shell
+        description: Create a reflective shell
+        upgrade_description: "Increased durability and reflectivity"
+    tag:
+        name: Tag
+        description: Leave a sign with your name
+        usage: Requires and consumes one sign item!
+        fail: Sign placement failed!
+        cast: You leave a tag
+        cast_player: You send $target a message
+        cast_give: Have some signs!
+        cast_player_message: "&5You hear a mysterious voice from &c&o$player &r&5... it says ... Hi!"
+        sign_message: was here
+    flashbang:
+        name: Flash Bang
+        description: Toss a ball of light and fury
+        cast_player_message: "a:You were hit by $player's flash bang"
+    singularity:
+        name: Singularity
+        description: Create a black hole
+        cast_player_message: "a:You got sucked into a black hole"
+    arrow:
+        name: Arrow
+        description: Fire a magic arrow
+        upgrade_description: "Increased damage and accuracy"
+    arrow_light:
+        name: Light Arrow
+        description: Fire an arrow of pure light
+        cast_player_message: "a:$player shot a $spell at you"
+    arrow_bomb:
+        name: Bomb Arrow
+        description: Fire an exploding arrow
+        cast_player_message: "a:$player shot a $spell at you"
+    arrow_poison:
+        name: Poison Arrow
+        description: Fire a arrow that bursts into a poison cloud
+        cast_player_message: "a:$player shot a $spell at you"
+    arrow_regular:
+        name: Normal Arrow
+        description: Fire a normal arrow
+        cast_player_message: "a:$player shot a $spell at you"
+    arrow_blink:
+        name: Blink Arrow
+        description: Teleport to the location where your arrow lands
+        cast_player_message: "a:$player shot a $spell at you"
+    arrow_fire:
+        name: Fire Arrow
+        description: Lights a fire where it lands
+        cast_player_message: "a:$player shot a $spell at you"
+    arrow_ice:
+        name: Ice Arrow
+        description: Freeze the area where it lands
+        cast_player_message: "a:$player shot an $spell at you"
+    arrow_shock:
+        name: Shock Arrow
+        description: Electrify the target
+        cast_player_message: "a:$player shot a $spell at you"
+    arrow_grapple:
+        name: Grapple Arrow
+        description: Shoot an arrow which pulls you towards it
+        cast_player_message: "a:$player shot a $spell at you"
+    toss:
+        name: Toss
+        description: Toss a block
+        fail: One of your blocks fizzled
+        cast: You toss a block
+    volley:
+        name: Volley
+        description: Toss a bunch of blocks
+        fail: One of your blocks fizzled
+        cast: You toss some blocks
+    sniper:
+        name: Sniper
+        description: Fire a super fast arrow
+    pull:
+        name: Pull
+        description: Pull things toward you
+        alternate: Gimme!
+        cast: Yoink!
+    grab:
+        name: Grab
+        description: Pull items toward you
+        cast: Yoink!
+    permafrost:
+        name: PermaFrost
+        description: Make it permanently snowy!
+        cast_finish: Permafrosted $count blocks
+    permamelt:
+        name: PermaMelt
+        description: Raise the temperature
+        cast_finish: Permamelted $count blocks
+    frost:
+        name: Frost
+        description: Freeze water and create snow
+        cast_finish: Frosted $count blocks
+        upgrade_description: "Larger radius, increased slow duration"
+    harden:
+        name: Harden
+        description: Make the target blocks stronger
+        cast: Hardened $count blocks
+    harden|2:
+        upgrade_description: "Now converts to obsidian"
+    disarm:
+        name: Disarm
+        description: Disarm your opponent
+        cast: You disarm your target
+        cast_self: You disarm yourself
+        upgrade_description: "Descreased chance of backfire and fizzle"
+    disarm|3:
+        upgrade_description: "No chance of backfire and fizzle"
+    heal:
+        name: Heal
+        description: Heal yourself or others
+        usage: Can be interrupted by damage!
+        cast: You heal $target
+        cast_self: You heal yourself
+        upgrade_description: "Cooldown decreased"
+    healing:
+        name: Healing
+        description: Heal everyone around you
+        cast: You heal $target
+    cure:
+        name: Cure
+        description: Remove negative effects
+        cast: You cure $target
+        cast_self: You cure yourself
+        upgrade_description: "Now cures hunger"
+    cure|2:
+        upgrade_description: "Now removes wither and weakness"
+    cure|3:
+        upgrade_description: "Now negates Silence"
+    cure|4:
+        upgrade_description: "Now cures hunger"
+    cure|5:
+        upgrade_description: "Now cures zombie villagers"
+    music:
+        name: Music
+        description: Play some tunes
+        cast_player: You play some music for $name
+        cast_self: You play some music
+    airstrike:
+        name: Air Strike
+        description: Take out a nearby entity
+        cast_player_message: "a:&d&o$player &r&5called in an air strike on you"
+    supergather:
+        name: SuperGather
+        description: Capture players and teleport them
+        usage: Aim down to cycle targets, up to teleport to them
+        cast_to_player: Teleporting you to $target
+        cast_entity: Teleporting $target to your target
+        cast_player_message: "a:&d&o$player &r&5folded space"
+        target_selected: You captured $target
+        cancel: Released target
+    icbm:
+        name: ICBM
+        description: Cast an exploding fireball
+        cast: Look out!
+    neutron:
+        name: Neutron Bomb
+        description: Damage and stun all entities in a wide radius
+        cast: Kill all the things!
+        upgrade_description: "Increased radius"
+    shuriken:
+        name: Shuriken
+        description: Throw a bouncing projectile
+        upgrade_description: "Increased damage"
+    wave:
+        name: Wave
+        description: Unleash a concussive wave
+        upgrade_description: "Increased size and force"
+    weather:
+        name: Weather
+        description: Change the weather
+        cast: You stir up a storm
+        alternate: You calm the storm
+    fling:
+        name: Fling
+        description: Sends you flying in the target direction
+        upgrade_description: "Increased speed, reduced cooldown"
+    leap:
+        name: Leap
+        description: Take a big leap
+        cast: Whee!
+    torch:
+        name: Torch
+        description: Creates a torch or glowstone
+        no_target: Can't put a torch there
+        cast: Flame on!
+        upgrade_description: "Reduced cooldown"
+    monster:
+        name: Monster
+        description: Call a monster to your side
+        deactivate: You release your monster
+        cast: You summon a monster
+    mob:
+        name: Mob
+        description: Summon a mob of monsters
+        deactivate: You release your mob
+        cast: You summon $count monster(s)
+    portal:
+        name: Portal
+        description: Create a temporary portal
+        no_target: Can't create a portal there
+        cast: You create a temporary portal
+    phase:
+        name: Phase
+        description: Phase to another dimension
+        cancel: Phase interrupted!
+        cast: ""
+        teleport: You phase to $world_name
+        teleport_failed: Can't phase to $world_name from here
+    superphase:
+        name: SuperPhase
+        description: Phase yourself or others to another dimension
+        cast: ""
+        teleport: You phase $target to $world_name
+        teleport_failed: Can't phase $target to $world_name from here
+    phasebackup:
+        name: Phase to Backup
+        description: Check on the backup worlds
+        cast: ""
+        teleport: You phase to $world_name
+        teleport_failed: Can't phase to $world_name from here
+    invincible:
+        name: Invincible
+        description: Make yourself impervious to damage
+        cast: You feel invincible!
+        deactivate: You feel normal
+    inferno:
+        name: Inferno
+        description: Burn a wide area
+        cast: You burn $count blocks
+    bubble:
+        name: Bubble
+        description: Create a safety bubble
+        usage: Cast underneath yourself while falling
+        cast: Sploosh
+        upgrade_description: "Larger water bubble"
+    paint:
+        name: Paint
+        description: Fill a single block
+    gills:
+        name: Diving Helmet
+        description: Work freely underwater
+        cast: You put on your diving helmet
+        hat_name: Diving Helmet
+        hat_lore: Click to Remove
+    gasp:
+        name: Gasp
+        description: Take a deep breath while underwater
+        cast: GASP!
+    glide:
+        name: Glide
+        description: An Elytra in your pocket!
+        cast: Time to glide
+        wear_name: Collapsable Glider
+        war_lore: Click to Remove
+    arrowrain:
+        name: Arrow Rain
+        description: Fire a volley of arrows
+    arrowrain|2:
+        upgrade_description: "More, flaming arrows"
+    gatling:
+        name: Gatling Gun
+        description: Fire a stream of arrows
+        upgrade_description: "Longer fire time, shorter warmup"
+    meteor:
+        name: Meteor Shower
+        description: Fire death from above
+        cast: You rain fire from the heavens
+    bomb:
+        name: Carpet Bomb
+        description: Rain death from above
+        cast: You call in an air strike
+        upgrade_description: "More bombs!"
+    poison:
+        name: Poison
+        description: Poison your target
+        cast: You poison $target
+        upgrade_description: "Increased poison duration"
+    light:
+        name: Light
+        description: Light up the dark
+    lightning:
+        name: Lightning
+        description: Strike lighting at your target
+        cast: Ka-Zap!
+    lightning|2:
+        upgrade_description: "Increased accuracy"
+    lightning|3:
+        upgrade_description: "More lightning"
+        cast: Ka-POW!
+    smite:
+        name: Smite
+        description: Strike down your target
+        cast: You smite $target
+        upgrade_description: "Increased damage and blast radius"
+    nuke:
+        name: Nuke
+        description: Create a huge explosion
+        cast: YIKES!
+        upgrade_description: "Larger radius, more destruction"
+    day:
+        name: Sunny Day
+        description: Make it a lovely day
+        cast: What a pretty day!
+    night:
+        name: A Dark and Stormy Night
+        description: Make it dark and stormy
+        cast: Spoooooky
+    time:
+        name: Time
+        description: Change the time of day
+        cast: Changed time to $newtime
+    grenade:
+        name: Grenade
+        description: Toss a primed grenade
+    grenade|2:
+        upgrade_description: "Increased damage and fire"
+    cluster:
+        name: Cluster Bomb
+        description: Toss a splitting grenade
+        cast: You toss a cluster bomb
+        upgrade_description: "Cluster bomb splits into more bombs"
+    repairitem:
+        name: Repair Item
+        description: Repairs the target dropped item to full durability
+        no_target: Can't repair that
+        cast: Item repaired!
+    repairequipment:
+        name: Repair Equipment
+        description: Repairs the target player's equipment full durability
+        no_target: Nothing to repair
+        cast: Equipment repaired!
+    blast:
+        name: Blast
+        description: Explode weaker objects
+        cast_finish: Blasted $count blocks
+        upgrade_description: "Increased radius, breaks stronger blocks"
+    earthquake:
+        name: Earthquake
+        description: Create an earthquake
+        cast_finish: Quaked $count blocks
+    cloak:
+        name: Cloak
+        description: Make yourself invisible
+        cast: You turn your target invisible
+        cast_self: You turn yourself invisible
+    counterspell:
+        name: Counterspell
+        description: Counter target player's spell
+        usage: Only works on recently cast spells
+        cast: "&5You counter &d&o$target's&r&6 $spell &5cast"
+        cast_player_message: "a:&d&o$player &r&5countered your &3&o$spell &r&5cast!"
+        fail: Nothing to counter
+    counterspell|2:
+        upgrade_description: "No chance of fizzle"
+    push:
+        name: Push
+        description: Push things away from you
+        alternate: Get away!
+        upgrade_description: "Pushes with more force"
+    push|4:
+        upgrade_description: "Aim down and cast for area of effect alternate"
+    farm:
+        name: Herd
+        description: Create a herd
+        deactivate: You release your herd
+        cast: You summon $count farm animals
+    breach:
+        name: Breach
+        description: Temporarily destroy the target surface
+        cast_finish: Breached $count blocks
+        upgrade_description: "Size increased"
+    tesseract:
+        name: Tesseract
+        description: Blink a short distance
+        no_target: Can't go there
+    mine:
+        name: Mine
+        description: Mines and drops the targeted ores
+        cast_finish: Mined some ore
+        upgrade_description: "Mines more blocks"
+    mine|4:
+        upgrade_description: "Now mines full blocks"
+    mine|5:
+        upgrade_description: "Drops bonus items"
+    mine|6:
+        upgrade_description: "Drops bonus items"
+    chop:
+        name: Chop
+        description: Fell a tree in one cast
+        cast_finish: TIMBER!
+        upgrade_description: "Chops more blocks"
+    peek:
+        name: Peek
+        description: Temporarily glass the target surface
+        cast_finish: Glassed $count blocks
+        upgrade_description: "Window size increased"
+    sandblast:
+        name: Sandblast
+        description: Drop a big block of sand
+        cast_finish: Created $count falling sand blocks
+        upgrade_description: "Drops more sand"
+    fire:
+        name: Fire
+        description: Light fires from a distance
+        cast: You start a fire
+        upgrade_description: "Increased radius, longer burn time"
+    growth:
+        name: Growth
+        description: Make plants, crops and saplings grow instantly
+        upgrade_description: "Increased radius"
+    rainbow:
+        name: Rainbow
+        description: Send out a rainbow of love!
+    blob:
+        name: Blob
+        description: Create a solid blob
+        cast_finish: Blobbed $count blocks with $material
+    blob|2:
+        upgrade_description: "Now builds with clay"
+    blob|3:
+        upgrade_description: "Now builds with obsidian"
+    blob|4:
+        upgrade_description: "Now builds with your brush"
+    walls:
+        name: Walls
+        description: Create some walls around your target
+        cast_finish: Filled $count blocks with $material
+    tendril:
+        name: Tendril
+        description: Summon a tendril of darkness
+    repair:
+        name: Repair
+        description: Repair an area saved with Backup
+        cast_finish: Repaired $count blocks
+    emp:
+        name: EMP
+        description: Electrify the area
+        cast_finish: Electrified $count blocks
+    ghast:
+        name: Ghast
+        description: Summon a menacing Ghast
+    familiar:
+        name: Familiar
+        description: Create an animal familiar
+        cast: You summon a familiar
+        deactivate: You release your familiar
+    disintegrate:
+        name: Disintegrate
+        description: Damage your target
+        usage: Will destroy target block or entity
+        cast_entity: ZOT!
+        cast: ZAP!
+    blink:
+        name: Blink
+        description: Teleport to your target
+        no_target: Can't blink there
+        teleport_failed: Can't blink there
+        teleport: Blink!
+        cast: ""
+    blink|2:
+        upgrade_description: "Increased range"
+    blink|3:
+        upgrade_description: "Increased range, can ascend up to the surface"
+    blink|4:
+        upgrade_description: "Increased range, can descend through the ground"
+    blink|5:
+        upgrade_description: "Increased range, will pass through solid objects"
+    blink|6:
+        upgrade_description: "You can now Blink up into the air"
+    hat:
+        name: Hat
+        description: Wear your target
+        cast: You put $material on your head
+        removed: You remove your magical hat
+        hat_name: Hat of $hat
+        hat_lore: Will disappear if clicked
+        upgrade_description: "Increased duration"
+    wear:
+        name: Wear
+        description: Right-click to wear
+        cast: You put your item on your head
+    magichat:
+        name: Magic Hat
+        cast: ""
+        cast_nightvision: Your hat lights the way
+        cast_absorption: Your hat gives you a boost
+        cast_bunny: A bunny pops out!
+        cast_killer_bunny: Whoops, RUN!!!!!!
+        alternate: Your magic hat jumps onto your head
+    invisiblecloak:
+        name: Invisible Cloak
+        cast: You disappear in a puff of smoke!
+    stalactite:
+        name: Stalactite
+        description: Create a downward pillar
+        cast: You lower a pillar of $material
+        no_target: Can't pillar down any further
+    lava:
+        name: Lava
+        description: Fire a stream of lava
+        cast: You fire a stream of lava
+        upgrade_description: "More lava"
+    earth:
+        name: Earth
+        description: Construct a temporary line of blocks
+        cast: You summon a line of earth
+    flamethrower:
+        name: Flamethrower
+        description: Burn, baby, burn!
+        cast: You fire a stream of flame
+        upgrade_description: "Longer fire stream"
+    stash:
+        name: Stash
+        description: A place to keep your stuff
+        cast: You peek into your ender chest
+        cast_player: You peek into $target's ender chest
+    pickpocket:
+        name: Pickpocket
+        description: Steal from nearby players
+        cast_player: You peek into $target's inventory
+        cast_player_message: ""
+    workbench:
+        name: Workbench
+        description: Crafting on the go
+        cast: Get to work!
+    superlaser:
+        name: SuperLaser
+        description: Permanently destroy a line of blocks
+        cast_finish: Lasered $count blocks
+        upgrade_description: "Longer beam duration, breaks more types of blocks"
+    laser:
+        name: Laser
+        description: Destroy a line of blocks
+        cast_finish: Lasered $count blocks
+        upgrade_description: "Larger radius, increased damage"
+    stream:
+        name: Stream
+        description: Spray a stream of water
+        cast: You spray a stream of water
+        upgrade_description: "Increased damage and range"
+    wolf:
+        name: Wolf
+        description: Create some wolf familiars
+        cast: You summon a wolfie!
+        fail: Your wolfie is DOA
+    tent:
+        name: Tent
+        description: Create a minimal house
+        cast: You create a tent
+    cage:
+        name: Cage
+        description: Temporarily cage your target
+        cast: You trap your target
+    cat:
+        name: Cat
+        description: Create some cat familiars
+        cast: You summon a cat!
+        fail: Your cat is DOA.
+    shrink:
+        name: Shrink
+        description: Hurts and shrinks various things
+        usage: Must kill the target to receive skull
+        cast: Shrink!
+        cast_entity: You shrink $target
+    capture:
+        name: Capture
+        description: Captures the target entity into a spawn egg
+        cast: Catch 'em all!
+        cast_entity: You capture $target
+    grow:
+        name: Grow
+        description: Grows certain entities
+        cast: Grow!
+        cast_entity: You grow $target
+        no_target: You can't grow that!
+    flare:
+        name: Flare
+        description: Fire off flares
+        cast: You fire some magical flares
+    respawn:
+        name: Respawn
+        description: Return to spawn
+        cast: You teleport back to safety
+    gather:
+        name: Gather
+        description: Teleport you to other players
+        alternate_down_no_target: "&4No one is around"
+        no_target: |2-
+
+          &4No one is around to teleport to
+          &3Aim down and cast to send friend requests!
+        cast_to_player: Teleporting you to $target
+        cast_entity: Teleporting $target to your target
+        cast_player_message: "a:&d&o$player &r&5folded space"
+        cast_friend: Warping you to $name
+        no_target_friend: Invalid friend $name
+        title_friend: $name
+        add_friend: "&bYou have added &5$name &bas a &6Friend!"
+        remove_friend: "&cYou have removed &5$name &cas a &6Friend!"
+    recall:
+        name: Recall
+        cancel: Recall interrupted!
+        description: Teleport to different locations.
+        usage: Grants 5 seconds of protection on teleportation.
+        teleport: ""
+        teleport_failed: Recall failed
+        no_target: Can't place a marker there
+        cast_marker_place: You place a recall marker
+        cast_marker_move: You move your recall marker
+        cast_marker: Returning you to your marker
+        cast_death: Returning you to your last death location
+        cast_spawn: Returning you to spawn
+        cast_home: Returning you home
+        cast_wand: Returning you to your lost wand
+        cast_warp: Warping you to $name
+        cast_town: Warping you to your home town
+        cast_regions: Warping you to a protected area
+        cast_friend: Warping you to $name
+        no_target_death: No recorded death location
+        no_target_wand: No recorded lost wands
+        no_target_home: No home set
+        no_target_warp: Invalid warp $name
+        no_target_marker: No marker set
+        no_target_spawn: Can't recall to spawn
+        no_target_town: You're not in a town
+        no_target_regions: You have no homes
+        no_target_friend: Invalid friend $name
+        title_move_marker: "Move Marker #$number to Here"
+        description_move_marker: Replaces your current marker
+        title_marker: "Marker #$number"
+        description_marker: Aim down to move your marker
+        title_death: Last Death
+        description_death: Your last death location
+        title_friend: $name
+        title_warp: $name
+        title_spawn: Spawn
+        description_spawn: The current world's spawn location
+        title_home: Home
+        description_home: Your last sleep location
+        title_wand: Lost Wand
+        description_wand: A wand you've dropped on the ground
+        title_town: Town Square
+        description_town: The center of your home town
+        description_regions: A protected area
+        cross_world_disallowed: You are not allowed to Recall to another world
+        title: Choose Destination
+        move_marker_title: Move Marker
+        unlock_warp: "&bYou have unlocked &5$name &bas a &6Recall &bdestination!"
+        add_friend: "&bYou have added &5$name &bas a &6Recall &bdestination!"
+        remove_friend: "&cYou have removed &5$name &cas a &6Recall &cdestination!"
+        invalid_description: "\n&cThis location is invalid"
+        unavailable_description: "\n&eLevel up to unlock this"
+        unavailable_warp_description: "\n&eFind this location to unlock!"
+        unavailable_name: "&c$name"
+    recall|2:
+        upgrade_description: "Unlock last death location"
+    recall|3:
+        upgrade_description: "Unlock marker, aim down to set location."
+        usage: Has a 5-second warmup. Cast down to set a marker
+    recall|4:
+        upgrade_description: "Allows for a second marker"
+    recall|5:
+        upgrade_description: "Allows for a third marker"
+    warpunlock:
+      name: Unlock Warp
+      description: Useful in command blocks or region commands to unlock Recall waypoints when a player discovers an area
+      cooldown: ""
+    warpmenu:
+      name: Warp Menu
+      description: Essentially identical to Recall, can be used in NPCs or command blocks so players don't get cast credit for Recall when using a warp menu
+    levitate:
+        name: Levitate
+        description: Levitate yourself up into the air
+        cast: You feel lighter
+        cancel: You feel heavier
+        upgrade_description: "Fly faster and higher, reduced cooldown"
+        reactivate: Reactivating Levitate
+    levitate|6:
+        upgrade_description: "Unlimited height, cloud vanishes for visibility"
+    boom:
+        name: Boom
+        description: Create an explosion
+        cast: Boom!
+    boom|2:
+        upgrade_description: "Greater damage, breaks blocks"
+    force:
+        name: Force
+        description: Use telekinesis
+        usage: Cast to select and throw an entity
+        cancel: Released target
+        target_selected: You captured $target
+    dragonball:
+        name: Dragon Ball
+        description: Launch an ender dragon fireball.
+        usage: Be careful, don't fall into the dragon's breath!
+    fireball:
+        name: Fireball
+        description: Cast an exploding fireball
+    fireball|2:
+        upgrade_description: "Increased accuracy"
+    fireball|3:
+        upgrade_description: "Pinpoint accuracy and speed"
+    fireball|4:
+        upgrade_description: "Now starts fires"
+    wither:
+        name: Wither
+        description: Shoot wither skulls
+        upgrade_description: "More wither skulls"
+    map:
+        name: Map
+        description: Generate a map
+        cast: Here's a map!
+    camera:
+        name: Camera
+        description: Take a portrait of yourself or others
+        cast_target: You took a photo of $target
+        fail: Failed to load photo
+        cast: CLICK!
+        cast_self: Selfie!
+        cooldown: Camera is charging up
+    tornado:
+        name: Tornado
+        description: Spawn a destructive whirlwind
+        cast: Duck and cover!
+        upgrade_description: "Now destroys structures"
+    masterattack:
+        name: Master Blast
+        description: "A long-range attack that can only be performed when your health is full"
+        insufficient_resources: ""
+        cooldown: ""
+    missile:
+        name: Magic Missile
+        description: Fire a bolt of pure magic
+        cast_target: "a:Your missile deals $damage damage to $target"
+        cast_player_message: "a:$caster did $damage damage to you with $spell"
+        cast: You fire a missile
+        no_target: You fire a missile
+        upgrade_description: "Increased damage and range"
+    railgun:
+        name: Railgun
+        description: Blast through blocks and multiple targets
+        cast: You fire a rail at $target
+        no_target: You fire off a rail
+    testdummy:
+        name: Test Dummy
+        description: Spawn a poor test dummy
+    projectile:
+        name: Project I.L.E.
+        description: A spell for testing projectiles
+        cast: Launching projectile
+        cast_finish: Projectile hit
+        no_target_finish: Projectile miss
+    whip:
+        name: Whip
+        description: A magical whip of pure energy
+        cast: Crack!
+    sticky:
+        name: Sticky Bomb
+        description: Toss a sticky bomb that explodes after 5 seconds
+        cast: You toss a sticky bomb
+        upgrade_description: "More accurate, larger blast"
+    homing:
+        name: Homing Missile
+        description: Shoot a bolt of energy that will track your target
+        cast: You fire a homing missile at $target
+        lock_on: "&d&o$player&r&5 has locked on to you!"
+        cast_player_message: "a:&d&o$player&r&5's $spell hit you"
+        upgrade_description: "Faster missile, more damage"
+    fury:
+        name: Fury
+        description: Launch several homing missiles into the air
+        cast: You launch of a fury of missiles
+        cast_player_message: "a:&d&o$player&r&5's $spell hit you"
+        upgrade_description: "More missiles"
+    chainlightning:
+        name: Chain Lightning
+        description: Shoot a bolt of electricity that splits to hit multiple targets
+        cast: You create some chain lightning
+        cast_player_message: "a:&d&o$player&r&5's $spell hit you"
+        upgrade_description: "Chains to more targets"
+    blind:
+        name: Blind
+        description: Blind your target
+        cast: You blind $target
+        upgrade_description: "Blinds for longer"
+    pollinate:
+        name: Pollinate
+        description: Plant some flowers!
+        cast: Pollinate!
+    paste:
+        name: Paste
+        description: Pastes a full schematic
+        usage: For use with schematic brushes
+        cast_finish: Pasted $count blocks
+        no_action: Schematic loading, please try again!
+    kill:
+        name: Kill
+        description: Deal lethal damage to your target
+        cast_player_message: ""
+        cast: DIE!
+        upgrade_description: "Faster, larger projectile and shorter warmup"
+    superkill:
+        name: SuperKill
+        description: Kills your target, no questions asked
+        cast: SUPER DIE!
+    damage:
+        name: Damage
+        description: "A spell for testing different damage types.\nNote that the caster will not get credit for kills made with alternate vanilla damage types from other plugins since the damage source is lost."
+    torture:
+        name: Torture
+        description: Mercilessly torture your enemy
+        cast: Feel my wrath!
+        upgrade_description: "Increased damage and duration"
+    boomstown:
+        name: One-Way Ticket to Boomstown
+        description: Send your target packing to an explosive destination
+    rubberize:
+        name: Rubberize
+        description: Make the target area bouncy
+        cast: Time to bounce!
+    count:
+        name: Entity Counter
+        description: An admin tool to check for nearby entities
+    debugger:
+        name: Debugger
+        description: An admin tool to debug spells
+        cast: Debugging $target
+        deactivate: Disabled debug on $target
+        alternate_up: Disabled debug on all entities
+        alternate_down: Debugging yourself
+    superfly:
+        name: SuperFly
+        description: For videographers
+        cast: You feel lighter
+        cost_free: You feel heavier
+        reactivate: Reactivating SuperFly
+    petrify:
+        name: Petrify
+        description: Immobilize your target
+        cast: You petrify $target.
+        upgrade_description: "Increased duration"
+    polymorph:
+        name: Polymorph
+        description: Turn your target into a sheep
+        cast: You polymorph $target.
+        upgrade_description: "Increased duration"
+    entangle:
+        name: Entangle
+        description: Trap your target with ropes
+        cast: You trap $target.
+    wound:
+        name: Wound
+        description: Physically damage your target
+        cast: You slash $target.
+        upgrade_description: "Increased damage"
+    stun:
+        name: Stun
+        description: Stun and damage your target
+        cast: You throw a stun ball
+        upgrade_description: "Increased damage and stun duration"
+    webbing:
+        name: Web Attack
+        description: An annoying spider attack
+        cast_player_message: "a:&r&5You got caught in &d&o$player&r&5's web"
+    lift:
+        name: Lift
+        description: Lift up your target
+        cast: You lift $target.
+    rocket:
+        name: Rocket
+        description: Go for a wild ride
+        cast: Liftoff!
+    sponge:
+        name: Sponge
+        description: Suck up water in an area
+        cast: Slurp!
+    extinguish:
+        name: Extinguish
+        description: Put out fires in an area
+        cast: Flame off!
+    skills:
+        name: Skills
+        descriptions: Shows available skills, drag a skill to the hotbar to use it
+    upgrades:
+        name: Check Spell Progress
+        description: Shows progress in upgrading your current spells
+        fail: You must be holding a wand!
+        upgrade_name_change: "&r&4Upgrades: &r$name"
+        level_requirement: "&r&cRequires: &6$path"
+        cast_requirement: "&r&cCasts: &6$current&f/&e$required"
+        tags_requirement: "&r&cRequires: &6$tags"
+        confirm_title: "Change to $item"
+        title: "Spell Progress"
+    tracking:
+        name: Tracking Sense
+        description: Find nearby life
+        cast: You sense $target nearby
+        no_target: It's quiet ... too quiet!
+        upgrade_description: "Larger search radius"
+    tracking|4:
+        upgrade_description: "Sneak-cast to look only for players"
+    enchantwand:
+        name: Upgrade Wand
+        description: Add levels to your wand
+        no_wand: You must be holding a wand!
+        fail: ""
+    addspell:
+        name: Add Spell
+        description: Add a spell to your wand
+        no_upgrade: You may not learn with that $wand.
+        no_path: "You must be at least $path&r!"
+        no_path_end: "You must be ready to advance from $path&r!"
+        no_wand: You must be holding a wand!
+        no_target: You already know that spell
+        fail: ""
+    giveitem:
+        name: Give Item
+        description: Give an item to the player
+        cast: "You received $item"
+        cast_player_message: "a:You received $item from $player"
+        fail: ""
+    fillwand:
+        name: Fill Wand
+        description: Fill up your wand with all spells
+        no_wand: You must be holding a wand!
+        fail: ""
+    spellshop:
+        name: Learn Spells
+        title: "$path &rSpells ($balance&0)"
+        description: "Spend Spell Points to learn new spells.\nWhen you have learned all the required spells on your current path, you will rank up to the next path!"
+        no_items: There are no spells for you to buy here
+        no_path: You may not learn here.
+        no_upgrade: There is nothing more for you here.
+        no_required_path: "You must be at least $path&r!"
+        no_path_end: "You must be ready to advance from $path&r!"
+        no_wand: You must be holding a wand!
+        confirm_title: "Learn $item"
+        selected: "t:&r&6$item\n&d&oLearned\na:&r&d&o-&r&a$cost"
+        fail: ""
+    engineershop:
+        name: Engineer Shop
+        title: "Rollback ($balance&0)"
+        description: Unlock the Engineering level
+        confirm_title: "Upgrade to Engineer"
+        fail: ""
+    architectshop:
+        name: Architect Shop
+        title: "Absorb ($balance&0)"
+        description: Unlock the Architect level
+        confirm_title: "Upgrade to Architect"
+        fail: ""
+    conduitshop:
+        name: Conduit Shop
+        title: "Backup ($balance&0)"
+        description: Unlock the Conduit level
+        confirm_title: "Upgrade to Conduit"
+        fail: ""
+    bookshop:
+        name: Spellbook Shop
+        title: "Spell Books"
+        description: Get some spell books
+        cost_lore: "Free!"
+        confirm_title: "Get $item"
+        deducted: "&d&oYou received &r&6$item"
+    tweakshop:
+        name: Wand Tweak Shop
+        title: "Wand Tweaks"
+        description: Tweak Your Wand
+        cost_lore: "Free!"
+        not_applicable: Your wand already has $item
+        confirm_title: "Get $item"
+        deducted: "&d&oYou received &r&6$item"
+    progressmenu:
+        name: Magic Progress
+        title: "Magic Progress"
+        selected: ""
+        cast_fail: ""
+        no_template: "&cYou may not customize that $wand&c."
+    appearanceshop:
+        name: Wand Appearances
+        description: Change the look of your wand
+        title: "Wand Appearance ($balance&0)"
+        selected: "You changed to $item"
+        not_applicable: "Your wand already looks like $item"
+        no_template: "&cYou may not modify the appearance of $wand&c."
+    bowappearanceshop:
+        name: Bow Appearances
+        description: Change the look of your bow
+        title: "Bow Appearance ($balance&0)"
+        selected: "You changed to $item"
+        not_applicable: "Your bow already looks like $item"
+        no_template: "&cYou may not modify the appearance of $wand&c."
+    swordappearanceshop:
+        name: Sword Appearances
+        description: Change the look of your sword
+        title: "Sword Appearance ($balance&0)"
+        selected: "You changed to $item"
+        not_applicable: "Your sword already looks like $item"
+        no_template: "&cYou may not modify the appearance of $wand&c."
+    controlsmenu:
+        name: Wand Controls
+        description: Change how your wand works
+        title: Wand Controls
+        confirm_title: "Change to $item"
+        selected: "&d&oYou changed to &r&6$item"
+        no_template: "&cYou may not modify controls on $wand&c."
+    colorshop:
+        name: Effect Colors
+        description: Colorize your spell effects
+        title: "Effect Color ($balance&0)"
+        selected: "You changed to $item"
+    effectshop:
+        name: Wand Effects
+        description: Add particle effects to your wand
+        title: "Wand Effects ($balance&0)"
+        selected: "You changed to $item"
+        confirm_title: "$item"
+    upgradeshop:
+        name: Wand Upgrade Shop
+        title: "Wand Upgrades ($balance&0)"
+        description: Upgrade your wand
+        not_applicable: Your wand already has $item
+    emeraldshop:
+        name: Emerald Exchange
+        title: "Emeralds ($balance&0)"
+        description: Trade XP for Emeralds
+    withdrawals:
+      name: Withdrawals
+      description: Exchange money for precious metals and gems
+      cost_lore: "Withdraw $cost"
+      deducted: "&d&oYou withdrew &r&a$cost &r&d&oof &r&6$item"
+    deposits:
+      name: Deposits
+      description: Earn money for precious metals and gems
+      cost_lore: "Deposit $cost"
+      deducted: "&d&oYou deposited &r&a$cost &r&d&oof &r&6$item"
+    spshop:
+      name: SP Shop
+      description: Exchange money for Spell Points
+    lootshop:
+      name: Loot Shop
+      description: Earn money for mob drops
+      title: "Sell Drops ($balance&0)"
+    wandshop:
+        name: Wand Shop
+        title: "Wands ($balance&0)"
+        description: Buy Wands
+    mobshop:
+        name: Mob Shop
+        title: "Mobs ($balance&0)"
+        description: Buy Mob Eggs
+    spawnershop:
+        name: Spawner Shop
+        title: "Spawners ($balance&0)"
+        description: Buy Mob Spawners
+    broomshop:
+        name: Broom Shop
+        title: "Brooms ($balance&0)"
+        description: Buy Brooms
+    magicitemshop:
+        name: Magic Item Shop
+        title: "Magic Items ($balance&0)"
+        description: Buy Magic Items
+    itemshop:
+        name: Item Shop
+        title: "Shop ($balance&0)"
+        description: Buy Buy Buy!
+    buyshop:
+        name: Buy Shop
+        title: "Shop ($balance&0)"
+        description: Buy Buy Buy!
+    sellshop:
+        name: Sell Shop
+        title: "Sell ($balance&0)"
+        description: Sell Sell Sell!
+        insufficient: "&cRequires &4$cost"
+        confirm_title: "Sell $item"
+        deducted: "&d&oYou sold &r&6$item &r&d&ofor &r&a$earn"
+    fxdemo:
+        name: FX Demo
+        description: Show off various EffectLib effects
+    soundtest:
+        name: Custom Sound Demo
+        description: Listen to all of the custom sound FX built into the Magic resource pack
+    fx:
+        name: FX Particle
+        description: Show off a specific particle, use with /cast fx particle redstone
+    randomtp:
+      name: Random Teleport
+      description: Teleports you to a random location
+    note01:
+      name: 1 Note C Middle
+    note02:
+      name: 2 Note C#
+    note03:
+      name: 3 Note D
+    note04:
+      name: 4 Note D#
+    note05:
+      name: 5 Note E
+    note06:
+      name: 6 Note F
+    note07:
+      name: 7 Note F#
+    note08:
+      name: 8 Note G
+    note09:
+      name: 9 Note G#
+    note10:
+      name: 10 Note A
+    note11:
+      name: 11 Note A#
+    note12:
+      name: 12 Note B
+    note13:
+      name: 13 Note C Octave
+    note14:
+      name: 14 Note C#
+    note15:
+      name: 15 Note D
+    note16:
+      name: 16 Note D#
+    note17:
+      name: 17 Note E
+    note18:
+      name: 18 Note F
+    note19:
+      name: 19 Note F#
+    note20:
+      name: 20 Note G
+    note21:
+      name: 21 Note G#
+    note22:
+      name: 22 Note A
+    note23:
+      name: 23 Note A#
+    note24:
+      name: 24 Note B
+    trinketshop:
+      title: "Trinkets ($balance&0)"
+    airscooter:
+      name: Air Scooter
+      description: Travel in style on a cushion of air
+    disposal:
+      name: Disposal
+      description: Permanently destroy unwanted items
+    projector:
+      name: Projector
+      description: It's-a Me!
+    sweep:
+      name: Sweep
+      description: A powerful 360 degree attack
+    dash:
+      name: Dash
+      description: Run forward, damaging all in your path
+    throwsword:
+      name: Throw Sword
+      description: Throw your sword at your enemy
+    boomerang:
+      name: Boomerang
+      description: Throw a boomerange- it always comes back!
+    evade:
+      name: Evade
+      description: Randomly teleport to a nearby location
+    backflip:
+      name: Backflip
+      description: Quickly move backwards to evade your foes
+      fail: "a:There's nowhere to go!"
+    equation:
+      name: Equation Tester
+      description: "Edit spells.yml to test your equations, by adding\nequation:\n  parameters:\n    equation: \"attribute * 5\""
+    add_protection:
+      name: Add Protection
+      description: "Adds protection from all damage types to your wand.\nThis protection is only active while you are holding your wand."
+    add_fall_protection:
+      name: Add Fall Protection
+      description: "Adds protection from falling to your wand.\nThis protection is only active while you are holding your wand."
+    add_fire_protection:
+      name: Add Fire Protection
+      description: "Adds protection from fire to your wand.\nThis protection is only active while you are holding your wand."
+    add_physical_protection:
+      name: Add Physical Protection
+      description: "Adds protection from physical attacks to your wand.\nThis protection is only active while you are holding your wand."
+    add_projectile_protection:
+      name: Add Projectile Protection
+      description: "Adds protection from physical projectiles to your wand.\nThis protection is only active while you are holding your wand."
+    add_explosion_protection:
+      name: Add Explosion Protection
+      description: "Adds protection from explosions to your wand.\nThis protection is only active while you are holding your wand."
+    add_damage:
+      name: Increase Damage
+      description: "Increases the amount of damage done when hitting something with your weapon (not spell casting)."
+    add_sharpness:
+      name: Sharpen Sword
+      description: "Add the sharpness enchantment to your magic sword."
+    magictorch:
+      name: Magic Torch
+      description: A light that follows you around
+    wandbuffshop:
+      name: Wand Buffs
+      description: "Add buffs to your wand.\nThese are only active while you are holding your wand."
+      cast_fail: "&cYou are maxed out on that buff!"
+      selected: "&d&oYou bought &r&6$item &r&d&ofor &r&a$cost"
+      no_template: "&cYou may not add this buff to your $wand&c."
+    mute:
+      name: Mute
+      description: Mute the target player
+    nobabies:
+      name: No Babies
+      description: Make all baby mobs grow up into adults
+    vanish:
+      name: Vanish
+      description: Make yourself completely invisible to other players.
+    ledger:
+      name: Ledger
+      title: Ledger
+      header: "&2&lBalances"
+      currency_prefix: "&7&l"
+      value_prefix: "&0"
+    kamikaze:
+      name: Kamikaze
+      description: Spawn a mob that explodes on death
+    decoy:
+      name: Decoy
+      description: Hide behind a clone
+    piggyback:
+      name: Piggyback
+      description: Who's riding what, now?
+    snap:
+      name: THE SNAP
+      descrition: Snap away half the life on this world
+    powerstone:
+      name: Power Stone
+      description: Unleash a devastating shockwave of power
+    reset:
+      name: Player Reset
+      title: Reset Player?
+      selected_free: "You reset your player data"
+      confirm_title: "REALLY Sure?"
+    aqualung:
+      name: Aqualung
+      description: One last big breath
+      usage: Refills air one time when you run out
+    critical:
+      name: Critical
+      description: A chance to deal some extra damage
+      upgrade_description: "Improved chances of critical"

@@ -1,0 +1,22 @@
+burping_potion_ability:
+  icon: potion:A52A2A
+  category: specialty
+  hidden: true
+  effects:
+    burp:
+      - class: EffectSingle
+        location: origin
+        sound: entity_player_burp
+        sound_volume: 10
+  actions:
+    cast:
+      - class: Repeat
+        actions:
+          - class: PlayEffects
+          - class: Delay
+  parameters:
+    cooldown_mage: 2000
+    bypass_confusion: true
+    repeat: 4
+    effect: burp
+    delay: 1000

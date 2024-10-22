@@ -1,0 +1,23 @@
+{
+  "__comment": "Symbols are stored here.",
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/iron_axe"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data":1}, "model":"item/potterplus/symbols/arrow_down"},
+    {"predicate": {"custom_model_data":2}, "model":"item/potterplus/symbols/arrow_left"},
+    {"predicate": {"custom_model_data":3}, "model":"item/potterplus/symbols/arrow_right"},
+    {"predicate": {"custom_model_data":4}, "model":"item/potterplus/symbols/arrow_up"},
+    {"predicate": {"custom_model_data":5}, "model":"item/potterplus/symbols/ac"},
+    {"predicate": {"custom_model_data":6}, "model":"item/potterplus/symbols/cc"},
+    {"predicate": {"custom_model_data":7}, "model":"item/potterplus/symbols/ellipses"},
+    {"predicate": {"custom_model_data":8}, "model":"item/potterplus/symbols/exclamation_gold"},
+    {"predicate": {"custom_model_data":9}, "model":"item/potterplus/symbols/exclamation_white"},
+    {"predicate": {"custom_model_data":10}, "model":"item/potterplus/symbols/no"},
+    {"predicate": {"custom_model_data":11}, "model":"item/potterplus/symbols/yes"},
+    {"predicate": {"custom_model_data":12}, "model":"item/potterplus/symbols/mxp"},
+    {"predicate": {"custom_model_data":13}, "model":"item/potterplus/symbols/question_gold"},
+    {"predicate": {"custom_model_data":14}, "model":"item/potterplus/symbols/question_white"}
+  ]
+}

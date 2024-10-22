@@ -1,0 +1,75 @@
+colorshop:
+    icon: red_dye{CustomModelData:18001}
+    icon_disabled: red_dye{CustomModelData:18002}
+    legacy_icon: spell_icon:125
+    legacy_icon_disabled: spell_icon_disabled:125
+    icon_url: http://textures.minecraft.net/texture/4e693cf3b7bf83248527aacc2714638b55587cde593963d1f861884f5be1638
+    category: npc
+    hidden: true
+    actions:
+        cast:
+        -  class: Selector
+    parameters:
+        quiet: true
+        confirm_filler: stained_glass:9
+        confirm: true
+        requirements:
+        - holding_wand: true
+        cost_type: sp
+        unlock_section: wand_colors
+        show_unavailable: true
+        apply_to_wand: true
+        options:
+        - item: redeffects
+          cost: 200
+          unlock: "red"
+        - item: greeneffects
+          cost: 200
+          unlock: "green"
+        - item: blueeffects
+          cost: 200
+          unlock: "blue"
+        - item: lightblueeffects
+          cost: 200
+          unlock: "lightblue"
+        - item: aquaeffects
+          cost: 200
+          unlock: "aqua"
+        - item: whiteeffects
+          cost: 200
+          unlock: "white"
+        - item: blackeffects
+          cost: 200
+          unlock: "black"
+        - item: purpleeffects
+          cost: 200
+          unlock: "purple"
+        - item: yelloweffects
+          cost: 200
+          unlock: "yellow"
+        - item: orangeeffects
+          cost: 200
+          unlock: "orange"
+        - item: pinkeffects
+          cost: 200
+          unlock: "pink"
+        - item: magentaeffects
+          cost: 200
+          unlock: "magenta"
+        - item: grayeffects
+          cost: 200
+          unlock: "gray"
+        - item: lightgrayeffects
+          cost: 200
+          unlock: "lightgray"
+        - item: browneffects
+          cost: 200
+          unlock: "brown"
+        - item: darkgreeneffects
+          cost: 200
+          unlock: "darkgreen"
+        - item: none
+        - item: randomeffects
+          selected: "You randomized your effect color"
+          cost: 20
+

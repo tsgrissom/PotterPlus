@@ -1,0 +1,58 @@
+tag:
+    icon: oak_sign{CustomModelData:18003}
+    icon_disabled: oak_sign{CustomModelData:18004}
+    legacy_icon: spell_icon:29
+    legacy_icon_disabled: spell_icon_disabled:29
+    icon_url: http://textures.minecraft.net/texture/c5acc4b5a7079df3f51cd9388508a5860fc60e9bcde97f9abee62b457d7e
+    category: dark
+    class: SignSpell
+    tags: noduel
+    worth: 20
+    earns_sp: 1
+    effects:
+        cast:
+        -  sound: block_wood_place
+           sound_pitch: 0.1
+           sound_volume: 2
+           location: target
+        -  sound: block_fire_extinguish
+           sound_pitch: 0.3
+        -  class: EffectTrail
+           particle: crit
+           particle_count: 20
+           particle_offset_x: 0.1
+           particle_offset_y: 0.1
+           particle_offset_z: 0.1
+        -  class: EffectSingle
+           location: target
+           target_offset: 0,3,0
+           color_override: color
+           effectlib:
+             class: TextEffect
+             text: $target
+             iterations: 10
+             period: 4
+             particle: redstone
+        -  class: EffectSingle
+           location: target
+           target_offset: 0,3,0
+           effectlib:
+             class: TextEffect
+             text: $target
+             iterations: 1
+             period: 4
+             particle_count: 3
+             particle: fireworks_spark
+    parameters:
+        target_type: Player
+        allow_max_range: false
+        display_name: true
+        prefix: "&d"
+        range: 32
+        cooldown: 30000
+        transparent: transparent_to_construction
+        loud: true
+    costs:
+        mana: 20
+        sign: 1
+

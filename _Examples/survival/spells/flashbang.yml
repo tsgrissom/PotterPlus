@@ -1,0 +1,123 @@
+flashbang:
+    icon: soul_campfire{CustomModelData:18001}
+    icon_disabled: soul_campfire{CustomModelData:18002}
+    legacy_icon: spell_icon:58
+    legacy_icon_disabled: spell_icon_disabled:58
+    icon_url: http://textures.minecraft.net/texture/964590674dbaf76126bd87694bfe97575be8de19aac4a8d9aa5579f8f01ed1
+    example_thumbnail: https://thumbs.gfycat.com/FearlessSeriousBorer-size_restricted.gif
+    example_link: https://thumbs.gfycat.com/FearlessSeriousBorer
+    category: combat
+    pvp_restricted: true
+    worth: 50
+    earns_sp: 10
+    upgrade_required_path: student
+    upgrade_required_casts: 50
+    actions:
+        cast:
+        - class: CustomProjectile
+          actions:
+          - class: AreaOfEffect
+            actions:
+            - class: Asynchronous
+              actions:
+              - class: PotionEffect
+              - class: Repeat
+                repeat: 5
+                actions:
+                - class: PlaySound
+                  sound: "magic.ringing"
+                  volume: 0.7
+                  radius: 0
+                - class: Delay
+                  delay: 700
+              - class: PlaySound
+                sound: "magic.ringing"
+                volume: 0.5
+                radius: 0
+              - class: Delay
+                delay: 700
+              - class: PlaySound
+                sound: "magic.ringing"
+                volume: 0.2
+                radius: 0
+              - class: Delay
+                delay: 700
+              - class: PlaySound
+                sound: "magic.ringing"
+                volume: 0.1
+                radius: 0
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: magic.bonk
+           sound_pitch: 0.2
+           sound_volume: 0.3
+           location: origin
+        -  sound: item.trident.throw
+           sound_pitch: 0.8
+        tick:
+        - location: target
+          particle_count: 10
+          particle: end_rod
+          particle_offset_x: 0.1
+          particle_offset_y: 0.1
+          particle_offset_z: 0.1
+        hit:
+        -  particle: flash
+        -  class: EffectSingle
+           location: target
+           color: CC9933
+           firework: burst
+           sound: entity_generic_explode
+           effectlib:
+             class: SphereEffect
+             iterations: 70
+             particle: redstone
+             color: 0A2A0A
+             radius: 2
+             particles: 20
+        -  location: target
+           effectlib:
+             class: Modified
+             duration: $duration
+             parameters:
+               radius: "(t/i)*6"
+             effect:
+               class: SphereEffect
+               particle: smoke_large
+               particles: 20
+               particle_count: 10
+               particle_offset_x: 0.5
+               particle_offset_y: 0.5
+               particle_offset_z: 0.5
+        reflect:
+        - sound: item.trident.throw
+          sound_pitch: 1.3
+          sound_volume: 0.5
+          location: target
+        - class: EffectSingle
+          location: target
+          particle: fireworks_spark
+          particle_count: 3
+          particle_offset_x: 0.1
+          particle_offset_y: 0.1
+          particle_offset_z: 0.1
+          sound: magic.bonk
+          sound_volume: 0.3
+    parameters:
+      undo: 10000
+      duration: 8000
+      effect_blindness: 1
+      effect_night_vision: 1
+      radius: 5
+      target_self_timeout: 2000
+      cooldown: 10000
+      speed: 1
+      lifetime: 3000
+      velocity: 10
+      reflective: solid
+      gravity: 0.05
+      hit_on_miss: true
+    costs:
+        mana: 50
+

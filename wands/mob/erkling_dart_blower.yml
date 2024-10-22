@@ -1,0 +1,21 @@
+erklingdartblower:
+  inherit: base_wand
+  icon: stick
+  bound: false
+  indestructible: false
+  undroppable: false
+  unstashable: false
+  locked: true
+  uses: 15
+  active_spell: erkling_dart
+  spells:
+    - erkling_dart
+    - erkling_poisoned_dart
+    - erkling_freezing_dart
+    - erkling_weakening_dart
+    - erkling_flaming_dart
+  display_name: $name
+  lore:
+    - '$description'
+    - ''
+    - '$uses'

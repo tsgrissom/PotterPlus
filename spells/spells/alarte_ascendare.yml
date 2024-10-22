@@ -1,0 +1,55 @@
+alarteascendare:
+  icon: diamond_axe{CustomModelData:101}
+  icon_disabled: diamond_hoe{CustomModelData:101}
+  category: charms
+  worth: 10 ac
+  upgrade_required_path: year2
+  upgrade_required_casts: 25
+  tags: nojail
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Velocity
+  effects:
+    cast:
+      - class: EffectSingle
+        location: origin
+        sound: magic.zap_up
+    tick:
+      - class: EffectSingle
+        location: target
+        particle: spell
+        particle_count: 3
+        particle_offset_x: 0.1
+        particle_offset_y: 0.1
+        particle_offset_z: 0.1
+  parameters:
+    target: other
+    target_type: LivingEntity
+    cooldown: 15000
+    range: 16
+    velocity: 25
+    living_entity_speed: 1
+    y_offset: "rand(0.5, 0.75)"
+  costs:
+    mana: 20
+
+alarteascendare|2:
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
+  parameters:
+    range: 24
+    velocity: 50
+    y_offset: "rand(0.75, 1)"
+
+alarteascendare|3:
+  upgrade_required_path: year4
+  upgrade_required_casts: 75
+  parameters:
+    range: 32
+    y_offset: "rand(1, 1.25)"
+
+alarteascendare|4:
+  parameters:
+    y_offset: "rand(1.25, 1.5)"

@@ -1,0 +1,17 @@
+impervius:
+  worth: 15 ac
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.shimmer
+        location: origin
+        effectlib:
+          class: Cone
+          iterations: 10
+          particle: water_drop
+          lengthGrow: 0.3
+          radiusGrow: 0.03
+          updateLocations: false
+          updateDirections: false
+  parameters:
+    cooldown: 12000

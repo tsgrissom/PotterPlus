@@ -1,0 +1,164 @@
+heal:
+    icon: apple{CustomModelData:18001}
+    icon_disabled: apple{CustomModelData:18002}
+    legacy_icon: spell_icon:45
+    legacy_icon_disabled: spell_icon_disabled:45
+    icon_url: http://textures.minecraft.net/texture/6b7da98ef45cf45185d21d61f5fa3d5966a3ee52273620a6e4dfd54cf99dbc
+    category: light
+    upgrade_required_path: student
+    upgrade_required_casts: 50
+    worth: 300
+    earns_sp: 2
+    actions:
+        cast:
+        - class: Repeat
+          actions:
+          - class: Delay
+          - class: Heal
+    effects:
+        cast:
+        - sound: entity_generic_drink
+          sound_pitch: 0.1
+          sound_volume: 0.4
+        - sound: block_beacon_activate
+          sound_pitch: 0.1
+          sound_volume: 1.4
+        - sound: entity_generic_drink
+          sound_pitch: 0.3
+          sound_volume: 0.2
+          location: target
+        - class: EffectSingle
+          sound: magic.shimmer
+          effectlib:
+            class: ConeEffect
+            iterations: 5
+            lengthGrow: .12
+            particle: heart
+        - class: EffectSingle
+          sound: magic.shimmer
+          location: target
+          effectlib:
+            class: Modified
+            period: 16
+            duration: $total_duration
+            parameters:
+              radius: "(t/i) * 1.5 + 1.5"
+              rings: "(1 - (t/i)) * 3 + 1"
+            effect:
+              class: WarpEffect
+              particle: heart
+              particles: 8
+              grow: 0.5
+        - class: EffectSingle
+          location: target
+          effectlib:
+            class: Modified
+            period: 2
+            duration: $total_duration
+            parameters:
+              radius: "(t/i) * 0.5 + 1"
+              rings: "(1 - (t/i)) * 11 + 1"
+            effect:
+              class: WarpEffect
+              particle: end_rod
+              particles: 7
+        - class: EffectSingle
+          effectlib:
+            class: LineEffect
+            particle: end_rod
+            duration: 500
+            particles: 10
+            particle_count: 4
+            particle_offset_x: 0.1
+            particle_offset_y: 0.1
+            particle_offset_z: 0.1
+        - class: EffectSingle
+          effectlib:
+           class: LineEffect
+           particle: heart
+           duration: 1000
+           particles: 4
+           particle_count: 2
+           particle_offset_x: 0.1
+           particle_offset_y: 0.1
+           particle_offset_z: 0.1
+           period: 4
+        cast_self:
+        - sound: entity_generic_drink
+          sound_pitch: 0.1
+          sound_volume: 0.4
+        - sound: block_beacon_activate
+          sound_pitch: 0.1
+          sound_volume: 1.4
+        - class: EffectSingle
+          sound: magic.shimmer
+          location: target
+          effectlib:
+            class: Modified
+            period: 16
+            duration: $total_duration
+            parameters:
+              radius: "(t/i) * 1.5 + 1.5"
+              rings: "(1 - (t/i)) * 3 + 1"
+            effect:
+              class: WarpEffect
+              particle: heart
+              particles: 8
+              grow: 0.5
+        - class: EffectSingle
+          location: target
+          effectlib:
+           class: Modified
+           period: 2
+           duration: $total_duration
+           parameters:
+             radius: "(t/i) * 0.5 + 1"
+             rings: "(1 - (t/i)) * 11 + 1"
+           effect:
+             class: WarpEffect
+             particle: end_rod
+             particles: 7
+        cast_finish:
+        -  sound: block_beacon_activate
+           sound_pitch: 1.2
+           sound_volume: 0.5
+           location: both
+        -  class: EffectSingle
+           custom_sound: magic.shimmer_quiet
+           sound_pitch: 5
+           location: origin
+           effectlib:
+             class: AnimatedBall
+             duration: 200
+             particle: heart
+             size: 3
+    parameters:
+        cancel_on_damage: 0.5
+        cancel_on_cast_other: true
+        delay: 500
+        repeat: 10
+        total_duration: 5000
+        target_type: LivingEntity
+        target: any_entity
+        allow_max_range: false
+        range: 8
+        cooldown: 20000
+        bypass_pvp: true
+        bypass_friendly_fire: true
+        only_friendly: true
+        hitbox: true
+        amount: 1
+    costs:
+        mana: 50
+
+heal|2:
+    upgrade_required_path: apprentice
+    upgrade_required_casts: 50
+    parameters:
+        range: 32
+        cooldown: 15000
+
+heal|3:
+    parameters:
+        cooldown: 10000
+

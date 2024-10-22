@@ -1,0 +1,10 @@
+extinguisher:
+    mode: cast
+    legacy_icon: wand_icon:32
+    icon: stick{CustomModelData:18032}
+    indestructible: true
+    undroppable: true
+    spells: extinguish
+    uses: 10
+    cost_reduction: 2
+    locked: true

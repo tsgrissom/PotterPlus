@@ -1,0 +1,62 @@
+shrink:
+    icon: red_mushroom{CustomModelData:18001}
+    icon_disabled: red_mushroom{CustomModelData:18002}
+    legacy_icon: spell_icon:146
+    legacy_icon_disabled: spell_icon_disabled:146
+    icon_url: http://textures.minecraft.net/texture/dd91c092cb93f6f4152629a02ddf617557381a16694a46eba3468446363c08e
+    category: combat
+    worth: 750
+    earns_sp: 8
+    actions:
+      cast:
+      - class: CustomProjectile
+        actions:
+        - class: ShrinkEntity
+    effects:
+        cast:
+        -  sound: entity_enderman_teleport
+           sound_pitch: 0.1
+           sound_volume: 0.5
+           location: origin
+           effectlib:
+             class: ConeEffect
+             iterations: 11
+             particle: spell_instant
+             lengthGrow: 0.4
+             particle_count: 10
+             particle_offset_x: 0.2
+             particle_offset_y: 0.2
+             particle_offset_z: 0.2
+        hit:
+        - sound: block_beacon_deactivate
+          sound_pitch: 1.9
+          sound_volume: 0.9
+          location: both
+        - class: EffectSingle
+          location: target
+          sound: entity_enderman_teleport
+          sound_pitch: 0.2
+          sound_volume: 0.8
+          effectlib:
+           class: Modified
+           iterations: 30
+           parameters:
+            radius: "max(1, (1 - (t / i)) * 5 - 2)"
+           effect:
+             class: Sphere
+             particle: redstone
+             color: "F0C0F0"
+    parameters:
+        velocity: 500
+        hitbox: true
+        target_type: LivingEntity
+        target: other_entity
+        allow_max_range: false
+        range: 16
+        player_damage: 1
+        entity_damage: 4
+        target_breakables: 1
+        cooldown: 15000
+    costs:
+        mana: 75
+

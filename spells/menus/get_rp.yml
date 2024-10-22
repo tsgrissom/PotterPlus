@@ -1,0 +1,22 @@
+menu_getrp:
+  icon: emerald
+  category: npc
+  hidden: true
+  actions:
+    cast:
+      - class: Selector
+  parameters:
+    auto_close: true
+    options:
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - icon: green_stained_glass
+        name: "&aYes, I would like the resource pack"
+        command: "sudo @pn getrp"
+      - icon: name_tag
+        name: "&6Server Resource Pack"
+        lore:
+          - "&7Do you want the server resource pack?"
+      - icon: red_stained_glass
+        name: "&cNo, I do not want the resource pack"

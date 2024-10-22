@@ -1,0 +1,10 @@
+bundimun_spawner:
+  inherit: base_spawner
+  interval: 3000
+  spawn:
+    limit: 3
+    probability: 0.8
+    mobs:
+      none: 60
+      bundimun: 30
+      huge_bundimun: 10

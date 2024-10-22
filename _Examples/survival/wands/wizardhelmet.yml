@@ -1,0 +1,12 @@
+wizardhelmet:
+    icon: chainmail_helmet
+    locked: true
+    keep: true
+    mana_max_boost: 0.1
+    mana_regeneration_boost: 0.05
+    passive: true
+    enchantable: true
+    hide_flags: 0
+    protection:
+      magic: 0.1
+      drowning: 0.2

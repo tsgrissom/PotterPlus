@@ -1,0 +1,84 @@
+liberacorpus:
+  category: charms
+  icon: diamond_axe{CustomModelData:262}
+  icon_disabled: diamond_hoe{CustomModelData:262}
+  worth: 10 ac
+  upgrade_required_casts: 15
+  upgrade_required_path: year6
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.shimmer
+        use_wand_location: false
+        source_location: feet
+        effectlib:
+          class: Warp
+          particle: redstone
+          color: 8A2BE2
+          duration: 5000
+          rings: 10
+          particles: 30
+  actions:
+    cast:
+      - class: AreaOfEffect
+        actions:
+          - class: Undo
+      - class: PotionEffect
+  costs:
+    mana: 30
+  parameters:
+    fizzle_chance: 0.5
+    radius: 20
+    remove_effects:
+      - levitation
+    target_spell: levicorpus
+    target: self
+    cooldown: 8000
+
+liberacorpus|2:
+  upgrade_required_casts: 25
+  upgrade_required_path: year6
+  parameters:
+    fizzle_chance: 0.45
+
+liberacorpus|3:
+  upgrade_required_casts: 50
+  upgrade_required_path: year7
+  parameters:
+    fizzle_chance: 0.4
+
+liberacorpus|4:
+  upgrade_required_casts: 60
+  ugprade_required_path: year7
+  parameters:
+    fizzle_chance: 0.35
+
+liberacorpus|5:
+  upgrade_required_casts: 75
+  upgrade_required_path: graduate
+  parameters:
+    fizzle_chance: 0.3
+
+liberacorpus|6:
+  upgrade_required_casts: 90
+  parameters:
+    fizzle_chance: 0.25
+
+liberacorpus|7:
+  upgrade_required_casts: 100
+  parameters:
+    fizzle_chance: 0.2
+
+liberacorpus|8:
+  upgrade_required_casts: 115
+  parameters:
+    fizzle_chance: 0.15
+
+liberacorpus|9:
+  upgrade_required_casts: 130
+  parameters:
+    fizzle_chance: 0.1
+
+liberacorpus|10:
+  parameters:
+    fizzle_chance: 0

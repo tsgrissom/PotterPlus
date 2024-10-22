@@ -1,0 +1,69 @@
+currency:
+  description: ""
+  item_name: >-
+    &7$amount &6$type &8(Right-click)
+  limit: " &4&lX &cThe limit for &4$type &cis &4$amount&c"
+  deposited: ""
+  earned: |-
+    &8
+    &8| &a&l+ &7You have obtained &e$earned
+    &8
+  galleon:
+    amount: >-
+      &6$amount Galleons
+    name: >-
+      &6Galleons
+  ac:
+    amount: >-
+      &d$amount AC
+    name: >-
+      &dAcademic Credits
+    description: >-
+      &7AC can be spent at a &eSpell Teacher &7to learn new spells&8.
+      &7You can obtain them by completing classes&8.
+  cc:
+    amount: >-
+      &5$amount CC
+    name: >-
+      &5Completion Credits
+    description: >-
+      &7CC can be spent at a &eRequired Spell Teacher &7to learn required spells
+      for each year&8. &7You can obtain them by completing the
+      questline for your year&8.
+  mobxp:
+    amount: >-
+      &c$amount Mob XP
+    name: >-
+      &cMob XP
+    description: >-
+      &7Mob XP can be obtained by fighting creatures and traded to
+      obtain other things&8.
+
+economy:
+  insufficient: >-
+    &4Costs&8: &7$cost
+
+shops:
+  cost_lore: |-
+    &8| &a&lCosts
+    &8| &2- &r$cost
+  insufficient: |-
+    &8| &4&lCosts
+    &8| &c- &r$cost
+  required_cost_lore: |-
+    &8| &4&lCosts
+    &8| &c- &r$cost
+  deducted: |-
+    &8
+    &8| &6&lPURCHASE
+    &8|&8&m-------------------------------------------------------------------
+    &8| &a&l+ &7Item&8: &r$item
+    &8| &c&l- &7Cost&8: &r$cost
+    &8
+  selected: |-
+    &8
+    &8| &6&lPURCHASE
+    &8|&8&m-------------------------------------------------------------------
+    &8| &a&l+ &7Item&8: &r$item
+    &8| &c&l- &7Cost&8: &r$cost
+    &8

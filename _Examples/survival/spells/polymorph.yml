@@ -1,0 +1,65 @@
+polymorph:
+    icon: pufferfish_bucket{CustomModelData:18001}
+    icon_disabled: pufferfish_bucket{CustomModelData:18002}
+    legacy_icon: spell_icon:176
+    legacy_icon_disabled: spell_icon_disabled:176
+    icon_url: http://textures.minecraft.net/texture/7e453aa5908121dcf1cd8cf9f04459741f7879d99c01fb71bf243c25c3188
+    category: combat
+    worth: 300
+    earns_sp: 8
+    requires: LibsDisguises
+    actions:
+      cast:
+      - class: CustomProjectile
+        actions:
+        - class: Disguise
+        - class: PotionEffect
+    effects:
+        cast:
+        -  sound: block_beacon_power_select
+           sound_pitch: 1.8
+           sound_volume: 0.6
+        -  class: EffectSingle
+           sound: magic.zap_big
+        -  class: EffectSingle
+           sound: magic.zap
+        tick:
+        - location: target
+          particle: fireworks_spark
+          particle_count: 3
+          particle_offset_x: 0.11
+          particle_offset_y: 0.11
+          particle_offset_z: 0.11
+        hit:
+        - class: EffectSingle
+          location: target
+          color: F5EFFB
+          firework: ball
+        - class: EffectSingle
+          sound: block_note_block_chime
+          sound_pitch: 0.2
+          sound_volume: 2
+          location: target
+          requires_entity_target: true
+          particle_override: particle_orbital
+          effectlib:
+             class: AtomEffect
+             particle_nucleus: fireworks_spark
+             particle_orbital: fireworks_spark
+             iterations: 40
+    costs:
+        mana: 150
+    parameters:
+        velocity: 150
+        range: 48
+        disguise:
+          type: sheep
+        target_type: LivingEntity
+        target_breakables: 1
+        target: other
+        undo: 20000
+        duration: 20000
+        effect_slow: 2
+        hitbox: true
+        cooldown: 30000
+

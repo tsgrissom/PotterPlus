@@ -1,0 +1,5 @@
+pompionpotion:
+  icon: potion:e8971e
+  right_click: cast
+  active_spell: pompion_potion_ability
+  uses: 1

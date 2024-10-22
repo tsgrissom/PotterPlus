@@ -1,0 +1,83 @@
+night:
+    icon: gray_dye{CustomModelData:18001}
+    icon_disabled: gray_dye{CustomModelData:18002}
+    legacy_icon: spell_icon:85
+    legacy_icon_disabled: spell_icon_disabled:85
+    icon_url: http://textures.minecraft.net/texture/15f1fe5d5cc447e215243b4cf0b4eb56331f1b4f40909bb91a2963929ef1c2
+    example_thumbnail: https://thumbs.gfycat.com/VillainousInfantileEmeraldtreeskink-size_restricted.gif
+    example_link: https://thumbs.gfycat.com/VillainousInfantileEmeraldtreeskink
+    category: elemental
+    quick_cast: true
+    worth: 800
+    earns_sp: 5
+    actions:
+        cast:
+        - class: Delay
+        - class: Time
+        - class: Weather
+        - class: PlayEffects
+          effects: done
+    effects:
+        done:
+        - sound: block_beacon_deactivate
+          sound_pitch: 0.1
+          sound_volume: 1.3
+        cast:
+        - sound: block_beacon_deactivate
+          sound_pitch: 1.5
+          sound_volume: 1.8
+        - sound: block_beacon_deactivate
+          sound_pitch: 0.4
+          sound_volume: 1.3
+        - sound: magic.shimmer
+          location: source
+          effectlib:
+             class: Modified
+             duration: $delay
+             updateLocations: false
+             yEquation: "select(t-50,0,0,((t-50)/i) * 40)"
+             relativeOffset: "5,1,0"
+             orient: false
+             parameters:
+              radius: "select((t/i)-0.9, min(3, t/60), 0, ((t/i)-0.9) * 300 + 3)"
+             effect:
+              class: Sphere
+              radius: 3
+              particle: smoke_large
+              particle_count: 10
+              particles: 10
+              particle_offset_x: 0.2
+              particle_offset_y: 0.2
+              particle_offset_z: 0.2
+              updateLocations: false
+              updateDirections: false
+        -  location: source
+           effectlib:
+             class: Modified
+             duration: $delay
+             updateLocations: false
+             yEquation: "select(t-50,0,0,((t-50)/i) * 40)"
+             relativeOffset: "5,1,0"
+             orient: false
+             parameters:
+              radius: "select((t/i)-0.9, min(3, t/60), 0, ((t/i)-0.9) * 300 + 3)"
+             effect:
+              class: Sphere
+              radius: 3
+              particle: water_drop
+              particle_count: 10
+              particles: 5
+              particle_offset_x: 0.2
+              particle_offset_y: 0.2
+              particle_offset_z: 0.2
+              updateLocations: false
+              updateDirections: false
+    parameters:
+        target: none
+        cooldown: 1800000
+        delay: 10000
+        time: night
+        cycle_moon_phase: true
+        weather: storm
+    costs:
+        mana: 150

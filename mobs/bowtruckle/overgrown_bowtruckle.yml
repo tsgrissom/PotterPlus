@@ -1,0 +1,20 @@
+overgrown_bowtruckle:
+  inherit: bowtruckle
+  name: "&aOvergrown Bowtruckle"
+  baby: false
+  health: 50
+  interval: 4000
+  default_drops: false
+  drops:
+    - mobxp|5
+  triggers:
+    interval:
+      cast:
+        none: 30
+        bowtruckle_wood_throw: 40
+        bowtruckle_wood_throw|2: 30
+    damage:
+      cast:
+        none: 75
+        bowtruckle_shield: 15
+        bowtruckle_shield|2: 10

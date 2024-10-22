@@ -1,0 +1,8 @@
+centaur_spawner:
+  inherit: base_spawner
+  interval: 20000
+  spawn:
+    limit: 2
+    probability: 0.4
+    mobs:
+      centaur: 100

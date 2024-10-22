@@ -1,0 +1,88 @@
+blind:
+    icon: ink_sac{CustomModelData:18001}
+    icon_disabled: ink_sac{CustomModelData:18002}
+    legacy_icon: spell_icon:166
+    legacy_icon_disabled: spell_icon_disabled:166
+    icon_url: http://textures.minecraft.net/texture/c7a8e7c9d3375135e39aa6d57b4e60539cf8f6efc5b58c83a13caf40561560
+    example_thumbnail: https://thumbs.gfycat.com/YoungBoilingAfricancivet-size_restricted.gif
+    example_link: https://thumbs.gfycat.com/YoungBoilingAfricancivet
+    category: combat
+    worth: 70
+    earns_sp: 6
+    upgrade_required_path: beginner
+    upgrade_required_casts: 25
+    actions:
+        cast:
+        - class: CustomProjectile
+          actions:
+          - class: PotionEffect
+          - class: Interval
+            actions:
+            - class: Aggro
+              clear_target: true
+    effects:
+        cast:
+        -  sound: block_beacon_power_select
+           sound_pitch: 1.75
+           sound_volume: 0.9
+        -  class: EffectSingle
+           sound: magic.zap
+           effectlib:
+             class: ConeEffect
+             iterations: 15
+             particle: smoke_normal
+             lengthGrow: 0.05
+             radiusGrow: 0.002
+             particle_count: 4
+             particle_offset_x: 0.2
+             particle_offset_y: 0.2
+             particle_offset_z: 0.2
+        tick:
+        - location: target
+          particle: smoke_normal
+          particle_count: 20
+          particle_offset_x: 0.1
+          particle_offset_y: 0.1
+          particle_offset_z: 0.1
+        hit:
+        -  sound: block_honey_block_slide
+           sound_pitch: 0.8
+           location: target
+        -  class: EffectSingle
+           location: target
+           use_hit_location: false
+           requires_entity_target: true
+           sound: magic.shimmer
+           effectlib:
+             class: Modified
+             effect:
+               class: SphereEffect
+               particle: smoke_normal
+               particle_count: 5
+             duration: $duration
+             parameters:
+               particles: "select(t - 10, t * 5, 50, select(t - i + 10, 50, 50, abs(t - i) * 5))"
+               radius: "select(t - 10, (10 - t) * 0.3 + 0.5, 0.5, select(t - i + 10, 0.5, 0.5, (t - i + 10) * 0.3 + 0.5))"
+    headshot_parameters:
+      duration_multiplier: 3
+    parameters:
+        velocity: 100
+        range: 32
+        target_type: LivingEntity
+        target_breakables: 0
+        target: other
+        duration: 2000
+        cooldown: 20000
+        effect_blindness: 5
+        hitbox: true
+    costs:
+        mana: 45
+
+blind|2:
+  upgrade_required_path: student
+  parameters:
+    duration: 3000
+
+blind|3:
+  parameters:
+    duration: 4000

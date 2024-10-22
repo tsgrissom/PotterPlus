@@ -1,0 +1,92 @@
+carperetractum:
+  icon: diamond_axe{CustomModelData:275}
+  icon_disabled: diamond_hoe{CustomModelData:275}
+  worth: 10 ac
+  upgrade_required_casts: 25
+  upgrade_required_path: year5
+  category: charms
+  actions:
+    cast:
+      - class: Delay
+      - class: PlayEffects
+      - class: CustomProjectile
+        actions:
+          - class: Velocity
+  effects:
+    cast:
+      - class: EffectSingle
+        use_wand_location: false
+        effectlib:
+          class: AnimatedBall
+          particle: spell_mob_ambient
+          color: e3892c
+          period: 1
+          duration: $delay
+    launch:
+      - class: EffectSingle
+        location: origin
+        sound: magic.zap
+    tick:
+      - class: EffectSingle
+        particle: spell_mob
+        color: e3892c
+        particle_count: 20
+        particle_offset_x: 0.2
+        particle_offset_y: 0.2
+        particle_offset_z: 0.2
+        location: target
+    hit:
+      - class: EffectSingle
+        location: target
+        particle: fireworks_spark
+        particle_count: 10
+        particle_offset_x: 0.3
+        particle_offset_y: 0.3
+        particle_offset_z: 0.3
+        sound: magic.vanish
+        sound_volume: .3
+        particle_data: 0.1
+    hit_entity:
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Atom
+          particleOrbital: spell_mob_ambient
+          particleNucleus: spell_mob_ambient
+          colorOrbital: e3892c
+          colorNucleus: e3892c
+          iterations: 8
+          radius: 0.2
+  parameters:
+    target_type: Entity
+    range: 48
+    speed: 2
+    push: -0.5
+    duration: 10000
+    cooldown: 15000
+    delay: 2000
+    warmup: 2000
+    velocity: 25
+    gravity: 0.05
+    effect: launch
+  costs:
+    mana: 10
+
+carperetractum|2:
+  upgrade_required_path: year6
+  upgrade_required_casts: 50
+  parameters:
+    push: -1
+    speed: 3
+    cooldown: 10000
+    delay: 2000
+    warmup: 2000
+    velocity: 50
+    gravity: 0.03
+
+carperetractum|3:
+  parameters:
+    cooldown: 5000
+    delay: 1000
+    warmup: 1000
+    gravity: 0.01

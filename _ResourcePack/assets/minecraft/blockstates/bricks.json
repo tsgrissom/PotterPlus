@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/bricks", "weight": 50 },
+            { "model": "minecraft:block/bricks1", "weight": 15 },
+            { "model": "minecraft:block/bricks2", "weight": 15 },
+            { "model": "minecraft:block/bricks3", "weight": 20 }
+        ]
+    }
+}

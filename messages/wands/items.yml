@@ -1,0 +1,147 @@
+wands:
+  basicblazebox:
+    name: >-
+      &6Basic Blaze Box
+    description: >-
+      &7A box of assorted fireworks from Weasley's Wizard Wheezes' Explosive
+      Enterprises line.
+  camera:
+    name: >-
+      &8Camera
+    description: >-
+      &7Snap a photo of yourself or others.
+  conductorswand:
+    name: >-
+      &bConductor's Wand
+    description: >-
+      &3Play some music!
+  deflagrationdeluxe:
+    name: >-
+      &6Deflagration Deluxe
+    description: >-
+      &7A big box of assorted fireworks from Weasley's Wizard Wheezes' Explosive
+      Enterprises line.
+  dungbombs:
+    name: >-
+      &6Dungbomb pack
+    description: >-
+      &8A horrid-smelling pack of dungbombs.
+  gillyweed:
+    name: >-
+      &2Gillyweed
+    description: >-
+      &aGrants you the ability to temporarily breathe underwater.
+  gryffindorsword:
+    name: >-
+      &4Sword of Godric Gryffindor
+    description: >-
+      &6A sword imbued with great magic. Previously owned by a Hogwarts founder.
+    wand_instructions_header: |-
+      &8
+      &8|  &4&lSword of Godric Gryffindor
+    bound_instructions: |-
+      &8|
+      &8|  &cYour sword is bound to you and cannot be dropped
+      &8|
+      &8| &6> &4Swap&7/&4Drop &7to heal yourself
+      &8| &6> &4Use Item &7to shield yourself
+    mana_instructions: |-
+      &8|
+      &8|  &dAbilities require &aEnergy &dto be cast&8, &dshown in the &aXP Bar
+    wand_instructions_footer: |-
+      &8
+  handbag:
+    name: >-
+      &4Beaded Handbag
+    description: >-
+      &cA very spacious beaded handbag enchanted to hold many, many items.
+  monsterbook:
+    name: >-
+      &cThe Monster Book of Monsters
+    description: >-
+      &7A particularly vicious sentient textbook used for Care of Magical
+      Creatures class&8.
+  musicbox:
+    name: >-
+      &bMusic Box
+    description: >-
+      &3Play some music!
+  peruvianpowder:
+    name: >-
+      &8Peruvian Instant Darkness Powder
+    description: >-
+      &7Blanket an area in darkness.
+  portableswamp:
+    name: >-
+      &2Portable Swamp
+    description: >-
+      &aDeploys a portable swamp wherever you are.
+  trickwand:
+    name: >-
+      &eTrick Wand
+    description: >-
+      &7A trick wand which can cast some unreliable and flimsy spells&8.
+    wand_instructions_header: |-
+      &8 ----------------------------------------------------
+      &8|
+      &8|   &d&lTRICK WAND BASICS
+      &8|
+    bound_instructions: |-
+      &8| &6>> &3&oYour trick wand cast a few unreliable spells&8.
+      &8|
+      &8| &7> &eLeft-click &7to cast spells&8.
+      &8| &7> &eRight-click&8/&eSwap key &7to open and close the spell menu&8.
+    wand_instructions_footer: |-
+      &8|
+      &8 ----------------------------------------------------
+  trickwandbox:
+    name: >-
+      &eTrick Wand Box &6(Right-Click)
+    description: >-
+      &7Contains a trick wand which can cast some unreliable spells&8.
+  flyingcarpet:
+    name: >-
+      &dFlying Carpet
+    description: >-
+      &aA carpet enchanted with similar magic to that of brooms, allowing you
+      to fly around in the air while riding.
+  firebolt:
+    name: >-
+      &4Firebolt
+    description: >-
+      &7This state-of-the-art racing broom sports an unsurpassable balance and
+      pinpoint precision&8.
+  nimbus2000:
+    name: >-
+      &4Nimbus 2000
+    description: >-
+      &7One of Nimbus Racing Broom Company&8'&7s most successful models&8.
+      &7Highly reliable with good speed and exceptional handling &8— &7not for
+      beginners&8!
+  nimbus2001:
+    name: >-
+      &4Nimbus 2001
+    description: >-
+      &7The top of the Nimbus Racing Broom Company&8'&7s range&8. &7Capable of
+      previously unseen speed and control&8.
+  portkey:
+    name: >-
+      &dPortkey
+    description: >-
+      &7A seemingly random object enchanted to take you back home&8.
+  houseelfstew:
+    name: >-
+      &eHouse Elf Stew
+    description: >-
+      &7A bowl of stew made by house elves&8. &7Delicious&8!
+  butterbeer:
+    name: >-
+      &eButterbeer
+    description: >-
+      &7A glass containing the popular butterscotch&8-&7based beverage&8.
+  pumpkinjuice:
+    name: >-
+      &6Pumpkin Juice
+    description: >-
+      &7A bottle containing a beverage made from pumpkins&8. &7Manufactured
+      since 1837 by &7&oLondon Pumpkins & Sons&8.

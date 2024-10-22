@@ -1,0 +1,50 @@
+rubberize:
+    icon: slime_block{CustomModelData:18001}
+    icon_disabled: slime_block{CustomModelData:18002}
+    legacy_icon: spell_icon:173
+    legacy_icon_disabled: spell_icon_disabled:173
+    icon_url: http://textures.minecraft.net/texture/fced4114232f1aff90c5fbb3535e89c546858b14bae3fea7ecc896b2bd51
+    category: utility
+    worth: 150
+    earns_sp: 2
+    actions:
+        cast:
+        - class: Recurse
+          actions:
+          - class: ModifyBlock
+    effects:
+        cast:
+        -  sound: block_slime_block_step
+           sound_pitch: 0.3
+        -  sound: magic.shimmer
+        -  class: EffectTrail
+           particle: block_crack
+           particle_count: 20
+           particle_offset_x: 0.2
+           particle_offset_y: 0.2
+           particle_offset_z: 0.2
+        -  location: target
+           effectlib:
+             class: Helix
+             particle: block_crack
+             particle_count: 8
+             particle_offset_x: 0.2
+             particle_offset_y: 0.5
+             particle_offset_z: 0.2
+             iterations: 1
+             radius: $size
+    parameters:
+        allow_max_range: false
+        range: 16
+        size: 3
+        brush: slime_block
+        transparent: transparent_to_construction
+        undo: 4000
+        cooldown: 2000
+        bypass_backfire: true
+        select_self: false
+        replace: true
+        destructible: destructible,destructible2,destructible3
+    costs:
+        mana: 50
+

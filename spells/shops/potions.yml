@@ -1,0 +1,144 @@
+shop_potions:
+  inherit: false
+  icon: cauldron
+  hidden: true
+  category: npc
+  actions:
+    cast:
+      - class: Selector
+  parameters:
+    options:
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - icon: cauldron
+        name: "&6Buy Ingredients"
+        cast_spell: shop_potions_ingredients
+        item: null
+      - placeholder: true
+      - icon: potion
+        name: "&6Buy Potions"
+        cast_spell: shop_potions_potions
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+      - placeholder: true
+    auto_close: true
+    quiet: true
+    free: true
+    confirm: false
+
+shop_potions_ingredients:
+  inherit: buyshop
+  icon: cauldron
+  category: npc
+  hidden: true
+  parameters:
+    items:
+      - item: glass_bottle
+        cost: 1
+        name: "&8Glass Bottle"
+        lore:
+          - "&7A standard-sized glass bottle"
+          - "&7for potion creation."
+      - item: standardingredient
+        cost: 2
+      - item: ashwindereggs
+        cost: 5
+      - item: pearldust
+        cost: 3
+        name: "&fPearl Dust"
+      - item: powderedmoonstone
+        cost: 3
+        name: "&fPowdered Moonstone"
+      - item: rosethorns
+        cost: 3
+    quiet: true
+    free: false
+    cost_type: galleon
+
+shop_potions_potions:
+  inherit: shop_potions_ingredients
+  icon: cauldron
+  category: npc
+  hidden: true
+  parameters:
+    items:
+      - item: wand|amortentia
+        cost: 15
+      - item: wand|antiparalysispotion
+        cost: 20
+      - item: wand|antidotetocommonpoisons
+        cost: 25
+      - item: wand|antidotetouncommonpoisons
+        cost: 30
+      - item: wand|babblingbeverage
+        cost: 5
+      - item: wand|baruffiosbrainelixir
+        cost: 20
+      - item: wand|befuddlementdraught
+        cost: 10
+      - item: wand|bloodreplenishingpotion
+        cost: 25
+      - item: wand|burpingpotion
+        cost: 5
+      - item: wand|confusingconcoction
+        cost: 10
+      - item: wand|deathpotion
+        cost: 80
+      - item: wand|draughtoflivingdeath
+        cost: 50
+      - item: wand|essenceofdittany
+        cost: 30
+      - item: wand|garrotinggas
+        cost: 30
+      - item: wand|icepotion
+        cost: 15
+      - item: wand|invisibilitypotion
+        cost: 20
+      - item: wand|lovepotion
+        cost: 10
+      - item: wand|oculuspotion
+        cost: 15
+      - item: wand|pompionpotion
+        cost: 5
+      - item: wand|witsharpeningpotion
+        cost: 100
+
+shop_potions_legendary:
+  icon: cauldron
+  hidden: true
+  category: npc
+  actions:
+    cast:
+      - class: Shop
+  parameters:
+    cost_type: galleon
+    confirm: true
+    confirm_title: "Buy legendary potion?"
+    items:
+      - item: wand|essenceofdittany_legendary
+        cost: 100
+      - item: wand|icepotion_legendary
+        cost: 60
+      - item: wand|invisibilitypotion_legendary
+        cost: 60
+      - item: wand|witsharpeningpotion_legendary
+        cost: 2000

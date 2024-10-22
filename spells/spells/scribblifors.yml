@@ -1,0 +1,79 @@
+scribblifors:
+  inherit: false
+  icon: diamond_axe{CustomModelData:144}
+  icon_disabled: diamond_hoe{CustomModelData:144}
+  category: transfiguration
+  worth: 5 ac
+  upgrade_required_casts: 25
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Parallel
+            actions:
+              - class: Serial
+                actions:
+                  - class: Delay
+                    delay: $warmup
+                  - class: DropItem
+                  - class: PlayEffects
+                    effect: drop
+              - class: Serial
+                actions:
+                  - class: Repeat
+                    repeat: 3
+                    actions:
+                      - class: PlayEffects
+                        effect: spark
+                      - class: Delay
+                        delay: 1000
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: potterplus.dark_whoosh
+    tick:
+      - location: target
+        effectlib:
+          class: Sphere
+          radius: 0.05
+          particle: redstone
+          color: 6d2088
+          duration: 250
+    hit:
+      - class: EffectSingle
+        sound: magic.zap
+        sound_volume: 0.1
+        location: target
+        use_wand_location: false
+        effectlib:
+          class: AnimatedBall
+          particle: redstone
+          color: 6d2088
+          duration: 3000
+          size: 0.5
+    spark:
+      - class: EffectSingle
+        location: target
+        particle: fireworks_spark
+        particle_count: 20
+        particle_data: 1
+    drop:
+      - sound: magic.shimmer
+  parameters:
+    cooldown: 15000
+    item: conjuredbook
+    gravity: 0.07
+    target: other_block
+    velocity: 15
+    warmup: 4000
+  costs:
+    mana: 50
+
+scribblifors|2:
+  upgrade_required_casts: 50
+  parameters:
+    warmup: 3000
+
+scribblifors|3:
+  parameters:
+    warmup: 2000

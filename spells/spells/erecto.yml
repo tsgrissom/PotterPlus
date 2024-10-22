@@ -1,0 +1,14 @@
+erecto:
+  icon: diamond_axe{CustomModelData:160}
+  icon_disabled: diamond_hoe{CustomModelData:160}
+  category: transfiguration
+  worth: 10 ac
+  pvp_restricted: true
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.teleport
+  parameters:
+    undo: 6000
+  costs:
+    mana: 100

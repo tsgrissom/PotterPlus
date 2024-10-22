@@ -1,0 +1,85 @@
+vermillious:
+  inherit: false
+  icon: diamond_axe{CustomModelData:23}
+  icon_disabled: diamond_hoe{CustomModelData:23}
+  category: dada
+  worth: 10 ac
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Damage
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap
+    tick:
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Sphere
+          particle: spell_mob
+          particles: 5
+          color: ff1f1f
+          radius: 0.1
+          duration: 100
+      - particle: fireworks_spark
+        particle_data: 0.5
+        location: target
+    hit:
+      - class: EffectSingle
+        location: target
+        sound: magic.hit
+        particle: fireworks_spark
+        particle_count: 10
+        particle_data: 0.5
+        firework: burst
+        color: ff1f1f
+        color2: FFFFFF
+  parameters:
+    cooldown: 5000
+    hitbox: true
+    target_type: LivingEntity
+    range: 16
+    damage: 1.5
+    velocity: 20
+  costs:
+    mana: 15
+
+vermillious|2:
+  upgrade_required_path: year4
+  upgrade_required_casts: 75
+  parameters:
+    damage: 2
+
+vermillious|3:
+  upgrade_required_path: year5
+  upgrade_required_casts: 125
+  parameters:
+    range: 24
+    damage: 2.5
+
+vermillious|4:
+  upgrade_required_path: year6
+  upgrade_required_casts: 150
+  parameters:
+    damage: 3
+
+vermillious|5:
+  upgrade_required_path: year7
+  upgrade_required_casts: 175
+  parameters:
+    range: 32
+    damage: 3.5
+
+vermillious|6:
+  upgrade_required_path: graduate
+  upgrade_required_casts: 200
+  parameters:
+    damage: 4
+
+vermillious|7:
+  parameters:
+    damage: 4.5

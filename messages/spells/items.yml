@@ -1,0 +1,107 @@
+spells:
+  ability_monsterbook:
+    name: >-
+      Monster Book of Monsters Ability
+    description: >-
+      Opens the Monster Book of Monsters.
+    title: >-
+      The Monster Book of Monsters
+  ability_trickwand_stupefy:
+    name: >-
+      Weak Stunning Spell
+    description: >-
+      A weak version of the stunning spell.
+  ability_trickwand_expelliarmus:
+    name: >-
+      Unreliable Disarming Charm
+    description: >-
+      An unreliable version of the classic disarming charm.
+    cast: ""
+  ability_trickwand_herbifors:
+    name: >-
+      Unreliable Head-Sprouting Spell
+    description: >-
+      An unreliable version of the head-sprouting spell.
+  ability_trickwand_colloshoo:
+    name: >-
+      Unreliable Stickfast Hex
+    description: >-
+      An unreliable version of the stickfast hex.
+  ability_trickwand_melofors:
+    name: >-
+      Unreliable Pumpkin-Head Jinx
+    description: >-
+      An unreliable version of the pumpkin-head jinx.
+  ability_trickwand_obscuro:
+    name: >-
+      Unreliable Blindfolding Charm
+    description: >-
+      An unreliable version of the blindfolding charm.
+    cast: ""
+  ability_trickwand_incarcerous:
+    name: >-
+      Unreliable Binding Spell
+    description: >-
+      An unreliable version of the binding spell.
+    cast: ""
+  ability_trickwand_tarantallegra:
+    name: >-
+      Unreliable Dancing Hex
+    description: >-
+      An unreliable version of the dancing hex.
+
+
+  ability_gillyweed:
+    name: >-
+      Gillyweed Ability
+  ability_portableswamp:
+    name: >-
+      Portable Swamp Ability
+  ability_peruvianpowder:
+    name: >-
+      Peruvian Powder Ability
+  ability_gryffindorsword:
+    name: >-
+      Sword of Godric Gryffindor Shield
+    cast: ""
+  ability_gryffindorsword_alt:
+    name: >-
+      Sword of Godric Gryffindor Heal
+    cast: ""
+    cast_self: ""
+  ability_basicblazebox:
+    name: >-
+      Basic Blaze Box Ability
+  ability_deflagrationdeluxe:
+    name: >-
+      Deflagration Deluxe Ability
+  ability_flyingcarpet:
+    name: >-
+      Flying Carpet Ability
+    cast: >-
+      &8>> &7Your carpet springs to life&8!
+    deactivate: >-
+      &8>> &7Your carpet settles to the ground&8...
+  broom:
+    cast: ""
+    deactivate: ""
+    cursed: ""
+    crash: >-
+      t:&cCRASH!
+  ability_portkey:
+    name: >-
+      Portkey Ability
+  ability_wandbox:
+    name: >-
+      Open Wandbox
+    description: >-
+      Open your wandbox to obtain your very own wand.
+  ability_houseelfstew:
+    name: >-
+      House Elf Stew Ability
+  ability_butterbeer:
+    name: >-
+      Butterbeer Ability
+  ability_pumpkinjuice:
+    name: >-
+      Pumpkin Juice Ability

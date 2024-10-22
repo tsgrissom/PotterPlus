@@ -1,0 +1,41 @@
+ability_gryffindorsword:
+  inherit: protego|4
+  category: specialty
+  hidden: true
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.shield_boom
+        sound_volume: 0.5
+        location: origin
+      - sound: block_beacon_activate
+        sound_pitch: 2
+        sound_volume: 0.8
+      - location: target
+        sound: block_glass_break
+        sound_pitch: 2
+        sound_volume: 0.3
+        target_location: block
+        effectlib:
+          class: SphereEffect
+          particle: spell_mob
+          color: 9d7d0e
+          radius: $radius
+          duration: 500
+          offset: 0.5,0.5,0.5
+  parameters:
+    cooldown: 4 seconds
+    brush: red_stained_glass
+    undo: 2 seconds
+  costs:
+    mana: 40
+
+ability_gryffindorsword_alt:
+  inherit: episkey
+  category: specialty
+  hidden: true
+  parameters:
+    target: self
+    cooldown: 10 seconds
+  costs:
+    mana: 70

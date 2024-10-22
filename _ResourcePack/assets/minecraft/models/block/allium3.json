@@ -1,0 +1,8 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/cross",
+    "textures": {
+        "particle": "minecraft:block/allium3",
+        "cross": "minecraft:block/allium3"
+    }
+}

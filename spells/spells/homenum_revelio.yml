@@ -1,0 +1,64 @@
+homenumrevelio:
+  icon: diamond_axe{CustomModelData:173}
+  icon_disabled: diamond_hoe{CustomModelData:173}
+  category: charms
+  worth: 10 ac
+  upgrade_required_path: year5
+  upgrade_required_casts: 25
+  actions:
+    cast:
+      - class: AreaOfEffect
+        actions:
+          - class: PotionEffect
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap_crack
+        sound_volume: 0.8
+        sound_pitch: 0.8
+        location: origin
+        target_offset: 0,10,0
+        use_wand_location: false
+        effectlib:
+          class: Sphere
+          particle: crit_magic
+          radius: 1.5
+          radiusIncrease: 0.08
+          duration: 5000
+  parameters:
+    radius: 12
+    target_count: 6
+    target_source: false
+    target_type: Player
+    add_effects:
+      glowing: 2
+    duration: 5000
+    target: self
+    cooldown: 12000
+  costs:
+    mana: 40
+
+homenumrevelio|2:
+  upgrade_required_path: year6
+  upgrade_required_casts: 50
+  parameters:
+    radius: 32
+    target_count: 16
+    duration: 15000
+
+homenumrevelio|3:
+  upgrade_required_path: year7
+  upgrade_required_casts: 100
+  parameters:
+    target_type: LivingEntity
+    radius: 50
+    target_count: 24
+    duration: 15000
+    cooldown: 25000
+
+homenumrevelio|4:
+  parameters:
+    radius: 75
+    target_count: 48
+    duration: 20000
+    cooldown: 30000

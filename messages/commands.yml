@@ -1,0 +1,10 @@
+commands:
+  no_permission: ' &4&lX &cYou are not allowed to do that!'
+  getrp:
+    auto: ''
+    manual: ''
+    turnoff: ''
+    sending: ''
+    preference: ''
+    noauto: ''
+    default: ''

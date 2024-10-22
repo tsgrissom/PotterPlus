@@ -1,0 +1,7 @@
+examples:
+  potterplus:
+    instructions: |-
+      &8| &3&nPOTTER PLUS&r
+      &8|   &fSet up a &bWand Shop &fwith &6/mnpc add wandshop &r
+      &8|   &fPlayers will get a &bWand Ticket&f on join &r
+      &8|   &fUse &6/mgive ticket&f to get another one &r

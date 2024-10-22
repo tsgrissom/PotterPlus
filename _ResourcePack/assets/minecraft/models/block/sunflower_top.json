@@ -1,0 +1,54 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "minecraft:block/sunflower_front",
+        "cross": "minecraft:block/sunflower_top",
+        "back": "minecraft:block/sunflower_back",
+        "front": "minecraft:block/sunflower_front"
+    },
+    "elements": [
+        {   "from": [ 0.8, 0, 8 ],
+            "to": [ 15.2, 8, 8 ],
+            "rotation": {
+                "origin": [ 8, 8, 8 ],
+                "axis": "y",
+                "angle": 45,
+                "rescale": true
+            },
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 0, 8, 16, 16 ], "texture": "#cross" },
+                "south": { "uv": [ 0, 8, 16, 16 ], "texture": "#cross" }
+            }
+        },
+        {   "from": [ 8, 0, 0.8 ],
+            "to": [ 8, 8, 15.2 ],
+            "rotation": {
+                "origin": [ 8, 8, 8 ],
+                "axis": "y",
+                "angle": 45,
+                "rescale": true
+            },
+            "shade": false,
+            "faces": {
+                "west": { "uv": [ 0, 8, 16, 16 ], "texture": "#cross" },
+                "east": { "uv": [ 0, 8, 16, 16 ], "texture": "#cross" }
+            }
+        },
+        {   "from": [ 8.5, -1, 1 ],
+            "to": [ 8.5, 15, 15 ],
+            "rotation": {
+                "origin": [ 8, 8, 8 ],
+                "axis": "z",
+                "angle": 22.5,
+                "rescale": false
+            },
+            "shade": false,
+            "faces": {
+                "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#back" },
+                "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#front" }
+            }
+        }
+    ]
+}

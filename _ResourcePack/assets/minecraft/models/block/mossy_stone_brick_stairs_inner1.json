@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/inner_stairs",
+    "textures": {
+        "bottom": "minecraft:block/mossy_stone_bricks1",
+        "top": "minecraft:block/mossy_stone_bricks_top1",
+        "side": "minecraft:block/mossy_stone_bricks1"
+    }
+}

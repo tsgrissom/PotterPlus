@@ -1,0 +1,39 @@
+extinguish:
+    icon: spell_icon:232
+    icon_disabled: spell_icon_disabled:232
+    icon_url: http://textures.minecraft.net/texture/c28bdd34810f866527daaf283da71826a8378286b2a43a626615fa1b3639e
+    category: utility
+    worth: 100
+    earns_sp: 4
+    actions:
+      cast:
+      - class: Sphere
+        actions:
+        - class: ModifyBlock
+      - class: AreaOfEffect
+        actions:
+        - class: Ignite
+          duration: 0
+    effects:
+      cast:
+      - class: EffectSingle
+        sound: block_fire_extinguish
+        effectlib:
+         class: ConeEffect
+         iterations: 20
+         particle: smoke_normal
+         lengthGrow: 0.03
+         radiusGrow: 0.008
+    parameters:
+      allow_max_range: false
+      range: 32
+      check_destructible: true
+      destructible: fire
+      brush: erase
+      radius: 10
+      transparent: transparent_to_construction
+      cooldown: 8000
+      target_self: true
+    costs:
+      mana: 30
+

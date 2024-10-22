@@ -1,0 +1,144 @@
+earthquake:
+    icon: brown_dye{CustomModelData:18001}
+    icon_disabled: brown_dye{CustomModelData:18002}
+    legacy_icon: spell_icon:109
+    legacy_icon_disabled: spell_icon_disabled:109
+    icon_url: http://textures.minecraft.net/texture/64764ad7b991afd8886d847f439b3d1753bc2632a7dbc047a9a040aa1ff98
+    category: combat
+    worth: 450
+    earns_sp: 8
+    actions:
+        cast:
+        # Attach everything to a projectile
+        - class: CustomProjectile
+          actions:
+          # First thing it does is AOE Velocity
+          # To throw entities into the air
+          - class: AreaOfEffect
+            actions:
+            - class: Velocity
+          # Then delay 1/2 second
+          - class: Delay
+            delay: 500
+          # The Parallel action runs its actions in parallel
+          # Generally actions are run in sequence, so one must
+          # finish completely before moving on to the next
+          # This includes the Delay action - so important for animations
+          - class: Parallel
+            actions:
+            # Repeat an AOE effect five times to apply a velocity to
+            # surrounding entities, continously tossing them into the air
+            - class: Repeat
+              repeat: 5
+              actions:
+              - class: Delay
+                delay: 1000
+              - class: AreaOfEffect
+                actions:
+                - class: Damage
+                - class: Velocity
+                  speed: 0.4
+            # Create a disc, do this in parallel with the Repeating
+            # AOE above
+            - class: Disc
+              ignore_result: true
+              actions:
+              # The "Skip" action skips the actions below it
+              # every "skip" run (skip: 8 in params)
+              # What this does here is allows Disc to build 8 blocks,
+              # then the Delay runs- then the Delay is skipped 8 more times,
+              # etc- giving the Disc a "radiating outward" effect
+              - class: Skip
+                actions:
+                - class: Delay
+                  delay: 500
+              - class: PlayEffects
+                effects: quake
+              - class: Cover
+                actions:
+                - class: ModifyBlock
+    effects:
+        cast:
+        -  sound: block_conduit_deactivate
+           sound_pitch: 0.7
+           sound_volume: 0.5
+        -  class: EffectSingle
+           sound: magic.ignite
+           sound_volume: 1
+           location: origin
+           effectlib:
+             class: ConeEffect
+             iterations: 10
+             particle: spell_witch
+             lengthGrow: 0.3
+             particle_count: 10
+             particle_offset_x: 0.1
+             particle_offset_y: 0.1
+             particle_offset_z: 0.1
+        hit:
+        -  class: EffectSingle
+           location: target
+           target_offset: 0,0.5,0
+           material: dirt
+           sound: block_conduit_deactivate
+           sound_pitch: 0.1
+           sound_volume: 1.2
+           effectlib:
+             class: Modified
+             iterations: 30
+             period: 4
+             parameters:
+              height: "sin(t/10)*3"
+             effect:
+               class: Wave
+               particle: block_crack
+               cloudParticle: redstone
+               cloudColor: "835C3B"
+               particle_count: 3
+               particle_offset_x: 0.01
+               particle_offset_y: 0.01
+               particle_offset_z: 0.01
+               particlesFront: 4
+               particlesBack: 4
+               rows: 10
+        tick:
+        - location: target
+          particle: spell_witch
+          particle_count: 10
+          particle_offset_x: 0.2
+          particle_offset_y: 0.2
+          particle_offset_z: 0.2
+        quake:
+          - location: target
+            particle: block_crack
+            material: dirt
+            particle_count: 10
+            particle_offset_x: 0.2
+            particle_offset_y: 0.2
+            particle_offset_z: 0.2
+            sound: block_stone_break
+            sound_pitch: 0.1
+            sound_volume: 2
+    parameters:
+        target: other
+        velocity: 25
+        target_type: Damageable
+        allow_max_range: false
+        range: 24
+        speed: 0.5
+        item_speed: 0.2
+        entity_speed: 1.2
+        falling: true
+        brush: air
+        direction: 0,1,0
+        radius: 5
+        destructible: destructible_mining
+        undo: 10000
+        skip: 8
+        target_self_timeout: 2000
+        cooldown: 20000
+        undo_speed: 0.5
+        damage: 3
+    costs:
+        mana: 150
+

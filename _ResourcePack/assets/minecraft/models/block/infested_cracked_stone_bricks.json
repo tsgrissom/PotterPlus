@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+        "bottom": "minecraft:block/infested_cracked_stone_bricks_top",
+        "top": "minecraft:block/infested_cracked_stone_bricks_top",
+        "side": "minecraft:block/infested_cracked_stone_bricks"
+    }
+}

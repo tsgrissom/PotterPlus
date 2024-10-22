@@ -1,0 +1,37 @@
+paths:
+    beginner:
+        name: "&7Beginner"
+        description: Just starting out with magic
+    student:
+        name: "&2Student"
+        description: Starting to learn the basics
+    apprentice:
+        name: "&aApprentice"
+        description: A good variety of spells
+    master:
+        name: "&6Wizard"
+        description: The penultimate wizard
+    battle:
+        name: "&7Warrior"
+        description: Low-level combat spells
+    squire:
+        name: "&2Squire"
+        description: Mid-level combat spells
+    soldier:
+        name: "&aSoldier"
+        description: High-level combat spells
+    knight:
+        name: "&6Knight"
+        description: Master-level combat spells
+    broom:
+        name: Broom
+        description: Flying broom upgrades
+    blaster:
+        name: Blaster
+        description: Blaster upgrades
+    staff:
+        name: "&bStaff"
+        description: Staff-only spells
+    archer:
+        name: "&6Archer"
+        description: Archer spells

@@ -1,0 +1,51 @@
+paths:
+  year1:
+    name: >-
+      First Year
+    description: >-
+      First years learn a variety of beginner spells along with the basics of
+      wand use.
+  year2:
+    name: >-
+      Second Year
+    description: >-
+      Second years learn the rest of their beginner spells and charms.
+  year3:
+    name: >-
+      Third Year
+    description: >-
+      Third years begin to learn defensive spells and more advanced charms.
+  year4:
+    name: >-
+      Fourth Year
+    description: >-
+      Fourth years further delve into defensive spells to protect themselves
+      from dark magic.
+  year5:
+    name: >-
+      Fifth Year
+    description: >-
+      Fifth years begin to learn offensive spells, very advanced charms, and
+      learn to transfigure the world around them.
+  year6:
+    name: >-
+      Sixth Year
+    description: >-
+      Sixth years delve into advanced offensive spells and come into their own
+      as a wizard.
+  year7:
+    name: >-
+      Seventh Year
+    description: >-
+      Seventh years learn the most advanced spells offered to students.
+  graduate:
+    name: >-
+      Graduates
+    description: >-
+      Graduates become much more capable in their spell casting and begin to
+      choose their professions.
+  broom:
+    name: >-
+      Broom
+    description: >-
+      Upgrades for brooms and associated items.

@@ -1,0 +1,23 @@
+protegomaxima:
+  icon: diamond_axe{CustomModelData:258}
+  icon_disabled: diamond_hoe{CustomModelData:258}
+  upgrade_required_casts: 50
+  tags: nojail
+  parameters:
+    radius: 5
+    target: self
+    cooldown: 20000
+    undo: 2000
+    reflect_chance: 0.7
+
+protegomaxima|2:
+  actions:
+    alternate_down:
+      - class: ChangeContext
+        target_caster: true
+  parameters:
+    radius: 6
+    target: other
+    cooldown: 15000
+    undo: 4000
+    reflect_chance: 1

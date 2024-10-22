@@ -1,0 +1,13 @@
+equation:
+    icon: spell_icon:9
+    icon_disabled: diamond_axe:9
+    hidden: true
+    category: staff
+    upgrade_required_casts: 50
+    actions:
+      cast:
+        - class: Message
+    parameters:
+        message: "Value: $equation"
+        equation: "rand(100, 20) - 50 * sin(10)"
+        target: self

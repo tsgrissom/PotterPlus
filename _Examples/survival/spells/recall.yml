@@ -1,0 +1,182 @@
+recall:
+    icon: jungle_door{CustomModelData:18001}
+    icon_disabled: jungle_door{CustomModelData:18002}
+    legacy_icon: spell_icon:149
+    legacy_icon_disabled: spell_icon_disabled:149
+    icon_url: http://textures.minecraft.net/texture/58c573cefdc8cc1b8c894340cb54ab343523ec2ffa0afc7536968391ae1e7
+    category: utility
+    tags: noduel,nojail
+    worth: 20
+    earns_sp: 5
+    cast_on_no_target: false
+    upgrade_required_path: beginner
+    upgrade_required_casts: 25
+    world_border_restricted: false
+    quick_cast: true
+    actions:
+        cast:
+          - class: Recall
+    effects:
+        no_action: []
+        no_target: []
+        wait:
+        -  source_location: eyes
+           color_override: color
+           sound: block_note_block_bit
+           sound_pitch: 0.2
+           sound_volume: 0.3
+           effectlib:
+              class: WarpEffect
+              duration: $warmup
+              period: 1
+              particle: redstone
+              particle_offset_x: 0.9
+              particle_offset_y: 0.1
+              particle_offset_z: 0.9
+              radius: 1
+              offset: 0,-1,0
+        -  class: EffectSingle
+           source_location: eyes
+           effectlib:
+              class: WarpEffect
+              duration: 1000
+              period: 2
+              particle: portal
+              particle_count: 10
+              particle_offset_x: 0.9
+              particle_offset_y: 0.1
+              particle_offset_z: 0.9
+              radius: 1
+              offset: 0,-1,0
+        cast:
+        -  sound: block_beacon_activate
+           sound_pitch: 0.75
+           sound_volume: 0.8
+        -  sound: entity_enderman_teleport
+           sound_pitch: 0.25
+           sound_volume: 0.5
+        -  class: EffectSingle
+           sound: magic.teleport
+           sound_volume: 0.8
+           sound_pitch: 0.3
+           source_location: eyes
+           color_override: color
+           effectlib:
+              class: WarpEffect
+              duration: 1000
+              period: 1
+              particle: redstone
+              particle_offset_x: 0.9
+              particle_offset_y: 0.1
+              particle_offset_z: 0.9
+              radius: 1
+              offset: 0,-1,0
+        menu:
+          - sound: entity_enderman_teleport
+            sound_pitch: 1.5
+            sound_volume: 0.75
+        teleporting:
+        -  sound: entity_enderman_teleport
+           sound_pitch: 0.75
+           sound_volume: 0.75
+           location: both
+        -  class: EffectSingle
+           location: both
+           source_location: eyes
+           color_override: color
+           effectlib:
+             class: WarpEffect
+             particle: redstone
+             particle_offset_x: 0.9
+             particle_offset_y: 0.1
+             particle_offset_z: 0.9
+             offset: 0,-1,0
+             period: 2
+             update_locations: false
+        -  class: EffectSingle
+           sound: magic.teleport
+           sound_pitch: 1.2
+           location: both
+           source_location: eyes
+           effectlib:
+             class: WarpEffect
+             period: 1
+             particle: portal
+             particle_count: 10
+             particle_offset_x: 0.9
+             particle_offset_y: 0.1
+             particle_offset_z: 0.9
+             offset: 0,-1,0
+             update_locations: false
+    parameters:
+      options:
+        - type: home
+        - type: death
+        - type: town
+          show_unavailable: false
+        - type: spawn
+          show_unavailable: false
+        - type: placeholder
+        - type: placeholder
+        - type: marker
+          show_unavailable: false
+          marker: 3
+        - type: marker
+          show_unavailable: false
+          marker: 2
+        - type: marker
+          show_unavailable: false
+          marker: 1
+      placeholder_icon:
+      warmup: 5000
+      cancel_on_damage: 1
+      cancel_on_cast_other: true
+      allow_spawn: false
+      allow_marker: false
+      allow_death: false
+      allow_wand: true
+      allow_home: true
+      allow_cross_world: true
+      allow_town: true
+      allow_fields: true
+      allow_friends: false
+      icon_death: skull_item
+      icon_field: wood_door
+      icon_wand: wand_icon
+      icon_spawn: wood_door
+      icon_home: bed
+      icon_town: iron_door
+      icon_marker: redstone_block
+      icon_move_marker: redstone_block
+      show_unavailable: true
+      unavailable_icon: skull:http://textures.minecraft.net/texture/d34e063cafb467a5c8de43ec78619399f369f4a52434da8017a983cdd92516a0
+      loud: true
+      cooldown: 15000
+      protection_duration: 5000
+      target: none
+
+recall|2:
+    upgrade_required_path: student
+    upgrade_required_casts: 30
+    parameters:
+        allow_death: true
+
+recall|3:
+  upgrade_required_path: apprentice
+  actions:
+    alternate_down:
+      - class: Recall
+        type: place
+  parameters:
+      allow_marker: true
+
+recall|4:
+  upgrade_required_path: master
+  parameters:
+    marker_count: 2
+
+recall|5:
+  parameters:
+    marker_count: 3
+
+

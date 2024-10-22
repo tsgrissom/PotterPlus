@@ -1,0 +1,155 @@
+push:
+    icon: wheat{CustomModelData:18001}
+    icon_disabled: wheat{CustomModelData:18002}
+    legacy_icon: spell_icon:32
+    legacy_icon_disabled: spell_icon_disabled:32
+    icon_url: http://textures.minecraft.net/texture/44a760e06345bd9edd2475d6469dfb952278ca3ec7634aa334e1d7bfcc8644f
+    category: elemental
+    worth: 50
+    earns_sp: 3
+    upgrade_required_path: beginner
+    upgrade_required_casts: 40
+    actions:
+        cast:
+        - class: VelocityAction
+          y_offset: 1
+        - class: Repeat
+          actions:
+          - class: Delay
+          - class: PlayEffects
+            effects: iterate
+            ignore_result: true
+          - class: ConeOfEffectAction
+            actions:
+            - class: VelocityAction
+    effects:
+        cast:
+        - class: EffectSingle
+          sound: block_fire_extinguish
+          sound_volume: 1
+          sound_pitch: -0.1
+          location: origin
+          effectlib:
+               class: Modified
+               iterations: 20
+               parameters:
+                radius: "(t/i) * 4 + 0.2"
+               effect:
+                 class: DnaEffect
+                 particles_base: 0
+                 particles_helix: 7
+                 particle_helix: spell
+                 particle_base1: spell
+                 particle_base2: spell
+        - location: target
+          effectlib:
+            class: Sphere
+            particle: spell
+            particles: 2
+            period: 4
+            duration: 500
+            particle_count: 10
+            particle_offset_x: 0.5
+            particle_offset_y: 0.5
+            particle_offset_z: 0.5
+            radius: 1.5
+        iterate:
+        - class: EffectSingle
+          location: origin
+          effectlib:
+               class: Modified
+               iterations: 10
+               parameters:
+                radius: "(t/i) * 4 + 0.2"
+               effect:
+                 class: DnaEffect
+                 particles_base: 0
+                 particles_helix: 7
+                 particle_helix: spell
+                 particle_base1: spell
+                 particle_base2: spell
+        - location: target
+          effectlib:
+            class: Sphere
+            particle: spell
+            particles: 2
+            period: 4
+            duration: 500
+            particle_count: 10
+            particle_offset_x: 0.5
+            particle_offset_y: 0.5
+            particle_offset_z: 0.5
+            radius: 1.5
+    parameters:
+        target_type: Entity
+        range: 8
+        fov: 1
+        target_count: 2
+        item_speed: 0.1
+        living_entity_speed: 0.5
+        repeat: 3
+        delay: 250
+        y_offset: 0.75
+        cooldown: 5000
+    costs:
+        mana: 20
+
+push|2:
+    upgrade_required_path: student
+    upgrade_required_casts: 40
+    parameters:
+      range: 10
+      target_count: 4
+      living_entity_speed: 0.6
+
+push|3:
+    upgrade_required_path: master
+    upgrade_required_casts: 50
+    parameters:
+      range: 12
+      target_count: 6
+      living_entity_speed: 0.7
+
+push|4:
+    actions:
+        alternate_down:
+        - class: ChangeContext
+          target_caster: true
+          actions:
+          - class: AreaOfEffect
+            radius: 8
+            actions:
+            - class: Velocity
+              direction: 0,1,0
+              living_entity_speed: 0.2
+          - class: Delay
+            delay: 100
+          - class: Repeat
+            repeat: 2
+            actions:
+            - class: AreaOfEffect
+              radius: 12
+              actions:
+              - class: Velocity
+                push: 1
+                living_entity_speed: 1
+              - class: Delay
+                delay: 200
+    effects:
+        alternate_down:
+        -  class: EffectSingle
+           sound: block_fire_extinguish
+           sound_volume: 1
+           sound_pitch: -0.1
+           location: origin
+           effectlib:
+             class: HelixEffect
+             iterations: 1
+             particle: spell
+             offset: 0, -1.6, 0
+    parameters:
+        living_entity_speed: 0.75
+        range: 16
+        target_count: 8
+        repeat: 4
+

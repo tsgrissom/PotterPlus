@@ -1,0 +1,115 @@
+flipendo:
+  inherit: false
+  icon: diamond_axe{CustomModelData:150}
+  icon_disabled: diamond_hoe{CustomModelData:150}
+  category: dada
+  worth: 5 ac
+  upgrade_required_casts: 10
+  upgrade_required_path: year1
+  actions:
+    cast:
+      - class: Velocity
+      - class: Damage
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.flying
+        sound_volume: 1
+        effectlib:
+          class: ConeEffect
+          iterations: 12
+          particle: spell_instant
+          color: FFFFFF
+          lengthGrow: 0.1
+  parameters:
+    target_type: Entity
+    target: other
+    range: 12
+    allow_max_range: true
+    item_speed: 2
+    living_entity_speed: .5
+    push: 1
+    damage: 1
+    hitbox: true
+    cooldown: 4000
+  costs:
+    mana: 35
+
+flipendo|2:
+  upgrade_required_path: year1
+  upgrade_required_casts: 25
+  parameters:
+    damage: 2
+
+flipendo|3:
+  upgrade_required_path: year2
+  upgrade_required_casts: 50
+  parameters:
+    range: 16
+
+flipendo|4:
+  upgrade_required_path: year2
+  upgrade_required_casts: 75
+  parameters:
+    item_speed: 2.5
+    living_entity_speed: 1
+
+flipendo|5:
+  upgrade_required_path: year3
+  upgrade_required_casts: 100
+  parameters:
+    target_count: 3
+
+flipendo|6:
+  upgrade_required_path: year3
+  upgrade_required_casts: 125
+  parameters:
+    damage: 3
+
+flipendo|7:
+  upgrade_required_path: year4
+  upgrade_required_casts: 150
+  parameters:
+    damage: 4
+
+flipendo|8:
+  upgrade_required_path: year4
+  upgrade_required_casts: 175
+  parameters:
+    range: 20
+
+flipendo|9:
+  upgrade_required_path: year5
+  upgrade_required_casts: 200
+  parameters:
+    item_speed: 3
+    living_entity_speed: 1.5
+
+flipendo|10:
+  upgrade_required_path: year5
+  upgrade_required_casts: 225
+  parameters:
+    living_entity_speed: 2
+
+flipendo|11:
+  upgrade_required_path: year6
+  upgrade_required_casts: 250
+  parameters:
+    range: 24
+
+flipendo|12:
+  upgrade_required_path: year6
+  upgrade_required_casts: 275
+  parameters:
+    target_count: 5
+    damage: 5
+
+flipendo|13:
+  upgrade_required_path: year7
+  upgrade_required_casts: 300
+  parameters:
+    target_count: 6
+
+flipendo|14:
+  parameters:
+    damage: 6

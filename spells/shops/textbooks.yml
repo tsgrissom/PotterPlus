@@ -1,0 +1,43 @@
+shop_textbooks:
+  inherit: bookshop
+  category: npc
+  parameters:
+    free: false
+    cost_type: galleon
+    auto_close: true
+    items:
+      - item: book|charms
+        name: "&6Charms Textbook"
+        lore:
+          - "&7A textbook on the use of a variety of charms."
+        cost: 10
+      - item: book|creatures
+        name: "&6Care of Magical Creatures Textbook"
+        lore:
+          - "&7A textbook detailing working with magical creatures."
+        cost: 5
+      - item: book|dada
+        name: "&6Defense Against the Dark Arts Textbook"
+        lore:
+          - "&7A textbook on the use of defensive magic to fend off enemies."
+        cost: 10
+      - item: book|dark
+        name: "&6Dark Arts Textbook"
+        lore:
+          - "&7A textbook on practicing the dark arts."
+        cost: 10
+      - item: book|elective
+        name: "&6Elective Textbook"
+        lore:
+          - "&7A textbook on a variety of elective spells."
+        cost: 5
+      - item: book|herbology
+        name: "&6Herbology Textbook"
+        lore:
+          - "&7A textbook on harnessing herbology and healing magic."
+        cost: 10
+      - item: book|transfiguration
+        name: "&6Transfiguration Textbook"
+        lore:
+          - "&7A textbook on transfiguring objects into other things."
+        cost: 5

@@ -1,0 +1,2098 @@
+# This file outlines the messages tied to each spell that is castable with a
+# traditional wand. Names, descriptions, upgrade descriptions, cast messages,
+# etc. are configured here.
+
+# A bit about upgrade descriptions. I try to keep the language consistent
+# throughout them so that it's clear what is being gained from leveling the
+# spell.
+#
+# Moving forward I'm working towards displaying values for what is being
+# enhanced with each spell level for transparency. These values usually fit
+# into one of the formats below.
+#
+# Timings: &3({X}s->{Y}s) - Durations, cooldowns, etc.
+# Flat number: &3({X}->{Y}) - Damage values, etc.
+# Distance: &3({X}m->{Y}m) - Ranges, radiuses, etc.
+# Percentages: &3({X}%->{Y}%) - Fizzle chances, backfire chances, weights, etc.
+# Potion effects: &5({EFFECT} {LEVEL}->{EFFECT} {LEVEL}) - Potion effects.
+
+spells:
+  aberto:
+    name: >-
+      Aberto
+    description: >-
+      Unlocks locked doors in order to reach previously inaccessible areas.
+  aberto|2:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  aberto|3:
+    upgrade_description: |-
+      No chance of fizzling.
+
+  accio:
+    name: >-
+      Accio
+    description: >-
+      Summons objects and lesser creatures to the caster.
+  accio|2:
+    upgrade_description: |-
+      Increased range.
+      Increased power.
+  accio|3:
+    upgrade_description: |-
+      Increased range.
+      Increased power.
+
+  aguamenti:
+    name: >-
+      Aguamenti
+    description: >-
+      Conjures a gush of water where you point your wand.
+  aguamenti|2:
+    upgrade_description: |-
+      Increased size.
+      Increased range.
+  aguamenti|3:
+    upgrade_description: |-
+      Increased size.
+      Increased duration.
+      Increased range.
+  aguamenti|4:
+    upgrade_description: |-
+      Increased size.
+      Increased duration.
+      Increased range.
+
+  alarteascendare:
+    name: >-
+      Alarte Ascendare
+    description: >-
+      Causes the target to be flung high into the air.
+  alarteascendare|2:
+    upgrade_description: |-
+      Increased power.
+      Increased speed.
+      Increased range.
+  alarteascendare|3:
+    upgrade_description: |-
+      Increased power.
+      Increased range.
+  alarteascendare|4:
+    upgrade_description: |-
+      Increased power.
+
+  alohomora:
+    name: >-
+      Alohomora
+    description: |-
+      Can be used to unlock locked doors.
+  alohomora|2:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  alohomora|3:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  alohomora|4:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  alohomora|5:
+    upgrade_description: |-
+      Increased range.
+      Decreased chance of fizzling.
+  alohomora|6:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  alohomora|7:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  alohomora|8:
+    upgrade_description: |-
+      Increased range.
+      Decreased chance of fizzling.
+  alohomora|9:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  alohomora|10:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  alohomora|11:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  alohomora|12:
+    upgrade_description: |-
+      Increased range.
+      Decreased chance of fizzling.
+  alohomora|13:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  alohomora|14:
+    upgrade_description: |-
+      Increased range.
+      No chance of fizzling.
+
+  aparecium:
+    name: >-
+      Aparecium
+    description: >-
+      Causes hidden things to appear.
+  aparecium|2:
+    upgrade_description: |-
+      Increased range.
+  aparecium|3:
+    upgrade_description: |-
+      Increased range.
+      Decreased cooldown.
+  aparecium|4:
+    upgrade_description: |-
+      Increased duration.
+
+  apparate:
+    name: >-
+      Apparation
+    description: >-
+      Causes the witch or wizard to vanish from one location and re-appear
+      where they desire.
+  apparate|2:
+    upgrade_description: |-
+      Increased range.
+  apparate|3:
+    upgrade_description: |-
+      Increased range.
+  apparate|4:
+    upgrade_description: |-
+      Increased range.
+  apparate|5:
+    upgrade_description: |-
+      Increased range.
+  apparate|6:
+    upgrade_description: |-
+      Increased range.
+
+  aquaeructo:
+    name: >-
+      Aqua Eructo
+    description: >-
+      Conjures a controllable jet of water which will push back and damage
+      targets.
+  aquaeructo|2:
+    upgrade_description: |-
+      Increased damage.
+      Increased range.
+      Increased duration.
+  aquaeructo|3:
+    upgrade_description: |-
+      Increased damage.
+
+  araniaexumai:
+    name: >-
+      Arania Exumai
+    description: >-
+      Repells and hurts spiders.
+  araniaexumai|2:
+    upgrade_description: |-
+      Increased damage.
+      &3(15-20)
+  araniaexumai|3:
+    upgrade_description: |-
+      Increased damage.
+      &3(20-25)
+  araniaexumai|4:
+    upgrade_description: |-
+      Increased damage.
+      &3(25-30)
+  araniaexumai|5:
+    upgrade_description: |-
+      Increased radius.
+      &3(4m->5m)
+      Increased range.
+      &3(20m->24m)
+  araniaexumai|6:
+    upgrade_description: |-
+      Increased radius.
+      &3(5m->6m)
+  araniaexumai|7:
+    upgrade_description: |-
+      Creates a lingering area of effect.
+
+  arresto:
+    name: >-
+      Arresto Momentum
+    description: >-
+      Lessens your momentum, cushioning the damage of your fall.
+  arresto|2:
+    upgrade_description: |-
+      Increased slow falling speed.
+      Decreased costs.
+  arresto|3:
+    upgrade_description: |-
+      Decreased cooldown.
+
+  arrow:
+    name: >-
+      Arrow
+    description: >-
+      Conjures and thrusts and arrow from the tip of your wand.
+  arrow|2:
+    upgrade_description: |-
+      Increased damage.
+      Increased accuracy.
+      Increased speed.
+  arrow|3:
+    upgrade_description: |-
+      Increased damage.
+      Increased accuracy.
+      Increased speed.
+  arrow|4:
+    upgrade_description: |-
+      Increased damage.
+      Increased accuracy.
+      Increased speed.
+
+  arrowmaxima:
+    name: >-
+      Arrow Maxima
+    description: >-
+      Conjures and propels a number of powerful magical arrows.
+  arrowmaxima|2:
+    upgrade_description: |-
+      Increased damage.
+      Increased arrow count.
+      Decreased projectile spread.
+  arrowmaxima|3:
+    upgrade_description: |-
+      Increased damage.
+      Increased arrow count.
+      Decreased projectile spread.
+      Decreased delay.
+  arrowmaxima|4:
+    upgrade_description: |-
+      Arrows are now ignited.
+
+  ascendio:
+    name: >-
+      Ascendio
+    description: >-
+      Propels the wizard in the direction they aim.
+  ascendio|2:
+    upgrade_description: |-
+      Increased power.
+  ascendio|3:
+    upgrade_description: |-
+      Increased power.
+      Decreased cooldown.
+  ascendio|4:
+    upgrade_description: |-
+      Increased power.
+  ascendio|5:
+    upgrade_description: |-
+      Increased power.
+      Decreased cooldown.
+  ascendio|6:
+    upgrade_description: |-
+      Increased power.
+
+  atmos:
+    name: >-
+      Atmos
+    description: >-
+      Control the weather to cause a storm.
+
+  avadakedavra:
+    name: >-
+      Avada Kedavra
+    description: >-
+      Kills the target. Highly illegal.
+    usage: ""
+
+  avis:
+    name: >-
+      Avis
+    description: >-
+      Conjures a number of bird companions.
+  avis|2:
+    upgrade_description: |-
+      Increased amount.
+      Increased duration.
+  avis|3:
+    upgrade_description: |-
+      Spawns adult birds.
+      Increased amount.
+      Increased duration.
+
+  babblingcurse:
+    name: >-
+      Babbling Curse
+    description: >-
+      Causes the target to babble uncontrollably.
+  babblingcurse|2:
+    upgrade_description: |-
+      Increased speed.
+      Increased range.
+
+  baubillious:
+    name: >-
+      Baubillious
+    description: >-
+      Causes powerful lightning to zap one target, then to continue jumping
+      between additional nearby targets.
+  baubillious|2:
+    upgrade_description: |-
+      Increased damage.
+  baubillious|3:
+    upgrade_description: |-
+      Increased damage.
+      Increased chains.
+
+  bedazzlinghex:
+    name: >-
+      Bedazzling Hex
+    description: >-
+      Blinds the target in a flash of light.
+  bedazzlinghex|2:
+    upgrade_description: |-
+      Increased range.
+      Increased duration.
+  bedazzlinghex|3:
+    upgrade_description: |-
+      Increased duration.
+
+  bogies:
+    description: >-
+      Sickens the target causing illness.
+  bogies|2:
+    upgrade_description: |-
+      Increased range.
+      Increased duration.
+      Increased potency.
+  bogies|3:
+    upgrade_description: |-
+      Increased range.
+      Increased duration.
+      Increased potency.
+
+  bombarda:
+    name: >-
+      Bombarda
+    description: >-
+      Causes the target to explode, inflicting deadly damage to them and the
+      surrounding area.
+  bombarda|2:
+    upgrade_description: |-
+      Increased speed.
+      Increased size.
+      Increased range.
+      Decreased charge time.
+
+  brachiabindo:
+    name: >-
+      Brachiabindo
+    description: >-
+      Binds your target in ropes to immobilize them.
+  brachiabindo|2:
+    upgrade_description: |-
+      Increased duration.
+  brachiabindo|3:
+    upgrade_description: |-
+      Increased duration.
+
+  brackiumemendo:
+    name: >-
+      Brackium Emendo
+    description: >-
+      An unreliable healing charm that can potentially liquify or mend bones.
+  brackiumemendo|2:
+    upgrade_description: |-
+      Increased success rate.
+      Decreased damage.
+  brackiumemendo|3:
+    upgrade_description: |-
+      Increased success rate.
+      Decreased damage.
+      Increased healing.
+  brackiumemendo|4:
+    upgrade_description: |-
+      Increased success rate.
+      Decreased damage.
+
+  bubblehead:
+    name: >-
+      Bubblehead Charm
+    description: >-
+      Conjures a magical bubble of air for a wizard to breathe underwater with.
+  bubblehead|2:
+    upgrade_description: |-
+      Increased duration.
+      &3(15s-20s)
+      Decreased charge time.
+      &3(4s->3s)
+  bubblehead|3:
+    upgrade_description: |-
+      Increased duration.
+      &3(20s->25s)
+      Decreased charge time.
+      &3(2s->1s)
+
+  carperetractum:
+    name: >-
+      Carpe Retractum
+    description: >-
+      Seizes and pulls an object or creature via a conjured, magical lasso.
+  carperetractum|2:
+    upgrade_description: |-
+      Increased strength.
+      Increased speed.
+      Decreased projectile gravity.
+      Decreased charge time.
+  carperetractum|3:
+    upgrade_description: |-
+      Increased strength.
+      Decreased projectile gravity.
+      Decreased charge time.
+
+  cascadingjinx:
+    name: >-
+      Cascading Jinx
+    description: >-
+      Cascades between nearby targets inflicting high damage.
+  cascadingjinx|2:
+    upgrade_description: |-
+      Increased damage.
+      Increased target count.
+  cascadingjinx|3:
+    upgrade_description: |-
+      Increased damage.
+      Increased target count.
+
+  cheeringcharm:
+    name: >-
+      Cheering Charm
+    description: >-
+      Improve's the caster's mood, granting them increased abilities.
+  cheeringcharm|2:
+    upgrade_description: |-
+      Increased duration.
+      &3(5s->6s)
+  cheeringcharm|3:
+    upgrade_description: |-
+      Increased effect.
+      &5(Speed I->Speed II)
+      &5(Jump I->Jump II)
+  cheeringcharm|4:
+    upgrade_description: |-
+      Increased duration.
+      &3(6s-7s)
+  cheeringcharm|5:
+    upgrade_description: |-
+      Increased effect.
+      &5(Speed II->Speed III)
+  cheeringcharm|6:
+    upgrade_description: |-
+      Increased duration.
+      &3(7s-8s)
+  cheeringcharm|7:
+    upgrade_description: |-
+      Increased duration.
+      &3(8s-10s)
+
+  colloportus:
+    description: >-
+      Can be used to lock doors.
+
+  colloshoo:
+    name: >-
+      Colloshoo
+    description: >-
+      Sticks the target to the ground with a viscous green goo.
+  colloshoo|2:
+    upgrade_description: |-
+      Increased range.
+      Increased slowness.
+      Increased duration.
+  colloshoo|3:
+    upgrade_description: |-
+      Increased range.
+      Increased slowness.
+      Increased duration.
+  colloshoo|4:
+    upgrade_description: |-
+      Increased range.
+      Increased slowness.
+      Increased duration.
+
+  colorvaria:
+    name: >-
+      Colorvaria
+    description: >-
+      Changes the color of objects.
+
+  confringo:
+    name: >-
+      Confringo
+    description: >-
+      Blasts the target to pieces to clear obstacles and destroy targets.
+
+  confundo:
+    name: >-
+      Confundo
+    description: >-
+      Confuses the target, making it difficult to cast spells and leaving them
+      defenseless.
+  confundo|2:
+    upgrade_description: |-
+      Increased duration.
+  confundo|3:
+    upgrade_description: |-
+      Increased duration.
+
+  conjunctivitis:
+    name: >-
+      Conjunctivitis
+    description: >-
+      Causes severe blindness against the target, weakening them.
+
+  crucio:
+    name: >-
+      Crucio
+    description: >-
+      Induces horrible, writhing pain which makes it terribly hard to focus.
+    usage: ""
+  crucio|2:
+    upgrade_description: |-
+      Increased range.
+  crucio|3:
+    upgrade_description: |-
+      Increased range.
+
+  defodio:
+    name: >-
+      Defodio
+    description: >-
+      Gouges stone from structures, providing access to new areas or clearing
+      obstacles.
+  defodio|2:
+    upgrade_description: |-
+      Increased radius.
+  defodio|3:
+    upgrade_description: |-
+      Increased radius.
+
+  deprimo:
+    name: >-
+      Deprimo
+    description: >-
+      Collapses the ground, granting access to new areas.
+  deprimo|2:
+    upgrade_description: |-
+      Increased radius.
+  deprimo|3:
+    upgrade_description: |-
+      Increased radius.
+
+  depulso:
+    name: >-
+      Depulso
+    description: >
+      Banishes an object or creature.
+  depulso|2:
+    upgrade_description: |-
+      Increased force.
+
+  diffindo:
+    name: >-
+      Diffindo
+    description: >-
+      Precisely and accurately cuts the target.
+
+  disillusion:
+    name: >-
+      Disillusionment Charm
+    description: >-
+      Creates the illusion of invisibility on the target as a means of
+      concealment or to cause confusion.
+  disillusion|2:
+    upgrade_description: |-
+      Increased duration.
+  disillusion|3:
+    upgrade_description: |-
+      Increased duration.
+      Automatically hides your wand.
+  disillusion|4:
+    upgrade_description: |-
+      Increased duration.
+
+  duro:
+    name: >-
+      Duro
+    description: >-
+      Hardens extremely hot liquids to a stone consistency.
+  duro|2:
+    upgrade_description: |-
+      Increased size.
+      Increased duration.
+      Increased strength.
+
+  emancipare:
+    name: >-
+      Emancipare
+    description: >-
+      Unbinds your target from ropes or other traps.
+
+  engorgio:
+    name: >-
+      Engorgio
+    description: >-
+      Engorges objects and creatures.
+
+  episkey:
+    cast: ""
+    cast_self: ""
+    name: >-
+      Episkey
+    description: >-
+      Mends minor wounds.
+  episkey|2:
+    upgrade_description: |-
+      Increased duration.
+      &3(6s->7s)
+  episkey|3:
+    upgrade_description: |-
+      Increased effect.
+      &5(Regeneration II->Regeneration III)
+  episkey|4:
+    upgrade_description: |-
+      Increased duration.
+      &3(7s->8s)
+  episkey|5:
+    upgrade_description: |-
+      Increased duration.
+      &3(8s->9s)
+  episkey|6:
+    upgrade_description: |-
+      Increased duration.
+      &3(9s->10s)
+
+  epoximise:
+    name: >-
+      Epoximise
+    description: >-
+      Causes the target to be stuck to the ground temporarily.
+  epoximise|2:
+    upgrade_description: |-
+      Increased range.
+      Increased slowness.
+      Increased duration.
+  epoximise|3:
+    upgrade_description: |-
+      Increased range.
+      Increased slowness.
+      Increased duration.
+  epoximise|4:
+    upgrade_description: |-
+      Increased range.
+      Increased slowness.
+      Increased duration.
+
+  erecto:
+    cast: ""
+    name: >-
+      Erecto
+    description: >-
+      Conjures, pitches, and furnishes a tent for shelter.
+
+  evanesco:
+    name: >-
+      Evanesco
+    description: >-
+      Causes the target to vanish temporarily.
+
+  evertestatum:
+    name: >-
+      Everte Statum
+    description: >-
+      Hurls the target backwards.
+  evertestatum|2:
+    upgrade_description: |-
+      Increased force.
+  evertestatum|3:
+    upgrade_description: |-
+      Increased force.
+      Increased range.
+  evertestatum|4:
+    upgrade_description: |-
+      Increased force.
+  evertestatum|5:
+    upgrade_description: |-
+      Increased force.
+      Increased range.
+  evertestatum|6:
+    upgrade_description: |-
+      Increased force.
+
+  expelliarmus:
+    name: >-
+      Expelliarmus
+    description: >-
+      Disarms the target of what they are holding.
+  expelliarmus|2:
+    upgrade_description: |-
+      Increased range.
+      Increased duration.
+  expelliarmus|3:
+    upgrade_description: |-
+      Now has a chance to disarm and throw the target backwards.
+      Increased duration.
+  expelliarmus|4:
+    upgrade_description: |-
+      Increased speed.
+      Increased range.
+      Increased chance to throw the target backwards.
+  expelliarmus|5:
+    upgrade_description: |-
+      Increased duration.
+  expelliarmus|6:
+    upgrade_description: |-
+      Now no longer moves their item back.
+      Increases chance to throw the target backwards.
+
+  expulso:
+    name: >-
+      Expulso
+    description: >-
+      Causes an incredibly powerful and dangerous explosion.
+  expulso|2:
+    upgrade_description: |-
+      Increased speed.
+      Increased damage.
+      Increased duration.
+  expulso|3:
+    upgrade_description: |-
+      Explosion now burns.
+      Increased size.
+      Increased speed.
+      Increased duration.
+
+  extinguishingcharm:
+    name: >-
+      Extinguishing Charm
+    description: >-
+      Extinguishes flames in a gush of cold air.
+  extinguishingcharm|2:
+    upgrade_description: |-
+      Increased range.
+      Increased size.
+      Decreased cooldown.
+  extinguishingcharm|3:
+    upgrade_description: |-
+      Increased range.
+      Increased size.
+      Increased duration.
+
+  felifors:
+    name: >-
+      Felifors
+    description: >-
+      Transfigures cats into cauldrons.
+  felifors|2:
+    upgrade_description: |-
+      Increased range.
+      Increased duration.
+  felifors|3:
+    upgrade_description: |-
+      Increased range.
+      Increased duration.
+
+  ferula:
+    cast: ""
+    cast_self: ""
+    name: >-
+      Ferula
+    description: >-
+      Conjures magical bandages which heal nearby targets.
+  ferula|2:
+    upgrade_description: |-
+      Increased accuracy.
+  ferula|3:
+    upgrade_description: |-
+      Increased bandages.
+  ferula|4:
+    upgrade_description: |-
+      Increased healing.
+      Increased accuracy.
+  ferula|5:
+    upgrade_description: |-
+      Increased bandages.
+      Increased accuracy.
+
+  fiantoduri:
+    name: >-
+      Fianto Duri
+    description: >-
+      Grants you temporary protection against damage.
+
+  fiendfyre:
+    name: >-
+      Fiendfyre
+    description: >-
+      Conjures an unstoppable monster of flame.
+  fiendfyre|2:
+    upgrade_description: |-
+      Increased power.
+      Increased damage.
+      Increased speed.
+
+  finestra:
+    name: >-
+      Finestra
+    description: >-
+      Vaporizes glass into a near mist.
+  finestra|2:
+    upgrade_description: |-
+      Decreased cooldown.
+      Increased radius.
+
+  finiteincantatem:
+    name: >-
+      Finite Incantatem
+    description: >-
+      Reverses the effects of most spells.
+    usage: ""
+  finiteincantatem|2:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  finiteincantatem|3:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  finiteincantatem|4:
+    upgrade_description: |-
+      No chance of fizzling.
+
+  firestorm:
+    name: >-
+      Firestorm
+    description: >-
+      Conjures a wall of flames around you, incinerating nearby targets.
+  firestorm|2:
+    upgrade_description: |-
+      Increased damage.
+      Increased power.
+      Increased radius
+      Increased duration.
+      No chance of fizzling.
+
+  flagrate:
+    name: >-
+      Flagrate
+    description: >-
+      Writes your name in flames in mid-air.
+  flagrate|2:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+      &3(55%->50%)
+  flagrate|3:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+      &3(50%->45%)
+  flagrate|4:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+      &3(45%->40%)
+  flagrate|5:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+      &3(40%->35%)
+  flagrate|6:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+      &3(35%->30%)
+  flagrate|7:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+      &3(30%->25%)
+  flagrate|8:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+      &3(25%->20%)
+      Your name becomes more discernable.
+  flagrate|9:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+      &3(20%->15%)
+  flagrate|10:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+      &3(15%->10%)
+  flagrate|11:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+      &3(10%->5%)
+  flagrate|12:
+    upgrade_description: |-
+      No chance of fizzling.
+
+  flamefreezingcharm:
+    name: >-
+      Flame-Freezing Charm
+    description: >-
+      Causes flames to feel like tickles temporarily.
+  flamefreezingcharm|2:
+    upgrade_description: |-
+      Increased duration.
+
+  flight:
+    name: >-
+      Flight
+    description: >-
+      Levitate and fly around without the aid of a magical device.
+
+  flintifors:
+    name: >-
+      Flintifors
+    description: >-
+      Conjures a flint and steel, a manual fire-igniting tool.
+  flintifors|2:
+    upgrade_description: |-
+      Decreased cooldown.
+  flintifors|3:
+    upgrade_description: |-
+      Decreased cooldown.
+
+  flipendo:
+    name: >-
+      Flipendo
+    description: >-
+      Pushes the target backwards.
+  flipendo|2:
+    upgrade_description: |-
+      Increased damage.
+      &3(1->2)
+  flipendo|3:
+    upgrade_description: |-
+      Increased range.
+      &3(12m->16m)
+  flipendo|4:
+    upgrade_description: |-
+      Increased knockback.
+      &3(0.5->1)
+  flipendo|5:
+    upgrade_description: |-
+      Increased target count.
+      &3(1->3)
+  flipendo|6:
+    upgrade_description: |-
+      Increased damage.
+      &3(2->3)
+  flipendo|7:
+    upgrade_description: |-
+      Increased damage.
+      &3(3->4)
+  flipendo|8:
+    upgrade_description: |-
+      Increased range.
+      &3(16m->20m)
+  flipendo|9:
+    upgrade_description: |-
+      Increased knockback.
+      &3(1->1.5)
+  flipendo|10:
+    upgrade_description: |-
+      Increased knockback.
+      &3(1.5->2)
+  flipendo|11:
+    upgrade_description: |-
+      Increased range.
+      &3(20m->24m)
+  flipendo|12:
+    upgrade_description: |-
+      Increased damage.
+      &3(4->5)
+      Increased target count.
+      &3(3-5)
+  flipendo|13:
+    upgrade_description: |-
+      Increased target count.
+      &3(5-6)
+  flipendo|14:
+    upgrade_description: |-
+      Increased damage.
+      &3(5->6)
+
+  fourpoint:
+    name: >-
+      Fourpoint Charm
+    description: >-
+      Functions as a magical compass.
+  fourpoint|2:
+    upgrade_description: |-
+      Decreased wait time.
+      Decreased cooldown.
+
+  fumos:
+    name: >-
+      Fumos
+    description: >-
+      Produces a heavy smoke from the tip of your wand.
+  fumos|2:
+    upgrade_description: |-
+      Increased radius.
+      Increased slowness.
+  fumos|3:
+    upgrade_description: |-
+      Increased radius.
+      Increased slowness.
+
+  furnunculus:
+    name: >-
+      Furnunculus
+    description: >-
+      Causes the target to erupt in terrible, painful boils.
+  furnunculus|2:
+    upgrade_description: |-
+      Expels green pus.
+      Increased range.
+      Increased damage.
+      Increased duration.
+      Increased velocity.
+  furnunculus|3:
+    upgrade_description: |-
+      Increased range.
+      Increased damage.
+
+  glacius:
+    name: >-
+      Glacius
+    description: >-
+      Conjures snowfall which freezes the ground below it, slowing targets.
+  glacius|2:
+    upgrade_description: |-
+      Increased damage.
+      Increased size.
+      Increased range.
+      Increased potency.
+  glacius|3:
+    upgrade_description: |-
+      Increased damage.
+      Increased size.
+      Increased range.
+      Increased potency.
+      Freezes lava.
+
+  glisseo:
+    name: >-
+      Glisseo
+    description: >-
+      Transfigures stairs into a slippery surface.
+  glisseo|2:
+    upgrade_description: |-
+      Now affects stairs and slabs.
+      Increased range.
+      Increased duration.
+      Increased radius.
+      Decreased undo speed.
+
+  herbifors:
+    name: >-
+      Herbifors
+    description: >-
+      Causes the target to sprout a flower from their head.
+  herbifors|2:
+    upgrade_description: |-
+      Increased range.
+      &3(12m->16m)
+  herbifors|3:
+    upgrade_description: |-
+      Increased duration.
+      &3(4s->5s)
+  herbifors|4:
+    upgrade_description: |-
+      Increased range.
+      &3(16m->20m)
+  herbifors|5:
+    upgrade_description: |-
+      Increased duration.
+      &3(5s->6s)
+  herbifors|6:
+    upgrade_description: |-
+      Increased range.
+      &3(20m->24m)
+  herbifors|7:
+    upgrade_description: |-
+      Increased duration.
+      &3(6s->7s)
+  herbifors|8:
+    upgrade_description: |-
+      Increased range.
+      &3(24m->28m)
+  herbifors|9:
+    upgrade_description: |-
+      Increased duration.
+      &3(7s->8s)
+
+  homenumrevelio:
+    name: >-
+      Homenum Revelio
+    description: >-
+      Reveals the presence of nearby players.
+  homenumrevelio|2:
+    upgrade_description: |-
+      Increased radius.
+      Increased target count.
+      Increased duration.
+  homenumrevelio|3:
+    description: >-
+      Reveals the presence of nearby creatures.
+    upgrade_description: |-
+      Increased radius.
+      Increased target count.
+      Increased duration.
+      Now detects any living creature.
+  homenumrevelio|4:
+    upgrade_description: |-
+      Increased radius.
+      Increased target count.
+      Increased duration.
+
+  immobulus:
+    name: >-
+      Immobulus
+    description: >-
+      Immobilizes the target temporarily.
+  immobulus|2:
+    upgrade_description: |-
+      Increased range.
+      Increased duration.
+  immobulus|3:
+    upgrade_description: |-
+      Increased duration.
+  immobulus|4:
+    upgrade_description: |-
+      Increased range.
+      Increased duration.
+
+  impedimenta:
+    name: >-
+      Impedimenta
+    description: >-
+      Impedes the movement of the target to slow them down.
+  impedimenta|2:
+    upgrade_description: |-
+      Increased slowness.
+      Increased duration.
+  impedimenta|3:
+    upgrade_description: |-
+      Increased duration.
+
+  imperio:
+    name: >-
+      Imperio
+    description: >-
+      Allows you to control the actions of another being.
+    usage: ""
+  imperio|2:
+    upgrade_description: |-
+      Increased power.
+  imperio|3:
+    upgrade_description: |-
+      Increased power.
+
+  impervius:
+    name: >-
+      Impervius
+    description: >-
+      Repels water and potentially clears pathways.
+    usage: ""
+
+  incarcerous:
+    name: >-
+      Incarcerous
+    description: >-
+      Binds your target in ropes.
+  incarcerous|2:
+    upgrade_description: |-
+      Increased duration.
+  incarcerous|3:
+    upgrade_description: |-
+      Increased duration.
+
+  incarcifors:
+    name: >-
+      Incarcifors
+    description: >-
+      Conjures a cage to entrap your target.
+
+  incendio:
+    name: >-
+      Incendio
+    description: >-
+      Ignites the target for a variety of purposes.
+  incendio|2:
+    upgrade_description: |-
+      Increased range.
+      Increased size.
+      Increased duration.
+  incendio|3:
+    upgrade_description: |-
+      Increased speed.
+  incendio|4:
+    upgrade_description: |-
+      Increased range.
+      Increased size.
+      Increased duration.
+  incendio|5:
+    upgrade_description: |-
+      Increased size.
+      Increased duration.
+  incendio|6:
+    upgrade_description: |-
+      Increased speed.
+  incendio|7:
+    upgrade_description: |-
+      Increased size.
+      Increased duration.
+
+  lacarnum:
+    name: >-
+      Lacarnum Inflamari
+    description: >-
+      Conjures and propels a large fireball.
+  lacarnum|2:
+    upgrade_description: |-
+      Increased radius.
+      Increased duration.
+      Increased accuracy.
+  lacarnum|3:
+    upgrade_description: |-
+      Increased radius.
+      Increased duration.
+      Increased size.
+      Increased accuracy.
+
+  lapifors:
+    name: >-
+      Lapifors
+    description: >-
+      Conjures sets of bunnies and rabbits.
+  lapifors|2:
+    upgrade_description: |-
+      Increased spawning rate.
+  lapifors|3:
+    upgrade_description: |-
+      Spawns adult bunnies.
+
+  legilimens:
+    name: >-
+      Legilimens
+    description: >-
+      View the inventory of your target.
+
+  levicorpus:
+    name: >-
+      Levicorpus
+    description: >-
+      Levitates the target high off the ground, flipping them upside down and
+      disorienting them.
+  levicorpus|2:
+    upgrade_description: |-
+      Increased range.
+      Increased speed.
+  levicorpus|3:
+    upgrade_description: |-
+      Increased range.
+      Increased speed.
+  levicorpus|4:
+    upgrade_description: |-
+      Increased speed.
+  levicorpus|5:
+    upgrade_description: |-
+      Increased duration.
+
+  liberacorpus:
+    name: >-
+      Liberacorpus
+    description: >-
+      Counters levitation hex casts, returning their targets to their normal,
+      right-side-up states.
+  liberacorpus|2:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  liberacorpus|3:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  liberacorpus|4:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  liberacorpus|5:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  liberacorpus|6:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  liberacorpus|7:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  liberacorpus|8:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  liberacorpus|9:
+    upgrade_description: |-
+      Decreased chance of fizzling.
+  liberacorpus|10:
+    upgrade_description: |-
+      No chance of fizzling.
+
+  lightningcurse:
+    name: >-
+      Lightning Curse
+    description: >-
+      Smites your target with the power of lightning.
+  lightningcurse|2:
+    upgrade_description: |-
+      Increased damage.
+      Increased range.
+      Increased burn duration.
+  lightningcurse|3:
+    upgrade_description: |-
+      Increased damage.
+      Increased range.
+
+  locomotormortis:
+    name: >-
+      Locomotor Mortis
+    description: >-
+      Locks the target's legs to immobilize them temporarily.
+  locomotormortis|2:
+    upgrade_description: |-
+      Increased duration.
+      &3(3s->4s)
+  locomotormortis|3:
+    upgrade_description: |-
+      Increased range.
+      &3(20m->24m)
+  locomotormortis|4:
+    upgrade_description: |-
+      Increased duration.
+      &3(4s->5s)
+  locomotormortis|5:
+    upgrade_description: |-
+      Increased range.
+      &3(24m->28m)
+  locomotormortis|6:
+    upgrade_description: |-
+      Increased duration.
+      &3(5s->6s)
+  locomotormortis|7:
+    upgrade_description: |-
+      Increased range.
+      &3(28m->32m)
+
+  locomotorwibbly:
+    name: >-
+      Locomotor Wibbly
+    description: >-
+      Causes the target's legs to become weak, immobilizing them temporarily.
+  locomotorwibbly|2:
+    upgrade_description: |-
+      Increased speed.
+      Increased duration.
+  locomotorwibbly|3:
+    upgrade_description: |-
+      Increased efficacy.
+      Increased range.
+
+  lumos:
+    cast: ""
+    cancel: "a:&7You stash your wand, putting out your light"
+    name: >-
+      Lumos
+    description: >-
+      Lights up the tip of your wand.
+  lumos|2:
+    upgrade_description: |-
+      Increased duration.
+      &3(10s->12s)
+  lumos|3:
+    upgrade_description: |-
+      Increased duration.
+      &3(12s->15s)
+      Increased range.
+      &3(4m->6m)
+  lumos|4:
+    upgrade_description: |-
+      Increased duration.
+      &3(15s->18s)
+  lumos|5:
+    upgrade_description: |-
+      Increased duration.
+      &3(18s->20s)
+      Increased range.
+      &3(6m->8m)
+  lumos|6:
+    upgrade_description: |-
+      Increased duration.
+      &3(20s->22s)
+  lumos|7:
+    upgrade_description: |-
+      Increased duration.
+      &3(22s->25s)
+      Increased range.
+      &3(8m->10m)
+  lumos|8:
+    upgrade_description: |-
+      Increased duration.
+      &3(25s->28s)
+  lumos|9:
+    upgrade_description: |-
+      Increased range.
+      &3(10m->12m)
+  lumos|10:
+    upgrade_description: |-
+      Increased duration.
+      &3(28s->30s)
+
+  lumosmaxima:
+    name: >-
+      Lumos Maxima
+    description: >-
+      Lights up the tip of your wand with a blinding, long-lasting light.
+  lumosmaxima|2:
+    upgrade_description: |-
+      Increased range.
+      Increased duration.
+  lumosmaxima|3:
+    upgrade_description: |-
+      Increased range.
+      Increased duration.
+  lumosmaxima|4:
+    upgrade_description: |-
+      Increased duration.
+
+  lumossolem:
+    name: >-
+      Lumos Solem
+    description: >-
+      Conjures a ball of light which can be thrown and stuck where desired.
+  lumossolem|2:
+    upgrade_description: |-
+      Increased duration.
+      &3(5s->10s)
+      Increased range.
+      &3(16m->20m)
+  lumossolem|3:
+    upgrade_description: |-
+      Increased range.
+      &3(20m->24m)
+      Decreased fizzle chance.
+      &3(15%->10%)
+  lumossolem|4:
+    upgrade_description: |-
+      Increased duration.
+      &3(10s->15s)
+  lumossolem|5:
+    upgrade_description: |-
+      Decreased fizzle chance.
+      &3(10%->5%)
+  lumossolem|6:
+    upgrade_description: |-
+      Increased range.
+      &3(24m->28m)
+      No chance of fizzling.
+
+  madampomfreyscharm:
+    name: >-
+      Madam Pomfrey's Charm
+    description: >-
+      A unique healing charm which grants a moderate amount of regeneration
+      and absorption.
+
+  melofors:
+    name: >-
+      Melofors
+    description: >-
+      Encases the target's head in a pumpkin.
+
+  meteo:
+    name: >-
+      Meteolojinx Recanto
+    description: >-
+      Control the weather to precisely calm storms.
+
+  morsmordre:
+    cast: ""
+    name: >-
+      Morsmordre
+    description: >-
+      Conjures the symbol of one of Britain's darkest wizards, Lord Voldemort,
+      high into the air.
+
+  nox:
+    name: >-
+      Nox
+    description: >-
+      Extinguishes your lit wand.
+
+  noxmaxima:
+    name: >-
+      Nox Maxima
+    description: >-
+      Turn day to night.
+
+  obliviate:
+    name: >-
+      Obliviate
+    description: >-
+      Wipes the target's chat messages.
+
+  obliviatemaxima:
+    name: >-
+      Obliviate Maxima
+    description: >-
+      Wipes the server's chat messages.
+
+  obscuro:
+    name: >-
+      Obscuro
+    description: >-
+      Obscures the target's vision temporarily.
+  obscuro|2:
+    upgrade_description: |-
+      Increased density.
+      Increased potency.
+
+  orchideous:
+    name: >-
+      Orchideous
+    description: >-
+      Conjures bunches of beautiful flowers.
+
+  patronus:
+    cast: ""
+    usage: ""
+    name: >-
+      Expecto Patronum
+    description: >-
+      Conjures a wizard's Patronus to protect against Dementors and Lethifolds.
+  patronus|2:
+    upgrade_description: |-
+      Increased speed.
+      Decreased chance of fizzling.
+  patronus|3:
+    upgrade_description: |-
+      Your patronus becomes corporeal.
+      No chance of fizzling.
+      Increased damage.
+
+  periculum:
+    cast: ""
+    name: >-
+      Periculum
+    description: >-
+      Conjures bursting red sparks to signal fellow witches and wizards.
+  periculum|2:
+    upgrade_description: |-
+      Increased range.
+  periculum|3:
+    upgrade_description: |-
+      Decreased cooldown.
+
+  petrificustotalus:
+    cast: ""
+    name: >-
+      Petrificus Totalus
+    description: >-
+      Binds the entire body of the target, preventing any movement for a short
+      while.
+
+  piertotum:
+    name: >-
+      Piertotum Locomotor
+    description: >-
+      Conjures animated suits of armor to aid you in combat.
+
+  portus:
+    name: >-
+      Portus
+    description: >-
+      Conjures a portkey, enchanted objects that can be used to take you home.
+  portus|2:
+    upgrade_description: |-
+      Decreased charge time.
+
+  protego:
+    cast: ""
+    name: >-
+      Protego
+    description: >-
+      Conjures a temporary magical shield which can shield you from and deflect
+      spells.
+  protego|2:
+    upgrade_description: |-
+      Decreased cooldown.
+      Increased chance to reflect spells.
+      Increased size.
+  protego|3:
+    upgrade_description: |-
+      Decreased cooldown.
+      Increased duration.
+      Increased chance to reflect spells.
+      Increased size.
+  protego|4:
+    upgrade_description: |-
+      Decreased cooldown.
+      Increased chance to reflect spells.
+      Increased size.
+  protego|5:
+    upgrade_description: |-
+      Increased duration.
+      Increased size.
+      Guaranteed to reflect spells.
+
+  protegomaxima:
+    name: >-
+      Protego Maxima
+    description: >-
+      Conjures a dome-shaped shield to protect an area from incoming projectiles
+      and magical attacks.
+    usage: ""
+  protegomaxima|2:
+    upgrade_description: |-
+      Decreased cooldown.
+      Increased duration.
+      Increased reflection chance.
+      Increased size.
+
+  protegototalus:
+    name: >-
+      Protego Totalus
+    description: >-
+      Grants temporary resistance to additional damage.
+  protegototalus|2:
+    upgrade_description: |-
+      Increased radius.
+
+  pulsus:
+    name: >-
+      Pulsus
+    description: >-
+      Pushes away everything nearby with great force.
+  pulsus|2:
+    upgrade_description: |-
+      Increased power.
+      Increased target count.
+
+  pulvifors:
+    name: >-
+      Pulvifors
+    description: >-
+      Conjures an invisible cushion to protect yourself from fall damage.
+  pulvifors|2:
+    upgrade_description: |-
+      Increased duration.
+      &3(4s->6s)
+      Decreased cooldown.
+      &3(10s->9s)
+  pulvifors|3:
+    upgrade_description: |-
+      Increased duration.
+      &3(6s->8s)
+      Decreased cooldown.
+      &3(9s->8s)
+
+  reducio:
+    cast: ""
+    name: >-
+      Reducio
+    description: >-
+      Causes objects or creatures to quickly shrink.
+  reducio|2:
+    upgrade_description: |-
+      Increased range.
+      Increased damage.
+  reducio|3:
+    upgrade_description: |-
+      Increased range.
+      Increased damage.
+
+  reducto:
+    name: >-
+      Reducto
+    description: >-
+      Vaporizes stone into dust-like particles. Can be used to access to new
+      areas.
+  reducto|2:
+    upgrade_description: |-
+      Increased radius.
+
+  rennervate:
+    cast: ""
+    cast_self: ""
+    name: >-
+      Rennervate
+    description: >-
+      Awakens stunned targets back to their normal state.
+
+  reparifarge:
+    cast: >-
+      &8>> &7You reverse the &6$spell &7cast&8.
+    cast_self: >-
+      &8>> &7You reverse your &6$spell &7cast&8.
+    cost_free: >-
+      &8>> &7You cancel your &6$spell &7cast&8.
+    fail: >-
+      &8>> &cNothing to reverse.
+    name: >-
+      Reparifarge
+    description: >-
+      Counters most of the world-impacting effects of previously cast spells.
+
+  reparo:
+    cast: ""
+    name: >-
+      Reparo
+    description: >-
+      Fixes things.
+
+  revelio:
+    name: >-
+      Revelio
+    description: >-
+      Reveals nearby hidden things, such as pathways or objects.
+
+  rictusempra:
+    name: >-
+      Rictusempra
+    description: >-
+      Tickles the target terribly, hurling them backwards.
+  rictusempra|2:
+    upgrade_description: |-
+      Increased damage.
+      Increased range.
+      Increased power.
+  rictusempra|3:
+    upgrade_description: |-
+      Increased damage.
+      Increased power.
+  rictusempra|4:
+    upgrade_description: |-
+      Increased damage.
+      Increased range.
+
+  salviohexia:
+    name: >-
+      Salvio Hexia
+    description: >-
+      Provides additional defenses against hexes, curses, and other dark magic.
+    usage: ""
+  salviohexia|2:
+    upgrade_description: |-
+      Increased duration.
+  salviohexia|3:
+    upgrade_description: |-
+      Increased duration.
+  salviohexia|4:
+    upgrade_description: |-
+      Increased duration.
+
+  scribblifors:
+    name: >-
+      Scribblifors
+    description: >-
+      Conjures stationery to write on. A useful transfiguration spell for
+      classwork.
+  scribblifors|2:
+    upgrade_description: |-
+      Decreased charge time.
+      &3(4s->3s)
+  scribblifors|3:
+    upgrade_description: |-
+      Decreased charge time.
+      &3(3s->2s)
+
+  sectumsempra:
+    name: >-
+      Sectumsempra
+    description: >-
+      Conjures an invisible sword which will slash at a target, inflicting
+      massive damage and bleeding.
+
+  singingcharm:
+    name: >-
+      Singing Charm
+    description: >-
+      Forces the target to begin singing.
+
+  sluguluseructo:
+    name: >-
+      Slugulus Eructo
+    description: >-
+      Causes the target to uncontrollably vomit slugs.
+  sluguluseructo|2:
+    upgrade_description: |-
+      Increased amount.
+  sluguluseructo|3:
+    upgrade_description: |-
+      Increased amount.
+
+  snowball:
+    name: >-
+      Bewitched Snowball
+    description: >-
+      Conjures a volley of enchanted snowballs that slow down and damage
+      targets.
+  snowball|2:
+    upgrade_description: |-
+      Decreased charge time.
+      &3(2s->1.5s)
+      Increased damage.
+      &3(2->3)
+      Increased projectile count.
+      &3(6->8)
+      Decreased projectile spread.
+      &3(8->6)
+  snowball|3:
+    upgrade_description: |-
+      Decreased charge time.
+      &3(1.5s->1s)
+      Increased damage.
+      &3(3->4)
+      Decreased projectile spread.
+      &3(6->4)
+  snowball|4:
+    description: >-
+      Conjures a volley of enchanted snowballs that slow down and damage nearby
+      targets.
+    upgrade_description: |-
+      Now creates an area of effect.
+      Increased effect.
+      &5(Slowness I->Slowness II)
+      Increased projectile spread.
+      &3(4->20)
+      Increased projectile count.
+      &3(8->10)
+      Decreased damage.
+      &3(4->2)
+
+  spongify:
+    cast: ""
+    name: >-
+      Spongify
+    description: >-
+      Softens and makes the ground bouncy, prime for cushioning a long fall.
+
+  stinginghex:
+    name: >-
+      Stinging Hex
+    description: >-
+      Causes incredibly painful stinging and blisters.
+  stinginghex|2:
+    upgrade_description: |-
+      Increased damage.
+  stinginghex|3:
+    upgrade_description: |-
+      Increased damage.
+
+  stupefy:
+    cast: ""
+    name: >-
+      Stupefy
+    description: >-
+      Stuns the target temporarily.
+  stupefy|2:
+    upgrade_description: |-
+      Increased damage.
+      &3(2->3)
+      Increased range.
+      &3(20m->24m)
+  stupefy|3:
+    upgrade_description: |-
+      Increased duration.
+      &3(5s->6s)
+      Increased range.
+      &3(24m->28m)
+  stupefy|4:
+    upgrade_description: |-
+      Increased damage.
+      &3(3->4)
+      Increased range.
+      &3(28m->32m)
+  stupefy|5:
+    upgrade_description: |-
+      Increased duration.
+      &3(6s->7s)
+      Increased range.
+      &3(32m->36m)
+  stupefy|6:
+    upgrade_description: |-
+      Increased damage.
+      &3(4->5)
+      Increased range.
+      &3(36m->40m)
+  stupefy|7:
+    upgrade_description: |-
+      Increased duration.
+      &3(7s->8s)
+
+  tarantallegra:
+    name: >-
+      Tarantallegra
+    description: >-
+      Forces the target to dance against their will.
+  tarantallegra|2:
+    upgrade_description: |-
+      Increased duration.
+  tarantallegra|3:
+    upgrade_description: |-
+      Increased duration.
+  tarantallegra|4:
+    upgrade_description: |-
+      Increased duration.
+  tarantallegra|5:
+    upgrade_description: |-
+      Increased duration.
+
+  titillando:
+    name: >-
+      Titillando
+    description: >-
+      Tickles the target to immobilize them.
+  titillando|2:
+    upgrade_description: |-
+      Decreased cooldown.
+      Increased range.
+      Increased efficacy.
+      Increased duration.
+  titillando|3:
+    upgrade_description: |-
+      Decreased cooldown.
+      Increased range.
+      Increased efficacy.
+
+  ventus:
+    name: >-
+      Ventus
+    description: >-
+      Blasts the target with a stream of hot air which propels them backwards.
+
+  verdimillious:
+    name: >-
+      Verdimillious
+    description: >-
+      Conjures a number of burning green sparks which inflict damage on those
+      they touch.
+  verdimillious|2:
+    upgrade_description: |-
+      Increased damage.
+  verdimillious|3:
+    upgrade_description: |-
+      Increased damage.
+      Increased range.
+  verdimillious|4:
+    upgrade_description: |-
+      Increased damage.
+  verdimillious|5:
+    upgrade_description: |-
+      Increased damage.
+      Increased range.
+  verdimillious|6:
+    upgrade_description: |-
+      Increased damage.
+  verdimillious|7:
+    upgrade_description: |-
+      Increased damage.
+
+  vermillious:
+    cast: ""
+    name: >-
+      Vermillious
+    description: >-
+      Conjures a number of burning red sparks which inflict damage on those they
+      touch.
+  vermillious|2:
+    upgrade_description: |-
+      Increased damage.
+  vermillious|3:
+    upgrade_description: |-
+      Increased damage.
+      Increased range.
+  vermillious|4:
+    upgrade_description: |-
+      Increased damage.
+  vermillious|5:
+    upgrade_description: |-
+      Increased damage.
+      Increased range.
+  vermillious|6:
+    upgrade_description: |-
+      Increased damage.
+  vermillious|7:
+    upgrade_description: |-
+      Increased damage.
+
+  volo:
+    cast: ""
+    name: >-
+      Volo
+    description: >-
+      Temporarily grants the caster magically-enhanced speed.
+  volo|2:
+    upgrade_description: |-
+      Increased duration.
+      Increased speed.
+  volo|3:
+    upgrade_description: |-
+      Increased duration.
+      Increased speed.
+
+  vulnera:
+    cast: ""
+    cast_self: ""
+    name: >-
+      Vulnera Sanentur
+    description: >-
+      Mends even the most severe of wounds.
+
+  waddiwasi:
+    name: >-
+      Waddiwasi
+    description: >-
+      Sticks the target to the ground with pre-chewed gum.
+  waddiwasi|2:
+    upgrade_description: |-
+      Increased range.
+      Increased slowness.
+      Increased duration.
+  waddiwasi|3:
+    upgrade_description: |-
+      Increased range.
+      Increased slowness.
+      Increased duration.
+  waddiwasi|4:
+    upgrade_description: |-
+      Increased range.
+      Increased slowness.
+      Increased duration.
+
+  whippinghex:
+    name: >-
+      Whipping Hex
+    description: >-
+      Conjures a powerful whip to attack your target viciously with.
+  whippinghex|2:
+    upgrade_description: |-
+      Increased damage.
+      Increased speed.
+      Increased duration.
+  whippinghex|3:
+    upgrade_description: |-
+      Increased damage.
+      Increased duration.
+  whippinghex|4:
+    upgrade_description: |-
+      Increased damage.
+      Increased speed.
+      Increased duration.
+
+  wingardium:
+    cast: ""
+    name: >-
+      Wingardium Leviosa
+    description: >-
+      Levitates blocks and targets into the air.

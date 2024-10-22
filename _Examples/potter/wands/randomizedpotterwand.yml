@@ -1,0 +1,14 @@
+randomizedpotterwand:
+  hidden: true
+  inherit: potterwand
+  legacy_randomize_icon: wood_step
+  randomize_icon: birch_slab{CustomModelData:18001}
+  effects:
+    randomize:
+    -  class: EffectSingle
+       sound: entity_player_levelup
+    -  class: EffectRing
+       firework: star
+       radius: 4
+       size: 2
+

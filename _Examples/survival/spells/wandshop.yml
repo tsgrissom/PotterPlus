@@ -1,0 +1,25 @@
+wandshop:
+    icon: blaze_rod{CustomModelData:18045}
+    icon_disabled: blaze_rod{CustomModelData:18046}
+    legacy_icon: spell_icon:233
+    legacy_icon_disabled: spell_icon_disabled:233
+    category: npc
+    hidden: true
+    inherit: buyshop
+    parameters:
+        confirm: true
+        auto_close: true
+        items:
+        - item: wand|default
+          cost: 3000
+        - item: wand|spellbook
+          cost: 3000
+        - item: wand|talisman
+          cost: 5000
+        - item: wand|mastersword
+          cost: 8000
+        - item: wand|magicsword
+          cost: 9000
+        - item: wand|magicbow
+          cost: 2500
+

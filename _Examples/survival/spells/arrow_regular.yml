@@ -1,0 +1,20 @@
+arrow_regular:
+    icon: arrow{CustomModelData:18001}
+    icon_disabled: arrow{CustomModelData:18002}
+    legacy_icon: arrow
+    category: combat
+    worth: 100
+    earns_sp: 2
+    actions:
+        cast:
+        - class: Projectile
+    parameters:
+      target: none
+      projectile: TippedArrow
+      speed: "bowpull * 3"
+      spread: "1 - bowpull"
+      damage: "10 * bowpull"
+      tick_increase: 0
+      pickup: allowed
+    costs:
+      arrow: 1

@@ -1,0 +1,22 @@
+erumpent:
+  name: '&7Erumpent'
+  type: ravager
+  health: 100
+  default_drops: false
+  drops:
+    - mobxp|10
+    - erumpenthorn
+  interval: 3000
+  potion_effects:
+    - type: slow
+      amplifier: 2
+  track_radius: 24
+  triggers:
+    interval:
+      cast:
+        none: 75
+        erumpent_attack: 25
+    death:
+      cast:
+        none: 20
+        erumpent_death: 80

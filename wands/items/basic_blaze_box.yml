@@ -1,0 +1,13 @@
+basicblazebox:
+  icon: chest
+  mode: cast
+  bound: false
+  uses: 8
+  active_spell: ability_basicblazebox
+  spells:
+    - ability_basicblazebox
+  display_name: "$name"
+  lore:
+    - "$description"
+    - ""
+    - "$uses"

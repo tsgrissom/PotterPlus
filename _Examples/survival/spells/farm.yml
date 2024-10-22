@@ -1,0 +1,80 @@
+farm:
+    icon: melon_slice{CustomModelData:18001}
+    icon_disabled: melon_slice{CustomModelData:18002}
+    legacy_icon: spell_icon:68
+    legacy_icon_disabled: spell_icon_disabled:68
+    icon_url: http://textures.minecraft.net/texture/5d6c6eda942f7f5f71c3161c7306f4aed307d82895f9d2b07ab4525718edc5
+    category: elemental
+    worth: 300
+    actions:
+      cast:
+        - class: Repeat
+          actions:
+          - class: Spread
+            actions:
+            - class: SpawnEntity
+            - class: PlayEffects
+              effects: spawned
+            - class: Delay
+    effects:
+        cast:
+        -  sound: block_beacon_power_select
+           sound_pitch: 1.2
+           sound_volume: 0.8
+        -  sound: entity_sheep_ambient
+           location: target
+           effectlib:
+             class: Modified
+             offset: 0,0.2,0
+             iterations: 60
+             parameters:
+               radius: "(t / i) * 16 + 0.1"
+             effect:
+               class: HelixEffect
+               particle: drip_water
+        spawned:
+        -  class: EffectSingle
+           location: target
+           sound: entity_sheep_ambient
+           sound_pitch: 1.4
+           effectlib:
+             class: Smoke
+             duration: 100
+             particle: end_rod
+             particle_count: 5
+             particle_offset_x: 0.5
+             particle_offset_y: 0.5
+             particle_offset_z: 0.5
+        undo_entity:
+        - location: target
+          sound: block_fire_extinguish
+          sound_volume: 0.8
+          sound_pitch: 0.2
+          effectlib:
+            class: Smoke
+            duration: 500
+            particle_count: 10
+            particle_offset_x: 0.5
+            particle_offset_y: 0.5
+            particle_offset_z: 0.5
+    parameters:
+        target_type: LivingEntity
+        allow_max_range: false
+        range: 64
+        repeat: 10
+        cooldown: 45000
+        undo: 30000
+        radius: 24
+        delay: 500
+        entity_types:
+            chicken: 30
+            cow: 100
+            pig: 100
+            mushroom_cow: 5
+            horse: 5
+            ocelot: 10
+            parrot: 5
+            wolf: 10
+    costs:
+        mana: 50
+

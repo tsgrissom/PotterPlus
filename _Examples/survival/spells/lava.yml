@@ -1,0 +1,69 @@
+lava:
+    icon: lava_bucket{CustomModelData:18001}
+    icon_disabled: lava_bucket{CustomModelData:18002}
+    legacy_icon: spell_icon:139
+    legacy_icon_disabled: spell_icon_disabled:139
+    icon_url: http://textures.minecraft.net/texture/a9e073da36aaf2c844da428cd4a19dfde32c8cdc2404eed4a135f6095b17c
+    category: combat
+    pvp_restricted: true
+    worth: 250
+    earns_sp: 5
+    upgrade_required_path: student
+    upgrade_required_casts: 50
+    actions:
+      cast:
+      - class: DisablePhysics
+      - class: Line
+        actions:
+        - class: ModifyBlock
+        - class: Delay
+    effects:
+        cast:
+        - sound: block_lava_pop
+          sound_pitch: 0.1
+          sound_volume: 1.1
+        - sound: entity_ghast_shoot
+          sound_pitch: 0.1
+          sound_volume: 0.2
+        - class: EffectSingle
+          sound: block_lava_ambient
+          sound_pitch: 2
+          sound_volume: 2
+        iterate:
+        - location: target
+          particle: lava
+          particle_count: 8
+          particle_offset_x: 0.5
+          particle_offset_z: 0.5
+          particle_offset_y: 0.2
+    parameters:
+        target_type: LivingEntity
+        transparent: transparent_to_construction
+        allow_max_range: true
+        range: 6
+        size: 6
+        brush: stationary_lava
+        increment_data: true
+        undo: 200
+        cooldown: 5000
+        destructible: destructible_replace
+        delay: 1
+    costs:
+        mana: 65
+
+lava|2:
+  parameters:
+    range: 8
+    size: 8
+
+lava|3:
+  parameters:
+    range: 12
+    size: 12
+
+lava|3:
+  parameters:
+    range: 16
+    size: 16
+
+

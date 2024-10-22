@@ -1,0 +1,34 @@
+# Made up as an admin tool to clear everyone's chat
+
+obliviatemaxima:
+  category: staff
+  icon: diamond_axe{CustomModelData:138}
+  icon_disabled: diamond_hoe{CustomModelData:138}
+  worth: 30 ac
+  actions:
+    cast:
+      - class: AllEntities
+        actions:
+          - class: PotionEffect
+          - class: ClearChat
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap
+        effectlib:
+          offset: 0,4,0
+          class: Helix
+          iterations: 1
+          particle: redstone
+          color: FFFFFF
+  parameters:
+    target: self
+    target_self: true
+    cooldown: 20000
+    target_all_worlds: true
+    target_type: Player
+    add_effects:
+      confusion: 2
+    duration: 8000
+  costs:
+    mana: 75

@@ -1,0 +1,68 @@
+colloshoo:
+  category: dada
+  icon: diamond_axe{CustomModelData:147}
+  icon_disabled: diamond_hoe{CustomModelData:147}
+  worth: 10 ac
+  upgrade_required_casts: 25
+  upgrade_required_path: year3
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: PotionEffect
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.ignite
+        location: origin
+    tick:
+      - location: target
+        particle: slime
+        particle_count: 4
+        particle_offset_x: 0.5
+        particle_offset_z: 0.5
+        particle_offset_y: 0
+    hit_entity:
+      - location: target
+        target_offset: 0,-3,0
+        effectlib:
+          class: Sphere
+          particle: slime
+          radius: 2.5
+          duration: $duration
+  parameters:
+    range: 12
+    hitbox: true
+    add_effects:
+      slow: 1
+      jump: -20
+    duration: 6000
+    cooldown: 15000
+  costs:
+    mana: 40
+
+colloshoo|2:
+  upgrade_required_casts: 50
+  upgrade_required_path: year4
+  parameters:
+    range: 24
+    add_effects:
+      slow: 2
+      jump: -20
+    duration: 8000
+
+colloshoo|3:
+  upgrade_required_casts: 75
+  upgrade_required_path: year5
+  parameters:
+    add_effects:
+      slow: 3
+      jump: -20
+    duration: 10000
+
+colloshoo|4:
+  parameters:
+    add_effects:
+      slow: 4
+      jump: -20
+    duration: 12000

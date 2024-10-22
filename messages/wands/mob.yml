@@ -1,0 +1,13 @@
+wands:
+  erklingdartblower:
+    name: >-
+      &2Erkling Dart Blower
+    description: >-
+      &aA dart blower stolen from an erkling.
+    spell_instructions: ""
+    inventory_instructions: ""
+  erumpenthorn:
+    name: >-
+      &8Erumpent Horn
+    description: >-
+      &7A Class-B tradeable material. Highly explosive.

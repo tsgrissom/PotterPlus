@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/outer_stairs",
+    "textures": {
+        "bottom": "minecraft:block/granite7",
+        "top": "minecraft:block/granite7",
+        "side": "minecraft:block/granite7"
+    }
+}

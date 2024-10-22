@@ -1,0 +1,92 @@
+shuriken:
+    icon: emerald{CustomModelData:18002}
+    icon_disabled: emerald{CustomModelData:18003}
+    legacy_icon: spell_icon:194
+    legacy_icon_disabled: spell_icon_disabled:194
+    icon_url: http://textures.minecraft.net/texture/c79a5d6fbb1fe7435edbb9e72cb1d02f6e91597eb4b79d818ae583cda21f
+    category: combat
+    upgrade_required_path: master
+    upgrade_required_casts: 50
+    worth: 200
+    earns_sp: 12
+    actions:
+        cast:
+        -  class: CustomProjectile
+           actions:
+           -  class: AreaOfEffect
+              actions:
+              - class: Damage
+    effects:
+        tick:
+        -  particle: block_crack
+           material: iron_block
+           particle_count: 4
+           particle_offset_x: 0.01
+           particle_offset_y: 0.01
+           particle_offset_z: 0.01
+           location: target
+        cast:
+        -  sound: magic.shimmer_quiet
+        -  sound: item.trident.throw
+           sound_pitch: 1.3
+        reflect:
+          - sound: item.trident.throw
+            sound_pitch: 1.8
+            sound_volume: 0.8
+            location: target
+          - class: EffectSingle
+            location: target
+            particle: fireworks_spark
+            particle_count: 3
+            particle_offset_x: 0.1
+            particle_offset_y: 0.1
+            particle_offset_z: 0.1
+            sound: magic.bonk
+            sound_volume: 0.2
+        hit_entity:
+        -  sound: entity_arrow_hit
+           sound_pitch: 1.6
+        hit:
+        -  class: EffectSingle
+           sound: magic.shimmer_big
+           location: target
+           material: stained_clay:15
+           effectlib:
+             class: Modified
+             iterations: 10
+             parameters:
+              radius: "(t/i)*5"
+             effect:
+               class: HelixEffect
+               particle: block_crack
+               particles: 20
+               particle_count: 4
+               particle_offset_x: 1
+               particle_offset_y: 0.05
+               particle_offset_z: 1
+    parameters:
+        range: 32
+        target_type: Damageable
+        reflective: solid
+        cooldown: 8000
+        velocity: 20
+        gravity: 0.05
+        damage: 2
+        radius: 3
+        lifetime: 10000
+        hit_on_miss: true
+    costs:
+        mana: 80
+
+shuriken|2:
+    upgrade_required_path: master
+    upgrade_required_casts: 50
+    parameters:
+        damage: 3
+        radius: 4
+
+shuriken|3:
+    parameters:
+        damage: 4
+        radius: 5
+

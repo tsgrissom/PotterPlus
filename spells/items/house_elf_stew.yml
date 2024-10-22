@@ -1,0 +1,12 @@
+ability_houseelfstew:
+  icon: mushroom_stew
+  category: specialty
+  hidden: true
+  effects:
+    cast:
+      - source_location: feet
+        effectlib:
+          class: AnimatedBall
+          particle: spell_mob
+          color: FFFF00
+          duration: 3000

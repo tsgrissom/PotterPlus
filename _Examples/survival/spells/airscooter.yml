@@ -1,0 +1,64 @@
+airscooter:
+    icon: bone_meal{CustomModelData:18001}
+    icon_disabled: bone_meal{CustomModelData:18002}
+    icon_url: http://textures.minecraft.net/texture/4a23ccd51565d2e246675c86aef11b5412662c15ecc2e9f3ef425adc91d1
+    legacy_icon: spell_icon:241
+    legacy_icon_disabled: spell_icon_disabled:241
+    category: utility
+    worth: 200
+    show_undoable: false
+    quick_cast: true
+    cancel_effects: true
+    toggle: cancel
+    disable_mana_regeneration: true
+    actions:
+      cast:
+      - class: MountArmorStand
+    effects:
+        cast:
+           - class: EffectSingle
+             sound: entity_ender_dragon_flap
+             location: origin
+             source_location: eyes
+             effectlib:
+                 duration: $duration
+                 class: SphereEffect
+                 particle: redstone
+                 radius: 1.0
+                 offset: 0,-2.5,0
+                 color: FFFFFF
+           - effectlib:
+                 class: AnimatedBall
+                 duration: $duration
+                 particle: spell
+                 particle_count: 10
+                 particles: 50
+                 particle_offset_x: 0.05
+                 particle_offset_y: 0.05
+                 particle_offset_z: 0.05
+                 y_offset: 0
+                 y_factor: 1
+                 size: 1.0
+                 offset: 0,-2.5,0
+        deactivate:
+        -  class: EffectSingle
+           sound: entity_ender_dragon_flap
+           sound_pitch: 0.2
+    parameters:
+        target: self
+        start_speed: 1
+        steer_speed: 0.6
+        max_height_above_ground: 2
+        liftoff_duration: 600
+        liftoff_thrust: 0.6
+        direction_y: 0.5
+        duration: 120000
+        armor_stand_marker: false
+        sound: block_fire_extinguish
+        sound_volume: 0.4
+        sound_interval: 200
+        sound_pitch: 0.5
+    costs:
+        mana: 20
+    active_costs:
+        mana: 10

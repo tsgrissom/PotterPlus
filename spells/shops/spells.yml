@@ -1,0 +1,12 @@
+spellshop:
+  enabled: false
+
+shop_spells:
+  inherit: spellshop
+  category: npc
+  icon: diamond_axe{CustomModelData:138}
+  effects:
+    selected: enchant
+  parameters:
+    confirm_filler: diamond_axe{CustomModelData:400}
+    cost_type: ac

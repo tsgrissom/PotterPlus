@@ -1,0 +1,44 @@
+pulsus:
+  icon: diamond_axe{CustomModelData:267}
+  icon_disabled: diamond_hoe{CustomModelData:267}
+  upgrade_required_path: year7
+  upgrade_required_casts: 75
+  actions:
+    cast:
+      - class: AreaOfEffect
+        actions:
+          - class: Velocity
+          - class: Damage
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.flying
+        source_location: feet
+        effectlib:
+          class: Sphere
+          particle: crit
+          radius: 0.5
+          radiusIncrease: 0.2
+          iterations: 60
+          offset: 0,-0.5,0
+      - class: EffectSingle
+        source_location: feet
+        effectlib:
+          class: Atom
+          particleNucleus: spell_mob_ambient
+          particleOrbital: spell_mob_ambient
+          colorNucleus: FFFFFF
+          colorOrbital: FFFFFF
+          radius: 3
+          iterations: 10
+  parameters:
+    target_count: 4
+    target_self: false
+    radius: 8
+    y_radius: 6
+
+pulsus|2:
+  parameters:
+    target_count: 8
+    radius: 12
+    y_radius: 8

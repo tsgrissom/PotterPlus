@@ -1,0 +1,12 @@
+arrow:
+  icon: diamond_axe{CustomModelData:102}
+  icon_disabled: diamond_hoe{CustomModelData:102}
+  worth: 10 ac
+  effects:
+    hit:
+      - class: EffectSingle
+        location: origin
+        particle: fireworks_spark
+        particle_count: 20
+        particle_data: 1
+        sound: magic.hit

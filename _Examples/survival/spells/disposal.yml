@@ -1,0 +1,31 @@
+disposal:
+    icon: spell_icon:231
+    icon_disabled: spell_icon_disabled:231
+    icon_url: http://textures.minecraft.net/texture/a6cc486c2be1cb9dfcb2e53dd9a3e9a883bfadb27cb956f1896d602b4067
+    category: utility
+    worth: 2000
+    earns_sp: 1
+    show_undoable: false
+    quick_cast: true
+    actions:
+        cast:
+        - class: Inventory
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: entity_enderman_hurt
+           effectlib:
+            class: WarpEffect
+            particle: block_crack
+            material: obsidian
+            duration: 1000
+            particle_count: 10
+            particle_offset_x: 1
+            particle_offset_z: 1
+            particle_offset_y: 1
+    parameters:
+        target: self
+        type: disposal
+        cooldown: 2000
+        title: Disposal
+

@@ -1,0 +1,18 @@
+tpshop:
+    icon: iron_hoe
+    category: npc
+    hidden: true
+    actions:
+        cast:
+        - class: Selector
+    parameters:
+        quiet: true
+        confirm_filler: stained_glass:5
+        confirm: true
+        options:
+        - item: none
+        - item: none
+        - item: none
+        - item: none
+        - cast_spell: randomtp
+          cost: 1

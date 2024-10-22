@@ -1,0 +1,5 @@
+confusingconcoction:
+  icon: potion:e5f622
+  right_click: cast
+  active_spell: confusing_concoction_ability
+  uses: 1

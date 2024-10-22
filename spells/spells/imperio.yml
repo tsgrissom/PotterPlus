@@ -1,0 +1,63 @@
+imperio:
+  icon: diamond_axe{CustomModelData:90}
+  icon_disabled: diamond_hoe{CustomModelData:90}
+  category: unforgivable
+  pvp_restricted: true
+  worth: 40 ac
+  upgrade_required_casts: 50
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap_big
+        location: origin
+        effectlib:
+          class: DnaEffect
+          particlesBase: 0
+          particles_helix: 7
+          particle_helix: spell_mob_ambient
+          particle_base1: spell_mob
+          particle_base2: spell_mob
+          color_helix: b5b341
+          color_base1: b5b341
+          color_base2: b5b341
+          radius: 0.5
+          iterations: 10
+    target_selected:
+      - class: EffectSingle
+        location: origin
+        sound: magic.hit
+        sound_volume: 0.5
+      - class: EffectSingle
+        location: target
+        use_hit_location: false
+        effectlib:
+          class: Sphere
+          duration: 4000
+          particle: spell_mob
+          color: b5b341
+          radius: 1
+      - class: EffectSingle
+        location: target
+        use_hit_location: false
+        effectlib:
+          class: Sphere
+          duration: 4000
+          particle: spell_mob_ambient
+          color: FFFFFF
+          radius: 0.5
+      - class: EffectTrail
+        particle: spell_mob
+  parameters:
+    cooldown: 6000
+    item_force: 0.5
+    entity_force: 1.5
+
+imperio|2:
+  parameters:
+    item_force: 1
+    entity_force: 2
+
+imperio|3:
+  parameters:
+    item_force: 1.5
+    entity_force: 2.5

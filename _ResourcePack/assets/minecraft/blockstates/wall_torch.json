@@ -1,0 +1,29 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "facing=east": [
+        { "model": "minecraft:block/wall_torch" },
+        { "model": "minecraft:block/wall_torch1" },
+        { "model": "minecraft:block/wall_torch2" },
+        { "model": "minecraft:block/wall_torch3" }
+        ],
+        "facing=south": [
+        { "model": "minecraft:block/wall_torch", "y": 90 },
+        { "model": "minecraft:block/wall_torch1", "y": 90 },
+        { "model": "minecraft:block/wall_torch2", "y": 90 },
+        { "model": "minecraft:block/wall_torch3", "y": 90 }
+        ],
+        "facing=west": [
+        { "model": "minecraft:block/wall_torch", "y": 180 },
+        { "model": "minecraft:block/wall_torch1", "y": 180 },
+        { "model": "minecraft:block/wall_torch2", "y": 180 },
+        { "model": "minecraft:block/wall_torch3", "y": 180 }
+        ],
+        "facing=north": [
+        { "model": "minecraft:block/wall_torch", "y": 270 },
+        { "model": "minecraft:block/wall_torch1", "y": 270 },
+        { "model": "minecraft:block/wall_torch2", "y": 270 },
+        { "model": "minecraft:block/wall_torch3", "y": 270 }
+        ]
+    }
+}

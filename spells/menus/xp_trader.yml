@@ -1,0 +1,38 @@
+menu_xptrader:
+  icon: iron_axe{CustomModelData:12}
+  category: npc
+  hidden: true
+  actions:
+    cast:
+      - class: Shop
+  effects:
+    cast:
+      - sound: ui_button_click
+  parameters:
+    cost_type: mobxp
+    options:
+      - placeholder: true
+      - placeholder: true
+      - icon: iron_axe{CustomModelData:12}
+        name: "&610 Galleons"
+        cost: 500
+        lore:
+          - "&aGain&8: &610 Galleons"
+        commands:
+          - "mgive @pn galleon 10"
+      - placeholder: true
+      - icon: iron_axe{CustomModelData:12}
+        name: "&650 Galleons"
+        cost: 2000
+        lore:
+          - "&aGain&8: &650 Galleons"
+        commands:
+          - "mgive @tn galleon 50"
+      - placeholder: true
+      - icon: iron_axe{CustomModelData:12}
+        name: "&6120 Galleons"
+        cost: 5000
+        lore:
+          - "&aGain&8: &6120 Galleons"
+        commands:
+          - "mgive @pn galleon 120"

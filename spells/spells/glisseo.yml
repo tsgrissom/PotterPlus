@@ -1,0 +1,36 @@
+glisseo:
+  icon: diamond_axe{CustomModelData:65}
+  icon_disabled: diamond_hoe{CustomModelData:65}
+  category: transfiguration
+  worth: 20 ac
+  class: ConstructSpell
+  upgrade_required_path: year7
+  upgrade_required_casts: 100
+  effects:
+    cast:
+      - class: EffectTrail
+        effect: step_sound
+        material: ice
+      - location: target
+        sound: block_ice_break
+  parameters:
+    allow_max_range: false
+    range: 16
+    check_destructible: true
+    destructible: stairs
+    brush: packed_ice
+    radius: 4
+    transparent: transparent_to_construction
+    undo: 5000
+    undo_speed: 0.2
+    cooldown: 20000
+  costs:
+    mana: 30
+
+glisseo|2:
+  parameters:
+    destructible: stairs,slabs
+    undo: 7000
+    undo_speed: 0.1
+    radius: 6
+    range: 24

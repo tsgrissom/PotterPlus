@@ -1,0 +1,23 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "type=bottom": [
+            { "model": "minecraft:block/smooth_stone_slab", "weight": 50 },
+            { "model": "minecraft:block/smooth_stone_slab1", "weight": 15 },
+            { "model": "minecraft:block/smooth_stone_slab2", "weight": 15 },
+            { "model": "minecraft:block/smooth_stone_slab3", "weight": 20 }
+        ],
+        "type=top": [
+            { "model": "minecraft:block/smooth_stone_slab_top", "weight": 50 },
+            { "model": "minecraft:block/smooth_stone_slab_top1", "weight": 15 },
+            { "model": "minecraft:block/smooth_stone_slab_top2", "weight": 15 },
+            { "model": "minecraft:block/smooth_stone_slab_top3", "weight": 20 }
+        ],
+        "type=double": [
+            { "model": "minecraft:block/smooth_stone_slab_double", "weight": 50 },
+            { "model": "minecraft:block/smooth_stone_slab_double1", "weight": 15 },
+            { "model": "minecraft:block/smooth_stone_slab_double2", "weight": 15 },
+            { "model": "minecraft:block/smooth_stone_slab_double3", "weight": 20 }
+        ]
+    }
+}

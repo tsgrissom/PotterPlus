@@ -1,0 +1,89 @@
+appearanceshop:
+    icon: blaze_rod{CustomModelData:18045}
+    icon_disabled: blaze_rod{CustomModelData:18046}
+    legacy_icon: spell_icon:233
+    legacy_icon_disabled: spell_icon_disabled:233
+    icon_url: http://textures.minecraft.net/texture/58c573cefdc8cc1b8c894340cb54ab343523ec2ffa0afc7536968391ae1e7
+    hidden: true
+    actions:
+        cast:
+        -  class: Selector
+    parameters:
+        auto_close: true
+        confirm_filler: stained_glass:3
+        show_unavailable: true
+        requirements:
+        - wand_tags: transformable
+        unlock_section: wand_appearances
+        apply_to_wand: true
+        cost_type: sp
+        options:
+        - item: none
+        - item: appearance_beginner
+          requirements:
+          - path: beginner
+        - item: appearance_student
+          requirements:
+          - path: student
+        - item: appearance_apprentice
+          requirements:
+          - path: apprentice
+        - item: appearance_master
+          requirements:
+          - path: master
+        - item: appearance_engineer
+          show_unavailable: false
+          requirements:
+          - path: engineer
+            ignore_missing: true
+        - item: appearance_architect
+          show_unavailable: false
+          requirements:
+          - path: architect
+            ignore_missing: true
+        - item: appearance_conduit
+          show_unavailable: false
+          requirements:
+          - path: conduit
+            ignore_missing: true
+        - item: none
+        - item: none
+        - item: appearance_moon
+          unlock: moon
+          confirm: true
+          cost: 2500
+        - item: appearance_green
+          unlock: green
+          confirm: true
+          cost: 3500
+        - item: appearance_magicka
+          unlock: magicka
+          confirm: true
+          cost: 5000
+        - item: appearance_spire
+          unlock: spire
+          confirm: true
+          cost: 6000
+        - item: appearance_claw
+          unlock: claw
+          confirm: true
+          cost: 7000
+        - item: appearance_magma
+          unlock: magma
+          confirm: true
+          cost: 7500
+        - item: appearance_orb
+          unlock: orb
+          confirm: true
+          cost: 8000
+        - item: none
+        - item: none
+        - item: none
+        - item: none
+        - item: glow_upgrade
+          unlock: glow
+          confirm: true
+          cost: 200
+        - item: noglow_upgrade
+          confirm: true
+          cost: 0

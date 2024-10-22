@@ -1,0 +1,44 @@
+obliviate:
+  category: charms
+  icon: diamond_axe{CustomModelData:43}
+  icon_disabled: diamond_hoe{CustomModelData:43}
+  worth: 25 ac
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: ClearChat
+          - class: PotionEffect
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.vanish
+    tick:
+      - location: target
+        particle: redstone
+        color: FFFFFF
+        particle_count: 20
+        particle_offset_x: 0.4
+        particle_offset_y: 0.4
+        particle_offset_z: 0.4
+      - location: target
+        particle: cloud
+        particle_count: 10
+        particle_data: 0.1
+    hit_entity:
+      - location: target
+        firework: ball
+        color: FFFFFF
+        fadeColor: D3D3D3
+  parameters:
+    cooldown: 8000
+    range: 16
+    hitbox: true
+    velocity: 125
+    target: other
+    target_type: Player
+    add_effects:
+      confusion: 2
+    duration: 8000
+  costs:
+    mana: 40

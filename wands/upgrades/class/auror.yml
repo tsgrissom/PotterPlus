@@ -1,0 +1,9 @@
+aurorupgrade:
+  upgrade: true
+  hidden: true
+  path: graduate
+  indestructible: false
+  icon: nether_star
+  mana_max: 220
+  mana_regeneration: 40
+  potion_effects: damage_resistance:0,speed:0

@@ -1,0 +1,7 @@
+resource_pack:
+  prompt: >-
+    a:&7Use &6/&egetrp &7to download the resource pack&8.
+  off_prompt: >-
+    a:&7Use &6/&egetrp &7to download the resource pack
+  sending: |-
+    t:&7Sending resource pack&8...

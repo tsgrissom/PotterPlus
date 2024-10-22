@@ -1,0 +1,11 @@
+wizardleggings:
+  enabled: false
+  output: wizardleggings
+  output_type: wand
+  ignore_damage: true
+  materials:
+    o: magicheart
+    i: white_wool
+  row_1: ioi
+  row_2: i i
+  row_3: i i

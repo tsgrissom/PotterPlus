@@ -1,0 +1,76 @@
+boon:
+    icon: chorus_fruit{CustomModelData:18001}
+    icon_disabled: chorus_fruit{CustomModelData:18002}
+    legacy_icon: spell_icon:11
+    legacy_icon_disabled: spell_icon_disabled:11
+    icon_url: http://textures.minecraft.net/texture/15987e49e7ed16df536f4dbf685e7720b88b4de6deaf614d84ab9f9884725c
+    alias: perk
+    category: utility
+    worth: 220
+    earns_sp: 6
+    upgrade_required_path: beginner
+    upgrade_required_casts: 40
+    quick_cast: true
+    toggle: cancel
+    disable_mana_regeneration: true
+    actions:
+        cast:
+        - class: Repeat
+          actions:
+          - class: PotionEffect
+            duration: 5000
+          - class: Delay
+            delay: 1000
+    effects:
+        cast:
+        - sound: entity_experience_orb_pickup
+          sound_pitch: 0.2
+          sound_volume: 0.8
+        - sound: entity_generic_drink
+          sound_pitch: 1.75
+          sound_volume: 0.6
+        - sound: entity_generic_drink
+          sound_pitch: 1.75
+          sound_volume: 0.6
+        - sound: block_beacon_activate
+          sound_pitch: 1.5
+          sound_volume: 0.75
+        - location: origin
+          source_location: body
+          color_override: color
+          effectlib:
+              class: EquationEffect
+              x_equation: 0
+              y_equation: "0.4 * (cos(t/57.2958)  * (2.71828^(cos(t/57.2958)) - 2 * cos(4t/57.2958) - (sin(t/(12 * 57.2958)))^5))"
+              z_equation: "0.4 * (sin(t/57.2958)  * (2.71828^(cos(t/57.2958)) - 2 * cos(4t/57.2958) - (sin(t/(12 * 57.2958)))^5))"
+              particles: 50
+              duration: 3600000
+              relative_offset: -0.5,0,0
+              disappear_with_origin_entity: true
+    parameters:
+        target: self
+        effect_speed: 1
+        cooldown: 6000
+        cancel_on_death: true
+        repeat: infinite
+    costs:
+        mana: 20
+    active_costs:
+        mana: 5
+
+boon|2:
+    upgrade_required_path: student
+    upgrade_required_casts: 50
+    parameters:
+        effect_jump: 2
+
+boon|3:
+    upgrade_required_path: master
+    upgrade_required_casts: 50
+    parameters:
+        effect_speed: 2
+
+boon|4:
+    parameters:
+        effect_night_vision: 5
+

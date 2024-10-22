@@ -1,0 +1,47 @@
+legilimens:
+  inherit: false
+  icon: diamond_axe{CustomModelData:189}
+  icon_disabled: diamond_hoe{CustomModelData:189}
+  category: elective
+  cast_on_no_target: true
+  worth: 15 ac
+  costs:
+    mana: 45
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Delay
+          - class: Command
+  effects:
+    tick:
+      - location: target
+        particle: smoke_normal
+        particle_count: 5
+        particle_offset_x: 0.1
+        particle_offset_y: 0.1
+        particle_offset_z: 0.1
+    hit_entity:
+      - location: target
+        firework: burst
+        color: 000000
+      - class: EffectSingle
+        location: target
+        use_wand_location: true
+        source_location: eyes
+        effectlib:
+          class: Atom
+          particleNucleus: redstone
+          particleOrbital: redstone
+          colorNucleus: 000000
+          colorOrbital: 000000
+  parameters:
+    cooldown: 20000
+    delay: 2000
+    range: 6
+    hitbox: true
+    target: other
+    target_type: Player
+    command: invsee @tn
+    op: true
+    console: false

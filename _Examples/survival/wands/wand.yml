@@ -1,0 +1,32 @@
+#
+# This creates a basic starter wand, and is the default wand given with the "/wand" command.
+#
+wand:
+    inherit: base_wand
+    class: mage
+    legacy_icon: wand_icon:1
+    icon: stick{CustomModelData:18001}
+    migrate_legacy_icons:
+        "wand_icon:1": stick{CustomModelData:18001}
+        "wand_icon:2": stick{CustomModelData:18002}
+        "wand_icon:3": stick{CustomModelData:18003}
+        "wand_icon:4": stick{CustomModelData:18004}
+        "wand_icon:5": blaze_rod{CustomModelData:18005}
+        "wand_icon:6": blaze_rod{CustomModelData:18006}
+        "wand_icon:7": blaze_rod{CustomModelData:18007}
+        "wand_icon:8": stick{CustomModelData:18008}
+        "wand_icon:9": blaze_rod{CustomModelData:18009}
+        "wand_icon:10": stick{CustomModelData:18010}
+        "wand_icon:35": stick{CustomModelData:18035}
+        "wand_icon:36": stick{CustomModelData:18036}
+        "wand_icon:37": stick{CustomModelData:18037}
+        "wand_icon:39": blaze_rod{CustomModelData:18039}
+        "wand_icon:41": stick{CustomModelData:18041}
+        "wand_icon:44": stick{CustomModelData:18044}
+    effect_color: random
+    active_spell: missile
+    tags:
+    - buffable
+    - transformable
+    - effectable
+    - tweakable

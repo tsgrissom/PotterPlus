@@ -1,0 +1,101 @@
+poison:
+    icon: fermented_spider_eye{CustomModelData:18001}
+    icon_disabled: fermented_spider_eye{CustomModelData:18002}
+    legacy_icon: spell_icon:180
+    legacy_icon_disabled: spell_icon_disabled:180
+    icon_url: http://textures.minecraft.net/texture/f441923eb636b6fbc4cfba5475fd6abae52a41593a63d99bfecdd4d845b91a
+    category: combat
+    worth: 100
+    earns_sp: 7
+    upgrade_required_path: student
+    upgrade_required_casts: 50
+    actions:
+        cast:
+        - class: CustomProjectile
+          actions:
+          - class: PotionEffect
+          - class: Repeat
+            actions:
+              - class: Delay
+              - class: CheckHealth
+                min_health: 2
+                actions:
+                - class: Damage
+    effects:
+        cast:
+        -  sound: block_fire_extinguish
+           sound_volume: 0.05
+           sound_pitch: 1.8
+        -  sound: block_honey_block_slide
+           sound_pitch: 1.5
+           sound_volume: 2
+        -  class: EffectSingle
+           sound: magic.zap
+        tick:
+        - location: target
+          particle: slime
+          particle_count: 4
+          particle_offset_x: 0.5
+          particle_offset_z: 0.5
+          particle_offset_y: 0.5
+        hit:
+        -  class: EffectSingle
+           sound: block_honey_block_slide
+           sound_pitch: 0.2
+           sound_volume: 2
+           location: target
+           requires_entity_target: true
+           target_location: body
+           effectlib:
+             class: Modified
+             duration: $duration
+             parameters:
+              radius: "sin(t/10)*1.5 + 0.1"
+             effect:
+               class: SphereEffect
+               period: 0.1
+               particle: slime
+               particles: 10
+               particle_count: 10
+               particle_offset_x: 0.1
+               particle_offset_y: 0.1
+               particle_offset_z: 0.1
+               disappear_with_origin_entity: true
+    costs:
+        mana: 50
+    parameters:
+        damage: 1
+        delay: 1000
+        repeat: 2
+        velocity: 100
+        hitbox: true
+        range: 48
+        deactivate_target_mage: false
+        target_type: LivingEntity
+        target: other
+        target_breakables: 1
+        duration: 2500
+        add_effects:
+          - type: poison
+            amplifier: 1
+        cooldown: 7000
+
+poison|2:
+    upgrade_required_path: master
+    upgrade_required_casts: 50
+    parameters:
+        range: 16
+        repeat: 3
+        duration: 3000
+        add_effects:
+          - type: poison
+            amplifier: 2
+
+poison|3:
+    parameters:
+        range: 24
+        duration: 3500
+        add_effects:
+            - type: poison
+              amplifier: 3
+

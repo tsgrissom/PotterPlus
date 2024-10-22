@@ -1,0 +1,95 @@
+disintegrate:
+    icon: cocoa_beans{CustomModelData:18001}
+    icon_disabled: cocoa_beans{CustomModelData:18002}
+    legacy_icon: spell_icon:133
+    legacy_icon_disabled: spell_icon_disabled:133
+    icon_url: http://textures.minecraft.net/texture/89f9399aceb3211c3ca1259d5b1bb1f3fb61a4d5626a757ee1a1ccec28a0ae
+    category: combat
+    worth: 300
+    earns_sp: 10
+    actions:
+        cast:
+        - class: CustomProjectile
+          actions:
+          - class: Damage
+          - class: PlayEffects
+            effects: removed
+            ignore_result: true
+          - class: ModifyBlock
+            ignore_result: true
+    effects:
+        cast:
+        -  sound: magic.zap
+           sound_pitch: 1.9
+           sound_volume: 0.6
+        -  sound: entity_magma_cube_jump
+           sound_pitch: 1.7
+           sound_volume: 0.7
+        -  sound: entity_evoker_prepare_summon
+           sound_pitch: 1.6
+           sound_volume: 0.5
+        tick:
+        -  location: target
+           particle: drip_lava
+           particle_data: 1
+           particle_count: 20
+           particle_offset_x: 0.1
+           particle_offset_y: 0.1
+           particle_offset_z: 0.1
+        -  location: target
+           particle: smoke_normal
+           particle_count: 10
+           particle_offset_x: 0.05
+           particle_offset_y: 0.05
+           particle_offset_z: 0.05
+        hit:
+        -  location: target
+           sound: block_conduit_deactivate
+           sound_pitch: 2
+           sound_volume: 0.8
+           particle: smoke_large
+           particle_count: 5
+           particle_offset_x: 0.5
+           particle_offset_y: 0.5
+           particle_offset_z: 0.5
+           particle_data: 1
+           effectlib:
+            class: Modified
+            iterations: 50
+            parameters:
+              radius: "(t/i)*2 + 0.2"
+            effect:
+                class: AtomEffect
+                particle_nucleus: smoke_large
+                particles_nucleus: 5
+                particles_orbital: 5
+                orbitals: 2
+        removed:
+        - location: target
+          particle: block_crack
+          particle_count: 40
+          particle_offset_x: 0.5
+          particle_offset_y: 0.5
+          particle_offset_z: 0.5
+          offset: 0.5,0.75,0.5
+        - location: target
+          particle: smoke_large
+          particle_count: 20
+          particle_offset_x: 0.5
+          particle_offset_y: 0.5
+          particle_offset_z: 0.5
+    parameters:
+        velocity: 30
+        range: 5
+        target_type: Damageable
+        allow_max_range: true
+        target: other
+        brush: erase
+        player_damage: 6
+        entity_damage: 15
+        destructible: destructible,destructible2,destructible3
+        undo: 5000
+        cooldown: 1500
+    costs:
+        mana: 50
+

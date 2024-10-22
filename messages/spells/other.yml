@@ -1,0 +1,38 @@
+spells:
+  upgrades:
+    level_requirement: >-
+      &r&9Requires&8: &7$path
+    cast_requirement: >-
+      &r&9Casts&8: &7$current&8/&7$required
+  choosepath:
+    name: >-
+      Choose Your Path
+    title: >-
+      &8>> &8Choose your path
+    confirm_title: >-
+      &8>> &8Confirm path
+    no_path: >-
+      &8>> &5You can only choose your path once you graduate!
+    no_required_path: >-
+      &8>> &5You can only choose your path once you graduate!
+    selected: |-
+      t:&7Unlocked
+      $item
+    at_limit: >-
+      &8>> &5You can only choose your path once.
+  sounddemo:
+    name: >-
+      Sound Demo
+    title: >-
+      Select a sound to demo
+    selected_free: |-
+      t:&dNow playing
+      $item
+  fxdemo:
+    name: >-
+      FX Demo
+    title: >-
+      Select an effect to demo
+    selected_free: |-
+      t:&dNow playing
+      $item

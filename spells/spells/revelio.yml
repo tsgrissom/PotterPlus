@@ -1,0 +1,36 @@
+revelio:
+  inherit: false
+  icon: diamond_axe{CustomModelData:176}
+  icon_disabled: diamond_hoe{CustomModelData:176}
+  category: charms
+  worth: 10 ac
+  costs:
+    mana: 20
+  actions:
+    cast:
+      - class: AreaOfEffect
+        actions:
+          - class: PotionEffect
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap
+        location: origin
+        use_wand_location: false
+        effectlib:
+          offset: 0,2,0
+          class: Sphere
+          iterations: 1
+          particle: spell_instant
+          particles: 100
+          radius: 5
+  parameters:
+    radius: 5
+    y_radius: 5
+    target_count: 12
+    target_source: false
+    target: self
+    target_type: LivingEntity
+    cooldown: 12000
+    remove_effects:
+      - invisibility

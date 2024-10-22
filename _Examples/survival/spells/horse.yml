@@ -1,0 +1,81 @@
+horse:
+    icon: saddle{CustomModelData:18001}
+    icon_disabled: saddle{CustomModelData:18002}
+    legacy_icon: spell_icon:49
+    legacy_icon_disabled: spell_icon_disabled:49
+    icon_url: http://textures.minecraft.net/texture/ddb5db33eac28ccfce38f179044575cb9de8195bc1ed843d4345da5f13b63d
+    category: elemental
+    cast_on_no_target: false
+    actions:
+      cast:
+      - class: ChangeContext
+        target_offset: 0,1,0
+        ignore_result: true
+        actions:
+        - class: Plane
+          radius: 1
+          actions:
+          - class: CheckBlock
+            allowed: passthrough
+            fail:
+            - class: Message
+              ignore_result: true
+              message_type: action_bar
+              message_key: nospace
+            - class: CastResult
+              result: no_target
+              end_result: true
+            - class: Stop
+      - class: SpawnEntity
+      - class: Mount
+      - class: PlayEffects
+        effects: spawned
+    worth: 200
+    effects:
+        failed:
+        - sound: block_note_bass
+          sound_volume: 1.5
+          sound_pitch: 1.5
+        spawned:
+        -  class: EffectSingle
+           sound: entity_horse_angry
+           sound_pitch: 1.2
+           sound_volume: 1.1
+           effectlib:
+             class: DnaEffect
+             particle_helix: drip_lava
+             iterations: 24
+             particle_base1: drip_water
+        -  class: EffectSingle
+           location: target
+           effectlib:
+             class: AtomEffect
+             iterations: 32
+             particle_nucleus: drip_water
+        undo_entity:
+           - location: target
+             sound: block_fire_extinguish
+             sound_volume: 1.7
+             sound_pitch: 0.4
+             effectlib:
+               class: Smoke
+               duration: 1000
+               particle_count: 40
+               particle_offset_x: 1.5
+               particle_offset_y: 1.5
+               particle_offset_z: 1.5
+    parameters:
+        target: block
+        set_target: true
+        tamed: true
+        saddle: saddle
+        track: false
+        type: horse
+        allow_max_range: true
+        cooldown: 120000
+        range: 5
+        undo: 60000
+        loot: false
+    costs:
+        mana: 50
+

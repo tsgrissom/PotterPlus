@@ -1,0 +1,68 @@
+tracking:
+    icon: ender_eye{CustomModelData:18001}
+    icon_disabled: ender_eye{CustomModelData:18002}
+    legacy_icon: spell_icon:189
+    legacy_icon_disabled: spell_icon_disabled:189
+    upgrade_required_path: student
+    upgrade_required_casts: 30
+    icon_url: http://textures.minecraft.net/texture/3bc9de58822a3f7c6c23e212cf954fc728a6b2e45c54a89b4af5e453d39b1
+    category: utility
+    worth: 50
+    earns_sp: 5
+    actions:
+        cast:
+         -  class: Orient
+         -  class: PotionEffect
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: magic.zap
+           location: origin
+           sound_volume: 0.1
+        -  class: EffectSingle
+           effectlib:
+             class: LineEffect
+             particle: redstone
+             particle_count: 5
+             particle_offset_x: 0.1
+             particle_offset_y: 0.1
+             particle_offset_z: 0.1
+        - requires_entity_target: true
+          sound: entity_villager_yes
+          sound_pitch: 1.25
+        - requires_no_entity_target: true
+          sound: entity_villager_no
+          sound_pitch: 0.9
+    parameters:
+        range: 32
+        fov: 3
+        close_fov: 3
+        fov_weight: 400
+        player_weight: 500
+        target: other_entity
+        target_type: LivingEntity
+        cooldown: 5000
+        ignore_blocks: true
+        loud: true
+        bypass_pvp: true
+        effect_glowing: 1
+        duration: 10000
+    costs:
+        mana: 20
+
+tracking|2:
+    upgrade_required_path: apprentice
+    upgrade_required_casts: 30
+    parameters:
+        range: 64
+
+tracking|3:
+    upgrade_required_path: master
+    upgrade_required_casts: 40
+    parameters:
+        range: 128
+
+tracking|4:
+    alternate_sneak_parameters:
+        target_type: Player
+

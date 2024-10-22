@@ -1,0 +1,25 @@
+madscientist:
+  name: Mad Scientist
+  type: zombie
+  disguise:
+    type: player
+    skin: NathanWolf
+  item: madscientist_wand
+  chestplate: warlock_chestplate
+  leggings: warlock_leggings
+  helmet: madscientist_helmet
+  boots: warlock_boots
+  health: 5000
+  default_drops: false
+  interval: 1000
+  triggers:
+    interval:
+      cast:
+        missile|4: 200
+        none: 20
+  drops:
+  - gold_ingot@30
+  - sp:200
+  potion_effects:
+  - type: speed
+    amplifier: 1

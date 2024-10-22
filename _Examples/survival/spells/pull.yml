@@ -1,0 +1,72 @@
+pull:
+    icon: fishing_rod{CustomModelData:18001}
+    icon_disabled: fishing_rod{CustomModelData:18002}
+    legacy_icon: spell_icon:33
+    legacy_icon_disabled: spell_icon_disabled:33
+    icon_url: http://textures.minecraft.net/texture/e13e9af0957a9dd4995811ef3e869b4ad8fbb59ca7474e4c84ce7f6019b079
+    category: elemental
+    worth: 20
+    earns_sp: 4
+    actions:
+        cast:
+        - class: Velocity
+        - class: FallProtection
+        alternate_down:
+        - class: ChangeContext
+          target_caster: true
+          actions:
+          - class: Repeat
+            repeat: 2
+            actions:
+            - class: AreaOfEffect
+              radius: 12
+              actions:
+              - class: Velocity
+                push: -1
+                living_entity_speed: 1
+              - class: FallProtection
+              - class: Delay
+                delay: 200
+    effects:
+        cast:
+        - class: EffectSingle
+          sound: block_fire_extinguish
+        - class: EffectTrail
+          particle: spell
+          reverse: true
+          length: 16
+          particle_count: 20
+          particle_offset_x: 0.2
+          particle_offset_y: 0.2
+          particle_offset_z: 0.2
+        - location: target
+          effectlib:
+            class: Sphere
+            particle: spell
+            particles: 4
+            period: 2
+            duration: 500
+            particle_count: 10
+            particle_offset_x: 0.5
+            particle_offset_y: 0.5
+            particle_offset_z: 0.5
+            radius: 1.5
+        alternate_down:
+        - class: EffectSingle
+          sound: block_fire_extinguish
+          effectlib:
+             class: HelixEffect
+             particle: spell
+             iterations: 2
+             offset: 0, -1.6, 0
+    parameters:
+        target_type: Entity
+        range: 48
+        item_speed: 2
+        living_entity_speed: 1
+        push: -1
+        duration: 10000
+        cooldown: 2000
+    costs:
+        mana: 10
+

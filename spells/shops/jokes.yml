@@ -1,0 +1,15 @@
+shop_jokes:
+  inherit: buyshop
+  icon: chest
+  icon_disabled: chest
+  category: specialty
+  hidden: true
+  parameters:
+    cost_type: galleon
+    items:
+      - item: wand|basicblazebox
+      - item: wand|deflagrationdeluxe
+      - item: wand|dungbombs
+      - item: wand|peruvianpowder
+      - item: wand|portableswamp
+      - item: wand|trickwand

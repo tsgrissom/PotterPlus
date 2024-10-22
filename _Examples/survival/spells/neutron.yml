@@ -1,0 +1,55 @@
+neutron:
+    icon: phantom_membrane{CustomModelData:18001}
+    icon_disabled: phantom_membrane{CustomModelData:18002}
+    legacy_icon: spell_icon:52
+    legacy_icon_disabled: spell_icon_disabled:52
+    upgrade_required_path: master
+    upgrade_required_casts: 50
+    icon_url: http://textures.minecraft.net/texture/1eed1e4d70522ccd538b75ded4baa680e3dfe55426c560ff7b521be5cdf614f
+    category: dark
+    worth: 750
+    actions:
+        cast:
+        -  class: Projectile
+           actions:
+           - class: AreaOfEffectCloud
+    effects:
+        cast:
+        -  sound: entity_witch_throw
+           sound_pitch: 0.6
+           sound_volume: 1.4
+        -  class: EffectSingle
+           sound: item_trident_throw
+           sound_pitch: 0.2
+           sound_volume: 2
+        hit:
+        -  class: EffectSingle
+           location: target
+           sound: entity_evoker_prepare_summon
+           sound_pitch: 0.5
+           sound_volume: 1.8
+           effectlib:
+             class: HelixEffect
+             particle: flame
+             iterations: 1
+    parameters:
+        target: none
+        projectile: Snowball
+        radius: 5
+        cooldown: 30000
+        color: "00AAFF"
+        particle: smoke_large
+        duration: 10000
+        potion_effects:
+        - type: slow
+          duration: 10000
+        - type: confusion
+          duration: 5000
+        - type: harm
+    costs:
+        mana: 150
+
+neutron|2:
+    parameters:
+      radius: 10
+

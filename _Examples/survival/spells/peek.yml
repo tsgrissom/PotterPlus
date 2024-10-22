@@ -1,0 +1,68 @@
+peek:
+    icon: glass_pane{CustomModelData:18001}
+    icon_disabled: glass_pane{CustomModelData:18002}
+    legacy_icon: spell_icon:121
+    legacy_icon_disabled: spell_icon_disabled:121
+    icon_url: http://textures.minecraft.net/texture/42fe4273a62118f32881159ab3d6eded9fac90748deedbdb16204d107f843
+    category: mining
+    worth: 300
+    earns_sp: 8
+    upgrade_required_path: beginner
+    upgrade_required_casts: 10
+    actions:
+        cast:
+        - class: Sphere
+          actions:
+          - class: FakeBlock
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: block_fire_extinguish
+           sound_volume: 0.4
+           sound_pitch: 1.2
+        -  sound: block_glass_break
+           sound_pitch: 0.3
+           sound_volume: 0.8
+        -  class: EffectTrail
+           particle: block_crack
+           particle_count: 20
+           particle_offset_x: 0.2
+           particle_offset_y: 0.2
+           particle_offset_z: 0.2
+        -  location: target
+           particle: block_crack
+           particle_count: 100
+           particle_offset_x: 0.75
+           particle_offset_y: 0.75
+           particle_offset_z: 0.75
+    parameters:
+        target: block
+        allow_max_range: false
+        check_destructible: true
+        destructible: destructible_mining
+        range: 32
+        transparent: transparent
+        undo: 2000
+        brush: glass
+        radius: 0
+        cooldown: 5000
+        undo_speed: 2
+    costs:
+        mana: 30
+
+peek|2:
+    upgrade_required_path: student
+    upgrade_required_casts: 40
+    parameters:
+      radius: 1
+
+peek|3:
+    upgrade_required_path: apprentice
+    upgrade_required_casts: 50
+    parameters:
+      radius: 1.5
+
+peek|4:
+    parameters:
+      radius: 2
+

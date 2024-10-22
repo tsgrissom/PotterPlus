@@ -1,0 +1,59 @@
+# TODO Needs to be redone. Do away with spell class and fix messaging.
+
+extinguishingcharm:
+  icon: diamond_axe{CustomModelData:199}
+  icon_disabled: diamond_hoe{CustomModelData:199}
+  category: charms
+  worth: 5 ac
+  class: ConstructSpell
+  upgrade_required_casts: 25
+  upgrade_required_path: year2
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: block_fire_extinguish
+        location: origin
+        effectlib:
+          class: Cone
+          iterations: 10
+          particle: cloud
+          lengthGrow: 0.1
+          radiusGrow: 0.03
+          updateLocations: false
+          updateDirections: false
+      - class: EffectSingle
+        location: origin
+        effectlib:
+          class: Cone
+          iterations: 10
+          particle: cloud
+          lengthGrow: 0.1
+          radiusGrow: 0.01
+          angularVelocity: -0.196349540849362
+          updateLocations: false
+          updateDirections: false
+  parameters:
+    range: 16
+    check_destructible: true
+    destructible: fire
+    brush: erase
+    radius: 2
+    transparent: transparent_to_construction
+    undo: 5000
+    cooldown: 12000
+  costs:
+    mana: 40
+
+extinguishingcharm|2:
+  upgrade_required_casts: 50
+  upgrade_required_path: year3
+  parameters:
+    range: 24
+    radius: 2.5
+    cooldown: 10000
+
+extinguishingcharm|3:
+  parameters:
+    range: 32
+    radius: 3
+    undo: 8000

@@ -1,0 +1,37 @@
+effectshop:
+    icon: orange_dye{CustomModelData:18001}
+    icon_disabled: orange_dye{CustomModelData:18002}
+    legacy_icon: spell_icon:126
+    legacy_icon_disabled: spell_icon_disabled:126
+    category: npc
+    hidden: true
+    actions:
+        cast:
+        -  class: Selector
+    parameters:
+        confirm_filler: stained_glass:9
+        confirm: true
+        requirements:
+        - holding_wand: true
+        unlock_section: wand_effects
+        apply_to_wand: true
+        show_unavailable: true
+        cost_type: sp
+        options:
+        - item: bubbleeffects
+          unlock: bubble
+          cost: 500
+        - item: haloeffects
+          unlock: halo
+          cost: 1000
+        - item: rainboweffects
+          unlock: rainbow
+          cost: 2000
+        - item: none
+        - item: none
+        - item: none
+        - item: none
+        - item: none
+        - item: cleareffects
+          selected: "You removed all particle effects from your wand"
+

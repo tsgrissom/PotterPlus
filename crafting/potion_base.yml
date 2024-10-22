@@ -1,0 +1,9 @@
+potionbase:
+  output: potionbase
+  output_type: item
+  materials:
+    x: glass_bottle
+    y: standardingredient
+  row_1: "   "
+  row_2: " y "
+  row_3: " x "

@@ -1,0 +1,62 @@
+rocket:
+    icon: firework_rocket{CustomModelData:18001}
+    icon_disabled: firework_rocket{CustomModelData:18002}
+    legacy_icon: spell_icon:191
+    legacy_icon_disabled: spell_icon_disabled:191
+    icon_url: http://textures.minecraft.net/texture/5a532e9d2221b1a2ffdbc701578331c8da41c36d1487696fefa584373572
+    category: utility
+    worth: 100
+    earns_sp: 2
+    actions:
+        cast:
+        - class: FallProtection
+        - class: Parallel
+          actions:
+          - class: Firework
+            start:
+            - class: Mount
+            actions:
+            - class: Stop
+          - class: Repeat
+            repeat: infinite
+            actions:
+            - class: Delay
+            - class: Retarget
+            - class: Volume
+              center_y: false
+              x_size: 1
+              z_size: 1
+              y_size: 1
+              actions:
+                - class: CheckBlock
+                  allowed: "!passthrough"
+                  actions:
+                    - class: Mount
+                      dismount: true
+                    - class: Stop
+    effects:
+        cast:
+        -  sound: entity_firework_rocket_launch
+           sound_pitch: 0.1
+           sound_volume: 1.2
+        -  sound: entity_generic_explode
+           sound_pitch: 0.4
+           sound_volume: 0.8
+           location: origin
+           particle: explosion_large
+           particle_count: 50
+           particle_offset_x: 3
+           particle_offset_y: 3
+           particle_offset_z: 3
+    parameters:
+        target: self
+        launch: true
+        cooldown: 15000
+        power: 0
+        speed: 0.05
+        expected_lifespan: 30
+        set_target: true
+        duration: 20000
+    costs:
+        mana: 75
+

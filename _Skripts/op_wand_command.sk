@@ -1,0 +1,5 @@
+command /createopwand:
+  permission: potterplus.command.createopwand
+  trigger:
+    Execute console command "/wandp %player% configure cost_reduction 1"
+    Execute console command "/wandp %player% configure cooldown_reduction 1"

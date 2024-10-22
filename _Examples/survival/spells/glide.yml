@@ -1,0 +1,41 @@
+glide:
+    icon: elytra{CustomModelData:18001}
+    icon_disabled: elytra{CustomModelData:18002}
+    legacy_icon: spell_icon:202
+    legacy_icon_disabled: spell_icon_disabled:202
+    icon_url: http://textures.minecraft.net/texture/0da6cb9e9cd875794b8b9f3a4b77227a18adb963b42af21d52d58d2ef24e47
+    category: utility
+    worth: 750
+    cancel_effects: true
+    actions:
+        cast:
+        - class: FallProtection
+        - class: Velocity
+        - class: Delay
+        - class: Glide
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: entity_parrot_fly
+           sound_pitch: 0.3
+           sound_volume: 2
+           location: origin
+           source_location: eyes
+           effectlib:
+             class: IconEffect
+             duration: 30000
+             particle: end_rod
+             particle_offset_x: 1
+             particle_offset_y: 1
+             particle_offset_z: 1
+             particle_count: 40
+             y_offset: 0
+    parameters:
+        target: self
+        duration: 50000
+        cooldown: 60000
+        direction: 0,1,0
+        speed: 2
+        delay: 750
+    costs:
+        mana: 100

@@ -1,0 +1,35 @@
+baubillious:
+  inherit: chainlightning
+  icon: diamond_axe{CustomModelData:188}
+  icon_disabled: diamond_hoe{CustomModelData:188}
+  category: dark
+  worth: 20 ac
+  upgrade_required_path: year6
+  upgrade_required_casts: 25
+  effects:
+    projectile:
+      - class: EffectSingle
+        effectlib:
+          class: Line
+          isZigZag: true
+          zigZags: 2
+          zigZagOffset: 0,0.05,0
+          length: 6
+          particles: 50
+          particle: fireworks_spark
+          duration: 2000
+  parameters:
+    cooldown: 15000
+
+baubillious|2:
+  upgrade_required_path: year7
+  upgrade_required_casts: 50
+  parameters:
+    player_damage: 3
+    entity_damage: 3.5
+
+baubillious|3:
+  parameters:
+    player_damage: 4.5
+    entity_damage: 5
+    repeat: 8

@@ -1,0 +1,11 @@
+portableswamp:
+  icon: grass
+  mode: cast
+  indestructible: false
+  undroppable: false
+  unstashable: false
+  locked: true
+  uses: 1
+  active_spell: ability_portableswamp
+  spells:
+    - ability_portableswamp

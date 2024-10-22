@@ -1,0 +1,20 @@
+fire_crab_ambient:
+  icon: fire
+  category: specialty
+  hidden: true
+  actions:
+    cast:
+      - class: Ignite
+  parameters:
+    target: self
+    cooldown: 0
+
+fire_crab_attack:
+  inherit: incendio
+  category: specialty
+  hidden: true
+
+fire_crab_alt_attack:
+  inherit: firestorm
+  category: specialty
+  hidden: true

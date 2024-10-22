@@ -1,0 +1,37 @@
+cat:
+    icon: cod{CustomModelData:18001}
+    icon_disabled: cod{CustomModelData:18002}
+    legacy_icon: spell_icon:70
+    legacy_icon_disabled: spell_icon_disabled:70
+    icon_url: http://textures.minecraft.net/texture/c87fd886605b6aaf6af2b2ea5b205bcdcb60b453b0353ceece0861cfc67ada4
+    category: elemental
+    worth: 150
+    earns: 2
+    actions:
+      cast:
+        - class: SpawnEntity
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: entity_cat_purreow
+           effectlib:
+             class: DnaEffect
+             particle_helix: drip_lava
+             iterations: 24
+             particle_base1: drip_water
+        -  class: EffectSingle
+           location: target
+           effectlib:
+             class: AtomEffect
+             iterations: 32
+             particle_nucleus: drip_water
+    parameters:
+        target_type: LivingEntity
+        allow_max_range: false
+        range: 32
+        cooldown: 60000
+        type: cat
+        tamed: true
+    costs:
+        mana: 30
+

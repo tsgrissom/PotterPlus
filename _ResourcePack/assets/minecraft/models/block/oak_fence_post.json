@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/custom_template_fence_post",
+    "textures": {
+        "texture": "minecraft:block/oak_fence",
+        "top": "minecraft:block/oak_fence_top",
+        "bottom": "minecraft:block/oak_fence_bottom"
+    }
+}

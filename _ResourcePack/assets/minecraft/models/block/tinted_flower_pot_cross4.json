@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "minecraft:block/flower_pot4",
+        "flowerpot": "minecraft:block/flower_pot4",
+        "dirt": "minecraft:block/dirt"
+    }
+}

@@ -1,0 +1,58 @@
+# Defines the spell categories for use with books, spell listings, etc.
+categories:
+  charms:
+    name: >-
+      Charms
+    description: >-
+      Spells used to change the properties of yourself, others, and objects
+      around you.
+  creatures:
+    name: >-
+      Magical Creatures
+    description: >-
+      Spells used to control magical creatures.
+  dada:
+    name: >-
+      DADA
+    description: >-
+      Spells used to defend yourself against practitioners of the dark arts.
+  dark:
+    name: >-
+      Dark Arts
+    description: >-
+      Spells that explore the darker side of magic.
+  herbology:
+    name: >-
+      Herbology
+    description: >-
+      Spells used to cultivate plants or to heal.
+  transfiguration:
+    name: >-
+      Transfiguration
+    description: >-
+      Spells used to transform, switch, vanish, or conjure objects.
+  elective:
+    name: >-
+      Elective
+    description: >-
+      Spells from assorted subjects that you can choose to take on your own.
+  unforgivable:
+    name: >-
+      Unforgivable
+    description: >-
+      Spells that are a terrible crime to cast.
+  staff:
+    name: >-
+      Staff
+    description: >-
+      Spells that are exclusively granted to staff members.
+  specialty:
+    name: >-
+      Specialty
+    description: >-
+      Spells that often power magic items, potions, magical creatures, and more.
+  npc:
+    name: >-
+      NPC
+    description: >-
+      Spells that are used by NPCs, often to bring up menus.

@@ -1,0 +1,52 @@
+capture:
+  icon: turtle_egg{CustomModelData:18001}
+  icon_disabled: turtle_egg{CustomModelData:18002}
+  legacy_icon: spell_icon:251
+  legacy_icon_disabled: spell_icon_disabled:251
+  worth: 750
+  earns_sp: 8
+  actions:
+    cast:
+    - class: Capture
+  effects:
+      cast:
+      - sound: entity_illusioner_prepare_mirror
+        sound_pitch: 1.6
+        sound_volume: 1.2
+      - sound: entity_illusioner_mirror_move
+        sound_pitch: 0.3
+        sound_volume: 1.2
+      - class: EffectSingle
+        sound: entity_enderman_teleport
+        sound_pitch: 0.1
+        sound_volume: 0.5
+        location: origin
+        effectlib:
+           class: ConeEffect
+           iterations: 11
+           particle: spell_instant
+           lengthGrow: 0.4
+      - class: EffectSingle
+        location: target
+        color: "81F7D8"
+        firework: star
+        requires_entity_target: true
+      - class: EffectSingle
+        location: target
+        sound: entity_enderman_teleport
+        sound_pitch: 0.2
+        sound_volume: 0.8
+        requires_entity_target: true
+        effectlib:
+         class: Modified
+         iterations: 30
+         parameters:
+          radius: "max(1, (1 - (t / i)) * 5 - 2)"
+         effect:
+           class: Sphere
+           particle: redstone
+           color: "F02020"
+  parameters:
+    cooldown: 5000
+    range: 32
+  mana: 200

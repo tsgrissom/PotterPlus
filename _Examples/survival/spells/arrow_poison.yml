@@ -1,0 +1,54 @@
+arrow_poison:
+    icon: tipped_arrow{CustomModelData:18016,Potion:poison}
+    icon_disabled: tipped_arrow{CustomModelData:18017,Potion:poison}
+    legacy_icon: spell_icon:245
+    legacy_icon_disabled: spell_icon_disabled:245
+    icon_url: http://textures.minecraft.net/texture/ea96e1b8c4d458f8f5443fa66eb376981f7b2ec385386db67faf3f1589094
+    category: combat
+    worth: 500
+    earns_sp: 8
+    actions:
+        cast:
+        - class: Projectile
+          actions:
+          - class: AreaOfEffectCloud
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: entity_arrow_shoot
+           sound_pitch: 0.2
+           sound_volume: 0.3
+           location: origin
+        projectile:
+        - location: origin
+          effectlib:
+             class: Sphere
+             iterations: 10
+             period: 2
+             particles: 5
+             particle_count: 5
+             particle_offset_x: 0.2
+             particle_offset_y: 0.2
+             particle_offset_z: 0.2
+             particle: slime
+             disappear_with_origin_entity: true
+        hit:
+        -  class: EffectSingle
+           target_offset: 0,0.5,0
+           location: target
+           color: FACC2E
+           firework: burst
+    parameters:
+      target: none
+      projectile: TippedArrow
+      duration: 3000
+      potion_effects:
+      - type: poison
+        duration: 1000
+        amplifier: 2
+      speed: "bowpull * 3"
+      spread: "1 - bowpull"
+      radius: "2 + 4 * bowpull"
+      damage: 2
+    costs:
+      arrow: 1

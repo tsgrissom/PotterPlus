@@ -1,0 +1,67 @@
+walls:
+    icon: terracotta{CustomModelData:18001}
+    icon_disabled: terracotta{CustomModelData:18002}
+    legacy_icon: spell_icon:130
+    legacy_icon_disabled: spell_icon_disabled:130
+    icon_url: http://textures.minecraft.net/texture/4fed122b86ffaeaee36ab4a8c1c27f46fb5bddc83322c8a165d0f27aeb1830
+    category: combat
+    worth: 250
+    earns_sp: 5
+    actions:
+        cast:
+        - class: Cylinder
+          actions:
+          - class: ModifyBlock
+          - class: PlayEffects
+            effects: column
+          - class: Skip
+            skip: 4
+            actions:
+            - class: Delay
+              delay: 10
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: magic.shield
+        -  sound: block_stone_place
+           sound_pitch: 1.2
+           sound_volume: 1.7
+        -  sound: entity_ender_dragon_hurt
+           sound_pitch: 1.9
+           sound_volume: 0.8
+        -  class: EffectTrail
+           particle: block_crack
+           particle_count: 20
+           particle_offset_x: 0.2
+           particle_offset_y: 0.2
+           particle_offset_z: 0.2
+        column:
+        -  location: target
+           particle: block_crack
+           particle_count: 20
+           particle_offset_x: 0.2
+           particle_offset_y: 5
+           particle_offset_z: 0.2
+           offset: 0,-2,0
+           sound: block_stone_place
+           sound_pitch: 0.2
+           sound_volume: 1.2
+    parameters:
+        target_type: LivingEntity
+        allow_max_range: true
+        range: 32
+        radius: 5
+        thickness: 1
+        transparent: transparent_to_construction
+        undo: 6000
+        cooldown: 10000
+        brush: stained_clay
+        brushcolor: true
+        breakable: 3
+        destructible: destructible_replace
+        volume_type: xzy
+        center_y: false
+        oty: -2
+    costs:
+        mana: 75
+

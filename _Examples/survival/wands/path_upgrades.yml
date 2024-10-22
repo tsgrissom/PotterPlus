@@ -1,0 +1,41 @@
+#
+# UPGRADES used in enchanting paths
+#
+
+student_upgrade:
+    legacy_icon: wand_icon:2
+    icon: stick{CustomModelData:18002}
+    upgrade: true
+    hidden: true
+    indestructible: false
+    hotbar_count: 2
+apprentice_upgrade:
+    legacy_icon: wand_icon:3
+    icon: stick{CustomModelData:18003}
+    upgrade: true
+    hidden: true
+    indestructible: false
+    hotbar_count: 2
+master_upgrade:
+    legacy_icon: wand_icon:4
+    icon: stick{CustomModelData:18004}
+    upgrade: true
+    hidden: true
+    indestructible: false
+    hotbar_count: 3
+
+squire_upgrade:
+    upgrade: true
+    hidden: true
+    indestructible: false
+    hotbar_count: 2
+soldier_upgrade:
+    upgrade: true
+    hidden: true
+    indestructible: false
+    hotbar_count: 2
+knight_upgrade:
+    upgrade: true
+    hidden: true
+    indestructible: false
+    hotbar_count: 3

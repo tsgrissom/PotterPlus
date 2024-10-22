@@ -1,0 +1,60 @@
+ability_monsterbook:
+  icon: written_book
+  icon_disabled: written_book
+  category: specialty
+  hidden: true
+  actions:
+    cast:
+      - class: Book
+  effects:
+    cast:
+      - sound: magic.paperturn
+  parameters:
+    target: self
+    # TODO Fill in information on beasts
+    pages:
+      1:
+        - "&6&lAcromantula"
+        - "&7Ministry Classification&8: &c&lXXXXX"
+      2:
+        - "&6&lAshwinder"
+        - "&7Ministry Classification&8: &c&lXXXXX"
+      3:
+        - "&6&lAugurey"
+        - "&7Ministry Classification&8: &c&lXXXXX"
+      4:
+        - "&6&lBowtruckle"
+        - "&7Ministry Classification&8: &c&lXXXXX"
+      5:
+        - "&6&lBundimun"
+        - "&7Ministry Classification&8: &c&lXXXXX"
+      6:
+        - "&6&lCentaur"
+        - "&7Ministry Classification&8: &c&lXXXXX"
+      7:
+        - "&6&lCrup"
+        - "&7Ministry Classification&8: &c&lXXXXX"
+      8:
+        - "&6&lDemiguise"
+        - "&7Ministry Classification&8: &c&lXXXXX"
+      9:
+        - "&6&lErkling"
+        - "&7Ministry Classification&8: &c&lXXXXX"
+      10:
+        - "&6&lErumpent"
+        - "&7Ministry Classification&8: &c&lXXXXX"
+      11:
+        - "&6&lFire Crab"
+        - "&7Ministry Classification&8: &c&lXXXXX"
+      12:
+        - "&6&lFwooper"
+        - "&7Ministry Classification&8: &c&lXXXXX"
+      13:
+        - "&6&lKneazle"
+        - "&7Ministry Classification&8: &c&lXXXXX"
+      14:
+        - "&6&lPhoenix"
+        - "&7Ministry Classification&8: &c&lXXXXX"
+      15:
+        - "&6&lWampus"
+        - "&7Ministry Classification&8: &c&lXXXXX"

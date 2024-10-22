@@ -1,0 +1,53 @@
+grenade:
+    icon: tnt{CustomModelData:18001}
+    icon_disabled: tnt{CustomModelData:18002}
+    legacy_icon: spell_icon:91
+    legacy_icon_disabled: spell_icon_disabled:91
+    icon_url: http://textures.minecraft.net/texture/c6a7fcfee0ffebae25b69bd16f55c993898ba72791d3a89e58736e7bad0faa3
+    alias: frag
+    category: demolition
+    pvp_restricted: true
+    worth: 300
+    earns_sp: 12
+    upgrade_required_path: apprentice
+    upgrade_required_casts: 50
+    actions:
+        cast:
+        -  class: TNT
+    effects:
+        cast:
+        - class: EffectSingle
+          sound: block_lava_pop
+          sound_pitch: 0.3
+          sound_volume: 1.6
+        projectile:
+        - location: origin
+          effectlib:
+            class: Modified
+            iterations: 60
+            parameters:
+              size: "max(1, (t / i) * 5 - 2)"
+            effect:
+              class: AnimatedBall
+              particle: smoke_large
+              xFactor: 2
+    parameters:
+        target: none
+        allow_max_range: true
+        range: 32
+        size: 2
+        fuse: 60
+        undo: 20000
+        cooldown: 10000
+        undo_speed: 0.2
+    costs:
+        mana: 40
+
+grenade|2:
+    parameters:
+        size: 3
+        fire: true
+        undo_speed: 0.5
+    costs:
+        mana: 75
+

@@ -1,0 +1,47 @@
+disillusion:
+  icon: diamond_axe{CustomModelData:190}
+  icon_disabled: diamond_hoe{CustomModelData:190}
+  worth: 15 ac
+  upgrade_required_casts: 25
+  quick_cast: false
+  actions:
+    cast:
+      - class: PotionEffect
+      - class: Delay
+        delay: $duration
+      - class: PlayEffects
+  effects:
+    appear:
+      - class: EffectSingle
+        sound: magic.vanish
+      - class: EffectRing
+        particle: smoke_normal
+        location: target
+  parameters:
+    target: self
+    duration: 3000
+    effect: appear
+    cooldown: 20000
+
+disillusion|2:
+  upgrade_required_casts: 50
+  upgrade_required_path: year7
+  parameters:
+    duration: 5000
+
+disillusion|3:
+  upgrade_required_casts: 75
+  upgrade_required_path: graduate
+  actions:
+    cast:
+      - class: PotionEffect
+      - class: StashWand
+  parameters:
+    duration: 8000
+    undo: 8000
+
+disillusion|4:
+  upgrade_required_casts: 100
+  parameters:
+    duration: 12000
+    undo: 12000

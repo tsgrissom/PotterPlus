@@ -1,0 +1,11 @@
+mastersword:
+  enabled: false
+  output: mastersword
+  output_type: wand
+  materials:
+    o: magicheart
+    i: diamond_sword
+  row_1: ""
+  row_2: o
+  row_3: i
+

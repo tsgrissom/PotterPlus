@@ -1,0 +1,20 @@
+confundo:
+  inherit: confundus
+  icon: diamond_axe{CustomModelData:32}
+  icon_disabled: diamond_hoe{CustomModelData:32}
+  category: dada
+  worth: 10 ac
+  upgrade_required_path: year6
+  upgrade_required_casts: 50
+  parameters:
+    cooldown: 8000
+
+confundo|2:
+  upgrade_required_path: year7
+  upgrade_required_casts: 100
+  parameters:
+    duration: 5000
+
+confundo|3:
+  parameters:
+    duration: 6000

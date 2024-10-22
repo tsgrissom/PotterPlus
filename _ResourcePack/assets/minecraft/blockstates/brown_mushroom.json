@@ -1,0 +1,12 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/brown_mushroom" },
+            { "model": "minecraft:block/brown_mushroom1" },
+            { "model": "minecraft:block/brown_mushroom2" },
+            { "model": "minecraft:block/brown_mushroom3" },
+            { "model": "minecraft:block/brown_mushroom4" }
+        ]
+    }
+}

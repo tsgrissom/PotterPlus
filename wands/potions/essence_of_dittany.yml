@@ -1,0 +1,33 @@
+essenceofdittany:
+  icon: potion:4d2a11
+  lore:
+    - "$description"
+  left_click: none
+  right_click: cast
+  drop: none
+  swap: none
+  active_spell: essence_of_dittany_ability
+  uses: 3
+
+essenceofdittany_very_weak:
+  inherit: essenceofdittany
+  overrides: essence_of_dittany_ability.duration 6000
+  uses: 1
+
+essenceofdittany_weak:
+  inherit: essenceofdittany
+  overrides: essence_of_dittany_ability.duration 7000
+  uses: 2
+
+essenceofdittany_strong:
+  inherit: essenceofdittany
+  overriddes: essence_of_dittany_ability.duration 10000
+
+essenceofdittany_very_strong:
+  inherit: essenceofdittany
+  overrides: essence_of_dittany_ability.duration 12000
+
+essenceofdittany_legendary:
+  inherit: essenceofdittany
+  overrides: essence_of_dittany_ability.duration 12000
+  uses: 5

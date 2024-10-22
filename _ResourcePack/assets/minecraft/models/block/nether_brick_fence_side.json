@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/custom_template_fence_side",
+    "textures": {
+        "texture": "minecraft:block/nether_brick_fence",
+        "top": "minecraft:block/nether_brick_fence_top",
+        "bottom": "minecraft:block/nether_brick_fence_bottom"
+    }
+}

@@ -1,0 +1,18 @@
+gillyweed:
+  icon: vine
+  mode: cast
+  indestructible: false
+  undroppable: false
+  unstashable: false
+  locked: true
+  left_click: none
+  right_click: cast
+  uses: 1
+  active_spell: ability_gillyweed
+  spells:
+    - ability_gillyweed
+  display_name: "$name"
+  lore:
+    - "$description"
+    - ""
+    - "&8Right-click to eat"

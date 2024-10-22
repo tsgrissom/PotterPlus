@@ -1,0 +1,32 @@
+wand:
+  description_lore: >-
+    &3$description
+  active_costs_description: >-
+    &9Mana&8: &7$description&8/&7second
+  bound_description: ""
+  cooldown_reduction: >-
+    &8Cooldown Reduction &7$roman
+  cost_reduction: >-
+    &8Cost Reduction &7$roman
+  costs_description: >-
+    &9Mana&8: &7$description
+  mana_amount: >-
+    &aEnergy&8: &7$amount
+  mana_max: >-
+    &aEnergy&8: &7$amount
+  mana_regeneration: >-
+    &9Energy Regeneration&8: &7$amount&8/&7s
+  owner_description: >-
+    &7$name's &9wand
+  range_description: >-
+    &6Range&8: &7$range meters
+  spell_count: >-
+    &dKnows &7$count spells
+  potion_effect: >-
+    &8$effect $roman
+  upgraded_property: >-
+    &8>> &dYour knowledge of magic grows&8. $name
+  spell_added: |-
+    t:&dSpell Unlocked
+    &6$name
+  upgrade_item_description: ""

@@ -1,0 +1,37 @@
+portus:
+  icon: diamond_axe{CustomModelData:71}
+  icon_disabled: diamond_hoe{CustomModelData:71}
+  worth: 20 ac
+  category: charms
+  upgrade_required_path: year7
+  upgrade_required_casts: 25
+  tags: nojail,noduel
+  pvp_restricted: true
+  actions:
+    cast:
+      - class: Delay
+      - class: GiveItem
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: potterplus.swish
+        location: origin
+        source_location: feet
+        effectlib:
+          class: AnimatedBall
+          duration: $delay
+          particle: redstone
+          color: 559bf9
+  parameters:
+    delay: 5000
+    warmup: 5000
+    item: wand|portkey
+    target: self
+    cooldown: 60000
+  costs:
+    mana: 50
+
+portus|2:
+  parameters:
+    delay: 4000
+    warmup: 4000

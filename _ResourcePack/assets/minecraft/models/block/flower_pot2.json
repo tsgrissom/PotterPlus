@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/custom_template_flower_pot",
+    "textures": {
+        "flower_pot": "minecraft:block/flower_pot2"
+    }
+}

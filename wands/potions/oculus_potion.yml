@@ -1,0 +1,3 @@
+oculuspotion:
+  icon: potion:000000
+  consume_spell: oculus_potion_ability

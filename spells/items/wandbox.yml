@@ -1,0 +1,22 @@
+ability_wandbox:
+  icon: wooden_hoe{CustomModelData:100}
+  hidden: true
+  category: specialty
+  actions:
+    cast:
+      - class: Command
+  effects:
+    cast:
+      - sound: potterplus.whoosh_loud
+      - class: EffectRepeat
+        delay: 500
+        location: origin
+        firework: burst
+        color: FFFFFF
+        color2: random
+  parameters:
+    command: mgive @tn playerwand
+    console: true
+    target: self
+  costs:
+    wandbox: 1

@@ -1,0 +1,21 @@
+donatorshop:
+    inherit: buyshop
+    hidden: true
+    parameters:
+        auto_close: true
+        confirm: true
+        confirm_filler: stained_glass:3
+        require_wand: true
+        items:
+        - item: appearance_beginner
+        - item: appearance_student
+        - item: appearance_apprentice
+        - item: appearance_master
+        - item: appearance_engineer
+        - item: appearance_conduit
+        - item: appearance_moon
+        - item: appearance_magicka
+        - item: appearance_spire
+        - item: appearance_claw
+        - item: appearance_orb
+        - item: appearance_magma

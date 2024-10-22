@@ -1,0 +1,86 @@
+wither:
+    icon: wither_skeleton_skull{CustomModelData:18001}
+    icon_disabled: wither_skeleton_skull{CustomModelData:18002}
+    legacy_icon: spell_icon:53
+    legacy_icon_disabled: spell_icon_disabled:53
+    upgrade_required_path: apprentice
+    upgrade_required_casts: 50
+    icon_url: http://textures.minecraft.net/texture/ac90eba543a9b9609c4815542e88274e50c152c837a22d3f5f64847b95e2
+    category: dark
+    pvp_restricted: true
+    worth: 350
+    earns_sp: 10
+    actions:
+        cast:
+        - class: Projectile
+          actions:
+          - class: AreaOfEffect
+            actions:
+            - class: PotionEffect
+            - class: Damage
+    effects:
+        cast:
+        - sound: entity_wither_shoot
+          sound_pitch: 0.8
+          sound_volume: 0.4
+        projectile:
+        - class: EffectSingle
+          location: origin
+          effectlib:
+             class: Sphere
+             iterations: 10
+             period: 2
+             particles: 5
+             particle: redstone
+             color: "010101"
+             disappear_with_origin_entity: true
+        hit:
+        - location: target
+          sound: entity_wither_break_block
+          sound_pitch: 0.8
+          source_location: body
+          effectlib:
+           class: Modified
+           disappear_with_origin_entity: true
+           duration: $duration
+           parameters:
+            size: "(1 - (t / i)) * 1.5 + 0.5"
+           effect:
+             class: AnimatedBall
+             particle: smoke_normal
+             particle_count: 5
+             particles: 20
+             particles_per_iteration: 5
+             particle_offset_x: 0.05
+             particle_offset_y: 0.05
+             particle_offset_z: 0.05
+             y_factor: 1
+    parameters:
+        target: none
+        projectile: WitherSkull
+        effect_wither: 2
+        duration: 5000
+        radius: 2
+        count: 1
+        undo: 15000
+        cooldown: 5000
+        start: 1
+        break_blocks: false
+        damage: 1
+    costs:
+        mana: 60
+
+wither|2:
+    upgrade_required_path: master
+    upgrade_required_casts: 50
+    parameters:
+       count: 3
+       radius: 3
+       duration: 8000
+
+wither|3:
+    parameters:
+       count: 4
+       radius: 4
+       duration: 10000
+

@@ -1,0 +1,14 @@
+baruffios_brain_elixir_ability:
+  icon: potion:98ff98
+  category: specialty
+  hidden: true
+  effects:
+    cast: enchant
+  actions:
+    cast:
+      - class: ModifyMana
+  parameters:
+    cooldown_mage: 2000
+    bypass_confusion: true
+    target: self
+    fill_mana: true

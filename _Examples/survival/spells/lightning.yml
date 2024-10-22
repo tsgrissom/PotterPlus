@@ -1,0 +1,70 @@
+lightning:
+    icon: quartz{CustomModelData:18001}
+    icon_disabled: quartz{CustomModelData:18002}
+    legacy_icon: spell_icon:39
+    legacy_icon_disabled: spell_icon_disabled:39
+    icon_url: http://textures.minecraft.net/texture/c0d34b6c68eca9dae0f9dabeadeb5f72536fa20ab4ecf669be895baf1c17
+    alias: storm
+    upgrade_required_path: apprentice
+    upgrade_required_casts: 50
+    category: elemental
+    pvp_restricted: true
+    worth: 300
+    earns_sp: 2
+    actions:
+        cast:
+        -  class: Spread
+           actions:
+           -  class: Lightning
+    effects:
+        cast:
+        -  sound: block_conduit_activate
+           sound_pitch: 1.8
+           sound_volume: 1.9
+        -  class: EffectSingle
+           sound: entity_firework_large_blast
+           location: target
+        -  class: EffectTrail
+           particle: smoke_normal
+           particle_count: 30
+           particle_offset_x: 0.3
+           particle_offset_y: 0.3
+           particle_offset_z: 0.3
+        -  class: EffectSingle
+           location: target
+           effectlib:
+             class: HelixEffect
+             particle: smoke_large
+             iterations: 1
+             particles: 30
+             particle_count: 10
+             particle_offset_x: 1
+             particle_offset_y: 0.1
+             particle_offset_z: 1
+    parameters:
+        target_type: LivingEntity
+        allow_max_range: true
+        range: 32
+        radius: 8
+        cooldown: 45000
+        undo: 8000
+    costs:
+        mana: 80
+
+lightning|2:
+    upgrade_required_path: master
+    upgrade_required_casts: 50
+    parameters:
+        radius: 6
+
+lightning|3:
+    actions:
+        cast:
+         - class: Repeat
+           actions:
+           - class: Spread
+             actions:
+             - class: Lightning
+    parameters:
+        repeat: 2
+

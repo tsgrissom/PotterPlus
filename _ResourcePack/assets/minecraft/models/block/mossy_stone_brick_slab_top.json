@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/slab_top",
+    "textures": {
+        "bottom": "minecraft:block/mossy_stone_bricks",
+        "top": "minecraft:block/mossy_stone_bricks_top",
+        "side": "minecraft:block/mossy_stone_bricks"
+    }
+}

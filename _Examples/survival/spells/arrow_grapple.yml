@@ -1,0 +1,63 @@
+arrow_grapple:
+    icon: tipped_arrow{CustomModelData:18012,Potion:invisibility}
+    icon_disabled: tipped_arrow{CustomModelData:18013,Potion:invisibility}
+    legacy_icon: spell_icon:243
+    legacy_icon_disabled: spell_icon_disabled:243
+    category: combat
+    worth: 300
+    toggle: cancel
+    earns_sp: 2
+    actions:
+        cast:
+        - class: Projectile
+          speed: "bowpull * 3"
+          actions:
+          - class: ChangeContext
+            target_caster: true
+            actions:
+            - class: Asynchronous
+              actions:
+              - class: FallProtection
+                duration: 550000
+            - class: Repeat
+              actions:
+              - class: Velocity
+              - class: Sphere
+                radius: 2
+                actions:
+                - class: CheckBlock
+                  allowed: -*
+                  actions:
+                  - class: ChangeContext
+                    target_caster: true
+                    actions:
+                    - class: Velocity
+                      max_speed: 1
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: entity_arrow_shoot
+           sound_pitch: 0.2
+           sound_volume: 0.3
+           location: origin
+        projectile:
+        - effectlib:
+             class: Line
+             duration: 45000
+             period: 2
+             particles: 100
+             particle: crit
+    parameters:
+      target: none
+      projectile: TippedArrow
+      spread: "1 - bowpull"
+      damage: "2 * bowpull"
+      tick_increase: 0
+      push: -2
+      max_speed: 0.75
+      repeat: infinite
+      duration: 45000
+      total_duration: 45000
+      projectile_effects_use_target: true
+    costs:
+      mana: 25

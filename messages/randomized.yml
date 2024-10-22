@@ -1,0 +1,187 @@
+# Defines some randomizable messages for use in wand lore
+randomized:
+  core:
+    - Augurey Feather
+    - Basilisk Eyestalk
+    - Basilisk Horn
+    - Bone
+    - Coral
+    - Demiguise Hair
+    - Dittany Stalk
+    - Dragon Heartstring
+    - Horned Serpent Horn
+    - Jackalope Antler
+    - Kelpie Hair
+    - Kneazle Whisker
+    - Manticore Mane
+    - Pheonix Feather
+    - Puffskein Tongue
+    - Rougarou Hair
+    - Shell
+    - Snallygaster Heartstring
+    - Sphinx Tongue Sinew
+    - Thestral Tail-Hair
+    - Thunderbird Tail Feather
+    - Troll Whisker
+    - Unicorn Tail Hair
+    - Veela Hair
+    - Wampus Cat Hair
+    - White River Monster Spine
+  flex:
+    - Surprisingly Springy
+    - Quite Springy
+    - Springy
+    - Rather Springy
+    - Reasonably Springy
+
+    - Surprisingly Whippy
+    - Quite Whippy
+    - Whippy
+    - Rather Whippy
+    - Reasonably Whippy
+
+    - Surpisingly Bendy
+    - Quite Bendy
+    - Bendy
+    - Rather Bendy
+    - Reasonably Bendy
+
+    - Surprisingly Swishy
+    - Quite Swishy
+    - Swishy
+    - Rather Swishy
+    - Reasonably Swishy
+
+    - Surprisingly Flexible
+    - Quite Flexible
+    - Flexible
+    - Rather Flexible
+    - Reasonably Flexible
+
+    - Quite Supple
+    - Supple
+    - Reasonably Supple
+
+    - Surpisingly Pliable
+    - Quite Pliable
+    - Pliable
+    - Rather Pliable
+
+    - Quite Brittle
+    - Brittle
+    - Rather Brittle
+    - Reasonably Brittle
+
+    - Surprisingly Stiff
+    - Quite Stiff
+    - Stiff
+    - Rather Stiff
+    - Reasonably Stiff
+
+    - Surpisingly Hard
+    - Quite Hard
+    - Hard
+
+    - Quite Rigid
+    - Rigid
+
+    - Surpisingly Unyielding
+    - Quite Unyielding
+    - Unyielding
+    - Rather Unyielding
+    - Reasonably Unyielding
+
+    - Surpisingly Yielding
+    - Quite Yielding
+    - Yielding
+    - Reasonably Yielding
+
+    - Surpisingly Pliable
+    - Quite Pliable
+    - Pliable
+    - Rather Pliable
+    - Reasonably Pliable
+
+    - Quite Solid
+    - Solid
+    - Reasonably Solid
+
+    - Quite Unbending
+    - Unbending
+    - Rather Unbending
+    - Reasonably Unbending
+  length:
+    - Eight
+    - Eight and 1/4
+    - Eight and 1/2
+    - Eight and 3/4
+    - Nine
+    - Nine and 1/4
+    - Nine and 1/2
+    - Nine and 3/4
+    - Ten
+    - Ten and 1/4
+    - Ten and 1/2
+    - Ten and 3/4
+    - Eleven
+    - Eleven and 1/4
+    - Eleven and 1/2
+    - Eleven and 3/4
+    - Twelve
+    - Twelve and 1/4
+    - Twelve and 1/2
+    - Twelve and 3/4
+    - Thirteen
+    - Thirteen and 1/4
+    - Thirteen and 1/2
+    - Thirteen and 3/4
+    - Fourteen
+    - Fourteen and 1/4
+    - Fourteen and 1/2
+    - Fourteen and 3/4
+    - Fifteen
+  wood:
+    - Acacia
+    - Alder
+    - Apple
+    - Ash
+    - Aspen
+    - Beech
+    - Birch
+    - Blackthorn
+    - Black Walnut
+    - Cedar
+    - Cherry
+    - Chestnut
+    - Cypress
+    - Dogwood
+    - Ebony
+    - English Oak
+    - Elm
+    - Fir
+    - Hawthorn
+    - Hazel
+    - Holly
+    - Hornbeam
+    - Ivy
+    - Larch
+    - Laurel
+    - Mahogany
+    - Maple
+    - Oak
+    - Olive
+    - Pear
+    - Pine
+    - Poplar
+    - Red Oak
+    - Redwood
+    - Reed
+    - Rosewood
+    - Rowan
+    - Silver Lime
+    - Spruce
+    - Sycamore
+    - Vine
+    - Walnut
+    - Willow
+    - Yew

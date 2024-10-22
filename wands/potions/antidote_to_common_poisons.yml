@@ -1,0 +1,3 @@
+antidotetocommonpoisons:
+  icon: potion:000000
+  consume_spell: antidote_to_common_poisons_ability

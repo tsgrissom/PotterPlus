@@ -1,0 +1,13 @@
+standardingredient:
+  worth: 5.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1976
+    type: LARGE_FERN
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Standard Ingredient
+      lore:
+        - §7A mixture of herbs used
+        - §7in creating potions.

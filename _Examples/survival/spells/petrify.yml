@@ -1,0 +1,98 @@
+petrify:
+    icon: light_gray_dye{CustomModelData:18001}
+    icon_disabled: light_gray_dye{CustomModelData:18002}
+    legacy_icon: spell_icon:175
+    legacy_icon_disabled: spell_icon_disabled:175
+    icon_url: http://textures.minecraft.net/texture/7e453aa5908121dcf1cd8cf9f04459741f7879d99c01fb71bf243c25c3188
+    category: combat
+    worth: 300
+    earns_sp: 8
+    actions:
+      cast:
+      - class: CustomProjectile
+        actions:
+        - class: PotionEffect
+        - class: FallProtection
+    effects:
+        cast:
+        -  sound: block_beacon_power_select
+           sound_pitch: 0.8
+           sound_volume: 0.6
+        -  class: EffectSingle
+           sound: magic.zap_big
+        -  class: EffectSingle
+           sound: magic.zap
+        tick:
+        - location: target
+          particle: fireworks_spark
+          particle_count: 4
+          particle_offset_x: 0.05
+          particle_offset_y: 0.05
+          particle_offset_z: 0.05
+        - location: target
+          particle: block_crack
+          material: stone
+          particle_count: 2
+          particle_offset_x: 0.02
+          particle_offset_y: 0.02
+          particle_offset_z: 0.02
+        hit_entity:
+        - sound: block_stone_place
+          sound_pitch: 0.1
+          sound_volume: 1.5
+          location: target
+        - sound: block_chain_place
+          sound_pitch: 0.1
+          sound_volume: 1.75
+          location: target
+        - class: EffectSingle
+          sound: block_stone_hit
+          location: target
+          requires_entity_target: true
+          particle_override: particle_orbital
+          target_location: body
+          effectlib:
+             class: AtomEffect
+             particle_nucleus: fireworks_spark
+             particle_orbital: fireworks_spark
+             duration: $duration
+             radius: 2
+        - class: EffectSingle
+          location: target
+          requires_entity_target: true
+          target_location: body
+          material: stone
+          effectlib:
+             class: AtomEffect
+             particle_nucleus: block_crack
+             particle_orbital: block_dust
+             duration: $duration
+             radius: 1
+    costs:
+        mana: 100
+    parameters:
+        velocity: 150
+        range: 48
+        target_type: LivingEntity
+        target_breakables: 1
+        target: other
+        duration: 3000
+        effect_slow: 20
+        effect_jump: -20
+        effect_weakness: 5
+        protection_count: 1000
+        hitbox: true
+        cooldown: 10000
+
+petrify|2:
+    upgrade_required_path: master
+    upgrade_required_casts: 50
+    parameters:
+      duration: 5000
+
+petrify|3:
+    upgrade_required_path: master
+    upgrade_required_casts: 50
+    parameters:
+      duration: 7000
+

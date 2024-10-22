@@ -1,0 +1,73 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "multipart": [
+        {   "when": {"north": false, "east": false, "south": false, "west": false, "up": false},
+            "apply": [
+                { "model": "minecraft:block/fire_floor0", "weight": 25 },
+                { "model": "minecraft:block/fire_floor1", "weight": 25 },
+                { "model": "minecraft:block/fire_floor2", "weight": 25 },
+                { "model": "minecraft:block/fire_floor3", "weight": 25 }
+            ]
+        },
+        {   "when": {"OR": [{"north": true}, {"north": false, "east": false, "south": false, "west": false, "up": false}]},
+            "apply": [
+                { "model": "minecraft:block/fire_side0", "weight": 25 },
+                { "model": "minecraft:block/fire_side1", "weight": 25 },
+                { "model": "minecraft:block/fire_side2", "weight": 25 },
+                { "model": "minecraft:block/fire_side3", "weight": 25 },
+                { "model": "minecraft:block/fire_side_alt0", "weight": 25 },
+                { "model": "minecraft:block/fire_side_alt1", "weight": 25 },
+                { "model": "minecraft:block/fire_side_alt2", "weight": 25 },
+                { "model": "minecraft:block/fire_side_alt3", "weight": 25 }
+            ]
+        },
+        {   "when": {"OR": [{"east": true}, {"north": false, "east": false, "south": false, "west": false, "up": false}]},
+            "apply": [
+                { "model": "minecraft:block/fire_side0", "y": 90, "weight": 25 },
+                { "model": "minecraft:block/fire_side1", "y": 90, "weight": 25 },
+                { "model": "minecraft:block/fire_side2", "y": 90, "weight": 25 },
+                { "model": "minecraft:block/fire_side3", "y": 90, "weight": 25 },
+                { "model": "minecraft:block/fire_side_alt0", "y": 90, "weight": 25 },
+                { "model": "minecraft:block/fire_side_alt1", "y": 90, "weight": 25 },
+                { "model": "minecraft:block/fire_side_alt2", "y": 90, "weight": 25 },
+                { "model": "minecraft:block/fire_side_alt3", "y": 90, "weight": 25 }
+            ]
+        },
+        {   "when": {"OR": [{"south": true}, {"north": false, "east": false, "south": false, "west": false, "up": false}]},
+            "apply": [
+                { "model": "minecraft:block/fire_side0", "y": 180, "weight": 25 },
+                { "model": "minecraft:block/fire_side1", "y": 180, "weight": 25 },
+                { "model": "minecraft:block/fire_side2", "y": 180, "weight": 25 },
+                { "model": "minecraft:block/fire_side3", "y": 180, "weight": 25 },
+                { "model": "minecraft:block/fire_side_alt0", "y": 180, "weight": 25 },
+                { "model": "minecraft:block/fire_side_alt1", "y": 180, "weight": 25 },
+                { "model": "minecraft:block/fire_side_alt2", "y": 180, "weight": 25 },
+                { "model": "minecraft:block/fire_side_alt3", "y": 180, "weight": 25 }
+            ]
+        },
+        {   "when": {"OR": [{"west": true}, {"north": false, "east": false, "south": false, "west": false, "up": false}]},
+            "apply": [
+                { "model": "minecraft:block/fire_side0", "y": 270, "weight": 25 },
+                { "model": "minecraft:block/fire_side1", "y": 270, "weight": 25 },
+                { "model": "minecraft:block/fire_side2", "y": 270, "weight": 25 },
+                { "model": "minecraft:block/fire_side3", "y": 270, "weight": 25 },
+                { "model": "minecraft:block/fire_side_alt0", "y": 270, "weight": 25 },
+                { "model": "minecraft:block/fire_side_alt1", "y": 270, "weight": 25 },
+                { "model": "minecraft:block/fire_side_alt2", "y": 270, "weight": 25 },
+                { "model": "minecraft:block/fire_side_alt3", "y": 270, "weight": 25 }
+            ]
+        },
+        {   "when": {"up": true},
+            "apply": [
+                { "model": "minecraft:block/fire_up0", "weight": 25 },
+                { "model": "minecraft:block/fire_up1", "weight": 25 },
+                { "model": "minecraft:block/fire_up2", "weight": 25 },
+                { "model": "minecraft:block/fire_up3", "weight": 25 },
+                { "model": "minecraft:block/fire_up_alt0", "weight": 25 },
+                { "model": "minecraft:block/fire_up_alt1", "weight": 25 },
+                { "model": "minecraft:block/fire_up_alt2", "weight": 25 },
+                { "model": "minecraft:block/fire_up_alt3", "weight": 25 }
+            ]
+        }
+    ]
+}

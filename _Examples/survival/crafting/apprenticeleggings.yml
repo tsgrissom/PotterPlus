@@ -1,0 +1,13 @@
+apprenticeleggings:
+  enabled: false
+  output: apprenticeleggings
+  output_type: wand
+  discover:
+    - wizardleggings
+  materials:
+    o: magicheart
+    i: white_wool
+  row_1: iii
+  row_2: i i
+  row_3: ioi
+

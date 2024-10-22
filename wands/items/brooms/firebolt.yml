@@ -1,0 +1,4 @@
+firebolt:
+  icon: wooden_hoe{CustomModelData:200}
+  lore:
+    - "$description"

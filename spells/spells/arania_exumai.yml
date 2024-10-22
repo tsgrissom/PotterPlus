@@ -1,0 +1,146 @@
+araniaexumai:
+  inherit: false
+  icon: diamond_axe{CustomModelData:157}
+  icon_disabled: diamond_hoe{CustomModelData:157}
+  worth: 5 ac
+  upgrade_required_path: year2
+  upgrade_required_casts: 25
+  category: creatures
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: AreaOfEffect
+            actions:
+              - class: PlayEffects
+                effect: entity
+              - class: Velocity
+              - class: Damage
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.zap
+    tick:
+      - particle: fireworks_spark
+        particle_count: 2
+        particle_data: 0.5
+        location: target
+    projectile:
+      - class: EffectSingle
+        location: origin
+        effectlib:
+          class: Sphere
+          radius: 0.15
+          particle: redstone
+          color: 58FAD0
+    hit:
+      - class: EffectSingle
+        location: target
+        sound: magic.hit
+        requires_entity: false
+        effectlib:
+          class: Shield
+          radius: $radius
+          rings: 2
+          duration: 1000
+          particle: spell_mob
+          particleSize: 10
+          color: 58FAD0
+    entity:
+      - class: EffectSingle
+        location: target
+        sound: magic.zap
+        requires_entity: true
+        effectlib:
+          class: Sphere
+          radius: 1
+          particle: redstone
+          color: 58FAD0
+          particles: 5
+          duration: 1000
+  parameters:
+    cooldown: 6000
+    target: other
+    target_type: Spider
+    target_count: 8
+    velocity: 20
+    gravity: 0.03
+    radius: 4
+    range: 20
+    damage: 15
+    item_speed: 2
+    living_entity_speed: 2
+    push: 1
+  costs:
+    mana: 30
+
+# By year 2 you are able to one shot an acromantula underling
+
+araniaexumai|2:
+  upgrade_required_path: year3
+  upgrade_required_casts: 50
+  parameters:
+    damage: 20
+
+araniaexumai|3:
+  upgrade_required_path: year4
+  upgrade_required_casts: 75
+  parameters:
+    damage: 25
+
+# By year 4 you are able to one shot a normal acromantula
+
+araniaexumai|4:
+  upgrade_required_path: year5
+  upgrade_required_casts: 100
+  parameters:
+    damage: 30
+
+araniaexumai|5:
+  upgrade_required_path: year6
+  upgrade_required_casts: 125
+  parameters:
+    radius: 5
+    range: 24
+
+araniaexumai|6:
+  upgrade_required_path: year7
+  upgrade_required_casts: 150
+  parameters:
+    radius: 6
+
+araniaexumai|7:
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Repeat
+            actions:
+              - class: PlayEffects
+                effect: aoe
+              - class: AreaOfEffect
+                actions:
+                  - class: PlayEffects
+                    effect: entity
+                  - class: Velocity
+                  - class: Damage
+              - class: Delay
+  effects:
+    hit: []
+    aoe:
+      - class: EffectSingle
+        location: target
+        sound: magic.shimmer
+        requires_entity: false
+        effectlib:
+          class: Shield
+          radius: $radius
+          rings: 2
+          duration: 1000
+          particle: spell_mob
+          particleSize: 10
+          color: 58FAD0
+  parameters:
+    delay: 1500
+    duration: 6000
+    repeat: 4

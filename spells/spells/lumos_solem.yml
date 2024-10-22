@@ -1,0 +1,79 @@
+lumossolem:
+  inherit: false
+  icon: diamond_axe{CustomModelData:135}
+  icon_disabled: diamond_hoe{CustomModelData:135}
+  category: charms
+  worth: 10 ac
+  upgrade_required_path: year2
+  upgrade_required_casts: 20
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Light
+  effects:
+    cast:
+      - sound: magic.shimmer
+    tick:
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Sphere
+          particle: spell
+          iterations: 2
+          radius: 0.25
+    hit:
+      - class: EffectSingle
+        location: target
+        effectlib:
+          class: Modified
+          duration: 2000
+          parameters:
+            radius: "t/i"
+          effect:
+            class: Sphere
+            radius: 2
+            particle: spell
+            particle_count: 10
+  parameters:
+    range: 16
+    velocity: 25
+    gravity: 0.05
+    hit_on_miss: true
+    update: true
+    undo: 5000
+    cooldown: 45000
+    fizzle_chance: 0.15
+  costs:
+    mana: 40
+
+lumossolem|2:
+  upgrade_required_path: year2
+  upgrade_required_casts: 40
+  parameters:
+    range: 20
+    undo: 10000
+
+lumossolem|3:
+  upgrade_required_path: year3
+  upgrade_required_casts: 60
+  parameters:
+    range: 24
+    fizzle_chance: 0.1
+
+lumossolem|4:
+  upgrade_required_path: year3
+  upgrade_required_casts: 80
+  parameters:
+    undo: 15000
+
+lumossolem|5:
+  upgrade_required_path: year3
+  upgrade_required_casts: 100
+  parameters:
+    fizzle_chance: 0.5
+
+lumossolem|6:
+  parameters:
+    range: 28
+    fizzle_chance: 0

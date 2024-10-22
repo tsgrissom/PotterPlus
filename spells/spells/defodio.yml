@@ -1,0 +1,36 @@
+defodio:
+  icon: diamond_axe{CustomModelData:112}
+  icon_disabled: diamond_hoe{CustomModelData:112}
+  category: charms
+  worth: 15 ac
+  class: ConstructSpell
+  upgrade_required_casts: 25
+  upgrade_required_path: year5
+  effects:
+    cast:
+      - class: EffectTrail
+        effect: step_sound
+        material: stone
+  parameters:
+    allow_max_range: false
+    range: 32
+    check_destructible: true
+    destructible: gravel
+    brush: erase
+    radius: 2
+    transparent: transparent_to_construction
+    undo: 5000
+    undo_speed: 0.2
+    cooldown: 15000
+  costs:
+    mana: 20
+
+defodio|2:
+  upgrade_required_casts: 125
+  upgrade_required_path: year6
+  parameters:
+    radius: 3
+
+defodio|3:
+  parameters:
+    radius: 4

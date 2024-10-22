@@ -1,0 +1,139 @@
+herbifors:
+  icon: diamond_axe{CustomModelData:133}
+  icon_disabled: diamond_hoe{CustomModelData:133}
+  category: herbology
+  worth: 5 ac
+  upgrade_required_casts: 10
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: magic.vanish
+        location: origin
+        effectlib:
+          class: Cone
+          iterations: 10
+          particle: spell_mob
+          color: 03af47
+          lengthGrow: 0.1
+          radiusGrow: 0.003
+          updateLocations: false
+          updateDirections: false
+    tick:
+      - particle: redstone
+        color: 25f221
+        location: target
+      - class: EffectSingle
+        particle: fireworks_spark
+        particle_data: 1
+        location: target
+    hit:
+      - class: EffectSingle
+        firework: burst
+        color: 2dfc42
+        location: target
+        effectlib:
+          class: Warp
+          particle: block_crack
+          material: grass
+          duration: $total_duration
+          rings: 3
+  actions:
+    cast:
+      - class: CustomProjectile
+        actions:
+          - class: Message
+          - class: Random
+            actions:
+              - class: Hat
+                material: dandelion
+              - class: Hat
+                material: poppy
+              - class: Hat
+                material: blue_orchid
+              - class: Hat
+                material: allium
+              - class: Hat
+                material: azure_bluet
+              - class: Hat
+                material: red_tulip
+              - class: Hat
+                material: orange_tulip
+              - class: Hat
+                material: white_tulip
+              - class: Hat
+                material: pink_tulip
+              - class: Hat
+                material: oxeye_daisy
+              - class: Hat
+                material: cornflower
+              - class: Hat
+                material: lily_of_the_valley
+              - class: Hat
+                material: sunflower
+              - class: Hat
+                material: lilac
+              - class: Hat
+                material: rose_bush
+              - class: Hat
+                material: peony
+  parameters:
+    target: other
+    target_type: Player
+    range: 12
+    hitbox: true
+    undo: 4000
+    total_duration: 4000
+    cooldown: 12000
+    message: "&2A plant sprouts from your head!"
+    message_type: action_bar
+  costs:
+    mana: 30
+
+herbifors|2:
+  upgrade_required_casts: 20
+  parameters:
+    range: 16
+
+herbifors|3:
+  upgrade_required_casts: 30
+  upgrade_required_path: year2
+  parameters:
+    undo: 5000
+    total_duration: 5000
+
+herbifors|4:
+  upgrade_required_casts: 40
+  upgrade_required_path: year2
+  parameters:
+    range: 20
+
+herbifors|5:
+  upgrade_required_casts: 40
+  upgrade_required_path: year2
+  parameters:
+    undo: 6000
+    total_duration: 6000
+
+herbifors|6:
+  upgrade_required_casts: 50
+  upgrade_required_path: year3
+  parameters:
+    range: 24
+
+herbifors|7:
+  upgrade_required_casts: 60
+  upgrade_required_path: year3
+  parameters:
+    undo: 7000
+    total_duration: 7000
+
+herbifors|8:
+  upgrade_required_casts: 70
+  upgrade_required_path: year3
+  parameters:
+    range: 28
+
+herbifors|9:
+  parameters:
+    undo: 8000
+    total_duration: 8000

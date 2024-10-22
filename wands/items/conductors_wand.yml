@@ -1,0 +1,17 @@
+conductorswand:
+  icon: stick
+  mode: cast
+  indestructible: false
+  undroppable: false
+  unstashable: false
+  locked: true
+  cost_reduction: 10
+  uses: 5
+  active_spell: music
+  spells:
+    - music
+  display_name: "$name"
+  lore:
+    - "$description"
+    - ""
+    - "$uses"

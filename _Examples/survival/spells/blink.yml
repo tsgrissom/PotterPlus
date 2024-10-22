@@ -1,0 +1,171 @@
+blink:
+    icon: ender_pearl{CustomModelData:18001}
+    icon_disabled: ender_pearl{CustomModelData:18002}
+    legacy_icon: spell_icon:134
+    legacy_icon_disabled: spell_icon_disabled:134
+    icon_url: http://textures.minecraft.net/texture/a35cfb663dbde27598eebe76b0fdac2593f1d696b3e6b9e044edeb8d48c2e2
+    alias: tesseract
+    category: utility
+    tags: nojail
+    worth: 500
+    earns_sp: 2
+    upgrade_required_path: student
+    upgrade_required_casts: 40
+    actions:
+        cast:
+        - class: ChangeContext
+          target_caster: true
+          ignore_result: true
+          actions:
+          - class: FallProtectionAction
+        - class: Teleport
+    effects:
+        teleport:
+        - sound: entity_enderman_teleport
+          sound_pitch: 1.2
+          location: origin
+        - class: EffectSingle
+          sound: magic.teleport
+          location: target
+          particle_override: particle_nucleus
+          color_override: colorOrbital
+          source_location: eyes
+          effectlib:
+             class: AtomEffect
+             particle_nucleus: fireworks_spark
+             particle_orbital: redstone
+             iterations: 16
+             offset: 0,-1,0
+             particles_nucleus: 8
+             particles_orbital: 5
+             orient: true
+             rotation: 45
+             angular_velocity: 0.2
+        - class: EffectSingle
+          location: target
+          source_location: body
+          color_override: colorNucleus
+          effectlib:
+             class: AtomEffect
+             particle_nucleus: redstone
+             particle_orbital: fireworks_spark
+             iterations: 8
+             particles_nucleus: 8
+             particles_orbital: 5
+             orient: true
+             rotation: 45
+             angular_velocity: 0.2
+        precast:
+         - sound: entity_enderman_teleport
+           sound_pitch: 1.3
+           location: origin
+         - class: EffectSingle
+           sound: magic.teleport
+           location: origin
+           particle_override: particle_nucleus
+           color_override: colorOrbital
+           source_location: body
+           effectlib:
+               class: AtomEffect
+               updateLocations: false
+               particle_nucleus: fireworks_spark
+               particle_orbital: redstone
+               iterations: 16
+               particles_nucleus: 8
+               particles_orbital: 5
+               orient: true
+               rotation: 45
+         - class: EffectSingle
+           location: origin
+           source_location: body
+           color_override: colorNucleus
+           effectlib:
+               class: AtomEffect
+               updateLocations: false
+               particle_nucleus: redstone
+               particle_orbital: fireworks_spark
+               iterations: 8
+               particles_nucleus: 8
+               particles_orbital: 5
+               orient: true
+               rotation: 45
+         - class: EffectSingle
+           color_override: color
+           effectlib:
+               class: LineEffect
+               particle: redstone
+               updateLocations: false
+               particles: 200
+         - class: EffectSingle
+           effectlib:
+               class: LineEffect
+               particle: fireworks_spark
+               particles: 30
+               particle_count: 5
+               particle_offset_x: 0.5
+               particle_offset_y: 0.5
+               particle_offset_z: 0.5
+               updateLocations: false
+    parameters:
+        target: block
+        allow_max_range: true
+        range: 12
+        cooldown: 10000
+        prevent_passthrough: nopassthrough
+        bypass_confusion: true
+        vertical_range: 8
+        ledge_range: 4
+    costs:
+        mana: 50
+
+blink|2:
+    upgrade_required_path: student
+    upgrade_required_casts: 50
+    parameters:
+        range: 16
+    costs:
+        mana: 60
+
+blink|3:
+    upgrade_required_path: apprentice
+    upgrade_required_casts: 50
+    actions:
+        alternate_up:
+        - class: Ascend
+          vertical_range: 255
+    parameters:
+        range: 24
+        cooldown: 7000
+    costs:
+        mana: 75
+
+blink|4:
+    upgrade_required_path: apprentice
+    upgrade_required_casts: 75
+    actions:
+        alternate_down:
+        - class: Descend
+          vertical_range: 255
+    parameters:
+        range: 32
+        cooldown: 5000
+    costs:
+        mana: 150
+
+blink|5:
+  upgrade_required_path: master
+  upgrade_required_casts: 100
+  parameters:
+      allow_passthrough: true
+      passthrough_range: 8
+      range: 48
+  costs:
+      mana: 150
+
+blink|6:
+  parameters:
+      safe: false
+      cooldown: 2000
+  costs:
+      mana: 200
+

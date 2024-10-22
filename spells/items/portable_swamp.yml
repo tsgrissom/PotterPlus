@@ -1,0 +1,24 @@
+ability_portableswamp:
+  inherit: incarcifors
+  icon: water_lily
+  category: specialty
+  hidden: true
+  cast_on_no_target: true
+  pvp_restricted: true
+  tags: nojail
+  effects:
+    cast:
+      - class: EffectSingle
+        sound: block_grass_break
+      - class: EffectTrail
+        effect: step_sound
+        material: grass
+  parameters:
+    brush: schematic|portable_swamp
+    target: block
+    check_destructible: false
+    undo: 12000
+    undo_speed: 1
+    cooldown: 30000
+  costs:
+    mana: 0

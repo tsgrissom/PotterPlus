@@ -1,0 +1,59 @@
+whip:
+    icon: lead{CustomModelData:18001}
+    icon_disabled: lead{CustomModelData:18002}
+    legacy_icon: spell_icon:198
+    legacy_icon_disabled: spell_icon_disabled:198
+    icon_url: http://textures.minecraft.net/texture/543a93796b389fc710671b62106068619b7673e7bf48a6c77bc4db921d54
+    category: combat
+    worth: 100
+    earns_sp: 6
+    actions:
+        cast:
+        - class: CustomProjectile
+          actions:
+          - class: Damage
+          - class: Velocity
+    effects:
+        cast:
+        -  sound: entity_guardian_attack
+           sound_pitch: 1.5
+           sound_volume: 0.75
+        -  sound: entity_witch_throw
+           sound_pitch: 0.75
+        -  class: EffectSingle
+           sound: magic.zap
+           location: origin
+        tick:
+        - location: target
+          particle: cloud
+          particle_count: 4
+          particle_offset_x: 0.05
+          particle_offset_y: 0.05
+          particle_offset_z: 0.05
+        hit:
+        -  sound: block_ender_chest_open
+           sound_pitch: 1.5
+           location: target
+        -  class: EffectSingle
+           sound: magic.zap_crack
+           sound_volume: .3
+           location: target
+           particle: explosion_large
+    parameters:
+        target: other
+        hitbox: true
+        allow_max_range: true
+        reorient: false
+        range: 48
+        target_type: Damageable
+        player_damage: 3
+        entity_damage: 6
+        target_breakables: 1
+        cooldown: 5000
+        target_self_timeout: 2000
+        velocity: 10
+        track_speed: 0.75
+        track_range: 5
+    costs:
+        mana: 25
+
