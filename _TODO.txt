@@ -4,3 +4,10 @@
 * Expand Shop article
 * Edit index.md to include what is currently in project README
 * Reference GitHub Pages in README
+* Rewrite GettingStarted
+* FAQ
+  - Support for PaperMC?
+  - Support for Sponge? Fabric? etc.
+  - Link this https://github.com/elBukkit/MagicPlugin/wiki/FAQ
+* Could use some pictures
+* Review https://github.com/elBukkit/MagicPlugin/wiki/Potter and take hints
